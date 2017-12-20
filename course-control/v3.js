@@ -11,10 +11,15 @@ var courseData = {
   'bgLearnMoreText':'Learn More about Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
+  'aboutTitle':'About the Course',  
   'aboutText':'Learn programming with game development. Build your own game without limits.',
-  'aboutCategory':'Game Development',
+  'aboutCategoryTitle':'Category',
+  'aboutCategory':'Game Development',  
+  'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'7 - 12',
+  'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
+  'aboutRatioTitle':'Ratio Guarantee',
   'aboutRatio':'6 Students per Instructor',
 
   'promotion1':{
