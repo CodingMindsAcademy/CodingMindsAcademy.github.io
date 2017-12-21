@@ -1,6 +1,6 @@
 var courseData = {
   'courseTitle' : 'Minecraft创新编程与实践 | Coding Minds 编程思维',
-  'courseDescription' : '学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
+  'courseDescription' : '使用图形化的编程语言来控制制作自己的Minecraft游戏,把自己对Minecraft的游戏设想变为现实',
   'topTitleLine1' : 'Minecraft我的世界',
   'topTitleLine2' : '创新编程与实践',
   'topGradeLevel' : '2-6 年级',
