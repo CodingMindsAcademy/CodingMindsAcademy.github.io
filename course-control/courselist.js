@@ -14,7 +14,7 @@ var courseList = {
 			'name':'3D Game Programming with Unity3D',
 			'imageUrl':'img/my/unity3d/unity3d-1.jpg',
 			'gradeLevel':'Grade 7-12',
-			'text':'Learn the professional 3D game develop. Grow from a game player to a developer.',
+			'text':'Learn the professional 3D game programming. Grow from a game player to a developer.',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'page-class-unity3d.html',
 			'registerTitle':'REGISTER',
