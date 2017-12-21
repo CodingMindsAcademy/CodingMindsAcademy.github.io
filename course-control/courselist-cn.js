@@ -1,9 +1,19 @@
 var courseList = {
 	'cn': [
 		{
-			'name':'和SPRK机器人一起学习编程-带领你的机器人完成挑战',
+			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
+			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
+			'gradeLevel':'2-6年级',
+			'text':'在Minecraft我的世界游戏中学习编程将是孩子们理想的学习体验',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'minecodec.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'minecodec.html'
+		},
+		{
+			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
 			'imageUrl':'img/my/sprk-learn-5.jpg',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'2-6年级',
 			'text':'学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sprk-cn.html',
@@ -11,7 +21,7 @@ var courseList = {
 			'registerUrl':'sprk-cn.html'
 		},
 		{
-			'name':'Unity3D游戏开发体验-从游戏玩家到游戏开发员',
+			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
 			'imageUrl':'img/my/unity3d/unity3d-1.jpg',
 			'gradeLevel':'7-12年级',
 			'text':'学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
@@ -21,7 +31,7 @@ var courseList = {
 			'registerUrl':'unity3dc.html'
 		},
 		{
-			'name':'MIT手机APP发明家-动手编写自己的APP做小小创业者',
+			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
 			'imageUrl':'img/my/app-dev-2.jpg',
 			'gradeLevel':'7-12年级',
 			'text':'厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
@@ -31,9 +41,9 @@ var courseList = {
 			'registerUrl':'mobile-cn.html'
 		},
 		{
-			'name':'Python编程实践-动手编写真正的计算机应用程序',
+			'name':'Python编程实践:动手编写真正的计算机应用程序',
 			'imageUrl':'img/my/python-learn-3.jpg',
-			'gradeLevel':'9-12年级',
+			'gradeLevel':'7-12年级',
 			'text':'学习当今最流行的编程语言，开发任何你想制作的应用程序',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'python-cn.html',
@@ -41,7 +51,7 @@ var courseList = {
 			'registerUrl':'python-cn.html'
 		},
 		{
-			'name':'AP CS基础训练营',
+			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
 			'imageUrl':'img/my/coding-space.png',
 			'gradeLevel':'8-12年级',
 			'text':'帮助零编程基础的高中同学准备AP CS课程和考试所需要的扎实的编程基本功',
@@ -51,7 +61,7 @@ var courseList = {
 			'registerUrl':'apcs-cn.html'
 		},
 		{
-			'name':'AP CSP手机APP编程训练营',
+			'name':'AP CSP手机APP编程训练营:挑战最新的AP CS课程',
 			'imageUrl':'img/my/mobile-learn-0.png',
 			'gradeLevel':'8-12年级',
 			'text':'College Board的最新AP课程Computer Science Principles',

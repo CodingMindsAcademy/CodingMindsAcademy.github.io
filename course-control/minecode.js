@@ -7,7 +7,7 @@ var courseData = {
   'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
 
   'bgTitle':'Game Programming with Unity3D',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
+  'bgImageUrl':'img/my/minecode/minecodebg.jpg',
   'bgText':'Become a game developer, and publish your games.',
   'bgLearnMoreText':'Learn More about Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',

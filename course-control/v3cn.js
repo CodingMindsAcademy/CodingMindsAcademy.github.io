@@ -7,6 +7,7 @@ var courseData = {
   'topIntroText' : 'Unity3D是目前世界最流行的游戏与VR/AR开发引擎。即使从零开始学习计算机编程，也可以通过Unity3D的强大功能自主制作出专业的3D游戏应用程序。无需等待，在中学你就可以挥洒创意，创作出你自己想玩的游戏。',
 
   'bgTitle':'Unity3D游戏开发体验',
+  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
   'bgText':'在制作游戏中学习编程将是你从未尝试过的学习体验',
   'bgLearnMoreText':'了解更多Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
