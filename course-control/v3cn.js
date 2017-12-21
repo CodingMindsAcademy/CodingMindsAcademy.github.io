@@ -141,18 +141,18 @@ var courseData = {
   ],
 
   'registrationEnabled':true,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
+  'registrationTitle':'注册报名',
+  'priceTitle':'单人报名价格',
   'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'allCreditCards':'支持各种信用卡支付',
   'priceItems':[
-    'Try the first session for FREE',
-    'Learn from the professionals',
-    '1:6 teacher to students ratio',
-    'Always learn by doing and having fun'
+    '第一节课免费试听',
+    '和专业老师学习编程',
+    '小班上课个性化辅导',
+    '动手于乐趣中学习'
   ],
   'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
-  'registerNow':'REGISTER NOW',
+  'registerNow':'我要报名',
 
   'faq':{
     'enalbed':false
