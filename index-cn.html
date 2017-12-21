@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html ng-app="v3App" lang="cn">
     <head>
         <meta charset="utf-8">
         <link href="./img/favicon.png" rel="icon">
@@ -16,7 +16,7 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
     </head>
-    <body class=" ">
+    <body ng-controller="CourseListController">
         <a id="start"></a>
         <div class="nav-container ">
             <div class="bar bar--sm visible-xs">
@@ -115,204 +115,40 @@
                                     <div class="row">
                                         <div class="masonry">
                                             <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <a href="sprk-cn.html">
-                                                                <img alt="Image" src="img/my/sprk-learn-5.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>和SPRK机器人一起学习编程-带领你的机器人完成挑战</h4>
-                                                            <span class="type--fade">年级 3-6</span>
-                                                            <p>
-                                                                学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">查看详情</span>
-                                                                <a href="sprk-cn.html">
-                                                                    <i class="material-icons">flip_to_front</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">我要注册</span>
-                                                                <a href="sprk-cn.html">
-                                                                    <i class="material-icons">favorite_border</i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4 masonry__item">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <a href="mobile-cn.html">
-                                                                <img alt="Image" src="img/my/app-dev-2.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>MIT手机APP发明家-动手编写自己的APP做小小创业者</h4>
-                                                            <span class="type--fade">年级 7-10</span>
-                                                            <p>
-                                                                厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">查看详情</span>
-                                                                <a href="mobile-cn.html">
-                                                                    <i class="material-icons">flip_to_front</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">我要注册</span>
-                                                                <a href="mobile-cn.html">
-                                                                    <i class="material-icons">favorite_border</i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4 masonry__item">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <a href="python-cn.html">
-                                                                <img alt="Image" src="img/my/python-learn-3.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>Python编程实践-动手编写真正的计算机应用程序</h4>
-                                                            <span class="type--fade">年级 9-12</span>
-                                                            <p>
-                                                                学习当今最流行的编程语言，开发任何你想制作的应用程序
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">查看详情</span>
-                                                                <a href="python-cn.html">
-                                                                    <i class="material-icons">flip_to_front</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">我要注册</span>
-                                                                <a href="python-cn.html">
-                                                                    <i class="material-icons">favorite_border</i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end of masonry__container-->
-                                        </div>
-                                        <!--end of masonry-->
-                                    </div>
-                                    <!--end of row-->
-
-                                    <div class="row">
-                                        <div class="masonry">
-                                            <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
                                                             <a href="apcs-cn.html">
-                                                                <img alt="Image" src="img/my/coding-space.png">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
                                                             </a>
                                                         </div>
                                                         <div class="card__body">
-                                                            <h4>AP CS基础训练营</h4>
-                                                            <span class="type--fade">年级 9-12</span>
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
                                                             <p>
-                                                                帮助零编程基础的高中同学准备AP CS课程和考试所需要的扎实的编程基本功
+                                                                {{course.text}}
                                                             </p>
                                                         </div>
                                                         <div class="card__bottom text-center">
                                                             <div class="card__action">
-                                                                <span class="h6 type--uppercase">查看详情</span>
-                                                                <a href="apcs-cn.html">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
                                                                     <i class="material-icons">flip_to_front</i>
                                                                 </a>
                                                             </div>
                                                             <div class="card__action">
-                                                                <span class="h6 type--uppercase">我要注册</span>
-                                                                <a href="apcs-cn.html">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
                                                                     <i class="material-icons">favorite_border</i>
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-sm-4 masonry__item">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <a href="apcsp-cn.html">
-                                                                <img alt="Image" src="img/my/mobile-learn-0.png">
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>AP CSP手机APP编程训练营</h4>
-                                                            <span class="type--fade">年级 9-12</span>
-                                                            <p>
-                                                                College Board的最新AP课程Computer Science Principles
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">查看详情</span>
-                                                                <a href="apcsp-cn.html">
-                                                                    <i class="material-icons">flip_to_front</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">我要注册</span>
-                                                                <a href="apcsp-cn.html">
-                                                                    <i class="material-icons">favorite_border</i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="col-sm-4 masonry__item">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <a href="python-cn.html">
-                                                                <img alt="Image" src="img/my/python-learn-3.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>Python编程实践-动手编写真正的计算机应用程序</h4>
-                                                            <span class="type--fade">年级 9-12</span>
-                                                            <p>
-                                                                学习当今最流行的编程语言，开发任何你想制作的应用程序
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">查看详情</span>
-                                                                <a href="python-cn.html">
-                                                                    <i class="material-icons">flip_to_front</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">我要注册</span>
-                                                                <a href="python-cn.html">
-                                                                    <i class="material-icons">favorite_border</i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div> -->
+                                                </div> 
                                             </div>
-                                            <!--end of masonry__container-->
                                         </div>
-                                        <!--end of masonry-->
                                     </div>
-                                    <!--end of row-->
                                 </div>
-                                <!--end of container-->
                             </section>
 
             <footer class="footer-3 text-center-xs space--xs ">
@@ -382,6 +218,8 @@
             <i class="stack-interface stack-up-open-big"></i>
         </a>
         <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="course-control/courselist-cn.js"></script>
         <script src="js/flickity.min.js"></script>
         <script src="js/easypiechart.min.js"></script>
         <script src="js/parallax.js"></script>
