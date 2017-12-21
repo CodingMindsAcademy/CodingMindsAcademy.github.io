@@ -1,23 +1,23 @@
 var courseData = {
-  'courseTitle' : 'Unity3D游戏开发体验 | Coding Minds 编程思维',
+  'courseTitle' : 'Minecraft创新编程与实践 | Coding Minds 编程思维',
   'courseDescription' : '学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
-  'topTitleLine1' : 'Unity3D',
-  'topTitleLine2' : '游戏开发体验',
-  'topGradeLevel' : '7-12 年级',
-  'topIntroText' : 'Unity3D是目前世界最流行的游戏与VR/AR开发引擎。即使从零开始学习计算机编程，也可以通过Unity3D的强大功能自主制作出专业的3D游戏应用程序。无需等待，在中学你就可以挥洒创意，创作出你自己想玩的游戏。',
+  'topTitleLine1' : 'Minecraft我的世界',
+  'topTitleLine2' : '创新编程与实践',
+  'topGradeLevel' : '2-6 年级',
+  'topIntroText' : '微软公司为了普及和引导青少年学习编程的热情，推出MakeCode的趣味编程平台，使中小学生使用图形化的编程语言来控制制作自己的Minecraft游戏。使用MakeCode，你可以把自己对Minecraft的游戏设想变为现实，成为一名Minecraft游戏的小开发者。',
 
-  'bgTitle':'Unity3D游戏开发体验',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
-  'bgText':'在制作游戏中学习编程将是你从未尝试过的学习体验',
-  'bgLearnMoreText':'了解更多Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgTitle':'Minecraft创新编程与实践',
+  'bgImageUrl':'img/my/minecode/minecodebg.jpg',
+  'bgText':'在Minecraft我的世界游戏中学习编程将是孩子们理想的学习体验',
+  'bgLearnMoreText':'了解更多Minecraft编程平台MakeCode',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/3rKuSlgqePo?autoplay=1',
 
   'aboutTitle':'关于课程',
-  'aboutText':'学习专业游戏编程，从游戏玩家到游戏开发员之路',
+  'aboutText':'Minecraft我的世界游戏风靡全球，现在我们用孩子们最喜欢的游戏教编程',
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'7-12',
+  'aboutGradeLevel':'2-6（按照年级分班）',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
@@ -25,37 +25,37 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'现在就做专业的3D游戏',
-    'text':'3D游戏开发一直是计算机编程中技术难度最高的领域之一，而然Unity3D的强大平台让这一领域变得不再高不可攀。即使没有任何编程基础，也可以迅速学习制作专业的3D游戏。',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'title':'不做Minecraft的沉迷玩家，做游戏开发者',
+    'text':'风靡全球的Minecraft游戏丰富有趣，但是也让一批青少年沉迷于游戏中。解决沉迷的办法不是简单的限制，而是从娱乐中引导学习。MakeCode平台让寓教于乐成为现实。',
+    'imageUrl':'img/my/minecode/minecode2.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'从游戏玩家到小程序员',
-    'text':'沉迷游戏是学生和家长都需要面对的问题，但是对游戏的兴趣也恰恰反应了学生对科技创新的灵敏度。通过编程制作游戏是调动学生学习计算机编程兴趣的最好方法。',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'title':'从趣味中学习编程大道理',
+    'text':'MakeCode平台把编程概念完美的融合到游戏的制作中，当你完成自己的游戏的同时，你已经不知不觉的掌握了变量、循环、函数等这些编程的基本概念，为下一步学习真正的编程打下坚实的基础。',
+    'imageUrl':'img/my/minecode/minecode1.png'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'能做到不仅仅是游戏',
-    'text':'你可能听说过AR（Augmented Reality增强现实）和VR（Virtual Reality虚拟现实），但是你可能还不知道Unity3D的游戏引擎可以让你开发出丰富的AR和VR的应用。',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'title':'挑战自己的创造力',
+    'text':'Minecraft游戏的成功就在于它的开放平台，让玩家创建各种各样的情景和世界。现在通过编程，你可以把自己的创造力淋漓尽致的发挥出来，大胆实现你自己的想法。',
+    'imageUrl':'img/my/minecode/minecode3.jpg'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'参加科学竞赛',
-    'text':'Unity3D做出的项目可以成为很好的科学竞赛的作品。充分发挥自己的创造力，动手解决生活中的问题，做实验，发布结果，为大学申请打下基础。',
-    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
+    'title':'发布和分享你自己的游戏',
+    'text':'把自己的程序发布在互联网上，和来自世界各地的小程序员交流你的作品，让大家为你的创意点赞！说不定你就是下一个“网红”。',
+    'imageUrl':'img/my/minecode/minecode4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'做一名年轻的游戏创业者',
-    'text':'你可能听说过游戏行业的暴利，但是这恰恰反应了游戏行业的活力和魅力。游戏的开发永远属于年轻一代，早动手，说不定下一个游戏创业着就是你。',
-    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
+    'title':'学习的不仅仅是编程',
+    'text':'计算器编程能力是现今社会文化的组成要素，因为学习编程的同时培养的是逻辑思维、计算能力、创新和想象力。孩子们在编程解决问题的同时，同时得到的是信心！',
+    'imageUrl':'img/my/minecode/minecode5.jpg'
   },
 
   'curriculum' : {
@@ -66,27 +66,27 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'掌握Unity3D游戏制作基础'
+      'text':'掌握MakeCode编程平台'
     },
     {
       'icon':'icon-Coding',
-      'text':'C#编程初步以及在游戏中的应用技巧'
+      'text':'掌握基本的图形编程语言和算法'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'培养游戏算法和模型制作的基本功'
+      'text':'带领学生了解计算机，激发对编程的兴趣热情 '
     },
     {
       'icon':'icon-Server',
-      'text':'掌握互联网的基本概念和如何制作联网游戏'
+      'text':'实践中学习动手解决问题的能力'
     },
     {
       'icon':'icon-Idea',
-      'text':'学习VR和AR的开发过程'
+      'text':'培养科学创新和团队协作的能力'
     },
     {
       'icon':'icon-Key',
-      'text':'为中学的科学竞赛以及创业做准备'
+      'text':'锻炼学生适应新环境的能力'
     },
   ],
 
@@ -141,9 +141,9 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'注册报名',
-  'priceTitle':'单人报名价格',
+  'priceTitle':'报名价格',
   'price':'$595',
   'allCreditCards':'支持各种信用卡支付',
   'priceItems':[
@@ -163,8 +163,8 @@ var courseData = {
   'promotionButtonText':'联系我们',
   'promotionUrl':'contact-us-cn.html',
 
-  'engUrl':'course-layout-version-3.html',
-  'cnUrl':'course-layout-version-3-cn.html'
+  'engUrl':'minecode.html',
+  'cnUrl':'minecodec.html'
 
 }
 
