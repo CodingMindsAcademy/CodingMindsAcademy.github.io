@@ -137,7 +137,7 @@ var courseData = {
 
   'registrationEnabled':false,
   'registrationTitle':'注册报名',
-  'priceTitle':'单人报名价格',
+  'priceTitle':'报名价格',
   'price':'$595',
   'allCreditCards':'支持各种信用卡支付',
   'priceItems':[
