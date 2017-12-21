@@ -16,9 +16,9 @@ var courseList = {
 			'gradeLevel':'Grade 7-12',
 			'text':'Learn the professional 3D game programming. Grow from a game player to a developer.',
 			'detailsTitle':'EXPLORE',
-			'detailsUrl':'page-class-unity3d.html',
+			'detailsUrl':'unity3d.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'page-class-unity3d.html'
+			'registerUrl':'unity3d.html'
 		},
 		{
 			'name':'Mobile App Programming with MIT App Inventor',

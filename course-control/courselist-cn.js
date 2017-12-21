@@ -16,9 +16,9 @@ var courseList = {
 			'gradeLevel':'7-12年级',
 			'text':'学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
 			'detailsTitle':'查看详情',
-			'detailsUrl':'sprk-cn.html',
+			'detailsUrl':'unity3d-cn.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'sprk-cn.html'
+			'registerUrl':'unity3d-cn.html'
 		},
 		{
 			'name':'MIT手机APP发明家-动手编写自己的APP做小小创业者',
