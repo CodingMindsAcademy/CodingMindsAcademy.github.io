@@ -47,7 +47,7 @@ var courseData = {
     'enabled':true,
     'title':'Game Development with Java',
     'text':'Playing games is fun, but building games by yourself is even more exciting. You will learn how to make games using Java. Bring your game ideas to our course!',
-    'imageUrl':'img/my/python-learn-4.jpg'
+    'imageUrl':'img/my/game-design.png'
   },
 
   'promotion5':{
