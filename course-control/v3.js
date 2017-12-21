@@ -1,6 +1,6 @@
 var courseData = {
   'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-
+  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
   'topTitleLine1' : 'Game Programming',
   'topTitleLine2' : 'with Unity3D',
   'topGradeLevel' : 'Grade 7 - 12',
@@ -11,10 +11,10 @@ var courseData = {
   'bgLearnMoreText':'Learn More about Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
-  'aboutTitle':'About the Course',  
+  'aboutTitle':'About the Course',
   'aboutText':'Learn programming with game development. Build your own game without limits.',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Game Development',  
+  'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
@@ -91,7 +91,7 @@ var courseData = {
 
   'highlightsTitle':'Course Highlights',
   'highlights':[
-    {    
+    {
       'icon':'icon-Fashion',
       'title':'Always Having Fun',
       'text':'Fun programming is our top priority when designing all the content'
@@ -101,17 +101,17 @@ var courseData = {
       'title':'Learn with Professionals',
       'text':'Gain extra experiences about the real industry and research'
     },
-    {    
+    {
       'icon':'icon-Hand',
       'title':'Live Interactions',
       'text':'Get your question answered in class and compete with your classmates'
     },
-    {    
+    {
       'icon':'icon-Air-Balloon',
       'title':'Well-Designed Assignments and Projects',
       'text':'Learn by doing is the key for CS study, all the assignments and projects are design for the goals'
     },
-    {    
+    {
       'icon':'icon-Idea',
       'title':'Focus on Imagination and Creativity',
       'text':'Learning programming is not the ultimate goal. We focus on pushing the kids\' imagination and creativity'
@@ -120,7 +120,7 @@ var courseData = {
       'icon':'icon-Key',
       'title':'Apply Colleges with More Experiences',
       'text':'Programming is just the first step. Build projects, attend science fairs will help you get into the top unversities'
-    },    
+    },
   ],
 
   'sessionsTitle':'Schedule',
