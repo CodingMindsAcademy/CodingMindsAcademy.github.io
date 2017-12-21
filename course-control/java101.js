@@ -26,7 +26,7 @@ var courseData = {
     'enabled':true,
     'title':'Enter the World of Coding',
     'text':'You are going to learn real programming - the same type of programming Google engineers are doing.',
-    'imageUrl':'img/my/python-learn-1.png'
+    'imageUrl':'img/my/coding-3.jpeg'
   },
 
   'promotion2':{
@@ -40,7 +40,7 @@ var courseData = {
     'enabled':true,
     'title':'Machine Learning with Java',
     'text':'Have you ever wondered how the engineers built the self-driving cars and the Go master to beat the top human players? The answer is machine learning. With Java, you can build your own machine learning algorithm to make your computer smart!',
-    'imageUrl':'img/my/python-learn-3.jpg'
+    'imageUrl':'img/my/math.jpg'
   },
 
   'promotion4':{
