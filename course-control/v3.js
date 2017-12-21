@@ -156,7 +156,14 @@ var courseData = {
 
   'faq':{
     'enalbed':false
-  }
+  },
+
+  'promotionText':'Interested in learning programs with fun?',
+  'promotionButtonText':'Contact Us',
+  'promotionUrl':'page-contact-us.html',
+
+  'engUrl':'course-layout-version-3.html',
+  'cnUrl':'course-layout-version-3-cn.html'
 
 }
 
