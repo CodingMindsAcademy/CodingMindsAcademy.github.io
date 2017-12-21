@@ -127,20 +127,15 @@ var courseData = {
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
   'sessionsLocationTitle':'Location',
-  'sessions':[
-    {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mon 3:20-4:50PM',
-      'location':'Irvine, CA'
-    },
+  'sessions':[    
     {
       'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wed 3:20-4:50PM',
+      'time':'Wed 5:00-6:30PM',
       'location':'Irvine, CA'
     },
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
   'price':'$595',

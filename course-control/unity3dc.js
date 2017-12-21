@@ -127,20 +127,15 @@ var courseData = {
   'sessionsTimeTitle':'时间',
   'sessionsDateTitle':'日期',
   'sessionsLocationTitle':'地点',
-  'sessions':[
-    {
-      'date':'1/8 - 3/12 (10周)',
-      'time':'每周一 3:20-4:50PM',
-      'location':'尔湾'
-    },
+  'sessions':[    
     {
       'date':'1/10 - 3/14 (10周)',
-      'time':'每周三 3:20-4:50PM',
+      'time':'每周三 5:00-6:30PM',
       'location':'尔湾'
     },
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
   'price':'$595',
