@@ -8,10 +8,10 @@
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
     <!-- UPDATE TEMPLATE 1 -->
-    <title>Unity3D游戏开发体验 | Coding Minds 编程思维</title>
+    <title>{{cd.courseTitle}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- UPDATE TEMPLATE 2 -->
-    <meta name="description" content="学习世界最流行的游戏开发引擎Unity3D，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。">
+    <meta name="description" content={{cd.courseDescription}}>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
@@ -80,17 +80,17 @@
                                 </a> </li>
                                 <li> <a href="whycoding-cn.html">
                                     为什么学习编程
-                                </a> </li>                                    
+                                </a> </li>
                                 <li> <a href="about-us-cn.html">
                                     关于我们
                                 </a> </li>
                             </ul>
                         </div>
                         <div class="bar__module">
-                            <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> 
+                            <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html">
                                 <span class="btn__text">
                                     联系我们
-                                </span> 
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -149,9 +149,9 @@
 
         <!-- 3. Course Facts Section -->
         <section class="text-center height-60">
-            <div class="container pos-vertical-center">                        
+            <div class="container pos-vertical-center">
                 <h4><br></h4>
-                <h2 class="text-center">{{cd.aboutTitle}}</h2> 
+                <h2 class="text-center">{{cd.aboutTitle}}</h2>
                 <p class="col-sm-6 col-sm-offset-3 lead">
                     {{cd.aboutText}}
                 </p>
@@ -378,7 +378,7 @@
                     </div>
                 </div>
             </div>
-        </section>            
+        </section>
 
         <!-- 6. Course Goals -->
         <section class="bg--secondary">
@@ -412,7 +412,7 @@
                                 {{hl.text}}
                             </p>
                         </div>
-                    </div>                            
+                    </div>
                 </div>
             </div>
         </section>
@@ -428,7 +428,7 @@
                                 <tr>
                                     <th class="text-center col-sm-4 col-md-4">{{cd.sessionsDateTitle}}</th>
                                     <th class="text-center col-sm-4 col-md-4">{{cd.sessionsTimeTitle}}</th>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsLocationTitle}}</th> 
+                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsLocationTitle}}</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -436,13 +436,13 @@
                                     <td class="text-center">{{session.date}}</td>
                                     <td class="text-center">{{session.time}}</td>
                                     <td class="text-center">{{session.location}}</td>
-                                </tr>                                        
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
 
         <!-- 9. Location and Map -->
         <section class="switchable">
@@ -486,7 +486,7 @@
                     </div>
                 </div>
             </div>
-        </section>                
+        </section>
 
         <!-- 10. FAQs -->
         <section ng-hide="{{!cd.faq.enabled}}" class="bg--secondary">

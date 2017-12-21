@@ -1,6 +1,6 @@
 var courseData = {
   'courseTitle' : 'Unity3D游戏开发体验 | Coding Minds 编程思维',
-
+  'courseDescription' : '学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
   'topTitleLine1' : 'Unity3D',
   'topTitleLine2' : '游戏开发体验',
   'topGradeLevel' : '7-12 年级',
@@ -11,10 +11,10 @@ var courseData = {
   'bgLearnMoreText':'了解更多Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
-  'aboutTitle':'关于课程',  
+  'aboutTitle':'关于课程',
   'aboutText':'学习专业游戏编程，从游戏玩家到游戏开发员之路',
   'aboutCategoryTitle':'类别',
-  'aboutCategory':'游戏编程',  
+  'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
   'aboutGradeLevel':'7-12',
   'aboutSkillLevelTitle':'难度级别',
@@ -91,7 +91,7 @@ var courseData = {
 
   'highlightsTitle':'教学特点',
   'highlights':[
-    {    
+    {
       'icon':'icon-Fashion',
       'title':'兴趣乐趣第一位',
       'text':'有趣是我们课程内容的第一要求，了解学生的兴趣才能设计出学生喜欢的课程。'
@@ -101,17 +101,17 @@ var courseData = {
       'title':'和专业老师学习',
       'text':'学习知识的同时也学习现实中的科研与应用，丰富自己的经历和机会。'
     },
-    {    
+    {
       'icon':'icon-Hand',
       'title':'互动比赛答疑',
       'text':'为什么不用网络课堂？学生喜欢现场的互动，交流和比赛。'
     },
-    {    
+    {
       'icon':'icon-Air-Balloon',
       'title':'配套阶梯训练',
       'text':'动手才是硬道理，边学边练效果好。知识掌握得更加踏实！'
     },
-    {    
+    {
       'icon':'icon-Idea',
       'title':'培养创造创新力',
       'text':'学习编程并不是最终目标，培养发现问题、动手解决问题的能力更为重要。'
@@ -120,7 +120,7 @@ var courseData = {
       'icon':'icon-Key',
       'title':'科学竞赛大学申请',
       'text':'计算机编程只是开始，做项目，参加科学竞赛才是大学申请的真正利器！'
-    },    
+    },
   ],
 
   'sessionsTitle':'选择适合您的课程时间',
