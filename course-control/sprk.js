@@ -129,15 +129,20 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mon 3:20-4:50PM',
+      'date':'6/19 - 6/23',
+      'time':'9AM - 12PM',
       'location':'Irvine, CA'
     },
     {
-      'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wed 3:20-4:50PM',
+      'date':'7/10 - 7/14',
+      'time':'9AM - 12PM',
       'location':'Irvine, CA'
     },
+    {
+      'date':'8/14 - 8/18',
+      'time':'9AM - 12PM',
+      'location':'Irvine, CA'
+    }
   ],
 
   'registrationEnabled':true,
