@@ -1,12 +1,13 @@
 var courseData = {
-  'courseTitle' : 'Mobile App Programming with MIT App Inventor',
-
+  'courseTitle' : 'Mobile App Programming with MIT App Inventor | Coding Minds Academy',
+  'courseDescription' : 'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
   'topTitleLine1' : 'Mobile App Programming ',
   'topTitleLine2' : 'with MIT App Inventor',
   'topGradeLevel' : 'Grade 7 - 10',
   'topIntroText' : 'Tired of playing apps or games on your parents\' phones? Why don\'t you build your own? You will learn how to make real mobile apps with the most popular mobile technologies and solve real world problems.',
 
   'bgTitle':'Build and Publish Apps to Google Play',
+  'bgImageUrl':'img/my/mobile-learn-1.jpg',
   'bgText':'Learn how to program and develop mobile apps. Become the next young entrepreneurs.',
   'bgLearnMoreText':'See MIT App Inventor in Action',
   'bgLearnMoreLink':'https://www.youtube.com/embed/sNjGAiOrX-o?autoplay=1',
@@ -61,7 +62,7 @@ var courseData = {
     'enabled':false
   },
 
-  'goalsTtile' : 'Top Skills Students Will Learn',
+  'goalsTitle' : 'Top Skills Students Will Learn',
   'goals' : [
     {
       'icon':'icon-Smartphone',

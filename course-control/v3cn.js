@@ -62,7 +62,7 @@ var courseData = {
     'enabled':false
   },
 
-  'goalsTtile' : '课程学习收获和目标',
+  'goalsTitle' : '课程学习收获和目标',
   'goals' : [
     {
       'icon':'icon-Gears',

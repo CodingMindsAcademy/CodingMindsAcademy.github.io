@@ -62,7 +62,7 @@ var courseData = {
     'enabled':false
   },
 
-  'goalsTtile' : 'Top Skills Students Will Learn',
+  'goalsTitle' : 'Top Skills Students Will Learn',
   'goals' : [
     {
       'icon':'icon-Gears',
