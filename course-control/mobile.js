@@ -129,12 +129,19 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wed 5:00-6:30PM',
+      'date':'6/26 - 6/30',
+      'time':'9AM - 12PM',
       'location':'Irvine, CA'
     },
     {
-
+      'date':'7/17 - 7/21',
+      'time':'9AM - 12PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/7 - 8/11',
+      'time':'9AM - 12PM',
+      'location':'Irvine, CA'
     },
   ],
 
@@ -160,8 +167,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'course-layout-version-3.html',
-  'cnUrl':'course-layout-version-3-cn.html'
+  'engUrl':'mobile.html',
+  'cnUrl':'mobilec.html'
 
 }
 
