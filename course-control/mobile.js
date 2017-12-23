@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
   'topTitleLine1' : 'Mobile App Programming ',
   'topTitleLine2' : 'with MIT App Inventor',
-  'topGradeLevel' : 'Grade 7 - 10',
+  'topGradeLevel' : 'Grade 7 - 12',
   'topIntroText' : 'Tired of playing apps or games on your parents\' phones? Why don\'t you build your own? You will learn how to make real mobile apps with the most popular mobile technologies and solve real world problems.',
 
   'bgTitle':'Build and Publish Apps to Google Play',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Programming | Mobile',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 10',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',

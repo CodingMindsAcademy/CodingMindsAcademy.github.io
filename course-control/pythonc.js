@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学习当今最流行的编程语言，开发任何你想制作的应用程序',
   'topTitleLine1' : 'Python编程实践:',
   'topTitleLine2' : '动手编写真正的计算机应用程序',
-  'topGradeLevel' : '9-12 年级',
+  'topGradeLevel' : '7-12 年级',
   'topIntroText' : 'Python编程夏令营不仅仅是一个普通的教授计算机编程语言基础的课程，而是为初高中学生量身打造的Python编程实践。学生会动手编写我们日常实用的真正的应用程序，并且掌握流行的机器学习、人工智能、游戏开发，和网络开发等技术。',
 
   'bgTitle':'Python编程实践',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'9-12',
+  'aboutGradeLevel':'7-12',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',

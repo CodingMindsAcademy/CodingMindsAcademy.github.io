@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn the most popular programming language in the industry',
   'topTitleLine1' : 'Python Programming:',
   'topTitleLine2' : 'Build Real World Applications',
-  'topGradeLevel' : 'Grade 9 - 12',
+  'topGradeLevel' : 'Grade 7 - 12',
   'topIntroText' : 'This course does not only teach how to write Python code. It is a carefully designed program that teaches how to develop real life applications with Python.',
 
   'bgTitle':'Python Programming',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Programming | General App',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'9 - 12',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',

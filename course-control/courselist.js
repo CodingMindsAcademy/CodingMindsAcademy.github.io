@@ -23,7 +23,7 @@ var courseList = {
 		{
 			'name':'Mobile App Programming with MIT App Inventor',
 			'imageUrl':'img/my/app-dev-2.jpg',
-			'gradeLevel':'Grad 7-12',
+			'gradeLevel':'Grade 7-12',
 			'text':'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'mobile.html',

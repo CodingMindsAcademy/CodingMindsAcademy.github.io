@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn how to program and control a robot, and enter the world of coding',
   'topTitleLine1' : 'Robotics and Programming with SPRK',
   'topTitleLine2' : '',
-  'topGradeLevel' : 'Grade 3 - 6',
+  'topGradeLevel' : 'Grade 2 - 6',
   'topIntroText' : 'SPRK is far more than just a robot; it’s your vehicle to discovery. Connect to the Lightning Lab app to learn programming, complete activities, and get inspired through connected play and coding. This robot opens the world of coding.',
 
   'bgTitle':'Learn Programming with a SPRK Robot',
@@ -16,7 +16,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Robotics | Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'3 - 6',
+  'aboutGradeLevel':'2 - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
