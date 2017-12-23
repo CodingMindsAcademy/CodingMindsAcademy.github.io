@@ -16,9 +16,9 @@ var courseList = {
 			'gradeLevel':'2-6年级',
 			'text':'学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
 			'detailsTitle':'查看详情',
-			'detailsUrl':'sprk-cn.html',
+			'detailsUrl':'sprkc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'sprk-cn.html'
+			'registerUrl':'sprkc.html'
 		},
 		{
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
@@ -36,9 +36,9 @@ var courseList = {
 			'gradeLevel':'7-12年级',
 			'text':'厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
 			'detailsTitle':'查看详情',
-			'detailsUrl':'mobile-cn.html',
+			'detailsUrl':'mobilec.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'mobile-cn.html'
+			'registerUrl':'mobilec.html'
 		},
 		{
 			'name':'Python编程实践:动手编写真正的计算机应用程序',
@@ -46,9 +46,9 @@ var courseList = {
 			'gradeLevel':'7-12年级',
 			'text':'学习当今最流行的编程语言，开发任何你想制作的应用程序',
 			'detailsTitle':'查看详情',
-			'detailsUrl':'python-cn.html',
+			'detailsUrl':'pythonc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'python-cn.html'
+			'registerUrl':'pythonc.html'
 		},
 		{
 			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
