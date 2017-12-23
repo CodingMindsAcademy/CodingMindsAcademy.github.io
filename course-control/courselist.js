@@ -6,9 +6,9 @@ var courseList = {
 			'gradeLevel':'Grade 2-6',
 			'text':'Learn how to program and control a robot, and enter the world of coding',
 			'detailsTitle':'EXPLORE',
-			'detailsUrl':'page-class-sprk.html',
+			'detailsUrl':'sprk.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'page-class-sprk.html'
+			'registerUrl':'sprk.html'
 		},
 		{
 			'name':'3D Game Programming with Unity3D',
@@ -26,9 +26,9 @@ var courseList = {
 			'gradeLevel':'Grad 7-12',
 			'text':'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
 			'detailsTitle':'EXPLORE',
-			'detailsUrl':'page-class-mobile.html',
+			'detailsUrl':'mobile.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'page-class-mobile.html'
+			'registerUrl':'mobile.html'
 		},
 		{
 			'name':'Python Programming: Build Real World Applications',
@@ -36,9 +36,9 @@ var courseList = {
 			'gradeLevel':'Grade 7-12',
 			'text':'Learn the most popular programming language in the industry',
 			'detailsTitle':'EXPLORE',
-			'detailsUrl':'page-class-python.html',
+			'detailsUrl':'python.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'page-class-python.html'
+			'registerUrl':'python.html'
 		},
 		{
 			'name':'AP CS Boot Camp: Intro to Java Programming',
