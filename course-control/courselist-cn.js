@@ -31,6 +31,16 @@ var courseList = {
 			'registerUrl':'unity3dc.html'
 		},
 		{
+			'name':'Python编程初步：学做Minecraft游戏开发员',
+			'imageUrl':'img/my/pythonmine/pyminebghp.jpg',
+			'gradeLevel':'7-12年级',
+			'text':'在世界最流行的游戏中学习世界最流行的编程语言Python',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'python-minecraftc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'python-minecraftc.html'
+		},
+		{
 			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
 			'imageUrl':'img/my/app-dev-2.jpg',
 			'gradeLevel':'7-12年级',

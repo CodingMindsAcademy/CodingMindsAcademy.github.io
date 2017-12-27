@@ -31,6 +31,16 @@ var courseList = {
 			'registerUrl':'unity3d.html'
 		},
 		{
+			'name':'Python Programming with Minecraft',
+			'imageUrl':'img/my/pythonmine/pyminebghp.jpg',
+			'gradeLevel':'Grade 7-12',
+			'text':'Learn the most pupular programming Python using the most popular game Minecraft',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'python-minecraft.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'python-minecraft.html'
+		},
+		{
 			'name':'Mobile App Programming with MIT App Inventor',
 			'imageUrl':'img/my/app-dev-2.jpg',
 			'gradeLevel':'Grade 7-12',
