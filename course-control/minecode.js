@@ -1,23 +1,23 @@
 var courseData = {
-  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
-  'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'courseTitle' : 'Minecraft Programming with MakeCode | Coding Minds Academy',
+  'courseDescription' : 'Learn the block programming and make changes on your favorite game.',
+  'topTitleLine1' : 'Minecraft Programming',
+  'topTitleLine2' : 'with MakeCode',
+  'topGradeLevel' : 'Grade 2 - 6',
+  'topIntroText' : 'Learn the latest kids-coding platform - MakeCode from Microsoft, and become a Minecraft game develoiper to change the game in your dream way.',
 
-  'bgTitle':'Game Programming with Unity3D',
+  'bgTitle':'Minecraft Programming with MakeCode',
   'bgImageUrl':'img/my/minecode/minecodebg.jpg',
-  'bgText':'Become a game developer, and publish your games.',
-  'bgLearnMoreText':'Learn More about Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgText':'Learn programming using the most popular game for kids - Minecraft',
+  'bgLearnMoreText':'Learn More about MakeCode',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/3rKuSlgqePo?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Learn programming with game development. Build your own game without limits.',
+  'aboutText':'Learn programming with MakeCode. Build your own version of the Minecraft.',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'2 - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -25,37 +25,37 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'Be a Professional',
-    'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'title':'No More Minecraft Game Addiction',
+    'text':'Minecraft is a fun game, but kids can be addicted to playing it. With MakeCode, kids can start learning programming inside the fun game.',
+    'imageUrl':'img/my/minecode/minecode2.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From Game Player to Developer',
-    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'title':'Learn the Real Programming Concepts',
+    'text':'MakeCode makes learning a lot of fun. You will learn the professional programming concepts while playing and making changes on the Minecraft game.',
+    'imageUrl':'img/my/minecode/minecode1.png'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Beyound Games',
-    'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'title':'Challenge Your Imagination',
+    'text':'With the open platform provided by Minecraft, you can program anything you want with your imagniation, and change the game into a version you have never seen before.',
+    'imageUrl':'img/my/minecode/minecode3.jpg'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Compete in Science Fair',
-    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
-    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
+    'title':'Publish and Share Your Game',
+    'text':'Publish your own game in the Internet, and share it with the whole world. You could become famous as a young game developer.',
+    'imageUrl':'img/my/minecode/minecode4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Be a Game Entrepreneur',
-    'text':'The successful game industry always belongs to the young generation. Start early and create your own game startup.',
-    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
+    'title':'It\'s Not Just About Programming',
+    'text':'Computational thinking and programming skill are important in today\'s society. The kids gain confidence as they learn how to solve problems using programming.',
+    'imageUrl':'img/my/minecode/minecode5.jpg'
   },
 
   'curriculum' : {
@@ -66,27 +66,27 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'The fondation of Unity3D development'
+      'text':'Learn the MakeCode programming platform'
     },
     {
       'icon':'icon-Coding',
-      'text':'The basics of C# programming language'
+      'text':'Master the basic block programming'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Understanding of game modeling and algorithms'
+      'text':'Trigger their passion of programming'
     },
     {
       'icon':'icon-Server',
-      'text':'Knowledge about Internet and game communications'
+      'text':'The ability to solve problems using technology'
     },
     {
       'icon':'icon-Idea',
-      'text':'AR and VR applications development skills'
+      'text':'Creativity and team-work'
     },
     {
       'icon':'icon-Key',
-      'text':'Preparation of Science Fair projects'
+      'text':'The ability to adapt to new content and environment'
     },
   ],
 
@@ -131,13 +131,13 @@ var courseData = {
   'sessions':[
     {
       'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mon 3:20-4:50PM',
-      'location':'Irvine, CA'
+      'time':'Mondays 3:20-4:50PM',
+      'location':'Irvine'
     },
     {
       'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wed 3:20-4:50PM',
-      'location':'Irvine, CA'
+      'time':'Wednesdays 3:20-4:50PM',
+      'location':'Irvine'
     },
   ],
 
@@ -163,8 +163,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'course-layout-version-3.html',
-  'cnUrl':'course-layout-version-3-cn.html'
+  'engUrl':'minecode.html',
+  'cnUrl':'minecodec.html'
 
 }
 

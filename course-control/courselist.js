@@ -1,6 +1,16 @@
 var courseList = {
 	'eng' : [
 		{
+			'name':'Minecraft Programming with MakeCode',
+			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
+			'gradeLevel':'Grade 2-6',
+			'text':'Learn programming using the game kids all love',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'minecode.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'minecode.html'
+		},
+		{
 			'name':'Robotics and Programming with SRPK',
 			'imageUrl':'img/my/sprk-learn-5.jpg',
 			'gradeLevel':'Grade 2-6',
