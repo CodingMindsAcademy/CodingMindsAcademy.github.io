@@ -1,5 +1,5 @@
 var courseData = {
-  'courseTitle' : 'MIT手机APP编程夏令营 | Coding Minds Academy',
+  'courseTitle' : 'Python编程实践 | Coding Minds 编程思维',
   'courseDescription' : '学习当今最流行的编程语言，开发任何你想制作的应用程序',
   'topTitleLine1' : 'Python编程实践:',
   'topTitleLine2' : '动手编写真正的计算机应用程序',
@@ -146,7 +146,7 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
   'price':'$595',
