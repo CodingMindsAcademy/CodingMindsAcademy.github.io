@@ -21,6 +21,16 @@ var courseList = {
 			'registerUrl':'sprkc.html'
 		},
 		{
+			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
+			'imageUrl':'img/my/scratch/scratchbg.png',
+			'gradeLevel':'2-6年级',
+			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'scratchc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'scratchc.html'
+		},
+		{
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
 			'imageUrl':'img/my/unity3d/unity3d-1.jpg',
 			'gradeLevel':'7-12年级',
