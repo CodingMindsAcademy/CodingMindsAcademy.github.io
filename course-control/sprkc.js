@@ -158,6 +158,21 @@ var courseData = {
     'enalbed':false
   },
 
+  'locations':[
+    {
+      'name' : '尔湾编程思维教室地址',
+      'address1' : '980 Roosevelt, Suite 210',
+      'address2' : 'Irvine, CA 92620',
+      'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+    },
+    {
+      'name' : 'Rancho Cucamonga编程思维教室地址',
+      'address1' : '6080 Haven Ave',
+      'address2' : 'Rancho Cucamonga, CA 91737',
+      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
+    }
+  ],
+
   'promotionText':'想现在加入到快乐中学习编程吗?',
   'promotionButtonText':'联系我们',
   'promotionUrl':'contact-us-cn.html',

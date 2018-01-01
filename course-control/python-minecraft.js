@@ -159,6 +159,21 @@ var courseData = {
     'enalbed':false
   },
 
+  'locations':[
+    {
+      'name' : 'Irvine Classroom',
+      'address1' : '980 Roosevelt, Suite 210',
+      'address2' : 'Irvine, CA 92620',
+      'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+    },
+    {
+      'name' : 'Rancho Cucamonga Classroom',
+      'address1' : '6080 Haven Ave',
+      'address2' : 'Rancho Cucamonga, CA 91737',
+      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
+    }
+  ],
+
   'promotionText':'Interested in learning programs with fun?',
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
