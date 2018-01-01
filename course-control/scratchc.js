@@ -130,6 +130,11 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
+      'date':'1/10 - 2/28 (8周)',
+      'time':'每周二 4:00-5:30PM',
+      'location':'Rancho Cucamonga'
+    },
+    {
       'date':'日期待定',
       'time':'每周一 3:20-4:50PM',
       'location':'尔湾'

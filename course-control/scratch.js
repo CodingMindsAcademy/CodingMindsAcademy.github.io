@@ -130,6 +130,11 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
+      'date':'1/10 - 2/28 (8 Weeks)',
+      'time':'Tue 4:00-5:30PM',
+      'location':'Rancho Cucamonga'
+    },
+    {
       'date':'TBD',
       'time':'Mon 3:20-4:50PM',
       'location':'Irvine, CA'

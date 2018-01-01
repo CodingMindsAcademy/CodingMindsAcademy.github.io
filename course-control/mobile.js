@@ -130,20 +130,15 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'6/26 - 6/30',
-      'time':'9AM - 12PM',
-      'location':'Irvine, CA'
+      'date':'1/10 - 2/28 (8 Weeks)',
+      'time':'Tue 4:00-5:30PM',
+      'location':'Rancho Cucamonga'
     },
     {
-      'date':'7/17 - 7/21',
-      'time':'9AM - 12PM',
+      'date':'TBD',
+      'time':'Mon 5:00-6:30PM',
       'location':'Irvine, CA'
-    },
-    {
-      'date':'8/7 - 8/11',
-      'time':'9AM - 12PM',
-      'location':'Irvine, CA'
-    },
+    }
   ],
 
   'registrationEnabled':false,

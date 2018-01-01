@@ -132,7 +132,12 @@ var courseData = {
     {
       'date':'1/8 - 3/12 (10 Weeks)',
       'time':'Mondays 5:00-6:30PM',
-      'location':'Irvine, CA'
+      'location':'Irvine'
+    },
+    {
+      'date':'1/13 - 3/17 (10 Weeks)',
+      'time':'Saturdays 9:30-11:00AM',
+      'location':'Rancho Cucamonga'
     }
   ],
 

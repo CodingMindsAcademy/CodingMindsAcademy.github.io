@@ -133,6 +133,11 @@ var courseData = {
       'date':'1/8 - 3/12 (10周)',
       'time':'每周一 5:00-6:30PM',
       'location':'尔湾'
+    },
+    {
+      'date':'1/13 - 3/17 (10周)',
+      'time':'每周六 9:30-11:00AM',
+      'location':'Rancho Cucamonga'
     }
   ],
 
