@@ -1,6 +1,5 @@
 var courseData = {
   'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-
   'topTitleLine1' : 'Game Programming',
   'topTitleLine2' : 'with Unity3D',
   'topGradeLevel' : 'Grade 7 - 12',

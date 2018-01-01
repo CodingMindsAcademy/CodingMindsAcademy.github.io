@@ -1,6 +1,5 @@
 var courseData = {
   'courseTitle' : 'Unity3D游戏开发体验 | Coding Minds 编程思维',
-
   'topTitleLine1' : 'Unity3D',
   'topTitleLine2' : '游戏开发体验',
   'topGradeLevel' : '7-12 年级',
