@@ -1,5 +1,5 @@
 var courseData = {
-  'courseTitle' : 'MIT手机APP编程夏令营 | Coding Minds Academy',
+  'courseTitle' : 'MIT手机APP发明家 | Coding Minds 编程思维',
   'courseDescription' : '厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
   'topTitleLine1' : 'MIT手机APP发明家',
   'topTitleLine2' : '动手编写自己的APP做小创业者',
@@ -13,7 +13,7 @@ var courseData = {
   'bgLearnMoreLink':'https://www.youtube.com/embed/sNjGAiOrX-o?autoplay=1',
 
   'aboutTitle':'关于课程',
-  'aboutText':'',
+  'aboutText':'MIT手机APP发明家',
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
