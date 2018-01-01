@@ -15,7 +15,7 @@ var courseData = {
   'aboutTitle':'About the Course',
   'aboutText':'Learn Scratch, turn your ideas into reality, and share your creations with people from around the world.',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Delightful Intro to Programming',
+  'aboutCategory':'Block Programming',
   'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'2 - 6',
   'aboutSkillLevelTitle':'Skill Level',
@@ -25,7 +25,7 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'Learn One of the World\'s Most Popular Programming Platforms',
+    'title':'The Most Popular Programming Platform',
     'text':'Scratch is a specially designed education platform created by the renowned MIT Media Lab to teach young students about computer programming.',
     'imageUrl':'img/my/scratch/scratch1.png'
   },
@@ -54,7 +54,7 @@ var courseData = {
   'promotion5':{
     'enabled':true,
     'title':'Learn More Than Just Programming',
-    'text':'The ability to _____ is very valuable in today\'s society because learning to program also establishes experiences in logical thinking, computational thinking, innovation, and imagination. Students simultaneously gain problem-solving skills and confidence. ',
+    'text':'The programming skill is very valuable in today\'s society because learning to program also establishes experiences in logical thinking, computational thinking, innovation, and imagination. Students simultaneously gain problem-solving skills and confidence. ',
     'imageUrl':'img/my/scratch/scratch5.jpg'
   },
 

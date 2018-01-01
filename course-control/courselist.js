@@ -21,6 +21,16 @@ var courseList = {
 			'registerUrl':'sprk.html'
 		},
 		{
+			'name':'Innovative Programming with MIT Scratch',
+			'imageUrl':'img/my/scratch/scratchbg.png',
+			'gradeLevel':'Grade 2-6',
+			'text':'Learn programming and create games and animations while having fun',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'scratch.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'scratch.html'
+		},
+		{
 			'name':'3D Game Programming with Unity3D',
 			'imageUrl':'img/my/unity3d/unity3d-1.jpg',
 			'gradeLevel':'Grade 7-12',
