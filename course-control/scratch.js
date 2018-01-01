@@ -1,61 +1,61 @@
 var courseData = {
-  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
-  'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'courseTitle' : 'Innovative Programming with MIT Scratch | Coding Minds Academy',
+  'courseDescription' : 'Learn to create games and animations with Scratch.',
+  'topTitleLine1' : 'Innovative Programming',
+  'topTitleLine2' : 'with MIT Scratch',
+  'topGradeLevel' : 'Grade 2-6',
+  'topIntroText' : 'Scratch is a visual programming language designed by MIT. With Scratch, you can create your own interactive stories, games, and animations, and share them with the rest of the world. Scratch helps young people think creatively, logically, and work collaboratively, which are essential skills in the 21st century.',
 
-  'bgTitle':'Game Programming with Unity3D',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
-  'bgText':'Become a game developer, and publish your games.',
-  'bgLearnMoreText':'Learn More about Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgTitle':'Innovative Programming with MIT Scratch',
+  'bgImageUrl':'img/my/scratch/scratchbg2.jpg',
+  'bgText':'Learn programming and create games and animations while having fun.',
+  'bgLearnMoreText':'Learn More about MIT Scratch',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/jXUZaf5D12A?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Learn programming with game development. Build your own game without limits.',
+  'aboutText':'Learn Scratch, turn your ideas into reality, and share your creations with people from around the world.',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Game Development',
+  'aboutCategory':'Delightful Intro to Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'2 - 6',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginning to Intermediate',
+  'aboutSkillLevel':'Beginner',
   'aboutRatioTitle':'Ratio Guarantee',
   'aboutRatio':'6 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
-    'title':'Be a Professional',
-    'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'title':'Learn One of the World\'s Most Popular Programming Platforms',
+    'text':'Scratch is a specially designed education platform created by the renowned MIT Media Lab to teach young students about computer programming.',
+    'imageUrl':'img/my/scratch/scratch1.png'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From Game Player to Developer',
-    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'title':'Challenge Your Creativity',
+    'text':'Millions of people are creating their own Scratch programs and more than 2,500 programs are shared in the online community. Join the world and use Scratch to demonstrate your creative thinking.',
+    'imageUrl':'img/my/scratch/scratch2.png'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Beyound Games',
-    'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'title':'Learn Programming with Fun',
+    'text':'Scratch perfectly integrates programming concepts into animations and game development. When you finish your work of art, you\'ve unwittingly grasped the basic concepts of programming (including variables, loops, and functions), laying a solid foundation to learn real programming.',
+    'imageUrl':'img/my/scratch/scratch3.png'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Compete in Science Fair',
-    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
-    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
+    'title':'Share Your Creations',
+    'text':'Post your programs and share it with MIT Scratch\'s community so fellow programmers from around the world can view and appreciate your creativity.',
+    'imageUrl':'img/my/scratch/scratch4.png'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Be a Game Entrepreneur',
-    'text':'The successful game industry always belongs to the young generation. Start early and create your own game startup.',
-    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
+    'title':'Learn More Than Just Programming',
+    'text':'The ability to _____ is very valuable in today\'s society because learning to program also establishes experiences in logical thinking, computational thinking, innovation, and imagination. Students simultaneously gain problem-solving skills and confidence. ',
+    'imageUrl':'img/my/scratch/scratch5.jpg'
   },
 
   'curriculum' : {
@@ -66,27 +66,27 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'The fondation of Unity3D development'
+      'text':'Master the basic programming language and algorithms'
     },
     {
       'icon':'icon-Coding',
-      'text':'The basics of C# programming language'
+      'text':'Build your own multimedia content from animations to movies to games'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Understanding of game modeling and algorithms'
+      'text':'Understand computers and stimulate a passion for programming'
     },
     {
       'icon':'icon-Server',
-      'text':'Knowledge about Internet and game communications'
+      'text':'Learn and practice problem-solving skills'
     },
     {
       'icon':'icon-Idea',
-      'text':'AR and VR applications development skills'
+      'text':'Develop scientific innovation and teamwork skills'
     },
     {
       'icon':'icon-Key',
-      'text':'Preparation of Science Fair projects'
+      'text':'Learn the ability to adapt to new environments and participate in Scratch competitions'
     },
   ],
 
