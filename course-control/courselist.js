@@ -12,7 +12,7 @@ var courseList = {
 		},
 		{
 			'name':'Robotics and Programming with SRPK',
-			'imageUrl':'img/my/sprk-learn-5.jpg',
+			'imageUrl':'img/my/sprk-learn-5sm.jpg',
 			'gradeLevel':'Grade 2-6',
 			'text':'Learn how to program and control a robot, and enter the world of coding',
 			'detailsTitle':'EXPLORE',
@@ -32,7 +32,7 @@ var courseList = {
 		},
 		{
 			'name':'3D Game Programming with Unity3D',
-			'imageUrl':'img/my/unity3d/unity3d-1.jpg',
+			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
 			'gradeLevel':'Grade 7-12',
 			'text':'Learn the professional 3D game programming. Grow from a game player to a developer.',
 			'detailsTitle':'EXPLORE',
@@ -52,7 +52,7 @@ var courseList = {
 		},
 		{
 			'name':'Mobile App Programming with MIT App Inventor',
-			'imageUrl':'img/my/app-dev-2.jpg',
+			'imageUrl':'img/my/app-dev-2sm.jpg',
 			'gradeLevel':'Grade 7-12',
 			'text':'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
 			'detailsTitle':'EXPLORE',
@@ -72,7 +72,7 @@ var courseList = {
 		},
 		{
 			'name':'AP CS Boot Camp: Intro to Java Programming',
-			'imageUrl':'img/my/coding-space.png',
+			'imageUrl':'img/my/coding-spacesm.jpg',
 			'gradeLevel':'Grade 8-12',
 			'text':'Build the solid Java programming skills, and aster the AP CS and exam',
 			'detailsTitle':'EXPLORE',
@@ -82,7 +82,7 @@ var courseList = {
 		},
 		{
 			'name':'AP CSP Boot Camp with APP Inventor',
-			'imageUrl':'img/my/mobile-learn-0.png',
+			'imageUrl':'img/my/mobile-learn-0sm.jpg',
 			'gradeLevel':'Grade 8-12',
 			'text':'Learn the newest College Board AP Course CS Principles with App Inventor',
 			'detailsTitle':'EXPLORE',
