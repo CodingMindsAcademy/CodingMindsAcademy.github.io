@@ -4,7 +4,7 @@ var courseData = {
   'topTitleLine1' : 'Minecraft Programming',
   'topTitleLine2' : 'with MakeCode',
   'topGradeLevel' : 'Grade 2 - 6',
-  'topIntroText' : 'Learn the latest kids-coding platform - MakeCode from Microsoft, and become a Minecraft game develoiper to change the game in your dream way.',
+  'topIntroText' : 'Learn the latest kids-coding platform - MakeCode from Microsoft, and become a Minecraft game developer to change the game in your dream way.',
 
   'bgTitle':'Minecraft Programming with MakeCode',
   'bgImageUrl':'img/my/minecode/minecodebg.jpg',
