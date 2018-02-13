@@ -90,6 +90,16 @@ var courseList = {
 			'registerTitle':'我要注册',
 			'registerUrl':'apcsp-cn.html'
 		},
+		{
+			'name':'名校申请背景强化课程：计算机编程系列手机App编程开发',
+			'imageUrl':'img/my/mobile-learn-6sm.jpg',
+			'gradeLevel':'9-12年级',
+			'text':'学习App编程，为AP CS课程、科学竞赛、课外项目和创业充实内容和经历',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'ceappc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'ceappc.html'
+		},
 	]
 }
 
