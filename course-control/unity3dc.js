@@ -171,8 +171,8 @@ var courseData = {
   'promotionButtonText':'联系我们',
   'promotionUrl':'contact-us-cn.html',
 
-  'engUrl':'course-layout-version-3.html',
-  'cnUrl':'course-layout-version-3-cn.html'
+  'engUrl':'unity3d.html',
+  'cnUrl':'unity3dc.html'
 
 }
 
