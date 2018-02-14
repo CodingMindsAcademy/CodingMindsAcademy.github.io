@@ -1,12 +1,12 @@
 var courseData = {
   'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'topTitleLine1' : 'College Application Enrichment',
+  'topTitleLine2' : 'Unity3D Game Programming',
+  'topGradeLevel' : 'Grade 9 - 12',
+  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background. Through the course, you will learn the foundamentals about programming, and be prepared for AP CS courses, science fairs, competitions and create your own startups. ',
 
-  'bgTitle':'Game Programming with Unity3D',
-  'bgText':'Become a game developer, and publish your games.',
+  'bgTitle':'Unity3D Programming for College Application Enrichment',
+  'bgText':'Learn, Build, Compete, Startup',
   'bgLearnMoreText':'Learn More about Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
@@ -15,7 +15,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',  
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'9 - 12 High School Only',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -57,7 +57,7 @@ var courseData = {
   },
 
   'curriculum' : {
-    'enabled':false
+    'enabled':true
   },
 
   'goalsTtile' : 'Top Skills Students Will Learn',
@@ -134,18 +134,18 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
   'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
     '1:6 teacher to students ratio',
-    'Always learn by doing and having fun'
+    'Designed for competitions'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'ceunity3d.html',
   'registerNow':'REGISTER NOW',
 
   'faq':{
@@ -155,15 +155,9 @@ var courseData = {
   'locations':[
     {
       'name' : 'Irvine Classroom',
-      'address1' : '980 Roosevelt, Suite 210',
+      'address1' : 'TBD',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
-    },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
     }
   ],
 
@@ -171,8 +165,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'unity3d.html',
-  'cnUrl':'unity3dc.html'
+  'engUrl':'ceunity3d.html',
+  'cnUrl':'ceunity3dc.html'
 
 }
 

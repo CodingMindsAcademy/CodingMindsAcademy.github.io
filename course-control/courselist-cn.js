@@ -98,7 +98,17 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ceappc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'ceappc.html'
+			'registerUrl':'ceapp.html'
+		},
+		{
+			'name':'名校申请背景强化课程：计算机编程系列Unity3D游戏开发',
+			'imageUrl':'img/my/unity3d/bg-2sm.jpg',
+			'gradeLevel':'9-12年级',
+			'text':'学习专业3D游戏开发，为AP CS课程、科学竞赛、课外项目和创业充实内容和经历',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'ceunity3dc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'ceunity3dc.html'
 		},
 	]
 }

@@ -90,6 +90,26 @@ var courseList = {
 			'registerTitle':'REGISTER',
 			'registerUrl':'apcsp.html'
 		},
+		{
+			'name':'College Application Enrichment: Mobile App Development',
+			'imageUrl':'img/my/mobile-learn-6sm.jpg',
+			'gradeLevel':'Grade 9-12',
+			'text':'Learn mobile app development, build your own app and compete',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'ceappc.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'ceapp.html'
+		},
+		{
+			'name':'College Application Enrichment: Unity3D Game Development',
+			'imageUrl':'img/my/unity3d/bg-2sm.jpg',
+			'gradeLevel':'Grade 9-12',
+			'text':'Learn the professional 3D game development, build your own game and compete',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'ceunity3dc.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'ceunity3dc.html'
+		},
 	]
 }
 
