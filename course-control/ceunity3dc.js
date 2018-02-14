@@ -1,5 +1,5 @@
 var courseData = {
-  'courseTitle' : 'Unity3D游戏开发体验 | Coding Minds 编程思维',
+  'courseTitle' : '名校申请强化之Unity3D游戏开发 | Coding Minds 编程思维',
   'topTitleLine1' : '名校申请背景强化课程',
   'topTitleLine2' : '高中计算机编程系列Unity3D游戏开发',
   'topGradeLevel' : '9-12 年级',
