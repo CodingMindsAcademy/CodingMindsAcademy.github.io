@@ -31,6 +31,16 @@ var courseList = {
 			'registerUrl':'scratchc.html'
 		},
 		{
+			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
+			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
+			'gradeLevel':'4-8年级',
+			'text':'在控制机器人挑战自己过程中学习编程,将是你从未尝试过的学习体验',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'legoc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'legoc.html'
+		},
+		{
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
 			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
 			'gradeLevel':'7-12年级',
@@ -109,6 +119,16 @@ var courseList = {
 			'detailsUrl':'ceunity3dc.html',
 			'registerTitle':'我要注册',
 			'registerUrl':'ceunity3dc.html'
+		},
+		{
+			'name':'名校申请背景强化课程：Python竞技编程与项目实践',
+			'imageUrl':'img/my/pythonmine/pyce-bg-sm.jpg',
+			'gradeLevel':'9-12年级',
+			'text':'学习Python算法，为AP CS课程、科学竞赛、课外项目和创业充实内容和经历',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'cepythonc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'cepythonc.html'
 		},
 	]
 }
