@@ -4,7 +4,7 @@ var courseData = {
   'topTitleLine1' : '名校申请背景强化课程',
   'topTitleLine2' : 'Python竞技编程与项目实践',
   'topGradeLevel' : '8-12 年级',
-  'topIntroText' : '该课程为有编程基础的同学而设计，课程专注使用Python编程语言来设计高效程序算法，以及构建完整的科研项目。项目结束会指导带领学生参加igniteCS Programming Expo计算机竞赛。',
+  'topIntroText' : '该课程为有编程基础的同学而设计，课程专注使用Python编程语言来设计高效程序算法，以及构建完整的科研项目。项目结束会指导带领学生参加igniteCS Programming Expo计算机竞赛已及HSPC高中生编程竞赛。',
 
   'bgTitle':'Python竞技编程与项目实践',
   'bgImageUrl':'img/my/python-learn-3.jpg',
