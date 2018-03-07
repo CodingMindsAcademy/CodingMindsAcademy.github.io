@@ -41,6 +41,16 @@ var courseList = {
 			'registerUrl':'legoc.html'
 		},
 		{
+			'name':'电子工程师成长之路:Arduino硬件系统编程',
+			'imageUrl':'img/my/arduino/arduino-bg-sm.jpg',
+			'gradeLevel':'6-12年级',
+			'text':'制作智能电子系统，在硬件的世界学习软件，让你充分体验编程的强大',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'arduinoc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'arduinoc.html'
+		},
+		{
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
 			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
 			'gradeLevel':'7-12年级',
