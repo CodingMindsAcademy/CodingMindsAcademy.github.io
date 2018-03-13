@@ -178,8 +178,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'course-layout-version-3.html',
-  'cnUrl':'course-layout-version-3-cn.html'
+  'engUrl':'roblox2.html',
+  'cnUrl':'roblox2c.html'
 
 }
 
