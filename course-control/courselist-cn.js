@@ -121,6 +121,16 @@ var courseList = {
 			'registerUrl':'apcs-cn.html'
 		},
 		{
+			'name':'AP CS考试冲刺训练营:AP CS备考强化训练',
+			'imageUrl':'img/apcsprep/bg-sm.jpg',
+			'gradeLevel':'9-12年级',
+			'text':'为即将参加AP考试的同学复习课程重点，训练考试习题，强化考试所需要的编程基本功',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'apcsprep-cn.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'apcsprep-cn.html'
+		},
+		{
 			'name':'AP CSP手机APP编程训练营:挑战最新的AP CS课程',
 			'imageUrl':'img/my/mobile-learn-0sm.jpg',
 			'gradeLevel':'8-12年级',

@@ -81,6 +81,16 @@ var courseList = {
 			'registerUrl':'apcs.html'
 		},
 		{
+			'name':'AP CS Exam Prep: The Complete Exam Guide',
+			'imageUrl':'img/apcsprep/bg-sm.jpg',
+			'gradeLevel':'Grade 9-12',
+			'text':'Completely review the exam topics, build the solid foundation with exercises',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'apcsprep.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'apcsprep.html'
+		},
+		{
 			'name':'AP CSP Boot Camp with APP Inventor',
 			'imageUrl':'img/my/mobile-learn-0sm.jpg',
 			'gradeLevel':'Grade 8-12',
