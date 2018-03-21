@@ -54,7 +54,7 @@ var courseList = {
 			'name':'Robotics and Programming with LEGO Mindstorms',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
 			'gradeLevel':'Grade 4-8',
-			'text':'Build and program your own EV3 robot!',
+			'text':'Build and program your own EV3 robot from your tablet or computer!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego.html',
 			'registerTitle':'REGISTER',
@@ -71,7 +71,7 @@ var courseList = {
 			'registerUrl':'arduinoc.html'
 		},
 		{
-			'name':'Advanced Roblox Game Development and Lua Programming',
+			'name':'Advanced Roblox Game Development and Lua',
 			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
 			'gradeLevel':'Grade 7-12',
 			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
@@ -171,9 +171,9 @@ var courseList = {
 			'registerUrl':'ceunity3dc.html'
 		},
 		{
-			'name':'College Application Enrichment: Python Competitive Programming and Project Practice',
+			'name':'College Application Enrichment: Python',
 			'imageUrl':'img/my/pythonmine/pyce-bg-sm.jpg',
-			'gradeLevel':'8-12年级',
+			'gradeLevel':'Grade 8-12',
 			'text':'Learn the most popular programming language in the industry and create your own applications',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'cepython.html',
