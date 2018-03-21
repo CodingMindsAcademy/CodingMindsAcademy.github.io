@@ -174,7 +174,7 @@ var courseList = {
 			'name':'College Application Enrichment: Python',
 			'imageUrl':'img/my/pythonmine/pyce-bg-sm.jpg',
 			'gradeLevel':'Grade 8-12',
-			'text':'Learn the most popular programming language in the industry and create your own applications',
+			'text':'Learn the most popular programming language and create your own applications',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'cepython.html',
 			'registerTitle':'REGISTER',
