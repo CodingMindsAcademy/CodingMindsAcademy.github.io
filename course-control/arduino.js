@@ -1,23 +1,23 @@
 var courseData = {
-  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
-  'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'courseTitle' : 'Arduino Programming | Coding Minds Academy',
+  'courseDescription' : 'Create intelligent electronic systems. Learn software in the world of hardware.',
+  'topTitleLine1' : 'Electrical Engineering Growth Path:',
+  'topTitleLine2' : 'Arduino Programming',
+  'topGradeLevel' : 'Grade 6 - 12',
+  'topIntroText' : 'Arduino is a convenient, flexible and easy-to-use open source electronic programming development platform. The Arduino can sense the environment through a variety of sensors and feedback and influence the environment by controlling lights, motors and other devices. The microcontroller on the board can program through Arduino\'s programming language. Through hands-on operation of software and hardware, it can quickly make automatic alarm devices, smart irrigation systems and other professional projects.',
 
-  'bgTitle':'Game Programming with Unity3D',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
-  'bgText':'Become a game developer, and publish your games.',
-  'bgLearnMoreText':'Learn More about Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgTitle':'Arduino Programming',
+  'bgImageUrl':'img/my/arduino/arduino-bg.jpg',
+  'bgText':'Create intelligent electronic systems and learn software through the world of hardware',
+  'bgLearnMoreText':'Learn More about Arduino',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/Fjx5EjLCPpc?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Learn programming with game development. Build your own game without limits.',
+  'aboutText':'Create intelligent electronic systems and learn software through the world of hardware.',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Game Development',
+  'aboutCategory':'Hardware',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'6 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -25,37 +25,37 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'Be a Professional',
-    'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'title':'Enter the world of hardware',
+    'text':'There\'s a lot to explore in the world of hardware and a little Arduino can let you experience the magic of electronic circuits.',
+    'imageUrl':'img/my/arduino/ard-1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From Game Player to Developer',
-    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'title':'Sensors that meet your imagination',
+    'text':'The application of the hardware depends on a variety of sensors, and with your imagination, you will find that all the functions you want can be achieved by the sensor.',
+    'imageUrl':'img/my/arduino/ard-2.png'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Beyound Games',
-    'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'title':'Use Arduino to control smart devices',
+    'text':'Software and programs are the brains of hardware. Learn the C programming language to control electronic systems.',
+    'imageUrl':'img/my/arduino/ard-3.png'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Compete in Science Fair',
-    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
-    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
+    'title':'The path to become a electrical engineer',
+    'text':'Electronic engineers start with the most basic circuits and programming. Bit by bit, you will grow rapidly.',
+    'imageUrl':'img/my/arduino/ard-4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Be a Game Entrepreneur',
-    'text':'The successful game industry always belongs to the young generation. Start early and create your own game startup.',
-    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
+    'title':'Become an entrepreneur',
+    'text':'Create a project that solves a problem, and become an entrepreneur.',
+    'imageUrl':'img/my/arduino/ard-5.png'
   },
 
   'curriculum' : {
@@ -66,23 +66,23 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'The fondation of Unity3D development'
+      'text':'Master the basic concepts and architecture of Arduino'
     },
     {
       'icon':'icon-Coding',
-      'text':'The basics of C# programming language'
+      'text':'Learn the basics of C# programming language'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Understanding of game modeling and algorithms'
+      'text':'Understanding circuit design principles'
     },
     {
       'icon':'icon-Server',
-      'text':'Knowledge about Internet and game communications'
+      'text':'Understanding the relationship between hardware and software systems'
     },
     {
       'icon':'icon-Idea',
-      'text':'AR and VR applications development skills'
+      'text':'Designed to achieve personalized programming and research projects'
     },
     {
       'icon':'icon-Key',
