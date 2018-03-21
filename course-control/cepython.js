@@ -1,39 +1,39 @@
 var courseData = {
   'courseTitle' : 'Python Programming | Coding Minds Academy',
-  'courseDescription' : 'Learn the most popular programming language in the industry',
-  'topTitleLine1' : 'Python Programming:',
-  'topTitleLine2' : 'Build Real World Applications',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course does not only teach how to write Python code. It is a carefully designed program that teaches how to develop real life applications with Python.',
+  'courseDescription' : 'Learn the most popular programming language in the industry and create your own applications',
+  'topTitleLine1' : 'College Application Enrichment:',
+  'topTitleLine2' : 'Python Competitive Programming and Project Practice',
+  'topGradeLevel' : 'Grade 8 - 12',
+  'topIntroText' : 'This course is designed for students who have a basic programming background. The course focuses on using the Python programming language to design efficient program algorithms and build a complete scientific research project. At the end of the course, instructors will guide students to participate in the igniteCS Programming Expo and the High School Programming Contest (HSPC).',
 
-  'bgTitle':'Python Programming',
+  'bgTitle':'Python Competitive Programming and Project Practice',
   'bgImageUrl':'img/my/python-learn-3.jpg',
-  'bgText':'Learn the most popular programming language in the industry.',
+  'bgText':'Learn, Achieve, Compete, and Create.',
   'bgLearnMoreText':'See what can you do with Python',
   'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'',
+  'aboutText':'Learn advanced algorithm programming, from basic to professional research projects',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Programming | General App',
+  'aboutCategory':'Algorithmic Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'8 - 12',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginner to Intermediate',
+  'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
   'aboutRatio':'6 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
-    'title':'Enter the World of Coding',
-    'text':'You are going to learn the real programming — the same type of programming Google engineers are doing. With Python, you can accomplish any challenging tasks by writing the code.',
+    'title':'Professional and Efficient Code',
+    'text':'You will begin to learn about today\'s popular professional programming language Python — Google\'s engineers are also using it. Python allows you to write programs that can solve a variety of complex problems.',
     'imageUrl':'img/my/python-learn-1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From the Basic to the Practical',
-    'text':'You will start with learning the fundamental concepts of Python and the basic language contructs. However, we will lead you to the practical and exciting side of Python quickly and let you make real world applications on machine learning, game development and web servers.',
+    'title':'From Basics to Competitions',
+    'text':'Python is a rich and powerful programming language, so Python is often the first choice for programming competitions. The course will take the form of competition training and prepare for the programming competitions in May.',
     'imageUrl':'img/my/python-learn-5.jpg'
   },
 
