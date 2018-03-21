@@ -1,61 +1,61 @@
 var courseData = {
-  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
-  'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'courseTitle' : 'Minecraft World Development and Instruction Programming | Coding Minds Academy',
+  'courseDescription' : 'Through the creation of the learning world, Minecraft command-line command control, and MakeCode graphical programming platform, gradually bring your child into the programming world.',
+  'topTitleLine1' : 'Minecraft',
+  'topTitleLine2' : 'World Development and Instruction Programming',
+  'topGradeLevel' : 'Grade K - 2',
+  'topIntroText' : 'Today\'s youths have a wide range of interests, but if you want to find a common interest, then it must be Minecraft. This course is based on Minecraft games. Through introduction of the creation of the world, the control of Minecraft command-line commands, and the MakeCode graphical programming platform, the children are progressively brought into the programming world.',
 
-  'bgTitle':'Game Programming with Unity3D',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
-  'bgText':'Become a game developer, and publish your games.',
-  'bgLearnMoreText':'Learn More about Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgTitle':'Minecraft World Development and Instruction Programming',
+  'bgImageUrl':'img/my/minecraftbasic/bg.jpg',
+  'bgText':'Learning programming in a Minecraft will be an ideal learning experience for kids',
+  'bgLearnMoreText':'Learn More about the Minecraft: Education Edition',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/3rKuSlgqePo?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Learn programming with game development. Build your own game without limits.',
+  'aboutText':'Minecraft is a sandbox video game and arguably one of the most popular games in the world. This course utilizes the popular video game to introduce students to the programming world.',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'K - 2',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginning to Intermediate',
+  'aboutSkillLevel':'Beginners',
   'aboutRatioTitle':'Ratio Guarantee',
   'aboutRatio':'6 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
-    'title':'Be a Professional',
-    'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'title':'Build your own world and enter the world of programming.',
+    'text':'The world-famous Minecraft game provides unlimited space for children\'s creativity. Build the world you want and the door to science and technology opens for you.',
+    'imageUrl':'img/my/minecraftbasic/mc2.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From Game Player to Developer',
-    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'title':'Learn programming fundamentals through command-line instructions',
+    'text':'Minecraft provides players with a list of game control commands. By learning these commands, you can accomplish the effects that are not achieved in the game but rather, in real life. By learning these basic instructions, you can unknowingly establish the basis of programming fundamentals and computational thinking.',
+    'imageUrl':'img/my/minecraftbasic/mc1.jpg'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Beyound Games',
-    'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'title':'Graphical programming from elementary school',
+    'text':'Today\'s programming skills are extremely valuable. Every school has started to teach students to learn from preschool. The Minecraft MakeCode programming platform makes this a reality.',
+    'imageUrl':'img/my/minecraftbasic/mc3.jpg'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Compete in Science Fair',
-    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
-    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
+    'title':'Share your creations',
+    'text':'Share your projects to the rest of the world. Your project might end up being featured!',
+    'imageUrl':'img/my/minecraftbasic/mc4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Be a Game Entrepreneur',
-    'text':'The successful game industry always belongs to the young generation. Start early and create your own game startup.',
-    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
+    'title':'Learning is more than just programming',
+    'text':'Having programming skills is a component of today\'s social culture, because learning programming is cultivating logical thinking, computing power, innovation and imagination. While the children are programming to solve problems, they gain confidence at the same time!',
+    'imageUrl':'img/my/minecraftbasic/mc5.jpg'
   },
 
   'curriculum' : {
@@ -66,27 +66,27 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'The fondation of Unity3D development'
+      'text':'Modeling a personalized world'
     },
     {
       'icon':'icon-Coding',
-      'text':'The basics of C# programming language'
+      'text':'Learn command-line command controls and programming'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Understanding of game modeling and algorithms'
+      'text':'Master the basics of graphic programming'
     },
     {
       'icon':'icon-Server',
-      'text':'Knowledge about Internet and game communications'
+      'text':'Learn how to learn to solve problems in practice'
     },
     {
       'icon':'icon-Idea',
-      'text':'AR and VR applications development skills'
+      'text':'Ability to cultivate scientific innovation and teamwork'
     },
     {
       'icon':'icon-Key',
-      'text':'Preparation of Science Fair projects'
+      'text':'Adapting to new environments'
     },
   ],
 
