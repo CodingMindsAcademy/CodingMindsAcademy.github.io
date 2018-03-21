@@ -1,7 +1,7 @@
 var courseData = {
   'courseTitle' : 'Arduino Programming | Coding Minds Academy',
   'courseDescription' : 'Create intelligent electronic systems. Learn software in the world of hardware.',
-  'topTitleLine1' : 'Electrical Engineering Growth Path:',
+  'topTitleLine1' : 'Electrical Engineer Growth Path:',
   'topTitleLine2' : 'Arduino Programming',
   'topGradeLevel' : 'Grade 6 - 12',
   'topIntroText' : 'Arduino is a convenient, flexible and easy-to-use open source electronic programming development platform. The Arduino can sense the environment through a variety of sensors and feedback and influence the environment by controlling lights, motors and other devices. The microcontroller on the board can program through Arduino\'s programming language. Through hands-on operation of software and hardware, it can quickly make automatic alarm devices, smart irrigation systems and other professional projects.',

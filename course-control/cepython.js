@@ -1,5 +1,5 @@
 var courseData = {
-  'courseTitle' : 'Python Programming | Coding Minds Academy',
+  'courseTitle' : 'College Application Enrichment: Python Competitive Programming and Project Practice | Coding Minds Academy',
   'courseDescription' : 'Learn the most popular programming language in the industry and create your own applications',
   'topTitleLine1' : 'College Application Enrichment:',
   'topTitleLine2' : 'Python Competitive Programming and Project Practice',

@@ -13,7 +13,7 @@ var courseList = {
 		{
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'2-6年级',
 			'text':'在Minecraft我的世界游戏中学习编程将是孩子们理想的学习体验',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
@@ -23,7 +23,7 @@ var courseList = {
 		{
 			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
 			'imageUrl':'img/my/sprk-learn-5sm.jpg',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'2-6年级',
 			'text':'学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sprkc.html',
@@ -73,7 +73,7 @@ var courseList = {
 		{
 			'name':'Roblox游戏开发进阶与Lua编程:游戏创业学编程',
 			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
-			'gradeLevel':'6-12年级',
+			'gradeLevel':'7-12年级',
 			'text':'学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox2c.html',
@@ -173,7 +173,7 @@ var courseList = {
 		{
 			'name':'名校申请背景强化课程：Python竞技编程与项目实践',
 			'imageUrl':'img/my/pythonmine/pyce-bg-sm.jpg',
-			'gradeLevel':'9-12年级',
+			'gradeLevel':'8-12年级',
 			'text':'学习Python算法，为AP CS课程、科学竞赛、课外项目和创业充实内容和经历',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'cepythonc.html',

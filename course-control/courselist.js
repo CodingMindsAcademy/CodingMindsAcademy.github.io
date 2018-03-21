@@ -1,6 +1,16 @@
 var courseList = {
 	'eng' : [
 		{
+			'name':'Minecraft World Building and Instruction Programming',
+			'imageUrl':'img/my/minecraftbasic/bg-sm.jpg',
+			'gradeLevel':'Grade K-2',
+			'text':'Learning 3D modeling, control instructions, and graphical programming with Minecraft',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'mcbuild.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'mcbuild.html'
+		},
+		{
 			'name':'Minecraft Programming with MakeCode',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
 			'gradeLevel':'Grade 2-6',
@@ -29,6 +39,46 @@ var courseList = {
 			'detailsUrl':'scratch.html',
 			'registerTitle':'REGISTER',
 			'registerUrl':'scratch.html'
+		},
+		{
+			'name':'Game Development with Roblox Studio',
+			'imageUrl':'img/my/roblox1/bg-sm.jpg',
+			'gradeLevel':'Grade 3-6',
+			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'roblox1.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'roblox1.html'
+		},
+		{
+			'name':'Robotics and Programming with LEGO Mindstorms',
+			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
+			'gradeLevel':'Grade 4-8',
+			'text':'Build and program your own EV3 robot!',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'lego.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'lego.html'
+		},
+		{
+			'name':'Electrical Engineer Growth Path: Arduino Programming',
+			'imageUrl':'img/my/arduino/arduino-bg-sm.jpg',
+			'gradeLevel':'Grade 6-12',
+			'text':'Create intelligent electronic systems. Learn software in the world of hardware.',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'arduino.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'arduinoc.html'
+		},
+		{
+			'name':'Advanced Roblox Game Development and Lua Programming',
+			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
+			'gradeLevel':'Grade 7-12',
+			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'roblox2.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'roblox2.html'
 		},
 		{
 			'name':'3D Game Programming with Unity3D',
@@ -119,6 +169,16 @@ var courseList = {
 			'detailsUrl':'ceunity3dc.html',
 			'registerTitle':'REGISTER',
 			'registerUrl':'ceunity3dc.html'
+		},
+		{
+			'name':'College Application Enrichment: Python Competitive Programming and Project Practice',
+			'imageUrl':'img/my/pythonmine/pyce-bg-sm.jpg',
+			'gradeLevel':'8-12年级',
+			'text':'Learn the most popular programming language in the industry and create your own applications',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'cepython.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'cepython.html'
 		},
 	]
 }
