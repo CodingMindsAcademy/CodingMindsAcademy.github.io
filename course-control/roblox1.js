@@ -66,7 +66,7 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'Understand the process of developing games'
+      'text':'Understanding the process of developing games'
     },
     {
       'icon':'icon-Coding',
