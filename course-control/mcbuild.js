@@ -1,12 +1,12 @@
 var courseData = {
-  'courseTitle' : 'Minecraft World Development and Instruction Programming | Coding Minds Academy',
+  'courseTitle' : 'Minecraft World Building and Instruction Programming | Coding Minds Academy',
   'courseDescription' : 'Through the creation of the learning world, Minecraft command-line command control, and MakeCode graphical programming platform, gradually bring your child into the programming world.',
   'topTitleLine1' : 'Minecraft',
-  'topTitleLine2' : 'World Development and Instruction Programming',
+  'topTitleLine2' : 'World Building and Instruction Programming',
   'topGradeLevel' : 'Grade K - 2',
   'topIntroText' : 'Today\'s youths have a wide range of interests, but if you want to find a common interest, then it must be Minecraft. This course is based on Minecraft games. Through introduction of the creation of the world, the control of Minecraft command-line commands, and the MakeCode graphical programming platform, the children are progressively brought into the programming world.',
 
-  'bgTitle':'Minecraft World Development and Instruction Programming',
+  'bgTitle':'Minecraft World Building and Instruction Programming',
   'bgImageUrl':'img/my/minecraftbasic/bg.jpg',
   'bgText':'Learning programming in a Minecraft will be an ideal learning experience for kids',
   'bgLearnMoreText':'Learn More about the Minecraft: Education Edition',
