@@ -1,9 +1,19 @@
 var courseList = {
 	'cn': [
 		{
+			'name':'Minecraft世界开发与指令编程:少儿编程入门',
+			'imageUrl':'img/my/minecraftbasic/bg-sm.jpg',
+			'gradeLevel':'K-2年级',
+			'text':'在Minecraft游戏中学习3D建模、控制指令与图形编程初步',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'mcbuildc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'mcbuildc.html'
+		},
+		{
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'2-6年级',
+			'gradeLevel':'3-6年级',
 			'text':'在Minecraft我的世界游戏中学习编程将是孩子们理想的学习体验',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
@@ -13,7 +23,7 @@ var courseList = {
 		{
 			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
 			'imageUrl':'img/my/sprk-learn-5sm.jpg',
-			'gradeLevel':'2-6年级',
+			'gradeLevel':'3-6年级',
 			'text':'学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sprkc.html',
