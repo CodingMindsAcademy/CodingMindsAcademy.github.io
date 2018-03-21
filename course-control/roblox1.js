@@ -1,23 +1,23 @@
 var courseData = {
-  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
-  'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'courseTitle' : 'Game Development with Roblox Studio | Coding Minds Academy',
+  'courseDescription' : 'Learn programming fundamentals and create your own games with Roblox Studio!',
+  'topTitleLine1' : 'Game Development',
+  'topTitleLine2' : 'with Roblox Studio',
+  'topGradeLevel' : 'Grades 3-6',
+  'topIntroText' : 'Roblox is a massively multiplayer online game creation platform with over six thousand users online every month. Roblox Studio allows users to develop their own games and share it with others in the community.',
 
-  'bgTitle':'Game Programming with Unity3D',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
+  'bgTitle':'Game Development with Roblox Studio',
+  'bgImageUrl':'img/my/roblox1/bg.jpg',
   'bgText':'Become a game developer, and publish your games.',
-  'bgLearnMoreText':'Learn More about Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgLearnMoreText':'Learn More about Roblox Studio',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/RU0Sxhc0WIk?t=5&autoplay=1',
 
   'aboutTitle':'About the Course',
   'aboutText':'Learn programming with game development. Build your own game without limits.',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'3 - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -25,37 +25,37 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'Be a Professional',
-    'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'title':'From Game Player to Developer',
+    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can create their own games and turn their ideas into reality with Roblox Studio.',
+    'imageUrl':'img/my/roblox1/r1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From Game Player to Developer',
-    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'title':'Learn about 3D models',
+    'text':'While creating their own games with Roblox Studio, students will also encounter and learn about 3D modeling.',
+    'imageUrl':'img/my/roblox1/r2.jpg'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Beyound Games',
-    'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'title':'Learn While Creating',
+    'text':'Roblox uses a programming language known as Lua. As students develop their own games, they also pick up computer science concepts, computational thinking skills, and programming fundamentals.',
+    'imageUrl':'img/my/roblox1/r3.png'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Compete in Science Fair',
-    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
-    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
+    'title':'Share Your Projects',
+    'text':'Roblox allows users to share their creations with others throughout the world.',
+    'imageUrl':'img/my/roblox1/r4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Be a Game Entrepreneur',
-    'text':'The successful game industry always belongs to the young generation. Start early and create your own game startup.',
-    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
+    'title':'Focus on Imagination and Creativity',
+    'text':'Learning programming is not the ultimate goal. We focus on pushing the kids\' imagination and creativity.',
+    'imageUrl':'img/my/roblox1/r5.jpg'
   },
 
   'curriculum' : {
@@ -66,15 +66,15 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'The fondation of Unity3D development'
+      'text':'Understand the process of developing games'
     },
     {
       'icon':'icon-Coding',
-      'text':'The basics of C# programming language'
+      'text':'The basics of Lua programming language'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Understanding of game modeling and algorithms'
+      'text':'Understanding of (3D) game modeling and algorithms'
     },
     {
       'icon':'icon-Server',
@@ -82,7 +82,7 @@ var courseData = {
     },
     {
       'icon':'icon-Idea',
-      'text':'AR and VR applications development skills'
+      'text':'Train students to adapt to new environments'
     },
     {
       'icon':'icon-Key',
@@ -178,8 +178,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'roblox2.html',
-  'cnUrl':'roblox2c.html'
+  'engUrl':'roblox1.html',
+  'cnUrl':'roblox1c.html'
 
 }
 
