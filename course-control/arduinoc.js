@@ -133,7 +133,7 @@ var courseData = {
       'date':'4/9 - 6/3 (8周)',
       'time':'每周三 5:00-6:30PM',
       'location':'尔湾'
-    },    
+    },
   ],
 
   'registrationEnabled':false,
