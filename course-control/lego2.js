@@ -27,7 +27,7 @@ var courseData = {
     'enabled':true,
     'title':'Learn Java with Your Robot Friend',
     'text':'Learn Java programming fundamentals while having fun.',
-    'imageUrl':'img/my/lego/lego-7.jpg'
+    'imageUrl':'img/my/lego/lego-7.png'
   },
 
   'promotion2':{
