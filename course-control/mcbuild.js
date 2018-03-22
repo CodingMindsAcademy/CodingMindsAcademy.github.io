@@ -130,29 +130,34 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mon 3:20-4:50PM',
+      'date':'6/18-6/22',
+      'time':'9:00AM-12:00PM',
       'location':'Irvine, CA'
     },
     {
-      'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wed 3:20-4:50PM',
+      'date':'7/9-7/13',
+      'time':'1:00PM-4:00PM',
       'location':'Irvine, CA'
     },
+    {
+      'date':'8/13-8/17',
+      'time':'9:00AM-12:00PM',
+      'location':'Irvine, CA'
+    }
   ],
 
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
     '1:6 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'REGISTER NOW',
 
   'faq':{

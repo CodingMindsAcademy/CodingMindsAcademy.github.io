@@ -130,29 +130,34 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10周)',
-      'time':'每周一 3:20-4:50PM',
+      'date':'6月18日-6月22日',
+      'time':'9:00AM-12:00PM',
       'location':'尔湾'
     },
     {
-      'date':'1/10 - 3/14 (10周)',
-      'time':'每周三 3:20-4:50PM',
+      'date':'7月9日-7月13日',
+      'time':'1:00PM-4:00PM',
       'location':'尔湾'
     },
+    {
+      'date':'8月13日-8月17日',
+      'time':'9:00AM-12:00PM',
+      'location':'尔湾'
+    }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
-  'price':'$595',
-  'allCreditCards':'支持各种信用卡支付',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/eZHWdR',
   'registerNow':'我要报名',
 
   'faq':{
@@ -165,12 +170,6 @@ var courseData = {
       'address1' : '980 Roosevelt, Suite 210',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
-    },
-    {
-      'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
     }
   ],
 
