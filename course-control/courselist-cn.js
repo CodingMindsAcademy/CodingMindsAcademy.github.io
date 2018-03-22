@@ -8,8 +8,8 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mcbuildc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'mcbuildc.html'
-		},		
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+		},
 		{
 			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
 			'imageUrl':'img/my/sprk-learn-5sm.jpg',
@@ -18,7 +18,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sprkc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'sprkc.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
@@ -28,7 +28,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'minecodec.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
@@ -38,7 +38,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'scratchc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'scratchc.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Roblox游戏开发与发布:游戏创业学编程',
@@ -48,7 +48,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox1c.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'roblox1c.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
@@ -58,8 +58,8 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'legoc.html'
-		},		
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+		},
 		{
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
 			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
@@ -68,7 +68,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unity3dc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'unity3dc.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Python编程初步：学做Minecraft游戏开发员',
@@ -78,7 +78,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'python-minecraftc.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'python-minecraftc.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
@@ -88,7 +88,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobilec.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'mobilec.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Lego机器人进阶之Java编程:用真正的编程控制机器人',
@@ -98,7 +98,7 @@ var courseList = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc2.html',
 			'registerTitle':'我要注册',
-			'registerUrl':'legoc2.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Python编程实践:动手编写真正的计算机应用程序',
