@@ -8,7 +8,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'mcbuild.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'mcbuild.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Robotics and Programming with SRPK',
@@ -18,7 +18,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'sprk.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'sprk.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Minecraft Programming with MakeCode',
@@ -28,8 +28,8 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'minecode.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'minecode.html'
-		},		
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+		},
 		{
 			'name':'Innovative Programming with MIT Scratch',
 			'imageUrl':'img/my/scratch/scratchbg.png',
@@ -38,7 +38,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'scratch.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'scratch.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Game Development with Roblox Studio',
@@ -48,7 +48,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'roblox1.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'roblox1.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Robotics and Programming with LEGO Mindstorms',
@@ -58,8 +58,8 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'lego.html'
-		},		
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+		},
 		{
 			'name':'3D Game Programming with Unity3D',
 			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
@@ -68,7 +68,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'unity3d.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'unity3d.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Python Programming with Minecraft',
@@ -78,7 +78,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'python-minecraft.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'python-minecraft.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Mobile App Programming with MIT App Inventor',
@@ -88,7 +88,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'mobile.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'mobile.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Advanced Robotics Programming with Java',
@@ -98,7 +98,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego2.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'lego2.html'
+			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
 		},
 		{
 			'name':'Python Programming: Build Real World Applications',
