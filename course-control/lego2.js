@@ -1,12 +1,12 @@
 var courseData = {
-  'courseTitle' : 'Robotics and Programming with LEGO Mindstorms | Coding Minds Academy',
-  'courseDescription' : 'Build and program your own EV3 robot!',
-  'topTitleLine1' : 'Robotics and Programming',
-  'topTitleLine2' : 'with LEGO Mindstorms',
-  'topGradeLevel' : 'Grade 4 - 8',
-  'topIntroText' : 'This course allows students to build and program the EV3 robots, implementing sensors and motors. Students can exercise their creativity and turn their ideas into reality, while learning how to communicate and cooperate with others and building critical thinking skills.',
+  'courseTitle' : 'Advanced Robotics Programming with Java | Coding Minds Academy',
+  'courseDescription' : 'Build and program your own EV3 robot using Java!',
+  'topTitleLine1' : 'Advanced Robotics Programming',
+  'topTitleLine2' : 'with Java',
+  'topGradeLevel' : 'Grade 6 - 8',
+  'topIntroText' : 'This course allows students to build and program the EV3 robots, implementing sensors and motors. This advanced Lego programming course teaches you how to control the robots using Java.',
 
-  'bgTitle':'Robotics and Programming with LEGO Mindstorms',
+  'bgTitle':'Advanced Robotics Programming with Java',
   'bgImageUrl':'img/my/lego/lego-bg.jpg',
   'bgText':'Build new experiences as you program your own robot!',
   'bgLearnMoreText':'Learn More about LEGO Mindstorms',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Robotics | Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'4 - 8',
+  'aboutGradeLevel':'6 - 8',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -25,9 +25,9 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'Learn with Your Robot Friend',
-    'text':'Learn programming fundamentals while having fun.',
-    'imageUrl':'img/my/lego/lego-2.jpg'
+    'title':'Learn Java with Your Robot Friend',
+    'text':'Learn Java programming fundamentals while having fun.',
+    'imageUrl':'img/my/lego/lego-7.jpg'
   },
 
   'promotion2':{
@@ -173,8 +173,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'lego.html',
-  'cnUrl':'legoc.html'
+  'engUrl':'lego2.html',
+  'cnUrl':'legoc2.html'
 
 }
 

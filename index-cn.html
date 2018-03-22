@@ -81,7 +81,6 @@
             <!--end bar-->
         </div>
         <div class="main-container">
-
             <section class="switchable">
                 <div class="container">
                     <div class="row">
@@ -110,63 +109,47 @@
                 </div>
                 <!--end of container-->
             </section>
+
             <section id="summercamp" class=" bg--secondary">
                 <div class="container">
-                    <h2 class="text-center">编程课程<br></h2>
-                    <div class="tabs-container text-center">
-                        <ul class="tabs">
-                            <li class="active">
-                                <div class="tab__title">
-                                    <span class="h5">2018编程夏令营</span>
-                                </div>
-                                <div class="tab__content">
-                                    <div class="row">
-                                        <div class="masonry">
-                                            <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <a href="{{course.detailsUrl}}">
-                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>{{course.name}}</h4>
-                                                            <span class="type--fade">{{course.gradeLevel}}</span>
-                                                            <p>
-                                                                {{course.text}}
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
-                                                                <a href="{{course.detailsUrl}}">
-                                                                    <i class="material-icons">flip_to_front</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
-                                                                <a href="{{course.registerUrl}}">
-                                                                    <i class="material-icons">favorite_border</i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                    <h2 class="text-center">2018编程夏令营<br></h2>
+                    <div class="row">
+                        <div class="masonry">
+                            <div class="masonry__container">
+                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
+                                    <div class="card card-2 text-center">
+                                        <div class="card__top">
+                                            <a href="{{course.detailsUrl}}">
+                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                            </a>
+                                        </div>
+                                        <div class="card__body">
+                                            <h4>{{course.name}}</h4>
+                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                            <br>
+                                            <span class="type--fade">{{course.date}}</span>
+                                            <p>
+                                                {{course.text}}
+                                            </p>
+                                        </div>
+                                        <div class="card__bottom text-center">
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                <a href="{{course.detailsUrl}}">
+                                                    <i class="material-icons">flip_to_front</i>
+                                                </a>
+                                            </div>
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                <a href="{{course.registerUrl}}">
+                                                    <i class="material-icons">favorite_border</i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <!-- <li>
-                                <div class="tab__title">
-                                    <span class="h5">2018年春季课程</span>
-                                </div>
-                                <div class="tab__content">
-                                    Content
-                                </div>
-                            </li> -->
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
