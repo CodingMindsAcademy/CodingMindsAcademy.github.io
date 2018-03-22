@@ -11,19 +11,9 @@ var courseList = {
 			'registerUrl':'mcbuild.html'
 		},
 		{
-			'name':'Minecraft Programming with MakeCode',
-			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'Grade 2-6',
-			'text':'Learn programming using the game kids all love',
-			'detailsTitle':'EXPLORE',
-			'detailsUrl':'minecode.html',
-			'registerTitle':'REGISTER',
-			'registerUrl':'minecode.html'
-		},
-		{
 			'name':'Robotics and Programming with SRPK',
 			'imageUrl':'img/my/sprk-learn-5sm.jpg',
-			'gradeLevel':'Grade 2-6',
+			'gradeLevel':'Grade K-2',
 			'text':'Learn how to program and control a robot, and enter the world of coding',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'sprk.html',
@@ -31,9 +21,19 @@ var courseList = {
 			'registerUrl':'sprk.html'
 		},
 		{
+			'name':'Minecraft Programming with MakeCode',
+			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
+			'gradeLevel':'Grade 3-5',
+			'text':'Learn programming using the game kids all love',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'minecode.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'minecode.html'
+		},		
+		{
 			'name':'Innovative Programming with MIT Scratch',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'Grade 2-6',
+			'gradeLevel':'Grade 3-5',
 			'text':'Learn programming and create games and animations while having fun',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'scratch.html',
@@ -43,7 +43,7 @@ var courseList = {
 		{
 			'name':'Game Development with Roblox Studio',
 			'imageUrl':'img/my/roblox1/bg-sm.jpg',
-			'gradeLevel':'Grade 3-6',
+			'gradeLevel':'Grade 3-5',
 			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'roblox1.html',
@@ -53,37 +53,17 @@ var courseList = {
 		{
 			'name':'Robotics and Programming with LEGO Mindstorms',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
-			'gradeLevel':'Grade 4-8',
+			'gradeLevel':'Grade 3-5',
 			'text':'Build and program your own EV3 robot from your tablet or computer!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego.html',
 			'registerTitle':'REGISTER',
 			'registerUrl':'lego.html'
-		},
-		{
-			'name':'Electrical Engineer Growth Path: Arduino Programming',
-			'imageUrl':'img/my/arduino/arduino-bg-sm.jpg',
-			'gradeLevel':'Grade 6-12',
-			'text':'Create intelligent electronic systems. Learn software in the world of hardware.',
-			'detailsTitle':'EXPLORE',
-			'detailsUrl':'arduino.html',
-			'registerTitle':'REGISTER',
-			'registerUrl':'arduinoc.html'
-		},
-		{
-			'name':'Advanced Roblox Game Development and Lua',
-			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
-			'gradeLevel':'Grade 7-12',
-			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
-			'detailsTitle':'EXPLORE',
-			'detailsUrl':'roblox2.html',
-			'registerTitle':'REGISTER',
-			'registerUrl':'roblox2.html'
-		},
+		},		
 		{
 			'name':'3D Game Programming with Unity3D',
 			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
-			'gradeLevel':'Grade 7-12',
+			'gradeLevel':'Grade 6-8',
 			'text':'Learn the professional 3D game programming. Grow from a game player to a developer.',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'unity3d.html',
@@ -93,7 +73,7 @@ var courseList = {
 		{
 			'name':'Python Programming with Minecraft',
 			'imageUrl':'img/my/pythonmine/pyminebghp.jpg',
-			'gradeLevel':'Grade 7-12',
+			'gradeLevel':'Grade 6-8',
 			'text':'Learn the most pupular programming Python using the most popular game Minecraft',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'python-minecraft.html',
@@ -103,7 +83,7 @@ var courseList = {
 		{
 			'name':'Mobile App Programming with MIT App Inventor',
 			'imageUrl':'img/my/app-dev-2sm.jpg',
-			'gradeLevel':'Grade 7-12',
+			'gradeLevel':'Grade 6-8',
 			'text':'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'mobile.html',
@@ -111,14 +91,44 @@ var courseList = {
 			'registerUrl':'mobile.html'
 		},
 		{
+			'name':'Advanced Robotics Programming with Java',
+			'imageUrl':'img/my/lego/lego2-bg-sm.jpg',
+			'gradeLevel':'Grade 3-5',
+			'text':'Build and program Java to control your own EV3 robot. ',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'lego2.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'lego2.html'
+		},
+		{
 			'name':'Python Programming: Build Real World Applications',
 			'imageUrl':'img/my/python-learn-3.jpg',
-			'gradeLevel':'Grade 7-12',
+			'gradeLevel':'Grade 6-8',
 			'text':'Learn the most popular programming language in the industry',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'python.html',
 			'registerTitle':'REGISTER',
 			'registerUrl':'python.html'
+		},
+		{
+			'name':'Electrical Engineer Growth Path: Arduino Programming',
+			'imageUrl':'img/my/arduino/arduino-bg-sm.jpg',
+			'gradeLevel':'Grade 6-8',
+			'text':'Create intelligent electronic systems. Learn software in the world of hardware.',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'arduino.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'arduinoc.html'
+		},
+		{
+			'name':'Advanced Roblox Game Development and Lua',
+			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
+			'gradeLevel':'Grade 6-8',
+			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'roblox2.html',
+			'registerTitle':'REGISTER',
+			'registerUrl':'roblox2.html'
 		},
 		{
 			'name':'AP CS Boot Camp: Intro to Java Programming',
