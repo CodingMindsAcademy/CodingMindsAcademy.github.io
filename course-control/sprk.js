@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn how to program and control a robot, and enter the world of coding',
   'topTitleLine1' : 'Robotics and Programming with SPRK',
   'topTitleLine2' : '',
-  'topGradeLevel' : 'Grade 2 - 6',
+  'topGradeLevel' : 'Grade K - 2',
   'topIntroText' : 'SPRK is far more than just a robot; it’s your vehicle to discovery. Connect to the Lightning Lab app to learn programming, complete activities, and get inspired through connected play and coding. This robot opens the world of coding.',
 
   'bgTitle':'Learn Programming with a SPRK Robot',
@@ -16,7 +16,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Robotics | Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'2 - 6',
+  'aboutGradeLevel':'K - 2',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -170,12 +170,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
