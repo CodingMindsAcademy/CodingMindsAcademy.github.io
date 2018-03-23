@@ -2,7 +2,7 @@ var courseData = {
   'courseTitle' : 'Unity3D游戏开发体验 | Coding Minds 编程思维',
   'topTitleLine1' : 'Unity3D',
   'topTitleLine2' : '游戏开发体验',
-  'topGradeLevel' : '7-12 年级',
+  'topGradeLevel' : '6-8 年级',
   'topIntroText' : 'Unity3D是目前世界最流行的游戏与VR/AR开发引擎。即使从零开始学习计算机编程，也可以通过Unity3D的强大功能自主制作出专业的3D游戏应用程序。无需等待，在中学你就可以挥洒创意，创作出你自己想玩的游戏。',
 
   'bgTitle':'Unity3D游戏开发体验',
@@ -10,12 +10,12 @@ var courseData = {
   'bgLearnMoreText':'了解更多Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
-  'aboutTitle':'关于课程',  
+  'aboutTitle':'关于课程',
   'aboutText':'学习专业游戏编程，从游戏玩家到游戏开发员之路',
   'aboutCategoryTitle':'类别',
-  'aboutCategory':'游戏编程',  
+  'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'7-12',
+  'aboutGradeLevel':'6-8',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
@@ -90,7 +90,7 @@ var courseData = {
 
   'highlightsTitle':'教学特点',
   'highlights':[
-    {    
+    {
       'icon':'icon-Fashion',
       'title':'兴趣乐趣第一位',
       'text':'有趣是我们课程内容的第一要求，了解学生的兴趣才能设计出学生喜欢的课程。'
@@ -100,17 +100,17 @@ var courseData = {
       'title':'和专业老师学习',
       'text':'学习知识的同时也学习现实中的科研与应用，丰富自己的经历和机会。'
     },
-    {    
+    {
       'icon':'icon-Hand',
       'title':'互动比赛答疑',
       'text':'为什么不用网络课堂？学生喜欢现场的互动，交流和比赛。'
     },
-    {    
+    {
       'icon':'icon-Air-Balloon',
       'title':'配套阶梯训练',
       'text':'动手才是硬道理，边学边练效果好。知识掌握得更加踏实！'
     },
-    {    
+    {
       'icon':'icon-Idea',
       'title':'培养创造创新力',
       'text':'学习编程并不是最终目标，培养发现问题、动手解决问题的能力更为重要。'
@@ -119,33 +119,43 @@ var courseData = {
       'icon':'icon-Key',
       'title':'科学竞赛大学申请',
       'text':'计算机编程只是开始，做项目，参加科学竞赛才是大学申请的真正利器！'
-    },    
+    },
   ],
 
   'sessionsTitle':'选择适合您的课程时间',
   'sessionsTimeTitle':'时间',
   'sessionsDateTitle':'日期',
   'sessionsLocationTitle':'地点',
-  'sessions':[    
+  'sessions':[
     {
-      'date':'1/10 - 3/14 (10周)',
-      'time':'每周三 5:00-6:30PM',
+      'date':'6月25日 - 6月29日',
+      'time':'1:00PM - 4:00PM',
       'location':'尔湾'
     },
+    {
+      'date':'7月16日 - 7月20日',
+      'time':'9:00AM - 12:00PM',
+      'location':'尔湾'
+    },
+    {
+      'date':'8月13日 - 8月17日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
+    }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'报名价格',
-  'price':'$595',
-  'allCreditCards':'支持各种信用卡支付',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'我要报名',
 
   'faq':{
@@ -159,12 +169,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'想现在加入到快乐中学习编程吗?',

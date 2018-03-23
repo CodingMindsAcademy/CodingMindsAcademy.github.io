@@ -2,7 +2,7 @@ var courseData = {
   'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
   'topTitleLine1' : 'Game Programming',
   'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grade 7 - 12',
+  'topGradeLevel' : 'Grades 6 - 8',
   'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
 
   'bgTitle':'Game Programming with Unity3D',
@@ -10,12 +10,12 @@ var courseData = {
   'bgLearnMoreText':'Learn More about Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
-  'aboutTitle':'About the Course',  
+  'aboutTitle':'About the Course',
   'aboutText':'Learn programming with game development. Build your own game without limits.',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Game Development',  
+  'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'6 - 8',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -90,7 +90,7 @@ var courseData = {
 
   'highlightsTitle':'Course Highlights',
   'highlights':[
-    {    
+    {
       'icon':'icon-Fashion',
       'title':'Always Having Fun',
       'text':'Fun programming is our top priority when designing all the content'
@@ -100,17 +100,17 @@ var courseData = {
       'title':'Learn with Professionals',
       'text':'Gain extra experiences about the real industry and research'
     },
-    {    
+    {
       'icon':'icon-Hand',
       'title':'Live Interactions',
       'text':'Get your question answered in class and compete with your classmates'
     },
-    {    
+    {
       'icon':'icon-Air-Balloon',
       'title':'Well-Designed Assignments and Projects',
       'text':'Learn by doing is the key for CS study, all the assignments and projects are design for the goals'
     },
-    {    
+    {
       'icon':'icon-Idea',
       'title':'Focus on Imagination and Creativity',
       'text':'Learning programming is not the ultimate goal. We focus on pushing the kids\' imagination and creativity'
@@ -119,26 +119,36 @@ var courseData = {
       'icon':'icon-Key',
       'title':'Apply Colleges with More Experiences',
       'text':'Programming is just the first step. Build projects, attend science fairs will help you get into the top unversities'
-    },    
+    },
   ],
 
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
   'sessionsLocationTitle':'Location',
-  'sessions':[    
+  'sessions':[
     {
-      'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wed 5:00-6:30PM',
+      'date':'6/25 - 6/29',
+      'time':'1:00PM - 4:00PM',
       'location':'Irvine, CA'
     },
+    {
+      'date':'7/16 - 7/20',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/13 - 8/17',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
@@ -159,12 +169,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',

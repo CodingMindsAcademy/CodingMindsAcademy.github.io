@@ -135,7 +135,7 @@ var courseData = {
       'location':'Irvine, CA'
     },
     {
-      'date':'7/9 - 7/13',
+      'date':'7/9 - 7/12',
       'time':'1:00PM - 4:00PM',
       'location':'Irvine, CA'
     },
