@@ -156,7 +156,7 @@ var courseData = {
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
+  'registrationLink':'https://jinshuju.net/f/eZHWdR',
   'registerNow':'我要报名',
 
   'faq':{

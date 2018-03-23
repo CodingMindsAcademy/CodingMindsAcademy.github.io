@@ -157,7 +157,7 @@ var courseData = {
     '1:6 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
+  'registrationLink':'https://jinshuju.net/f/eZHWdR',
   'registerNow':'REGISTER NOW',
 
   'faq':{
