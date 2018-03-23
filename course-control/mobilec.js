@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
   'topTitleLine1' : 'MIT手机APP发明家',
   'topTitleLine2' : '动手编写自己的APP做小创业者',
-  'topGradeLevel' : '7-12 年级',
+  'topGradeLevel' : '6-8 年级',
   'topIntroText' : '如果你厌倦了玩自己手机上的App，为什么不自己动手做真正属于自己的App程序？通过学习MIT手机App发明家程序，你可以实践做一把真正的App程序员，并且发布自己的App到谷歌的App商店，说不定下一个成功的创业者就是你！',
 
   'bgTitle':'开发并发布你自己的APP到Google Play应用商店',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'7-12',
+  'aboutGradeLevel':'6-8',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
@@ -130,29 +130,34 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
-      'date':'1/10 - 2/28 (8周)',
-      'time':'每周二 4:00-5:30PM',
-      'location':'Rancho Cucamonga'
+      'date':'6月18日 - 6月22日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
     },
     {
-      'date':'日期待定',
-      'time':'每周一 5:00-6:30PM',
+      'date':'7月9日 - 7月12日',
+      'time':'9:00AM - 12:00PM',
+      'location':'尔湾'
+    },
+    {
+      'date':'8月6日 - 8月10日',
+      'time':'9:00AM - 12:00PM',
       'location':'尔湾'
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
-  'price':'$595',
-  'allCreditCards':'支持各种信用卡支付',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'我要报名',
 
   'faq':{
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'想现在加入到快乐中学习编程吗?',

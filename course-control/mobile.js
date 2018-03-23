@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
   'topTitleLine1' : 'Mobile App Programming ',
   'topTitleLine2' : 'with MIT App Inventor',
-  'topGradeLevel' : 'Grade 7 - 12',
+  'topGradeLevel' : 'Grades 6 - 8',
   'topIntroText' : 'Tired of playing apps or games on your parents\' phones? Why don\'t you build your own? You will learn how to make real mobile apps with the most popular mobile technologies and solve real world problems.',
 
   'bgTitle':'Build and Publish Apps to Google Play',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Programming | Mobile',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'6 - 8',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -130,22 +130,27 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/10 - 2/28 (8 Weeks)',
-      'time':'Tue 4:00-5:30PM',
-      'location':'Rancho Cucamonga'
+      'date':'6/18 - 6/22',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
     },
     {
-      'date':'TBD',
-      'time':'Mon 5:00-6:30PM',
+      'date':'7/9 - 7/13',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/6 - 8/10',
+      'time':'9:00AM - 12:00PM',
       'location':'Irvine, CA'
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
