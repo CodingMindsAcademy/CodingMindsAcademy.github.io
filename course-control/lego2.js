@@ -130,17 +130,27 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mon 3:20-4:50PM',
+      'date':'6/25 - 6/29',
+      'time':'9:00AM - 12:00PM',
       'location':'Irvine, CA'
     },
+    {
+      'date':'7/16 - 7/20',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/6 - 8/10',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    }
   ],
 
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
@@ -161,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
