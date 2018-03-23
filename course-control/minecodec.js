@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '使用图形化的编程语言来控制制作自己的Minecraft游戏,把自己对Minecraft的游戏设想变为现实',
   'topTitleLine1' : 'Minecraft我的世界',
   'topTitleLine2' : '创新编程与实践',
-  'topGradeLevel' : '2-6 年级',
+  'topGradeLevel' : '3-5 年级',
   'topIntroText' : '微软公司为了普及和引导青少年学习编程的热情，推出MakeCode的趣味编程平台，使中小学生使用图形化的编程语言来控制制作自己的Minecraft游戏。使用MakeCode，你可以把自己对Minecraft的游戏设想变为现实，成为一名Minecraft游戏的小开发者。',
 
   'bgTitle':'Minecraft创新编程与实践',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'2-6（按照年级分班）',
+  'aboutGradeLevel':'3-5（按照年级分班）',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
@@ -130,29 +130,34 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10周)',
-      'time':'每周一 3:20-4:50PM',
+      'date':'6月25日 - 6月29日',
+      'time':'9:00AM - 12:00PM',
       'location':'尔湾'
     },
     {
-      'date':'1/10 - 3/14 (10周)',
-      'time':'每周三 3:20-4:50PM',
+      'date':'7月16日 - 7月20日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
+    },
+    {
+      'date':'8月13日 - 8月17日',
+      'time':'9:00AM - 12:00PM',
       'location':'尔湾'
     },
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'报名价格',
-  'price':'$595',
-  'allCreditCards':'支持各种信用卡支付',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'我要报名',
 
   'faq':{
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'想现在加入到快乐中学习编程吗?',
