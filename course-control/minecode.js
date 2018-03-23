@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn the block programming and make changes on your favorite game.',
   'topTitleLine1' : 'Minecraft Programming',
   'topTitleLine2' : 'with MakeCode',
-  'topGradeLevel' : 'Grade 2 - 6',
+  'topGradeLevel' : 'Grade 3 - 5',
   'topIntroText' : 'Learn the latest kids-coding platform - MakeCode from Microsoft, and become a Minecraft game developer to change the game in your dream way.',
 
   'bgTitle':'Minecraft Programming with MakeCode',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'2 - 6',
+  'aboutGradeLevel':'3 - 5',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -130,29 +130,34 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mondays 3:20-4:50PM',
-      'location':'Irvine'
+      'date':'6/25 - 6/29',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
     },
     {
-      'date':'1/10 - 3/14 (10 Weeks)',
-      'time':'Wednesdays 3:20-4:50PM',
-      'location':'Irvine'
+      'date':'7/16 - 7/20',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/13 - 8/17',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
     },
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
     '1:6 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'REGISTER NOW',
 
   'faq':{
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
