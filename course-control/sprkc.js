@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
   'topTitleLine1' : '和SPRK机器人一起学习编程',
   'topTitleLine2' : '',
-  'topGradeLevel' : '年级 2 - 6',
+  'topGradeLevel' : '年级 K - 2',
   'topIntroText' : 'SPRK机器人旨在通过互联游戏和编程来激发好奇心、创造力与发明才能，其作用远远不止是一个机器人。将它与你的手机一起使用，轻松学习编程，完成实操性活动，并在社区分享你创作的作品。穿越迷宫、为画作编程、模拟太阳系，自由发挥你的想象力。',
 
   'bgTitle':'学习编程控制你的SPRK机器人',
@@ -16,7 +16,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'机器人 | 编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'2 - 6',
+  'aboutGradeLevel':'K - 2',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
@@ -129,29 +129,34 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10周)',
-      'time':'每周一 3:20-4:50PM',
-      'location':'尔湾 (Irvine, CA)'
+      'date':'6月25日 - 6月29日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
     },
     {
-      'date':'1/10 - 3/14 (10周)',
-      'time':'每周三 3:20-4:50PM',
-      'location':'尔湾 (Irvine, CA)'
+      'date':'7月16日 - 7月20日',
+      'time':'9:00AM - 12:00PM',
+      'location':'尔湾'
+    },
+    {
+      'date':'8月6日 - 8月10日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
     },
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
-  'price':'$595',
-  'allCreditCards':'支持各种信用卡支付',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'我要报名',
 
   'faq':{
@@ -165,12 +170,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'想现在加入到快乐中学习编程吗?',
