@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学Scratch编程，制作游戏和动画，寓教于乐才是硬道理',
   'topTitleLine1' : 'MIT Scratch',
   'topTitleLine2' : '创新编程与实践',
-  'topGradeLevel' : '2-6 年级',
+  'topGradeLevel' : '3-5 年级',
   'topIntroText' : 'Scratch是由MIT开发的一款青少年编程工具。使用 Scratch，你可以编写属于你自己的互动媒体，比如故事、游戏、动画，然后你可以将你的创意分享给全世界。 Scratch 帮助年轻人更具创造力、逻辑力、协作力。 这些都是21世纪不可或缺的基本能力。',
 
   'bgTitle':'MIT Scratch创新编程与实践',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'趣味编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'2-6',
+  'aboutGradeLevel':'3-5',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者',
   'aboutRatioTitle':'师生比例',
@@ -130,21 +130,26 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
-      'date':'1/10 - 2/28 (8周)',
-      'time':'每周二 4:00-5:30PM',
-      'location':'Rancho Cucamonga'
+      'date':'6月18日 - 6月22日',
+      'time':'9:00AM - 12:00PM',
+      'location':'尔湾'
     },
     {
-      'date':'日期待定',
-      'time':'每周一 3:20-4:50PM',
+      'date':'7月9日 - 7月12日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
+    },
+    {
+      'date':'8月6日 - 8月10日',
+      'time':'9:00AM - 12:00PM',
       'location':'尔湾'
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
-  'price':'$595',
+  'price':'$445',
   'allCreditCards':'支持各种信用卡支付',
   'priceItems':[
     '第一节课免费试听',
@@ -152,7 +157,7 @@ var courseData = {
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'我要报名',
 
   'faq':{
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'想现在加入到快乐中学习编程吗?',
