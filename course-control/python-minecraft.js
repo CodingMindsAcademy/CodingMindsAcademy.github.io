@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn Python programming with Minecraft.',
   'topTitleLine1' : 'Python Programming',
   'topTitleLine2' : 'with Minecraft',
-  'topGradeLevel' : 'Grade 7 - 12',
+  'topGradeLevel' : 'Grades 6 - 8',
   'topIntroText' : 'Python has become the most popular programming language in the cutting-edge fields. This course introduces Python programming with the game all students love - Minecraft.',
 
   'bgTitle':'Python Programming with Minecraft',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Python',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 12',
+  'aboutGradeLevel':'6 - 8',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -130,22 +130,27 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mondays 5:00-6:30PM',
-      'location':'Irvine'
+      'date':'6/18 - 6/22',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
     },
     {
-      'date':'1/13 - 3/17 (10 Weeks)',
-      'time':'Saturdays 9:30-11:00AM',
-      'location':'Rancho Cucamonga'
+      'date':'7/9 - 7/13',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/13 - 8/17',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
