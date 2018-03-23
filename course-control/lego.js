@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Build and program your own EV3 robot!',
   'topTitleLine1' : 'Robotics and Programming',
   'topTitleLine2' : 'with LEGO Mindstorms',
-  'topGradeLevel' : 'Grade 4 - 8',
+  'topGradeLevel' : 'Grade 3 - 5',
   'topIntroText' : 'This course allows students to build and program the EV3 robots, implementing sensors and motors. Students can exercise their creativity and turn their ideas into reality, while learning how to communicate and cooperate with others and building critical thinking skills.',
 
   'bgTitle':'Robotics and Programming with LEGO Mindstorms',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Robotics | Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'4 - 8',
+  'aboutGradeLevel':'3 - 5',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -130,24 +130,34 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/8 - 3/12 (10 Weeks)',
-      'time':'Mon 3:20-4:50PM',
+      'date':'6/18 - 6/22',
+      'time':'1:00PM - 4:00PM',
       'location':'Irvine, CA'
     },
+    {
+      'date':'7/9 - 7/13',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/6 - 8/10',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    }
   ],
 
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
     '1:6 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
   'registerNow':'REGISTER NOW',
 
   'faq':{
