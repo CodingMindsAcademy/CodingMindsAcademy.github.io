@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn to create games and animations with Scratch.',
   'topTitleLine1' : 'Innovative Programming',
   'topTitleLine2' : 'with MIT Scratch',
-  'topGradeLevel' : 'Grade 2-6',
+  'topGradeLevel' : 'Grade 3 - 5',
   'topIntroText' : 'Scratch is a visual programming language designed by MIT. With Scratch, you can create your own interactive stories, games, and animations, and share them with the rest of the world. Scratch helps young people think creatively, logically, and work collaboratively, which are essential skills in the 21st century.',
 
   'bgTitle':'Innovative Programming with MIT Scratch',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Block Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'2 - 6',
+  'aboutGradeLevel':'3 - 5',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -130,22 +130,27 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'1/10 - 2/28 (8 Weeks)',
-      'time':'Tue 4:00-5:30PM',
-      'location':'Rancho Cucamonga'
+      'date':'6/18 - 6/22',
+      'time':'9:00AM - 12:00PM',
+      'location':'Irvine, CA'
     },
     {
-      'date':'TBD',
-      'time':'Mon 3:20-4:50PM',
+      'date':'7/9 - 7/12',
+      'time':'1:00PM - 4:00PM',
+      'location':'Irvine, CA'
+    },
+    {
+      'date':'8/6 - 8/10',
+      'time':'9:00AM - 12:00PM',
       'location':'Irvine, CA'
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$595',
-  'allCreditCards':'All credit cards are supported',
+  'price':'$445',
+  'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
@@ -166,12 +171,6 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
-    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
