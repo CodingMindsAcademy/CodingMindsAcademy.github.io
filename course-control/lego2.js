@@ -149,7 +149,7 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$445',
+  'price':'$450',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
