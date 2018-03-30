@@ -8,7 +8,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'mcbuild.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'mcbuild.html'
 		},
 		{
 			'name':'Robotics and Programming with SRPK',
@@ -18,47 +18,47 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'sprk.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'sprk.html'
 		},
 		{
 			'name':'Minecraft Programming with MakeCode',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'Grade 3-5',
+			'gradeLevel':'Grade 2-5',
 			'text':'Learn programming using the game kids all love',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'minecode.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'minecode.html'
 		},
 		{
 			'name':'Innovative Programming with MIT Scratch',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'Grade 3-5',
+			'gradeLevel':'Grade 2-5',
 			'text':'Learn programming and create games and animations while having fun',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'scratch.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'scratch.html'
 		},
 		{
 			'name':'Game Development with Roblox Studio',
 			'imageUrl':'img/my/roblox1/bg-sm.jpg',
-			'gradeLevel':'Grade 3-5',
+			'gradeLevel':'Grade 2-5',
 			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'roblox1.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'roblox1.html'
 		},
 		{
 			'name':'Robotics and Programming with LEGO Mindstorms',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
-			'gradeLevel':'Grade 3-5',
+			'gradeLevel':'Grade 2-5',
 			'text':'Build and program your own EV3 robot from your tablet or computer!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'lego.html'
 		},
 		{
 			'name':'3D Game Programming with Unity3D',
@@ -68,7 +68,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'unity3d.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'unity3d.html'
 		},
 		{
 			'name':'Python Programming with Minecraft',
@@ -78,7 +78,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'python-minecraft.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'python-minecraft.html'
 		},
 		{
 			'name':'Mobile App Programming with MIT App Inventor',
@@ -88,7 +88,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'mobile.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'mobile.html'
 		},
 		{
 			'name':'Advanced Robotics Programming with Java',
@@ -98,7 +98,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego2.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'https://jinshuju.net/f/Nfh8W6'
+			'registerUrl':'lego2.html'
 		},
 		{
 			'name':'Python Programming: Build Real World Applications',
@@ -118,7 +118,7 @@ var courseList = {
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'arduino.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'arduinoc.html'
+			'registerUrl':'arduino.html'
 		},
 		{
 			'name':'Advanced Roblox Game Development and Lua',
