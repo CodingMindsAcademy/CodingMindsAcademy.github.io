@@ -57,7 +57,7 @@ var courseData = {
   },
 
   'curriculum' : {
-    'enabled':false
+    'enabled':true
   },
 
   'goalsTtile' : '课程学习收获和目标',

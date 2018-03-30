@@ -59,7 +59,7 @@ var courseData = {
   },
 
   'curriculum' : {
-    'enabled':false
+    'enabled':true
   },
 
   'goalsTtile' : 'Top Skills Students Will Learn',
