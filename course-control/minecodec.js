@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '使用图形化的编程语言来控制制作自己的Minecraft游戏,把自己对Minecraft的游戏设想变为现实',
   'topTitleLine1' : 'Minecraft我的世界',
   'topTitleLine2' : '创新编程与实践',
-  'topGradeLevel' : '3-5 年级',
+  'topGradeLevel' : '2-5 年级',
   'topIntroText' : '微软公司为了普及和引导青少年学习编程的热情，推出MakeCode的趣味编程平台，使中小学生使用图形化的编程语言来控制制作自己的Minecraft游戏。使用MakeCode，你可以把自己对Minecraft的游戏设想变为现实，成为一名Minecraft游戏的小开发者。',
 
   'bgTitle':'Minecraft创新编程与实践',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'3-5（按照年级分班）',
+  'aboutGradeLevel':'2-5',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
@@ -59,7 +59,7 @@ var courseData = {
   },
 
   'curriculum' : {
-    'enabled':false
+    'enabled':true
   },
 
   'goalsTtile' : '课程学习收获和目标',
@@ -149,8 +149,8 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'报名价格',
-  'price':'$445',
-  'allCreditCards':'',
+  'price':'$450',
+  'allCreditCards':'报多门课程享受优惠',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',

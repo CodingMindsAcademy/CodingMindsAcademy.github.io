@@ -57,7 +57,7 @@ var courseData = {
   },
 
   'curriculum' : {
-    'enabled':false
+    'enabled':true
   },
 
   'goalsTtile' : '课程学习收获和目标',
@@ -147,8 +147,8 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'报名价格',
-  'price':'$445',
-  'allCreditCards':'',
+  'price':'$450',
+  'allCreditCards':'报多门课程享受优惠',
   'priceItems':[
     '第一节课免费试听',
     '和专业老师学习编程',

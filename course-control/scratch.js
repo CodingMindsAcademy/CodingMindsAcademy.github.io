@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn to create games and animations with Scratch.',
   'topTitleLine1' : 'Innovative Programming',
   'topTitleLine2' : 'with MIT Scratch',
-  'topGradeLevel' : 'Grade 3 - 5',
+  'topGradeLevel' : 'Grade 2 - 5',
   'topIntroText' : 'Scratch is a visual programming language designed by MIT. With Scratch, you can create your own interactive stories, games, and animations, and share them with the rest of the world. Scratch helps young people think creatively, logically, and work collaboratively, which are essential skills in the 21st century.',
 
   'bgTitle':'Innovative Programming with MIT Scratch',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Block Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'3 - 5',
+  'aboutGradeLevel':'2 - 5',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner',
   'aboutRatioTitle':'Ratio Guarantee',

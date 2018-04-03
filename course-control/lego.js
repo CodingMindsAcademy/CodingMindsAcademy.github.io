@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Build and program your own EV3 robot!',
   'topTitleLine1' : 'Robotics and Programming',
   'topTitleLine2' : 'with LEGO Mindstorms',
-  'topGradeLevel' : 'Grade 3 - 5',
+  'topGradeLevel' : 'Grade 2 - 5',
   'topIntroText' : 'This course allows students to build and program the EV3 robots, implementing sensors and motors. Students can exercise their creativity and turn their ideas into reality, while learning how to communicate and cooperate with others and building critical thinking skills.',
 
   'bgTitle':'Robotics and Programming with LEGO Mindstorms',
@@ -149,7 +149,7 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$445',
+  'price':'$450',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
@@ -170,12 +170,6 @@ var courseData = {
       'address1' : '980 Roosevelt, Suite 210',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
-    },
-    {
-      'name' : 'Rancho Cucamonga Classroom',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
     }
   ],
 
