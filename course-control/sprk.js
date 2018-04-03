@@ -25,7 +25,7 @@ var courseData = {
   'promotion1':{
     'enabled':true,
     'title':'Learn with Your Robot Friend',
-    'text':'You are going to spend the entire camp with your robot friend &mdash; SPRK. SPRK is smart and understands your commands. Your job is to learn how to program the commands in order to let SPRK accomplish challenging tasks.',
+    'text':'You are going to spend the entire camp with your robot friend - SPRK. SPRK is smart and understands your commands. Your job is to learn how to program the commands in order to let SPRK accomplish challenging tasks.',
     'imageUrl':'img/my/sprk-learn-3.jpg'
   },
 
