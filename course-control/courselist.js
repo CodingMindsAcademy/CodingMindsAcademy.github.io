@@ -93,7 +93,7 @@ var courseList = {
 		{
 			'name':'Advanced Robotics Programming with Java',
 			'imageUrl':'img/my/lego/lego2-bg-sm.jpg',
-			'gradeLevel':'Grade 3-5',
+			'gradeLevel':'Grade 6-8',
 			'text':'Build and program Java to control your own EV3 robot. ',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego2.html',
