@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn the block programming and make changes on your favorite game.',
   'topTitleLine1' : 'Minecraft Programming',
   'topTitleLine2' : 'with MakeCode',
-  'topGradeLevel' : 'Grade 3 - 5',
+  'topGradeLevel' : 'Grade 2 - 5',
   'topIntroText' : 'Learn the latest kids-coding platform - MakeCode from Microsoft, and become a Minecraft game developer to change the game in your dream way.',
 
   'bgTitle':'Minecraft Programming with MakeCode',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'3 - 5',
+  'aboutGradeLevel':'2 - 5',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
