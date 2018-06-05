@@ -190,6 +190,16 @@ var courseList = {
 			'registerTitle':'我要注册',
 			'registerUrl':'cepythonc.html'
 		},
+		{
+			'name':'名校申请背景强化课程：人工智能基础与项目实践',
+			'imageUrl':'img/my/ceml/ai-sm.jpg',
+			'gradeLevel':'9-12年级',
+			'text':'学习Python算法，开发人工智能应用项目，为科学竞赛、课外项目和创业充实内容和经历',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'cemlc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'cemlc.html'
+		},
 	]
 }
 
