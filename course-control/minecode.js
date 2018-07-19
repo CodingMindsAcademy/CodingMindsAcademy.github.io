@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn the block programming and make changes on your favorite game.',
   'topTitleLine1' : 'Minecraft Programming',
   'topTitleLine2' : 'with MakeCode',
-  'topGradeLevel' : 'Grade 2 - 5',
+  'topGradeLevel' : 'Grade 3 - 6',
   'topIntroText' : 'Learn the latest kids-coding platform - MakeCode from Microsoft, and become a Minecraft game developer to change the game in your dream way.',
 
   'bgTitle':'Minecraft Programming with MakeCode',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'2 - 5',
+  'aboutGradeLevel':'3 - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -140,6 +140,11 @@ var courseData = {
       'location':'Irvine, CA'
     },
     {
+      'date':'7/23 - 7/27',
+      'time':'9:00AM - 12:00PM',
+      'location':'Arcadia, CA'
+    },
+    {
       'date':'8/13 - 8/17',
       'time':'9:00AM - 12:00PM',
       'location':'Irvine, CA'
@@ -149,12 +154,12 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$445',
+  'price':'$450',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
-    '1:6 teacher to students ratio',
+    '1:4 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
   'registrationLink':'https://jinshuju.net/f/eZHWdR',
@@ -171,6 +176,12 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
     },
+    {
+      'name' : 'Arcadia Classroom',
+      'address1' : 'TBD',
+      'address2' : 'Arcadia, CA 91007',
+      'addressMap' : 'Arcadia, CA 91007'
+    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',

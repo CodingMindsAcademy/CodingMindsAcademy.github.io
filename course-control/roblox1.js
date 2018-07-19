@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn programming fundamentals and create your own games with Roblox Studio!',
   'topTitleLine1' : 'Game Development',
   'topTitleLine2' : 'with Roblox Studio',
-  'topGradeLevel' : 'Grades 2 - 5',
+  'topGradeLevel' : 'Grades 3 - 6',
   'topIntroText' : 'Roblox is a massively multiplayer online game creation platform with over six thousand users online every month. Roblox Studio allows users to develop their own games and share it with others in the community.',
 
   'bgTitle':'Game Development with Roblox Studio',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'3 - 5',
+  'aboutGradeLevel':'3 - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -140,6 +140,11 @@ var courseData = {
       'location':'Irvine, CA'
     },
     {
+      'date':'7/23 - 7/27',
+      'time':'1:00PM - 4:00PM',
+      'location':'Arcadia, CA'
+    },
+    {
       'date':'8/13 - 8/17',
       'time':'1:00PM - 4:00PM',
       'location':'Irvine, CA'
@@ -149,12 +154,12 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$445',
+  'price':'$450',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
-    '1:6 teacher to students ratio',
+    '1:4 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
   'registrationLink':'https://jinshuju.net/f/Nfh8W6',
@@ -170,6 +175,12 @@ var courseData = {
       'address1' : '980 Roosevelt, Suite 210',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+    },
+    {
+      'name' : 'Arcadia Classroom',
+      'address1' : 'TBD',
+      'address2' : 'Arcadia, CA 91007',
+      'addressMap' : 'Arcadia, CA 91007'
     },
   ],
 

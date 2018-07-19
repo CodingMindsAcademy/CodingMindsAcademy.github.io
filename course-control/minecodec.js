@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '使用图形化的编程语言来控制制作自己的Minecraft游戏,把自己对Minecraft的游戏设想变为现实',
   'topTitleLine1' : 'Minecraft我的世界',
   'topTitleLine2' : '创新编程与实践',
-  'topGradeLevel' : '2-5 年级',
+  'topGradeLevel' : '3-6 年级',
   'topIntroText' : '微软公司为了普及和引导青少年学习编程的热情，推出MakeCode的趣味编程平台，使中小学生使用图形化的编程语言来控制制作自己的Minecraft游戏。使用MakeCode，你可以把自己对Minecraft的游戏设想变为现实，成为一名Minecraft游戏的小开发者。',
 
   'bgTitle':'Minecraft创新编程与实践',
@@ -17,11 +17,11 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'2-5',
+  'aboutGradeLevel':'3-6',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
-  'aboutRatio':'小于1:6',
+  'aboutRatio':'1:4',
 
   'promotion1':{
     'enabled':true,
@@ -140,6 +140,11 @@ var courseData = {
       'location':'尔湾'
     },
     {
+      'date':'7月23日 - 7月27日',
+      'time':'9:00AM - 12:00PM',
+      'location':'Arcadia'
+    },
+    {
       'date':'8月13日 - 8月17日',
       'time':'9:00AM - 12:00PM',
       'location':'尔湾'
@@ -170,6 +175,12 @@ var courseData = {
       'address1' : '980 Roosevelt, Suite 210',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+    },
+    {
+      'name' : 'Arcadia编程思维教室地址',
+      'address1' : 'TBD',
+      'address2' : 'Arcadia, CA 91007',
+      'addressMap' : 'Arcadia, CA 91007'
     },
   ],
 

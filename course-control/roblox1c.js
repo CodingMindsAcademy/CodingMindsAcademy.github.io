@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误。',
   'topTitleLine1' : 'Roblox',
   'topTitleLine2' : '游戏开发与发布',
-  'topGradeLevel' : '2-5 年级',
+  'topGradeLevel' : '3-6 年级',
   'topIntroText' : 'Roblox游戏风靡全球，它的成功在于所有的游戏都是由游戏玩家自己制作而成。每个月有超过6千万的用户在线，顶级的游戏制作者每年能够获取超过百万美元的游戏收入。Roblox的游戏开发平台Roblox Studio功能强大并且容易上手，孩子们可以迅速学习制作自己的游戏，体验一把游戏开发者创业的过程。',
 
   'bgTitle':'Roblox游戏开发与发布',
@@ -17,11 +17,11 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'2-5',
+  'aboutGradeLevel':'3-6',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
-  'aboutRatio':'小于1:6',
+  'aboutRatio':'1:4',
 
   'promotion1':{
     'enabled':true,
@@ -140,6 +140,11 @@ var courseData = {
       'location':'尔湾'
     },
     {
+      'date':'7月23日 - 7月27日',
+      'time':'1:00PM - 4:00PM',
+      'location':'Arcadia'
+    },
+    {
       'date':'8月13日 - 8月17日',
       'time':'1:00PM - 4:00PM',
       'location':'尔湾'
@@ -170,6 +175,12 @@ var courseData = {
       'address1' : '980 Roosevelt, Suite 210',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+    },
+    {
+      'name' : 'Arcadia编程思维教室地址',
+      'address1' : 'TBD',
+      'address2' : 'Arcadia, CA 91007',
+      'addressMap' : 'Arcadia, CA 91007'
     },
   ],
 
