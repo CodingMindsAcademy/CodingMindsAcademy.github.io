@@ -23,7 +23,7 @@ var courseList = {
 		{
 			'name':'Minecraft Programming with MakeCode',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'Grade 2-5',
+			'gradeLevel':'Grade 3-6',
 			'text':'Learn programming using the game kids all love',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'minecode.html',
@@ -33,7 +33,7 @@ var courseList = {
 		{
 			'name':'Innovative Programming with MIT Scratch',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'Grade 2-5',
+			'gradeLevel':'Grade 3-6',
 			'text':'Learn programming and create games and animations while having fun',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'scratch.html',
@@ -43,7 +43,7 @@ var courseList = {
 		{
 			'name':'Game Development with Roblox Studio',
 			'imageUrl':'img/my/roblox1/bg-sm.jpg',
-			'gradeLevel':'Grade 2-5',
+			'gradeLevel':'Grade 3-6',
 			'text':'Learn programming fundamentals and create your own games with Roblox Studio!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'roblox1.html',
@@ -53,7 +53,7 @@ var courseList = {
 		{
 			'name':'Robotics and Programming with LEGO Mindstorms',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
-			'gradeLevel':'Grade 2-5',
+			'gradeLevel':'Grade 3-6',
 			'text':'Build and program your own EV3 robot from your tablet or computer!',
 			'detailsTitle':'EXPLORE',
 			'detailsUrl':'lego.html',

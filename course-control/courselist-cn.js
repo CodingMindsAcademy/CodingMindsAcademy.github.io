@@ -23,7 +23,7 @@ var courseList = {
 		{
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'2-5年级',
+			'gradeLevel':'3-6年级',
 			'text':'在Minecraft我的世界游戏中学习编程将是孩子们理想的学习体验',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
@@ -33,7 +33,7 @@ var courseList = {
 		{
 			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'2-5年级',
+			'gradeLevel':'3-6年级',
 			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'scratchc.html',
@@ -43,7 +43,7 @@ var courseList = {
 		{
 			'name':'Roblox游戏开发与发布:游戏创业学编程',
 			'imageUrl':'img/my/roblox1/bg-sm.jpg',
-			'gradeLevel':'2-5年级',
+			'gradeLevel':'3-6年级',
 			'text':'学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox1c.html',
@@ -53,7 +53,7 @@ var courseList = {
 		{
 			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
-			'gradeLevel':'2-5年级',
+			'gradeLevel':'3-6年级',
 			'text':'在控制机器人挑战自己过程中学习编程,将是你从未尝试过的学习体验',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc.html',
