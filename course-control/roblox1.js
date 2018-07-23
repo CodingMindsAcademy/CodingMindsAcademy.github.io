@@ -140,7 +140,7 @@ var courseData = {
       'location':'Irvine, CA'
     },
     {
-      'date':'7/23 - 7/27',
+      'date':'8/6 - 8/10',
       'time':'1:00PM - 4:00PM',
       'location':'Arcadia, CA'
     },
@@ -162,7 +162,7 @@ var courseData = {
     '1:4 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
+  'registrationLink':'https://jinshuju.net/f/zhLG48',
   'registerNow':'REGISTER NOW',
 
   'faq':{

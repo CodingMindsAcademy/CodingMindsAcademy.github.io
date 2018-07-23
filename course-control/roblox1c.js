@@ -140,7 +140,7 @@ var courseData = {
       'location':'尔湾'
     },
     {
-      'date':'7月23日 - 7月27日',
+      'date':'8月6日 - 8月10日',
       'time':'1:00PM - 4:00PM',
       'location':'Arcadia'
     },
@@ -162,7 +162,7 @@ var courseData = {
     '小班上课个性化辅导',
     '动手于乐趣中学习'
   ],
-  'registrationLink':'https://jinshuju.net/f/eZHWdR',
+  'registrationLink':'https://jinshuju.net/f/zhLG48',
   'registerNow':'我要报名',
 
   'faq':{
