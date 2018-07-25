@@ -292,43 +292,66 @@
                             </div>
                             <div class="tab__content">
                                 <div class="row">
-                                    <div class="col-sm-4">                            
-                                        <p>
-                                            <img src="img/my/programs/Table1.png"></img>    
-                                        </p>
+                                    <div class="col-sm-4">
+                                        <table class="border--round table--alternate-row">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">年级</th>
+                                                    <th class="text-center">题目</th>
+                                                    <th class="text-center">日期</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>3-6</td>
+                                                    <td>Unity3D游戏开发</td>
+                                                    <td>8/26-9/29<br>每周一3:30-5:00pm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3-6</td>
+                                                    <td>Unity3D游戏开发</td>
+                                                    <td>8/26-9/29<br>每周一3:30-5:00pm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3-6</td>
+                                                    <td>Unity3D游戏开发</td>
+                                                    <td>8/26-9/29<br>每周一3:30-5:00pm</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
-                                    <div class="col-sm-10">                         
+                                    <div class="col-sm-10">
                                         <div class="masonry">
                                             <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListRancho">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="rcourse in courseListRancho">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
-                                                            <a href="{{course.detailsUrl}}">
-                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            <a href="{{rcourse.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{rcourse.imageUrl}}">
                                                             </a>
                                                         </div>
                                                         <div class="card__body">
-                                                            <h4>{{course.name}}</h4>
-                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <h4>{{rcourse.name}}</h4>
+                                                            <span class="type--fade">{{rcourse.gradeLevel}}</span>
                                                             <br>
-                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <span class="type--fade">{{rcourse.date}}</span>
                                                             <p>
-                                                                {{course.text}}
+                                                                {{rcourse.text}}
                                                             </p>
                                                         </div>
                                                         <div class="card__bottom text-center">
                                                             <div class="card__action">
-                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
-                                                                <a href="{{course.detailsUrl}}">
+                                                                <span class="h6 type--uppercase">{{rcourse.detailsTitle}}</span>
+                                                                <a href="{{rcourse.detailsUrl}}">
                                                                     <i class="material-icons">flip_to_front</i>
                                                                 </a>
                                                             </div>
                                                             <div class="card__action">
-                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
-                                                                <a href="{{course.registerUrl}}">
+                                                                <span class="h6 type--uppercase">{{rcourse.registerTitle}}</span>
+                                                                <a href="{{rcourse.registerUrl}}">
                                                                     <i class="material-icons">favorite_border</i>
                                                                 </a>
                                                             </div>
@@ -391,14 +414,14 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>                                    
-                                    </div>                                  
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </section>            
+            </section>
 
             <footer class="footer-3 text-center-xs space--xs ">
                 <div class="container">
