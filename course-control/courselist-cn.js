@@ -203,6 +203,85 @@ var coursedb = {
 	}
 }
 
+var scheduleIrvine = [
+	{
+		"title" : "周一",
+		"courses" : [
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Roblox<br>游戏编程与创业",
+				"datetime" : "8/27-9/29八周<br>每周一3:20-4:50pm"	
+			},
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Lego机器人<br>编程进阶",
+				"datetime" : "8/27-9/29八周<br>每周一3:20-4:50pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Python<br>编程进阶",
+				"datetime" : "8/27-9/29八周<br>每周一5:00-6:30pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "MIT App<br>手机编程开发",
+				"datetime" : "8/27-9/29八周<br>每周一5:00-6:30pm"	
+			}
+		]	
+	},
+	{
+		"title" : "周三",
+		"courses" : [
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Roblox<br>游戏编程与创业",
+				"datetime" : "8/29-9/29八周<br>每周三3:20-4:50pm"	
+			},
+			{
+				"gradeLevel" : "K-2",
+				"courseName" : "Minecraft MakeCode<br>创新编程",
+				"datetime" : "8/29-9/29八周<br>每周三3:20-4:50pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Rasberry PI<br>物联网应用编程",
+				"datetime" : "8/29-9/29八周<br>每周三5:00-6:30pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Minecraft Python<br>编程初步",
+				"datetime" : "8/29-9/29八周<br>每周三5:00-6:30pm"	
+			}
+		]	
+	},
+	{
+		"title" : "周六",
+		"courses" : [
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Python<br>编程进阶",
+				"datetime" : "9/1-9/29八周<br>每周六1:30-3:30pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Unity3D<br>游戏编程",
+				"datetime" : "9/1-9/29八周<br>每周六1:30-3:30pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Unity3D<br>项目进阶",
+				"datetime" : "9/1-9/29八周<br>每周六4:00-6:00pm"	
+			},
+			{
+				"gradeLevel" : "7-10",
+				"courseName" : "Python编程<br>竞赛挑战与项目",
+				"datetime" : "9/1-9/29八周<br>每周六4:00-6:00pm"	
+			}
+		]	
+	}
+]
+
+
 angular.module('v3App', [])
   .config(function($sceProvider) {
     $sceProvider.enabled(false);
@@ -213,7 +292,10 @@ angular.module('v3App', [])
   		$scope.courseList.push(coursedb.cn[key]);
 	}    
     $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs102, coursedb.cn.cs201, coursedb.cn.cs202];
+    $scope.courseScheduleIrvine = scheduleIrvine;
+
     $scope.courseListArcadia = [coursedb.cn.cs304, coursedb.cn.cs305, coursedb.cn.cs306];
     $scope.courseListRancho = [coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs303];
     $scope.courseListOnline = [coursedb.cn.cs401, coursedb.cn.cs402, coursedb.cn.cs403, coursedb.cn.cs404, coursedb.cn.cs407];
+    $scope.courseListEnrichment = [coursedb.cn.cs404, coursedb.cn.cs405, coursedb.cn.cs406, coursedb.cn.cs407];
   });

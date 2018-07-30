@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
-    <title>青少年编程夏令营 创新 竞赛 创业</title>
+    <title>青少年编程 竞赛 创业 背景提升</title>
     <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="在乐趣中学习编程。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
@@ -115,7 +115,7 @@
 
             <section id="summercamp" class="text-center bg--secondary">
                 <div class="container">
-                    <h2 class="text-center">2018年秋季学期编程课程<br></h2>
+                    <h2 class="text-center">选择适合孩子的编程课程<br></h2>
                     <!-- <p class="lead text-center">
                         编程夏令营每期2周4门课程，可以任意单独选报课程
                         <br>
@@ -131,7 +131,7 @@
                     <ul class="tabs">
                         <li class="active">
                             <div class="tab__title">
-                                <span class="h5">选择上课地点</span>
+                                <span class="h5">选择课程</span>
                             </div>
                             <div class="tab__content">
                                 <div class="row">
@@ -182,10 +182,26 @@
                             </div>
                             <div class="tab__content">
                                 <div class="row">
-                                    <div class="col-sm-4">                            
-                                        <p>
-                                            <img src="img/my/programs/Table1.png"></img>    
-                                        </p>
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleIrvine">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b>{{schedule.title}}</b></p>
+                                                <thead>                                             
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <br>
@@ -297,25 +313,25 @@
                                             <thead>
                                                 <tr>
                                                     <th class="text-center">年级</th>
-                                                    <th class="text-center">题目</th>
-                                                    <th class="text-center">日期</th>
+                                                    <th class="text-center">课程</th>
+                                                    <th class="text-center">时间</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>3-6</td>
                                                     <td>Unity3D游戏开发</td>
-                                                    <td>8/26-9/29<br>每周一3:30-5:00pm</td>
+                                                    <td>8/26-9/29十周<br>每周一3:30-5:00pm</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3-6</td>
                                                     <td>Unity3D游戏开发</td>
-                                                    <td>8/26-9/29<br>每周一3:30-5:00pm</td>
+                                                    <td>8/26-9/29十周<br>每周一3:30-5:00pm</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3-6</td>
                                                     <td>Unity3D游戏开发</td>
-                                                    <td>8/26-9/29<br>每周一3:30-5:00pm</td>
+                                                    <td>8/26-9/29十周<br>每周一3:30-5:00pm</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -382,6 +398,61 @@
                                         <div class="masonry">
                                             <div class="masonry__container">
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseListOnline">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{course.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <p>
+                                                                {{course.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tab__title">
+                                <span class="h5">名校申请背景提升</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">
+                                    <div class="col-sm-4">                            
+                                        <p>
+                                            <img src="img/my/programs/Table1.png"></img>    
+                                        </p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-10">                         
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListEnrichment">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
                                                             <a href="{{course.detailsUrl}}">
