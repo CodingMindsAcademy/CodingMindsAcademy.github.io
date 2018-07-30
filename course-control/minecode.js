@@ -178,10 +178,10 @@ var courseData = {
     },
     {
       'name' : 'Arcadia Classroom',
-      'address1' : 'TBD',
-      'address2' : 'Arcadia, CA 91007',
-      'addressMap' : 'Arcadia, CA 91007'
-    }
+      'address1' : '222 S 1st Ave',
+      'address2' : 'Arcadia, CA 91006',
+      'addressMap' : '222 S 1st Ave, Arcadia, CA 91006'
+    }    
   ],
 
   'promotionText':'Interested in learning programs with fun?',

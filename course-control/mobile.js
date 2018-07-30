@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
   'topTitleLine1' : 'Mobile App Programming ',
   'topTitleLine2' : 'with MIT App Inventor',
-  'topGradeLevel' : 'Grades 6 - 8',
+  'topGradeLevel' : 'Grades 7 - 10',
   'topIntroText' : 'Tired of playing apps or games on your parents\' phones? Why don\'t you build your own? You will learn how to make real mobile apps with the most popular mobile technologies and solve real world problems.',
 
   'bgTitle':'Build and Publish Apps to Google Play',
@@ -17,11 +17,11 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Programming | Mobile',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'6 - 8',
+  'aboutGradeLevel':'7 - 10',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -149,7 +149,7 @@ var courseData = {
   'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$445',
+  'price':'$450',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
@@ -157,7 +157,7 @@ var courseData = {
     '1:6 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
+  'registrationLink':'https://jinshuju.net/f/zhLG48',
   'registerNow':'REGISTER NOW',
 
   'faq':{
@@ -170,6 +170,12 @@ var courseData = {
       'address1' : '980 Roosevelt, Suite 210',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+    },
+    {
+      'name' : 'Arcadia Classroom',
+      'address1' : '222 S 1st Ave',
+      'address2' : 'Arcadia, CA 91006',
+      'addressMap' : '222 S 1st Ave, Arcadia, CA 91006'
     },
   ],
 
