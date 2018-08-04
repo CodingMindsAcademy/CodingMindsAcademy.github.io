@@ -130,6 +130,16 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'roblox2c.html'
 		},
+		'cs308' : {
+			'name':'Unreal游戏引擎专业游戏开发:做你自己的Fortnite',
+			'imageUrl':'img/my/unreal/bg-sm.png',
+			'gradeLevel':'7-12年级',
+			'text':'学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'unrealc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'unrealc.html'
+		},
 		'cs401' : {
 			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
 			'imageUrl':'img/my/coding-spacesm.jpg',
@@ -160,6 +170,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'apcsp-cn.html'
 		},
+
 		'cs404' : {
 			'name':'名校申请背景强化课程：计算机编程系列手机App编程开发',
 			'imageUrl':'img/my/mobile-learn-6sm.jpg',
