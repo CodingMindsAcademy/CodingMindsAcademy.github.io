@@ -164,7 +164,7 @@ var courseData = {
       'name' : '尔湾编程思维教室地址',
       'address1' : '930 Roosevelt, Suite 236',
       'address2' : 'Irvine, CA 92620',
-      'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+      'addressMap' : '930 Roosevelt, Irvine, CA 92620'
     },
     {
       'name' : 'Rancho Cucamonga编程思维教室地址',
