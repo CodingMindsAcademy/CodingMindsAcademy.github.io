@@ -281,6 +281,34 @@ var scheduleIrvine = [
 	}
 ]
 
+var scheduleRancho = [
+	{
+		"title" : "周二",
+		"courses" : [
+			{
+				"gradeLevel" : "2-6",
+				"courseName" : "Lego机器人<br>编程挑战",
+				"datetime" : "8/14开学 16周<br>每周二3:30-4:30pm"	
+			},
+			{
+				"gradeLevel" : "2-6",
+				"courseName" : "Minecraft MakeCode<br>创新编程",
+				"datetime" : "8/14开学 16周<br>每周二4:45-5:45pm"	
+			}
+		]
+	},
+	{
+		"title" : "周五",
+		"courses" : [
+			{
+				"gradeLevel" : "6-12",
+				"courseName" : "Unreal游戏引擎<br>专业游戏开发",
+				"datetime" : "8/17开学 16周<br>每周五4:00-5:30pm"
+			}			
+		]
+	}
+]
+
 
 angular.module('v3App', [])
   .config(function($sceProvider) {
@@ -293,9 +321,10 @@ angular.module('v3App', [])
 	}    
     $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs102, coursedb.cn.cs201, coursedb.cn.cs202];
     $scope.courseScheduleIrvine = scheduleIrvine;
+    $scope.courseScheduleRancho = scheduleRancho;
 
     $scope.courseListArcadia = [coursedb.cn.cs304, coursedb.cn.cs305, coursedb.cn.cs306];
-    $scope.courseListRancho = [coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs303];
+    $scope.courseListRancho = [coursedb.cn.cs204, coursedb.cn.cs201, coursedb.cn.cs303];
     $scope.courseListOnline = [coursedb.cn.cs401, coursedb.cn.cs402, coursedb.cn.cs403, coursedb.cn.cs404, coursedb.cn.cs407];
     $scope.courseListEnrichment = [coursedb.cn.cs404, coursedb.cn.cs405, coursedb.cn.cs406, coursedb.cn.cs407];
   });

@@ -186,7 +186,7 @@
                                         <div class="col-sm-4" ng-repeat="schedule in courseScheduleIrvine">
                                             <table class="border--round table--alternate-row">
                                                 <p><b>{{schedule.title}}</b></p>
-                                                <thead>                                             
+                                                <thead>
                                                     <tr>
                                                         <th style="width: 20%" class="text-center">年级</th>
                                                         <th class="text-center">课程</th>
@@ -308,33 +308,26 @@
                             </div>
                             <div class="tab__content">
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <table class="border--round table--alternate-row">
-                                            <thead>
-                                                <tr>
-                                                    <th class="text-center">年级</th>
-                                                    <th class="text-center">课程</th>
-                                                    <th class="text-center">时间</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>3-6</td>
-                                                    <td>Unity3D游戏开发</td>
-                                                    <td>8/26-9/29十周<br>每周一3:30-5:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3-6</td>
-                                                    <td>Unity3D游戏开发</td>
-                                                    <td>8/26-9/29十周<br>每周一3:30-5:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3-6</td>
-                                                    <td>Unity3D游戏开发</td>
-                                                    <td>8/26-9/29十周<br>每周一3:30-5:00pm</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleRancho">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b>{{schedule.title}}</b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <br>
