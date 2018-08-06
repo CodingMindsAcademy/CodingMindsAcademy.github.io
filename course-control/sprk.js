@@ -145,7 +145,7 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
   'price':'$445',
@@ -166,9 +166,9 @@ var courseData = {
   'locations':[
     {
       'name' : 'Irvine Classroom',
-      'address1' : '980 Roosevelt, Suite 210',
+      'address1' : '930 Roosevelt, Suite 236',
       'address2' : 'Irvine, CA 92620',
-      'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+      'addressMap' : '930 Roosevelt, Irvine, CA 92620'
     },
   ],
 

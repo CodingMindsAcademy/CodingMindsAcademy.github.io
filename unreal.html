@@ -1,11 +1,18 @@
 <!doctype html>
-<html lang="en">
-<head>
+<!-- Please update the following 3 things in this template page for each course. -->
+<!-- 1. Title -->
+<!-- 2. Description -->
+<!-- 3. Js file at the end -->
+<html ng-app="v3App" lang="en">
+<head ng-controller="CourseDetailsController">
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
-    <title>Game Programming with Unity3D | Coding Minds Academy</title>
+    <!-- UPDATE TEMPLATE 1 -->
+    <title>Programming with Unity3D | Coding Minds Academy</title>
+    <meta name="keywords" content="3D Game Programming, Game Programming, Unity3D, Game Development, Kids Learning Coding, K-12 Programming, K-12 Coding, Kids Coding, After School Coding, After School Program">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site Description Here">
+    <!-- UPDATE TEMPLATE 2 -->
+    <meta name="description" content="Learn the professional 3D game programming. Grow from a game player to a developer.">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
@@ -16,23 +23,23 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
 
-    <link rel="icon" href="http://codingmindsacademy.com/img/my/logofav.png" mce_href="/http://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
-    <link rel="shortcut icon" href="http://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="http://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="http://codingmindsacademy.com/img/my/logofav.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="http://codingmindsacademy.com/img/my/logofav.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="http://codingmindsacademy.com/img/my/logofav.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="http://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
 
     <div style='margin:0 auto;display:none;'>
-        <img src="http://codingmindsacademy.com/img/my/logofav.png" />
+        <img src="https://codingmindsacademy.com/img/my/logofav.png" />
     </div>
 </head>
 
-<body class="">
+<body ng-controller="CourseDetailsController">
     <a id="start"></a>
     <div style='margin:0 auto;display:none;'>
-        <img src="http://codingmindsacademy.com/img/my/logofav.png" />
+        <img src="https://codingmindsacademy.com/img/my/logofav.png" />
     </div>
     <div class="nav-container ">
         <div class="bar bar--sm visible-xs">
@@ -74,7 +81,7 @@
                                 </a> </li>
                                 <li> <a href="page-whycoding.html">
                                     Why Coding
-                                </a> </li>                            
+                                </a> </li>
                                 <li> <a href="page-about-us-1.html">
                                     About Us
                                 </a> </li>
@@ -102,40 +109,38 @@
                         <div class="row">
                             <div class="col-sm-8">
                                 <i class="icon icon-Coding color--primary"></i>
-                                <h1>Game Programming<br>with Unity3D</h1>
-                                <h3>Grade 7 - 12</h3>
+                                <h1>{{cd.topTitleLine1}}<br>{{cd.topTitleLine2}}</h1>
+                                <h3>{{cd.topGradeLevel}}</h3>
                                 <p class="lead">
-                                    This course has been designed to teach the fundamental knowledge and skills for AP Computer Science Principles (CSP) using MIT App Inventor. Students will learn not only the AP curriculum theories, but the practical skills to build mobile apps and get ready for science fair challenges.
+                                    {{cd.topIntroText}}
                                 </p>
                             </div>
                         </div>
-                        <!--end of row-->
                     </div>
-                    <!--end of container-->
                 </section>
 
                 <!-- 2. Top Title Feature Image Section -->
                 <section class="cover height-80 imagebg text-center" data-overlay="4">
                     <div class="background-image-holder">
-                        <img alt="background" src="img/my/unity3d/bg-5.jpg" />
+                        <img alt="background" ng-src="{{cd.bgImageUrl}}" />
                     </div>
                     <div class="container pos-vertical-center">
                         <div class="row">
                             <div class="col-sm-8">
                                 <h1>
-                                    Game Programming with Unity3D
+                                    {{cd.bgTitle}}
                                 </h1>
                                 <p class="lead">
-                                    Learn the newest College Board AP course, publish your own Apps in Google Play
+                                    {{cd.bgText}}
                                 </p>
                                 <div class="modal-instance block">
                                     <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
                                     <span>
-                                        <strong>Learn more about AP CSP</strong>
+                                        <strong>{{cd.bgLearnMoreText}}</strong>
                                     </span>
                                     <div class="modal-container">
                                         <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe src="https://www.youtube.com/embed/S1vFrz4NETg?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
+                                            <iframe ng-src="{{cd.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -146,47 +151,47 @@
 
                 <!-- 3. Course Facts Section -->
                 <section class="text-center height-60">
-                    <div class="container pos-vertical-center">                        
+                    <div class="container pos-vertical-center">
                         <h4><br></h4>
-                        <h2 class="text-center">About the Course</h2> 
+                        <h2 class="text-center">{{cd.aboutTitle}}</h2>
                         <p class="col-sm-6 col-sm-offset-3 lead">
-                            This course has been designed to teach the fundamental knowledge and skills for AP Computer Science Principles (CSP) using MIT App Inventor. 
+                            {{cd.aboutText}}
                         </p>
                         <h4><br></h4>
                         <div class="row height-10">
                             <div class="col-sm-6 col-md-3">
                                 <div class="text-block">
                                     <i class="icon icon--lg icon-Books"></i>
-                                    <h4>Category</h4>
+                                    <h4>{{cd.aboutCategoryTitle}}</h4>
                                     <p>
-                                        Game Developmet
+                                        {{cd.aboutCategory}}
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-3">
                                 <div class="text-block">
                                     <i class="icon icon--lg icon-User"></i>
-                                    <h4>Grade</h4>
+                                    <h4>{{cd.aboutGradeLevelTitle}}</h4>
                                     <p>
-                                        7 - 12
+                                        {{cd.aboutGradeLevel}}
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-3">
                                 <div class="text-block">
                                     <i class="icon icon--lg icon-Dashboard"></i>
-                                    <h4>Skill Level</h4>
+                                    <h4>{{cd.aboutSkillLevelTitle}}</h4>
                                     <p>
-                                        Beginning to Intermediate
+                                        {{cd.aboutSkillLevel}}
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-3">
                                 <div class="text-block">
                                     <i class="icon icon--lg icon-Conference"></i>
-                                    <h4>Ratio Guarantee</h4>
+                                    <h4>{{cd.aboutRatioTitle}}</h4>
                                     <p>
-                                        6 Students per Instructor
+                                        {{cd.aboutRatio}}
                                     </p>
                                 </div>
                             </div>
@@ -195,96 +200,94 @@
                 </section>
 
                 <!-- 4. Course Image Promotion Section (5 Images in Template) -->
-                <section class="imageblock switchable feature-large bg--secondary space--sm">
+                <section ng-hide="{{!cd.promotion1.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
                     <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                         <div class="background-image-holder">
-                            <img alt="image" src="img/my/unity3d/unity3d-1.jpg" />
+                            <img alt="image" ng-src="{{cd.promotion1.imageUrl}}" />
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-sm-7">
-                                <h2>Learn with Fun</h2>
+                                <h2>{{cd.promotion1.title}}</h2>
                                 <p class="lead">
-                                    Kids today have been taking too many classes and programs, and they get tired and bored easily. For every topic we teach, we make sure that it has a lot of fun to keep kids excited while learning.
+                                    {{cd.promotion1.text}}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+                <section ng-hide="{{!cd.promotion2.enabled}}" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
                     <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                         <div class="background-image-holder">
-                            <img alt="image" src="img/my/unity3d/unity3d-2.jpg" />
+                            <img alt="image" ng-src="{{cd.promotion2.imageUrl}}" />
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-sm-7">
-                                <h2>Always Build Stuff</h2>
+                                <h2>{{cd.promotion2.title}}</h2>
                                 <p class="lead">
-                                    We want students to learn by doing and building real-world applications and projects. Each class has been designed to let student accomplish and build something.
+                                    {{cd.promotion2.text}}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="imageblock switchable feature-large bg--secondary space--sm">
+                <section ng-hide="{{!cd.promotion3.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
                     <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                         <div class="background-image-holder">
-                            <img alt="image" src="img/my/unity3d/unity3d-3.jpg" />
+                            <img alt="image" ng-src="{{cd.promotion3.imageUrl}}" />
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-sm-7">
-                                <h2>Learn with Fun</h2>
+                                <h2>{{cd.promotion3.title}}</h2>
                                 <p class="lead">
-                                    Kids today have been taking too many classes and programs, and they get tired and bored easily. For every topic we teach, we make sure that it has a lot of fun to keep kids excited while learning.
+                                    {{cd.promotion3.text}}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+                <section ng-hide="{{!cd.promotion4.enabled}}" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
                     <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                         <div class="background-image-holder">
-                            <img alt="image" src="img/my/unity3d/unity3d-4.jpg" />
+                            <img alt="image" ng-src="{{cd.promotion4.imageUrl}}" />
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-sm-7">
-                                <h2>Always Build Stuff</h2>
+                                <h2>{{cd.promotion4.title}}</h2>
                                 <p class="lead">
-                                    We want students to learn by doing and building real-world applications and projects. Each class has been designed to let student accomplish and build something.
+                                    {{cd.promotion4.text}}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="imageblock switchable feature-large bg--secondary space--sm">
+                <section ng-hide="{{!cd.promotion5.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
                     <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                         <div class="background-image-holder">
-                            <img alt="image" src="img/my/unity3d/unity3d-5.jpg" />
+                            <img alt="image" ng-src="{{cd.promotion5.imageUrl}}" />
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-sm-7">
-                                <h2>Passion for Coding</h2>
+                                <h2>{{cd.promotion5.title}}</h2>
                                 <p class="lead">
-                                    We are a group of tech engineers and hackers who are passionate about coding but also education. We want to bring our passion to the young kids and grow the next tech generation.
+                                    {{cd.promotion5.text}}
                                 </p>
                             </div>
                         </div>
-                        <!--end of row-->
                     </div>
-                    <!--end of container-->
                 </section>
 
-                <!-- 5. Course Curriculum (Optional) -->
-                <section>
+                <!-- 5. Course Curriculum (Optional) TODO -->
+                <section ng-hide="{{!cd.curriculum.enabled}}">
                     <div class="container">
                         <div class="text-center">
                             <i class="icon icon-Calendar-3 color--primary"></i>
@@ -353,7 +356,7 @@
                                         <h4>Chapter 8<br>Big Idea VI: Internet</h4>
                                         <ul class="bullets">
                                             <li>Internet Basics</li>
-                                            <li>HTTP Protocol</li>
+                                            <li>https Protocol</li>
                                             <li>App Example: UPC Product Search</li>
                                         </ul>
                                     </div>
@@ -377,69 +380,19 @@
                             </div>
                         </div>
                     </div>
-                </section>            
+                </section>
 
                 <!-- 6. Course Goals -->
-                <section class=" bg--secondary">
+                <section class="bg--secondary">
                     <div class="container">
-                        <h2 class="text-center">Top Skills Students Will Learn</h2>
+                        <h2 class="text-center">{{cd.goalsTitle}}</h2>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" ng-repeat="goal in cd.goals">
                                 <div class="feature feature-2 boxed boxed--border">
-                                    <i class="icon icon-Coding color--primary"></i>
+                                    <i class="icon color--primary" ng-class="goal.icon"></i>
                                     <div class="feature__body">
                                         <p>
-                                            The fundamentals of Python programming language
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-2 boxed boxed--border">
-                                    <i class="icon icon-Gears color--primary"></i>
-                                    <div class="feature__body">
-                                        <p>
-                                            The basic knowledge and experience on machine learning
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-2 boxed boxed--border">
-                                    <i class="icon icon-Puzzle color--primary"></i>
-                                    <div class="feature__body">
-                                        <p>
-                                            Game development skill using Python and PyGame
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-2 boxed boxed--border">
-                                    <i class="icon icon-Server color--primary"></i>
-                                    <div class="feature__body">
-                                        <p>
-                                            Knowledge on web servers programming
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-2 boxed boxed--border">
-                                    <i class="icon icon-Idea color--primary"></i>
-                                    <div class="feature__body">
-                                        <p>
-                                            Creativity and hands-on problem-solving skills
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-2 boxed boxed--border">
-                                    <i class="icon icon-Key color--primary"></i>
-                                    <div class="feature__body">
-                                        <p>
-                                            Get ready for AP Computer Science and science fair
+                                            {{goal.text}}
                                         </p>
                                     </div>
                                 </div>
@@ -449,61 +402,16 @@
                 </section>
 
                 <!-- 7. Course Highlights -->
-                <section class="text-center ">
+                <section class="text-center">
                     <div class="container">
-                        <h2 class="text-center">Course Highlights</h2>
+                        <h2 class="text-center">{{cd.highlightsTitle}}</h2>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" ng-repeat="hl in cd.highlights">
                                 <div class="feature feature-3 boxed boxed--lg boxed--border">
-                                    <i class="icon icon--lg icon-Video-Tripod color--primary"></i>
-                                    <h4>20 Hours Online Live Course</h4>
+                                    <i class="icon icon--lg color--primary" ng-class="hl.icon"></i>
+                                    <h4>{{hl.title}}</h4>
                                     <p>
-                                        Stay with the study plan, and learn consistently
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-3 boxed boxed--lg boxed--border">
-                                    <i class="icon icon--lg icon-Administrator color--primary"></i>
-                                    <h4>Learn with Professors</h4>
-                                    <p>
-                                        Gain extra experiences about the real industry and research
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-3 boxed boxed--lg boxed--border">
-                                    <i class="icon icon--lg icon-Hand color--primary"></i>
-                                    <h4>Live and Real-time Interaction</h4>
-                                    <p>
-                                        Get your question answered in class and get help from the assistants
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-3 boxed boxed--lg boxed--border">
-                                    <i class="icon icon--lg icon-Idea color--primary"></i>
-                                    <h4>QA Discussion and Virtual Office Hours</h4>
-                                    <p>
-                                        Every of your question will be answered, so you will never be bothered which is the correct answer
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-3 boxed boxed--lg boxed--border">
-                                    <i class="icon icon--lg icon-Air-Balloon color--primary"></i>
-                                    <h4>Well-Designed Assignments and Projects</h4>
-                                    <p>
-                                        Learn by doing is the key for CS study, all the assignments and projects are design for the goals
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-3 boxed boxed--lg boxed--border">
-                                    <i class="icon icon--lg icon-Key color--primary"></i>
-                                    <h4>Apply Colleges with More Experiences</h4>
-                                    <p>
-                                        Programming is just the first step. Build projects, attend science fairs will help you get into the top unversities
+                                        {{hl.text}}
                                     </p>
                                 </div>
                             </div>
@@ -511,62 +419,69 @@
                     </div>
                 </section>
 
-                <section class="switchable ">
+                <!-- 8. Course Schedule -->
+                <section class="switchable bg--secondary">
                     <div class="container">
-                        <h2 class="text-center">Schedule</h2>
+                        <h2 class="text-center">{{cd.sessionsTitle}}</h2>
                         <div class="row">
                             <div class="col-sm-12 col-md-12">
                                 <table class="border--round table--alternate-row">
                                     <thead>
                                         <tr>
-                                            <th class="col-sm-3 col-md-3">Date</th>
-                                            <th class="col-sm-3 col-md-3">Time</th>
-                                            <th class="col-sm-3 col-md-3">Location</th> 
+                                            <th class="text-center col-sm-4 col-md-4">{{cd.sessionsDateTitle}}</th>
+                                            <th class="text-center col-sm-4 col-md-4">{{cd.sessionsTimeTitle}}</th>
+                                            <th class="text-center col-sm-4 col-md-4">{{cd.sessionsLocationTitle}}</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>7/3-7/7 (10 Weeks)</td>
-                                            <td>Monday 3:30-5:00PM</td>
-                                            <td>Irvine, CA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>7/3-7/7 (10 Weeks)</td>
-                                            <td>Wednesday 3:30-5:00PM</td>
-                                            <td>Irvine, CA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>7/3-7/7 (10 Weeks)</td>
-                                            <td>Friday 3:30-5:00PM</td>
-                                            <td>Irvine, CA</td>
+                                        <tr ng-repeat="session in cd.sessions">
+                                            <td class="text-center">{{session.date}}</td>
+                                            <td class="text-center">{{session.time}}</td>
+                                            <td class="text-center">{{session.location}}</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                </section> 
+                </section>
 
-                <!-- 8. Registration -->
-                <section class="text-center bg--secondary">
+                <!-- 9. Location and Map -->
+                <section class="switchable" ng-repeat="loc in cd.locations">
                     <div class="container">
-                        <h2 class="text-center">Registration</h2>
+                        <div class="row">
+                            <div class="col-md-5 col-sm-5">
+                                <div class="switchable__text">
+                                    <h3>{{loc.name}}</h3>
+                                    <p class="lead">{{loc.address1}}<br/>{{loc.address2}}</p>
+                                    <!-- <h4>Camp Schedule</h4> -->
+                                    <p class="lead">If you need to drop off your kids early or pick up late after the class, feel free to let us know.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-7 col-xs-12">
+                                <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="{{loc.addressMap}}" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 10. Registration -->
+                <section ng-hide="{{!cd.registrationEnabled}}" class="text-center bg--secondary">
+                    <div class="container">
+                        <h2 class="text-center">{{cd.registrationTitle}}</h2>
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="pricing pricing-1 boxed boxed--lg boxed--border">
-                                    <h3>Price</h3>
-                                    <span class="h2"><strong>$495</strong></span>
-                                    <span class="type--fine-print">All credit cards are supported</span>
+                                    <h3>{{cd.priceTitle}}</h3>
+                                    <span class="h2"><strong>{{cd.price}}</strong></span>
+                                    <span class="type--fine-print">{{cd.allCreditCards}}</span>
                                     <hr>
                                     <ul>
-                                        <li><span class="checkmark bg--primary-1"></span><span>The first session is FREE</span></li>
-                                        <li><span class="checkmark bg--primary-1"></span><span>20 hours live sessions</span></li>
-                                        <li><span class="checkmark bg--primary-1"></span><span>Interaction and get help anytime</span></li>
-                                        <li><span class="checkmark bg--primary-1"></span><span>Learn more with professors</span></li>
+                                        <li ng-repeat="priceItem in cd.priceItems"><span class="checkmark bg--primary-1"></span><span>{{priceItem}}</span></li>
                                     </ul>
-                                    <a class="btn btn--primary" href="https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/">
+                                    <a class="btn btn--primary" href="{{cd.registrationLink}}">
                                         <span class="btn__text">
-                                            REGISTER NOW
+                                            {{cd.registerNow}}
                                         </span>
                                     </a>
                                 </div>
@@ -575,27 +490,8 @@
                     </div>
                 </section>
 
-                <!-- 9. Location and Map -->
-                <section class="switchable ">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-5">
-                                <div class="switchable__text">
-                                    <h3>Irvine Classroom</h3>
-                                    <p class="lead">930 Roosevelt, Suite 236<br/>Irvine, CA 92620</p>
-                                    <!-- <h4>Camp Schedule</h4> -->
-                                    <p class="lead">If you need to drop off your kids early or pick up late after the class, feel free to let us know.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-7 col-xs-12">
-                                <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="930 Roosevelt, Irvine, CA 92620" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <!-- 10. FAQs -->
-                <section class="bg--secondary">
+                <section ng-hide="{{!cd.faq.enabled}}" class="bg--secondary">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
@@ -624,6 +520,18 @@
                                         <a href="#">Contact Us</a> for info.
                                     </p>
                                 </div>
+                                <div class="text-block">
+                                    <h5>Is there any programming background required?</h5>
+                                    <p>
+                                        No. The program has been designed to teach young kids the fundamentals of programming with zero background.
+                                    </p>
+                                </div>
+                                <div class="text-block">
+                                    <h5>Do I need an SSL certificate?</h5>
+                                    <p>
+                                        This depends on whether your plan to process the payment on your site or not. We recommend using a third-party provider to unburden yourself.
+                                    </p>
+                                </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="text-block">
@@ -650,17 +558,12 @@
                         <div class="row">
                             <div class="cta cta--horizontal text-center-xs">
                                 <div class="col-sm-9">
-                                    <h4>Interested in learning programs with fun?</h4>
+                                    <h4>{{cd.promotionText}}</h4>
                                 </div>
-                                <!-- <div class="col-sm-5">
-                                    <p class="lead">
-                                        Start learning programs now
-                                    </p>
-                                </div> -->
                                 <div class="col-sm-3 text-right text-center-xs">
-                                    <a class="btn btn--primary type--uppercase" target="_blank" href="page-contact-us.html">
+                                    <a class="btn btn--primary type--uppercase" target="_blank" href="{{cd.promotionUrl}}">
                                         <span class="btn__text">
-                                            Contact Us
+                                            {{cd.promotionButtonText}}
                                         </span>
                                     </a>
                                 </div>
@@ -678,11 +581,10 @@
                                 <ul class="list-inline list--hover">
                                     <li>
                                         <a href="#">
-                                            <!-- <span class="type--fine-print">Get Started</span> -->
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="mailto:Contact@CodingMindsAcademy.com">
                                             <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
                                         </a>
                                     </li>
@@ -701,7 +603,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/CodingMindsAcademy/" target="_blank">
                                             <i class="socicon socicon-facebook icon icon--xs"></i>
                                         </a>
                                     </li>
@@ -716,46 +618,49 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <p class="type--fine-print">
-                                    Learn coding with fun | <a href="apcs-cn.html">中文</a>
+                                    Learn coding with fun | <a href="{{cd.cnUrl}}">中文</a>
                                 </p>
                             </div>
                             <div class="col-sm-6 text-right text-center-xs">
                                 <span class="type--fine-print">&copy;
-                                    <span class="update-year"></span> Coding Minds Inc.</span>
-                                    <a class="type--fine-print" href="#">Privacy Policy</a>
-                                    <a class="type--fine-print" href="#">Legal</a>
-                                </div>
+                                    <span class="update-year"></span> Coding Minds Inc.
+                                </span>
+                                <a class="type--fine-print" href="#">Privacy Policy</a>
+                                <a class="type--fine-print" href="#">Legal</a>
                             </div>
                         </div>
-                    </footer>
-                </div>
+                    </div>
+                </footer>
+            </div>
 
-                <!--<div class="loader"></div>-->
-                <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-                    <i class="stack-interface stack-up-open-big"></i>
-                </a>
-                <script src="js/jquery-3.1.1.min.js"></script>
-                <script src="js/flickity.min.js"></script>
-                <script src="js/easypiechart.min.js"></script>
-                <script src="js/parallax.js"></script>
-                <script src="js/typed.min.js"></script>
-                <script src="js/datepicker.js"></script>
-                <script src="js/isotope.min.js"></script>
-                <script src="js/ytplayer.min.js"></script>
-                <script src="js/lightbox.min.js"></script>
-                <script src="js/granim.min.js"></script>
-                <script src="js/countdown.min.js"></script>
-                <script src="js/twitterfetcher.min.js"></script>
-                <script src="js/spectragram.min.js"></script>
-                <script src="js/smooth-scroll.min.js"></script>
-                <script src="js/scripts.js"></script>
-                <script>
-                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-                  ga('create', 'UA-98249988-1', 'auto');
-                  ga('send', 'pageview');
-              </script>
-          </body>
-          </html>
+            <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+                <i class="stack-interface stack-up-open-big"></i>
+            </a>
+            <script src="js/jquery-3.1.1.min.js"></script>
+            <script src="js/angular.min.js"></script>
+            <!-- UPDATE TEMPLATE 3 -->
+            <script src="course-control/unreal.js"></script>
+            <script src="js/flickity.min.js"></script>
+            <script src="js/easypiechart.min.js"></script>
+            <script src="js/parallax.js"></script>
+            <script src="js/typed.min.js"></script>
+            <script src="js/datepicker.js"></script>
+            <script src="js/isotope.min.js"></script>
+            <script src="js/ytplayer.min.js"></script>
+            <script src="js/lightbox.min.js"></script>
+            <script src="js/granim.min.js"></script>
+            <script src="js/countdown.min.js"></script>
+            <script src="js/twitterfetcher.min.js"></script>
+            <script src="js/spectragram.min.js"></script>
+            <script src="js/smooth-scroll.min.js"></script>
+            <script src="js/scripts.js"></script>
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+              ga('create', 'UA-98249988-1', 'auto');
+              ga('send', 'pageview');
+            </script>
+      </body>
+      </html>

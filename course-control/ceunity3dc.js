@@ -134,7 +134,7 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'注册报名',
   'priceTitle':'报名价格',
   'price':'$595',
@@ -157,7 +157,7 @@ var courseData = {
       'name' : '尔湾编程思维',
       'address1' : 'TBD',
       'address2' : 'Irvine, CA 92620',
-      'addressMap' : '980 Roosevelt, Irvine, CA 92620'
+      'addressMap' : '930 Roosevelt, Irvine, CA 92620'
     },    
   ],
 

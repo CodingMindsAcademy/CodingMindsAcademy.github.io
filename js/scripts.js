@@ -1323,9 +1323,10 @@ mr = (function (mr, $, window, document){
             masonryContainer.removeClass('masonry--animate');
             masonryContainer.on('layoutComplete',function(){
                 $(this).addClass('masonry--active');
+                console.log("added again");
                 if(typeof mr_parallax !== typeof undefined){
                     setTimeout(function(){ mr_parallax.profileParallaxElements(); },100);
-                }
+                }                
             });
             masonryContainer.isotope({ filter: filterValue });
             
@@ -1335,7 +1336,7 @@ mr = (function (mr, $, window, document){
 
     var windowLoad = function(){
 
-        $('.masonry').each(function(){
+        $('.masonry').each(function(index){
             var masonry       = $(this).find('.masonry__container'),
                 masonryParent = $(this),
                 defaultFilter = '*';
@@ -1348,12 +1349,14 @@ mr = (function (mr, $, window, document){
                 masonryParent.find('li[data-masonry-filter="'+masonryParent.attr("data-default-filter").toLowerCase()+'"]').addClass('active');
             }
 
-            masonry.on('layoutComplete',function(){
-                masonry.addClass('masonry--active');
-                if(typeof mr_parallax !== typeof undefined){
-                    setTimeout(function(){ mr_parallax.profileParallaxElements(); },100);
-                }
-            });
+            if (index == 0) {
+                masonry.on('layoutComplete',function(){
+                    masonry.addClass('masonry--active');                
+                    if(typeof mr_parallax !== typeof undefined){
+                        setTimeout(function(){ mr_parallax.profileParallaxElements(); },100);
+                    }
+                });
+            }
 
             masonry.isotope({
               itemSelector: '.masonry__item',
@@ -2216,6 +2219,18 @@ mr = (function (mr, $, window, document){
                 tabContent.remove();
                 currentTab.closest('.tabs-container').find('.tabs-content').append(tabContentClone);
             });
+
+            // init
+            $('.masonry__container').each(function(index){
+                var tabs = $(this);
+                if (index != 0) {
+                    tabs.removeClass("masonry--active");    
+                    //console.log("removed " + index);
+                } else {
+                    tabs.addClass("masonry--active");        
+                    //console.log("added");
+                }                                
+            });
         });
         
         $('.tabs li').on('click', function(){
@@ -2230,7 +2245,17 @@ mr = (function (mr, $, window, document){
             
             clickedTab.addClass('active');
             activeContent.addClass('active');
-            
+            // make it active, but for the others make them inactive
+            $('.masonry__container').each(function(index){
+                var tabs = $(this);
+                if (index != activeIndex - 1) {
+                    tabs.removeClass("masonry--active");    
+                    //console.log("removed ");
+                } else {
+                    tabs.addClass("masonry--active");        
+                    //console.log("added");
+                }                                
+            });            
 
             // If there is an <iframe> element in the tab, reload its content when the tab is made active.
             iframe = activeContent.find('iframe');

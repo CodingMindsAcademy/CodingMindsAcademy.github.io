@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
-    <title>青少年编程夏令营 创新 竞赛 创业</title>
+    <title>青少年编程 竞赛 创业 背景提升</title>
     <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="在乐趣中学习编程。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
@@ -113,79 +113,449 @@
                 <!--end of container-->
             </section>
 
-            <section id="summercamp" class=" bg--secondary">
+            <section id="summercamp" class="text-center bg--secondary">
                 <div class="container">
-                    <h2 class="text-center">2018编程夏令营<br></h2>
-                    <p class="lead text-center">
-                        编程夏令营每期2周4门课程，可以任意单独选报课程
-                        <br>
-                        每门课程长度为一周五天（上午9-12PM或者下午1-4PM）
-                        <br>
-                        单门课程$450；两门课程$800
-                        <br>
-                        三门课程$1150；四门课程$1400
-                    </p>
-                    <div class="row">
-                        <div class="col-sm-4">                            
-                            <p>
-                                <img src="img/my/programs/Table1.png"></img>    
-                            </p>
-                        </div>
-                        <div class="col-sm-4">
-                            <p>
-                                <img src="img/my/programs/Table2.png"></img>    
-                            </p>
-                        </div>
-                        <div class="col-sm-4">
-                            <p>
-                                <img src="img/my/programs/Table3.png"></img>    
-                            </p>
-                        </div>
-                    </div>
+                    <h2 class="text-center">选择适合孩子的编程课程<br></h2>                    
                 </div>
-            </section>
 
-            <section class=" bg--secondary">
-                <div class="container">
-                    <h2 class="text-center">课程详细信息<br></h2>
-                    <div class="row">
-                        <div class="masonry">
-                            <div class="masonry__container">
-                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
-                                    <div class="card card-2 text-center">
-                                        <div class="card__top">
-                                            <a href="{{course.detailsUrl}}">
-                                                <img alt="Image" ng-src="{{course.imageUrl}}">
-                                            </a>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>{{course.name}}</h4>
-                                            <span class="type--fade">{{course.gradeLevel}}</span>
-                                            <br>
-                                            <span class="type--fade">{{course.date}}</span>
-                                            <p>
-                                                {{course.text}}
-                                            </p>
-                                        </div>
-                                        <div class="card__bottom text-center">
-                                            <div class="card__action">
-                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
-                                                <a href="{{course.detailsUrl}}">
-                                                    <i class="material-icons">flip_to_front</i>
-                                                </a>
+                <div class="tabs-container" data-content-align="center">                    
+                    <ul class="tabs">
+                        <li class="active">
+                            <div class="tab__title">
+                                <span class="h5">选择课程</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{course.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <p>
+                                                                {{course.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="card__action">
-                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
-                                                <a href="{{course.registerUrl}}">
-                                                    <i class="material-icons">favorite_border</i>
-                                                </a>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tab__title">
+                                <span class="h5">Irvine</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleIrvine">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <br>
+                                
+                                <div class="cta">
+                                    <h2></h2>
+                                    <!-- <p class="lead">
+                                                    Each purchase of Stack comes with six months free support — and a lifetime of free content and bug-fix updates.
+                                    </p> -->
+                                    <a class="btn btn--primary type--uppercase" href="https://jinshuju.net/f/zhLG48" target="_blank">
+                                            <span class="btn__text">
+                                                报名尔湾编程课程
+                                            </span>
+                                            <span class="label">18年秋季</span>
+                                    </a>
+                                    <p></p>
+                                </div>
+                                <br>
+                                
+                                <div class="container">
+                                    <h2 class="text-center">课程详细信息<br></h2>                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-10">                         
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListIrvine">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{course.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <p>
+                                                                {{course.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tab__title">
+                                <span class="h5">Arcadia</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">
+                                    <p class="lead text-center">
+                                        Coming Soon in Fall 2018
+                                    </p>
+
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleArcadia">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-10">                         
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListArcadia">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{course.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <p>
+                                                                {{course.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                    </div>                                  
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tab__title">
+                                <span class="h5">Rancho Cucamonga</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleRancho">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b>{{schedule.title}}</b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="rcourse in courseListRancho">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{rcourse.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{rcourse.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{rcourse.name}}</h4>
+                                                            <span class="type--fade">{{rcourse.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{rcourse.date}}</span>
+                                                            <p>
+                                                                {{rcourse.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{rcourse.detailsTitle}}</span>
+                                                                <a href="{{rcourse.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{rcourse.registerTitle}}</span>
+                                                                <a href="{{rcourse.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                    </div>                                  
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tab__title">
+                                <span class="h5">Online线上课程</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">                                    
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleOnline">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
+                                    </div>
+                                </div>
+
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-10">                         
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListOnline">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{course.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <p>
+                                                                {{course.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                        <li>
+                            <div class="tab__title">
+                                <span class="h5">名校申请背景提升</span>
+                            </div>
+                            <div class="tab__content">
+                                <div class="row">                                    
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleEnrichment">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
+                                    </div>
+                                </div>
+
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-10">                         
+                                        <div class="masonry">
+                                            <div class="masonry__container">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListEnrichment">
+                                                    <div class="card card-2 text-center">
+                                                        <div class="card__top">
+                                                            <a href="{{course.detailsUrl}}">
+                                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__body">
+                                                            <h4>{{course.name}}</h4>
+                                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                                            <br>
+                                                            <span class="type--fade">{{course.date}}</span>
+                                                            <p>
+                                                                {{course.text}}
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__bottom text-center">
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                <a href="{{course.detailsUrl}}">
+                                                                    <i class="material-icons">flip_to_front</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card__action">
+                                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                <a href="{{course.registerUrl}}">
+                                                                    <i class="material-icons">favorite_border</i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
 

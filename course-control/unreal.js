@@ -1,23 +1,23 @@
 var courseData = {
-  'courseTitle' : 'Python Programming with Minecraft | Coding Minds Academy',
-  'courseDescription' : 'Learn Python programming with Minecraft.',
-  'topTitleLine1' : 'Python Programming',
-  'topTitleLine2' : 'with Minecraft',
-  'topGradeLevel' : 'Grades 6 - 8',
-  'topIntroText' : 'Python has become the most popular programming language in the cutting-edge fields. This course introduces Python programming with the game all students love - Minecraft.',
+  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
+  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
+  'topTitleLine1' : 'Game Programming',
+  'topTitleLine2' : 'with Unity3D',
+  'topGradeLevel' : 'Grade 7 - 12',
+  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
 
-  'bgTitle':'Python Programming with Minecraft',
-  'bgImageUrl':'img/my/pythonmine/pyminebg.jpg',
-  'bgText':'The most popular programming language Python + The most popular game Minecraft = The dream programming course',
-  'bgLearnMoreText':'Learn More about Python',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
+  'bgTitle':'Game Programming with Unity3D',
+  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
+  'bgText':'Become a game developer, and publish your games.',
+  'bgLearnMoreText':'Learn More about Unity3D',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Learn Python programming with Minecraft. Build your own version of Minecraft without limitations.',
+  'aboutText':'Learn programming with game development. Build your own game without limits.',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Python',
+  'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'6 - 8',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -25,37 +25,37 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'Be a Game Coder',
-    'text':'No longer worry about addiction to play Minecraft. Let\'s motivate the kids to learn the professional programming in Python with the popular game.',
-    'imageUrl':'img/my/pythonmine/pymine1.jpg'
+    'title':'Be a Professional',
+    'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
+    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'Learn the Professional Coding',
-    'text':'The popularity of Python is not just based on its simplicity and conciseness, but because of its capability of doing complicated tasks rapidly and efficiently.',
-    'imageUrl':'img/my/pythonmine/pymine2.jpg'
+    'title':'From Game Player to Developer',
+    'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
+    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'The Gate to the Cutting-Edge',
-    'text':'If you are interested in Machine Learning, AI, Computer Vision, Self-Driving Cars, Python should be the first topic to learn.',
-    'imageUrl':'img/my/pythonmine/pymine3.jpg'
+    'title':'Beyound Games',
+    'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
+    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Prepare for AP CS',
-    'text':'Python is the perfect foundation for both AP CS and AP CS Principles courses for high school students.',
-    'imageUrl':'img/my/pythonmine/pymine4.png'
+    'title':'Compete in Science Fair',
+    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
+    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Become a Entrepreneur',
-    'text':'Learn the practical instead of the pure theory. Students can learn how to solve real-world problems using programming.',
-    'imageUrl':'img/my/pythonmine/pymine5.jpg'
+    'title':'Be a Game Entrepreneur',
+    'text':'The successful game industry always belongs to the young generation. Start early and create your own game startup.',
+    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
   },
 
   'curriculum' : {
@@ -66,27 +66,27 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'Master the basics of Python'
+      'text':'The fondation of Unity3D development'
     },
     {
       'icon':'icon-Coding',
-      'text':'Design programs based on given problems'
+      'text':'The basics of C# programming language'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Understanding of computer algorithms'
+      'text':'Understanding of game modeling and algorithms'
     },
     {
       'icon':'icon-Server',
-      'text':'Introduction to game programming'
+      'text':'Knowledge about Internet and game communications'
     },
     {
       'icon':'icon-Idea',
-      'text':'The solid foundation for AP CS'
+      'text':'AR and VR applications development skills'
     },
     {
       'icon':'icon-Key',
-      'text':'Creativity and entrepreneurship'
+      'text':'Preparation of Science Fair projects'
     },
   ],
 
@@ -130,34 +130,29 @@ var courseData = {
   'sessionsLocationTitle':'Location',
   'sessions':[
     {
-      'date':'6/18 - 6/22',
-      'time':'9:00AM - 12:00PM',
+      'date':'1/8 - 3/12 (10 Weeks)',
+      'time':'Mon 3:20-4:50PM',
       'location':'Irvine, CA'
     },
     {
-      'date':'7/9 - 7/13',
-      'time':'1:00PM - 4:00PM',
+      'date':'1/10 - 3/14 (10 Weeks)',
+      'time':'Wed 3:20-4:50PM',
       'location':'Irvine, CA'
     },
-    {
-      'date':'8/13 - 8/17',
-      'time':'9:00AM - 12:00PM',
-      'location':'Irvine, CA'
-    }
   ],
 
   'registrationEnabled':false,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
-  'price':'$445',
-  'allCreditCards':'',
+  'price':'$595',
+  'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
     '1:6 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://jinshuju.net/f/Nfh8W6',
+  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
   'registerNow':'REGISTER NOW',
 
   'faq':{
@@ -171,14 +166,20 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '930 Roosevelt, Irvine, CA 92620'
     },
+    {
+      'name' : 'Rancho Cucamonga Classroom',
+      'address1' : '6080 Haven Ave',
+      'address2' : 'Rancho Cucamonga, CA 91737',
+      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
+    }
   ],
 
   'promotionText':'Interested in learning programs with fun?',
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'python-minecraft.html',
-  'cnUrl':'python-minecraftc.html'
+  'engUrl':'unreal.html',
+  'cnUrl':'unrealc.html'
 
 }
 

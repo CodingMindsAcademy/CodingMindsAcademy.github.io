@@ -4137,6 +4137,9 @@ table.border--round {
 .table--alternate-row tbody tr:nth-child(even) {
   background: #fafafa;
 }
+.table--alternate-row tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
 .bg--dark table.border--round {
   border-radius: 6px;
   border: 1px solid #3f3f3f;
