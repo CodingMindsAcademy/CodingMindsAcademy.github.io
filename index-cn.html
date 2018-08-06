@@ -115,16 +115,7 @@
 
             <section id="summercamp" class="text-center bg--secondary">
                 <div class="container">
-                    <h2 class="text-center">选择适合孩子的编程课程<br></h2>
-                    <!-- <p class="lead text-center">
-                        编程夏令营每期2周4门课程，可以任意单独选报课程
-                        <br>
-                        每门课程长度为一周五天（上午9-12PM或者下午1-4PM）
-                        <br>
-                        单门课程$450；两门课程$800
-                        <br>
-                        三门课程$1150；四门课程$1400
-                    </p> -->
+                    <h2 class="text-center">选择适合孩子的编程课程<br></h2>                    
                 </div>
 
                 <div class="tabs-container" data-content-align="center">                    
@@ -185,12 +176,13 @@
                                     <div class="col-sm-10">
                                         <div class="col-sm-4" ng-repeat="schedule in courseScheduleIrvine">
                                             <table class="border--round table--alternate-row">
-                                                <p><b>{{schedule.title}}</b></p>
+                                                <p><b ng-bind-html="schedule.title"></b></p>
                                                 <thead>
                                                     <tr>
                                                         <th style="width: 20%" class="text-center">年级</th>
                                                         <th class="text-center">课程</th>
                                                         <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -198,6 +190,7 @@
                                                         <td>{{cs.gradeLevel}}</td>
                                                         <td ng-bind-html="cs.courseName"></td>
                                                         <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
                                                     </tr>    
                                                 </tbody>
                                             </table>
@@ -205,6 +198,25 @@
                                     </div>
                                 </div>
                                 <br>
+                                
+                                <div class="cta">
+                                    <h2></h2>
+                                    <!-- <p class="lead">
+                                                    Each purchase of Stack comes with six months free support — and a lifetime of free content and bug-fix updates.
+                                    </p> -->
+                                    <a class="btn btn--primary type--uppercase" href="https://jinshuju.net/f/zhLG48" target="_blank">
+                                            <span class="btn__text">
+                                                报名尔湾编程课程
+                                            </span>
+                                            <span class="label">18年秋季</span>
+                                    </a>
+                                    <p></p>
+                                </div>
+                                <br>
+                                
+                                <div class="container">
+                                    <h2 class="text-center">课程详细信息<br></h2>                    
+                                </div>
                                 <div class="row">
                                     <div class="col-sm-10">                         
                                         <div class="masonry">
@@ -253,10 +265,32 @@
                             </div>
                             <div class="tab__content">
                                 <div class="row">
-                                    <div class="col-sm-4">                            
-                                        <p>
-                                            <img src="img/my/programs/Table1.png"></img>    
-                                        </p>
+                                    <p class="lead text-center">
+                                        Coming Soon in Fall 2018
+                                    </p>
+
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleArcadia">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <br>
@@ -378,13 +412,32 @@
                                 <span class="h5">Online线上课程</span>
                             </div>
                             <div class="tab__content">
-                                <div class="row">
-                                    <div class="col-sm-4">                            
-                                        <p>
-                                            <img src="img/my/programs/Table1.png"></img>    
-                                        </p>
+                                <div class="row">                                    
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleOnline">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
                                     </div>
                                 </div>
+
                                 <br>
                                 <div class="row">
                                     <div class="col-sm-10">                         
@@ -433,13 +486,32 @@
                                 <span class="h5">名校申请背景提升</span>
                             </div>
                             <div class="tab__content">
-                                <div class="row">
-                                    <div class="col-sm-4">                            
-                                        <p>
-                                            <img src="img/my/programs/Table1.png"></img>    
-                                        </p>
+                                <div class="row">                                    
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-4" ng-repeat="schedule in courseScheduleEnrichment">
+                                            <table class="border--round table--alternate-row">
+                                                <p><b ng-bind-html="schedule.title"></b></p>
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 20%" class="text-center">年级</th>
+                                                        <th class="text-center">课程</th>
+                                                        <th class="text-center">时间</th>
+                                                        <th style="width: 10%" class="text-center">价格</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="cs in schedule.courses">
+                                                        <td>{{cs.gradeLevel}}</td>
+                                                        <td ng-bind-html="cs.courseName"></td>
+                                                        <td ng-bind-html="cs.datetime"></td>
+                                                        <td ng-bind-html="cs.price"></td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div>                                        
                                     </div>
                                 </div>
+
                                 <br>
                                 <div class="row">
                                     <div class="col-sm-10">                         
