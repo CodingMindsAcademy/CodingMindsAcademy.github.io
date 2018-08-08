@@ -49,7 +49,7 @@ var coursedb = {
 			'detailsUrl':'roblox1c.html',
 			'registerTitle':'我要注册',
 			'registerUrl':'roblox1c.html'
-		},
+		}, 
 		'cs204' : {
 			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
@@ -358,7 +358,7 @@ angular.module('v3App', [])
   	for(var key in coursedb.cn) {
   		$scope.courseList.push(coursedb.cn[key]);
 	}    
-    $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs102, coursedb.cn.cs201, coursedb.cn.cs202];
+    $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs201, coursedb.cn.cs203, coursedb.cn.cs204, coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs303, coursedb.cn.cs305, coursedb.cn.cs308];
     $scope.courseScheduleIrvine = scheduleIrvine;
     $scope.courseScheduleRancho = scheduleRancho;
     $scope.courseScheduleArcadia = scheduleArcadia;
