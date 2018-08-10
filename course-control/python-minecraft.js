@@ -4,7 +4,7 @@ var courseData = {
   'topTitleLine1' : 'Python Programming',
   'topTitleLine2' : 'with Minecraft',
   'topGradeLevel' : 'Grades 6 - 8',
-  'topIntroText' : 'Python has become the most popular programming language in the cutting-edge fields. This course introduces Python programming with the game all students love - Minecraft.',
+  'topIntroText' : 'Python has become the most popular programming language in cutting-edge fields. This course introduces Python programming with the game all students love - Minecraft.',
 
   'bgTitle':'Python Programming with Minecraft',
   'bgImageUrl':'img/my/pythonmine/pyminebg.jpg',
