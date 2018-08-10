@@ -115,7 +115,7 @@ var courseData = {
     {
       'icon':'icon-Idea',
       'title':'Focus on Imagination and Creativity',
-      'text':'Learning programming is not the ultimate goal. We focus on pushing the kids\' imagination and creativity
+      'text':'Learning programming is not the ultimate goal. We focus on pushing the kids\' imagination and creativity'
     },
     {
       'icon':'icon-Key',
