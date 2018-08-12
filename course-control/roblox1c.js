@@ -151,7 +151,7 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'注册报名',
   'priceTitle':'单人报名价格',
   'price':'$450',

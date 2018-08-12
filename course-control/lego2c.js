@@ -124,7 +124,7 @@ var courseData = {
     },
   ],
 
-  'sessionsTitle':'选择适合您的课程时间',
+  'sessionsTitle':'选择适合的课程时间',
   'sessionsTimeTitle':'时间',
   'sessionsDateTitle':'日期',
   'sessionsLocationTitle':'地点',

@@ -317,7 +317,69 @@ var scheduleIrvine = [
 ]
 
 var scheduleArcadia = [
-	
+	{
+		"title" : "秋季上期 周二班<br>8/27-10/15 (8周)",
+		"courses" : [
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Minecraft MakeCode<br>编程挑战I",
+				"datetime" : "每周二<br>3:20-4:50pm",
+				"price" : "$475"
+			},
+			{
+				"gradeLevel" : "7-12",
+				"courseName" : "Unity3D<br>游戏开发",
+				"datetime" : "每周二<br>5:00-6:30pm",
+				"price" : "$475"
+			}			
+		]	
+	},
+	{
+		"title" : "秋季上期 周四班<br>8/29-10/17 (8周)",
+		"courses" : [
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Roblox编程<br>发布与创业I",
+				"datetime" : "每周四<br>3:20-4:50pm",
+				"price" : "$475"
+			},			
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Minecraft MakeCode<br>编程挑战II",
+				"datetime" : "每周四<br>3:20-4:50pm",
+				"price" : "$475"
+			},			
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Roblox编程<br>发布与创业II",
+				"datetime" : "每周四<br>5:00-6:30pm",
+				"price" : "$475"
+			},
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Minecraft MakeCode<br>编程挑战I",
+				"datetime" : "每周四<br>5:00-6:30pm",
+				"price" : "$475"
+			}
+		]	
+	},
+	{
+		"title" : "秋季上期 周六班<br>9/1-10/20 (8周)",
+		"courses" : [
+			{
+				"gradeLevel" : "3-6",
+				"courseName" : "Roblox编程<br>发布与创业I",
+				"datetime" : "每周六<br>9:30-11:00am",
+				"price" : "$475"
+			},			
+			{
+				"gradeLevel" : "7-12",
+				"courseName" : "Python Minecraft<br>编程初步",
+				"datetime" : "每周六<br>9:30-11:00am",
+				"price" : "$475"
+			}
+		]	
+	}	
 ]
 
 var scheduleRancho = [
@@ -357,7 +419,8 @@ angular.module('v3App', [])
   	$scope.courseList = [];
   	for(var key in coursedb.cn) {
   		$scope.courseList.push(coursedb.cn[key]);
-	}    
+	}
+
     $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs201, coursedb.cn.cs203, coursedb.cn.cs204, coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs303, coursedb.cn.cs305, coursedb.cn.cs308];
     $scope.courseScheduleIrvine = scheduleIrvine;
     $scope.courseScheduleRancho = scheduleRancho;
@@ -365,7 +428,7 @@ angular.module('v3App', [])
     $scope.courseScheduleOnline = [];
     $scope.courseScheduleEnrichment = [];
 
-    $scope.courseListArcadia = [];
+    $scope.courseListArcadia = [coursedb.cn.cs201, coursedb.cn.cs203, coursedb.cn.cs301, coursedb.cn.cs302];
     $scope.courseListRancho = [coursedb.cn.cs204, coursedb.cn.cs201, coursedb.cn.cs308];
     $scope.courseListOnline = [coursedb.cn.cs401, coursedb.cn.cs402, coursedb.cn.cs403, coursedb.cn.cs404, coursedb.cn.cs407];
     $scope.courseListEnrichment = [coursedb.cn.cs404, coursedb.cn.cs405, coursedb.cn.cs406, coursedb.cn.cs407];
