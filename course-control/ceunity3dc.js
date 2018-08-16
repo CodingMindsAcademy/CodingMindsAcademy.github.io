@@ -122,6 +122,7 @@ var courseData = {
     },    
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'选择适合您的课程时间',
   'sessionsTimeTitle':'时间',
   'sessionsDateTitle':'日期',
@@ -135,17 +136,17 @@ var courseData = {
   ],
 
   'registrationEnabled':false,
-  'registrationTitle':'注册报名',
-  'priceTitle':'报名价格',
-  'price':'$595',
+  'registrationTitle':'',
+  'priceTitle':'注册报名',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
-    '第一节课免费试听',
-    '和专业老师学习编程',
-    '小班上课个性化辅导',
-    '为竞赛创业而设计'
+    '第一节课免费试听，无需付款',
+    '师生比例1:4，保证教学质量',
+    '动手做项目，竞赛创业为目标',
+    '为高中和大学名校申请服务'
   ],
-  'registrationLink':'ceunity3dc.html',
+  'registrationLink':'https://jinshuju.net/f/LyzWgz',
   'registerNow':'我要报名',
 
   'faq':{
@@ -154,11 +155,23 @@ var courseData = {
 
   'locations':[
     {
-      'name' : '尔湾编程思维',
-      'address1' : 'TBD',
+      'name' : 'Irvine尔湾编程思维教室地址',
+      'address1' : '930 Roosevelt, Suite 236',
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '930 Roosevelt, Irvine, CA 92620'
-    },    
+    },
+    {
+      'name' : 'Arcadia编程思维教室地址',
+      'address1' : '222 S 1st Ave',
+      'address2' : 'Arcadia, CA 91006',
+      'addressMap' : '222 S 1st Ave, Arcadia, CA 91006'
+    },
+    {
+      'name' : 'Rancho Cucamonga编程思维教室地址',
+      'address1' : '6080 Haven Ave',
+      'address2' : 'Rancho Cucamonga, CA 91737',
+      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
+    }
   ],
 
   'promotionText':'想现在加入到快乐中学习编程吗?',
