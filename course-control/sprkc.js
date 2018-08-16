@@ -146,7 +146,7 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'',
   'priceTitle':'注册报名',
   'price':'',

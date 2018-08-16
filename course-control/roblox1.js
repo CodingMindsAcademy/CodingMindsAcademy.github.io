@@ -151,7 +151,7 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
   'price':'$450',

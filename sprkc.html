@@ -445,8 +445,30 @@
                         </div>
                     </div>
                 </section>
-
-        <!-- 9. Location and Map -->
+        <!-- 10. Registration -->
+        <section ng-hide="{{!cd.registrationEnabled}}" class="text-center bg--secondary">
+            <div class="container">
+                <h2 class="text-center">{{cd.registrationTitle}}</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="pricing pricing-1 boxed boxed--lg boxed--border">
+                            <h3>{{cd.priceTitle}}</h3>
+                            <span class="h2"><strong>{{cd.price}}</strong></span>
+                            <span class="type--fine-print">{{cd.allCreditCards}}</span>
+                            <hr>
+                            <ul>
+                                <li ng-repeat="priceItem in cd.priceItems"><span class="checkmark bg--primary-1"></span><span>{{priceItem}}</span></li>
+                            </ul>
+                            <a class="btn btn--primary" href="{{cd.registrationLink}}">
+                                <span class="btn__text">
+                                    {{cd.registerNow}}
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="switchable" ng-repeat="loc in cd.locations">
             <div class="container">
                 <div class="row">
