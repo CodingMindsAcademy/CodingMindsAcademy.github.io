@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn Python programming with Minecraft.',
   'topTitleLine1' : 'Python Programming',
   'topTitleLine2' : 'with Minecraft',
-  'topGradeLevel' : 'Grades 6 - 8',
+  'topGradeLevel' : 'Grades 7 - 12',
   'topIntroText' : 'Python has become the most popular programming language in cutting-edge fields. This course introduces Python programming with the game all students love - Minecraft.',
 
   'bgTitle':'Python Programming with Minecraft',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Python',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'6 - 8',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginniner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -124,6 +124,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,7 +147,7 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':true,
+  'registrationEnabled':false,
   'registrationTitle':'Registration',
   'priceTitle':'Price',
   'price':'$445',
