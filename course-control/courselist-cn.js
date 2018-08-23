@@ -33,7 +33,7 @@ var coursedb = {
 		'cs202' : {
 			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'K-5年级',
 			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'scratchc.html',
@@ -367,6 +367,12 @@ var scheduleArcadia = [
 		"title" : "秋季上期 周六班<br>9/1-10/20 (8周)",
 		"courses" : [
 			{
+				"gradeLevel" : "K-2",
+				"courseName" : "Scratch<br>创新编程与实践",
+				"datetime" : "每周六<br>9:30-11:00am",
+				"price" : "$475"
+			},			
+			{
 				"gradeLevel" : "3-6",
 				"courseName" : "Roblox编程<br>发布与创业I",
 				"datetime" : "每周六<br>9:30-11:00am",
@@ -428,7 +434,7 @@ angular.module('v3App', [])
     $scope.courseScheduleOnline = [];
     $scope.courseScheduleEnrichment = [];
 
-    $scope.courseListArcadia = [coursedb.cn.cs201, coursedb.cn.cs203, coursedb.cn.cs301, coursedb.cn.cs302];
+    $scope.courseListArcadia = [coursedb.cn.cs201, coursedb.cn.cs202, coursedb.cn.cs203, coursedb.cn.cs301, coursedb.cn.cs302];
     $scope.courseListRancho = [coursedb.cn.cs204, coursedb.cn.cs201, coursedb.cn.cs308];
     $scope.courseListOnline = [coursedb.cn.cs401, coursedb.cn.cs402, coursedb.cn.cs403, coursedb.cn.cs404, coursedb.cn.cs407];
     $scope.courseListEnrichment = [coursedb.cn.cs404, coursedb.cn.cs405, coursedb.cn.cs406, coursedb.cn.cs407];
