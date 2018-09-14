@@ -130,18 +130,16 @@ var coursedb = {
 			'registerTitle':'REGISTER',
 			'registerUrl':'roblox2.html'
 		},
-		/*
 		'cs308' : {
-			'name':'Unreal游戏引擎专业Game Development:做你自己的Fortnite',
+			'name':'Game Development with Unreal Game Engine: Create Your Fortnite',
 			'imageUrl':'img/my/unreal/bg-sm.png',
-			'gradeLevel':'7-12年级',
-			'text':'学习世界最流行的Game Development引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
+			'gradeLevel':'Grade 7-12',
+			'text':'Learn the world\'s most popular Game Development engine and create the games you want to play.',
 			'detailsTitle':'EXPLORE',
-			'detailsUrl':'unrealc.html',
+			'detailsUrl':'unreal.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'unrealc.html'
+			'registerUrl':'unreal.html'
 		},
-		*/
 		'cs401' : {
 			'name':'AP CS Boot Camp: Intro to Java Programming',
 			'imageUrl':'img/my/coding-spacesm.jpg',
