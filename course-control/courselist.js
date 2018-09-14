@@ -203,18 +203,16 @@ var coursedb = {
 			'registerTitle':'REGISTER',
 			'registerUrl':'cepython.html'
 		},
-		/*
 		'cs407' : {
-			'name':'名校申请背景强化课程：人工智能基础与项目实践',
+			'name':'College Application Enrichment: AI and Machine Learning',
 			'imageUrl':'img/my/ceml/ai-sm.jpg',
-			'gradeLevel':'9-12年级',
-			'text':'学习Python算法，开发人工智能应用项目，为科学竞赛、课外项目和创业充实内容和经历',
+			'gradeLevel':'Grade 9-12',
+			'text':'Learn Python and develop AI projects to enrich your college applications and prepare for competitions',
 			'detailsTitle':'EXPLORE',
-			'detailsUrl':'cemlc.html',
+			'detailsUrl':'ceml.html',
 			'registerTitle':'REGISTER',
-			'registerUrl':'cemlc.html'
+			'registerUrl':'ceml.html'
 		}
-		*/
 	}
 }
 

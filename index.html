@@ -4,11 +4,6 @@
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
     <title>Learn Coding with Fun | Coding Minds Academy</title>
-    <script type="text/javascript">
-        if (navigator.language.includes("zh") || navigator.language.includes("cn")) {
-            window.location.replace("index-cn.html");
-        }
-    </script>
     <meta name="keywords" content="Learn Computer Science, Learn Computational Thinking, Kids Learning Coding, K-12 Programming, K-12 Coding, Kids Coding, After School Coding, After School Program">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn coding with fun! Here at Coding Minds Academy, we teach programming and computational thinking with a hands-on approach. Students will be able to have fun, build their own applications, and meet others students who share their passion and interest for coding.">
@@ -50,34 +45,44 @@
                 <div class="row">
                     <div class="col-md-1 col-sm-2 hidden-xs">
                         <div class="bar__module">
-                            <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
+                            <a href="index-cn.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
                         </div>
                     </div>
                     <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> <a href="index.html">
-                                    Home
-                                </a> </li>
-                                <li> <a href="index.html#summercamp">
-                                    Our Programs
-                                </a> </li>
-                                <li> <a href="page-whycoding.html">
-                                    Why Coding
-                                </a> </li>
-                                <li> <a href="#">
-                                    News
-                                </a> </li>
-                                <li> <a href="page-about-us-1.html">
-                                    About Us
-                                </a> </li>
+                                <li>
+                                    <a href="index.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-cn.html#summercamp">
+                                        Our Programs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-whycoding.html">
+                                        Why Coding
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-about-us-1.html">
+                                        About Us
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="bar__module">
                                     <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
                                     Contact Us
                                 </span> </a> -->
-                                <a class="btn btn--sm btn--primary type--uppercase" href="page-contact-us.html"> <span class="btn__text">
+                                <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
                                     Contact Us
                                 </span> </a>
                             </div>
@@ -88,7 +93,6 @@
             <!--end bar-->
         </div>
         <div class="main-container">
-
             <section class="switchable">
                 <div class="container">
                     <div class="row">
@@ -118,7 +122,7 @@
                 <!--end of container-->
             </section>
 
-            <section class=" bg--secondary">
+            <section id="summercamp" class="text-center bg--secondary">
                 <div class="container">
                     <h2 class="text-center">View Our 2018 Classes<br></h2>
                 </div>
@@ -320,36 +324,6 @@
                                                     <span class="btn__text">
                                                         Register Now
                                                     </span>
-                    <div class="row">
-                        <div class="masonry">
-                            <div class="masonry__container">
-                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
-                                    <div class="card card-2 text-center">
-                                        <div class="card__top">
-                                            <a href="{{course.detailsUrl}}">
-                                                <img alt="Image" ng-src="{{course.imageUrl}}">
-                                            </a>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>{{course.name}}</h4>
-                                            <span class="type--fade">{{course.gradeLevel}}</span>
-                                            <br>
-                                            <span class="type--fade">{{course.date}}</span>
-                                            <p>
-                                                {{course.text}}
-                                            </p>
-                                        </div>
-                                        <div class="card__bottom text-center">
-                                            <div class="card__action">
-                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
-                                                <a href="{{course.detailsUrl}}">
-                                                    <i class="material-icons">flip_to_front</i>
-                                                </a>
-                                            </div>
-                                            <div class="card__action">
-                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
-                                                <a href="{{course.registerUrl}}">
-                                                    <i class="material-icons">favorite_border</i>
                                                 </a>
                                             </div>
                                         </div>
@@ -414,9 +388,9 @@
                                                             <p><b>{{schedule.title}}</b></p>
                                                             <thead>
                                                                 <tr>
-                                                                    <th style="width: 20%" class="text-center">年级</th>
-                                                                    <th class="text-center">课程</th>
-                                                                    <th class="text-center">时间</th>
+                                                                    <th style="width: 20%" class="text-center">Grade</th>
+                                                                    <th class="text-center">Course</th>
+                                                                    <th class="text-center">Time</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
@@ -577,6 +551,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <br>
                                             <div class="row">
                                                 <div class="col-sm-10">
@@ -586,7 +561,7 @@
                                                                 <div class="card card-2 text-center">
                                                                     <div class="card__top">
                                                                         <a href="{{course.detailsUrl}}">
-                                                                           <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                                            <img alt="Image" ng-src="{{course.imageUrl}}">
                                                                         </a>
                                                                     </div>
                                                                     <div class="card__body">
@@ -595,21 +570,21 @@
                                                                         <br>
                                                                         <span class="type--fade">{{course.date}}</span>
                                                                         <p>
-                                                                           {{course.text}}
+                                                                            {{course.text}}
                                                                         </p>
                                                                     </div>
                                                                     <div class="card__bottom text-center">
                                                                         <div class="card__action">
-                                                                           <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
-                                                                           <a href="{{course.detailsUrl}}">
+                                                                            <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                            <a href="{{course.detailsUrl}}">
                                                                                 <i class="material-icons">flip_to_front</i>
-                                                                           </a>
+                                                                            </a>
                                                                         </div>
                                                                         <div class="card__action">
-                                                                           <span class="h6 type--uppercase">{{course.registerTitle}}</span>
-                                                                           <a href="{{course.registerUrl}}">
+                                                                            <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                                            <a href="{{course.registerUrl}}">
                                                                                 <i class="material-icons">favorite_border</i>
-                                                                           </a>
+                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -621,8 +596,8 @@
                                         </div>
                                     </li>
                                 </ul>
-                </div>
-            </section>
+                            </div>
+                        </section>
 
                         <footer class="footer-3 text-center-xs space--xs ">
                             <div class="container">
@@ -671,7 +646,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <p class="type--fine-print">
-                                            Learn coding with fun | <a href="index-cn.html">中文</a>
+                                            Learn coding with fun | <a href="index.html">English</a>
                                         </p>
                                     </div>
                                     <div class="col-sm-6 text-right text-center-xs">
@@ -685,7 +660,6 @@
                                 </div>
                                 <!--end of container-->
                             </footer>
-
                         </div>
                         <!--<div class="loader"></div>-->
                         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
