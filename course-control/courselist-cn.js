@@ -210,6 +210,16 @@ var coursedb = {
 			'detailsUrl':'cemlc.html',
 			'registerTitle':'我要注册',
 			'registerUrl':'cemlc.html'
+		},
+		'cs408' : {
+			'name':'名校申请背景强化课程：Technovation编程竞技与创业竞赛',
+			'imageUrl':'img/my/cetech/te-bg.png',
+			'gradeLevel':'6-12年级女生',
+			'text':'学习APP编程开发，参加Technovation编程竞技与创业竞赛',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'cetechc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'cetechc.html'
 		}
 	}
 }
@@ -427,7 +437,7 @@ angular.module('v3App', [])
   		$scope.courseList.push(coursedb.cn[key]);
 	}
 
-    $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs201, coursedb.cn.cs203, coursedb.cn.cs204, coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs303, coursedb.cn.cs305, coursedb.cn.cs308];
+    $scope.courseListIrvine = [coursedb.cn.cs101, coursedb.cn.cs201, coursedb.cn.cs203, coursedb.cn.cs204, coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs303, coursedb.cn.cs305, coursedb.cn.cs308, coursedb.cn.cs408];
     $scope.courseScheduleIrvine = scheduleIrvine;
     $scope.courseScheduleRancho = scheduleRancho;
     $scope.courseScheduleArcadia = scheduleArcadia;
@@ -437,5 +447,5 @@ angular.module('v3App', [])
     $scope.courseListArcadia = [coursedb.cn.cs201, coursedb.cn.cs202, coursedb.cn.cs203, coursedb.cn.cs301, coursedb.cn.cs302];
     $scope.courseListRancho = [coursedb.cn.cs204, coursedb.cn.cs201, coursedb.cn.cs308];
     $scope.courseListOnline = [coursedb.cn.cs401, coursedb.cn.cs402, coursedb.cn.cs403, coursedb.cn.cs404, coursedb.cn.cs407];
-    $scope.courseListEnrichment = [coursedb.cn.cs404, coursedb.cn.cs405, coursedb.cn.cs406, coursedb.cn.cs407];
+    $scope.courseListEnrichment = [coursedb.cn.cs404, coursedb.cn.cs405, coursedb.cn.cs406, coursedb.cn.cs407, coursedb.cn.cs408];
   });
