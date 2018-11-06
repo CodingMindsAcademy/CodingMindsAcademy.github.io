@@ -216,11 +216,11 @@ var coursedb = {
 
 var scheduleIrvine = [
 	{
-		"title" : "Fall Period Monday Classes<br>8/27-10/15 (8 Weeks)",
+		"title" : "Fall Period Monday Classes<br>10/22-12/10 (8 Weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "3-6",
-				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship",
+				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship II",
 				"datetime" : "Mondays<br>3:20-4:50pm",
 				"price" : "$475"
 			},
@@ -232,8 +232,8 @@ var scheduleIrvine = [
 			},
 			{
 				"gradeLevel" : "3-6",
-				"courseName" : "Lego Mindstorms<br>Advanced",
-				"datetime" : "Mondays<br>5:00-6:30pm",
+				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship I",
+				"datetime" : "Mondays<br>3:20-4:50pm",
 				"price" : "$475"
 			},
 			{
@@ -245,7 +245,7 @@ var scheduleIrvine = [
 		]
 	},
 	{
-		"title" : "Fall Period Wednesday Classes<br>8/29-10/17 (8 Weeks)",
+		"title" : "Fall Period Wednesday Classes<br>10/24-12/19 (8 Weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "K-2",
@@ -274,7 +274,7 @@ var scheduleIrvine = [
 		]
 	},
 	{
-		"title" : "Fall Period Saturday Classes<br>9/1-10/20 (8 Weeks)",
+		"title" : "Fall Period Saturday Classes<br>10/27-12/22 (8 Weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "6-12",
@@ -318,7 +318,7 @@ var scheduleIrvine = [
 
 var scheduleArcadia = [
 	{
-		"title" : "Fall Period Tuesday Classes<br>8/27-10/15 (8周)",
+		"title" : "Fall Period Tuesday Classes<br>10/25-12/10 (8 weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "3-6",
@@ -335,7 +335,7 @@ var scheduleArcadia = [
 		]
 	},
 	{
-		"title" : "Fall Period Thursday Classes<br>8/29-10/17 (8周)",
+		"title" : "Fall Period Thursday Classes<br>10/27-12/20 (8周)",
 		"courses" : [
 			{
 				"gradeLevel" : "3-6",
@@ -364,7 +364,7 @@ var scheduleArcadia = [
 		]
 	},
 	{
-		"title" : "Fall Period Saturday Classes<br>9/1-10/20 (8周)",
+		"title" : "Fall Period Saturday Classes<br>10/27-12/22 (8 weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "K-2",
