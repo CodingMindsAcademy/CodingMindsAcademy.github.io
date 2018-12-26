@@ -170,6 +170,16 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'arduinoc.html'
 		},
+		'cs316' : {
+			'name':'电子工程师成长之路:Raspberry PI智能物联网系统编程',
+			'imageUrl':'img/my/rpi/bg2.jpg',
+			'gradeLevel':'7-12年级',
+			'text':'制作物联网电子系统，在硬件的世界学习软件，让你充分体验编程的强大',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'rpic.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'rpic.html'
+		},
 		'cs307' : {
 			'name':'Roblox游戏开发进阶与Lua编程:游戏创业学编程',
 			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
