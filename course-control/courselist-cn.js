@@ -11,6 +11,16 @@ var coursedb = {
 			'registerUrl':'mcbuildc.html'
 		},
 		'cs102' : {
+			'name':'Minecraft Javascript编程初步:代码编程从此开始',
+			'imageUrl':'img/my/minecraftbasic/bg2-sm.jpg',
+			'gradeLevel':'K-3年级',
+			'text':'在微软的MakeCode平台中学习Javscript的基础，开始代码编程之路',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'mcbuild2c.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'mcbuild2c.html'
+		},
+		'cs110' : {
 			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
 			'imageUrl':'img/my/sprk-learn-5sm.jpg',
 			'gradeLevel':'K-3年级',
