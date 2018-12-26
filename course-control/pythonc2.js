@@ -1,19 +1,19 @@
 var courseData = {
-  'courseTitle' : 'Python高阶编程与人工智能初步 | Coding Minds 编程思维',
-  'courseDescription' : '学习当今最流行的编程语言，开发AI人工智能应用',
-  'topTitleLine1' : 'Python高阶编程与人工智能初步:',
-  'topTitleLine2' : '开发AI人工智能应用',
+  'courseTitle' : 'Python编程进阶 | Coding Minds 编程思维',
+  'courseDescription' : '学习当今最流行的编程语言，学习算法与应用',
+  'topTitleLine1' : 'Python编程进阶:',
+  'topTitleLine2' : '高级语言功能与算法介绍',
   'topGradeLevel' : '7-12 年级',
-  'topIntroText' : 'Python编程不仅仅是一个普通的教授计算机编程语言基础的课程，而是为中学生量身打造的Python编程实践。学生会学习人工智能的初步并且动手编写实用的真正的AI应用程序。',
+  'topIntroText' : 'Python编程不仅仅是一个普通的教授计算机编程语言基础的课程，而是为中学生量身打造的Python编程实践。学生会学习Python的高级语言功能，并且训练算法与数据结构的初步思想，为信息学竞赛准备。',
 
-  'bgTitle':'Python高阶编程与人工智能初步',
+  'bgTitle':'Python编程进阶',
   'bgImageUrl':'img/my/python-learn-3.jpg',
-  'bgText':'学习当今最流行的编程语言，开发机器学习与AI的应用程序',
-  'bgLearnMoreText':'了解更多AI',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/15PK38MUEPM?autoplay=1',
+  'bgText':'学习当今最流行的编程语言，学习算法与应用',
+  'bgLearnMoreText':'了解更多Python',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
 
   'aboutTitle':'关于课程',
-  'aboutText':'学习高级Python编程，开发机器学习与AI的应用程序',
+  'aboutText':'学习Python编程进阶，学习算法与应用',
   'aboutCategoryTitle':'类别',
   'aboutCategory':'编程与算法',
   'aboutGradeLevelTitle':'适合年级',
@@ -25,23 +25,23 @@ var courseData = {
 
   'promotion1':{
     'enabled':true,
-    'title':'用Python探索机器学习',
-    'text':'你是否好奇过工程师们是如何实现自动驾驶汽车？你有没有想过谷歌是怎么让计算机战胜世界围棋冠军？答案是机器学习！使用Python，你可以很快的体验和实践如果实现机器学习，如何让你的计算机变的更聪明。',
+    'title':'进入编程的进阶世界',
+    'text':'你将开始学习到当今流行的专业编程语言Python — 谷歌的工程师们也在用它。Python可以让你编写出可以解决各种复杂问题的程序。',
     'imageUrl':'img/my/machine-learning-1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'从机器学习到深度学习',
-    'text':'从传统的机器学习到最新的深度学习，了解深度学习技术和工具，实验自己的数据与模型。',
+    'title':'学习计算机算法',
+    'text':'学习计算思维的核心是计算机算法，有了Python的基础知识，你可以开始学习大学的算法课程。',
     'imageUrl':'img/my/python-learn-5.jpg'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'做人工智能的高级应用',
-    'text':'图像识别、语音输入、自然语言处理，日常见到的AI的前沿应用你也可以动手自己制作和尝试。',
-    'imageUrl':'img/my/machine-learning-1.jpg'
+    'title':'掌握数据结构',
+    'text':'编程的处理对象是数据，了解数据，懂得如何存储数据和操作数据是编程必备的技能。',
+    'imageUrl':'img/my/python-data.jpg'
   },
 
   'promotion4':{
@@ -66,19 +66,19 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Coding',
-      'text':'Python编程语言的高级知识'
+      'text':'Python编程语言的进阶知识'
     },
     {
       'icon':'icon-Gears',
-      'text':'掌握机器学习和人工智能的初步'
+      'text':'掌握计算机算法的初步'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'学习TensorFlow的基本应用'
+      'text':'学习数据结构基础与应用'
     },
     {
       'icon':'icon-Server',
-      'text':'独立设计机器学习实验方法与优化'
+      'text':'独立设计常用计算机计算方法'
     },
     {
       'icon':'icon-Idea',

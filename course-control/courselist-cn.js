@@ -3,7 +3,7 @@ var coursedb = {
 		'cs101' : {
 			'name':'Minecraft世界开发与指令编程:少儿编程入门',
 			'imageUrl':'img/my/minecraftbasic/bg-sm.jpg',
-			'gradeLevel':'K-2年级',
+			'gradeLevel':'K-3年级',
 			'text':'在Minecraft游戏中学习3D建模、控制指令与图形编程初步',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mcbuildc.html',
@@ -13,7 +13,7 @@ var coursedb = {
 		'cs102' : {
 			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
 			'imageUrl':'img/my/sprk-learn-5sm.jpg',
-			'gradeLevel':'K-2年级',
+			'gradeLevel':'K-3年级',
 			'text':'学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sprkc.html',
@@ -23,7 +23,7 @@ var coursedb = {
 		'cs201' : {
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
 			'imageUrl':'img/my/minecode/minecodebgsm.jpg',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'4-6年级',
 			'text':'在Minecraft我的世界游戏中学习编程将是孩子们理想的学习体验',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
@@ -33,7 +33,7 @@ var coursedb = {
 		'cs202' : {
 			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'K-5年级',
+			'gradeLevel':'K-3年级',
 			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'scratchc.html',
@@ -43,7 +43,7 @@ var coursedb = {
 		'cs203' : {
 			'name':'Roblox游戏开发与发布:游戏创业学编程',
 			'imageUrl':'img/my/roblox1/bg-sm.jpg',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'4-6年级',
 			'text':'学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox1c.html',
@@ -71,7 +71,7 @@ var coursedb = {
 			'registerUrl':'unity3dc.html'
 		},
 		'cs302' : {
-			'name':'Python编程初步：学做Minecraft游戏开发员',
+			'name':'Python编程初步:学做Minecraft游戏开发员',
 			'imageUrl':'img/my/pythonmine/pyminebghp.jpg',
 			'gradeLevel':'6-12年级',
 			'text':'在世界最流行的游戏中学习世界最流行的编程语言Python',
@@ -81,7 +81,7 @@ var coursedb = {
 			'registerUrl':'python-minecraftc.html'
 		},
 		'cs312' : {
-			'name':'Python编程进阶：高级语言功能与算法介绍',
+			'name':'Python编程进阶:高级语言功能与算法介绍',
 			'imageUrl':'img/my/python2.jpg',
 			'gradeLevel':'6-12年级',
 			'text':'学习编程语言Python的高级算法，解决、优化实际问题，',
@@ -91,7 +91,7 @@ var coursedb = {
 			'registerUrl':'pythonc2.html'
 		},
 		'cs322' : {
-			'name':'Python高阶编程：AI人工智能初步',
+			'name':'Python高阶编程:AI人工智能初步',
 			'imageUrl':'img/my/ai-bg.jpg',
 			'gradeLevel':'7-12年级',
 			'text':'学习人工智能的初步并且动手编写实用的真正的AI应用程序',
