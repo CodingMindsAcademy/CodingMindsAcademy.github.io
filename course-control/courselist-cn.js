@@ -73,17 +73,37 @@ var coursedb = {
 		'cs302' : {
 			'name':'Python编程初步：学做Minecraft游戏开发员',
 			'imageUrl':'img/my/pythonmine/pyminebghp.jpg',
-			'gradeLevel':'7-12年级',
+			'gradeLevel':'6-12年级',
 			'text':'在世界最流行的游戏中学习世界最流行的编程语言Python',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'python-minecraftc.html',
 			'registerTitle':'我要注册',
 			'registerUrl':'python-minecraftc.html'
 		},
+		'cs312' : {
+			'name':'Python编程进阶：高级语言功能与算法介绍',
+			'imageUrl':'img/my/python2.jpg',
+			'gradeLevel':'6-12年级',
+			'text':'学习编程语言Python的高级算法，解决、优化实际问题，',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'pythonc2.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'pythonc2.html'
+		},
+		'cs322' : {
+			'name':'Python高阶编程：AI人工智能初步',
+			'imageUrl':'img/my/ai-bg.jpg',
+			'gradeLevel':'7-12年级',
+			'text':'学习人工智能的初步并且动手编写实用的真正的AI应用程序',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'pythonc3ai.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'pythonc3ai.html'
+		},
 		'cs303' : {
 			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
 			'imageUrl':'img/my/app-dev-2sm.jpg',
-			'gradeLevel':'7-12年级',
+			'gradeLevel':'4-6年级',
 			'text':'厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobilec.html',
