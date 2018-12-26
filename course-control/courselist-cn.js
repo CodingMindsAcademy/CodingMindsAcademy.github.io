@@ -111,7 +111,7 @@ var coursedb = {
 			'registerUrl':'pythonc2.html'
 		},
 		'cs322' : {
-			'name':'Python高阶编程:AI人工智能初步',
+			'name':'Python高阶编程:AI人工智能初步与高级应用',
 			'imageUrl':'img/my/ai-bg.jpg',
 			'gradeLevel':'7-12年级',
 			'text':'学习人工智能的初步并且动手编写实用的真正的AI应用程序',
@@ -253,7 +253,7 @@ var coursedb = {
 		},
 		'cs408' : {
 			'name':'名校申请背景强化课程：Technovation编程竞技与创业竞赛',
-			'imageUrl':'img/my/cetech/te-bg.png',
+			'imageUrl':'img/my/cetech/te-bg.jpg',
 			'gradeLevel':'6-12年级女生',
 			'text':'学习APP编程开发，参加Technovation编程竞技与创业竞赛',
 			'detailsTitle':'查看详情',
