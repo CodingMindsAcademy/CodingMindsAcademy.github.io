@@ -60,6 +60,16 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'roblox1c.html'
 		}, 
+		'cs213' : {
+			'name':'Roblox游戏开发进阶与Lua编程:游戏创业学编程',
+			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
+			'gradeLevel':'4-6年级',
+			'text':'学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'roblox2c.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'roblox2c.html'
+		},
 		'cs204' : {
 			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
@@ -179,17 +189,7 @@ var coursedb = {
 			'detailsUrl':'rpic.html',
 			'registerTitle':'我要注册',
 			'registerUrl':'rpic.html'
-		},
-		'cs307' : {
-			'name':'Roblox游戏开发进阶与Lua编程:游戏创业学编程',
-			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
-			'gradeLevel':'7-12年级',
-			'text':'学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误',
-			'detailsTitle':'查看详情',
-			'detailsUrl':'roblox2c.html',
-			'registerTitle':'我要注册',
-			'registerUrl':'roblox2c.html'
-		},
+		},		
 		'cs308' : {
 			'name':'Unreal游戏引擎专业游戏开发:做你自己的Fortnite',
 			'imageUrl':'img/my/unreal/bg-sm.png',

@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学习开发风靡全球的Roblox，发布你自己的游戏，创业编程两不误。',
   'topTitleLine1' : 'Roblox',
   'topTitleLine2' : '游戏开发进阶与Lua编程',
-  'topGradeLevel' : '7-12 年级',
+  'topGradeLevel' : '4-6 年级',
   'topIntroText' : 'Roblox游戏风靡全球，它的成功在于所有的游戏都是由游戏玩家自己制作而成。Roblox的游戏开发平台Roblox Studio功能强大并且容易上手，孩子们可以迅速学习制作自己的游戏，体验一把游戏开发者创业的过程。该课程是Roblox的进阶课程，重点教授孩子们的使用Lua编程语言实现游戏的高级进阶功能。',
 
   'bgTitle':'Roblox游戏开发进阶与Lua编程',
