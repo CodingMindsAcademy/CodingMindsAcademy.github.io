@@ -63,12 +63,22 @@ var coursedb = {
 		'cs301' : {
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
 			'imageUrl':'img/my/unity3d/unity3d-1sm.jpg',
-			'gradeLevel':'7-12年级',
+			'gradeLevel':'6-12年级',
 			'text':'学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unity3dc.html',
 			'registerTitle':'我要注册',
 			'registerUrl':'unity3dc.html'
+		},
+		'cs311' : {
+			'name':'Unity3D游戏开发进阶:专业游戏游戏开发员养成之路',
+			'imageUrl':'img/my/unity3d/bg-3sm.jpg',
+			'gradeLevel':'6-12年级',
+			'text':'学习游戏开发引擎的高级技巧和知识，创作专业游戏作品。',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'unity3d2c.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'unity3d2c.html'
 		},
 		'cs302' : {
 			'name':'Python编程初步:学做Minecraft游戏开发员',

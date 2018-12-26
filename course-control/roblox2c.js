@@ -175,9 +175,9 @@ var courseData = {
     },
     {
       'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '6080 Haven Ave',
-      'address2' : 'Rancho Cucamonga, CA 91737',
-      'addressMap' : '6080 Haven Ave, Rancho Cucamonga, CA 91737'
+      'address1' : '10570 E Foothill Blvd. #230',
+      'address2' : 'Rancho Cucamonga, CA 91730',
+      'addressMap' : '10570 E Foothill Blvd., Rancho Cucamonga, CA 91730'
     }
   ],
 

@@ -1,92 +1,90 @@
 var courseData = {
-  'courseTitle' : 'Python编程实践 | Coding Minds 编程思维',
-  'courseDescription' : '学习当今最流行的编程语言，开发任何你想制作的应用程序',
-  'topTitleLine1' : 'Python编程实践:',
-  'topTitleLine2' : '动手编写真正的计算机应用程序',
-  'topGradeLevel' : '7-12 年级',
-  'topIntroText' : 'Python编程夏令营不仅仅是一个普通的教授计算机编程语言基础的课程，而是为初高中学生量身打造的Python编程实践。学生会动手编写我们日常实用的真正的应用程序，并且掌握流行的机器学习、人工智能、游戏开发，和网络开发等技术。',
+  'courseTitle' : 'Unity3D游戏开发进阶 | Coding Minds 编程思维',
+  'topTitleLine1' : 'Unity3D',
+  'topTitleLine2' : '游戏开发进阶',
+  'topGradeLevel' : '6-12 年级',
+  'topIntroText' : 'Unity3D是目前世界最流行的游戏与VR/AR开发引擎。即使从零开始学习计算机编程，也可以通过Unity3D的强大功能自主制作出专业的3D游戏应用程序。无需等待，在中学你就可以挥洒创意，创作出你自己想玩的游戏。',
 
-  'bgTitle':'Python编程实践',
-  'bgImageUrl':'img/my/python-learn-3.jpg',
-  'bgText':'学习当今最流行的编程语言，开发任何你想制作的应用程序',
-  'bgLearnMoreText':'看看Python都能做些什么',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
+  'bgTitle':'Unity3D游戏开发进阶',
+  'bgText':'在制作游戏中学习编程将是你从未尝试过的学习体验',
+  'bgLearnMoreText':'了解更多Unity3D',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
 
   'aboutTitle':'关于课程',
   'aboutText':'学习专业游戏编程，从游戏玩家到游戏开发员之路',
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'7-12',
+  'aboutGradeLevel':'6-12',
   'aboutSkillLevelTitle':'难度级别',
-  'aboutSkillLevel':'初学者到中级',
+  'aboutSkillLevel':'中级',
   'aboutRatioTitle':'师生比例',
   'aboutRatio':'小于1:6',
 
   'promotion1':{
     'enabled':true,
-    'title':'进入真正的编程世界',
-    'text':'你将开始学习到当今流行的专业编程语言Python — 谷歌的工程师们也在用它。Python可以让你编写出可以解决各种复杂问题的程序。',
-    'imageUrl':'img/my/python-learn-1.jpg'
+    'title':'现在就做专业的3D游戏',
+    'text':'3D游戏开发一直是计算机编程中技术难度最高的领域之一，而然Unity3D的强大平台让这一领域变得不再高不可攀。即使没有任何编程基础，也可以迅速学习制作专业的3D游戏。',
+    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'从基础到实践',
-    'text':'Python是一个丰富强大的编程语言。你会首先学习到最基本的编程概念和技巧。随后，我们会立刻开始动手实践来编写真正的应用程序，比如人工智能，机器学习，服务器程序，和游戏开发。你会一边做一边学习。',
-    'imageUrl':'img/my/python-learn-5.jpg'
+    'title':'专业游戏开发技巧与高级功能',
+    'text':'多人联机游戏，游戏的进度保存与读取，专业游戏界面，智能的游戏AI，所有这些都是你把游戏推向专业的必须步骤。',
+    'imageUrl':'img/my/unity3d/unity3d-6.jpg'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'用Python探索机器学习',
-    'text':'你是否好奇过工程师们是如何实现自动驾驶汽车？你有没有想过谷歌是怎么让计算机战胜世界围棋冠军？答案是机器学习！使用Python，你可以很快的体验和实践如果实现机器学习，如何让你的计算机变的更聪明。',
-    'imageUrl':'img/my/machine-learning-1.jpg'
+    'title':'能做到不仅仅是游戏',
+    'text':'你可能听说过AR（Augmented Reality增强现实）和VR（Virtual Reality虚拟现实），但是你可能还不知道Unity3D的游戏引擎可以让你开发出丰富的AR和VR的应用。',
+    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
   },
 
   'promotion4':{
     'enabled':true,
-    'title':'Python游戏开发体验',
-    'text':'玩游戏很有趣，但是做自己的游戏更加充满乐趣。Python的游戏引擎PyGame可以让你使用Python编写自己的电脑游戏，实现自己的游戏梦想！',
-    'imageUrl':'img/my/pygame-1.jpg'
+    'title':'参加科学竞赛',
+    'text':'Unity3D做出的项目可以成为很好的科学竞赛的作品。充分发挥自己的创造力，动手解决生活中的问题，做实验，发布结果，为大学申请打下基础。',
+    'imageUrl':'img/my/unity3d/unity3d-4.jpg'
   },
 
   'promotion5':{
     'enabled':true,
-    'title':'Python服务器程序开发',
-    'text':'把自己的程序连接到互联网，可以让它发挥更大的作用。夏令营的最后会教授学生计算机互联网的基本原理，以及如何搭建自己的Python服务器，让世界各地的用户来访问。',
-    'imageUrl':'img/my/python-learn-4.jpg'
+    'title':'做一名年轻的游戏创业者',
+    'text':'你可能听说过游戏行业的暴利，但是这恰恰反应了游戏行业的活力和魅力。游戏的开发永远属于年轻一代，早动手，说不定下一个游戏创业着就是你。',
+    'imageUrl':'img/my/unity3d/unity3d-5.jpg'
   },
 
   'curriculum' : {
     'enabled':false
   },
 
-  'goalsTitle' : '课程学习收获和目标',
+  'goalsTtile' : '课程学习收获和目标',
   'goals' : [
     {
-      'icon':'icon-Coding',
-      'text':'Python编程语言基础和计算机科学的概念'
+      'icon':'icon-Gears',
+      'text':'掌握Unity3D游戏制作进阶'
     },
     {
-      'icon':'icon-Gears',
-      'text':'使用Python进行机器学习和人工智能的初探'
+      'icon':'icon-Coding',
+      'text':'C#编程在游戏中的高级应用技巧'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'PyGame开发编程制作自己的电脑游戏'
+      'text':'独立制作游戏算法和模型的基本功'
     },
     {
       'icon':'icon-Server',
-      'text':'使用Python做自己的网络服务器程序'
+      'text':'掌握多人联机游戏的制作原理'
     },
     {
       'icon':'icon-Idea',
-      'text':'培养学生的科学创新能力和创业思想'
+      'text':'学习VR和AR的开发过程'
     },
     {
       'icon':'icon-Key',
-      'text':'为高中的AP计算机课程以及科学竞赛准备'
+      'text':'为中学的科学竞赛以及创业做准备'
     },
   ],
 
@@ -131,20 +129,20 @@ var courseData = {
   'sessionsLocationTitle':'地点',
   'sessions':[
     {
-      'date':'7/3 - 7/7',
-      'time':'9AM-12PM',
-      'location':'尔湾 (Irvine, CA)'
+      'date':'6月25日 - 6月29日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
     },
     {
-      'date':'7/24 - 7/28',
-      'time':'9AM-12PM',
-      'location':'尔湾 (Irvine, CA)'
+      'date':'7月16日 - 7月20日',
+      'time':'9:00AM - 12:00PM',
+      'location':'尔湾'
     },
     {
-      'date':'7/31 - 8/4',
-      'time':'9AM-12PM',
-      'location':'尔湾 (Irvine, CA)'
-    },
+      'date':'8月13日 - 8月17日',
+      'time':'1:00PM - 4:00PM',
+      'location':'尔湾'
+    }
   ],
 
   'registrationEnabled':true,
@@ -190,8 +188,8 @@ var courseData = {
   'promotionButtonText':'联系我们',
   'promotionUrl':'contact-us-cn.html',
 
-  'engUrl':'python.html',
-  'cnUrl':'pythonc.html'
+  'engUrl':'unity3d.html',
+  'cnUrl':'unity3dc.html'
 
 }
 
