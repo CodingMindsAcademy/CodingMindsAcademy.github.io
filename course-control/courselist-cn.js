@@ -130,6 +130,16 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'mobilec.html'
 		},
+		'cs313' : {
+			'name':'iPhone手机APP开发与Swift编程:在Apple商店发布你的手机App',
+			'imageUrl':'img/my/ios/bg-sm.jpg',
+			'gradeLevel':'7-12年级',
+			'text':'学习流行的Swift编程语言和iOS手机App开发，在你的iPhone上运行自己的App',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'mobileiosc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'mobileiosc.html'
+		},
 		'cs304' : {
 			'name':'Lego机器人进阶之Java编程:用真正的编程控制机器人',
 			'imageUrl':'img/my/lego/lego2-bg-sm.jpg',
@@ -210,7 +220,6 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'apcsp-cn.html'
 		},
-
 		'cs404' : {
 			'name':'名校申请背景强化课程：计算机编程系列手机App编程开发',
 			'imageUrl':'img/my/mobile-learn-6sm.jpg',
