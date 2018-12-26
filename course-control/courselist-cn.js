@@ -84,13 +84,25 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs204' : {
+		'cs220' : {
 			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
 			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
-			'gradeLevel':'3-6年级',
+			'gradeLevel':'K-3年级',
 			'text':'在控制机器人挑战自己过程中学习编程,将是你从未尝试过的学习体验',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
+		},
+		'cs221' : {
+			'name':'Lego机器人进阶之Java编程:用真正的编程控制机器人',
+			'imageUrl':'img/my/lego/lego2-bg-sm.jpg',
+			'gradeLevel':'4-8年级',
+			'text':'在控制机器人挑战自己过程中学习Java编程,编程变得更加丰富多彩',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'legoc2.html',
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
@@ -179,19 +191,7 @@ var coursedb = {
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
-		'cs304' : {
-			'name':'Lego机器人进阶之Java编程:用真正的编程控制机器人',
-			'imageUrl':'img/my/lego/lego2-bg-sm.jpg',
-			'gradeLevel':'7-12年级',
-			'text':'在控制机器人挑战自己过程中学习Java编程,编程变得更加丰富多彩',
-			'detailsTitle':'查看详情',
-			'detailsUrl':'legoc2.html',
-			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
+		},		
 		'cs305' : {
 			'name':'Python编程实践:动手编写真正的计算机应用程序',
 			'imageUrl':'img/my/python-learn-3.jpg',

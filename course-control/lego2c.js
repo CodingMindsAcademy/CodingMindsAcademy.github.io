@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '编程控制机器人，在挑战中Java，让编程变得更加有趣。',
   'topTitleLine1' : 'Lego机器人进阶',
   'topTitleLine2' : 'Java编程',
-  'topGradeLevel' : '6-8 年级',
+  'topGradeLevel' : '4-8 年级',
   'topIntroText' : '乐高机器人风靡全球。通过一系列的搭建活动，学生将学习使用杠杆、齿轮、电机和红外线等多种传感器，学习编程中的各种模块和编程逻辑。该课程属于Lego机器人高级课程，学生会开始学习Java的编程基础来通过程序代码控制机器人。',
 
   'bgTitle':'Lego机器人进阶之Java编程',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'机器人编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'6-8',
+  'aboutGradeLevel':'4-8',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',

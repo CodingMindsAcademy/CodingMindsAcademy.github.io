@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '编程控制机器人，在挑战中学习编程的大道理，让编程变得更加有趣。',
   'topTitleLine1' : 'Lego Mindstorms',
   'topTitleLine2' : '机器人编程挑战',
-  'topGradeLevel' : '2-5 年级',
+  'topGradeLevel' : 'K-3 年级',
   'topIntroText' : '乐高机器人风靡全球。通过一系列的搭建活动，学生将学习使用杠杆、齿轮、电机和红外线等多种传感器，学习编程中的各种模块和编程逻辑。通过学习，能充分激发学生的想象力，提升创新天赋，全面提升孩子的逻辑思维、沟通合作、解决问题等能力。',
 
   'bgTitle':'Lego机器人编程挑战',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'机器人编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'2-5',
+  'aboutGradeLevel':'K-3',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
