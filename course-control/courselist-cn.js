@@ -250,6 +250,16 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'securityc.html'
 		},
+		'cs390' : {
+			'name':'编程算法竞赛挑战:备战计算机信息学奥赛',
+			'imageUrl':'img/my/ioi/bg-sm.jpeg',
+			'gradeLevel':'7-12年级',
+			'text':'挑战青少年计算机的最高级别竞赛，在竞赛中锻炼自己的程序设计能力与技巧.',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'ioic.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'ioic.html'
+		},
 		'cs401' : {
 			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
 			'imageUrl':'img/my/coding-spacesm.jpg',
