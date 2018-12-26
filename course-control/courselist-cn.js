@@ -228,13 +228,25 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},		
-		'cs308' : {
+		'cs370' : {
 			'name':'Unreal游戏引擎专业游戏开发:做你自己的Fortnite',
 			'imageUrl':'img/my/unreal/bg-sm.png',
 			'gradeLevel':'7-12年级',
 			'text':'学习世界最流行的游戏开发引擎，让你在中学就可以挥洒创意，创作出你自己想玩的游戏。',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unrealc.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
+		},
+		'cs371' : {
+			'name':'Unreal高级开发与VR应用:专业游戏开发工程师之路',
+			'imageUrl':'img/my/unreal/bg2-sm.jpg',
+			'gradeLevel':'7-12年级',
+			'text':'学习Unreal的高级技术和技巧，做VR虚拟现实应用。',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'unreal2c.html',
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
