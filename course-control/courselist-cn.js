@@ -247,6 +247,7 @@ var coursedb = {
 			'text':'了解黑客的常见入侵原理，实验各种网络攻防技术，做合格的网络安全守护者。',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'securityc.html',
+			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerUrl':'securityc.html'
 		},
@@ -257,6 +258,7 @@ var coursedb = {
 			'text':'挑战青少年计算机的最高级别竞赛，在竞赛中锻炼自己的程序设计能力与技巧.',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ioic.html',
+			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerUrl':'ioic.html'
 		},
