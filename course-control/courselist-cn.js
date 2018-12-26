@@ -200,6 +200,16 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerUrl':'unrealc.html'
 		},
+		'cs380' : {
+			'name':'计算机信息与网络安全:做黑客的终结者',
+			'imageUrl':'img/my/security/bg-sm.jpeg',
+			'gradeLevel':'7-12年级',
+			'text':'了解黑客的常见入侵原理，实验各种网络攻防技术，做合格的网络安全守护者。',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'securityc.html',
+			'registerTitle':'我要注册',
+			'registerUrl':'securityc.html'
+		},
 		'cs401' : {
 			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
 			'imageUrl':'img/my/coding-spacesm.jpg',
