@@ -35,6 +35,30 @@ var coursedb = {
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
+		},		
+		'cs112' : {
+			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
+			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
+			'gradeLevel':'K-3年级',
+			'text':'在控制机器人挑战自己过程中学习编程,将是你从未尝试过的学习体验',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'legoc.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
+		},
+		'cs120' : {
+			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
+			'imageUrl':'img/my/scratch/scratchbg.png',
+			'gradeLevel':'K-3年级',
+			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'scratchc.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
 		'cs201' : {
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
@@ -48,19 +72,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs202' : {
-			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
-			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'K-3年级',
-			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
-			'detailsTitle':'查看详情',
-			'detailsUrl':'scratchc.html',
-			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
-		'cs203' : {
+		'cs210' : {
 			'name':'Roblox游戏开发与发布:游戏创业学编程',
 			'imageUrl':'img/my/roblox1/bg-sm.jpg',
 			'gradeLevel':'4-6年级',
@@ -71,8 +83,8 @@ var coursedb = {
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		}, 
-		'cs213' : {
+		}, 		
+		'cs211' : {
 			'name':'Roblox游戏开发进阶与Lua编程:游戏创业学编程',
 			'imageUrl':'img/my/roblox1/bg2-sm.jpg',
 			'gradeLevel':'4-6年级',
@@ -83,19 +95,7 @@ var coursedb = {
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
-		'cs220' : {
-			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
-			'imageUrl':'img/my/lego/lego-bg-sm.jpg',
-			'gradeLevel':'K-3年级',
-			'text':'在控制机器人挑战自己过程中学习编程,将是你从未尝试过的学习体验',
-			'detailsTitle':'查看详情',
-			'detailsUrl':'legoc.html',
-			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
+		},		
 		'cs221' : {
 			'name':'Lego机器人进阶之Java编程:用真正的编程控制机器人',
 			'imageUrl':'img/my/lego/lego2-bg-sm.jpg',
@@ -103,6 +103,18 @@ var coursedb = {
 			'text':'在控制机器人挑战自己过程中学习Java编程,编程变得更加丰富多彩',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc2.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
+		},
+		'cs320' : {
+			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
+			'imageUrl':'img/my/app-dev-2sm.jpg',
+			'gradeLevel':'4-8年级',
+			'text':'厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'mobilec.html',
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
@@ -120,7 +132,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs311' : {
+		'cs302' : {
 			'name':'Unity3D游戏开发进阶:专业游戏游戏开发员养成之路',
 			'imageUrl':'img/my/unity3d/bg-3sm.jpg',
 			'gradeLevel':'6-12年级',
@@ -132,7 +144,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs302' : {
+		'cs310' : {
 			'name':'Python编程初步:学做Minecraft游戏开发员',
 			'imageUrl':'img/my/pythonmine/pyminebghp.jpg',
 			'gradeLevel':'6-12年级',
@@ -144,7 +156,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs312' : {
+		'cs311' : {
 			'name':'Python编程进阶:高级语言功能与算法介绍',
 			'imageUrl':'img/my/python2.jpg',
 			'gradeLevel':'6-12年级',
@@ -156,7 +168,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs322' : {
+		'cs312' : {
 			'name':'Python高阶编程:AI人工智能初步与高级应用',
 			'imageUrl':'img/my/ai-bg.jpg',
 			'gradeLevel':'7-12年级',
@@ -168,31 +180,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs303' : {
-			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
-			'imageUrl':'img/my/app-dev-2sm.jpg',
-			'gradeLevel':'4-6年级',
-			'text':'厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
-			'detailsTitle':'查看详情',
-			'detailsUrl':'mobilec.html',
-			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
 		'cs313' : {
-			'name':'iPhone手机APP开发与Swift编程:在Apple商店发布你的手机App',
-			'imageUrl':'img/my/ios/bg-sm.jpg',
-			'gradeLevel':'7-12年级',
-			'text':'学习流行的Swift编程语言和iOS手机App开发，在你的iPhone上运行自己的App',
-			'detailsTitle':'查看详情',
-			'detailsUrl':'mobileiosc.html',
-			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},		
-		'cs305' : {
 			'name':'Python编程实践:动手编写真正的计算机应用程序',
 			'imageUrl':'img/my/python-learn-3.jpg',
 			'gradeLevel':'7-12年级',
@@ -203,8 +191,20 @@ var coursedb = {
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
-		},
-		'cs306' : {
+		},		
+		'cs321' : {
+			'name':'iPhone手机APP开发与Swift编程:在Apple商店发布你的手机App',
+			'imageUrl':'img/my/ios/bg-sm.jpg',
+			'gradeLevel':'7-12年级',
+			'text':'学习流行的Swift编程语言和iOS手机App开发，在你的iPhone上运行自己的App',
+			'detailsTitle':'查看详情',
+			'detailsUrl':'mobileiosc.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
+		},				
+		'cs330' : {
 			'name':'电子工程师成长之路:Arduino硬件系统编程',
 			'imageUrl':'img/my/arduino/arduino-bg-sm.jpg',
 			'gradeLevel':'7-12年级',
@@ -216,7 +216,7 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
-		'cs316' : {
+		'cs331' : {
 			'name':'电子工程师成长之路:Raspberry PI智能物联网系统编程',
 			'imageUrl':'img/my/rpi/bg2.jpg',
 			'gradeLevel':'7-12年级',
