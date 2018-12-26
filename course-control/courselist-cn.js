@@ -247,9 +247,10 @@ var coursedb = {
 			'text':'了解黑客的常见入侵原理，实验各种网络攻防技术，做合格的网络安全守护者。',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'securityc.html',
+			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerUrl':'securityc.html'
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
 		'cs390' : {
 			'name':'编程算法竞赛挑战:备战计算机信息学奥赛',
@@ -258,9 +259,10 @@ var coursedb = {
 			'text':'挑战青少年计算机的最高级别竞赛，在竞赛中锻炼自己的程序设计能力与技巧.',
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ioic.html',
+			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerUrl':'ioic.html'
+			'registerForm':'https://jinshuju.net/f/BAr0zY'
 		},
 		'cs401' : {
 			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
