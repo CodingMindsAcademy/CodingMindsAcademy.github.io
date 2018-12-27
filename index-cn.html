@@ -141,7 +141,7 @@
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
-                                                            <span class="label">New</span>
+                                                            <span id="cmbg" class="label">{{course.tag}}</span>
                                                             <a href="{{course.detailsUrl}}">
                                                                 <img alt="Image" ng-src="{{course.imageUrl}}">
                                                             </a>
@@ -238,6 +238,7 @@
                                             <div class="col-sm-4 masonry__item" ng-repeat="course in courseListIrvine">
                                                 <div class="card card-2 text-center">
                                                     <div class="card__top">
+                                                        <span id="cmbg" class="label">{{course.tag}}</span>
                                                         <a href="{{course.detailsUrl}}">
                                                             <img alt="Image" ng-src="{{course.imageUrl}}">
                                                         </a>
@@ -356,6 +357,7 @@
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseListArcadia">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
+                                                            <span id="cmbg" class="label">{{course.tag}}</span>
                                                             <a href="{{course.detailsUrl}}">
                                                                 <img alt="Image" ng-src="{{course.imageUrl}}">
                                                             </a>
@@ -441,6 +443,7 @@
                                                 <div class="col-sm-4 masonry__item" ng-repeat="rcourse in courseListRancho">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
+                                                            <span id="cmbg" class="label">{{course.tag}}</span>
                                                             <a href="{{rcourse.detailsUrl}}">
                                                                 <img alt="Image" ng-src="{{rcourse.imageUrl}}">
                                                             </a>
@@ -481,7 +484,7 @@
                                 <span class="h5">Online线上课程</span>
                             </div>
                             <div class="tab__content">
-                                <div class="row">                                    
+                                <div class="row">                    
                                     <div class="col-sm-10">
                                         <div class="col-sm-4" ng-repeat="schedule in courseScheduleOnline">
                                             <table class="border--round table--alternate-row">
@@ -515,6 +518,7 @@
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseListOnline">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
+                                                            <span id="cmbg" class="label">{{course.tag}}</span>
                                                             <a href="{{course.detailsUrl}}">
                                                                 <img alt="Image" ng-src="{{course.imageUrl}}">
                                                             </a>
@@ -589,6 +593,7 @@
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseListEnrichment">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
+                                                            <span id="cmbg" class="label">{{course.tag}}</span>
                                                             <a href="{{course.detailsUrl}}">
                                                                 <img alt="Image" ng-src="{{course.imageUrl}}">
                                                             </a>
