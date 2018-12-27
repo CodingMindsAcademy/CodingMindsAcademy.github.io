@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学习如何通过编程控制SPRK机器人，打开神奇计算机编程世界的大门',
   'topTitleLine1' : '和SPRK机器人一起学习编程',
   'topTitleLine2' : '',
-  'topGradeLevel' : '年级 K - 2',
+  'topGradeLevel' : '年级 K-3',
   'topIntroText' : 'SPRK机器人旨在通过互联游戏和编程来激发好奇心、创造力与发明才能，其作用远远不止是一个机器人。将它与你的手机一起使用，轻松学习编程，完成实操性活动，并在社区分享你创作的作品。穿越迷宫、为画作编程、模拟太阳系，自由发挥你的想象力。',
 
   'bgTitle':'学习编程控制你的SPRK机器人',
@@ -16,7 +16,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'机器人 | 编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'K - 2',
+  'aboutGradeLevel':'K-3',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',

@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '使用图形化的编程语言来控制制作自己的Minecraft游戏,把自己对Minecraft的游戏设想变为现实',
   'topTitleLine1' : 'Minecraft我的世界',
   'topTitleLine2' : '创新编程与实践',
-  'topGradeLevel' : '3-6 年级',
+  'topGradeLevel' : '4-6 年级',
   'topIntroText' : '微软公司为了普及和引导青少年学习编程的热情，推出MakeCode的趣味编程平台，使中小学生使用图形化的编程语言来控制制作自己的Minecraft游戏。使用MakeCode，你可以把自己对Minecraft的游戏设想变为现实，成为一名Minecraft游戏的小开发者。',
 
   'bgTitle':'Minecraft创新编程与实践',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'3-6',
+  'aboutGradeLevel':'4-6',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',

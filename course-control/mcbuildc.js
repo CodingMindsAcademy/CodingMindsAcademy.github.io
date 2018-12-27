@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '通过学习世界的创建，Minecraft命令行指令控制，和MakeCode图形化编程平台，循序渐进的把孩子逐步带入编程世界。',
   'topTitleLine1' : 'Minecraft',
   'topTitleLine2' : '世界开发与指令编程',
-  'topGradeLevel' : 'K-2 年级',
+  'topGradeLevel' : 'K-3 年级',
   'topIntroText' : '当今的青少年兴趣多种多样，但是如果要找一个大家共同的兴趣，那就要属Minecraft（我的世界）。该课程以Minecraft游戏为基础，通过介绍世界的创建，Minecraft命令行指令控制，和MakeCode图形化编程平台，循序渐进的把孩子逐步带入编程世界。',
 
   'bgTitle':'Minecraft世界开发与指令编程',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'K-2',
+  'aboutGradeLevel':'K-3',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者',
   'aboutRatioTitle':'师生比例',

@@ -21,7 +21,7 @@ var courseData = {
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
-  'aboutRatio':'小于1:4',
+  'aboutRatio':'小于1:6',
 
   'promotion1':{
     'enabled':true,

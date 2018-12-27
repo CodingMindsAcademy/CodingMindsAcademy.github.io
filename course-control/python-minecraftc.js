@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '在Minecraft游戏中学习Python编程，真正做到寓教于乐',
   'topTitleLine1' : 'Python编程初步',
   'topTitleLine2' : '学做Minecraft游戏开发员',
-  'topGradeLevel' : '7-12 年级',
+  'topGradeLevel' : '6-12 年级',
   'topIntroText' : 'Python作为当今最为流行的编程语言，已经成为实现人工智能、机器学习、大数据分析等技术的核心。为了更好的激发学生学习Python编程的兴趣，我们把风靡全球的Minecraft我的世界游戏引入课程，让学生会通过编写Python程序代码，来控制自己的游戏。',
 
   'bgTitle':'Python编程初步',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'7-12',
+  'aboutGradeLevel':'6-12',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',
