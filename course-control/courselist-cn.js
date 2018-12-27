@@ -11,7 +11,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs102' : {
 			'name':'Minecraft Javascript编程初步:代码编程从此开始',
@@ -24,7 +24,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs110' : {
 			'name':'和SPRK机器人一起学习编程:带领你的机器人完成挑战',
@@ -37,7 +37,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},		
 		'cs112' : {
 			'name':'Lego MindStorms机器人编程挑战:挑战不可能的任务',
@@ -50,7 +50,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs120' : {
 			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
@@ -63,7 +63,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs201' : {
 			'name':'Minecraft创新编程与实践:用最流行的游戏学编程',
@@ -76,7 +76,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs210' : {
 			'name':'Roblox游戏开发与发布:游戏创业学编程',
@@ -89,7 +89,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		}, 		
 		'cs211' : {
 			'name':'Roblox游戏开发进阶与Lua编程:游戏创业学编程',
@@ -102,7 +102,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},		
 		'cs221' : {
 			'name':'Lego机器人进阶之Java编程:用真正的编程控制机器人',
@@ -115,7 +115,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs320' : {
 			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
@@ -128,7 +128,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs301' : {
 			'name':'Unity3D游戏开发体验:从游戏玩家到游戏开发员',
@@ -141,7 +141,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs302' : {
 			'name':'Unity3D游戏开发进阶:专业游戏游戏开发员养成之路',
@@ -154,7 +154,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs310' : {
 			'name':'Python编程初步:学做Minecraft游戏开发员',
@@ -167,7 +167,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs311' : {
 			'name':'Python编程进阶:高级语言功能与算法介绍',
@@ -180,7 +180,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs312' : {
 			'name':'Python高阶编程:AI人工智能初步与高级应用',
@@ -193,7 +193,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs313' : {
 			'name':'Python编程实践:动手编写真正的计算机应用程序',
@@ -206,7 +206,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},		
 		'cs321' : {
 			'name':'iPhone手机APP开发与Swift编程:在Apple商店发布你的手机App',
@@ -219,7 +219,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},				
 		'cs330' : {
 			'name':'电子工程师成长之路:Arduino硬件系统编程',
@@ -232,7 +232,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs331' : {
 			'name':'电子工程师成长之路:Raspberry PI智能物联网系统编程',
@@ -245,7 +245,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},		
 		'cs370' : {
 			'name':'Unreal游戏引擎专业游戏开发:做你自己的Fortnite',
@@ -258,7 +258,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs371' : {
 			'name':'Unreal高级开发与VR应用:专业游戏开发工程师之路',
@@ -271,7 +271,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs380' : {
 			'name':'计算机信息与网络安全:做黑客的终结者',
@@ -284,7 +284,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs390' : {
 			'name':'编程算法竞赛挑战:备战计算机信息学奥赛',
@@ -297,7 +297,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs401' : {
 			'name':'AP CS基础训练营:Java编程入门及AP课程准备',
@@ -310,7 +310,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs402' : {
 			'name':'AP CS考试冲刺训练营:AP CS备考强化训练',
@@ -323,7 +323,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs403' : {
 			'name':'AP CSP手机APP编程训练营:挑战最新的AP CS课程',
@@ -336,7 +336,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs404' : {
 			'name':'名校申请背景强化课程：计算机编程系列手机App编程开发',
@@ -349,7 +349,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs405' : {
 			'name':'名校申请背景强化课程：计算机编程系列Unity3D游戏开发',
@@ -362,7 +362,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs406' : {
 			'name':'名校申请背景强化课程：Python竞技编程与项目实践',
@@ -375,7 +375,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs407' : {
 			'name':'名校申请背景强化课程：人工智能基础与项目实践',
@@ -388,7 +388,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		},
 		'cs408' : {
 			'name':'名校申请背景强化课程：Technovation编程竞技与创业竞赛',
@@ -401,7 +401,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/BAr0zY'
+			'registerForm':'https://jinshuju.net/f/x53cr3'
 		}
 	}
 }

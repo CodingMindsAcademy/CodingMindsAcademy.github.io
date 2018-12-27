@@ -156,7 +156,7 @@ var courseData = {
     '动手做项目，竞赛创业为目标',
     '为高中和大学名校申请服务'
   ],
-  'registrationLink':'https://jinshuju.net/f/BAr0zY',
+  'registrationLink':'https://jinshuju.net/f/x53cr3',
   'registerNow':'我要报名',
 
   'faq':{
