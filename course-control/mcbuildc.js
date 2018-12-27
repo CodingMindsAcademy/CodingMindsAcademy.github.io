@@ -21,7 +21,7 @@ var courseData = {
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者',
   'aboutRatioTitle':'师生比例',
-  'aboutRatio':'小于1:6',
+  'aboutRatio':'小于1:4',
 
   'promotion1':{
     'enabled':true,
@@ -154,7 +154,7 @@ var courseData = {
   'allCreditCards':'',
   'priceItems':[
     '第一节课免费试听，无需付款',
-    '师生比例1:6，保证教学质量',
+    '师生比例1:4，保证教学质量',
     '动手做项目，竞赛创业为目标',
     '为高中和大学名校申请服务'
   ],

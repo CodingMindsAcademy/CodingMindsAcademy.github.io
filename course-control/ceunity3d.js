@@ -142,7 +142,7 @@ var courseData = {
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
-    '1:6 teacher to students ratio',
+    '1:4 teacher to students ratio',
     'Designed for competitions'
   ],
   'registrationLink':'ceunity3d.html',

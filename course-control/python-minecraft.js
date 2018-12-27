@@ -155,7 +155,7 @@ var courseData = {
   'priceItems':[
     'Try the first session for FREE',
     'Learn from the professionals',
-    '1:6 teacher to students ratio',
+    '1:4 teacher to students ratio',
     'Always learn by doing and have fun'
   ],
   'registrationLink':'https://jinshuju.net/f/Nfh8W6',
