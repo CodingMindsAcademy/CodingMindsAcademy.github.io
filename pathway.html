@@ -92,9 +92,13 @@
                             <i class="icon icon-Coding color--primary"></i>
                             <h2 ng-if="stuid == ''" class="text-center">编程课程体系<br></h2>
                             <h2 ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}<br>编程学习课程进度<br></h2>
-                            <p ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}从{{studb[stuid].since}}开始在编程思维学习，目前已经完成了{{stuPathwayTotalCount}}个编程体系中的{{getLength(studb[stuid].history)}}门编程课程，具体细节请点击具体课程体系<p></h4>
+                            <p ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}从{{studb[stuid].since}}开始在编程思维学习，目前已经完成了{{stuPathwayTotalCount}}个编程体系中的{{getLength(studb[stuid].history)}}门课程，点击下方课程体系标题查看{{studb[stuid].name}}学习进度。新学期建议{{studb[stuid].name}}学习下面的编程课程(点击链接注册):</p> 
+                            <ul>
+                                <li ng-repeat="cid in studb[stuid].recommend"><a href="{{coursedb[cid].detailsUrl}}"><u>{{coursedb[cid].name}}</u></a></li>
+                            </ul>
                         </div>
                             <hr>
+                            <h2 class="text-center">编程课程体系<br></h2>
                             <div class="tabs-container text-center" data-content-align="left">
                                 <ul class="tabs">
                                     <li class="active">
@@ -106,12 +110,14 @@
                                             <section class=" ">
                                                 <div class="container">                             
                                                     <div class="row">
+                                                        <span class="text-center h4">算法与AI编程体系</span>
+                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayCoding.sequence">
                                                                     <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].name}}
-                                                                    </h4><h5>{{coursedb[courseId].gradeLevel}}</h5>
-                                                                    <p>
+                                                                    </h4><h5 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].gradeLevel}}</h5>
+                                                                    <p ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">
                                                                         {{coursedb[courseId].text}}
                                                                     </p>
                                                                     <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
@@ -136,15 +142,18 @@
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
+                                                        <span class="text-center h4">游戏开发编程体系</span>
+                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayGame.sequence">
-                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
-                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
-                                                                    <p>
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].name}}
+                                                                    </h4><h5 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].gradeLevel}}</h5>
+                                                                    <p ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">
                                                                         {{coursedb[courseId].text}}
                                                                     </p>
-                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> <a class="color--primary-todo" href="{{coursedb[courseId].detailsUrl}}">建议{{studb[stuid].name}}在新学期尝试该课程</a></p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -165,15 +174,18 @@
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
+                                                        <span class="text-center h4">移动互联网编程体系</span>
+                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayMobile.sequence">
-                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
-                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
-                                                                    <p>
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].name}}
+                                                                    </h4><h5 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].gradeLevel}}</h5>
+                                                                    <p ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">
                                                                         {{coursedb[courseId].text}}
                                                                     </p>
-                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> <a class="color--primary-todo" href="{{coursedb[courseId].detailsUrl}}">建议{{studb[stuid].name}}在新学期尝试该课程</a></p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -194,15 +206,18 @@
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
+                                                        <span class="text-center h4">硬件电子编程体系</span>
+                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayHardware.sequence">
-                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
-                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
-                                                                    <p>
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].name}}
+                                                                    </h4><h5 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].gradeLevel}}</h5>
+                                                                    <p ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">
                                                                         {{coursedb[courseId].text}}
                                                                     </p>
-                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> <a class="color--primary-todo" href="{{coursedb[courseId].detailsUrl}}">建议{{studb[stuid].name}}在新学期尝试该课程</a></p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -223,15 +238,18 @@
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
+                                                        <span class="text-center h4">机器人编程体系</span>
+                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayRobot.sequence">
-                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
-                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
-                                                                    <p>
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].name}}
+                                                                    </h4><h5 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].gradeLevel}}</h5>
+                                                                    <p ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">
                                                                         {{coursedb[courseId].text}}
                                                                     </p>
-                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> <a class="color--primary-todo" href="{{coursedb[courseId].detailsUrl}}">建议{{studb[stuid].name}}在新学期尝试该课程</a></p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
