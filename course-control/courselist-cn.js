@@ -704,7 +704,7 @@ angular.module('v3App', [])
   		var stuRecord = studb[stuid];
   		if (stuRecord != null) {
   			var pathwayCountMap = {};
-  			for(var key in studb[stuid].history) {  				
+  			for(var key in studb[stuid].history) {
   				for(var p in coursedb.cn[key].pathway) {
   					console.log(coursedb.cn[key].pathway[p]);
   					if (pathwayCountMap[coursedb.cn[key].pathway[p]] == null) {
@@ -717,6 +717,18 @@ angular.module('v3App', [])
   			console.log("map: " + JSON.stringify(pathwayCountMap));
   			$scope.stuPathwayMap = pathwayCountMap;
   			$scope.stuPathwayTotalCount = $scope.getLength(pathwayCountMap);
+
+  			var pathwayRecMap = {};
+  			for(var i in studb[stuid].recommend) {			
+  				var pathway = coursedb.cn[studb[stuid].recommend[i]].pathway[0];
+  				if (pathwayRecMap[pathway] == null) {
+  					pathwayRecMap[pathway] = 1;	
+  				} else {
+  					pathwayRecMap[pathway]++;
+  				}
+  			}
+  			$scope.stuPathwayRecMap = pathwayRecMap;
+  			console.log("map: " + JSON.stringify(pathwayRecMap));
   		}  		
   	}  	
   	$scope.stuid = stuid;
