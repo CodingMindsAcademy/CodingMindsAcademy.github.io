@@ -84,16 +84,16 @@
             <!--end bar-->
         </div>
 
-
         <section class="space--sm">
             <div class="container">
                 <div class="row">                    
                     <div class="col-sm-12">
                         <div class="text-center">
                             <i class="icon icon-Coding color--primary"></i>
-                            <h2 class="text-center">编程课程体系<br></h2>
-                        </div>                        
-                        
+                            <h2 ng-if="stuid == ''" class="text-center">编程课程体系<br></h2>
+                            <h2 ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}<br>编程学习课程进度<br></h2>
+                            <p ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}从{{studb[stuid].since}}开始在编程思维学习，目前已经完成了{{stuPathwayTotalCount}}个编程体系中的{{getLength(studb[stuid].history)}}门编程课程，具体细节请点击具体课程体系<p></h4>
+                        </div>
                             <hr>
                             <div class="tabs-container text-center" data-content-align="left">
                                 <ul class="tabs">
@@ -101,6 +101,7 @@
                                         <div class="tab__title">
                                             <i class="icon icon--sm block icon-Idea"></i>
                                             <span class="h5">算法与AI编程体系</span>
+                                            <span class="h5">已完成:{{stuPathwayMap.coding == null ? 0 : stuPathwayMap.coding}} 建议学习:1</span>
                                         </div>
                                         <div class="tab__content">
                                             <section class=" ">
@@ -108,12 +109,14 @@
                                                     <div class="row">
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
-                                                                <div class="process__item" ng-repeat="course in courseList">
-                                                                    <h4>{{course.name}}
-                                                                        <br>{{course.gradeLevel}}</h4>
+                                                                <div class="process__item" ng-repeat="courseId in pathwayCoding.sequence">
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null, 'color--primary-todo': studb[stuid].recommend.indexOf(courseId) > -1}">{{coursedb[courseId].name}}
+                                                                    </h4><h5>{{coursedb[courseId].gradeLevel}}</h5>
                                                                     <p>
-                                                                        {{course.text}}
+                                                                        {{coursedb[courseId].text}}
                                                                     </p>
+                                                                    <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
+                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> 建议{{studb[stuid].name}}在新学期尝试该课程</p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -136,12 +139,13 @@
                                                     <div class="row">
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
-                                                                <div class="process__item" ng-repeat="course in courseList">
-                                                                    <h4>{{course.name}}
-                                                                        <br>{{course.gradeLevel}}</h4>
+                                                                <div class="process__item" ng-repeat="courseId in pathwayGame.sequence">
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
+                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
                                                                     <p>
-                                                                        {{course.text}}
+                                                                        {{coursedb[courseId].text}}
                                                                     </p>
+                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -164,12 +168,13 @@
                                                     <div class="row">
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
-                                                                <div class="process__item">
-                                                                    <h4>Company established 2012
-                                                                        <br> 4 founding members</h4>
+                                                                <div class="process__item" ng-repeat="courseId in pathwayMobile.sequence">
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
+                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
                                                                     <p>
-                                                                        Stack is built with customization and ease-of-use at its core — whether you're a seasoned developer or just starting out, you'll be making attractive sites faster than any traditional HTML template.
+                                                                        {{coursedb[courseId].text}}
                                                                     </p>
+                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -183,7 +188,7 @@
                                     </li>
                                     <li>
                                         <div class="tab__title">
-                                            <i class="icon icon--sm block icon-Cpu"></i>
+                                            <i class="icon icon--sm block icon-Chip"></i>
                                             <span class="h5">硬件电子编程体系</span>
                                         </div>
                                         <div class="tab__content">
@@ -192,12 +197,13 @@
                                                     <div class="row">
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
-                                                                <div class="process__item" ng-repeat="course in courseList">
-                                                                    <h4>{{course.name}}
-                                                                        <br>{{course.gradeLevel}}</h4>
+                                                                <div class="process__item" ng-repeat="courseId in pathwayHardware.sequence">
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
+                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
                                                                     <p>
-                                                                        {{course.text}}
+                                                                        {{coursedb[courseId].text}}
                                                                     </p>
+                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -220,12 +226,13 @@
                                                     <div class="row">
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
-                                                                <div class="process__item" ng-repeat="course in courseList">
-                                                                    <h4>{{course.name}}
-                                                                        <br>{{course.gradeLevel}}</h4>
+                                                                <div class="process__item" ng-repeat="courseId in pathwayRobot.sequence">
+                                                                    <h4 ng-class="{'color--primary': studb[stuid].history[courseId] != null}">{{coursedb[courseId].name}}
+                                                                        <br>{{coursedb[courseId].gradeLevel}}</h4>
                                                                     <p>
-                                                                        {{course.text}}
+                                                                        {{coursedb[courseId].text}}
                                                                     </p>
+                                                                    <p ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm block color--primary icon-Yes"></i>{{studb[stuid].name}}在{{studb[stuid].history[courseId]}}完成了此课程</p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
@@ -244,6 +251,15 @@
                     <!--end of row-->
                 </div>
                 <!--end of container-->
+                <div class="text-center container">
+                    <div class="row">                    
+                        <a class="btn btn--primary type--uppercase" href="index-cn.html#allCourses">
+                            <span class="btn__text">
+                                查看2019编程课程
+                            </span>
+                        </a>
+                    </div>
+                </div>
             </section>
 
             <footer class="footer-3 text-center-xs space--xs ">
@@ -315,6 +331,7 @@
             <script src="js/jquery-3.1.1.min.js"></script>
             <script src="js/angular.min.js"></script>
             <script src="course-control/courselist-cn.js"></script>
+            <script src="students/dbv1.js"></script>
             <script src="js/flickity.min.js"></script>
             <script src="js/easypiechart.min.js"></script>
             <script src="js/parallax.js"></script>

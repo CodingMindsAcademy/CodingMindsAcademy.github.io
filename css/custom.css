@@ -2,3 +2,12 @@
 #cmbg{
 	background: #4a90e2
 }
+
+.color--primary-todo {
+    color: #e24949 !important;      
+    vertical-align:middle;
+}
+
+.text-center-v {
+    vertical-align:middle;
+}
