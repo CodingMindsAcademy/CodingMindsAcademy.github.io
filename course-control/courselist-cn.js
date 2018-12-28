@@ -961,7 +961,6 @@ angular.module('v3App', [])
 	    return Object.keys(obj).length;
 	}
 
-
 	$scope.coursedb = coursedb.cn;
 	$scope.studb = studb;
 
