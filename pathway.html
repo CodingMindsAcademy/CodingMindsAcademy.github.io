@@ -116,7 +116,7 @@
                                                                         {{coursedb[courseId].text}}
                                                                     </p>
                                                                     <p class="color--primary text-center-v" ng-if="studb[stuid].history[courseId] != null"><i class="icon icon--sm text-center-v color--primary icon-Yes"></i> {{studb[stuid].name}} 在{{studb[stuid].history[courseId]}}完成了此课程</p>
-                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> 建议{{studb[stuid].name}}在新学期尝试该课程</p>
+                                                                    <p class="color--primary-todo" ng-if="studb[stuid].recommend.indexOf(courseId) > -1"><i class="icon icon--sm  color--primary-todo icon-Next2"></i> <a class="color--primary-todo" href="{{coursedb[courseId].detailsUrl}}">建议{{studb[stuid].name}}在新学期尝试该课程</a></p>
                                                                 </div>
                                                             </div>
                                                             <!--end process-->
