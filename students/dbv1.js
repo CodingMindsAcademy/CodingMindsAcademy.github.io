@@ -1027,4 +1027,305 @@ var studb = {
         },
         'recommend' : ['cs112']
     },
+    'stu205' : {
+        'name' : 'Max',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs301' : '2018年秋季',
+            'cs301p' : '2018年秋季',
+        },
+        'recommend' : ['cs302']
+    },
+    'stu206' : {
+        'name' : 'Allen',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs301' : '2018年秋季',
+            'cs301p' : '2018年秋季',
+        },
+        'recommend' : ['cs302']
+    },
+    'stu207' : {
+        'name' : 'Jason',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu208' : {
+        'name' : 'Louis',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu209' : {
+        'name' : 'Matt',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu210' : {
+        'name' : 'Zecheng',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu211' : {
+        'name' : 'Henry',
+        'since' : '2018年9月',
+        'comment': 'Acadia Roblox Advance',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu212' : {
+        'name' : 'James',
+        'since' : '2018年9月',
+        'comment': 'Roblox Advance',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu213' : {
+        'name' : 'Jason',
+        'since' : '2018年9月',
+        'comment': 'Roblox Advance',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu214' : {
+        'name' : 'Justin',
+        'since' : '2018年9月',
+        'comment': 'Roblox Advance',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu215' : {
+        'name' : 'Andy',
+        'since' : '2018年9月',
+        'comment': 'Roblox 初级',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu216' : {
+        'name' : 'Logan',
+        'since' : '2018年9月',
+        'comment': 'Roblox Advance',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu217' : {
+        'name' : 'Austin',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu218' : {
+        'name' : 'Chris Sun',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu219' : {
+        'name' : 'James',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu220' : {
+        'name' : 'Jason',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu221' : {
+        'name' : 'Louie',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu222' : {
+        'name' : 'Frank',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu223' : {
+        'name' : 'Mary Liu',
+        'since' : '2018年9月',
+        'comment': '3-6',
+        'history' : {
+            'cs210' : '2018年秋季',
+            'cs210p' : '2018年秋季',
+        },
+        'recommend' : ['cs120']
+    },
+    'stu224' : {
+        'name' : 'Aaron Tse',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu225' : {
+        'name' : 'Allen Zhou',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu226' : {
+        'name' : 'Eric Yang',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu227' : {
+        'name' : 'Henry',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu228' : {
+        'name' : 'Jason Li',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu229' : {
+        'name' : 'Lucas',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu230' : {
+        'name' : 'Matt Bai',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu231' : {
+        'name' : 'Tim Liu',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs320' : '',
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu232' : {
+        'name' : 'William Pan',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
+    'stu233' : {
+        'name' : 'Zachary',
+        'since' : '2018年9月',
+        'comment': '7-12',
+        'history' : {
+            'cs310' : '2018年秋季',
+            'cs310p' : '2018年秋季',
+        },
+        'recommend' : ['']
+    },
 }
