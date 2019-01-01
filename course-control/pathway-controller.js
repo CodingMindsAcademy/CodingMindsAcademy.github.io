@@ -61,5 +61,6 @@ angular.module('v3App', [])
   		}  		
   	}  	
   	$scope.stuid = stuid;
+    $scope.hasStu = stuid == '' ? false : true;
 
   });

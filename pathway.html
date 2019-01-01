@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
-    <title>青少年编程 创新 竞赛 创业</title>
+    <title>编程思维课程体系</title>
     <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="在乐趣中学习编程。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
@@ -91,27 +91,28 @@
                         <div class="text-center">
                             <i class="icon icon-Coding color--primary"></i>
                             <h2 ng-if="stuid == ''" class="text-center">编程课程体系<br></h2>
-                            <h2 ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}<br>编程学习课程进度<br></h2>
-                            <p ng-if="stuid != ''" class="text-center">{{studb[stuid].name}}从{{studb[stuid].since}}开始在编程思维学习，目前已经完成了{{stuPathwayTotalCount}}个编程体系中的{{getLength(studb[stuid].history)}}门课程，点击下方课程体系标题查看{{studb[stuid].name}}学习进度。新学期建议{{studb[stuid].name}}学习下面的编程课程(点击链接注册):</p> 
+                            <h2 ng-if="hasStu" class="text-center">{{studb[stuid].name}}<br>编程学习课程进度<br></h2>
+                            <p ng-if="hasStu" class="text-center">{{studb[stuid].name}}从{{studb[stuid].since}}开始在编程思维学习，目前已经完成了{{stuPathwayTotalCount}}个编程体系中的{{getLength(studb[stuid].history)}}门课程，点击下方课程体系标题查看{{studb[stuid].name}}学习进度。新学期建议{{studb[stuid].name}}学习下面的编程课程(点击链接注册):</p> 
                             <ul>
                                 <li ng-repeat="cid in studb[stuid].recommend"><a href="{{coursedb[cid].detailsUrl}}"><u>{{coursedb[cid].name}}</u></a></li>
                             </ul>
                         </div>
                             <hr>
-                            <h2 class="text-center">编程课程体系<br></h2>
+                            <h2 ng-if="hasStu" class="text-center">编程课程体系<br></h2>
                             <div class="tabs-container text-center" data-content-align="left">
                                 <ul class="tabs">
                                     <li class="active">
                                         <div class="tab__title">
                                             <i class="icon icon--sm icon-Idea text-center-v"></i>
-                                            <span class="h5">算法与AI编程体系 (已完成:{{stuPathwayMap.coding == null ? 0 : stuPathwayMap.coding}} 建议学习:{{stuPathwayRecMap.coding == null ? 0 : stuPathwayRecMap.coding}})</span>
+                                            <span ng-if="!hasStu" class="h5">算法与AI编程体系</span>
+                                            <span ng-if="hasStu" class="h5">算法与AI编程体系 (已完成:{{stuPathwayMap.coding == null ? 0 : stuPathwayMap.coding}} 建议学习:{{stuPathwayRecMap.coding == null ? 0 : stuPathwayRecMap.coding}})</span>
                                         </div>
                                         <div class="tab__content">
                                             <section class=" ">
                                                 <div class="container">                             
                                                     <div class="row">
                                                         <span class="text-center h4">算法与AI编程体系</span>
-                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
+                                                        <span ng-if="hasStu" class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayCoding.sequence">
@@ -136,14 +137,15 @@
                                     <li>
                                         <div class="tab__title">
                                             <i class="icon icon--sm text-center-v icon-Gamepad-2"></i>
-                                            <span class="h5">游戏开发编程体系 (已完成:{{stuPathwayMap.game == null ? 0 : stuPathwayMap.game}} 建议学习:{{stuPathwayRecMap.game == null ? 0 : stuPathwayRecMap.game}})</span>
+                                            <span ng-if="!hasStu" class="h5">游戏开发编程体系</span>
+                                            <span ng-if="hasStu" class="h5">游戏开发编程体系 (已完成:{{stuPathwayMap.game == null ? 0 : stuPathwayMap.game}} 建议学习:{{stuPathwayRecMap.game == null ? 0 : stuPathwayRecMap.game}})</span>
                                         </div>
                                         <div class="tab__content">
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
                                                         <span class="text-center h4">游戏开发编程体系</span>
-                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
+                                                        <span ng-if="hasStu" class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayGame.sequence">
@@ -168,14 +170,15 @@
                                     <li>
                                         <div class="tab__title">
                                             <i class="icon icon--sm text-center-v icon-Smartphone-2"></i>
-                                            <span class="h5">移动互联网编程体系 (已完成:{{stuPathwayMap.mobile == null ? 0 : stuPathwayMap.mobile}} 建议学习:{{stuPathwayRecMap.mobile == null ? 0 : stuPathwayRecMap.mobile}})</span>
+                                            <span ng-if="!hasStu" class="h5">移动互联网编程体系</span>
+                                            <span ng-if="hasStu" class="h5">移动互联网编程体系 (已完成:{{stuPathwayMap.mobile == null ? 0 : stuPathwayMap.mobile}} 建议学习:{{stuPathwayRecMap.mobile == null ? 0 : stuPathwayRecMap.mobile}})</span>
                                         </div>
                                         <div class="tab__content">
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
                                                         <span class="text-center h4">移动互联网编程体系</span>
-                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
+                                                        <span ng-if="hasStu" class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayMobile.sequence">
@@ -200,14 +203,15 @@
                                     <li>
                                         <div class="tab__title">
                                             <i class="icon icon--sm text-center-v icon-Chip"></i>
-                                            <span class="h5">硬件电子编程体系 (已完成:{{stuPathwayMap.hardware == null ? 0 : stuPathwayMap.hardware}} 建议学习:{{stuPathwayRecMap.hardware == null ? 0 : stuPathwayRecMap.hardware}})</span>
+                                            <span ng-if="!hasStu" class="h5">硬件电子编程体系</span>
+                                            <span ng-if="hasStu" class="h5">硬件电子编程体系 (已完成:{{stuPathwayMap.hardware == null ? 0 : stuPathwayMap.hardware}} 建议学习:{{stuPathwayRecMap.hardware == null ? 0 : stuPathwayRecMap.hardware}})</span>
                                         </div>
                                         <div class="tab__content">
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
                                                         <span class="text-center h4">硬件电子编程体系</span>
-                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
+                                                        <span ng-if="hasStu" class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayHardware.sequence">
@@ -232,14 +236,15 @@
                                     <li>
                                         <div class="tab__title">
                                             <i class="icon icon--sm text-center-v icon-Robot-2"></i>
-                                            <span class="h5">机器人编程体系 (已完成:{{stuPathwayMap.robot == null ? 0 : stuPathwayMap.robot}} 建议学习:{{stuPathwayRecMap.robot == null ? 0 : stuPathwayRecMap.robot}})</span>
+                                            <span ng-if="!hasStu" class="h5">机器人编程体系</span>
+                                            <span ng-if="hasStu" class="h5">机器人编程体系 (已完成:{{stuPathwayMap.robot == null ? 0 : stuPathwayMap.robot}} 建议学习:{{stuPathwayRecMap.robot == null ? 0 : stuPathwayRecMap.robot}})</span>
                                         </div>
                                         <div class="tab__content">
                                             <section class=" ">
                                                 <div class="container">
                                                     <div class="row">
                                                         <span class="text-center h4">机器人编程体系</span>
-                                                        <span class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
+                                                        <span ng-if="hasStu" class="text-center h5 text-center-v"><i class="icon icon--xs text-center-v color--primary icon-Yes"> 为已完成课程</i>   <i class="icon icon--xs text-center-v color--primary-todo icon-Next2"> 为建议课程</i></span>
                                                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                                             <div class="process-1">
                                                                 <div class="process__item" ng-repeat="courseId in pathwayRobot.sequence">

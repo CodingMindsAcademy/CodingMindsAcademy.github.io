@@ -1326,6 +1326,6 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : []
     },
 }
