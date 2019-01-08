@@ -117,7 +117,7 @@ var studb = {
         'recommend' : ['cs211', 'cs320']
     },
     'stu122' : {
-        'name' : 'Sinoma',
+        'name' : 'Simona',
         'since' : '2018年9月',
 
         'history' : {
@@ -1035,10 +1035,10 @@ var studb = {
             'cs301' : '2018年秋季',
             'cs301p' : '2018年秋季',
         },
-        'recommend' : ['cs302']
+        'recommend' : ['cs201']
     },
     'stu206' : {
-        'name' : 'Allen',
+        'name' : 'Alan Tan',
         'since' : '2018年9月',
         'comment': 'Acadia',
         'history' : {
@@ -1052,12 +1052,10 @@ var studb = {
         'since' : '2018年9月',
         'comment': 'Acadia',
         'history' : {
-            'cs201' : '2018年秋季',
-            'cs201p' : '2018年秋季',
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs211']
     },
     'stu208' : {
         'name' : 'Louis',
@@ -1077,7 +1075,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs211']
     },
     'stu210' : {
         'name' : 'Zecheng',
@@ -1087,7 +1085,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs211']
     },
     'stu211' : {
         'name' : 'Henry',
@@ -1099,7 +1097,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs311', 'cs211']
     },
     'stu212' : {
         'name' : 'James',
@@ -1109,7 +1107,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs211', 'cs320']
     },
     'stu213' : {
         'name' : 'Jason',
@@ -1119,7 +1117,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs211', 'cs320']
     },
     'stu214' : {
         'name' : 'Justin',
@@ -1129,7 +1127,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs211']
     },
     'stu215' : {
         'name' : 'Andy',
@@ -1139,7 +1137,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs211']
     },
     'stu216' : {
         'name' : 'Logan',
@@ -1149,7 +1147,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs211']
     },
     'stu217' : {
         'name' : 'Austin',
@@ -1159,7 +1157,7 @@ var studb = {
             'cs201' : '2018年秋季',
             'cs201p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs120']
     },
     'stu218' : {
         'name' : 'Chris Sun',
@@ -1167,7 +1165,6 @@ var studb = {
         'comment': '3-6',
         'history' : {
             'cs210' : '2018年秋季',
-            'cs210p' : '2018年秋季',
             'cs201' : '2018年秋季',
             'cs201p' : '2018年秋季',
         },
@@ -1189,11 +1186,9 @@ var studb = {
         'comment': '3-6',
         'history' : {
             'cs210' : '2018年秋季',
-            'cs210p' : '2018年秋季',
-            'cs201' : '2018年秋季',
-            'cs201p' : '2018年秋季',
+            'cs210p' : '2018年秋季',            
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs211']
     },
     'stu221' : {
         'name' : 'Louie',
@@ -1204,7 +1199,7 @@ var studb = {
             'cs201p' : '2018年秋季',
         },
         'recommend' : ['cs120']
-    },
+    },    
     'stu222' : {
         'name' : 'Frank',
         'since' : '2018年9月',
@@ -1213,7 +1208,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs211']
     },
     'stu223' : {
         'name' : 'Mary Liu',
@@ -1223,7 +1218,7 @@ var studb = {
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['cs120']
+        'recommend' : ['cs211']
     },
     'stu224' : {
         'name' : 'Aaron Tse',
@@ -1233,7 +1228,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs301']
     },
     'stu225' : {
         'name' : 'Allen Zhou',
@@ -1243,7 +1238,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs311']
     },
     'stu226' : {
         'name' : 'Eric Yang',
@@ -1253,20 +1248,8 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
-    },
-    'stu227' : {
-        'name' : 'Henry',
-        'since' : '2018年9月',
-        'comment': '7-12',
-        'history' : {
-            'cs201' : '2018年秋季',
-            'cs201p' : '2018年秋季',
-            'cs310' : '2018年秋季',
-            'cs310p' : '2018年秋季',
-        },
-        'recommend' : ['']
-    },
+        'recommend' : ['cs301', 'cs311']
+    },    
     'stu228' : {
         'name' : 'Jason Li',
         'since' : '2018年9月',
@@ -1275,7 +1258,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs311']
     },
     'stu229' : {
         'name' : 'Lucas',
@@ -1285,7 +1268,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs311', 'cs301']
     },
     'stu230' : {
         'name' : 'Matt Bai',
@@ -1295,7 +1278,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs311']
     },
     'stu231' : {
         'name' : 'Tim Liu',
@@ -1306,7 +1289,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs311']
     },
     'stu232' : {
         'name' : 'William Pan',
@@ -1316,7 +1299,7 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : ['']
+        'recommend' : ['cs311']
     },
     'stu233' : {
         'name' : 'Zachary',
@@ -1326,6 +1309,52 @@ var studb = {
             'cs310' : '2018年秋季',
             'cs310p' : '2018年秋季',
         },
-        'recommend' : []
+        'recommend' : ['cs311']
+    },
+    'stu234' : {
+        'name' : 'Liam',
+        'since' : '2018年9月',
+        'comment': 'K-3',
+        'history' : {
+            'cs120' : '2018年秋季',
+        },
+        'recommend' : ['cs101']
+    },
+    'stu235' : {
+        'name' : 'Neil',
+        'since' : '2018年9月',
+        'comment': '3-6 MakeCode',
+        'history' : {
+            'cs201' : '2018年秋季',
+            'cs201p' : '2018年秋季',
+        },
+        'recommend' : ['cs320']
+    },
+    'stu236' : {
+        'name' : 'Kevin',
+        'since' : '2018年10月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs301' : '2018年秋季',
+        },
+        'recommend' : ['cs302']
+    },
+    'stu237' : {
+        'name' : 'Andrew',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs301' : '2018年秋季'
+        },
+        'recommend' : ['cs302']
+    },
+    'stu238' : {
+        'name' : 'Frank Zhang',
+        'since' : '2018年9月',
+        'comment': 'Acadia',
+        'history' : {
+            'cs301' : '2018年秋季',
+        },
+        'recommend' : ['cs302']
     },
 }
