@@ -94,7 +94,7 @@ var coursedb = {
 			'enabled':true,
 			'name':'MIT Scratch创新编程与实践:做你自己的游戏、动画、多媒体',
 			'imageUrl':'img/my/scratch/scratchbg.png',
-			'gradeLevel':'K-3年级',
+			'gradeLevel':'K-6年级',
 			'text':'学Scratch编程，发挥你的创造力，和来自世界各地的小程序员分享你的作品',
 			'tag':'游戏编程系列',
 			'pathway':['coding'],

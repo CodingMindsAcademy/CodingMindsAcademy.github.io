@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '学Scratch编程，制作游戏和动画，寓教于乐才是硬道理',
   'topTitleLine1' : 'MIT Scratch',
   'topTitleLine2' : '创新编程与实践',
-  'topGradeLevel' : 'K-3 年级',
+  'topGradeLevel' : 'K-6 年级',
   'topIntroText' : 'Scratch是由MIT开发的一款青少年编程工具。使用 Scratch，你可以编写属于你自己的互动媒体，比如故事、游戏、动画，然后你可以将你的创意分享给全世界。 Scratch 帮助年轻人更具创造力、逻辑力、协作力。 这些都是21世纪不可或缺的基本能力。',
 
   'bgTitle':'MIT Scratch创新编程与实践',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'K-3',
+  'aboutGradeLevel':'K-6',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者',
   'aboutRatioTitle':'师生比例',
