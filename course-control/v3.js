@@ -152,7 +152,7 @@ var courseData = {
     '1:4 teacher to students ratio',
     'Always learn by doing and having fun'
   ],
-  'registrationLink':'https://codingminds.wufoo.com/forms/p1cux67e0ufz4uh/',
+  'registrationLink':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/',
   'registerNow':'REGISTER NOW',
 
   'faq':{
