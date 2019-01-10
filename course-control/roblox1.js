@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn programming fundamentals and create your own games with Roblox Studio!',
   'topTitleLine1' : 'Game Development',
   'topTitleLine2' : 'with Roblox Studio',
-  'topGradeLevel' : 'Grades 3 - 6',
+  'topGradeLevel' : 'Grades 4 - 6',
   'topIntroText' : 'Roblox is a massively multiplayer online game creation platform with over six thousand users online every month. Roblox Studio allows users to develop their own games and share it with others in the community.',
 
   'bgTitle':'Game Development with Roblox Studio',
@@ -17,11 +17,11 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'3 - 6',
+  'aboutGradeLevel':'4 - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,

@@ -216,65 +216,77 @@ var coursedb = {
 
 var scheduleIrvine = [
 	{
-		"title" : "Fall Period Monday Classes<br>10/22-12/10 (8 Weeks)",
+		"title" : "Spring Period Monday Classes<br>1/14-3/4 (8 Weeks)",
 		"courses" : [
 			{
-				"gradeLevel" : "3-6",
-				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship II",
+				"gradeLevel" : "K-3",
+				"courseName" : "Scratch<br> Programming",
 				"datetime" : "Mondays<br>3:20-4:50pm",
 				"price" : "$475"
 			},
 			{
-				"gradeLevel" : "7-12",
+				"gradeLevel" : "4-6",
 				"courseName" : "MIT App<br>Mobile Programming",
 				"datetime" : "Mondays<br>3:20-4:50pm",
 				"price" : "$475"
 			},
 			{
 				"gradeLevel" : "3-6",
-				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship I",
-				"datetime" : "Mondays<br>3:20-4:50pm",
+				"courseName" : "Unity3D",
+				"datetime" : "Mondays<br>5:00-6:30pm",
 				"price" : "$475"
 			},
 			{
 				"gradeLevel" : "7-12",
-				"courseName" : "Python<br>Advanced",
+				"courseName" : "Python<br>Advanced and AI",
 				"datetime" : "Mondays<br>5:00-6:30pm",
 				"price" : "$475"
 			}
 		]
 	},
 	{
-		"title" : "Fall Period Wednesday Classes<br>10/24-12/19 (8 Weeks)",
+		"title" : "Spring Period Wednesday Classes<br>1/16-3/6 (8 Weeks)",
 		"courses" : [
 			{
-				"gradeLevel" : "K-2",
+				"gradeLevel" : "1-3",
 				"courseName" : "Minecraft<br>Beginner - Inspirational Course",
-				"datetime" : "Wednesdays<br>3:20-4:50pm",
+				"datetime" : "Wednesdays<br>2:00-3:30pm",
 				"price" : "$475"
 			},
 			{
-				"gradeLevel" : "3-6",
+				"gradeLevel" : "4-6",
 				"courseName" : "Minecraft MakeCode<br>Programming Challenges",
-				"datetime" : "Wednesdays<br>3:20-4:50pm",
+				"datetime" : "Wednesdays<br>2:00-3:30pm",
+				"price" : "$475"
+			},
+			{
+				"gradeLevel" : "4-6",
+				"courseName" : "Roblox<br>Programming",
+				"datetime" : "Wednesdays<br>3:40-5:10pm",
 				"price" : "$475"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python Minecraft<br>Preliminary Programming",
-				"datetime" : "Wednesdays<br>5:00-6:30pm",
+				"datetime" : "Wednesdays<br>3:40-5:10pm",
 				"price" : "$475"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Raspberry PI<br>IoT Application Programming",
-				"datetime" : "Wednesdays<br>5:00-6:30pm",
+				"datetime" : "Wednesdays<br>5:20-6:50pm",
+				"price" : "$475"
+			},
+			{
+				"gradeLevel" : "7-12",
+				"courseName" : "iOS Swift<br>Programming",
+				"datetime" : "Wednesdays<br>5:20-6:50pm",
 				"price" : "$475"
 			}
 		]
 	},
 	{
-		"title" : "Fall Period Saturday Classes<br>10/27-12/22 (8 Weeks)",
+		"title" : "Spring Period Saturday Classes<br>1/19-3/9 (8 Weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "6-12",
@@ -318,7 +330,7 @@ var scheduleIrvine = [
 
 var scheduleArcadia = [
 	{
-		"title" : "Fall Period Tuesday Classes<br>10/25-12/10 (8 weeks)",
+		"title" : "Spring Period Tuesday Classes<br>1/15-3/5 (8 weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "3-6",
@@ -335,7 +347,7 @@ var scheduleArcadia = [
 		]
 	},
 	{
-		"title" : "Fall Period Thursday Classes<br>10/27-12/20 (8周)",
+		"title" : "Spring Period Thursday Classes<br>1/17-3/7 (8周)",
 		"courses" : [
 			{
 				"gradeLevel" : "3-6",
@@ -364,7 +376,7 @@ var scheduleArcadia = [
 		]
 	},
 	{
-		"title" : "Fall Period Saturday Classes<br>10/27-12/22 (8 weeks)",
+		"title" : "Spring Period Saturday Classes<br>1/19-3/9 (8 weeks)",
 		"courses" : [
 			{
 				"gradeLevel" : "K-2",
