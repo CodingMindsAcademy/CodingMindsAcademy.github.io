@@ -61,7 +61,7 @@ var studb = {
     },
     'stu115' : {
         'name' : 'Ada Zhou',
-        'since' : '',
+        'since' : '2017年10月',
         'history' : {
             'cs201': '2018年春季',
             'cs120': '2017年秋季',
