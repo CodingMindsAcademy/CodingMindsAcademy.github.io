@@ -147,10 +147,10 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$445',
+  'priceTitle':'',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
