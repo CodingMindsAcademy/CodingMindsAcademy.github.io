@@ -124,6 +124,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,10 +147,10 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
+  'registrationEnabled':true,
   'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'priceTitle':'',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',
