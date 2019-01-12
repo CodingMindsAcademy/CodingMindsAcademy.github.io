@@ -1,6 +1,6 @@
 var pathwaydb = {
 	'coding' : {
-		'sequence' : ['cs102', 'cs120', 'cs310', 'cs310p', 'cs311', 'cs311p', 'cs312', 'cs313', 'cs391', 'cs390']
+		'sequence' : ['cs102', 'cs120', 'cs310', 'cs310p', 'cs311', 'cs311p', 'cs312', 'cs313', 'cs391', 'cs390', 'cs391p']
 	},
 	'game' : {
 		'sequence' : ['cs101', 'cs101p', 'cs102', 'cs201', 'cs201p', 'cs210', 'cs210p', 'cs211', 'cs301', 'cs301p', 'cs302', 'cs370', 'cs370p', 'cs371']
