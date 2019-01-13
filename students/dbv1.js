@@ -1357,4 +1357,22 @@ var studb = {
         },
         'recommend' : ['cs302']
     },
+    'stu239' : {
+        'name' : 'Zenas Deng',
+        'since' : '2018年10月',
+        'comment': '',
+        'history' : {
+            'cs210' : '2018年秋季',            
+        },
+        'recommend' : ['cs211']
+    },
+    'stu239' : {
+        'name' : 'Vivian Deng',
+        'since' : '2018年10月',
+        'comment': '',
+        'history' : {
+            'cs210' : '2018年秋季',            
+        },
+        'recommend' : ['cs211']
+    },
 }
