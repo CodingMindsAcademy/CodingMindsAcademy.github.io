@@ -1367,7 +1367,7 @@ var studb = {
         },
         'recommend' : ['cs211']
     },
-    'stu239' : {
+    'stu240' : {
         'name' : 'Vivian Deng',
         'since' : '2018年10月',
         'comment': '',
