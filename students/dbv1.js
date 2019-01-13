@@ -1052,10 +1052,11 @@ var studb = {
         'since' : '2018年9月',
         'comment': 'Acadia',
         'history' : {
+            'cs201' : '2018年秋季',
             'cs210' : '2018年秋季',
             'cs210p' : '2018年秋季',
         },
-        'recommend' : ['cs211']
+        'recommend' : ['cs211', 'cs120']
     },
     'stu208' : {
         'name' : 'Louis',
