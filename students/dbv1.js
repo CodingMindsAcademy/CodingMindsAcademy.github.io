@@ -1357,9 +1357,9 @@ var studb = {
             'cs301' : '2018年秋季',
         },
         'recommend' : ['cs302']
-    },
-    'stu239' : {
-        'name' : 'Zenas Deng',
+    },    
+    'stu240' : {
+        'name' : 'Vivian Deng',
         'since' : '2018年10月',
         'comment': '',
         'history' : {
@@ -1367,8 +1367,8 @@ var studb = {
         },
         'recommend' : ['cs211']
     },
-    'stu240' : {
-        'name' : 'Vivian Deng',
+    'stu241' : {
+        'name' : 'Zenas Deng',
         'since' : '2018年10月',
         'comment': '',
         'history' : {
