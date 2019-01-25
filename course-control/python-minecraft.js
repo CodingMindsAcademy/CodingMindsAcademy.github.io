@@ -172,6 +172,12 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '930 Roosevelt, Irvine, CA 92620'
     },
+    {
+      'name' : 'Arcadia Classroom',
+      'address1' : '17 E Huntington Dr.',
+      'address2' : 'Arcadia, CA 91006',
+      'addressMap' : '17 E Huntington Dr., Arcadia, CA 91006'
+    },
   ],
 
   'promotionText':'Interested in learning programs with fun?',
