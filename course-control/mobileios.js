@@ -1,23 +1,23 @@
 var courseData = {
-  'courseTitle' : 'Mobile App Programming with MIT App Inventor | Coding Minds Academy',
+  'courseTitle' : 'iPhone APP Development and Swift programming | Coding Minds Academy',
   'courseDescription' : 'Learn how to program and develop mobile apps. Become the next young entrepreneurs',
-  'topTitleLine1' : 'Mobile App Programming ',
-  'topTitleLine2' : 'with MIT App Inventor',
-  'topGradeLevel' : 'Grades 7 - 10',
+  'topTitleLine1' : 'iPhone APP Development',
+  'topTitleLine2' : 'with Swift programming',
+  'topGradeLevel' : 'Grades 7 - 12',
   'topIntroText' : 'Tired of playing apps or games on your parents\' phones? Why don\'t you build your own? You will learn how to make real mobile apps with the most popular mobile technologies and solve real world problems.',
 
   'bgTitle':'Build and Publish Apps to Google Play',
-  'bgImageUrl':'img/my/mobile-learn-1.jpg',
-  'bgText':'Learn how to program and develop mobile apps. Become the next young entrepreneurs.',
+  'bgImageUrl':'img/my/ios/bg-sm.jpg',
+  'bgText':'Learn most famous Swift programming and iOS App development.',
   'bgLearnMoreText':'See MIT App Inventor in Action',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/sNjGAiOrX-o?autoplay=1',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/MO7Ta0DvEWA?autoplay=1',
 
   'aboutTitle':'About the Camp',
   'aboutText':'',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Programming | Mobile',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'7 - 10',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -47,7 +47,7 @@ var courseData = {
   'promotion4':{
     'enabled':true,
     'title':'Publish And Share Your Apps',
-    'text':'Every student are expected to make 6 - 10 apps during the 5-day camp. Just like a real app developer and entrepreneur, you will publish your apps to the app store, and make it available to download for people from all over the world.',
+    'text':'Every student are expected to make 6 - 10 apps. Just like a real app developer and entrepreneur, you will publish your apps to the app store, and make it available to download for people from all over the world.',
     'imageUrl':'img/my/mobile-learn-6.jpg'
   },
 
@@ -124,6 +124,8 @@ var courseData = {
     },
   ],
 
+  
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,10 +148,10 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$450',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',

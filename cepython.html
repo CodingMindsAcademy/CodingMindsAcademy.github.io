@@ -420,7 +420,7 @@
                 </section>
 
                 <!-- 8. Course Schedule -->
-                <section class="switchable bg--secondary">
+                <section ng-hide="{{!cd.sessionsEnabled}}" class="switchable bg--secondary">
                     <div class="container">
                         <h2 class="text-center">{{cd.sessionsTitle}}</h2>
                         <div class="row">
@@ -444,7 +444,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> 
 
                 <!-- 9. Location and Map -->
                 <section class="switchable" ng-repeat="loc in cd.locations">

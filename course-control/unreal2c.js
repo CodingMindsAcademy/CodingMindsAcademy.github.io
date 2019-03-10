@@ -7,7 +7,7 @@ var courseData = {
   'topIntroText' : 'Unreal是目前世界最流行的专业游戏开发引擎。如果你没有听说过Unreal，那么你一定知道风靡全球的Fortnite游戏，Fortnite就是通过Unreal引擎制作出来的。学习Unreal的高级技术和技巧，做VR虚拟现实应用。',
 
   'bgTitle':'Unreal高级开发与VR应用',
-  'bgImageUrl':'img/my/unreal/bg1.png',
+  'bgImageUrl':'img/my/unreal/bg2-sm.jpg',
   'bgText':'在制作游戏中学习编程将是你从未尝试过的学习体验',
   'bgLearnMoreText':'了解更多Unreal',
   'bgLearnMoreLink':'https://www.youtube.com/embed/5R_dniXqMvU?autoplay=1',

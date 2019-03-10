@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn how to program and control a robot, and enter the world of coding',
   'topTitleLine1' : 'Robotics and Programming with SPRK',
   'topTitleLine2' : '',
-  'topGradeLevel' : 'Grade K - 2',
+  'topGradeLevel' : 'Grade K - 3',
   'topIntroText' : 'SPRK is far more than just a robot; it’s your vehicle to discovery. Connect to the Lightning Lab app to learn programming, complete activities, and get inspired through connected play and coding. This robot opens the world of coding.',
 
   'bgTitle':'Learn Programming with a SPRK Robot',
@@ -16,11 +16,11 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Robotics | Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'K - 2',
+  'aboutGradeLevel':'K - 3',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -123,6 +123,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -145,10 +146,10 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$445',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',

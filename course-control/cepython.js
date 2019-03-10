@@ -21,7 +21,7 @@ var courseData = {
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -66,7 +66,7 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Coding',
-      'text':'The fundamentals of Python programming language'
+      'text':'The basic ideas and methods of competition'
     },
     {
       'icon':'icon-Gears',
@@ -146,10 +146,11 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'sessionsEnabled':false,
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',

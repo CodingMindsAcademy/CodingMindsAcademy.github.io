@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Through the creation of the learning world, Minecraft command-line command control, and MakeCode graphical programming platform, gradually bring your child into the programming world.',
   'topTitleLine1' : 'Minecraft',
   'topTitleLine2' : 'World Building and Instruction Programming',
-  'topGradeLevel' : 'Grade K - 2',
+  'topGradeLevel' : 'Grade K - 3',
   'topIntroText' : 'Today\'s youths have a wide range of interests, but if you want to find a common interest, then it must be Minecraft. This course is based on Minecraft games. Through introduction of the creation of the world, the control of Minecraft command-line commands, and the MakeCode graphical programming platform, the children are progressively brought into the programming world.',
 
   'bgTitle':'Minecraft World Building and Instruction Programming',
@@ -13,15 +13,15 @@ var courseData = {
   'bgLearnMoreLink':'https://www.youtube.com/embed/3rKuSlgqePo?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Minecraft is a sandbox video game and arguably one of the most popular games in the world. This course utilizes the popular video game to introduce students to the programming world.',
+  'aboutText':'This course utilizes the popular Minecraft video game to introduce students to the programming world.',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'K - 2',
+  'aboutGradeLevel':'K - 3',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginners',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -145,11 +145,11 @@ var courseData = {
       'location':'Irvine, CA'
     }
   ],
-
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$445',
+  'sessionsEnabled':false,
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',

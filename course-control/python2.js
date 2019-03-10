@@ -19,9 +19,9 @@ var courseData = {
   'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginner to Intermediate',
+  'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -123,7 +123,8 @@ var courseData = {
       'text':'Programming is just the first step. Build projects, attend science fairs will help you get into the top unversities'
     },
   ],
-
+  
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,10 +147,10 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',

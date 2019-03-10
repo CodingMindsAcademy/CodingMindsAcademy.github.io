@@ -1,16 +1,16 @@
 var courseData = {
-  'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'courseDescription' : 'Learn the professional 3D game programming. Grow from a game player to a developer.',
+  'courseTitle' : 'Programming with Unreal engine and VR applications | Coding Minds Academy',
+  'courseDescription' : 'Learn the professional VR game programming. Grow from a game player to a developer.',
   'topTitleLine1' : 'Game Programming',
-  'topTitleLine2' : 'with Unity3D',
+  'topTitleLine2' : 'with Unreal engine and VR applications',
   'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'topIntroText' : 'Unreal engine is a famous engine in industry. Develop VR applications and games by Unreal engine',
 
-  'bgTitle':'Game Programming with Unity3D',
-  'bgImageUrl':'img/my/unity3d/bg-5.jpg',
+  'bgTitle':'Learn advanced Unreal skills，create VR applications',
+  'bgImageUrl':'img/my/unreal/bg2-sm.jpg',
   'bgText':'Become a game developer, and publish your games.',
-  'bgLearnMoreText':'Learn More about Unity3D',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
+  'bgLearnMoreText':'Learn More about Unreal engine',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/5R_dniXqMvU?autoplay=1',
 
   'aboutTitle':'About the Course',
   'aboutText':'Learn programming with game development. Build your own game without limits.',
@@ -19,35 +19,35 @@ var courseData = {
   'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginning to Intermediate',
+  'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
     'title':'Be a Professional',
     'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'imageUrl':'img/my/unreal/bg-6.jpg'
   },
 
   'promotion2':{
     'enabled':true,
     'title':'From Game Player to Developer',
     'text':'Being addictive to games? No worries. Let\'s motivate them to learn by showing them that they can make games.',
-    'imageUrl':'img/my/unity3d/unity3d-2.jpg'
+    'imageUrl':'img/my/unreal/bg-4.png'
   },
 
   'promotion3':{
     'enabled':true,
     'title':'Beyound Games',
     'text':'Have you heard about the popular technologies such as AR (Augmented Reality) and VR (Virtual Reality)? You can make AR/VR apps using Unity3D easily.',
-    'imageUrl':'img/my/unity3d/unity3d-3.jpg'
+    'imageUrl':'img/my/unreal/bg-5.jpg'
   },
 
   'promotion4':{
     'enabled':true,
     'title':'Compete in Science Fair',
-    'text':'The projects made using Unity3D could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
+    'text':'The projects made using Unreal engine could be used to participate in Science Fairs. Find a problem, solve the problem using the technology, and win the Science Fair.',
     'imageUrl':'img/my/unity3d/unity3d-4.jpg'
   },
 
@@ -66,11 +66,11 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'The fondation of Unity3D development'
+      'text':'The fondation of Unreal engine development'
     },
     {
       'icon':'icon-Coding',
-      'text':'The basics of C# programming language'
+      'text':'The basics of programming language'
     },
     {
       'icon':'icon-Puzzle',
@@ -141,10 +141,10 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',

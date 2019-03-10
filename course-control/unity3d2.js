@@ -1,11 +1,11 @@
 var courseData = {
   'courseTitle' : 'Programming with Unity3D | Coding Minds Academy',
-  'topTitleLine1' : 'Game Programming',
+  'topTitleLine1' : 'Advanced Game Developmentg',
   'topTitleLine2' : 'with Unity3D',
-  'topGradeLevel' : 'Grades 6 - 8',
-  'topIntroText' : 'This course teaches how to make the professional 3D games from scratch without any programming background.',
+  'topGradeLevel' : 'Grades 7 - 12',
+  'topIntroText' : 'This course teaches how to make the professional 3D games with advanced skill.',
 
-  'bgTitle':'Game Programming with Unity3D',
+  'bgTitle':'Advanced Game Development with Unity3D',
   'bgText':'Become a game developer, and publish your games.',
   'bgLearnMoreText':'Learn More about Unity3D',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MwYq_YA59uQ?autoplay=1',
@@ -15,17 +15,17 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'6 - 8',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginning to Intermediate',
+  'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
     'title':'Be a Professional',
     'text':'Game development is a challenging field, but Unity3D make it feasible for students.',
-    'imageUrl':'img/my/unity3d/unity3d-1.jpg'
+    'imageUrl':'img/my/unity3d/unity3d-6.jpg'
   },
 
   'promotion2':{
@@ -122,6 +122,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -144,10 +145,10 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$445',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
@@ -175,8 +176,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'unity3d.html',
-  'cnUrl':'unity3dc.html'
+  'engUrl':'unity3d2.html',
+  'cnUrl':'unity3d2c.html'
 
 }
 

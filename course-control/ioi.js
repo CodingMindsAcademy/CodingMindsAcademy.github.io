@@ -1,58 +1,59 @@
 var courseData = {
-  'courseTitle' : 'Python Programming | Coding Minds Academy',
-  'courseDescription' : 'Learn the most popular programming language in the industry',
-  'topTitleLine1' : 'Python Programming:',
-  'topTitleLine2' : 'Build Real World Applications',
+  'courseTitle' : 'Computer Algorithm Competition | Coding Minds Academy',
+  'courseDescription' : 'Learn algorithms and perpare for competition',
+  'topTitleLine1' : 'Algorithm Competition:',
+  'topTitleLine2' : 'Computing Olympics',
   'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course does not only teach how to write Python code. It is a carefully designed program that teaches how to develop real life applications with Python.',
+  'topIntroText' : 'This course does not only teach how to perpare competition. It is a carefully designed program that teaches how to Practice your programming ablity and skills',
 
-  'bgTitle':'Python Programming',
-  'bgImageUrl':'img/my/python-learn-3.jpg',
-  'bgText':'Learn the most popular programming language in the industry.',
-  'bgLearnMoreText':'See what can you do with Python',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
+  'bgTitle':'Computer Algorithm Competition',
+  'bgImageUrl':'img/my/ioi/bg.jpeg',
+  'bgText':'Practice your programming ablity and prepare for competitions',
+  'bgLearnMoreText':'Learn more about Computing Olympics',
+  'bgLearnMoreLink':'http://www.usaco.org/',
 
   'aboutTitle':'About the Course',
   'aboutText':'',
   'aboutCategoryTitle':'Category',
-  'aboutCategory':'Programming | General App',
+  'aboutCategory':'Algorithmic Programming',
   'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginner to Intermediate',
+  'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
-    'title':'Enter the World of Coding',
-    'text':'You are going to learn the real programming — the same type of programming Google engineers are doing. With Python, you can accomplish any challenging tasks by writing the code.',
-    'imageUrl':'img/my/python-learn-1.jpg'
+    'title':'Professional and Efficient Code',
+    'text':'students are required to solve a variety of complex computer algorithm problems in a short period of time in Computing Olympics competition.',
+    'imageUrl':'img/my/ioi/ioi2.jpeg'
   },
+
 
   'promotion2':{
     'enabled':true,
     'title':'From the Basic to the Practical',
-    'text':'You will start with learning the fundamental concepts of Python and the basic language contructs. However, we will lead you to the practical and exciting side of Python quickly and let you make real world applications on machine learning, game development and web servers.',
-    'imageUrl':'img/my/python-learn-5.jpg'
+    'text':'learning to consolidate knowledge of computer algorithms and data structures, complete the core computer science course at the university in high school.',
+    'imageUrl':'img/my/ioi/ioi1.png'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Machine Learning with Python',
-    'text':'Have you ever wondered how the engineers built the self-driving cars and the Go master to beat the top human players? The answer is machine learning. With Python, you can build your own machine learning algorithm to make your computer smart!',
-    'imageUrl':'img/my/machine-learning-1.jpg'
+    'title':'Practice and improve in the competition',
+    'text':'help students to perpare and participate in various informatics competitions, learn, summarize and improve themselves in competitions.',
+    'imageUrl':'img/my/ioi/ioi3.jpg'
   },
 
   'promotion4':{
-    'enabled':true,
+    'enabled':false,
     'title':'Game Development with Python',
     'text':'Playing games is fun, but building games by yourself is even more exciting. You will learn how to make games using Python and PyGame. Bring your game ideas to our camp!',
     'imageUrl':'img/my/pygame-1.jpg'
   },
 
   'promotion5':{
-    'enabled':true,
+    'enabled':false,
     'title':'Web Server Programming with Python',
     'text':'To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp.',
     'imageUrl':'img/my/python-learn-4.jpg'
@@ -70,23 +71,23 @@ var courseData = {
     },
     {
       'icon':'icon-Gears',
-      'text':'The basic knowledge and experience on machine learning'
+      'text':'Complete learning algorithm and data structure'
     },
     {
       'icon':'icon-Puzzle',
-      'text':'Game development skill using Python and PyGame'
+      'text':'Learn to debug and optimize your code'
     },
     {
       'icon':'icon-Server',
-      'text':'Knowledge on web servers programming'
+      'text':'Practice in various informatics competitions'
     },
     {
       'icon':'icon-Idea',
-      'text':'Creativity and hands-on problem-solving skills'
+      'text':'Creativity ability and entrepreneurial thinking'
     },
     {
       'icon':'icon-Key',
-      'text':'Get ready for AP Computer Science and science fair'
+      'text':'Prepared for high school AP computer courses'
     },
   ],
 
@@ -146,10 +147,11 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'sessionsEnabled':false,
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',
@@ -171,6 +173,7 @@ var courseData = {
       'address2' : 'Irvine, CA 92620',
       'addressMap' : '930 Roosevelt, Irvine, CA 92620'
     },
+    
     {
       'name' : 'Rancho Cucamonga Classroom',
       'address1' : '6080 Haven Ave',
@@ -183,8 +186,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'python.html',
-  'cnUrl':'pythonc.html'
+  'engUrl':'ioi.html',
+  'cnUrl':'ioic.html'
 
 }
 

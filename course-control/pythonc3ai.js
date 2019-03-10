@@ -7,7 +7,7 @@ var courseData = {
   'topIntroText' : 'Python编程不仅仅是一个普通的教授计算机编程语言基础的课程，而是为中学生量身打造的Python编程实践。学生会学习人工智能的初步并且动手编写实用的真正的AI应用程序。',
 
   'bgTitle':'Python高阶编程与人工智能初步',
-  'bgImageUrl':'img/my/python-learn-3.jpg',
+  'bgImageUrl':'img/my/ai-bg.jpg',
   'bgText':'学习当今最流行的编程语言，开发机器学习与AI的应用程序',
   'bgLearnMoreText':'了解更多AI',
   'bgLearnMoreLink':'https://www.youtube.com/embed/15PK38MUEPM?autoplay=1',

@@ -1,14 +1,14 @@
 var courseData = {
-  'courseTitle' : 'Python Programming | Coding Minds Academy',
+  'courseTitle' : 'Python AI Programming | Coding Minds Academy',
   'courseDescription' : 'Learn the most popular programming language in the industry',
-  'topTitleLine1' : 'Python Programming:',
-  'topTitleLine2' : 'Build Real World Applications',
+  'topTitleLine1' : 'Advanced Python Programming:',
+  'topTitleLine2' : 'Introduction to AI',
   'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course does not only teach how to write Python code. It is a carefully designed program that teaches how to develop real life applications with Python.',
+  'topIntroText' : 'This course does not only teach how to write Python code. It is a carefully designed program that teaches basic AI knowlegde and applications with Python.',
 
   'bgTitle':'Python Programming',
-  'bgImageUrl':'img/my/python-learn-3.jpg',
-  'bgText':'Learn the most popular programming language in the industry.',
+  'bgImageUrl':'img/my/ai-bg.jpg',
+  'bgText':'Learn basic AI kownlegde and create your own AI program.',
   'bgLearnMoreText':'See what can you do with Python',
   'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
 
@@ -19,13 +19,13 @@ var courseData = {
   'aboutGradeLevelTitle':'Grade',
   'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
-  'aboutSkillLevel':'Beginner to Intermediate',
+  'aboutSkillLevel':'Intermediate to Advanced',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
-    'title':'Enter the World of Coding',
+    'title':'Enter the World of AI',
     'text':'You are going to learn the real programming — the same type of programming Google engineers are doing. With Python, you can accomplish any challenging tasks by writing the code.',
     'imageUrl':'img/my/python-learn-1.jpg'
   },
@@ -33,7 +33,7 @@ var courseData = {
   'promotion2':{
     'enabled':true,
     'title':'From the Basic to the Practical',
-    'text':'You will start with learning the fundamental concepts of Python and the basic language contructs. However, we will lead you to the practical and exciting side of Python quickly and let you make real world applications on machine learning, game development and web servers.',
+    'text':'You will start with learning the fundamental concepts of AI and basic algorithms. However, we will lead you to the practical and exciting side of Python quickly and let you make real world applications on machine learning.',
     'imageUrl':'img/my/python-learn-5.jpg'
   },
 
@@ -124,6 +124,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,10 +147,10 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',
@@ -183,8 +184,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'python.html',
-  'cnUrl':'pythonc.html'
+  'engUrl':'python3ai.html',
+  'cnUrl':'pythonc3ai.html'
 
 }
 

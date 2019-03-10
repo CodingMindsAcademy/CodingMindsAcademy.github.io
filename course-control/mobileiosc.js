@@ -7,7 +7,7 @@ var courseData = {
   'topIntroText' : '如果你厌倦了玩自己手机上的App，为什么不自己动手做真正属于自己的App程序？通过学习iOS平台开发与Swift编程语言，你可以实践做一把真正的App程序员，并且发布自己的App到苹果的App商店，说不定下一个成功的创业者就是你！',
 
   'bgTitle':'开发并发布你自己的APP到Apple应用商店',
-  'bgImageUrl':'img/my/ios/bg.jpg',
+  'bgImageUrl':'img/my/ios/bg-sm.jpg',
   'bgText':'学习手机APP编程，开发APP，做小创业者',
   'bgLearnMoreText':'了解iOS手机APP开发',
   'bgLearnMoreLink':'https://www.youtube.com/embed/MO7Ta0DvEWA?autoplay=1',

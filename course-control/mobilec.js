@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : '厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
   'topTitleLine1' : 'MIT手机APP发明家',
   'topTitleLine2' : '动手编写自己的APP做小创业者',
-  'topGradeLevel' : '4-8 年级',
+  'topGradeLevel' : '7-12 年级',
   'topIntroText' : '如果你厌倦了玩自己手机上的App，为什么不自己动手做真正属于自己的App程序？通过学习MIT手机App发明家程序，你可以实践做一把真正的App程序员，并且发布自己的App到谷歌的App商店，说不定下一个成功的创业者就是你！',
 
   'bgTitle':'开发并发布你自己的APP到Google Play应用商店',
@@ -17,7 +17,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'4-8',
+  'aboutGradeLevel':'7-12',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'初学者到中级',
   'aboutRatioTitle':'师生比例',

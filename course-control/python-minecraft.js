@@ -148,8 +148,8 @@ var courseData = {
   ],
 
   'registrationEnabled':true,
-  'registrationTitle':'Registration',
-  'priceTitle':'',
+  'registrationTitle':'',
+  'priceTitle':'Registration',
   'price':'',
   'allCreditCards':'',
   'priceItems':[

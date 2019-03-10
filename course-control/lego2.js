@@ -1,9 +1,9 @@
 var courseData = {
-  'courseTitle' : 'Advanced Robotics Programming with Java | Coding Minds Academy',
+  'courseTitle' : 'Advanced Lego Robotics Programming with Java | Coding Minds Academy',
   'courseDescription' : 'Build and program your own EV3 robot using Java!',
   'topTitleLine1' : 'Advanced Robotics Programming',
   'topTitleLine2' : 'with Java',
-  'topGradeLevel' : 'Grade 6 - 8',
+  'topGradeLevel' : 'Grade 4 - 8',
   'topIntroText' : 'This course allows students to build and program the EV3 robots, implementing sensors and motors. This advanced Lego programming course teaches you how to control the robots using Java.',
 
   'bgTitle':'Advanced Robotics Programming with Java',
@@ -17,11 +17,11 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Robotics | Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'6 - 8',
+  'aboutGradeLevel':'4 - 8',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -145,11 +145,11 @@ var courseData = {
       'location':'Irvine, CA'
     }
   ],
-
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$450',
+  'sessionsEnabled':false,
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',

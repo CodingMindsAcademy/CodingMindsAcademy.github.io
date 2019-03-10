@@ -1,16 +1,15 @@
 var courseData = {
-  'courseTitle' : 'Python Programming | Coding Minds Academy',
-  'courseDescription' : 'Learn the most popular programming language in the industry',
-  'topTitleLine1' : 'Python Programming:',
-  'topTitleLine2' : 'Build Real World Applications',
+  'courseTitle' : 'Computer Information and Network Security | Coding Minds Academy',
+  'courseDescription' : 'Learn how to protect your computer from hackers',
+  'topTitleLine1' : 'Computer Information and Network Security',
+  'topTitleLine2' : '',
   'topGradeLevel' : 'Grade 7 - 12',
-  'topIntroText' : 'This course does not only teach how to write Python code. It is a carefully designed program that teaches how to develop real life applications with Python.',
-
-  'bgTitle':'Python Programming',
-  'bgImageUrl':'img/my/python-learn-3.jpg',
-  'bgText':'Learn the most popular programming language in the industry.',
-  'bgLearnMoreText':'See what can you do with Python',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/hxGB7LU4i1I?autoplay=1',
+  'topIntroText' : 'The safety of data and information is the most important topic in the morden world. learn how hackers attacking network and protect your computer in this course',
+  'bgTitle':'Computer Information and Network Security',
+  'bgImageUrl':'img/my/security/bg.jpeg',
+  'bgText':'learn how hackers attacking network and protect your computer in this course',
+  'bgLearnMoreText':'Learn more about network security',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/JIJslcA8Q5g?autoplay=1',
 
   'aboutTitle':'About the Course',
   'aboutText':'',
@@ -21,38 +20,38 @@ var courseData = {
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
-    'title':'Enter the World of Coding',
-    'text':'You are going to learn the real programming — the same type of programming Google engineers are doing. With Python, you can accomplish any challenging tasks by writing the code.',
-    'imageUrl':'img/my/python-learn-1.jpg'
+    'title':'Learn basic network security theories',
+    'text':'Information and network security are based on a series of theories: cryptography, cryptography, computer network communication principles',
+    'imageUrl':'img/my/security/ce1.jpg'
   },
 
   'promotion2':{
     'enabled':true,
-    'title':'From the Basic to the Practical',
-    'text':'You will start with learning the fundamental concepts of Python and the basic language contructs. However, we will lead you to the practical and exciting side of Python quickly and let you make real world applications on machine learning, game development and web servers.',
-    'imageUrl':'img/my/python-learn-5.jpg'
+    'title':'Learn how to programming',
+    'text':'Real hackers are master in programmering, you have to be a better coder to protect youeself from them.',
+    'imageUrl':'img/my/security/ce2.jpg'
   },
 
   'promotion3':{
     'enabled':true,
-    'title':'Machine Learning with Python',
-    'text':'Have you ever wondered how the engineers built the self-driving cars and the Go master to beat the top human players? The answer is machine learning. With Python, you can build your own machine learning algorithm to make your computer smart!',
-    'imageUrl':'img/my/machine-learning-1.jpg'
+    'title':'From the Basic to the Practical',
+    'text':'Experience the process of network attack and defense in a simulated environment.',
+    'imageUrl':'img/my/security/ce3.jpg'
   },
 
   'promotion4':{
-    'enabled':true,
+    'enabled':false,
     'title':'Game Development with Python',
     'text':'Playing games is fun, but building games by yourself is even more exciting. You will learn how to make games using Python and PyGame. Bring your game ideas to our camp!',
     'imageUrl':'img/my/pygame-1.jpg'
   },
 
   'promotion5':{
-    'enabled':true,
+    'enabled':false,
     'title':'Web Server Programming with Python',
     'text':'To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp.',
     'imageUrl':'img/my/python-learn-4.jpg'
@@ -124,6 +123,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,10 +146,10 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',
@@ -183,8 +183,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'python.html',
-  'cnUrl':'pythonc.html'
+  'engUrl':'security.html',
+  'cnUrl':'securityc.html'
 
 }
 

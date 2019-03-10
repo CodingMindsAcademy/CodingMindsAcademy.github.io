@@ -2,7 +2,7 @@ var courseData = {
   'courseTitle' : 'Unity3D游戏开发进阶 | Coding Minds 编程思维',
   'topTitleLine1' : 'Unity3D',
   'topTitleLine2' : '游戏开发进阶',
-  'topGradeLevel' : '6-12 年级',
+  'topGradeLevel' : '7-12 年级',
   'topIntroText' : 'Unity3D是目前世界最流行的游戏与VR/AR开发引擎。即使从零开始学习计算机编程，也可以通过Unity3D的强大功能自主制作出专业的3D游戏应用程序。无需等待，在中学你就可以挥洒创意，创作出你自己想玩的游戏。',
 
   'bgTitle':'Unity3D游戏开发进阶',
@@ -15,7 +15,7 @@ var courseData = {
   'aboutCategoryTitle':'类别',
   'aboutCategory':'游戏编程',
   'aboutGradeLevelTitle':'适合年级',
-  'aboutGradeLevel':'6-12',
+  'aboutGradeLevel':'7-12',
   'aboutSkillLevelTitle':'难度级别',
   'aboutSkillLevel':'中级',
   'aboutRatioTitle':'师生比例',

@@ -1,47 +1,47 @@
 var courseData = {
   'courseTitle' : 'Minecraft World Building and Instruction Programming | Coding Minds Academy',
   'courseDescription' : 'Through the creation of the learning world, Minecraft command-line command control, and MakeCode graphical programming platform, gradually bring your child into the programming world.',
-  'topTitleLine1' : 'Minecraft',
-  'topTitleLine2' : 'World Building and Instruction Programming',
-  'topGradeLevel' : 'Grade K - 2',
+  'topTitleLine1' : 'Minecraft Programing ',
+  'topTitleLine2' : 'with Javascript',
+  'topGradeLevel' : 'Grade K - 3',
   'topIntroText' : 'Today\'s youths have a wide range of interests, but if you want to find a common interest, then it must be Minecraft. This course is based on Minecraft games. Through introduction of the creation of the world, the control of Minecraft command-line commands, and the MakeCode graphical programming platform, the children are progressively brought into the programming world.',
 
   'bgTitle':'Minecraft World Building and Instruction Programming',
-  'bgImageUrl':'img/my/minecraftbasic/bg.jpg',
+  'bgImageUrl':'img/my/minecraftbasic/bg2.jpg',
   'bgText':'Learning programming in a Minecraft will be an ideal learning experience for kids',
   'bgLearnMoreText':'Learn More about the Minecraft: Education Edition',
   'bgLearnMoreLink':'https://www.youtube.com/embed/3rKuSlgqePo?autoplay=1',
 
   'aboutTitle':'About the Course',
-  'aboutText':'Minecraft is a sandbox video game and arguably one of the most popular games in the world. This course utilizes the popular video game to introduce students to the programming world.',
+  'aboutText':'This course utilizes the popular video game to introduce students to the programming world.',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Game Development',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'K - 2',
+  'aboutGradeLevel':'K - 3',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginners',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
     'title':'Build your own world and enter the world of programming.',
     'text':'The world-famous Minecraft game provides unlimited space for children\'s creativity. Build the world you want and the door to science and technology opens for you.',
-    'imageUrl':'img/my/minecraftbasic/mc2.jpg'
+    'imageUrl':'img/my/minecraftbasic/mc3.jpg'
   },
 
   'promotion2':{
     'enabled':true,
     'title':'Learn programming fundamentals through command-line instructions',
     'text':'Minecraft provides players with a list of game control commands. By learning these commands, you can accomplish the effects that are not achieved in the game but rather, in real life. By learning these basic instructions, you can unknowingly establish the basis of programming fundamentals and computational thinking.',
-    'imageUrl':'img/my/minecraftbasic/mc1.jpg'
+    'imageUrl':'img/my/minecraftbasic/mc6.jpeg'
   },
 
   'promotion3':{
     'enabled':true,
     'title':'Graphical programming from elementary school',
     'text':'Today\'s programming skills are extremely valuable. Every school has started to teach students to learn from preschool. The Minecraft MakeCode programming platform makes this a reality.',
-    'imageUrl':'img/my/minecraftbasic/mc3.jpg'
+    'imageUrl':'img/my/minecraftbasic/mc1.jpg'
   },
 
   'promotion4':{
@@ -145,11 +145,11 @@ var courseData = {
       'location':'Irvine, CA'
     }
   ],
-
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$445',
+  'sessionsEnabled':false,
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
@@ -177,8 +177,8 @@ var courseData = {
   'promotionButtonText':'Contact Us',
   'promotionUrl':'page-contact-us.html',
 
-  'engUrl':'mcbuild.html',
-  'cnUrl':'mcbuildc.html'
+  'engUrl':'mcbuild2.html',
+  'cnUrl':'mcbuild2c.html'
 
 }
 

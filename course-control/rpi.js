@@ -1,23 +1,22 @@
 var courseData = {
-  'courseTitle' : 'Arduino Programming | Coding Minds Academy',
+  'courseTitle' : 'Raspberry PI Programming | Coding Minds Academy',
   'courseDescription' : 'Create intelligent electronic systems. Learn software in the world of hardware.',
   'topTitleLine1' : 'Electrical Engineer Growth Path:',
-  'topTitleLine2' : 'Arduino Programming',
-  'topGradeLevel' : 'Grade 6 - 12',
-  'topIntroText' : 'Arduino is a convenient, flexible and easy-to-use open source electronic programming development platform. The Arduino can sense the environment through a variety of sensors and feedback and influence the environment by controlling lights, motors and other devices. The microcontroller on the board can program through Arduino\'s programming language. Through hands-on operation of software and hardware, it can quickly make automatic alarm devices, smart irrigation systems and other professional projects.',
-
-  'bgTitle':'Arduino Programming',
-  'bgImageUrl':'img/my/arduino/arduino-bg.jpg',
+  'topTitleLine2' : 'Raspberry PI Programming',
+  'topGradeLevel' : 'Grade 7 - 12',
+  'topIntroText' : 'Raspberry PI is a convenient, flexible and easy-to-use electronic programming development platform. With Raspberry and programming language you can build up your own Internet of things system and other professional projects.',
+  'bgTitle':'Raspberry Programming',
+  'bgImageUrl':'img/my/rpi/bg.jpg',
   'bgText':'Create intelligent electronic systems and learn software through the world of hardware',
-  'bgLearnMoreText':'Learn More about Arduino',
-  'bgLearnMoreLink':'https://www.youtube.com/embed/Fjx5EjLCPpc?autoplay=1',
+  'bgLearnMoreText':'Learn More about Raspberry',
+  'bgLearnMoreLink':'https://www.youtube.com/embed/_cviTxswW8c?autoplay=1',
 
   'aboutTitle':'About the Course',
   'aboutText':'Create intelligent electronic systems and learn software through the world of hardware.',
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Hardware',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'6 - 12',
+  'aboutGradeLevel':'7 - 12',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginning to Intermediate',
   'aboutRatioTitle':'Ratio Guarantee',
@@ -26,8 +25,8 @@ var courseData = {
   'promotion1':{
     'enabled':true,
     'title':'Enter the world of hardware',
-    'text':'There\'s a lot to explore in the world of hardware and a little Arduino can let you experience the magic of electronic circuits.',
-    'imageUrl':'img/my/arduino/ard-1.jpg'
+    'text':'There\'s a lot to explore in the world of hardware and a little Raspberry can let you experience the magic of electronic circuits.',
+    'imageUrl':'img/my/rpi/rpi1.jpg'
   },
 
   'promotion2':{
@@ -39,9 +38,9 @@ var courseData = {
 
   'promotion3':{
     'enabled':true,
-    'title':'Use Arduino to control smart devices',
-    'text':'Software and programs are the brains of hardware. Learn the C programming language to control electronic systems.',
-    'imageUrl':'img/my/arduino/ard-3.png'
+    'title':'Use software to control hardware',
+    'text':'Learn the embeded programming language to control Raspberry electronic systems.',
+    'imageUrl':'img/my/rpi/rpi2.jpg'
   },
 
   'promotion4':{
@@ -66,11 +65,11 @@ var courseData = {
   'goals' : [
     {
       'icon':'icon-Gears',
-      'text':'Master the basic concepts and architecture of Arduino'
+      'text':'Master the basic concepts and architecture of Raspberry'
     },
     {
       'icon':'icon-Coding',
-      'text':'Learn the basics of C# programming language'
+      'text':'Learn the basics programming language'
     },
     {
       'icon':'icon-Puzzle',
@@ -124,6 +123,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -141,10 +141,10 @@ var courseData = {
     },
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$595',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'All credit cards are supported',
   'priceItems':[
     'Try the first session for FREE',

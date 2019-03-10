@@ -3,7 +3,7 @@ var courseData = {
   'courseDescription' : 'Learn to create games and animations with Scratch.',
   'topTitleLine1' : 'Innovative Programming',
   'topTitleLine2' : 'with MIT Scratch',
-  'topGradeLevel' : 'Grade 2 - 5',
+  'topGradeLevel' : 'Grade k - 6',
   'topIntroText' : 'Scratch is a visual programming language designed by MIT. With Scratch, you can create your own interactive stories, games, and animations, and share them with the rest of the world. Scratch helps young people think creatively, logically, and work collaboratively, which are essential skills in the 21st century.',
 
   'bgTitle':'Innovative Programming with MIT Scratch',
@@ -17,11 +17,11 @@ var courseData = {
   'aboutCategoryTitle':'Category',
   'aboutCategory':'Block Programming',
   'aboutGradeLevelTitle':'Grade',
-  'aboutGradeLevel':'2 - 5',
+  'aboutGradeLevel':'k - 6',
   'aboutSkillLevelTitle':'Skill Level',
   'aboutSkillLevel':'Beginner',
   'aboutRatioTitle':'Ratio Guarantee',
-  'aboutRatio':'6 Students per Instructor',
+  'aboutRatio':'4 Students per Instructor',
 
   'promotion1':{
     'enabled':true,
@@ -124,6 +124,7 @@ var courseData = {
     },
   ],
 
+  'sessionsEnabled':false,
   'sessionsTitle':'Schedule',
   'sessionsTimeTitle':'Time',
   'sessionsDateTitle':'Date',
@@ -146,10 +147,10 @@ var courseData = {
     }
   ],
 
-  'registrationEnabled':false,
-  'registrationTitle':'Registration',
-  'priceTitle':'Price',
-  'price':'$445',
+  'registrationEnabled':true,
+  'registrationTitle':'',
+  'priceTitle':'Registration',
+  'price':'',
   'allCreditCards':'',
   'priceItems':[
     'Try the first session for FREE',
