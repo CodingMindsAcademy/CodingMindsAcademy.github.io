@@ -4,10 +4,14 @@
 }
 
 .color--primary-todo {
-    color: #e24949 !important;      
+    color: #e24949 !important;
     vertical-align:middle;
 }
 
 .text-center-v {
     vertical-align:middle;
+}
+
+html {
+	overflow-x: hidden;
 }
