@@ -1,6 +1,6 @@
 var courseData = {
   'courseTitle' : '青少年科技创业夏令营 | Coding Minds 编程思维',
-  'courseDescription' : '一年一度的全球女生科技创业大赛',
+  'courseDescription' : '编程创新，学以致用，解决实际问题，做自己的创业公司',
   'topTitleLine1' : '名校申请背景强化课程',
   'topTitleLine2' : '青少年科技创业夏令营',
   'topGradeLevel' : '初级组(2-6年级) 高级组(7-12年级)',

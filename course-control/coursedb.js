@@ -720,6 +720,21 @@ var coursedb = {
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+		},
+		'cs480' : {
+			'enabled':true,
+			'name':'名校申请背景强化课程：青少年科技创业夏令营',
+			'imageUrl':'img/my/cestartup/bg-sm.png',
+			'gradeLevel':'2-6|7-12年级',
+			'text':'编程创新，学以致用，解决实际问题，做自己的创业公司',
+			'tag':'名校申请背景强化系列',
+			'pathway':['ce'],
+			'detailsTitle':'查看详情',
+			'detailsUrl':'cestartupc.html',
+			'locations':'选择地点',
+			'registerUrl':'index-cn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/SwNMAQ'
 		}
 	}
 }
