@@ -15,7 +15,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs101p' : {
 			'enabled':false,
@@ -30,7 +30,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs102' : {
 			'enabled':true,
@@ -45,7 +45,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs110' : {
 			'enabled':true,
@@ -60,7 +60,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 			
 		'cs112' : {
@@ -76,7 +76,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs112p' : {
 			'enabled':false,
@@ -91,7 +91,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs120' : {
 			'enabled':true,
@@ -106,7 +106,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs140' : {
 			'enabled':false,
@@ -121,7 +121,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		
 		'cs201' : {
@@ -137,7 +137,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs201p' : {
 			'enabled':false,
@@ -152,7 +152,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs210' : {
 			'enabled':true,
@@ -167,7 +167,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		}, 		
 		'cs210p' : {
 			'enabled':false,
@@ -182,7 +182,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs211' : {
 			'enabled':true,
@@ -197,7 +197,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},		
 		'cs221' : {
 			'enabled':true,
@@ -212,7 +212,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs222' : {
 			'enabled':false,
@@ -227,7 +227,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs223' : {
 			'enabled':false,
@@ -242,7 +242,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs320' : {
 			'enabled':true,
@@ -257,7 +257,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs301' : {
 			'enabled':true,
@@ -272,7 +272,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs301p' : {
 			'enabled':false,
@@ -287,7 +287,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs302' : {
 			'enabled':true,
@@ -302,7 +302,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs310' : {
 			'enabled':true,
@@ -317,7 +317,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs310p' : {
 			'enabled':false,
@@ -333,7 +333,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs311' : {
 			'enabled':true,
@@ -348,7 +348,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs311p' : {
 			'enabled':false,
@@ -363,7 +363,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs312' : {
 			'enabled':true,
@@ -378,7 +378,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs313' : {
 			'enabled':true,
@@ -393,7 +393,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs321' : {
 			'enabled':true,
@@ -408,7 +408,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs321p' : {
 			'enabled':false,
@@ -423,7 +423,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs322' : {
 			'enabled':false,
@@ -438,7 +438,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs322p' : {
 			'enabled':false,
@@ -453,7 +453,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs329' : {
 			'enabled':false,
@@ -468,7 +468,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs330' : {
 			'enabled':true,
@@ -483,7 +483,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs331' : {
 			'enabled':true,
@@ -498,7 +498,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},		
 		'cs331p' : {
 			'enabled':false,
@@ -513,7 +513,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},		
 		'cs370' : {
 			'enabled':true,
@@ -528,7 +528,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs370p' : {
 			'enabled':false,
@@ -543,7 +543,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs371' : {
 			'enabled':true,
@@ -558,7 +558,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs380' : {
 			'enabled':true,
@@ -573,7 +573,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs390' : {
 			'enabled':true,
@@ -588,7 +588,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs391' : {
 			'enabled':false,
@@ -603,7 +603,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs401' : {
 			'enabled':true,
@@ -618,7 +618,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs402' : {
 			'enabled':true,
@@ -633,7 +633,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs403' : {
 			'enabled':true,
@@ -648,7 +648,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs404' : {
 			'enabled':true,
@@ -663,7 +663,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs405' : {
 			'enabled':true,
@@ -692,7 +692,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs407' : {
 			'enabled':true,
@@ -707,7 +707,7 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		},
 		'cs408' : {
 			'enabled':true,
@@ -722,10 +722,27 @@ var coursedb = {
 			'locations':'lOCATION',
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 
 
+		},
+
+		'cs480' : {
+			'enabled':true,
+			'name':'College Application Enrichment：Technology Startup Camp',
+			'imageUrl':'img/my/cestartup/bg-sm.png',
+			'gradeLevel':'Grade 2-6|7-12',
+			'text':'Use Coding knowlegde to solve real world problems. Startup your own company',
+			'tag':'College Application Enrichment Series',
+			'pathway':['ce'],
+			'detailsTitle':'EXPLORE',
+			'detailsUrl':'cestartup.html',
+			'locations':'lOCATION',
+			'registerUrl':'index.html#allCourses',
+			'registerTitle':'REGISTER',
+			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
 		}
+
 	}
 }
 
@@ -962,6 +979,13 @@ angular.module('v3App', [])
 	}
 
 	$scope.coursedb = coursedb.cn;
+
+	$scope.courseListSummer2019 = [
+    coursedb.cn.cs210, coursedb.cn.cs201, coursedb.cn.cs301, coursedb.cn.cs310,
+    coursedb.cn.cs211, coursedb.cn.cs102, coursedb.cn.cs313, coursedb.cn.cs312,
+    coursedb.cn.cs221, coursedb.cn.cs329, coursedb.cn.cs331, coursedb.cn.cs320,
+    coursedb.cn.cs480, coursedb.cn.cs401, coursedb.cn.cs404, coursedb.cn.cs407,
+    coursedb.cn.cs380];
 
     $scope.courseListIrvine = [coursedb.cn.cs102, coursedb.cn.cs112, coursedb.cn.cs120, coursedb.cn.cs201, coursedb.cn.cs210, coursedb.cn.cs211, coursedb.cn.cs221, coursedb.cn.cs320, coursedb.cn.cs301, coursedb.cn.cs302, coursedb.cn.cs310, coursedb.cn.cs311, coursedb.cn.cs312, coursedb.cn.cs321, coursedb.cn.cs331, coursedb.cn.cs371, coursedb.cn.cs380, coursedb.cn.cs390, coursedb.cn.cs408];
     $scope.courseScheduleIrvine = scheduleIrvine;
