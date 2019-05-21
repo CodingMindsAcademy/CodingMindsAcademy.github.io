@@ -176,7 +176,7 @@
                     <div class="row">                    
                         <a class="btn btn--primary type--uppercase" href="index-cn.html#allCourses">
                             <span class="btn__text">
-                                查看2019编程课程
+                                查看2019夏编程创业课程
                             </span>
                         </a>
                     </div>
@@ -279,6 +279,19 @@
               ga('create', 'UA-98249988-1', 'auto');
               ga('send', 'pageview');
 
+              var url = window.location.href;
+              var stuid = '';
+              if (url.indexOf("=") > -1) {
+                  stuid = url.split("=")[1];
+                  console.log("Student ID: " + stuid);
+              }
+              ga('send', {
+                  hitType: 'event',
+                  eventCategory: 'eoc-fb',
+                  eventAction: 'click',
+                  eventLabel: '2019spring',
+                  eventValue: stuid
+              });
           </script>
       </body>
       </html>
