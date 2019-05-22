@@ -98,8 +98,8 @@
                     <div class="col-sm-12">
                         <div class="text-center">
                             <i class="icon icon-Coding color--primary"></i>
-                            <h2 ng-if="stuid == ''" class="text-center">编程课学生学习反馈<br></h2>
-                            <h2 class="text-center">{{stuFbDb[stuid].name}}<br>编程课学生学习反馈<br></h2>
+                            <h2 class="text-center">编程课学生学习反馈<br></h2>
+                            <!-- <h2 class="text-center">{{stuFbDb[stuid].name}}<br>编程课学生学习反馈<br></h2> -->
                             <p class="text-center">{{stuFbDb[stuid].name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p>
                         </div>
                             <hr>
@@ -142,40 +142,39 @@
                                     </tr>
                                 </tbody>
                             </table>
-                    </div>
-                    <!--end of row-->
-                    <h3 class="text-center"><br>家长如需反馈，请填写下表<br></h3>
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                            <div class="row">
-                                <div class="boxed boxed--border">
-                                    <form class="text-left" data-success="Thanks for your feedback" data-error="Please fill in all fields correctly." action="https://formspree.io/notification@codingmindsacademy.com" method="POST">
+
+                            <div class="boxed">
+                                    <h4 class="text-center">如有问题或反馈，请填写下表</h4>
+                                    <form class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" action="https://formspree.io/notification@codingmindsacademy.com" method="POST">
                                         <div class="col-sm-6">
-                                            <label>学生姓名:</label>
-                                            <input type="text" name="name" class="validate-required" />
+                                            <!-- <label>学生姓名:</label> -->
+                                            <input ng-hide="true" type="text" name="name" ng-value="stuid"/>
+                                            <input type="hidden" name="_next" value="thanksc.html"/>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <!-- <div class="col-sm-6">
                                             <label>所在班级:</label>
-                                            <input type="text" name="class" class="validate-required validate-email" />
-                                        </div>
+                                            <input type="text" name="class"/>
+                                        </div> -->
                                         <div class="col-sm-12">
-                                            <label>反馈内容:</label>
-                                            <textarea rows="5" name="description" class="validate-required"></textarea>
+                                            <!-- <label>反馈内容:</label> -->
+                                            <textarea rows="4" name="description" class="validate-required"></textarea>
                                         </div>
                                         <div class="col-sm-12 boxed">
                                             <button type="submit" class="btn btn--primary type--uppercase">提交</button>
                                         </div>
                                     </form>
-                                </div>
-                           </div>
-                    </div> 
+                            </div>
+                    </div>
+                    <!--end of row-->                                    
                 </div>
                 <!--end of container-->
                 <br>
+
                 <div class="text-center container">
-                    <div class="row">                    
+                    <div class="row ">                    
                         <a class="btn btn--primary type--uppercase" href="index-cn.html#allCourses">
                             <span class="btn__text">
-                                查看2019编程课程
+                                查看2019夏编程创业课程
                             </span>
                         </a>
                     </div>
@@ -278,6 +277,18 @@
               ga('create', 'UA-98249988-1', 'auto');
               ga('send', 'pageview');
 
+              var url = window.location.href;
+              var stuid = '';
+              if (url.indexOf("=") > -1) {
+                  stuid = url.split("=")[1];
+                  console.log("Student ID: " + stuid);
+              }
+              ga('send', {
+                  hitType: 'event',
+                  eventCategory: 'eoc-fb',
+                  eventAction: 'click',
+                  eventLabel: stuid
+              });
           </script>
       </body>
       </html>

@@ -97,80 +97,25 @@
                 <div class="row">                    
                     <div class="col-sm-12">
                         <div class="text-center">
-                            <i class="icon icon-Coding color--primary"></i>
-                            <h2 class="text-center">编程课学生学习反馈<br></h2>
-                            <!-- <h2 class="text-center">{{stuFbDb[stuid].name}}<br>编程课学生学习反馈<br></h2> -->
-                            <p class="text-center">{{stuFbDb[stuid].name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p>
+                            <i class="icon icon-Smile color--primary"></i>
+                            <h3 class="text-center">感谢您的支持和反馈<br></h2>
+                            <p class="text-center">有关孩子编程学习的任何问题，请随时和我们通过微信和服务号保持联系。</p>
                         </div>
-                            <hr>
-                            <!-- <h2 class="text-center">试课学习反馈<br></h2> -->
-                            <table class="border--round table--alternate-row">
-                                <!-- <thead>
-                                    <tr>
-                                        <th>反馈项目</th>
-                                        <th>反馈内容</th>                             
-                                    </tr>
-                                </thead> -->
-                                <tbody>
-                                    <tr>
-                                        <td style="width: 30%">学生姓名</td>
-                                        <td style="width: 70%">{{stuFbDb[stuid].name}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width: 30%">课程名称</td>
-                                        <td style="width: 70%">{{StudentRecord.CourseName}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>任课老师</td>
-                                        <td>{{StudentRecord.instructor}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>课程时间</td>
-                                        <td>{{StudentRecord.season}} {{StudentRecord.CourseTime}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>项目名称</td>
-                                        <td>{{StudentRecord.ProjectTitle}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>项目链接</td>
-                                        <td>{{StudentRecord.ProjectLink}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>老师反馈</td>
-                                        <td>{{StudentRecord.feedback}}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <div class="boxed">
-                                    <h4 class="text-center">如有问题或反馈，请填写下表</h4>
-                                    <form class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" action="https://formspree.io/notification@codingmindsacademy.com" method="POST">
-                                        <div class="col-sm-6">
-                                            <!-- <label>学生姓名:</label> -->
-                                            <input ng-hide="true" type="text" name="name" ng-value="stuid"/>
-                                            <input type="hidden" name="_next" value="thanksc.html"/>
-                                        </div>
-                                        <!-- <div class="col-sm-6">
-                                            <label>所在班级:</label>
-                                            <input type="text" name="class"/>
-                                        </div> -->
-                                        <div class="col-sm-12">
-                                            <!-- <label>反馈内容:</label> -->
-                                            <textarea rows="4" name="description" class="validate-required"></textarea>
-                                        </div>
-                                        <div class="col-sm-12 boxed">
-                                            <button type="submit" class="btn btn--primary type--uppercase">提交</button>
-                                        </div>
-                                    </form>
-                            </div>
                     </div>
-                    <!--end of row-->                                    
                 </div>
-                <!--end of container-->
+
                 <br>
+                
 
                 <div class="text-center container">
+                    <div class="row ">                    
+                        <a class="btn btn--primary type--uppercase" href="javascript:history.back()">
+                            <span class="btn__text">
+                                返回孩子的学习反馈信息
+                            </span>
+                        </a>
+                    </div>
+                    <br>
                     <div class="row ">                    
                         <a class="btn btn--primary type--uppercase" href="index-cn.html#allCourses">
                             <span class="btn__text">
@@ -277,18 +222,18 @@
               ga('create', 'UA-98249988-1', 'auto');
               ga('send', 'pageview');
 
-              var url = window.location.href;
-              var stuid = '';
-              if (url.indexOf("=") > -1) {
-                  stuid = url.split("=")[1];
-                  console.log("Student ID: " + stuid);
-              }
-              ga('send', {
-                  hitType: 'event',
-                  eventCategory: 'eoc-fb',
-                  eventAction: 'click',
-                  eventLabel: stuid
-              });
+              // var url = window.location.href;
+              // var stuid = '';
+              // if (url.indexOf("=") > -1) {
+              //     stuid = url.split("=")[1];
+              //     console.log("Student ID: " + stuid);
+              // }
+              // ga('send', {
+              //     hitType: 'event',
+              //     eventCategory: 'eoc-fb',
+              //     eventAction: 'click',
+              //     eventLabel: stuid
+              // });
           </script>
       </body>
       </html>
