@@ -16,7 +16,9 @@ angular.module('v3App', [])
     }
 
     $scope.coursedb = coursedb.cn;
-    $scope.stuFbDb = stuFbDb;    
+    $scope.stuFbDb = stuFbDb;  
+    $scope.ProjectTitleEnable = true;
+    $scope.ProjectLinkEnable = true;     
 
     // process individual student's information for pathway page
     var url = $location.url();
@@ -35,9 +37,18 @@ angular.module('v3App', [])
           
           $scope.StudentRecord = stuCouRrd[0];          
           $scope.StudentCourse = $scope.coursedb[stuCouRrd[0].CourseId];
+
         }
-      }   
+      }
+
     }
 
+    if ($scope.StudentRecord.ProjectTitle.length == 0){
+            $scope.ProjectTitleEnable = false;
+          }
+
+    if ($scope.StudentRecord.ProjectLink.length == 0){
+            $scope.ProjectLinkEnable = false;
+          }
     $scope.stuid = stuid;
   });

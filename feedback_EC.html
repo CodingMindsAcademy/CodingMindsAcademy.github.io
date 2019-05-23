@@ -128,11 +128,11 @@
                                         <td>课程时间</td>
                                         <td>{{StudentRecord.season}} {{StudentRecord.CourseTime}}</td>
                                     </tr>
-                                    <tr>
+                                    <tr ng-hide = "!{{ProjectTitleEnable}}" >
                                         <td>项目名称</td>
                                         <td>{{StudentRecord.ProjectTitle}}</td>
                                     </tr>
-                                    <tr>
+                                    <tr ng-hide = "!{{ProjectLinkEnable}}" >
                                         <td>项目链接</td>
                                         <td>{{StudentRecord.ProjectLink}}</td>
                                     </tr>
@@ -251,7 +251,7 @@
             <script src="js/angular.min.js"></script>            
             <script src="course-control/coursedb.js"></script>
             <script src="course-control/pathway.js"></script>
-            <script src="students/fbec-db-s19.js"></script>
+            <script src="students/fbec-db-s19v2.js"></script>
             <script src="course-control/feedbackEC-controller.js"></script>
             <script src="js/flickity.min.js"></script>
             <script src="js/easypiechart.min.js"></script>
