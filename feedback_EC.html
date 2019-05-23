@@ -128,11 +128,11 @@
                                         <td>课程时间</td>
                                         <td>{{StudentRecord.season}} {{StudentRecord.CourseTime}}</td>
                                     </tr>
-                                    <tr ng-hide = "!{{ProjectTitleEnable}}" >
+                                    <tr ng-if = "ProjectTitleEnable" >
                                         <td>项目名称</td>
                                         <td>{{StudentRecord.ProjectTitle}}</td>
                                     </tr>
-                                    <tr ng-hide = "!{{ProjectLinkEnable}}" >
+                                    <tr ng-if= "ProjectLinkEnable" >
                                         <td>项目链接</td>
                                         <td style="word-break:break-all;"><a href="{{StudentRecord.ProjectLink}}">{{StudentRecord.ProjectLink}}</a></td>
                                     </tr>
