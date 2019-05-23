@@ -42,7 +42,8 @@ angular.module('v3App', [])
       }
 
     }
-    if ($scope.StudentRecord.ProjecTitle.length == 0){
+
+    if ($scope.StudentRecord.ProjectTitle.length == 0){
             $scope.ProjectTitleEnable = false;
           }
 
