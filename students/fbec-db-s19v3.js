@@ -1193,7 +1193,7 @@ var stuFbDb =
             }
         ]
     },
-    "stui014Johnny Tao": {
+    "stui014Johnny": {
         "course": [
             {
                 "CourseName": "Scratch",
