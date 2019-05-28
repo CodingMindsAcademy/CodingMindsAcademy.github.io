@@ -1905,7 +1905,7 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Leo",
+        "name": "Lucas",
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
