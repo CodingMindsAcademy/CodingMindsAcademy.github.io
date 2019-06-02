@@ -251,7 +251,7 @@
             <script src="js/angular.min.js"></script>            
             <script src="course-control/coursedb.js"></script>
             <script src="course-control/pathway.js"></script>
-            <script src="students/fbec-db-s19v3.js"></script>
+            <script src="students/fbec-db-s19v5.js"></script>
             <script src="course-control/feedbackEC-controller.js"></script>
             <script src="js/flickity.min.js"></script>
             <script src="js/easypiechart.min.js"></script>
@@ -279,16 +279,20 @@
 
               var url = window.location.href;
               var stuid = '';
-              if (url.indexOf("=") > -1) {
+              if (url.indexOf("=") > -1 && url.indexOf("cm-test-group") == -1) {
                   stuid = url.split("=")[1];
                   console.log("Student ID: " + stuid);
+                  ga('send', {
+                      hitType: 'event',
+                      eventCategory: 'eoc-fb',
+                      eventAction: 'click',
+                      eventLabel: stuid
+                  });
+                  console.log("Send GA event!");
+              } else {
+                  console.log("Skip sending GA event!");
               }
-              ga('send', {
-                  hitType: 'event',
-                  eventCategory: 'eoc-fb',
-                  eventAction: 'click',
-                  eventLabel: stuid
-              });
+              
           </script>
       </body>
       </html>
