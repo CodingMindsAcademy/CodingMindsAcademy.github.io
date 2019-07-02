@@ -246,7 +246,7 @@ var coursedb = {
 			'name':'MIT手机APP发明家:动手编写自己的APP做小小创业者',
 			'imageUrl':'img/my/app-dev-2sm.jpg',
 			'gradeLevel':'4-8年级',
-			'text':'厌倦了每天玩自己的手机APP？那就学习如动手编程制作自己的手机APP，做下一个年轻的创业者',
+			'text':'厌倦了每天玩自己的手机APP？那就学习动手编程制作自己的手机APP，做下一个年轻的创业者',
 			'tag':'移动互联网编程系列',
 			'pathway':['mobile'],
 			'detailsTitle':'查看详情',
