@@ -17,8 +17,29 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
  
-    <body class=" " ng-controller="CourseDetailsController">
+    <body  ng-controller="CourseDetailsController">
+    
         <a id="start"></a>
+        <div class="nav-container">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/my/logo1.png" />
+                                <img class="logo logo-light" alt="logo" src="img/my/logo1.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-sm-10 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </div>    
         <nav id="menu1" class="bar bar-1 hidden-xs">
             <div class="container">
                 <div class="row">
@@ -75,6 +96,7 @@
                     </div>
                 </div>
             </nav>
+         </div>
         <!--end bar-->
         <div class="main-container">
             <section class="text-center">

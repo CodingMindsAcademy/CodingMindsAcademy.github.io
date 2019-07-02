@@ -14,7 +14,7 @@ var portfoliodb = {
 		},
 
 		'portfolio002' : {
-			'enabled':true,
+			'enabled':false,
 			'name':'测试',
 			'imageUrl':'img/my/portfo/AIMusic.png',
 			'gradeLevel':'9年级',
