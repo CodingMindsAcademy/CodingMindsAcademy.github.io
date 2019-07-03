@@ -107,6 +107,18 @@
                         </div>
                     </div>
                     <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            {% for author in page.authors %}
+                            
+                            <h3 ng-hide="!{{author.enabled}}">
+                               {{ author.name }}   {{ author.grade }}年级
+                            </h3> 
+                            
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <!--end of row-->
                 </div>
                 <!--end of container-->
             </section>
@@ -142,6 +154,43 @@
                 </div>
                 <!--end of container-->
             </section>
+            
+            {% for promotion in page.promotions %}
+            <section ng-hide="!{{promotion.enabled}}" class="switchable switchable--switch">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
+                            <div class="height-50 imagebg border--round box-shadow-wide" >
+                                <div class="background-image-holder">
+                                    <img alt="" src="{{promotion.imageUrl}}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section ng-hide="!{{promotion.enabled}}" class="switchable switchable--switch">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
+                         
+                             <h2>{{promotion.title}}</h2>
+                             <p class="lead">
+                                 {{promotion.text}}
+                             </p>
+                         
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            {% endfor %}
+
+
             {% for author in page.authors %}
             <section ng-hide="!{{author.enabled}}" class="feature-large feature-large-2 bg--secondary">
                 
