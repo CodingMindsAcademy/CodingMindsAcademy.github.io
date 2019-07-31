@@ -101,21 +101,21 @@
             <!--end bar-->
         </div>
         <div class="main-container">  
-            <section class="space--sm text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-md-8">
-                            <div class="text-center">
-                                <i class="icon icon-Coding color--primary"></i>
-                                <h2 class="text-center">编程课程体系<br></h2>
-                                <p class="lead">
-                                Coding Minds编程课程体系以助力名校申请为核心目标，引导学生学编程、做项目、参加竞赛、搞科研和创业，通过创新动手提升个人背景
-                                </p>
-                                <img alt="Image" class="border--round box-shadow" src="img/pathway/plevel1.png">
+                <section class="space--sm text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-10 col-md-8">
+                                <div class="text-center">
+                                    <i class="icon icon-Coding color--primary"></i>
+                                    <h2 class="text-center">编程课程体系<br></h2>
+                                    <p class="lead">
+                                    Coding Minds编程课程体系以助力名校申请为核心目标，引导学生学编程、做项目、参加竞赛、搞科研和创业，通过创新动手提升个人背景
+                                    </p>
+                                    <img alt="Image" class="border--round box-shadow" src="img/pathway/plevel4.png">
+                                </div>
                             </div>
-                            
                         </div>
-                    </div>                    
+                    </div>
                 </section>
 
                 <section class="space--sm">
@@ -125,22 +125,225 @@
                                 <div class="text-center">
                                     <i class="icon icon-Coding color--primary"></i>
                                     <h2 class="text-center">编程课程列表<br></h2>
-                                </div>           
+                                </div>
                                 <hr>
                                 <div class="text-center">
                                     <i class="icon icon-Coding color--primary"></i>
                                     <h2 class="text-center">L1 图形化编程<br></h2>
                                     <p class="lead">
-                                        图形化编程由MIT的Media Lab发明，是最合适初学者的编程平台，学生可以通过图形化的编程指令来迅速掌握编程概念和思维方式。同时，学生可以通过一系列的编程平台制作动画、算法、机器人控制和游戏等应用项目
+                                        图形化编程由MIT的Media Lab发明，是最合适初学者的编程平台，学生可以通过图形化的编程指令来迅速掌握编程概念和思维方式
                                     </p>
                                 </div>
                                 <hr>
                                 <div class="masonry">
                                     <div class="masonry__container">
-                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L1']">
                                             <div class="card card-2 text-center">
                                                 <div class="card__top">
-                                                    <span id="cmbg" class="label">{{course.tag}}</span>
+                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                    <a href="{{course.detailsUrl}}">
+                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                    </a>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h4>{{course.name}}</h4>
+                                                    <span class="type--fade">{{course.gradeLevel}}</span>
+                                                    <br>
+                                                    <span class="type--fade">{{course.date}}</span>
+                                                    <p>
+                                                        {{course.text}}
+                                                    </p>
+                                                </div>
+                                                <div class="card__bottom text-center">
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                        <a href="{{course.detailsUrl}}">
+                                                            <i class="material-icons">flip_to_front</i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                        <a href="{{course.registerForm}}">
+                                                            <i class="material-icons">favorite_border</i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr>                                
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">                                
+                                <div class="text-center">
+                                    <i class="icon icon-Coding color--primary"></i>
+                                    <h2 class="text-center">L2 简洁代码编程<br></h2>
+                                    <p class="lead">
+                                        简洁代码编程侧重于使用脚本语言例如Javascript或者Lua来使学生开始学习真正的代码，为后面专业的代码编程打下基础
+                                    </p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="masonry__container">
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L2']">
+                                            <div class="card card-2 text-center">
+                                                <div class="card__top">
+                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                    <a href="{{course.detailsUrl}}">
+                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                    </a>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h4>{{course.name}}</h4>
+                                                    <span class="type--fade">{{course.gradeLevel}}</span>
+                                                    <br>
+                                                    <span class="type--fade">{{course.date}}</span>
+                                                    <p>
+                                                        {{course.text}}
+                                                    </p>
+                                                </div>
+                                                <div class="card__bottom text-center">
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                        <a href="{{course.detailsUrl}}">
+                                                            <i class="material-icons">flip_to_front</i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                        <a href="{{course.registerForm}}">
+                                                            <i class="material-icons">favorite_border</i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-sm-12">                                
+                                <div class="text-center">
+                                    <i class="icon icon-Coding color--primary"></i>
+                                    <h2 class="text-center">L3 代码编程<br></h2>
+                                    <p class="lead">
+                                        开始学习高级的编程语言Python，并且逐步练习编写程序代码来进行复杂问题的解决与实现
+                                    </p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="masonry__container">
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L3']">
+                                            <div class="card card-2 text-center">
+                                                <div class="card__top">
+                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                    <a href="{{course.detailsUrl}}">
+                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                    </a>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h4>{{course.name}}</h4>
+                                                    <span class="type--fade">{{course.gradeLevel}}</span>
+                                                    <br>
+                                                    <span class="type--fade">{{course.date}}</span>
+                                                    <p>
+                                                        {{course.text}}
+                                                    </p>
+                                                </div>
+                                                <div class="card__bottom text-center">
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                        <a href="{{course.detailsUrl}}">
+                                                            <i class="material-icons">flip_to_front</i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                        <a href="{{course.registerForm}}">
+                                                            <i class="material-icons">favorite_border</i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">                                
+                                <div class="text-center">
+                                    <i class="icon icon-Coding color--primary"></i>
+                                    <h2 class="text-center">L4 应用主题编程<br></h2>
+                                    <p class="lead">
+                                        拥有一定的代码编程能力，学生可以进行应用主题的专项编程学习，在自己喜欢的方向上面开发专业的项目作品
+                                    </p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="masonry__container">
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L4']">
+                                            <div class="card card-2 text-center">
+                                                <div class="card__top">
+                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                    <a href="{{course.detailsUrl}}">
+                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                    </a>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h4>{{course.name}}</h4>
+                                                    <span class="type--fade">{{course.gradeLevel}}</span>
+                                                    <br>
+                                                    <span class="type--fade">{{course.date}}</span>
+                                                    <p>
+                                                        {{course.text}}
+                                                    </p>
+                                                </div>
+                                                <div class="card__bottom text-center">
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                        <a href="{{course.detailsUrl}}">
+                                                            <i class="material-icons">flip_to_front</i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card__action">
+                                                        <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                        <a href="{{course.registerForm}}">
+                                                            <i class="material-icons">favorite_border</i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">                                
+                                <div class="text-center">
+                                    <i class="icon icon-Coding color--primary"></i>
+                                    <h2 class="text-center">L5 竞技编程<br></h2>
+                                    <p class="lead">
+                                        带领学生对各种信息学算法竞赛、科学竞赛、高中AP计算机考试、以及背景提升项目的专项准备与冲刺
+                                    </p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="masonry__container">
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L5']">
+                                            <div class="card card-2 text-center">
+                                                <div class="card__top">
+                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
                                                     <a href="{{course.detailsUrl}}">
                                                         <img alt="Image" ng-src="{{course.imageUrl}}">
                                                     </a>
