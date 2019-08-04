@@ -13,7 +13,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs101p' : {
 			'enabled':false,
@@ -28,7 +28,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs130' : {
 			'enabled':true,
@@ -43,7 +43,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs140' : {
 			'enabled':true,
@@ -58,7 +58,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs150' : {
 			'enabled':true,
@@ -73,7 +73,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs151p' : {
 			'enabled':false,
@@ -88,7 +88,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs160' : {
 			'enabled':true,
@@ -103,7 +103,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs200' : {
 			'enabled':true,
@@ -118,7 +118,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs210' : {
 			'enabled':true,
@@ -133,7 +133,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs201p' : {
 			'enabled':false,
@@ -148,7 +148,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs220' : {
 			'enabled':true,
@@ -163,7 +163,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		}, 		
 		'cs220p' : {
 			'enabled':false,
@@ -178,7 +178,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs230' : {
 			'enabled':true,
@@ -193,7 +193,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs300' : {
 			'enabled':true,
@@ -208,7 +208,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs310p' : {
 			'enabled':false,
@@ -223,7 +223,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs310' : {
 			'enabled':true,
@@ -238,7 +238,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs320' : {
 			'enabled':true,
@@ -253,7 +253,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs311p' : {
 			'enabled':false,
@@ -268,7 +268,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs350' : {
 			'enabled':true,
@@ -283,7 +283,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs360' : {
 			'enabled':false,
@@ -298,7 +298,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs400' : {
 			'enabled':true,
@@ -313,7 +313,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs410' : {
 			'enabled':true,
@@ -328,7 +328,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs411p' : {
 			'enabled':false,
@@ -343,7 +343,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs420' : {
 			'enabled':true,
@@ -358,7 +358,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs430' : {
 			'enabled':true,
@@ -373,7 +373,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs440' : {
 			'enabled':true,
@@ -388,7 +388,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs441p' : {
 			'enabled':false,
@@ -403,7 +403,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs450' : {
 			'enabled':false,
@@ -418,7 +418,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs451p' : {
 			'enabled':false,
@@ -433,7 +433,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs460' : {
 			'enabled':false,
@@ -448,7 +448,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs461' : {
 			'enabled':true,
@@ -463,7 +463,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs470' : {
 			'enabled':true,
@@ -478,7 +478,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs471p' : {
 			'enabled':false,
@@ -493,7 +493,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs480' : {
 			'enabled':true,
@@ -508,7 +508,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs481p' : {
 			'enabled':false,
@@ -523,7 +523,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs482' : {
 			'enabled':true,
@@ -538,7 +538,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs490' : {
 			'enabled':true,
@@ -553,7 +553,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs500' : {
 			'enabled':true,
@@ -568,7 +568,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs501' : {
 			'enabled':false,
@@ -583,7 +583,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs510' : {
 			'enabled':true,
@@ -598,7 +598,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs520' : {
 			'enabled':true,
@@ -613,7 +613,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs531' : {
 			'enabled':true,
@@ -628,7 +628,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs550' : {
 			'enabled':false,
@@ -643,7 +643,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs560' : {
 			'enabled':true,
@@ -658,7 +658,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs561' : {
 			'enabled':true,
@@ -673,7 +673,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs562' : {
 			'enabled':true,
@@ -688,7 +688,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs563' : {
 			'enabled':true,
@@ -703,7 +703,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs564' : {
 			'enabled':true,
@@ -718,7 +718,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs570' : {
 			'enabled':true,
@@ -733,7 +733,7 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'index-cn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/SwNMAQ'
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		}
 	}
 }
