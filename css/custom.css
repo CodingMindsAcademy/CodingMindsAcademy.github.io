@@ -15,3 +15,7 @@
 html {
 	overflow-x: hidden;
 }
+
+.leftul, .leftli {
+    margin: 0; padding: 0;
+}
