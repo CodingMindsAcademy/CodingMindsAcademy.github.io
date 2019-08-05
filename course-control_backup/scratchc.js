@@ -180,7 +180,7 @@ var courseData = {
     },
     {
       'name' : 'Rancho Cucamonga编程思维教室地址',
-      'address1' : '10570 E Foothill Blvd. #230',
+      'address1' : '10570 E Foothill Blvd, Suite 230',
       'address2' : 'Rancho Cucamonga, CA 91730',
       'addressMap' : '10570 E Foothill Blvd., Rancho Cucamonga, CA 91730'
     }
