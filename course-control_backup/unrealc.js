@@ -158,15 +158,15 @@ var courseData = {
   'locations':[
     {
       'name' : 'Irvine尔湾编程思维教室地址',
-      'address1' : '930 Roosevelt, Suite 236',
+      'address1' : '970 Roosevelt, Suite 202',
       'address2' : 'Irvine, CA 92620',
-      'addressMap' : '930 Roosevelt, Irvine, CA 92620'
+      'addressMap' : '970 Roosevelt, Irvine, CA 92620'
     },
     {
       'name' : 'Arcadia编程思维教室地址',
-      'address1' : '222 S 1st Ave',
+      'address1' : '7 W Foothill Blvd',
       'address2' : 'Arcadia, CA 91006',
-      'addressMap' : '222 S 1st Ave, Arcadia, CA 91006'
+      'addressMap' : '7 W Foothill Blvd, Arcadia, CA 91006'
     },
     {
       'name' : 'Rancho Cucamonga编程思维教室地址',

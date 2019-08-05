@@ -173,9 +173,9 @@ var courseData = {
   'locations':[
     {
       'name' : 'Irvine Classroom',
-      'address1' : '930 Roosevelt, Suite 236',
+      'address1' : '970 Roosevelt, Suite 202',
       'address2' : 'Irvine, CA 92620',
-      'addressMap' : '930 Roosevelt, Irvine, CA 92620'
+      'addressMap' : '970 Roosevelt, Irvine, CA 92620'
     },
     {
       'name' : 'Arcadia Classroom',
