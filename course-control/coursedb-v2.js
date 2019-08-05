@@ -14,7 +14,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mcbuildc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corncn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -32,7 +32,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mcbuildc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
@@ -50,7 +50,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -68,7 +68,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sprkc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
@@ -86,7 +86,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -104,7 +104,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -122,7 +122,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'scratchc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -140,7 +140,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mcbuild2c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -158,7 +158,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -176,7 +176,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'minecodec.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -194,7 +194,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox1c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		}, 		
@@ -212,7 +212,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox1c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -230,7 +230,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'roblox2c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -248,7 +248,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'python-minecraftc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -266,7 +266,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'python-minecraftc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -284,7 +284,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'pythonc2.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -302,7 +302,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'pythonc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
@@ -320,7 +320,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'pythonc2.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -338,7 +338,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc2.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -356,7 +356,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc2.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
@@ -374,7 +374,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobilec.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -392,7 +392,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unity3dc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -410,7 +410,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unity3dc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -428,7 +428,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unity3d2c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -446,7 +446,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unity3d2c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -464,7 +464,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'pythonc3ai.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
@@ -482,7 +482,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobileiosc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -500,7 +500,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobileiosc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -518,7 +518,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobileiosc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -536,7 +536,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'mobileiosc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -554,7 +554,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'arduinoc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -572,7 +572,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'arduinoc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -590,7 +590,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'rpic.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
@@ -608,7 +608,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'rpic.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -626,7 +626,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unrealc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -644,7 +644,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unrealc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -662,7 +662,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'unreal2c.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -680,7 +680,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'securityc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -698,7 +698,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ioic.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -716,7 +716,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ioic.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -734,7 +734,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'apcs-cn.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -752,7 +752,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'apcsprep-cn.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -770,7 +770,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'apcsp-cn.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -788,7 +788,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'legoc2.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -806,7 +806,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ceappc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -824,7 +824,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'ceunity3dc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -842,7 +842,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'cepythonc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -860,7 +860,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'cemlc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -878,7 +878,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'cetechc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -896,7 +896,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'cestartupc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
@@ -914,7 +914,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'sciencefairc.html',
 			'locations':'选择地点',
-			'registerUrl':'index-cn.html#allCourses',
+			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		}
