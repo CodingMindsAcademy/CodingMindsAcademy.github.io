@@ -2,6 +2,9 @@ var coursedb = {
 	'cn': {
 		'cs101' : {
 			'enabled':true,
+			'cid':'CS101',
+			'title1':'Minecraft世界开发与编程',
+			'title2':'图形化编程入基础',
 			'name':'Minecraft世界开发与编程:图形化编程入基础',
 			'imageUrl':'img/my/minecraftbasic/bg-sm.jpg',
 			'gradeLevel':'L1图形化编程',
