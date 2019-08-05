@@ -418,7 +418,7 @@ var scheduleArcadia = [
 
 var scheduleRancho = [
 	{
-		"title" : "2019秋季上期 Arcadia校区",
+		"title" : "2019秋季上期 Rancho校区",
 		"period" : "周二班 8/20-10/8 (8周)",
 		"day" : "每周二",
 		"courses" : [
@@ -445,7 +445,7 @@ var scheduleRancho = [
 		]
 	},
 	{
-		"title" : "2019秋季上期 Arcadia校区",
+		"title" : "2019秋季上期 Rancho校区",
 		"period" : "周五班 8/23-10/11 (8周)",
 		"day" : "每周五",
 		"courses" : [
