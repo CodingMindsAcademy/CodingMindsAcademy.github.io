@@ -84,7 +84,11 @@ var stuFbDb =
         'since': '2018年8月',
         'level': 2,
         'coursesTodo': [
-            ''
+            'cs230',
+            'cs571'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cs510'
         ],
         'course': [{
             'CourseName': ' Roblox II',

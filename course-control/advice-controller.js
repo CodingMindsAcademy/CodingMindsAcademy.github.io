@@ -16,6 +16,22 @@ angular.module('v3App', [])
       }
     }
 
+    $scope.coursedb = coursedb.cn;
+
+    $scope.courseScheduleIrvine = scheduleIrvine;
+    $scope.courseScheduleRancho = scheduleRancho;
+    $scope.courseScheduleArcadia = scheduleArcadia;
+
+    $scope.courseScheduleMap = {
+      "a" : scheduleArcadia,
+      "i" : scheduleIrvine,
+      "r" : scheduleRancho
+    };
+
+    $scope.getSchedule = function(stuId) {
+      return $scope.courseScheduleMap[stuId.substring(3,4)];
+    }
+
     $scope.getLength = function(obj) {
         return Object.keys(obj).length;
     }
