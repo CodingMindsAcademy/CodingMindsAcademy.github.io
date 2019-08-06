@@ -88,7 +88,7 @@ var stuFbDb =
             'cs571'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cs510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': ' Roblox II',
