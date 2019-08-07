@@ -52,7 +52,7 @@ var scheduleIrvine = [
 				"price" : "$475"
 			},
 			{
-				"id" : "cs210",			
+				"id" : "cs200",			
 				"time" : "2:00-3:30pm",
 				"price" : "$475"
 			},
@@ -168,7 +168,7 @@ var scheduleIrvine = [
 				"price" : "$475"
 			},
 			{
-				"id" : "cs210",			
+				"id" : "cs200",			
 				"time" : "11:00-12:30pm",
 				"price" : "$475"
 			},

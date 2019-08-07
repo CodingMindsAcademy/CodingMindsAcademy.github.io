@@ -894,7 +894,7 @@ var stuFbDb =
         "name": "Eric",
         "mark": "Wed Dylan Friend",
         "since": "2019年1月",
-        "level": 1,
+        "level": 2,
         "coursesTodo": [
             'cs200',
             'cs220'
@@ -932,7 +932,7 @@ var stuFbDb =
         "name": "Dylan",
         "mark": "Wed Eric Friend",
         "since": "2019年1月",
-        "level": 1,
+        "level": 2,
         "coursesTodo": [
             'cs200',
             'cs220'
@@ -1997,7 +1997,7 @@ var stuFbDb =
         "level": 2,
         "coursesTodo": [
             'cs230',
-            'cs210',
+            'cs200',
         ],
         "compTodo" : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -2030,6 +2030,7 @@ var stuFbDb =
             }
         ],
         "name": "Daniel",        
+        "mark": "Duplicated Daniel",
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2453,7 +2454,8 @@ var stuFbDb =
         "coursesTodo": [
             'cs430',
             'cs470',
-            'cs490'
+            'cs490',
+            'cs500'
         ],
         "compTodo" : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -2605,7 +2607,8 @@ var stuFbDb =
         "level": 1,
         "coursesTodo": [
             'cs160',
-            'cs150'
+            'cs150',
+            'cs101'
         ],
         "compTodo" : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -2678,7 +2681,7 @@ var stuFbDb =
         "since": "2019年1月",
         "level": 2,
         "coursesTodo": [
-            'cs210',
+            'cs200',
             'cs220'
         ],
         "compTodo" : [
@@ -2715,7 +2718,7 @@ var stuFbDb =
         "since": "2019年1月",
         "level": 2,
         "coursesTodo": [
-            'cs210',
+            'cs200',
             'cs220'
         ],
         "compTodo" : [
@@ -2752,7 +2755,7 @@ var stuFbDb =
         "since": "2019年1月",
         "level": 2,
         "coursesTodo": [
-            'cs210',
+            'cs200',
             'cs220'
         ],
         "compTodo" : [
@@ -2789,7 +2792,7 @@ var stuFbDb =
         "since": "2019年1月",
         "level": 2,
         "coursesTodo": [
-            'cs210',
+            'cs200',
             'cs220'
         ],
         "compTodo" : [
@@ -3050,6 +3053,16 @@ var stuFbDb =
             }
         ],
         "name": "Thomas",
+        "since": "2018年8月",
+        "level": 3,
+        "coursesTodo": [
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3081,7 +3094,6 @@ var stuFbDb =
         "since": "2018年1月",
         "level": 3,
         "coursesTodo": [
-            'cs320',
             'cs430',
             'cs470',
             'cs490'
@@ -3521,6 +3533,16 @@ var stuFbDb =
             }
         ],
         "name": "Eiffel",
+        "since": "2018年6月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3549,7 +3571,7 @@ var stuFbDb =
             }
         ],
         "name": "Richard",
-        "since": "2018年9月",
+        "since": "2017年9月",
         "level": 3,
         "coursesTodo": [
             'cs425',
