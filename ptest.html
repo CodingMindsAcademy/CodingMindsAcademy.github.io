@@ -90,8 +90,50 @@
                     <div class="col-sm-12">
                         <div class="text-center">
                             <i class="icon icon-Coding color--primary"></i>
-                            <h2 ng-if="stuid == ''" class="text-center">编程课程体系<br></h2>
+                            <h2 ng-if="stuid == ''" class="text-center">Irvine学生列表<br></h2>
                             <table class="border--round table--alternate-row" ng-repeat="(key, value) in stuDbMap['i']">
+                                <thead>
+                                    <tr>
+                                        <td><b>{{$index}} {{key}}</b></td>
+                                        <td>{{getLocation(key)}}</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Name</td><td>{{value.name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Since</td><td>{{value.since}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comment</td><td>{{value.mark}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Level</td><td>{{value.level}}</td>
+                                    </tr>
+                                    <tr ng-repeat="c in value.coursesTodo">
+                                        <td>TODO</td><td>{{getCourse(c)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Link</td><td><a href="advice.html#?id={{key}}" target="_blank">Pathway Link</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="space--sm">            
+            <div class="container">
+                <div class="row">                    
+                    <div class="col-sm-12">
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2 ng-if="stuid == ''" class="text-center">Arcadia学生列表<br></h2>
+                            <table class="border--round table--alternate-row" ng-repeat="(key, value) in stuDbMap['a']">
                                 <thead>
                                     <tr>
                                         <td><b>{{$index}} {{key}}</b></td>
