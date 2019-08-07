@@ -786,28 +786,28 @@ var stuFbDb =
         }]
     },
     'stua033Johnny': {
-    'name': 'Johnny',
-    'course': [{
-        'CourseName': 'Python I ',
-        'season': '2019年春季',
-        'CourseTime': 'Thursday 3:30-5:00pm',
-        'instructor': 'Dr. Yu Sun',
-        'ProjectTitle': 'Super Parkour',
-        'ProjectLink': 'https://www.sharemyworks.com/projects/5cd4af37ce28bf0015df6ba2',
-        'feedback': 'Johnny始终对编程和上课内容有着强烈的兴趣。开始的2节课，他没有太多基础，接受的有些慢，但是后来通过完成两个复杂的例子，立刻找到了感觉。到后来的项目阶段，他是第一个确定自己项目想法并完成项目的同学，而且始终做的很专心。Johnny在课堂很认真，所有的练习不论难易都会仔细的完成，这样踏实的同学很难得。'
-    }],
-    'notifications': [{
-        'suffix': '妈妈',
-        'openId': '_UNIQUE_OPEN_ID'
-    },
-    {
-        'suffix': '爸爸',
-        'openId': '_UNIQUE_OPEN_ID'
-    },
-    {
-        'suffix': '家长',
-        'openId': '_UNIQUE_OPEN_ID'
-    }]
+        'name': 'Johnny',
+        'course': [{
+            'CourseName': 'Python I ',
+            'season': '2019年春季',
+            'CourseTime': 'Thursday 3:30-5:00pm',
+            'instructor': 'Dr. Yu Sun',
+            'ProjectTitle': 'Super Parkour',
+            'ProjectLink': 'https://www.sharemyworks.com/projects/5cd4af37ce28bf0015df6ba2',
+            'feedback': 'Johnny始终对编程和上课内容有着强烈的兴趣。开始的2节课，他没有太多基础，接受的有些慢，但是后来通过完成两个复杂的例子，立刻找到了感觉。到后来的项目阶段，他是第一个确定自己项目想法并完成项目的同学，而且始终做的很专心。Johnny在课堂很认真，所有的练习不论难易都会仔细的完成，这样踏实的同学很难得。'
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
     },
     
     "stui000John": {
@@ -822,7 +822,17 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "John",
+        "name": "John Xu",
+        "since": "2017年10月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll57-29Z344qXug-dMb_bSBac",
@@ -850,7 +860,18 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "James",
+        "name": "James Wang",
+        "mark": "Orchard Hill",
+        "since": "2017年10月",
+        "level": 3,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll55bqQtFAoECv8az8WNEHT74",
