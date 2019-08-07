@@ -400,8 +400,8 @@ var stuFbDb =
             'openId': '_UNIQUE_OPEN_ID'
         }]
     },
-    'stua017Liam ': {
-        'name': 'Liam ',
+    'stua017Liam': {
+        'name': 'Liam',
         'course': [{
             'CourseName': 'Minecraft Education Edition ',
             'season': '2019年春季',

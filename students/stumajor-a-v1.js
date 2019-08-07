@@ -13,10 +13,10 @@ var stuFbDba =
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            'cs410'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox I',
@@ -46,10 +46,10 @@ var stuFbDba =
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            'cs410'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox I',
@@ -141,11 +141,11 @@ var stuFbDba =
     },
     'stua005Justin': {
         'name': 'Justin',
-        'since': '2018年8月',
+        'since': '2018年7月',
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            'cs410'
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -174,14 +174,14 @@ var stuFbDba =
     },
     'stua006Zach': {
         'name': 'Zach',
-        'since': '2018年8月',
+        'since': '2018年10月',
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            'cs410'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox II',
@@ -207,14 +207,14 @@ var stuFbDba =
     },
     'stua007Joshua': {
         'name': 'Joshua',
-        'since': '2018年8月',
+        'since': '2019年1月',
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox I',
@@ -240,14 +240,14 @@ var stuFbDba =
     },
     'stua008Rogan': {
         'name': 'Rogan',
-        'since': '2018年8月',
+        'since': '2019年1月',
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox I',
@@ -273,14 +273,14 @@ var stuFbDba =
     },
     'stua009Nelson': {
         'name': 'Nelson',
-        'since': '2018年8月',
+        'since': '2019年1月',
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+            
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox I',
@@ -306,14 +306,14 @@ var stuFbDba =
     },
     'stua010Jerry': {
         'name': 'Jerry',
-        'since': '2018年8月',
+        'since': '2019年1月',
         'level': 2,
         'coursesTodo': [
             'cs230',
-            'cs571'
+        
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Roblox I',
@@ -339,11 +339,11 @@ var stuFbDba =
     },
     'stua011Kevin': {
         'name': 'Kevin',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2018年11月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs410',
+            'cs400'
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -372,14 +372,14 @@ var stuFbDba =
     },
     'stua012Frank': {
         'name': 'Frank',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2018年10月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs425',
+            
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Unity3D',
@@ -406,9 +406,9 @@ var stuFbDba =
     'stua013Frank': {
         'name': 'Frank',
         'since': '2018年8月',
-        'level': 2,
+        'level': 3,
         'coursesTodo': [
-            'cs230',
+            'cs425',
             'cs571'
         ],
         'compTodo' : [
@@ -438,11 +438,11 @@ var stuFbDba =
     },
     'stua014Cheng': {
         'name': 'Cheng',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs300',
+            'cs425'
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -471,11 +471,11 @@ var stuFbDba =
     },
     'stua015Jonathan': {
         'name': 'Jonathan',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs425',
+            'cs310'
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -504,14 +504,14 @@ var stuFbDba =
     },
     'stua016Iris': {
         'name': 'Iris',
-        'since': '2018年8月',
+        'since': '2019年1月',
         'level': 2,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs310',
+            'cs200'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
         ],
         'course': [{
             'CourseName': 'MakeCode & JavaScript',
@@ -535,25 +535,26 @@ var stuFbDba =
             'openId': '_UNIQUE_OPEN_ID'
         }]
     },
-    'stua017Liam ': {
-        'name': 'Liam ',
-        'since': '2018年8月',
-        'level': 2,
+
+    'stua017Liam': {
+        'name': 'Liam',
+        'since': '2018年10月',
+        'level': 1,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs101',
+            'cs160'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
-            'CourseName': 'Minecraft Education Edition ',
+            'CourseName': 'MakeCode & JavaScript',
             'season': '2019年春季',
-            'CourseTime': 'Saturday 9:30-11:00',
-            'instructor': 'Ms. Monica ',
-            'ProjectTitle': 'The Pyramid',
-            'ProjectLink': 'https://makecode.com/_9hzWdWJVqDhV',
-            'feedback': "Liam was a pleasure to teach. He learned so fast and was always prepared to learn. From teaching him scratch to teaching him Minecraft, I can see how much he has grown in the coding world. He captured the class content very well and performed great coding skills. When asked about a certain topic or a question related to the class that day, he was able to answer. Won most challenges and some days he asked to teach him more about a specific topic. Whenever he had a question he wasn't afraid to ask and sometimes wanted to go deeper into the topic. Always listened and payed attention in class. Liam is full of creativity and he will continue to succeed in coding. "
+            'CourseTime': 'Saturday 9:30-11am',
+            'instructor': 'Mr Austin Buenaobra',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': 'Iris was a quick learner and she was very motivated to complete the tasks and assignments. She was very responsive whenever we would go over the worksheets or homework in class. During the session which we built an aquarium, she showed great interest in the topic and the tools needed to accomplish the tasks\n. She was never a distraction in class and did great work.'
         }],
         'notifications': [{
             'suffix': '妈妈',
@@ -568,16 +569,17 @@ var stuFbDba =
             'openId': '_UNIQUE_OPEN_ID'
         }]
     },
+
     'stua018Dora': {
         'name': 'Dora',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 1,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs101',
+            'cs160'           
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Minecraft Education Edition',
@@ -606,11 +608,12 @@ var stuFbDba =
         'since': '2018年8月',
         'level': 2,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs220',
+            'cs200'
+
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Scratch',
@@ -639,11 +642,11 @@ var stuFbDba =
         'since': '2018年8月',
         'level': 2,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs220',
+            'cs200'
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200','cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Scratch',
@@ -672,11 +675,11 @@ var stuFbDba =
         'since': '2018年8月',
         'level': 2,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs220',
+            'cs200'            
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200','cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Scratch',
@@ -705,11 +708,11 @@ var stuFbDba =
         'since': '2018年8月',
         'level': 2,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs220',
+            'cs200'            
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510'
         ],
         'course': [{
             'CourseName': 'Scratch',
@@ -735,11 +738,12 @@ var stuFbDba =
     },
     'stua023Michael': {
         'name': 'Michael',
-        'since': '2018年8月',
+        'since': '2019年3月',
         'level': 2,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs220',
+            'cs200'  
+
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -769,10 +773,9 @@ var stuFbDba =
     'stua024Eric': {
         'name': 'Eric',
         'since': '2018年8月',
-        'level': 2,
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -802,10 +805,9 @@ var stuFbDba =
     'stua025Aaron': {
         'name': 'Aaron',
         'since': '2018年8月',
-        'level': 2,
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -835,10 +837,9 @@ var stuFbDba =
     'stua026Henry': {
         'name': 'Henry',
         'since': '2018年8月',
-        'level': 2,
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -868,10 +869,9 @@ var stuFbDba =
     'stua027Lucas': {
         'name': 'Lucas',
         'since': '2018年8月',
-        'level': 2,
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -901,11 +901,11 @@ var stuFbDba =
 
     'stua028Richard': {
         'name': 'Richard',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
+            
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -934,11 +934,11 @@ var stuFbDba =
     },
     'stua029Leheng': {
         'name': 'Leheng',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
+            
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -967,11 +967,11 @@ var stuFbDba =
     },
     'stua030Jerry': {
         'name': 'Jerry',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
+            
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -1000,11 +1000,11 @@ var stuFbDba =
     },
     'stua031Matt': {
         'name': 'Matt',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
+            
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -1033,11 +1033,11 @@ var stuFbDba =
     },
     'stua032Harley': {
         'name': 'Harley',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
+            
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -1066,11 +1066,11 @@ var stuFbDba =
     },
     'stua033Johnny': {        
         'name': 'Johnny',
-        'since': '2018年8月',
-        'level': 2,
+        'since': '2019年1月',
+        'level': 3,
         'coursesTodo': [
-            'cs230',
-            'cs571'
+            'cs430',
+            
         ],
         'compTodo' : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
@@ -1083,6 +1083,39 @@ var stuFbDba =
             'ProjectTitle': 'Super Parkour',
             'ProjectLink': 'https://www.sharemyworks.com/projects/5cd4af37ce28bf0015df6ba2',
             'feedback': 'Johnny始终对编程和上课内容有着强烈的兴趣。开始的2节课，他没有太多基础，接受的有些慢，但是后来通过完成两个复杂的例子，立刻找到了感觉。到后来的项目阶段，他是第一个确定自己项目想法并完成项目的同学，而且始终做的很专心。Johnny在课堂很认真，所有的练习不论难易都会仔细的完成，这样踏实的同学很难得。'
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua034Liam': {
+        'name': 'Liam',
+        'since': '2018年10月',
+        'level': 1,
+        'coursesTodo': [
+            'cs101',
+            'cs160'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510'
+        ],
+        'course': [{
+            'CourseName': 'MakeCode & JavaScript',
+            'season': '2019年春季',
+            'CourseTime': 'Saturday 9:30-11am',
+            'instructor': 'Mr Austin Buenaobra',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': 'Iris was a quick learner and she was very motivated to complete the tasks and assignments. She was very responsive whenever we would go over the worksheets or homework in class. During the session which we built an aquarium, she showed great interest in the topic and the tools needed to accomplish the tasks\n. She was never a distraction in class and did great work.'
         }],
         'notifications': [{
             'suffix': '妈妈',

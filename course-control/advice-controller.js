@@ -56,8 +56,9 @@ angular.module('v3App', [])
     if (url.indexOf("=") > -1) {
       stuid = url.split("=")[1];
       console.log("Student ID: " + stuid);
+      console.log("stuDbMap: "+  JSON.stringify($scope.stuDbMap[stuid.substring(3,4)]));
 
-      var stuRecord = stuFbDb[stuid];
+      var stuRecord = $scope.stuDbMap[stuid.substring(3,4)][stuid];
       console.log("Student: " + stuRecord);      
       if (stuRecord != null) {
         var stuCouRrd = stuRecord.course;
