@@ -1097,25 +1097,24 @@ var stuFbDba =
             'openId': '_UNIQUE_OPEN_ID'
         }]
     },
-    'stua034Liam': {
-        'name': 'Liam',
-        'since': '2018年10月',
-        'level': 1,
+    'stua034Baihe': {
+        'name': 'Baihe',
+        'since': '2019年暑假',
+        'level': 3,
         'coursesTodo': [
-            'cs101',
-            'cs160'
+            'cs310',
         ],
         'compTodo' : [
-            'cp100', 'cp200', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp400', 'cp510','cp300','cp600'
         ],
         'course': [{
-            'CourseName': 'MakeCode & JavaScript',
-            'season': '2019年春季',
-            'CourseTime': 'Saturday 9:30-11am',
-            'instructor': 'Mr Austin Buenaobra',
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
             'ProjectTitle': '',
             'ProjectLink': '',
-            'feedback': 'Iris was a quick learner and she was very motivated to complete the tasks and assignments. She was very responsive whenever we would go over the worksheets or homework in class. During the session which we built an aquarium, she showed great interest in the topic and the tools needed to accomplish the tasks\n. She was never a distraction in class and did great work.'
+            'feedback': ''
         }],
         'notifications': [{
             'suffix': '妈妈',
@@ -1129,5 +1128,934 @@ var stuFbDba =
             'suffix': '家长',
             'openId': '_UNIQUE_OPEN_ID'
         }]
-    }
+    },
+    'stua034Baihe': {
+        'name': 'Baihe',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs420'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua035Owen': {
+        'name': 'Owen',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs420'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua036Arthur': {
+        'name': 'Arthur',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs420'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua037Leon': {
+        'name': 'Leon',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs420'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua038Angela': {
+        'name': 'Angela',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs400'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua039William': {
+        'name': 'William',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua040Wenona': {
+        'name': 'Wenona',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs210'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua041Ana': {
+        'name': 'Ana',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua042Anne': {
+        'name': 'Anne',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua043Monica': {
+        'name': 'Monica',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs210'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua044Lucas': {
+        'name': 'Lucas',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs210'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua045Nathan': {
+        'name': 'Nathan Chen',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs300',
+            'cs425'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua046Kevin': {
+        'name': 'Kevin  Zhang',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs300',
+            'cs425'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua047Joshua': {
+        'name': 'Joshua',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs425',
+            'cs300'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua048Jake': {
+        'name': 'Jake',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua049Abi': {
+        'name': 'Abi',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs200',
+            'cs230',
+            'cs400'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua050Andy': {
+        'name': 'Andy Hou',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs400',
+            'cs230',
+            'cs410'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua051Sarah': {
+        'name': 'Sarah Chen',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200',
+            'cs400'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua052Max': {
+        'name': 'Max',
+        'since': '2018年8月',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs400'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua053James': {
+        'name': 'James',
+        'since': '2018年8月',
+        'level': 3,
+        'coursesTodo': [
+            'cs300',
+            'cs571'
+
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua054Hugo': {
+        'name': 'Hugo',
+        'since': '2019年暑假',
+        'level': 4,
+        'coursesTodo': [
+            'cs490',
+            'cs500',
+            'cs571'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300','cp500','cp150'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua055Rogan': {
+        'name': 'Rogan',
+        'since': '2018年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs230',
+            'cs571'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua056Neil': {
+        'name': 'Neil',
+        'since': '2018年10月',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs300'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua057Jason': {
+        'name': 'Jason',
+        'since': '2018年8月',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs430'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp300',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua058Jerry': {
+        'name': 'Jerry',
+        'since': '2019年暑假',
+        'level': 3,
+        'coursesTodo': [
+            'cs310',
+            'cs420'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua059Jerry': {
+        'name': 'Jerry',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua060Annika': {
+        'name': 'Annika',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510','cp600'
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
+    'stua061Kevin': {
+        'name': 'Kevin',
+        'since': '2019年暑假',
+        'level': 2,
+        'coursesTodo': [
+            'cs230',
+            'cs200'
+        ],
+        'compTodo' : [
+            'cp100', 'cp200', 'cp400', 'cp510',
+        ],
+        'course': [{
+            'CourseName': '',
+            'season': '',
+            'CourseTime': '',
+            'instructor': '',
+            'ProjectTitle': '',
+            'ProjectLink': '',
+            'feedback': ''
+        }],
+        'notifications': [{
+            'suffix': '妈妈',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '爸爸',
+            'openId': '_UNIQUE_OPEN_ID'
+        },
+        {
+            'suffix': '家长',
+            'openId': '_UNIQUE_OPEN_ID'
+        }]
+    },
 }
