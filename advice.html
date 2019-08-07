@@ -116,8 +116,8 @@
                     <div class="text-center">
                         <i class="icon icon-Thumb color--primary"></i>
                         <h2 class="text-center">助力名校申请<br>编程课学习规划<br></h2>
-                        <!-- <h2 class="text-center">{{stuFbDb[stuid].name}}<br>编程课学生学习反馈<br></h2> -->
-                        <!-- <p class="text-center">{{stuFbDb[stuid].name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
+                        <!-- <h2 class="text-center">{{getStuDb(stuid).name}}<br>编程课学生学习反馈<br></h2> -->
+                        <!-- <p class="text-center">{{getStuDb(stuid).name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
                     </div>
                     <div class="text-center">
                         <hr>
@@ -128,21 +128,21 @@
                             <tbody>
                                 <tr>
                                     <td style="width: 50%">学生姓名</td>
-                                    <td style="width: 50%">{{stuFbDb[stuid].name}}</td>
+                                    <td style="width: 50%">{{getStuDb(stuid).name}}</td>
                                 </tr>
                                 <tr>
                                     <td style="width: 50%">学习时间</td>
-                                    <td style="width: 50%">{{stuFbDb[stuid].since}}至今</td>
+                                    <td style="width: 50%">{{getStuDb(stuid).since}}至今</td>
                                 </tr>
                                 <tr>
                                     <td style="width: 50%">编程级别</td>
                                     <td style="width: 50%">
                                         <ul>
-                                            <li ng-class="{'color--primary': stuFbDb[stuid].level == 1, 'color--primary-todo': stuFbDb[stuid].levelNext == 1}">L1 图形化编程</li>
-                                            <li ng-class="{'color--primary': stuFbDb[stuid].level == 2, 'color--primary-todo': stuFbDb[stuid].levelNext == 2}">L2 简洁代码编程</li>
-                                            <li ng-class="{'color--primary': stuFbDb[stuid].level == 3, 'color--primary-todo': stuFbDb[stuid].levelNext == 3}">L3 代码编程</li>
-                                            <li ng-class="{'color--primary': stuFbDb[stuid].level == 4, 'color--primary-todo': stuFbDb[stuid].levelNext == 4}">L4 应用主体编程</li>
-                                            <li ng-class="{'color--primary': stuFbDb[stuid].level == 5, 'color--primary-todo': stuFbDb[stuid].levelNext == 5}">L5 竞技编程</li>
+                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 1, 'color--primary-todo': getStuDb(stuid).levelNext == 1}">L1 图形化编程</li>
+                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 2, 'color--primary-todo': getStuDb(stuid).levelNext == 2}">L2 简洁代码编程</li>
+                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 3, 'color--primary-todo': getStuDb(stuid).levelNext == 3}">L3 代码编程</li>
+                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 4, 'color--primary-todo': getStuDb(stuid).levelNext == 4}">L4 应用主体编程</li>
+                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 5, 'color--primary-todo': getStuDb(stuid).levelNext == 5}">L5 竞技编程</li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -163,8 +163,8 @@
                                     <td style="width: 40%"><b>竞赛时间</b></td>
                                 </tr>
                                 <tr ng-repeat="comp in compList">
-                                    <td ng-class="{'color--primary': stuFbDb[stuid].compTodo.indexOf(comp.id) >= 0, 'color--gray': stuFbDb[stuid].compTodo.indexOf(comp.id) < -1}" style="width: 60%">{{comp.name}}</td>
-                                    <td ng-class="{'color--primary': stuFbDb[stuid].compTodo.indexOf(comp.id) >= 0, 'color--gray': stuFbDb[stuid].compTodo.indexOf(comp.id) < -1}" style="width: 40%">{{comp.date}}</td>
+                                    <td ng-class="{'color--primary': getStuDb(stuid).compTodo.indexOf(comp.id) >= 0, 'color--gray': getStuDb(stuid).compTodo.indexOf(comp.id) < -1}" style="width: 60%">{{comp.name}}</td>
+                                    <td ng-class="{'color--primary': getStuDb(stuid).compTodo.indexOf(comp.id) >= 0, 'color--gray': getStuDb(stuid).compTodo.indexOf(comp.id) < -1}" style="width: 40%">{{comp.date}}</td>
                                 </tr>                                
                             </tbody>
                         </table>
@@ -186,13 +186,13 @@
                                         <td style="width: 28%"><b>课程时间</b></td>
                                         <td style="width: 19%"><b>价格</b></td>
                                     </tr>
-                                    <tr ng-class="{'color--primary' : stuFbDb[stuid].coursesTodo.indexOf(course.id) >= 0, 'color--gray' : stuFbDb[stuid].coursesTodo.indexOf(course.id) < 0}" ng-repeat="course in day.courses">
+                                    <tr ng-class="{'color--primary' : getStuDb(stuid).coursesTodo.indexOf(course.id) >= 0, 'color--gray' : getStuDb(stuid).coursesTodo.indexOf(course.id) < 0}" ng-repeat="course in day.courses">
                                         <td style="width: 25%">{{coursedb[course.id].gradeLevel.substring(0,2)}}<br>{{coursedb[course.id].gradeLevel.substring(2)}}</td>
                                         <td style="width: 28%">
-                                            <a ng-if="stuFbDb[stuid].coursesTodo.indexOf(course.id) >= 0" href="{{coursedb[course.id].detailsUrl}}">
+                                            <a ng-if="getStuDb(stuid).coursesTodo.indexOf(course.id) >= 0" href="{{coursedb[course.id].detailsUrl}}">
                                                     {{coursedb[course.id].title1}}
                                             </a>
-                                            <span ng-if="stuFbDb[stuid].coursesTodo.indexOf(course.id) < 0">{{coursedb[course.id].title1}}</span>
+                                            <span ng-if="getStuDb(stuid).coursesTodo.indexOf(course.id) < 0">{{coursedb[course.id].title1}}</span>
                                         </td>
                                         <td style="width: 28%">{{day.day}}<br>{{course.time}}</td>
                                         <td style="width: 19%">{{course.price}}</td>
@@ -313,6 +313,7 @@
     <script src="course-control/coursedb-v2.js"></script>
     <script src="course-control/pathway.js"></script>
     <script src="students/stumajor-v1.js"></script>
+    <script src="students/stumajor-a-v1.js"></script>
     <script src="students/comp-v1.js"></script>
     <script src="course-control/scheduledb.js"></script>
     <script src="course-control/advice-controller.js"></script>

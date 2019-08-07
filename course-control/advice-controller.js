@@ -36,10 +36,18 @@ angular.module('v3App', [])
         return Object.keys(obj).length;
     }
 
-    $scope.coursedb = coursedb.cn;
-    $scope.stuFbDb = stuFbDb;  
+    $scope.coursedb = coursedb.cn;    
     $scope.ProjectTitleEnable = true;
     $scope.ProjectLinkEnable = true;     
+
+    $scope.stuDbMap = {
+      "a" : stuFbDba,
+      "i" : stuFbDb
+    };
+
+    $scope.getStuDb = function(stuId) {
+      return $scope.stuDbMap[stuId.substring(3,4)][stuId];
+    }
 
     // process individual student's information for pathway page
     var url = $location.url();
