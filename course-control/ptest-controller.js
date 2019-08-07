@@ -50,7 +50,11 @@ angular.module('v3App', [])
     }
 
     $scope.getStuFirstName = function(name) {
-      return name.split(" ")[0];
+      if (name.indexOf(" ") >= 0) {
+        return name.split(" ")[0];  
+      } else {
+        return name;
+      }      
     }
 
     $scope.getLocation = function(stuId) {
