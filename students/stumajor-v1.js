@@ -2165,6 +2165,8 @@ var stuFbDb =
         "level": 3,
         "coursesTodo": [
             'cs310',
+            'cs410',
+            'cs430',
             'cs490',
             'cs571'
         ],
