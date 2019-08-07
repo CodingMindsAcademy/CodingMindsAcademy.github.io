@@ -927,7 +927,18 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Miller",
+        "name": "Miller Liu",
+        "mark": "Orchard Hill",
+        "since": "2017年10月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll56K_3Ln5JmBaOEi-3Ff-wBU",
@@ -956,6 +967,17 @@ var stuFbDb =
             }
         ],
         "name": "Carolyn",
+        "mark": "Orchard Hill",
+        "since": "2017年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp600', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll53PZWZBoR-dy6giziHkDL1Y",
@@ -984,6 +1006,18 @@ var stuFbDb =
             }
         ],
         "name": "Dev",
+        "mark": "One top",
+        "since": "2019年3月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571',
+            'cs500'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510', 'cp500'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll5zCyJ2-btWADQgkj6MWjvZM",
@@ -1012,6 +1046,15 @@ var stuFbDb =
             }
         ],
         "name": "Daniel",
+        "mark": "RED",
+        "since": "2017年10月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1040,6 +1083,15 @@ var stuFbDb =
             }
         ],
         "name": "Raymond",
+        "mark": "RED",
+        "since": "2019年3月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll54LtloJFG48kXEtXqS_HmUI",
@@ -1068,6 +1120,15 @@ var stuFbDb =
             }
         ],
         "name": "Eric",
+        "mark": "RED",
+        "since": "2019年3月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll56UMmpAW-QWThH4Z7UxSceY",
@@ -1096,6 +1157,16 @@ var stuFbDb =
             }
         ],
         "name": "Eric",
+        "mark": "Qidi",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll59HA5GyKisc9xZ_iLEb2XxU",
@@ -1124,6 +1195,18 @@ var stuFbDb =
             }
         ],
         "name": "Peter",
+        "mark": "Peter Zhengzhou",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490',
+            'cs571',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll561tvaY3MhOFUlTANupnz70",
@@ -1152,6 +1235,18 @@ var stuFbDb =
             }
         ],
         "name": "Frank",
+        "mark": "Peter Zhengzhou",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490',
+            'cs310',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll5wgHjkB4A2LKrv_qY31NF1Q",
@@ -1179,7 +1274,19 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Daniel",
+        "name": "Daniel Lu",
+        "mark": "Ol student",
+        "since": "2017年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490',
+            'cs571',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll56_OpUDfo4m6jLLgeLwVF7E",
@@ -1208,6 +1315,16 @@ var stuFbDb =
             }
         ],
         "name": "Jacob",
+        "mark": "Orchard Hills",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs200',
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll54pJrJpkw2wYHnA6DD2WdGI",
@@ -1236,6 +1353,16 @@ var stuFbDb =
             }
         ],
         "name": "Johnny Tao",
+        "mark": "Tao Ge",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs200',
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1264,6 +1391,16 @@ var stuFbDb =
             }
         ],
         "name": "Oscar",
+        "mark": "Orchard Hills",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs200',
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "o7Rll5wMI44DT2oxzTLD9mI72tFY",
@@ -1292,6 +1429,16 @@ var stuFbDb =
             }
         ],
         "name": "Heaven",
+        "mark": "Orchard Hills",
+        "since": "2018年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs200',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1320,6 +1467,16 @@ var stuFbDb =
             }
         ],
         "name": "Andrew",
+        "mark": "Orchard Hills",
+        "since": "2018年9月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs200',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1348,6 +1505,17 @@ var stuFbDb =
             }
         ],
         "name": "Emma",
+        "mark": "Stonegate",
+        "since": "2018年9月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs230',
+            'cs300',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1376,6 +1544,16 @@ var stuFbDb =
             }
         ],
         "name": "Derek",
+        "mark": "Brothers Cypress",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs200',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1404,6 +1582,16 @@ var stuFbDb =
             }
         ],
         "name": "Ellison",
+        "mark": "Stonegate",
+        "since": "2018年9月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs220',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1431,7 +1619,16 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Miyu",
+        "name": "Miyo",
+        "mark": "Heaven sisiter",
+        "since": "2019年3月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1460,6 +1657,16 @@ var stuFbDb =
             }
         ],
         "name": "Jonathan",
+        "mark": "Jason Michael Brother",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1488,6 +1695,16 @@ var stuFbDb =
             }
         ],
         "name": "Eric",
+        "mark": "Wed Dylan Friend",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs200',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1516,6 +1733,16 @@ var stuFbDb =
             }
         ],
         "name": "Dylan",
+        "mark": "Wed Eric Friend",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs200',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1544,6 +1771,16 @@ var stuFbDb =
             }
         ],
         "name": "David",
+        "mark": "Derek Brother",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs200',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1572,6 +1809,16 @@ var stuFbDb =
             }
         ],
         "name": "Alexander",
+        "mark": "Allena brother",
+        "since": "2018年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs200',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1600,6 +1847,16 @@ var stuFbDb =
             }
         ],
         "name": "Demi",
+        "mark": "Portorla HS",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs571',
+            'cs470'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp600', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1628,6 +1885,18 @@ var stuFbDb =
             }
         ],
         "name": "Gary",
+        "mark": "Portorla HS",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs310',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1656,6 +1925,17 @@ var stuFbDb =
             }
         ],
         "name": "Sean",
+        "mark": "Jenny's Friends",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1684,6 +1964,17 @@ var stuFbDb =
             }
         ],
         "name": "Jason",
+        "mark": "Michael Jonathan Brother",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1712,6 +2003,18 @@ var stuFbDb =
             }
         ],
         "name": "Hans Zhang",
+        "mark": "Cecilia Brother",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs425',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1740,6 +2043,18 @@ var stuFbDb =
             }
         ],
         "name": "Kanon Dou",
+        "mark": "Dad Amanda Friend",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs425',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1768,6 +2083,18 @@ var stuFbDb =
             }
         ],
         "name": "Evan Zhu",
+        "mark": "Daniel Friend",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs410',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1796,6 +2123,15 @@ var stuFbDb =
             }
         ],
         "name": "Sam Guo",
+        "mark": "Daisy Brother",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs410',
+            'cs470',
+            'cs490'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1824,6 +2160,17 @@ var stuFbDb =
             }
         ],
         "name": "Daniel Zhang",
+        "mark": "Daniel Friend",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1852,6 +2199,15 @@ var stuFbDb =
             }
         ],
         "name": "Vicky",
+        "mark": "Neibor",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1880,6 +2236,16 @@ var stuFbDb =
             }
         ],
         "name": "Grace",
+        "mark": "Neibor",
+        "since": "2018年6月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1908,6 +2274,16 @@ var stuFbDb =
             }
         ],
         "name": "Angel",
+        "mark": "Neibor",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1936,6 +2312,15 @@ var stuFbDb =
             }
         ],
         "name": "Lucas",
+        "mark": "Neibor",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1964,6 +2349,15 @@ var stuFbDb =
             }
         ],
         "name": "Michael",
+        "mark": "Jason Jonathan",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -1992,6 +2386,16 @@ var stuFbDb =
             }
         ],
         "name": "Alex",
+        "mark": "Hus",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2020,6 +2424,15 @@ var stuFbDb =
             }
         ],
         "name": "Leo",
+        "mark": "Hus",
+        "since": "2017年10月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2047,7 +2460,17 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Kevin",
+        "name": "Kevin Ying",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2075,7 +2498,15 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Andy",
+        "name": "Andy Ma",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300',
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2104,6 +2535,14 @@ var stuFbDb =
             }
         ],
         "name": "Tingyu",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300',
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2132,6 +2571,15 @@ var stuFbDb =
             }
         ],
         "name": "Paris",
+        "since": "2018年6月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp150', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2160,6 +2608,15 @@ var stuFbDb =
             }
         ],
         "name": "Kevin",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs300',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2188,6 +2645,15 @@ var stuFbDb =
             }
         ],
         "name": "Regina",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs150',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2216,6 +2682,15 @@ var stuFbDb =
             }
         ],
         "name": "Eric",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs200',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2244,6 +2719,15 @@ var stuFbDb =
             }
         ],
         "name": "Jason",
+        "since": "2019年1月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs200',
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2272,6 +2756,16 @@ var stuFbDb =
             }
         ],
         "name": "Edward",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300',
+            'cs470',
+            'cs490',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2300,6 +2794,15 @@ var stuFbDb =
             }
         ],
         "name": "Tiger",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs210',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2327,7 +2830,7 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Daniel",
+        "name": "Daniel",        
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2384,6 +2887,15 @@ var stuFbDb =
             }
         ],
         "name": "Maggie",
+        "since": "2018年10月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300',
+            'cs430',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2412,6 +2924,15 @@ var stuFbDb =
             }
         ],
         "name": "Cindy",
+        "since": "2018年10月",
+        "level": 3,
+        "coursesTodo": [
+            'cs470',
+            'cs571',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2440,6 +2961,14 @@ var stuFbDb =
             }
         ],
         "name": "Jessica",
+        "since": "2018年10月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2468,6 +2997,14 @@ var stuFbDb =
             }
         ],
         "name": "Shirley",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2496,6 +3033,14 @@ var stuFbDb =
             }
         ],
         "name": "Cinna",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2524,6 +3069,15 @@ var stuFbDb =
             }
         ],
         "name": "Lisa",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs220',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2552,6 +3106,17 @@ var stuFbDb =
             }
         ],
         "name": "Shania",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs410',
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2608,6 +3173,16 @@ var stuFbDb =
             }
         ],
         "name": "Amanda",
+        "since": "2018年6月",
+        "level": 3,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2636,6 +3211,16 @@ var stuFbDb =
             }
         ],
         "name": "Alina",
+        "since": "2018年6月",
+        "level": 3,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2664,6 +3249,16 @@ var stuFbDb =
             }
         ],
         "name": "Joshua",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2692,6 +3287,17 @@ var stuFbDb =
             }
         ],
         "name": "Damon",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs430',
+            'cs470',
+            'cs490',
+            'cs571'            
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2720,6 +3326,16 @@ var stuFbDb =
             }
         ],
         "name": "Jiajun",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2749,6 +3365,15 @@ var stuFbDb =
             }
         ],
         "name": "Julie",
+        "since": "2018年9月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2777,6 +3402,15 @@ var stuFbDb =
             }
         ],
         "name": "Wilson",
+        "since": "2018年9月",
+        "level": 1,
+        "coursesTodo": [
+            'cs160',
+            'cs150'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2805,6 +3439,15 @@ var stuFbDb =
             }
         ],
         "name": "Michael",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2833,6 +3476,15 @@ var stuFbDb =
             }
         ],
         "name": "Ryan",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs210',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2860,7 +3512,16 @@ var stuFbDb =
                 "season": "2019\u5e74\u6625\u5b63"
             }
         ],
-        "name": "Alex ",
+        "name": "Alex",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs210',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2889,6 +3550,15 @@ var stuFbDb =
             }
         ],
         "name": "Daniel",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs210',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2917,6 +3587,15 @@ var stuFbDb =
             }
         ],
         "name": "David",
+        "since": "2019年1月",
+        "level": 2,
+        "coursesTodo": [
+            'cs210',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2945,6 +3624,15 @@ var stuFbDb =
             }
         ],
         "name": "Ben",
+        "since": "2018年5月",
+        "level": 4,
+        "coursesTodo": [
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -2973,6 +3661,15 @@ var stuFbDb =
             }
         ],
         "name": "Andy",
+        "since": "2018年5月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3001,6 +3698,16 @@ var stuFbDb =
             }
         ],
         "name": "Athena",
+        "since": "2018年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3029,6 +3736,16 @@ var stuFbDb =
             }
         ],
         "name": "Michael",
+        "since": "2018年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3057,6 +3774,17 @@ var stuFbDb =
             }
         ],
         "name": "Ethan Kim",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs320',
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3085,6 +3813,16 @@ var stuFbDb =
             }
         ],
         "name": "Ethan",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs430',
+            'cs470',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3141,6 +3879,17 @@ var stuFbDb =
             }
         ],
         "name": "Barry",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs320',
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3197,6 +3946,17 @@ var stuFbDb =
             }
         ],
         "name": "Peilin",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs320',
+            'cs410',
+            'cs430',
+            'cs470'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3225,6 +3985,17 @@ var stuFbDb =
             }
         ],
         "name": "Jerry",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs430',
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3253,6 +4024,14 @@ var stuFbDb =
             }
         ],
         "name": "Amy",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3281,6 +4060,14 @@ var stuFbDb =
             }
         ],
         "name": "Richard",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs310',
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3309,6 +4096,16 @@ var stuFbDb =
             }
         ],
         "name": "Nathan",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3337,6 +4134,15 @@ var stuFbDb =
             }
         ],
         "name": "Christopher",
+        "since": "2018年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3365,6 +4171,15 @@ var stuFbDb =
             }
         ],
         "name": "Lionel",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs310'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3393,6 +4208,15 @@ var stuFbDb =
             }
         ],
         "name": "Darren",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3421,6 +4245,15 @@ var stuFbDb =
             }
         ],
         "name": "Donald",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs300'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3449,6 +4282,18 @@ var stuFbDb =
             }
         ],
         "name": "Karl",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs430',
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3505,6 +4350,16 @@ var stuFbDb =
             }
         ],
         "name": "Richard",
+        "since": "2018年9月",
+        "level": 3,
+        "coursesTodo": [
+            'cs425',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3533,6 +4388,15 @@ var stuFbDb =
             }
         ],
         "name": "Adrian",
+        "since": "2017年9月",
+        "level": 5,
+        "coursesTodo": [
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3561,6 +4425,15 @@ var stuFbDb =
             }
         ],
         "name": "Allen",
+        "since": "2018年1月",
+        "level": 5,
+        "coursesTodo": [
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3617,6 +4490,15 @@ var stuFbDb =
             }
         ],
         "name": "Justin",
+        "since": "2018年1月",
+        "level": 5,
+        "coursesTodo": [
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3645,6 +4527,17 @@ var stuFbDb =
             }
         ],
         "name": "William",
+        "since": "2017年9月",
+        "level": 5,
+        "coursesTodo": [
+            'cs410',
+            'cs470',
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3673,6 +4566,15 @@ var stuFbDb =
             }
         ],
         "name": "Jacky",
+        "since": "2018年1月",
+        "level": 5,
+        "coursesTodo": [
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3701,6 +4603,15 @@ var stuFbDb =
             }
         ],
         "name": "Andrew",
+        "since": "2017年9月",
+        "level": 5,
+        "coursesTodo": [
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3757,6 +4668,15 @@ var stuFbDb =
             }
         ],
         "name": "Eric Jin",
+        "since": "2018年9月",
+        "level": 5,
+        "coursesTodo": [
+            'cs500',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3813,6 +4733,16 @@ var stuFbDb =
             }
         ],
         "name": "Tommy",
+        "since": "2018年9月",
+        "level": 5,
+        "coursesTodo": [
+            'cs410',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3841,6 +4771,16 @@ var stuFbDb =
             }
         ],
         "name": "Harrison",
+        "since": "2018年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3869,6 +4809,16 @@ var stuFbDb =
             }
         ],
         "name": "Tony",
+        "since": "2018年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3897,6 +4847,16 @@ var stuFbDb =
             }
         ],
         "name": "Barnard",
+        "since": "2017年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs425',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3925,6 +4885,17 @@ var stuFbDb =
             }
         ],
         "name": "Zach",
+        "since": "2018年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs425',
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
@@ -3953,6 +4924,17 @@ var stuFbDb =
             }
         ],
         "name": "Devin",
+        "since": "2018年9月",
+        "level": 4,
+        "coursesTodo": [
+            'cs500',
+            'cs470',
+            'cs490',
+            'cs571'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ],
         "notifications": [
             {
                 "openId": "_UNIQUE_OPEN_ID",
