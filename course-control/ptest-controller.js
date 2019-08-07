@@ -49,6 +49,10 @@ angular.module('v3App', [])
       return $scope.stuDbMap[stuId.substring(3,4)][stuId];
     }
 
+    $scope.getStuFirstName = function(name) {
+      return name.split(" ")[0];
+    }
+
     $scope.getLocation = function(stuId) {
       return stuId.substring(3,4) == "a" ? "Arcadia" : "Irvine";
     }

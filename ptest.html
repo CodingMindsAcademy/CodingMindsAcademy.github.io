@@ -94,28 +94,35 @@
                             <table class="border--round table--alternate-row" ng-repeat="(key, value) in stuDbMap['i']">
                                 <thead>
                                     <tr>
-                                        <td><b>{{$index}} {{key}}</b></td>
-                                        <td>{{getLocation(key)}}</td>
+                                        <td><b>{{$index}} {{key}} {{getLocation(key)}}</b></td>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Name</td><td>{{value.name}}</td>
+                                        <td>{{value.name}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Since</td><td>{{value.since}}</td>
+                                        <td>{{value.since}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Comment</td><td>{{value.mark}}</td>
+                                        <td>{{value.mark}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Level</td><td>{{value.level}}</td>
+                                        <td>Level {{value.level}}</td>
                                     </tr>
                                     <tr ng-repeat="c in value.coursesTodo">
-                                        <td>TODO</td><td>{{getCourse(c)}}</td>
+                                        <td>{{getCourse(c)}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Link</td><td><a href="advice.html#?id={{key}}" target="_blank">Pathway Link</a></td>
+                                        <td><a href="advice.html#?id={{key}}" target="_blank">Pathway Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{getStuFirstName(value.name)}}妈妈您好，我们根据{{getStuFirstName(value.name)}}的学习情况给{{getStuFirstName(value.name)}}一些选课的建议，您可以参考一下下面的链接。下面主要的目标还是边学边做项目，然后在竞赛中锻炼。有什么问题您随时联系我们就好。<br><br>
+                                            {{getStuFirstName(value.name)}}编程学习目标与计划：<br>http://codingmindsacademy.com/advice.html#?id={{key}} </td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{getStuFirstName(value.name)}}爸爸您好，我们根据{{getStuFirstName(value.name)}}的学习情况给{{getStuFirstName(value.name)}}一些选课的建议，您可以参考一下下面的链接。下面主要的目标还是边学边做项目，然后在竞赛中锻炼。有什么问题您随时联系我们就好。<br><br>
+                                            {{getStuFirstName(value.name)}}编程学习目标与计划：<br>http://codingmindsacademy.com/advice.html#?id={{key}} </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -136,28 +143,35 @@
                             <table class="border--round table--alternate-row" ng-repeat="(key, value) in stuDbMap['a']">
                                 <thead>
                                     <tr>
-                                        <td><b>{{$index}} {{key}}</b></td>
-                                        <td>{{getLocation(key)}}</td>
+                                        <td><b>{{$index}} {{key}} {{getLocation(key)}}</b></td>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Name</td><td>{{value.name}}</td>
+                                        <td>{{value.name}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Since</td><td>{{value.since}}</td>
+                                        <td>{{value.since}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Comment</td><td>{{value.mark}}</td>
+                                        <td>{{value.mark}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Level</td><td>{{value.level}}</td>
+                                        <td>Level {{value.level}}</td>
                                     </tr>
                                     <tr ng-repeat="c in value.coursesTodo">
-                                        <td>TODO</td><td>{{getCourse(c)}}</td>
+                                        <td>{{getCourse(c)}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Link</td><td><a href="advice.html#?id={{key}}" target="_blank">Pathway Link</a></td>
+                                        <td><a href="advice.html#?id={{key}}" target="_blank">Pathway Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{getStuFirstName(value.name)}}妈妈您好，我们根据{{getStuFirstName(value.name)}}的学习情况给{{getStuFirstName(value.name)}}一些选课的建议，您可以参考一下下面的链接。下面主要的目标还是边学边做项目，然后在竞赛中锻炼。有什么问题您随时联系我们就好。<br><br>
+                                            {{getStuFirstName(value.name)}}编程学习目标与计划：<br>http://codingmindsacademy.com/advice.html#?id={{key}} </td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{getStuFirstName(value.name)}}爸爸您好，我们根据{{getStuFirstName(value.name)}}的学习情况给{{getStuFirstName(value.name)}}一些选课的建议，您可以参考一下下面的链接。下面主要的目标还是边学边做项目，然后在竞赛中锻炼。有什么问题您随时联系我们就好。<br><br>
+                                            {{getStuFirstName(value.name)}}编程学习目标与计划：<br>http://codingmindsacademy.com/advice.html#?id={{key}} </td>
                                     </tr>
                                 </tbody>
                             </table>
