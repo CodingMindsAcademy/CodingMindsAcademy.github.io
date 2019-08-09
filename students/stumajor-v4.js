@@ -4258,6 +4258,21 @@ var stuFbDb =
         "compTodo" : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
         ]        
+    },
+    "stui114Andy": {
+        "course": [
+            
+        ],
+        "name": "Andy",
+        "mark": "Zhengzhou",
+        "since": "2019年6月",
+        "level": 3,
+        "coursesTodo": [            
+            'cs310'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ]        
     }
 
 }
