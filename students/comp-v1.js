@@ -22,6 +22,12 @@ var competitionMap = {
 		'name' : '学区科学竞赛Science Fair',
 		'date' : '2020年2月',
 	},		
+
+	'cp350' : {
+		'id' : 'cp350',
+		'name' : 'USACO信息学竞赛',
+		'date' : '2020年2月',
+	},		
 	
 	'cp400' : {
 		'id' : 'cp400',

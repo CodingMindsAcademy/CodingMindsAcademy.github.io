@@ -3616,7 +3616,7 @@ var stuFbDb =
             'cs571'
         ],
         "compTodo" : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510', 'cp350'
         ],
         "notifications": [
             {
@@ -3649,11 +3649,12 @@ var stuFbDb =
         "since": "2018年1月",
         "level": 5,
         "coursesTodo": [
+            'cs470',
             'cs500',
             'cs571'
         ],
         "compTodo" : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510', 'cp350'
         ],
         "notifications": [
             {
@@ -3718,7 +3719,7 @@ var stuFbDb =
             'cs571'
         ],
         "compTodo" : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510', 'cp350'
         ],
         "notifications": [
             {
@@ -3757,7 +3758,7 @@ var stuFbDb =
             'cs571'
         ],
         "compTodo" : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510', 'cp350'
         ],
         "notifications": [
             {
@@ -3794,7 +3795,7 @@ var stuFbDb =
             'cs571'
         ],
         "compTodo" : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510', 'cp350'
         ],
         "notifications": [
             {
@@ -4154,7 +4155,7 @@ var stuFbDb =
             'cs571'
         ],
         "compTodo" : [
-            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510', 'cp350'
         ],
         "notifications": [
             {
