@@ -4289,11 +4289,11 @@ var stuFbDb =
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
         ]        
     },
-    "stui116Daniel": {
+    "stui116Henry": {
         "course": [
             
         ],
-        "name": "Daniel",
+        "name": "Henry",
         "mark": "Orchard Hills",
         "since": "2019年8月",
         "level": 3,
