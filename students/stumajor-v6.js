@@ -1848,7 +1848,8 @@ var stuFbDb =
         "level": 1,
         "coursesTodo": [
             'cs160',
-            'cs150',
+            'cs200',
+            'cs220'
         ],
         "compTodo" : [
             'cp100', 'cp510'
@@ -4770,6 +4771,87 @@ var stuFbDb =
         "compTodo" : [
             'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
         ]
+    },
+    "stui145Joshua": {
+        "course": [
+            
+        ],
+        "name": "Joshua Sang",
+        "mark": "Unity",
+        "since": "2019年1月",
+        "level": 3,
+        "coursesTodo": [
+            'cs300',
+            'cs425'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ]        
+    },
+    "stui146Qiqi": {
+        "course": [
+            
+        ],
+        "name": "Qiqi Lin",
+        "mark": "Justin Sister",
+        "since": "2019年3月",
+        "level": 2,
+        "coursesTodo": [
+            'cs230'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ]        
+    },
+    "stui147Eric": {
+        "course": [
+            
+        ],
+        "name": "Eric",
+        "mark": "Thursday Minecraft",
+        "since": "2019年2月",
+        "level": 2,
+        "coursesTodo": [
+            'cs200',
+            'cs220'
+        ],
+        "compTodo" : [
+            'cp100', 'cp510'
+        ]        
+    },
+    "stui148Cici": {
+        "course": [
+            
+        ],
+        "name": "Cici",
+        "mark": "Python Sunday",
+        "since": "2019年3月",
+        "level": 3,
+        "coursesTodo": [            
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ]        
+    },
+    "stui149Jason": {
+        "course": [
+            
+        ],
+        "name": "Jason",
+        "mark": "Python Sunday",
+        "since": "2019年3月",
+        "level": 3,
+        "coursesTodo": [            
+            'cs430',
+            'cs470',
+            'cs490'
+        ],
+        "compTodo" : [
+            'cp100', 'cp200', 'cp300', 'cp400', 'cp510'
+        ]        
     },
 }
 
