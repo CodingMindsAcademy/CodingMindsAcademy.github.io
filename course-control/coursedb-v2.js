@@ -438,7 +438,7 @@ var coursedb = {
 			'title1':'人工智能与游戏AI设计',
 			'title2':'专业游戏游戏开发员养成之路',
 			'name':'人工智能与游戏AI设计:专业游戏游戏开发员养成之路',
-			'imageUrl':'img/my/unity3d/bg-3sm.jpg',
+			'imageUrl':'img/my/unity3d/gameai1.jpg',
 			'gradeLevel':'L4应用主题编程',
 			'text':'学习游戏开发引擎的高级技巧和知识，创作专业游戏作品。',
 			'tag':'游戏编程系列',
