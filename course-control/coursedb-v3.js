@@ -756,6 +756,24 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
+		'cs521' : {
+			'enabled':true,
+			'cid':'CS521',
+			'title1':'Python编程网络直播',
+			'title2':'学会Python语法，动手编写真正的计算机应用程序',
+			'name':'Python编程网络直播:学会Python语法，编写的Python程序',
+			'imageUrl':'img/my/pythononline.png',
+			'gradeLevel':'L5竞技编程',
+			'text':'学习当今最流行的编程语言，开发任何你想制作的应用程序',
+			'tag':'编程算法与AI系列',
+			'pathway':['coding'],
+			'detailsTitle':'查看详情',
+			'detailsUrl':'pyonline-cn.html',
+			'locations':'选择地点',
+			'registerUrl':'corecn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/0KnUba'
+		},		
 		'cs531' : {
 			'enabled':true,
 			'cid':'CS531',
