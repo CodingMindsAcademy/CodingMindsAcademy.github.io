@@ -122,11 +122,11 @@
                                     </tr>
                                     <tr>
                                         <td>任课老师</td>
-                                        <td>{{StudentCourse.instructor}}</td>
+                                        <td>{{Instructor}}</td>
                                     </tr>
                                     <tr>
                                         <td>课程时间</td>
-                                        <td>{{StudentCourse.dateStart}} {{StudentCourse.classDay}} {{StudentCourse.classTime}}</td>
+                                        <td>{{Term}} {{StudentCourse.classDay}} {{StudentCourse.classTime}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -149,17 +149,9 @@
                                     <th >反馈</th>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>11.4 2019</td>
-                                        <td>Vivienne did a great job of adding music into her project. She is helping William with the aesthetics of the project. Music plays a big role in the overall environment of the project. I hope to see her add some code in the coming weeks. She's doing a great job of adding things to her project.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9.7</td>
-                                        <td>ggwp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9.7</td>
-                                        <td>ggwp</td>
+                                    <tr ng-repeat="feedback in Feedbacks">
+                                        <td>{{feedback.date.slice(0,10)}}</td>
+                                        <td>{{feedback.text}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -313,7 +305,6 @@
               });
               
               var curr_width = window.innerWidth*0.9;
-              console.log(curr_width);
               var curr_height = curr_width*0.56;
               document.getElementById('youtube_video').style.height = curr_height + "px";
           </script>
