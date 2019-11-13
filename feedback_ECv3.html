@@ -138,7 +138,7 @@
                             <h2 class="text-center">课程项目<br></h2>
                             <h3 class="text-center" id='title'>{{FinalProject.title}}</h3>
                             <!-- <div height="100%"> -->
-                            <embed width="100%" id='youtube_video' src="https://www.youtube.com/embed/i1IKnWDecwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                            <embed width="100%" id='youtube_video' src=FinalProject.videoUrl frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
                             <!-- </div> -->
                             <!-- <iframe ng-src="{{page.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe> -->
                             <h2 class="text-center">老师反馈<br></h2>
@@ -159,7 +159,9 @@
 
                             <div class="boxed">
                                     <h4 class="text-center">如有问题或反馈，请填写下表</h4>
-                                    <form class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" action="https://formspree.io/notification@codingmindsacademy.com" method="POST">
+                                    <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" action="https://formspree.io/notification@codingmindsacademy.com" method="POST">
+                                    <!-- <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" method="POST"> -->
+
                                         <div class="col-sm-6">
                                             <!-- <label>学生姓名:</label> -->
                                             <input ng-hide="true" type="text" name="name" ng-value="stuid"/>
@@ -171,10 +173,10 @@
                                         </div> -->
                                         <div class="col-sm-12">
                                             <!-- <label>反馈内容:</label> -->
-                                            <textarea rows="4" name="description" class="validate-required"></textarea>
+                                            <textarea rows="4" ng-model="text" name="description" class="validate-required"></textarea>
                                         </div>
                                         <div class="col-sm-12 boxed">
-                                            <button type="submit" class="btn btn--primary type--uppercase">提交</button>
+                                            <button  type="submit" class="btn btn--primary type--uppercase">提交</button>
                                         </div>
                                     </form>
                             </div>
