@@ -22,14 +22,14 @@ var portfoliodb = {
 			'tag':'人工智能系列',
 			'detailsTitle':'详情',
 			'detailsUrl':'stuportfo002.html'
-		}，
+		},
 
 		'portfolio003' : {
 			'enabled':true,
 			'name':'Blacklister',
 			'imageUrl':'img/my/portfo/Blacklister.png',
 			'gradeLevel':'12 Grade',
-			'text':'A attention management software based on image classification',
+			'text':'A attention management software based on image classification. Blacklister offers a solution to many problems and limitations of current blacklist application with a very low memory usage',
 			'tag':'AI Series',
 			'detailsTitle':'Explore',
 			'detailsUrl':'stuportfo003.html'
