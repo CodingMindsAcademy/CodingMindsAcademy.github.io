@@ -22,9 +22,18 @@ var portfoliodb = {
 			'tag':'人工智能系列',
 			'detailsTitle':'详情',
 			'detailsUrl':'stuportfo002.html'
+		}，
+
+		'portfolio003' : {
+			'enabled':true,
+			'name':'Blacklister',
+			'imageUrl':'img/my/portfo/Blacklister.png',
+			'gradeLevel':'12 Grade',
+			'text':'A attention management software based on image classification',
+			'tag':'AI Series',
+			'detailsTitle':'Explore',
+			'detailsUrl':'stuportfo003.html'
 		}
-
-
 	}
 }
 

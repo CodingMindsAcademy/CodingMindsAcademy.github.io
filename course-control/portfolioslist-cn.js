@@ -11,7 +11,6 @@ var portfoliodb = {
 			'tag':'人工智能系列',
 			'detailsTitle':'详情',
 			'detailsUrl':'stuportfo001-cn.html'
-
 		},
 
 		'portfolio002' : {
@@ -23,10 +22,18 @@ var portfoliodb = {
 			'tag':'人工智能系列',
 			'detailsTitle':'详情',
 			'detailsUrl':'stuportfo002-cn.html'
+		},
 
+		'portfolio003' : {
+			'enabled':true,
+			'name':'Blacklister',
+			'imageUrl':'img/my/portfo/Blacklister.png',
+			'gradeLevel':'12年级',
+			'text':'视频网站在学生学习时很容易干扰注意力。为了防止这一问题，Coding Minds的同学用智能图像识别做出了一款应用，能自动屏蔽掉视频网站的影响。',
+			'tag':'人工智能系列',
+			'detailsTitle':'详情',
+			'detailsUrl':'stuportfo003-cn.html'
 		}
-
-
 	}
 }
 
