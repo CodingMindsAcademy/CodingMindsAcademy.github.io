@@ -10,7 +10,7 @@ angular.module('v3App', [])
     console.log(student_id);
     $http({
       method: 'GET',
-      url: 'https://dev-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
+      url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
       headers: {
         'Authorization': 'kxQUmOjBNLl9esLpK5VAyol5GUzW0RDn8pOstkrRvvFrCht8ByzhHL5amLNNLcOq'
       },     
