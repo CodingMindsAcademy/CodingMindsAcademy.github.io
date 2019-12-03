@@ -12,7 +12,7 @@ angular.module('v3App', [])
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
       headers: {
-        'Authorization': 'kxQUmOjBNLl9esLpK5VAyol5GUzW0RDn8pOstkrRvvFrCht8ByzhHL5amLNNLcOq'
+        'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
       },     
       params: {
         id: student_id
