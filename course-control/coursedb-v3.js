@@ -1047,3 +1047,19 @@ var coursedb = {
 		}
 	}
 }
+
+
+var templist = []
+var copy = {}
+Object.keys(coursedb.cn).forEach(key=>{
+	if (coursedb.cn[key].enabled===true){
+		delete coursedb.cn[key].cid;
+		copy = coursedb.cn[key]
+		key.toLowerCase();
+        copy["courseCode"] = key;
+		templist.push(copy)
+	}
+	}
+)
+
+console.log(JSON.stringify(templist))
