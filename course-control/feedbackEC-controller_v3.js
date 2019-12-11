@@ -38,7 +38,7 @@ angular.module('v3App', [])
           console.log($scope.text)
           $http({
             method: 'POST',
-            url: 'https://dev-sharemyworks-backend.herokuapp.com/api/NotificationLog/reply',
+            url: 'https://prod-sharemyworks-backend.herokuapp.com/api/NotificationLog/reply',
             params: {
               logId: logId,
               reply: $scope.text
