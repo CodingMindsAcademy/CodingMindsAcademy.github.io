@@ -204,6 +204,55 @@
                                                 <div class="card__bottom text-center">
                                                     <div class="card__action">
                                                         <div class="modal-instance block">
+                                                            <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
+                                                            <div class="modal-container">
+                                                                <div class="modal-content">
+                                                                    <section class="imageblock feature-large bg--white border--round ">
+                                                                        <div class="imageblock__content col-md-5 col-sm-3 pos-left">
+                                                                            <div class="background-image-holder">
+                                                                                <img alt="image" src="{{course.imageUrl}}" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="container">
+                                                                            <div class="row">
+                                                                                <div class="col-md-5 col-md-push-6 col-sm-7 col-sm-push-4">
+                                                                                    <h2>{{course.shortName}}</h2>
+                                                                                    <p class="lead">{{course.text}}</p>
+                                                                                    <hr data-title="OR">
+                                                                                    <form>
+                                                                                        <div class="row">
+                                                                                            <div class="col-xs-12">
+                                                                                                <p>
+                                                                                                    课程级别：{{course.gradeLevel}}
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="col-xs-12">
+                                                                                                <p>
+                                                                                                    课程类别：{{course.tag}}
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="col-xs-12">
+                                                                                                <p>
+                                                                                                    课程概要：{{course.name}}
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="col-xs-12">
+                                                                                                <a href="{{course.detailsUrl}}" class="btn btn--primary type--uppercase">
+                                                                                                <span class="btn__text">详情</span></a>
+                                                                                            </div>                       
+                                                                                        </div>
+                                                                                        <!--end row-->
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--end of row-->
+                                                                        </div>
+                                                                        <!--end of container-->
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--<div class="modal-instance block">
                                                             <a id="modal-click" class="btn modal-trigger" href="#">
                                                                 <span class="btn__text">
                                                                     查看课程信息
@@ -216,7 +265,7 @@
                                                                 </div>
                                                                 </div>
                                                             </div>
-                                                        </div>    
+                                                        </div> -->   
                                                     </div>
                                                     <div class="card__action">
                                                         <div class="modal-instance block">
@@ -249,10 +298,53 @@
                                                             <tr>
                                                                 <td style="width: 25%">1/13-3/18 8周</td>
                                                                 <td style="width: 28%">每周一3:20-4:50pm</td>
-                                                                <td style="width: 28%"><a class="btn btn--primary" href="#">
+                                                                <td style="width: 28%">                                  
+                                                                    <div class="modal-instance">
+                                                                        <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
+                                                                        <div class="modal-container">
+                                                                            <div class="modal-content section-modal">
+                                                                                <section class="unpad ">
+                                                                                    <div class="container">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                                                                <div class="boxed boxed--lg bg--white text-center feature">
+                                                                                                    <div class="modal-close modal-close-cross"></div>
+                                                                                                    <h3>{{course.shortName}}</h3>
+                                                                                                    
+                                                                                                    <hr data-title="OR">
+                                                                                                    <div class="feature__body">
+                                                                                                        <form>
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <input type="text" placeholder="Student Name" />
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <input type="email" placeholder="Email" />
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <button class="btn btn--primary type--uppercase" type="submit">注册</button>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <!--end of row-->
+                                                                                                        </form>
+                                                                                                        <span class="type--fine-print block">如有疑问请联系我们
+                                                                                                            <a href="contact-us-cn.html">联系我们</a>
+                                                                                                        </span>                                    
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!--end of row-->
+                                                                                    </div>
+                                                                                    <!--end of container-->
+                                                                                </section>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                                                         
+                                                                <!--<a class="btn btn--primary" href="#">
                                                                     <span class="btn__text">注册</span>
                                                                 </a></td>
-                                                                <!--<td style="width: 19%">{{course.price}}</td>-->
+                                                                <td style="width: 19%">{{course.price}}</td>-->
                                                             </tr>
                                                         </tbody>
                                                     </table>                                        
