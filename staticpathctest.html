@@ -59,41 +59,41 @@
                     <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> 
+                                <li>
                                     <a href="index-cn.html">
                                         首页
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="corecn.html">
                                         编程课程
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="pathc.html">
                                         课程体系
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="portfolios-cn.html">
                                         学生作品
-                                    </a> 
+                                    </a>
                                 </li>
 
-                                <li> 
+                                <li>
                                     <a href="newsc.html">
                                         编程资讯
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="whycoding-cn.html">
                                         为什么学习编程
-                                    </a> 
-                                </li>                            
-                                <li> 
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="about-us-cn.html">
                                         关于我们
-                                    </a> 
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -109,7 +109,7 @@
             </nav>
             <!--end bar-->
         </div>
-        <div class="main-container">  
+        <div class="main-container">
             <section class="text-center height-50">
                 <div class="container pos-vertical-center">
                     <div class="row">
@@ -124,7 +124,7 @@
                     <!--end of row-->
                 </div>
                 <!--end of container-->
-            </section>     
+            </section>
 
             <section class="space--sm text-center">
                 <div class="container">
@@ -170,14 +170,14 @@
             <section class="text-center bg--secondary">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12">                                
+                        <div class="col-sm-12">
                             <div class="text-center">
                                 <i class="icon icon-Coding color--primary"></i>
                                 <h2 class="text-center">2020年春季课程表<br></h2>
-                                </div>                                
-                                <hr>              
+                                </div>
+                                <hr>
 
-                <div class="tabs-container" data-content-align="center">  
+                <div class="tabs-container" data-content-align="center">
                     <ul class="tabs">
                         <li class="active">
                             <div class="tab__title">
@@ -218,24 +218,24 @@
                                                     </div>
                                                     <div class="card__action">
                                                         <div class="modal-instance block">
-                                                            <a id="modal-click" class="btn modal-trigger" href="#">
+                                                            <a class="btn toggle_schedule" href="#">
                                                                 <span class="btn__text">
                                                                     选择课程时间
                                                                 </span>
                                                             </a>
-                                                            <div class="modal-container">
+                                                            <!-- <div class="modal-container">
                                                                 <div class="modal-content">
-                                                                    <div class="boxed boxed--lg"> 
+                                                                    <div class="boxed boxed--lg">
                                                                         <iframe ng-src="{{course.registerForm}}"></iframe>
                                                                     </div>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <!-- The following should be toggled by the button above -->
-                                                <div class="card__body">
-                                                    <h4>课程时间</h4>   
+                                                <div class="card__body course_schedule" style="display: none;">
+                                                    <h4>课程时间</h4>
                                                     <table class="border--round table--alternate-row">
                                                         <tbody>
                                                             <tr>
@@ -247,7 +247,7 @@
                                                             <tr ng-repeat="data in course['repeatData']">
                                                                 <td style="width: 25%">{{data.range}}</td>
                                                                 <td style="width: 28%">{{data.dayTime}}</td>
-                                                                <td style="width: 28%">                                  
+                                                                <td style="width: 28%">
                                                                     <div class="modal-instance">
                                                                         <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
                                                                         <div class="modal-container">
@@ -290,7 +290,7 @@
                                                                                                         </form>
                                                                                                         <span class="type--fine-print block">如有疑问请联系我们
                                                                                                             <a href="contact-us-cn.html">联系我们</a>
-                                                                                                        </span>                                    
+                                                                                                        </span>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
@@ -301,26 +301,29 @@
                                                                                 </section>
                                                                             </div>
                                                                         </div>
-                                                                    </div>                                                         
+                                                                    </div>
 
                                                             </tr>
                                                         </tbody>
-                                                    </table>                                        
+                                                    </table>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
-                        </li> 
+                        </li>
                         <li class>
 
                                 <div class="tab__title">
                                     <span class="h5">Arcadia校区</span>
                                 </div>
                                 <div class="tab__content">
-    
-                                <div class="masonry">
+
+                                <div class="masonry1">
+                                <!-- <div class="masonry"> -->
+
+                                        <!-- <div> -->
                                         <div class="masonry__container">
                                             <div class="col-sm-4 masonry__item" ng-repeat="course in courseListArcadia">
                                                 <div class="card card-2 text-center">
@@ -353,24 +356,25 @@
                                                         </div>
                                                         <div class="card__action">
                                                             <div class="modal-instance block">
-                                                                <a id="modal-click" class="btn modal-trigger" href="#">
+                                                                <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
+                                                                <a class="btn toggle_schedule" href="#">
                                                                     <span class="btn__text">
                                                                         选择课程时间
                                                                     </span>
                                                                 </a>
-                                                                <div class="modal-container">
+                                                                <!-- <div class="modal-container">
                                                                     <div class="modal-content">
-                                                                        <div class="boxed boxed--lg"> 
+                                                                        <div class="boxed boxed--lg">
                                                                             <iframe ng-src="{{course.registerForm}}"></iframe>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> -->
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <!-- The following should be toggled by the button above -->
-                                                    <div class="card__body">
-                                                        <h4>课程时间</h4>   
+                                                    <div class="card__body course_schedule" style="display: none;">
+                                                        <h4>课程时间</h4>
                                                         <table class="border--round table--alternate-row">
                                                             <tbody>
                                                                 <tr>
@@ -381,7 +385,7 @@
                                                                 <tr ng-repeat="data in course['repeatData']">
                                                                     <td style="width: 25%">{{data.range}}</td>
                                                                     <td style="width: 28%">{{data.dayTime}}</td>
-                                                                    <td style="width: 28%">                                  
+                                                                    <td style="width: 28%">
                                                                         <div class="modal-instance">
                                                                             <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
                                                                             <div class="modal-container">
@@ -394,7 +398,7 @@
                                                                                                         <div class="modal-close modal-close-cross"></div>
                                                                                                         <h3>填写报名信息</h3>
                                                                                                         <h5>{{course.shortName}}</h5>
-                                                                                                        
+
                                                                                                         <hr data-title="OR">
                                                                                                         <div class="feature__body">
                                                                                                             <form>
@@ -425,7 +429,7 @@
                                                                                                             </form>
                                                                                                             <span class="type--fine-print block">如有疑问请联系我们
                                                                                                                 <a href="contact-us-cn.html">联系我们</a>
-                                                                                                            </span>                                    
+                                                                                                            </span>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -434,17 +438,17 @@
                                                                                     </section>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>                                                         
+                                                                        </div>
                                                                 </tr>
                                                             </tbody>
-                                                        </table>                                        
+                                                        </table>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                </div>  
                                 </div>
-                            </li> 
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -464,7 +468,7 @@
                                     <a class="btn btn--primary type--uppercase" href="corecn.html#allCourses">
                                         <span class="btn__text">
                                             联系试课
-                                        </span>  
+                                        </span>
                                     </a>
                                 </div>
                             </div>
@@ -540,6 +544,11 @@
                 </a>
                 <script src="js/jquery-3.1.1.min.js"></script>
                 <script src="js/angular.min.js"></script>
+                <script src="js/angular-animate.min.js"></script>
+                <script src="js/angular-route.min.js"></script>
+                <script src="js/angular-aria.min.js"></script>
+                <script src="js/angular-messages.min.js"></script>
+                <script src="js/angular-material.min.js"></script>
                 <script src="course-control/pathway.js"></script>
                 <script src="course-control/course2020Spring.js"></script>
                 <script src="course-control/scheduledb-v4.js"></script>
