@@ -15,7 +15,7 @@ angular.module('v3App', [])
     method: 'POST',
     url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account`,
     headers: {
-      'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+      'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
     },
     data: $scope.form
   }).then(function successCallback(response) {
@@ -24,7 +24,7 @@ angular.module('v3App', [])
       method: 'PUT',
       url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${response.data.id}`,
       headers: {
-        'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+        'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
       } 
     }).then(function successCallback(response) {
     console.log('enrolled to course',response);
