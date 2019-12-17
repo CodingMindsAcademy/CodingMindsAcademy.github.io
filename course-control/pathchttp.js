@@ -23,7 +23,7 @@ angular.module('v3App', [])
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
       headers: {
-        'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+        'Authorization': 'nxM0WXLmslQLowqnDPoPvdgMfeZsv8A37BOGj91tHIMOGOb6224DOwqAzpI555c7'
       },  
     }).then(function successCallback(response) {
         var upcomingCourses = response.data.courses.filter(obj=>obj.term==='Spring 2020');
@@ -39,8 +39,9 @@ angular.module('v3App', [])
           range = strStart + '-' +strEnd;
           dayTime = course.classDay + ' ' +course.classTime + '-' + course.classEndTime;
           var location = orgs[course.organizationId];
-          var repeatInfo = {'dayTime':dayTime, 'range':range, 'orgnization':location};
-
+          var courseid = course.id;
+          var repeatInfo = {'courseid':courseid, 'dayTime':dayTime, 'range':range, 'orgnization':location};
+          
           if (location === 'a'){
             if (!(course.courseCode in arcadiaDB)){
               arcadiaDB[course.courseCode] = [];
@@ -62,8 +63,7 @@ angular.module('v3App', [])
 
         });
         
-        console.log('irvine course:', irvineDB);
-        console.log('arcadia courses:', arcadiaDB);
+
         $http({
           method: 'GET',
           url: 'https://prod-sharemyworks-backend.herokuapp.com/api/CoursesDBs',
@@ -112,6 +112,8 @@ angular.module('v3App', [])
         // $scope.courseListRancho = [coursedb.cs210, coursedb.cs221, coursedb.cs371];
         // $scope.courseListOnline = [coursedb.cs401, coursedb.cs402, coursedb.cs403, coursedb.cs404, coursedb.cs407];
         // $scope.courseListEnrichment = [coursedb.cs404, coursedb.cs405, coursedb.cs406, coursedb.cs407, coursedb.cs408];
+        console.log(JSON.stringify($scope.courseListIrvine));
+        console.log(JSON.stringify($scope.courseListArcadia));
           }, function errorCallback(response) {
             console.log(response);
           });
