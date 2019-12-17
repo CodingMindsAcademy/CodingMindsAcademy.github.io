@@ -25,7 +25,7 @@
     <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
 </head>
-<body ng-controller="CourseListController">
+<body ng-controller="FeedbackController">
     <a id="start"></a>
     <div class="nav-container ">
         <div class="bar bar--sm visible-xs">
@@ -110,83 +110,62 @@
             <!--end bar-->
         </div>
         <div class="main-container">  
-            <section class="text-center height-50">
-                <div class="container pos-vertical-center">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <i class="icon icon-Thumb color--primary"></i>
-                            <h1>高标准 高要求<br>编程助力名校申请</h1>
-                            <p class="lead">
-                                我们对编程的教学要求不是简单的课外兴趣班<br>而是要为大家提供申请名校的经历、背景与信心
-                            </p>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>     
+            
 
-            <section class="space--sm text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-md-8">
-                            <div class="text-center">
-                                <i class="icon icon-Target color--primary"></i>
-                                <h2 class="text-center">编程课程目标<br></h2>
-                                <hr>
-                                <p class="lead">
-                                    Coding Minds编程课程体系以助力名校申请为核心目标，引导学生学编程、做项目、参加竞赛、搞科研和创业，通过创新动手提升个人背景
-                                </p>
-                                <!-- <img alt="Image" class="border--round box-shadow" src="img/pathway/biggoals2.png"> -->
-                                <img alt="Image" class="border--round box-shadow" src="img/pathway/steps.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="space--sm text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-md-8">
-                            <div class="text-center">
-                                <i class="icon icon-Statistic color--primary"></i>
-                                <h2 class="text-center">编程课程体系<br></h2>
-                                <hr>
-                                <p class="lead">
-                                    Coding Minds编程课程体系由美国大学计算机教授团队从美国大学申请的角度设计，进阶性的学习编程，培养兴趣和实践能力，让孩子从小打下坚实的编程基础
-                                </p>
-                                <img alt="Image" class="border--round box-shadow" src="img/pathway/plevel4.png">
-                                <p class="lead">
-                                    所有课程以项目为阶段性目标，增强学生的科技创新背景和信心
-                                </p>
-                                <img alt="Image" class="border--round box-shadow" src="img/pathway/biggoals2.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
             <section class="text-center bg--secondary">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">                                
-                            <div class="text-center">
-                                <i class="icon icon-Coding color--primary"></i>
-                                <h2 class="text-center">2020年春季课程表<br></h2>
-                                </div>                                
+                                <div class="text-center">
+                                        <i class="icon icon-Thumb color--primary"></i>
+                                        <h2 class="text-center">助力名校申请<br>编程课学习规划<br></h2>
+                                        <!-- <h2 class="text-center">{{getStuDb(stuid).name}}<br>编程课学生学习反馈<br></h2> -->
+                                        <!-- <p class="text-center">{{getStuDb(stuid).name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
+                                    </div>
+                                    <div class="text-center">
+                                        <hr>
+                                        <i class="icon icon-Profile color--primary"></i>
+                                        <!-- <h2 class="text-center">学生学习档案<br></h2> -->
+                                        <span class="text-center h4">学生学习档案</span>
+                                        <table class="border--round table--alternate-row">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width: 50%">学生姓名</td>
+                                                    <td style="width: 50%">{{getStuDb(stuid).name}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width: 50%">学习时间</td>
+                                                    <td style="width: 50%">{{getStuDb(stuid).since}}至今</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width: 50%">编程级别</td>
+                                                    <td style="width: 50%">
+                                                        <ul>
+                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 1, 'color--primary-todo': getStuDb(stuid).levelNext == 1}">L1 图形化编程</li>
+                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 2, 'color--primary-todo': getStuDb(stuid).levelNext == 2}">L2 简洁代码编程</li>
+                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 3, 'color--primary-todo': getStuDb(stuid).levelNext == 3}">L3 代码编程</li>
+                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 4, 'color--primary-todo': getStuDb(stuid).levelNext == 4}">L4 应用主体编程</li>
+                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 5, 'color--primary-todo': getStuDb(stuid).levelNext == 5}">L5 竞技编程</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>  
+                                </div>
+                                </div>                              
                                 <hr>              
 
-                <div class="tabs-container" data-content-align="center">  
-                    <ul class="tabs">
-                        <li class="active">
-                            <div class="tab__title">
-                                <span class="h5">尔湾Irvine校区</span>
-                            </div>
-                            <div class="tab__content">
+                                <div class="text-center">
+                                        <i class="icon icon-Coding color--primary"></i>
+                                        <h2 class="text-center">2020年春季课程表<br></h2>
+                                        </div>   
                                 <div class="masonry">
                                     <div class="masonry__container">
-                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseListIrvine">
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in coursedb">
                                             <div class="card card-2 text-center">
                                                 <div class="card__top">
                                                     <span id="cmbg" class="label">{{course.gradeLevel}}</span>
@@ -245,8 +224,8 @@
                                                                 <!--<td style="width: 19%"><b>价格</b></td>-->
                                                             </tr>
                                                             <tr ng-repeat="data in course['repeatData']">
-                                                                <td style="width: 25%">{{data.range}}</td>
-                                                                <td style="width: 28%">{{data.dayTime}}</td>
+                                                                <td style="width: 25%">1/13-3/18 8周</td>
+                                                                <td style="width: 28%">每周一3:20-4:50pm</td>
                                                                 <td style="width: 28%">                                  
                                                                     <div class="modal-instance">
                                                                         <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
@@ -311,145 +290,9 @@
                                         </div>
                                     </div>
                                 </div>  
-                            </div>
-                        </li> 
-                        <li class>
-
-                                <div class="tab__title">
-                                    <span class="h5">Arcadia校区</span>
-                                </div>
-                                <div class="tab__content">
-    
-                                <div class="masonry">
-                                        <div class="masonry__container">
-                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseListArcadia">
-                                                <div class="card card-2 text-center">
-                                                    <div class="card__top">
-                                                        <span id="cmbg" class="label">{{course.gradeLevel}}</span>
-                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
-                                                    </div>
-                                                    <div class="card__body">
-                                                        <h4>{{course.title1}}</h4>
-                                                        <p>
-                                                            {{course.text}}
-                                                        </p>
-                                                    </div>
-                                                    <div class="card__bottom text-center">
-                                                        <div class="card__action">
-                                                            <div class="modal-instance block">
-                                                                <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
-                                                                <div class="modal-container">
-                                                                    <div class="modal-content">
-                                                                        <section class="imageblock feature-large bg--white border--round ">
-                                                                            <div class="container" style="padding-top: 1.1em">
-                                                                                <div class="row" style="height: calc(100vh - 100px)">
-                                                                                    <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
-                                                                                </div>
-                                                                            </div>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card__action">
-                                                            <div class="modal-instance block">
-                                                                <a id="modal-click" class="btn modal-trigger" href="#">
-                                                                    <span class="btn__text">
-                                                                        选择课程时间
-                                                                    </span>
-                                                                </a>
-                                                                <div class="modal-container">
-                                                                    <div class="modal-content">
-                                                                        <div class="boxed boxed--lg"> 
-                                                                            <iframe ng-src="{{course.registerForm}}"></iframe>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- The following should be toggled by the button above -->
-                                                    <div class="card__body">
-                                                        <h4>课程时间</h4>   
-                                                        <table class="border--round table--alternate-row">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td style="width: 25%"><b>日期</b></td>
-                                                                    <td style="width: 28%"><b>时间</b></td>
-                                                                    <td style="width: 28%"><b>注册</b></td>
-                                                                </tr>
-                                                                <tr ng-repeat="data in course['repeatData']">
-                                                                    <td style="width: 25%">{{data.range}}</td>
-                                                                    <td style="width: 28%">{{data.dayTime}}</td>
-                                                                    <td style="width: 28%">                                  
-                                                                        <div class="modal-instance">
-                                                                            <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
-                                                                            <div class="modal-container">
-                                                                                <div class="modal-content section-modal">
-                                                                                    <section class="unpad ">
-                                                                                        <div class="container">
-                                                                                            <div class="row">
-                                                                                                <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
-                                                                                                    <div class="boxed boxed--lg bg--white text-center feature">
-                                                                                                        <div class="modal-close modal-close-cross"></div>
-                                                                                                        <h3>填写报名信息</h3>
-                                                                                                        <h5>{{course.shortName}}</h5>
-                                                                                                        
-                                                                                                        <hr data-title="OR">
-                                                                                                        <div class="feature__body">
-                                                                                                            <form>
-                                                                                                                <div class="row">
-                                                                                                                    <div class="col-sm-6">
-                                                                                                                        <input type="text" placeholder="学生First Name" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-6">
-                                                                                                                        <input type="text" placeholder="学生Last Name" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="text" placeholder="年级" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="email" placeholder="Email" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="number" placeholder="联系电话" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="text" placeholder="微信号" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <button class="btn btn--primary type--uppercase" type="submit">注册</button>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <!--end of row-->
-                                                                                                            </form>
-                                                                                                            <span class="type--fine-print block">如有疑问请联系我们
-                                                                                                                <a href="contact-us-cn.html">联系我们</a>
-                                                                                                            </span>                                    
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </section>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>                                                         
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>  
-                                </div>
-                            </li> 
-                        </ul>
-                    </div>
-                </div>
-            </div>
-                </div>
+                           
+                                
+                                
                 </section>
 
                 <section class="bg--secondary text-center">
@@ -539,11 +382,14 @@
                     <i class="stack-interface stack-up-open-big"></i>
                 </a>
                 <script src="js/jquery-3.1.1.min.js"></script>
-                <script src="js/angular.min.js"></script>
+                <script src="js/angular.min.js"></script>            
+                <!-- <script src="course-control/coursedb-v3.js"></script> -->
                 <script src="course-control/pathway.js"></script>
-                <script src="course-control/course2020Spring.js"></script>
+                <script src="students/stumajor-a-v2.js"></script>
+                <script src="students/stumajor-v6.js"></script>
+                <script src="students/comp-v2.js"></script>
                 <script src="course-control/scheduledb-v4.js"></script>
-                <script src="course-control/staticpathctest.js"></script>
+                <script src="course-control/advice-controller-v3.js"></script>
                 <script src="js/flickity.min.js"></script>
                 <script src="js/easypiechart.min.js"></script>
                 <script src="js/parallax.js"></script>
@@ -554,6 +400,7 @@
                 <script src="js/lightbox.min.js"></script>
                 <script src="js/granim.min.js"></script>
                 <script src="js/countdown.min.js"></script>
+                <script src="js/twitterfetcher.min.js"></script>
                 <script src="js/spectragram.min.js"></script>
                 <script src="js/smooth-scroll.min.js"></script>
                 <script src="js/scripts.js"></script>

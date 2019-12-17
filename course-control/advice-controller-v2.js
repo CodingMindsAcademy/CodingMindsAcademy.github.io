@@ -50,7 +50,7 @@ angular.module('v3App', [])
     }
 
     // process individual student's information for pathway page
-    var url = $location.url();
+    var url = $location.$$absUrl;
     $scope.currentUrl = url;
     var stuid = '';
     if (url.indexOf("=") > -1) {
