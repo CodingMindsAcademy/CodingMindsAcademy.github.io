@@ -26,6 +26,7 @@ angular.module('v3App', ['ngMaterial'])
  $scope.form.dateOfBirth = '2018-04-11T15:50:01.459Z';
  $scope.form.username = `${$scope.form.firstName}${$scope.form.lastName}`;
  $scope.form.password = `codingminds${$scope.form.username}`;
+ $scope.form.contact2Type = "WeChatUsername";
   $http({
     method: 'POST',
     url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account`,
