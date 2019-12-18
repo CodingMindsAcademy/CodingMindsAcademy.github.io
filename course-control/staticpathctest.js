@@ -39,7 +39,7 @@ angular.module('v3App', ['ngMaterial'])
       method: 'PUT',
       url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${response.data.id}`,
       headers: {
-        'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
+        'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9' 
       } 
     }).then(function successCallback(response) {
     console.log('enrolled to course',response);
