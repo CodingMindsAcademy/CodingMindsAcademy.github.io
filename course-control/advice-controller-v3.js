@@ -32,8 +32,9 @@ angular.module('v3App', [])
     for(var key in competitionMap) {      
       $scope.compList.push(competitionMap[key]);
     }
-    $scope.coursedb = arcadiadb;
-
+    $scope.courseListIrvine = irvinedb;
+    $scope.courseListArcadia = arcadiadb;
+    $scope.courseListOnline = onlinedb;
     var url = $location.$$absUrl;
     $scope.currentUrl = url;
     $scope.stuid = $scope.currentUrl.slice($scope.currentUrl.indexOf('=')+1, url.length);
