@@ -15,6 +15,7 @@
     <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
 
     <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
@@ -24,6 +25,29 @@
     <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <style>
+        md-toast.md-center {
+            left: 50%;
+            transform: translate3d(-50%, 0, 0);
+        }
+        #toast-container{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 10em;
+            visibility: hidden;
+        }
+        #toast-container *{
+            visibility: visible;
+        }
+        .md-toast.success *{
+            background-color: green;
+        }
+        .md-toast.error *{
+            background-color: red;
+        }
+    </style>
 </head>
 <body ng-controller="CourseListController">
     <a id="start"></a>
@@ -255,7 +279,7 @@
                                                                 <td style="width: 28%">
                                                                     <div class="modal-instance">
                                                                         <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
-                                                                        <div class="modal-container">
+                                                                        <div id={{data.courseid}} class="modal-container">
                                                                             <div class="modal-content section-modal">
                                                                                 <section class="unpad ">
                                                                                     <div class="container">
@@ -393,7 +417,7 @@
                                                                     <td style="width: 28%">
                                                                         <div class="modal-instance">
                                                                             <a href="#" class="btn btn--primary modal-trigger"><span class="btn__text">注册</span></a>
-                                                                            <div class="modal-container">
+                                                                            <div id={{data.courseid}} class="modal-container">
                                                                                 <div class="modal-content section-modal">
                                                                                     <section class="unpad ">
                                                                                         <div class="container">
@@ -470,7 +494,7 @@
                                     <p class="lead">
                                         欢迎报名参加30分钟的免费试听，由我们的导师亲自授课，提供在线授课或课堂授课。
                                     </p>
-                                    <a class="btn btn--primary type--uppercase" href="corecn.html#allCourses">
+                                    <a class="btn btn--primary type--uppercase" href="contact-us-cn.html">
                                         <span class="btn__text">
                                             联系试课
                                         </span>
@@ -542,6 +566,7 @@
                         </div>
                         <!--end of container-->
                     </footer>
+                    <div id="toast-container" ></div>
                 </div>
                 <!--<div class="loader"></div>-->
                 <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
@@ -550,9 +575,9 @@
                 <script src="js/jquery-3.1.1.min.js"></script>
                 <script src="js/angular.min.js"></script>
                 <script src="js/angular-animate.min.js"></script>
-                <script src="js/angular-route.min.js"></script>
+                <!-- <script src="js/angular-route.min.js"></script> -->
                 <script src="js/angular-aria.min.js"></script>
-                <script src="js/angular-messages.min.js"></script>
+                <!-- <script src="js/angular-messages.min.js"></script> -->
                 <script src="js/angular-material.min.js"></script>
                 <script src="course-control/pathway.js"></script>
                 <script src="course-control/course2020Spring.js"></script>
