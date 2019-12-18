@@ -2,6 +2,7 @@ var coursedb = {
 	'cn': {
 		'cs101' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS101',
 			'title1':'Minecraft世界开发与编程',
 			'title2':'图形化编程入基础',
@@ -21,6 +22,7 @@ var coursedb = {
 		},
 		'cs101p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS101p',
 			'title1':'Minecraft世界开发与指令编程',
 			'title2':'项目开发',
@@ -40,6 +42,7 @@ var coursedb = {
 		},
 		'cs110' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS110',
 			'title1':'少儿AI编程Minecraft',
 			'title2':'图形化编程入基础',
@@ -59,6 +62,7 @@ var coursedb = {
 		},		
 		'cs130' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS130',
 			'title1':'Minecraft创新编程与实践',
 			'title2':'用最流行的游戏学编程',
@@ -78,6 +82,7 @@ var coursedb = {
 		},
 		'cs140' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS140',
 			'title1':'和SPRK机器人一起学习编程',
 			'title2':'带领你的机器人完成挑战',
@@ -97,6 +102,7 @@ var coursedb = {
 		},		
 		'cs150' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS150',
 			'title1':'Lego MindStorms机器人编程挑战',
 			'title2':'挑战不可能的任务',
@@ -116,6 +122,7 @@ var coursedb = {
 		},
 		'cs151p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS151p',
 			'title1':'Lego MindStorms机器人编程挑战',
 			'title2':'项目实践',
@@ -135,6 +142,7 @@ var coursedb = {
 		},
 		'cs160' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS160',
 			'title1':'MIT Scratch创新编程与实践',
 			'title2':'做你自己的游戏、动画、多媒体',
@@ -154,6 +162,7 @@ var coursedb = {
 		},
 		'cs170' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS170',
 			'title1':'MIT Scratch编程高阶',
 			'title2':'做你自己的游戏、动画、多媒体',
@@ -173,6 +182,7 @@ var coursedb = {
 		},
 		'cs200' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS200',
 			'title1':'Javascript编程初步',
 			'title2':'Minecraft MakeCode编程',
@@ -192,6 +202,7 @@ var coursedb = {
 		},
 		'cs210' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS210',
 			'title1':'Javascript编程进阶',
 			'title2':'MicroBit电子电路编程',
@@ -211,6 +222,7 @@ var coursedb = {
 		},
 		'cs201p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS201',
 			'title1':'Minecraft创新编程与实践',
 			'title2':'项目实践',
@@ -230,6 +242,7 @@ var coursedb = {
 		},
 		'cs220' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS220',
 			'title1':'Roblox游戏开发与Lua编程',
 			'title2':'游戏创业学Lua编程',
@@ -249,6 +262,7 @@ var coursedb = {
 		}, 		
 		'cs220p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS220p',
 			'title1':'Roblox游戏开发与Lua编程进阶',
 			'title2':'项目实践',
@@ -268,6 +282,7 @@ var coursedb = {
 		},
 		'cs230' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS230',
 			'title1':'Roblox游戏开发与Lua编程进阶',
 			'title2':'游戏创业学编程',
@@ -287,6 +302,7 @@ var coursedb = {
 		},
 		'cs240' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS240',
 			'title1':'人工智能初步与Lua实践',
 			'title2':'AI与智能游戏编程',
@@ -306,6 +322,7 @@ var coursedb = {
 		},
 		'cs300' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS300',
 			'title1':'Python编程初步',
 			'title2':'学做Minecraft游戏开发员',
@@ -325,6 +342,7 @@ var coursedb = {
 		},
 		'cs310p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS310p',
 			'title1':'Python编程初步',
 			'title2':'项目实践I',
@@ -344,6 +362,7 @@ var coursedb = {
 		},
 		'cs310' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS310',
 			'title1':'Python编程高阶',
 			'title2':'动手编写真正的计算机应用程序',
@@ -363,6 +382,7 @@ var coursedb = {
 		},
 		'cs320' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS320',
 			'title1':'数据结构与算法',
 			'title2':'数据结构与算法介绍',
@@ -382,6 +402,7 @@ var coursedb = {
 		},		
 		'cs311p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS311p',
 			'title1':'Python编程进阶',
 			'title2':'项目实践II',
@@ -401,6 +422,7 @@ var coursedb = {
 		},
 		'cs350' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS350',
 			'title1':'Lego机器人进阶之Java编程',
 			'title2':'用真正的编程控制机器人',
@@ -420,6 +442,7 @@ var coursedb = {
 		},
 		'cs360' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS360',
 			'title1':'Lego机器人进阶之高级传感器应用',
 			'title2':'做最强机器人',
@@ -439,6 +462,7 @@ var coursedb = {
 		},		
 		'cs400' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS400',
 			'title1':'MIT手机APP发明家',
 			'title2':'动手编写自己的APP做小小创业者',
@@ -458,6 +482,7 @@ var coursedb = {
 		},
 		'cs410' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS410',
 			'title1':'Unity3D游戏开发体验',
 			'title2':'从游戏玩家到游戏开发员',
@@ -477,6 +502,7 @@ var coursedb = {
 		},
 		'cs411p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS411p',
 			'title1':'Unity3D游戏开发体验',
 			'title2':'项目实践I',
@@ -496,6 +522,7 @@ var coursedb = {
 		},
 		'cs420' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS420',
 			'title1':'Unity3D游戏开发进阶',
 			'title2':'专业游戏游戏开发员养成之路',
@@ -515,6 +542,7 @@ var coursedb = {
 		},
 		'cs425' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS425',
 			'title1':'人工智能与游戏AI设计',
 			'title2':'专业游戏游戏开发员养成之路',
@@ -534,6 +562,7 @@ var coursedb = {
 		},
 		'cs430' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS430',
 			'title1':'AI人工智能初步与深度学习',
 			'title2':'Python高阶编程',
@@ -553,6 +582,7 @@ var coursedb = {
 		},		
 		'cs440' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS440',
 			'title1':'iPhone手机APP开发与Swift编程',
 			'title2':'在Apple商店发布你的手机App',
@@ -572,6 +602,7 @@ var coursedb = {
 		},
 		'cs441p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS441p',
 			'title1':'iPhone手机APP开发与Swift编程',
 			'title2':'项目实践',
@@ -591,6 +622,7 @@ var coursedb = {
 		},
 		'cs450' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS450',
 			'title1':'Android手机APP开发',
 			'title2':'在Google商店发布你的手机App',
@@ -610,6 +642,7 @@ var coursedb = {
 		},
 		'cs451p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS451',
 			'title1':'Android手机APP开发',
 			'title2':'项目开发',
@@ -629,6 +662,7 @@ var coursedb = {
 		},
 		'cs460' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS460',
 			'title1':'电子工程师成长之路',
 			'title2':'Arduino基础与图形化编程',
@@ -648,6 +682,7 @@ var coursedb = {
 		},
 		'cs461' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS461',
 			'title1':'电子工程师成长之路',
 			'title2':'Arduino硬件系统编程',
@@ -667,6 +702,7 @@ var coursedb = {
 		},
 		'cs470' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS470',
 			'title1':'Raspberry PI智能物联网系统编程',
 			'title2':'电子工程师成长之路',
@@ -686,6 +722,7 @@ var coursedb = {
 		},		
 		'cs471p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS471p',
 			'title1':'电子工程师成长之路',
 			'title2':'项目实践',
@@ -705,6 +742,7 @@ var coursedb = {
 		},
 		'cs480' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS480',
 			'title1':'Unreal游戏引擎专业游戏开发',
 			'title2':'做你自己的Fortnite',
@@ -724,6 +762,7 @@ var coursedb = {
 		},
 		'cs481p' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS481p',
 			'title1':'Unreal游戏引擎专业游戏开发',
 			'title2':'项目实践I',
@@ -743,6 +782,7 @@ var coursedb = {
 		},
 		'cs482' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS482',
 			'title1':'Unreal高级开发与VR应用',
 			'title2':'专业游戏开发工程师之路',
@@ -762,6 +802,7 @@ var coursedb = {
 		},
 		'cs485' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS485',
 			'title1':'Maya 3D动画设计与编程',
 			'title2':'动画游戏开发设计师之路',
@@ -781,6 +822,7 @@ var coursedb = {
 		},
 		'cs490' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS490',
 			'title1':'计算机信息与网络安全',
 			'title2':'做黑客的终结者',
@@ -800,6 +842,7 @@ var coursedb = {
 		},
 		'cs501' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS501',
 			'title1':'USACO信息学竞赛算法1',
 			'title2':'信息学介绍与算法初步',
@@ -819,6 +862,7 @@ var coursedb = {
 		},		
 		'cs502' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS502',
 			'title1':'USACO信息学竞赛算法2',
 			'title2':'高级语言功能与算法强化',
@@ -838,6 +882,7 @@ var coursedb = {
 		},		
 		'cs505' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS505',
 			'title1':'USACO信息学竞赛挑战3',
 			'title2':'备战计算机信息学奥赛',
@@ -857,6 +902,7 @@ var coursedb = {
 		},		
 		'cs510' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS510',
 			'title1':'AP CS基础训练营',
 			'title2':'Java编程入门及AP课程准备',
@@ -876,6 +922,7 @@ var coursedb = {
 		},
 		'cs520' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS520',
 			'title1':'AP CS考试冲刺训练营',
 			'title2':'AP CS备考强化训练',
@@ -895,6 +942,7 @@ var coursedb = {
 		},
 		'cs521' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS521',
 			'title1':'Python编程网络直播',
 			'title2':'学会Python，动手编写真正的计算机应用程序',
@@ -914,6 +962,7 @@ var coursedb = {
 		},		
 		'cs531' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS531',
 			'title1':'AP CSP手机APP编程训练营',
 			'title2':'挑战最新的AP CS课程',
@@ -933,6 +982,7 @@ var coursedb = {
 		},
 		'cs550' : {
 			'enabled':false,
+			'online':false,
 			'cid':'CS550',
 			'title1':'Lego机器人竞赛备战',
 			'title2':'挑战真正的Lego竞赛',
@@ -952,6 +1002,7 @@ var coursedb = {
 		},
 		'cs560' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS560',
 			'title1':'名校申请背景强化课程',
 			'title2':'计算机编程系列手机App编程开发',
@@ -971,6 +1022,7 @@ var coursedb = {
 		},
 		'cs561' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS561',
 			'title1':'名校申请背景强化课程',
 			'title2':'计算机编程系列Unity3D游戏开发',
@@ -990,6 +1042,7 @@ var coursedb = {
 		},
 		'cs562' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS562',
 			'title1':'名校申请背景强化课程',
 			'title2':'Python竞技编程与项目实践',
@@ -1009,6 +1062,7 @@ var coursedb = {
 		},
 		'cs563' : {
 			'enabled':true,
+			'online':true,
 			'cid':'CS563',
 			'title1':'名校申请背景强化课程',
 			'title2':'人工智能基础与项目实践',
@@ -1028,6 +1082,7 @@ var coursedb = {
 		},
 		'cs564' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS564',
 			'title1':'名校申请背景强化课程',
 			'title2':'Technovation编程竞技与创业竞赛',
@@ -1047,6 +1102,7 @@ var coursedb = {
 		},
 		'cs570' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS570',
 			'title1':'名校申请背景强化课程',
 			'title2':'青少年科技创业项目',
@@ -1066,6 +1122,7 @@ var coursedb = {
 		},
 		'cs571' : {
 			'enabled':true,
+			'online':false,
 			'cid':'CS571',
 			'title1':'Science Fair科学竞赛强化',
 			'title2':'编程助理科学竞赛',
@@ -1100,4 +1157,4 @@ Object.keys(coursedb.cn).forEach(key=>{
 	}
 )
 
-console.log(JSON.stringify(templist))
+// console.log(JSON.stringify(templist))
