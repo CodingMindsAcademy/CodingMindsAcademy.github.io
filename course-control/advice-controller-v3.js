@@ -63,8 +63,9 @@ angular.module('v3App', [])
               
         //   }
         //   })
-        console.log(response);
+        console.log(response.data);
         $scope.student = response.data;
+        $scope.suggestedCourses = response.data.suggestedCourses;
         }, function errorCallback(response) {
           console.log(response);
         });
