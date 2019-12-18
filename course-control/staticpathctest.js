@@ -6,7 +6,6 @@ angular.module('v3App', ['ngMaterial'])
   
  $scope.courseListIrvine = irvinedb;
  $scope.courseListArcadia = arcadiadb;
- $scope.courseListOnline = onlinedb;
  $scope.form = {};
  $scope.submit = function(courseId) {
   $(`#${courseId}`).removeClass('modal-active');
