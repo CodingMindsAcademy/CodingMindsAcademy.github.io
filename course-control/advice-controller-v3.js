@@ -5,41 +5,40 @@ angular.module('v3App', [])
   .factory('myService', function($http) {
 
     var getData = function() {
-
         // Angular $http() and then() both return promises themselves 
         return $http({
             method: 'GET',
-            url: '/course-control/courseDB_cn.json',
-
-        }).then(function successCallback(response) {
-            // console.log(response);
-            // $scope.coursedb = response;
-            return response;
-        }, function errorCallback(response) {
-            // called asynchronously if an error occurs
-            // or server returns response with an error status.
-            console.log(response);
-        });
+            url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+$scope.stuid,
+            headers: {
+              'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+            },     
+          }).then(function successCallback(response) {
+            $scope.student = response.data;
+            $scope.suggestedCourses = response.data.suggestedCourses;
+            
+            $scope.courseListIrvine = irvinedb;
+            $scope.courseListArcadia = arcadiadb;
+            $scope.courseListOnline = onlinedb;
+            
+            }, function errorCallback(response) {
+              console.log(response);
+            });
     };
-
-
     return { getData: getData };
 })
-  .controller('FeedbackController', function($scope, $location,$http) {
+  .controller('FeedbackController', function($scope, $location, $http) {
     
     // $scope.courseReady = false;
-    $scope.compList = [];
-    for(var key in competitionMap) {      
-      $scope.compList.push(competitionMap[key]);
-    }
-    $scope.courseListIrvine = irvinedb;
-    $scope.courseListArcadia = arcadiadb;
-    $scope.courseListOnline = onlinedb;
+    // $scope.compList = [];
+    // for(var key in competitionMap) {      
+    //   $scope.compList.push(competitionMap[key]);
+    // }
+
     var url = $location.$$absUrl;
     $scope.currentUrl = url;
     $scope.stuid = $scope.currentUrl.slice($scope.currentUrl.indexOf('=')+1, url.length);
     console.log($scope.stuid);
-    
+    $scope.ready = false;
     $http({
         method: 'GET',
         url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+$scope.stuid,
@@ -47,26 +46,13 @@ angular.module('v3App', [])
           'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
         },     
       }).then(function successCallback(response) {
-        //   response.data.sort(function(a,b){
-        //     return (a.courseCode < b.courseCode) ? -1 : (a.courseCode > b.courseCode) ? 1 : 0;
-        //   })
-        //   var courses = response.data;
-        //   console.log(courses);
-        //   courses.forEach(course=>{
-        //     if(course.courseCode in irvineDB){
-        //         course['repeatData'] = irvineDB[course.courseCode]
-        //         $scope.courseListIrvine.push(course);
-                
-        //     }
-        //     if(course.courseCode in arcadiaDB){
-        //       course['repeatData'] = arcadiaDB[course.courseCode] 
-        //       $scope.courseListArcadia.push(course);
-              
-        //   }
-        //   })
-        console.log(response.data);
         $scope.student = response.data;
         $scope.suggestedCourses = response.data.suggestedCourses;
+        $scope.courseListIrvine = irvinedb;
+        $scope.courseListArcadia = arcadiadb;
+        $scope.courseListOnline = onlinedb;
+        $scope.ready = true;
+        
         }, function errorCallback(response) {
           console.log(response);
         });
