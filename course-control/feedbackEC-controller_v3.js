@@ -50,6 +50,10 @@ angular.module('v3App', [])
               console.log("Not yet notified, therefore no logId!");
             });
         };
+        $scope.redirect = function() {
+          console.log($scope.text)
+          window.location.href="https://codingmindsacademy.com/advice.html?id="+student_id;
+        };
       }, function errorCallback(response) {
         // called asynchronously if an error occurs
         // or server returns response with an error status.

@@ -26,36 +26,42 @@ angular.module('v3App', [])
     };
     return { getData: getData };
 })
-  .controller('FeedbackController', function($scope, $location, $http) {
+  .controller('FeedbackController', function($scope, $location, $log) {
     
-    // $scope.courseReady = false;
-    // $scope.compList = [];
-    // for(var key in competitionMap) {      
-    //   $scope.compList.push(competitionMap[key]);
-    // }
+    $scope.compList = [];
+    for(var key in competitionMap) {      
+      $scope.compList.push(competitionMap[key]);
+    }
 
     var url = $location.$$absUrl;
     $scope.currentUrl = url;
     $scope.stuid = $scope.currentUrl.slice($scope.currentUrl.indexOf('=')+1, url.length);
     console.log($scope.stuid);
-    $scope.ready = false;
-    $http({
-        method: 'GET',
-        url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+$scope.stuid,
-        headers: {
-          'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
-        },     
-      }).then(function successCallback(response) {
-        $scope.student = response.data;
-        $scope.suggestedCourses = response.data.suggestedCourses;
+        var suggestedCourses = {'a':[],'i':[], 'o':[]};
+        $scope.suggestedCourses = id_courses[$scope.stuid];
+        console.log($scope.suggestedCourses);
+        irvinedb.forEach(course=>{
+            if($scope.suggestedCourses.includes(course.courseCode)){
+                suggestedCourses['i'].push(course);
+            }
+        });
+        arcadiadb.forEach(course=>{
+            if($scope.suggestedCourses.includes(course.courseCode)){
+                suggestedCourses['a'].push(course);
+            }
+        });
+        onlinedb.forEach(course=>{
+            if($scope.suggestedCourses.includes(course.courseCode)){
+                suggestedCourses['o'].push(course);
+            }
+        });
+        $log.info(suggestedCourses);
         $scope.courseListIrvine = irvinedb;
         $scope.courseListArcadia = arcadiadb;
         $scope.courseListOnline = onlinedb;
-        $scope.ready = true;
+
+
         
-        }, function errorCallback(response) {
-          console.log(response);
-        });
     // $scope.stuid = stuid;
       $(function () {
     $masonry = $('.masonry1').masonry({
