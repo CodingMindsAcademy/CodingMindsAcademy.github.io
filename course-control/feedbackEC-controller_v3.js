@@ -52,7 +52,7 @@ angular.module('v3App', [])
         };
         $scope.redirect = function() {
           console.log($scope.text)
-          window.location.href="https://codingmindsacademy.com/advice.html?id="+student_id;
+          window.location.href="https://codingmindsacademy.com/advice_v2.html?id="+student_id;
         };
       }, function errorCallback(response) {
         // called asynchronously if an error occurs
