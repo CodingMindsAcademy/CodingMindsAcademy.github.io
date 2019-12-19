@@ -38,24 +38,24 @@ angular.module('v3App', [])
     $scope.stuid = $scope.currentUrl.slice($scope.currentUrl.indexOf('=')+1, url.length);
     console.log($scope.stuid);
         var suggestedCourses = {'a':[],'i':[], 'o':[]};
-        $scope.suggestedCourses = id_courses[$scope.stuid];
-        console.log($scope.suggestedCourses);
-        irvinedb.forEach(course=>{
-            if($scope.suggestedCourses.includes(course.courseCode)){
-                suggestedCourses['i'].push(course);
-            }
-        });
-        arcadiadb.forEach(course=>{
-            if($scope.suggestedCourses.includes(course.courseCode)){
-                suggestedCourses['a'].push(course);
-            }
-        });
-        onlinedb.forEach(course=>{
-            if($scope.suggestedCourses.includes(course.courseCode)){
-                suggestedCourses['o'].push(course);
-            }
-        });
-        $log.info(suggestedCourses);
+        // $scope.suggestedCourses = id_courses[$scope.stuid];
+        // console.log($scope.suggestedCourses);
+        // irvinedb.forEach(course=>{
+        //     if($scope.suggestedCourses.includes(course.courseCode)){
+        //         suggestedCourses['i'].push(course);
+        //     }
+        // });
+        // arcadiadb.forEach(course=>{
+        //     if($scope.suggestedCourses.includes(course.courseCode)){
+        //         suggestedCourses['a'].push(course);
+        //     }
+        // });
+        // onlinedb.forEach(course=>{
+        //     if($scope.suggestedCourses.includes(course.courseCode)){
+        //         suggestedCourses['o'].push(course);
+        //     }
+        // });
+        // $log.info(suggestedCourses);
         $scope.courseListIrvine = irvinedb;
         $scope.courseListArcadia = arcadiadb;
         $scope.courseListOnline = onlinedb;
