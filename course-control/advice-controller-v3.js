@@ -42,14 +42,16 @@ angular.module('v3App', [])
 
     var suggestedCourses;
     $scope.suggestedCourses = [];
+    $scope.courseLevel;
     if (irvineStuList.includes($scope.stuid)){
 
         $scope.campus = "Irvine校区"
         $scope.courseList = irvinedb;
         suggestedCourses = id_courses[$scope.stuid];
-        console.log($scope.suggestedCourses);
+        // console.log($scope.suggestedCourses);
         irvinedb.forEach(course=>{
             if(suggestedCourses.includes(course.courseCode)){
+                $scope.courseLevel = course.gradeLevel;
                 $scope.suggestedCourses.push(course);
             }
         });
@@ -59,15 +61,16 @@ angular.module('v3App', [])
         $scope.courseList = arcadiadb;
 
         suggestedCourses = id_courses[$scope.stuid];
-        console.log($scope.suggestedCourses);
+        // console.log($scope.suggestedCourses);
         arcadiadb.forEach(course=>{
             if(suggestedCourses.includes(course.courseCode)){
+                $scope.courseLevel = course.gradeLevel;
                 $scope.suggestedCourses.push(course);
             }
         });
     }
-      
-        
+      // $scope.courseLevel = 'true';
+        // console.log($scope.courseLevel);
     // $scope.stuid = stuid;
       $(function () {
     $masonry = $('.masonry1').masonry({

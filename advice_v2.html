@@ -139,11 +139,11 @@
                                                     <td style="width: 50%">编程级别</td>
                                                     <td style="width: 50%">
                                                         <ul>
-                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 1, 'color--primary-todo': getStuDb(stuid).levelNext == 1}">L1 图形化编程</li>
-                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 2, 'color--primary-todo': getStuDb(stuid).levelNext == 2}">L2 简洁代码编程</li>
-                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 3, 'color--primary-todo': getStuDb(stuid).levelNext == 3}">L3 代码编程</li>
-                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 4, 'color--primary-todo': getStuDb(stuid).levelNext == 4}">L4 应用主体编程</li>
-                                                            <li ng-class="{'color--primary': getStuDb(stuid).level == 5, 'color--primary-todo': getStuDb(stuid).levelNext == 5}">L5 竞技编程</li>
+                                                            <li ng-class="{'color--primary': courseLevel == 'L1图形化编程', 'color--primary-todo': courseLevelNext == 1}">L1 图形化编程</li>
+                                                            <li ng-class="{'color--primary': courseLevel == 'L2简洁代码编程', 'color--primary-todo': courseLevelNext == 3}">L2 简洁代码编程</li>
+                                                            <li ng-class="{'color--primary': courseLevel == 'L3代码编程', 'color--primary-todo': courseLevelNext == 3}">L3 代码编程</li>
+                                                            <li ng-class="{'color--primary': courseLevel == 'L4应用主体编程', 'color--primary-todo': courseLevelNext == 4}">L4 应用主体编程</li>
+                                                            <li ng-class="{'color--primary': courseLevel == 'L5竞技编程', 'color--primary-todo': courseLevelNext == 5}">L5 竞技编程</li>
                                                         </ul>
                                                     </td>
                                                 </tr>
@@ -155,16 +155,16 @@
                                             <i class="icon icon-Target color--primary"></i>
                                             <!-- <h2 class="text-center">2019-2020年度<br>学习与竞赛目标<br></h2> -->
                                             <span class="text-center h4">2019-2020年度<br>主要竞赛目标</span>
-                                            <span class="text-center h5 color--primary">蓝色为主要竞赛目标</span>
+                                            <!-- <span class="text-center h5 color--primary">蓝色为主要竞赛目标</span> -->
                                             <table class="border--round table--alternate-row">
                                                 <tbody>
                                                     <tr>
-                                                        <td style="width: 60%"><b>竞赛名称</b></td>
-                                                        <td style="width: 40%"><b>竞赛时间</b></td>
+                                                        <td style="width: 50%"><b>竞赛名称</b></td>
+                                                        <td style="width: 50%"><b>竞赛时间</b></td>
                                                     </tr>
                                                     <tr ng-repeat="comp in compList">
-                                                        <td ng-class="{'color--primary': getStuDb(stuid).compTodo.indexOf(comp.id) >= 0, 'color--gray': getStuDb(stuid).compTodo.indexOf(comp.id) < -1}" style="width: 60%">{{comp.name}}</td>
-                                                        <td ng-class="{'color--primary': getStuDb(stuid).compTodo.indexOf(comp.id) >= 0, 'color--gray': getStuDb(stuid).compTodo.indexOf(comp.id) < -1}" style="width: 40%">{{comp.date}}</td>
+                                                        <td>{{comp.name}}</td>
+                                                        <td >{{comp.date}}</td>
                                                     </tr>                                
                                                 </tbody>
                                             </table>
@@ -186,142 +186,8 @@
     
                     <div class="tabs-container" data-content-align="center">
                         <ul  class="tabs">
+                            
                             <li class="active">
-                                <div class="tab__title">
-                                    <span class="h5">{{campus}}</span>
-                                </div>
-                                <div class="tab__content">
-    
-                                <!-- <div class="masonry"> -->
-                                <div class="masonry1">
-                                        <div class="col-sm-12">
-    
-                                        <div>
-                                        <!-- <div class="masonry__container"> -->
-                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
-                                                <div class="card card-2 text-center">
-                                                    <div class="card__top">
-                                                        <span id="cmbg" class="label">{{course.gradeLevel}}</span>
-                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
-                                                    </div>
-                                                    <div class="card__body">
-                                                        <h4>{{course.title1}}</h4>
-                                                        <p>
-                                                            {{course.text}}
-                                                        </p>
-                                                    </div>
-                                                    <div class="card__bottom text-center">
-                                                        <div class="card__action">
-                                                            <div class="modal-instance block">
-                                                                <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
-                                                                <div class="modal-container">
-                                                                    <div class="modal-content">
-                                                                        <section class="imageblock feature-large bg--white border--round ">
-                                                                            <div class="container" style="padding-top: 1.1em">
-                                                                                <div class="row" style="height: calc(100vh - 100px)">
-                                                                                    <!-- <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe> -->
-                                                                                </div>
-                                                                                <!--end of container-->
-                                                                            </div>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card__action">
-                                                            <div class="modal-instance block">
-                                                                <a class="btn toggle_schedule" href="#">
-                                                                    <span class="btn__text">
-                                                                        选择课程时间
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- The following should be toggled by the button above -->
-                                                    <div class="card__body course_schedule" style="display: none;">
-                                                        <h4>课程时间</h4>
-                                                        <table class="border--round table--alternate-row">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td style="width: 31%"><b>日期</b></td>
-                                                                    <td style="width: 28%"><b>时间</b></td>
-                                                                    <td style="width: 28%"><b>注册</b></td>
-                                                                    <!--<td style="width: 19%"><b>价格</b></td>-->
-                                                                </tr>
-                                                                <tr ng-repeat="data in course['repeatData']">
-                                                                    <td style="width: 31%">{{data.range}}<br>上半期八周</td>
-                                                                    <td style="width: 28%">{{data.dayTime}}</td>
-                                                                    <td style="width: 28%">
-                                                                        <div class="modal-instance">
-                                                                            <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
-                                                                            <div id={{data.courseid}} class="modal-container">
-                                                                                <div class="modal-content section-modal">
-                                                                                    <section class="unpad ">
-                                                                                        <div class="container">
-                                                                                            <div class="row">
-                                                                                                <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
-                                                                                                    <div class="boxed boxed--lg bg--white text-center feature">
-                                                                                                        <div class="modal-close modal-close-cross"></div>
-                                                                                                        <h3>填写报名信息</h3>
-                                                                                                        <h5>{{course.shortName}}</h5>
-                                                                                                        <h5 style="margin-bottom: 0;">{campus}</h5>
-                                                                                                        <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
-                                                                                                        <p><b>时间：</b>{{data.dayTime}}</p>
-                                                                                                        <hr data-title="OR">
-                                                                                                        <div class="feature__body">
-                                                                                                            <form ng-submit="submit(data.courseid)">
-                                                                                                                <div class="row">
-                                                                                                                    <div class="col-sm-6">
-                                                                                                                        <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-6">
-                                                                                                                        <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="text" ng-model="form.grade" placeholder="年级" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="email" ng-model="form.parentEmail" placeholder="Email" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="number" ng-model="form.parentPhoneNumber" placeholder="联系电话" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <button class="btn btn--primary type--uppercase" type="submit">注册</button>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <!--end of row-->
-                                                                                                            </form>
-                                                                                                            <span class="type--fine-print block">如有疑问请联系我们
-                                                                                                                <a href="contact-us-cn.html">联系我们</a>
-                                                                                                            </span>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <!--end of row-->
-                                                                                        </div>
-                                                                                        <!--end of container-->
-                                                                                    </section>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-    
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class>
     
                                     <div class="tab__title">
                                         <span class="h5">推荐课程</span>
@@ -459,6 +325,141 @@
                                     </div>
                                     </div>
                                 </li>
+                                <li class>
+                                <div class="tab__title">
+                                    <span class="h5">{{campus}}</span>
+                                </div>
+                                <div class="tab__content">
+    
+                                <!-- <div class="masonry"> -->
+                                <div class="masonry1">
+                                        <div class="col-sm-12">
+    
+                                        <div>
+                                        <!-- <div class="masonry__container"> -->
+                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
+                                                <div class="card card-2 text-center">
+                                                    <div class="card__top">
+                                                        <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                    </div>
+                                                    <div class="card__body">
+                                                        <h4>{{course.title1}}</h4>
+                                                        <p>
+                                                            {{course.text}}
+                                                        </p>
+                                                    </div>
+                                                    <div class="card__bottom text-center">
+                                                        <div class="card__action">
+                                                            <div class="modal-instance block">
+                                                                <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
+                                                                <div class="modal-container">
+                                                                    <div class="modal-content">
+                                                                        <section class="imageblock feature-large bg--white border--round ">
+                                                                            <div class="container" style="padding-top: 1.1em">
+                                                                                <div class="row" style="height: calc(100vh - 100px)">
+                                                                                    <!-- <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe> -->
+                                                                                </div>
+                                                                                <!--end of container-->
+                                                                            </div>
+                                                                        </section>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__action">
+                                                            <div class="modal-instance block">
+                                                                <a class="btn toggle_schedule" href="#">
+                                                                    <span class="btn__text">
+                                                                        选择课程时间
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- The following should be toggled by the button above -->
+                                                    <div class="card__body course_schedule" style="display: none;">
+                                                        <h4>课程时间</h4>
+                                                        <table class="border--round table--alternate-row">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="width: 31%"><b>日期</b></td>
+                                                                    <td style="width: 28%"><b>时间</b></td>
+                                                                    <td style="width: 28%"><b>注册</b></td>
+                                                                    <!--<td style="width: 19%"><b>价格</b></td>-->
+                                                                </tr>
+                                                                <tr ng-repeat="data in course['repeatData']">
+                                                                    <td style="width: 31%">{{data.range}}<br>上半期八周</td>
+                                                                    <td style="width: 28%">{{data.dayTime}}</td>
+                                                                    <td style="width: 28%">
+                                                                        <div class="modal-instance">
+                                                                            <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
+                                                                            <div id={{data.courseid}} class="modal-container">
+                                                                                <div class="modal-content section-modal">
+                                                                                    <section class="unpad ">
+                                                                                        <div class="container">
+                                                                                            <div class="row">
+                                                                                                <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                                                                    <div class="boxed boxed--lg bg--white text-center feature">
+                                                                                                        <div class="modal-close modal-close-cross"></div>
+                                                                                                        <h3>填写报名信息</h3>
+                                                                                                        <h5>{{course.shortName}}</h5>
+                                                                                                        <h5 style="margin-bottom: 0;">{campus}</h5>
+                                                                                                        <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
+                                                                                                        <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                                        <hr data-title="OR">
+                                                                                                        <div class="feature__body">
+                                                                                                            <form ng-submit="submit(data.courseid)">
+                                                                                                                <div class="row">
+                                                                                                                    <div class="col-sm-6">
+                                                                                                                        <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-6">
+                                                                                                                        <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-12">
+                                                                                                                        <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-12">
+                                                                                                                        <input type="email" ng-model="form.parentEmail" placeholder="Email" />
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-12">
+                                                                                                                        <input type="number" ng-model="form.parentPhoneNumber" placeholder="联系电话" />
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-12">
+                                                                                                                        <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-12">
+                                                                                                                        <button class="btn btn--primary type--uppercase" type="submit">注册</button>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <!--end of row-->
+                                                                                                            </form>
+                                                                                                            <span class="type--fine-print block">如有疑问请联系我们
+                                                                                                                <a href="contact-us-cn.html">联系我们</a>
+                                                                                                            </span>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <!--end of row-->
+                                                                                        </div>
+                                                                                        <!--end of container-->
+                                                                                    </section>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+    
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                                 <li class>
     
                                     <div class="tab__title">
