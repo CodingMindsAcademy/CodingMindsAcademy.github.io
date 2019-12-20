@@ -1,4 +1,3 @@
-
 var id_courses = 
 {
 	"5bd10588cecc9b00145d1fb6" : [
@@ -42,6 +41,15 @@ var id_courses =
 	"5d798d791ce11a0015a14944" : [
 		"cs230"
 	],
+	"5cd4ae15ce28bf0015df6b99" : [
+		"cs490",
+		"cs571"
+	],
+	"5cd4af4cce28bf0015df6ba3" : [
+		"cs490",
+		"cs571",
+		"cs470"
+	],
 	"5d7ac3d4fc31a60015109f4e" : [
 		"cs310"
 	],
@@ -59,6 +67,9 @@ var id_courses =
 	],
 	"5d7ac575fc31a60015109f63" : [
 		"cs310"
+	],
+	"5cd4ae10ce28bf0015df6b97" : [
+		"cs570"
 	],
 	"5d7ae69ef7111800159ed8f4" : [
 		"cs310"
@@ -174,6 +185,15 @@ var id_courses =
 		"cs420",
 		"cs470"
 	],
+	"5d0d3f52fce07c0015eac364" : [
+		"cs510",
+		"cs570",
+		"cs490"
+	],
+	"5cde02a006c7b500154807a9" : [
+		"cs510",
+		"cs490"
+	],
 	"5cd745fd660b8200158b2bb8" : [
 		"cs490"
 	],
@@ -196,8 +216,16 @@ var id_courses =
 	"5d7c1b00d708030015fd79d8" : [
 		"cs230"
 	],
+	"5d7c1bc6d708030015fd79e0" : [
+		"cs200",
+		"cs240"
+	],
 	"5d7c22f8d708030015fd79e4" : [
 		"cs230"
+	],
+	"5d7c2e35d708030015fd79f0" : [
+		"cs430",
+		"cs410"
 	],
 	"5d7d1264c7ace600159d3e33" : [
 		"cs230"
@@ -302,9 +330,35 @@ var id_courses =
 		"cs310",
 		"cs220"
 	],
+	"5cd4ae1dce28bf0015df6b9b" : [
+		"cs490",
+		"cs571",
+		"cs510"
+	],
 	"5d896d75e15b4d0015e8a326" : [
 		"cs490",
 		"cs480"
+	],
+	"5d8a9f2fbf5d860015dc4707" : [
+		"cs310",
+		"cs470"
+	],
+	"5d8aaff8bf5d860015dc4711" : [
+		"cs170",
+		"cs240"
+	],
+	"5d8ab343bf5d860015dc4715" : [
+		"cs200",
+		"cs230"
+	],
+	"5d8ac036bf5d860015dc471c" : [
+		"cs490",
+		"cs571",
+		"cs310"
+	],
+	"5d8ac098bf5d860015dc471e" : [
+		"cs490",
+		"cs571"
 	],
 	"5d8bfc0b802894001563ce9d" : [
 		"cs300"
@@ -313,11 +367,116 @@ var id_courses =
 		"cs430",
 		"cs470"
 	],
+	"5d8d379533aeec0015315a25" : [
+		"cs230"
+	],
+	"5d8d3e2233aeec0015315a2b" : [
+		"cs510",
+		"cs490"
+	],
+	"5d8d53d633aeec0015315a4b" : [
+		"cs240",
+		"cs410"
+	],
+	"5d8d542f33aeec0015315a50" : [
+		"cs240",
+		"cs410"
+	],
+	"5d8d543533aeec0015315a52" : [
+		"cs240",
+		"cs410"
+	],
+	"5d8d544b33aeec0015315a56" : [
+		"cs240",
+		"cs410"
+	],
+	"5d8d559b33aeec0015315a58" : [
+		"cs240",
+		"cs300"
+	],
+	"5d8d640033aeec0015315a6a" : [
+		"cs200"
+	],
+	"5d8d640633aeec0015315a6c" : [
+		"cs200"
+	],
+	"5d8e9be3580d8e00159a1f23" : [
+		"cs430",
+		"cs410"
+	],
+	"5d8e9e06580d8e00159a1f28" : [
+		"cs200",
+		"cs160"
+	],
+	"5d8e9e76580d8e00159a1f2b" : [
+		"cs200",
+		"cs160"
+	],
+	"5d8eb8de580d8e00159a2581" : [
+		"cs570"
+	],
+	"5d8fa2b8580d8e00159a259c" : [
+		"cs310",
+		"cs400"
+	],
+	"5d8fa4e9580d8e00159a25a1" : [
+		"cs230",
+		"cs300"
+	],
+	"5d8fa4f8580d8e00159a25a3" : [
+		"cs230",
+		"cs300"
+	],
+	"5d8fa4fd580d8e00159a25a5" : [
+		"cs230",
+		"cs200"
+	],
+	"5d8fa5d2580d8e00159a25a8" : [
+		"cs230",
+		"cs200"
+	],
+	"5d8fab42580d8e00159a25ae" : [
+		"cs310",
+		"cs400"
+	],
+	"5d8fab63580d8e00159a25b0" : [
+		"cs240",
+		"cs310"
+	],
 	"5d8fb220580d8e00159a25c3" : [
 		"cs310"
 	],
+	"5d8fca55b897b400156ddcb3" : [
+		"cs200",
+		"cs160"
+	],
+	"5d8fcaa2b897b400156ddcb5" : [
+		"cs200",
+		"cs160"
+	],
 	"5d92968837b73f001525856a" : [
 		"cs310"
+	],
+	"5d92969737b73f001525856c" : [
+		"cs310",
+		"cs410"
+	],
+	"5d9296ab37b73f001525856e" : [
+		"cs310",
+		"cs410"
+	],
+	"5d9296c037b73f0015258570" : [
+		"cs310",
+		"cs410"
+	],
+	"5cd4af1ace28bf0015df6b9f" : [
+		"cs490",
+		"cs571",
+		"cs470"
+	],
+	"5d93e7b93deb0d0015427c55" : [
+		"cs240",
+		"cs170"
 	],
 	"5d9670494fda800015f8ede2" : [
 		"cs210"
@@ -325,8 +484,38 @@ var id_courses =
 	"5d9672374fda800015f8ede4" : [
 		"cs210"
 	],
+	"5d98c51744c0a70015c0f733" : [
+		"cs400",
+		"cs300"
+	],
+	"5d98c62344c0a70015c0f736" : [
+		"cs570"
+	],
+	"5d98c6ce44c0a70015c0f738" : [
+		"cs300",
+		"cs240"
+	],
+	"5d98c8e044c0a70015c0f73b" : [
+		"cs240",
+		"cs400"
+	],
+	"5d98d97144c0a70015c0f750" : [
+		"cs300",
+		"cs240"
+	],
+	"5d98e69244c0a70015c0f75a" : [
+		"cs230",
+		"cs300"
+	],
+	"5d98f13f44c0a70015c0f76c" : [
+		"cs310",
+		"cs470"
+	],
 	"5d992d2b8fa98c001578d44f" : [
 		"cs200"
+	],
+	"5d9934ba8fa98c001578d456" : [
+		"cs310"
 	],
 	"5d9a58648fa98c001578d466" : [
 		"cs310"
@@ -364,8 +553,43 @@ var id_courses =
 	"5db77bdc901f840015fa7b27" : [
 		"cs563"
 	],
+	"5db79205901f840015fa7b2f" : [
+		"cs310",
+		"cs410"
+	],
 	"5db8d137bd338600150b411d" : [
 		"cs170"
+	],
+	"5dba23fc57a73f001421492c" : [
+		"cs310",
+		"cs510"
+	],
+	"5dbdb7d2622dd90014c75d26" : [
+		"cs310"
+	],
+	"5dbdb7f1622dd90014c75d28" : [
+		"cs310"
+	],
+	"5dbdb892622dd90014c75d2c" : [
+		"cs310"
+	],
+	"5dbdbecb622dd90014c75d31" : [
+		"cs130"
+	],
+	"5dbdbf97622dd90014c75d34" : [
+		"cs130"
+	],
+	"5dbdc46f622dd90014c75d38" : [
+		"cs485",
+		"cs410"
+	],
+	"5dbdc87c622dd90014c75d3c" : [
+		"cs300",
+		"cs210"
+	],
+	"5d0d3f0bfce07c0015eac360" : [
+		"cs490",
+		"cs571"
 	],
 	"5dbf3863f61b9600141a5289" : [
 		"cs210"
@@ -403,7 +627,195 @@ var id_courses =
 		"cs220"
 	]
 }
-
+var id_name = 
+{
+	"5bd10588cecc9b00145d1fb6" : "Grace",
+	"5bda3ba91287140014027bc1" : "Sam",
+	"5c8973a2f3e1cf0014c2c048" : "Dylan",
+	"5cd35e7a6ee2680015da8a76" : "Gary",
+	"5cd744c6660b8200158b2ba9" : "Jichuan",
+	"5add68ff2898d6002f51f679" : "Mark",
+	"5d6460b134e29b0015e2e9df" : "Tom",
+	"5d6460c134e29b0015e2e9e1" : "Johnny",
+	"5d798bd41ce11a0015a14921" : "Paris",
+	"5d798bda1ce11a0015a14923" : "lucas",
+	"5d798c841ce11a0015a14928" : "George",
+	"5d798d5c1ce11a0015a14942" : "Jinyi",
+	"5d798d791ce11a0015a14944" : "tina",
+	"5cd4ae15ce28bf0015df6b99" : "eric",
+	"5cd4af4cce28bf0015df6ba3" : "Jerry",
+	"5d7ac3d4fc31a60015109f4e" : "Oneal",
+	"5d7ac3e6fc31a60015109f50" : "Jerry",
+	"5d7ac417fc31a60015109f55" : "andy",
+	"5d7ac439fc31a60015109f5b" : "Tingyu",
+	"5d7ac4e9fc31a60015109f61" : "Kevin",
+	"5d7ac575fc31a60015109f63" : "Keren",
+	"5cd4ae10ce28bf0015df6b97" : "Johnny",
+	"5d7ae69ef7111800159ed8f4" : "Leo",
+	"5cd35dda6ee2680015da8a72" : "Kanon",
+	"5d64611234e29b0015e2e9e3" : "Heaven",
+	"5d6487ad34e29b0015e2e9f9" : "Raymond",
+	"5d6487e234e29b0015e2e9fb" : "Eric",
+	"5d66fde4965baa0015e91a24" : "Alexander",
+	"5d6857a5d4b125001518e6af" : "jaiden",
+	"5d6857c0d4b125001518e6b1" : "Oscar",
+	"5d6857ecd4b125001518e6b4" : "Jacob",
+	"5d6ac884bbc6a30015c925e8" : "Jared",
+	"5d6ac8bdbbc6a30015c925ea" : "Daniel",
+	"5d6ac980bbc6a30015c925f2" : "Jack",
+	"5d6ad784bbc6a30015c92608" : "Chen",
+	"5d6ad792bbc6a30015c9260a" : "Matthew",
+	"5d6ad79fbbc6a30015c9260e" : "Kayden",
+	"5d70298a7e1c1100153b3bd8" : "emma",
+	"5d702a0a7e1c1100153b3bdc" : "Zoe",
+	"5d702a357e1c1100153b3be0" : "Ethan",
+	"5d702a577e1c1100153b3be6" : "neil",
+	"5d73e3ad6f42030015ad10ca" : "Mylyn",
+	"5d73eefc6f42030015ad10d5" : "David",
+	"5d73ef106f42030015ad10d7" : "Vivienne",
+	"5d73ef436f42030015ad10db" : "Cinna",
+	"5d73f43d6f42030015ad10eb" : "jack",
+	"5d73f4b96f42030015ad10f1" : "Leonard",
+	"5d73f4d56f42030015ad10f6" : "jason",
+	"5d743840f8d4540015bac9aa" : "Kevin",
+	"5d76d2b4fb31e600151dc0ef" : "Donald",
+	"5d76d2c2fb31e600151dc0f1" : "george",
+	"5d76d2cefb31e600151dc0f3" : "Angel",
+	"5d76d374fb31e600151dc0f9" : "Darren",
+	"5d76d399fb31e600151dc0fb" : "Takuya",
+	"5d76d3cbfb31e600151dc0fd" : "jiacheng",
+	"5d76d491fb31e600151dc101" : "Jack",
+	"5d798e491ce11a0015a1494a" : "jonathan",
+	"5cd35ecd6ee2680015da8a7b" : "jason",
+	"5d0d3f52fce07c0015eac364" : "Hugo",
+	"5cde02a006c7b500154807a9" : "Aaron",
+	"5cd745fd660b8200158b2bb8" : "Bozhen",
+	"5cd0d092f7e0e600158a3a52" : "eric",
+	"5ce342a098971a00150bbab2" : "jiajun",
+	"5d6d993e9c67fa0015549b1e" : "henry",
+	"5d7ae845f7111800159ed8fa" : "Thomas",
+	"5cd0d206f7e0e600158a3a5f" : "Daniel",
+	"5d7c1b00d708030015fd79d8" : "Bruce",
+	"5d7c1bc6d708030015fd79e0" : "Wenona",
+	"5d7c22f8d708030015fd79e4" : "Kevin",
+	"5d7c2e35d708030015fd79f0" : "Jesse",
+	"5d7d1264c7ace600159d3e33" : "Joshua",
+	"5d7d13b1c7ace600159d3e36" : "Sophia",
+	"5d7d14ebc7ace600159d3e39" : "Joanne",
+	"5d7d1553c7ace600159d3e3c" : "Carson",
+	"5d7d15adc7ace600159d3e41" : "Jason",
+	"5d7d1624c7ace600159d3e45" : "William",
+	"5d7d166ec7ace600159d3e49" : "Shawn",
+	"5d7d16f2c7ace600159d3e4c" : "Mia",
+	"5d7d2d8bc7ace600159d3e69" : "Amy",
+	"5d7d2d99c7ace600159d3e6b" : "Bill",
+	"5d7d2f39c7ace600159d3e8c" : "Andy",
+	"5d73e4386f42030015ad10cc" : "Ryan",
+	"5d7d37f2c7ace600159d3e90" : "Thomas",
+	"5d7d385dc7ace600159d3e94" : "michael",
+	"5d7d5af6f93da90015a3c00f" : "Jeremy",
+	"5d8022edd2c9f600154965fe" : "Daniel",
+	"5d8022afd2c9f600154965f9" : "Andy",
+	"5d802314d2c9f60015496606" : "Tiger",
+	"5d802293d2c9f600154965f5" : "Kevin",
+	"5d3b6ab3339e090015f47c33" : "Steven",
+	"5d82d8408c40df00154150be" : "zeyu",
+	"5d82d8448c40df00154150c0" : "xuanwei",
+	"5d82d8498c40df00154150c2" : "Steven",
+	"5d82dd768c40df00154150c7" : "RYan",
+	"5d82dd7e8c40df00154150c9" : "Daniel",
+	"5d82dd918c40df00154150cb" : "Sirui",
+	"5d82ddfa8c40df00154150d1" : "David",
+	"5d82de068c40df00154150d3" : "John",
+	"5d840d51cbcf030015183684" : "daniel",
+	"5d85799e0bf44600159ae3ff" : "Carina",
+	"5d8664483e98e80015061dd8" : "Casper",
+	"5d86647d3e98e80015061dda" : "Alex",
+	"5d86791b3e98e80015061dff" : "su",
+	"5cd4ae1dce28bf0015df6b9b" : "Leheng",
+	"5d896d75e15b4d0015e8a326" : "Damon",
+	"5d8a9f2fbf5d860015dc4707" : "Cheng",
+	"5d8aaff8bf5d860015dc4711" : "Mary",
+	"5d8ab343bf5d860015dc4715" : "Ming/Tony",
+	"5d8ac036bf5d860015dc471c" : "Frank",
+	"5d8ac098bf5d860015dc471e" : "Frank",
+	"5d8bfc0b802894001563ce9d" : "Alexander",
+	"5d8bfeb4802894001563cea0" : "Richard",
+	"5d8d379533aeec0015315a25" : "David",
+	"5d8d3e2233aeec0015315a2b" : "Alan",
+	"5d8d53d633aeec0015315a4b" : "Jerry",
+	"5d8d542f33aeec0015315a50" : "Jason",
+	"5d8d543533aeec0015315a52" : "Jerry",
+	"5d8d544b33aeec0015315a56" : "Kevin",
+	"5d8d559b33aeec0015315a58" : "Joshua",
+	"5d8d640033aeec0015315a6a" : "Louie",
+	"5d8d640633aeec0015315a6c" : "Chris",
+	"5d8e9be3580d8e00159a1f23" : "David",
+	"5d8e9e06580d8e00159a1f28" : "Winston",
+	"5d8e9e76580d8e00159a1f2b" : "Stella",
+	"5d8eb8de580d8e00159a2581" : "Kevin",
+	"5d8fa2b8580d8e00159a259c" : "Andy",
+	"5d8fa4e9580d8e00159a25a1" : "eric",
+	"5d8fa4f8580d8e00159a25a3" : "Dino",
+	"5d8fa4fd580d8e00159a25a5" : "Anson",
+	"5d8fa5d2580d8e00159a25a8" : "Jett",
+	"5d8fab42580d8e00159a25ae" : "Matt",
+	"5d8fab63580d8e00159a25b0" : "Zachary ",
+	"5d8fb220580d8e00159a25c3" : "Shang",
+	"5d8fca55b897b400156ddcb3" : "Jerry",
+	"5d8fcaa2b897b400156ddcb5" : "Tymon",
+	"5d92968837b73f001525856a" : "jerry",
+	"5d92969737b73f001525856c" : "Jason",
+	"5d9296ab37b73f001525856e" : "Neil",
+	"5d9296c037b73f0015258570" : "Junhao",
+	"5cd4af1ace28bf0015df6b9f" : "Mathew",
+	"5d93e7b93deb0d0015427c55" : "Mary",
+	"5d9670494fda800015f8ede2" : "Lenny",
+	"5d9672374fda800015f8ede4" : "Leo",
+	"5d98c51744c0a70015c0f733" : "Zenas",
+	"5d98c62344c0a70015c0f736" : "Jason",
+	"5d98c6ce44c0a70015c0f738" : "Lucas",
+	"5d98c8e044c0a70015c0f73b" : "Annika",
+	"5d98d97144c0a70015c0f750" : "Rogan",
+	"5d98e69244c0a70015c0f75a" : "Robert",
+	"5d98f13f44c0a70015c0f76c" : "Max",
+	"5d992d2b8fa98c001578d44f" : "Daniel(Zihan)",
+	"5d9934ba8fa98c001578d456" : "Derek",
+	"5d9a58648fa98c001578d466" : "James",
+	"5d9a58688fa98c001578d468" : "Sam",
+	"5d9e8892a3289100153c97c1" : "Kate",
+	"5d9fbed396c8b800154ae946" : "James",
+	"5d9fc98096c8b800154ae955" : "diego",
+	"5d9fc9b896c8b800154ae959" : "derek",
+	"5da3d84b2c78070015ae94b4" : "Terence",
+	"5da3d87a2c78070015ae94b6" : "Angel",
+	"5da3d8992c78070015ae94ba" : "Hongyu",
+	"5da51f09c58bfe00150fc3fc" : "Sean ",
+	"5db0dd0958b6bf00157da146" : "Tyler",
+	"5db77bdc901f840015fa7b27" : "Gordon",
+	"5db79205901f840015fa7b2f" : "alex",
+	"5db8d137bd338600150b411d" : "Weicheng",
+	"5dba23fc57a73f001421492c" : "Michael",
+	"5dbdb7d2622dd90014c75d26" : "George",
+	"5dbdb7f1622dd90014c75d28" : "Philip",
+	"5dbdb892622dd90014c75d2c" : "Henry",
+	"5dbdbecb622dd90014c75d31" : "Jacky",
+	"5dbdbf97622dd90014c75d34" : "anthony",
+	"5dbdc46f622dd90014c75d38" : "Bao Yi",
+	"5dbdc87c622dd90014c75d3c" : "steven",
+	"5d0d3f0bfce07c0015eac360" : "leo",
+	"5dbf3863f61b9600141a5289" : "joseph",
+	"5dc20f867af35a0014cd5e97" : "Jeanne",
+	"5dd4921ffebe240014e01564" : "Crystal",
+	"5adbee4fee3da0002f416229" : "Student",
+	"5bda2b861287140014027bbb" : "Emma",
+	"5da51f53c58bfe00150fc400" : "Jason",
+	"5bd101a1cecc9b00145d1fa8" : "Hans",
+	"5db0dcea58b6bf00157da144" : "Mike",
+	"5d9fc99396c8b800154ae957" : "owen",
+	"5da8f7ab92a4d4001599712c" : "andrew"
+}
+124
 var irvineStuList =
 [
 	"5bd10588cecc9b00145d1fb6",
@@ -532,5 +944,64 @@ var irvineStuList =
 	"5da8f7ab92a4d4001599712c"
 ]
 var arcadiaStuList =
-[ ]
-bye
+[
+	"5cd4ae15ce28bf0015df6b99",
+	"5cd4af4cce28bf0015df6ba3",
+	"5cd4ae10ce28bf0015df6b97",
+	"5d0d3f52fce07c0015eac364",
+	"5cde02a006c7b500154807a9",
+	"5d7c1bc6d708030015fd79e0",
+	"5d7c2e35d708030015fd79f0",
+	"5cd4ae1dce28bf0015df6b9b",
+	"5d8a9f2fbf5d860015dc4707",
+	"5d8aaff8bf5d860015dc4711",
+	"5d8ab343bf5d860015dc4715",
+	"5d8ac036bf5d860015dc471c",
+	"5d8ac098bf5d860015dc471e",
+	"5d8d379533aeec0015315a25",
+	"5d8d3e2233aeec0015315a2b",
+	"5d8d53d633aeec0015315a4b",
+	"5d8d542f33aeec0015315a50",
+	"5d8d543533aeec0015315a52",
+	"5d8d544b33aeec0015315a56",
+	"5d8d559b33aeec0015315a58",
+	"5d8d640033aeec0015315a6a",
+	"5d8d640633aeec0015315a6c",
+	"5d8e9be3580d8e00159a1f23",
+	"5d8e9e06580d8e00159a1f28",
+	"5d8e9e76580d8e00159a1f2b",
+	"5d8eb8de580d8e00159a2581",
+	"5d8fa2b8580d8e00159a259c",
+	"5d8fa4e9580d8e00159a25a1",
+	"5d8fa4f8580d8e00159a25a3",
+	"5d8fa4fd580d8e00159a25a5",
+	"5d8fa5d2580d8e00159a25a8",
+	"5d8fab42580d8e00159a25ae",
+	"5d8fab63580d8e00159a25b0",
+	"5d8fca55b897b400156ddcb3",
+	"5d8fcaa2b897b400156ddcb5",
+	"5d92969737b73f001525856c",
+	"5d9296ab37b73f001525856e",
+	"5d9296c037b73f0015258570",
+	"5cd4af1ace28bf0015df6b9f",
+	"5d93e7b93deb0d0015427c55",
+	"5d98c51744c0a70015c0f733",
+	"5d98c62344c0a70015c0f736",
+	"5d98c6ce44c0a70015c0f738",
+	"5d98c8e044c0a70015c0f73b",
+	"5d98d97144c0a70015c0f750",
+	"5d98e69244c0a70015c0f75a",
+	"5d98f13f44c0a70015c0f76c",
+	"5d9934ba8fa98c001578d456",
+	"5db79205901f840015fa7b2f",
+	"5dba23fc57a73f001421492c",
+	"5dbdb7d2622dd90014c75d26",
+	"5dbdb7f1622dd90014c75d28",
+	"5dbdb892622dd90014c75d2c",
+	"5dbdbecb622dd90014c75d31",
+	"5dbdbf97622dd90014c75d34",
+	"5dbdc46f622dd90014c75d38",
+	"5dbdc87c622dd90014c75d3c",
+	"5d0d3f0bfce07c0015eac360"
+]
+

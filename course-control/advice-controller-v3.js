@@ -32,13 +32,14 @@ angular.module('v3App', [])
     for(var key in competitionMap) {      
       $scope.compList.push(competitionMap[key]);
     }
-    $scope.courseListIrvine = irvinedb;
-    $scope.courseListArcadia = arcadiadb;
-    $scope.courseListOnline = onlinedb;
     var url = $location.$$absUrl;
     $scope.currentUrl = url;
     $scope.stuid = $scope.currentUrl.slice($scope.currentUrl.indexOf('=')+1, url.length);
-    console.log($scope.stuid);
+    $scope.courseListIrvine = irvinedb;
+    $scope.courseListArcadia = arcadiadb;
+    $scope.courseListOnline = onlinedb;
+    $scope.stuName = id_name[$scope.stuid];
+
     var suggestedCourses;
     $scope.suggestedCourses = [];
     if (irvineStuList.includes($scope.stuid)){

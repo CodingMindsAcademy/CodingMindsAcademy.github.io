@@ -8,10 +8,12 @@ var studentsArray = students.toArray();
 
 printjson(studentsArray.length);
 var studentsdb = {};
+var studentsname = {};
 var irvineStuList = [];
 var arcadiaStuList = [];
 studentsArray.forEach(student=>{
     studentsdb[student._id.str] = student.suggestedCourses;
+    studentsname[student._id.str] = student.firstName;
     if(student.organizationId != undefined){
         if(student.organizationId.str === "5b2423bbc0991500145353f4"){
             irvineStuList.push(student._id.str);
@@ -24,6 +26,8 @@ studentsArray.forEach(student=>{
 
 print("var id_courses = ");
 printjson(studentsdb);
+print("var id_name = ");
+printjson(studentsname);
 printjson(irvineStuList.length);
 print("var irvineStuList =");
 printjson(irvineStuList);
