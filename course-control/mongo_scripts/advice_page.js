@@ -8,8 +8,25 @@ var studentsArray = students.toArray();
 
 printjson(studentsArray.length);
 var studentsdb = {};
+var irvineStuList = [];
+var arcadiaStuList = [];
 studentsArray.forEach(student=>{
     studentsdb[student._id.str] = student.suggestedCourses;
+    if(student.organizationId != undefined){
+        if(student.organizationId.str === "5b2423bbc0991500145353f4"){
+            irvineStuList.push(student._id.str);
+        }
+        if(student.organizationId.str === "5d801257d2c9f600154965d8"){
+            arcadiaStuList.push(student._id.str);
+        }
+    }
 });
 
+print("var id_courses = ");
 printjson(studentsdb);
+printjson(irvineStuList.length);
+print("var irvineStuList =");
+printjson(irvineStuList);
+print("var arcadiaStuList =");
+printjson(arcadiaStuList);
+

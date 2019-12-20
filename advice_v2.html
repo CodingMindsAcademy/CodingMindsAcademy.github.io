@@ -192,7 +192,7 @@
                         <ul  class="tabs">
                             <li class="active">
                                 <div class="tab__title">
-                                    <span class="h5">尔湾Irvine校区</span>
+                                    <span class="h5">{{campus}}</span>
                                 </div>
                                 <div class="tab__content">
     
@@ -202,7 +202,7 @@
     
                                         <div>
                                         <!-- <div class="masonry__container"> -->
-                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseListIrvine">
+                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
                                                 <div class="card card-2 text-center">
                                                     <div class="card__top">
                                                         <span id="cmbg" class="label">{{course.gradeLevel}}</span>
@@ -269,7 +269,7 @@
                                                                                                         <div class="modal-close modal-close-cross"></div>
                                                                                                         <h3>填写报名信息</h3>
                                                                                                         <h5>{{course.shortName}}</h5>
-                                                                                                        <h5 style="margin-bottom: 0;">尔湾Irvine校区</h5>
+                                                                                                        <h5 style="margin-bottom: 0;">{campus}</h5>
                                                                                                         <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
                                                                                                         <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                         <hr data-title="OR">
@@ -328,7 +328,7 @@
                             <li class>
     
                                     <div class="tab__title">
-                                        <span class="h5">Arcadia校区</span>
+                                        <span class="h5">推荐课程</span>
                                     </div>
                                     <div class="tab__content">
     
@@ -337,7 +337,7 @@
     
                                             <!-- <div> -->
                                             <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListArcadia">
+                                                <div class="col-sm-4 masonry__item" ng-repeat="course in suggestedCourses">
                                                     <div class="card card-2 text-center">
                                                         <div class="card__top">
                                                             <span id="cmbg" class="label">{{course.gradeLevel}}</span>

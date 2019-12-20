@@ -32,35 +32,40 @@ angular.module('v3App', [])
     for(var key in competitionMap) {      
       $scope.compList.push(competitionMap[key]);
     }
-
+    $scope.courseListIrvine = irvinedb;
+    $scope.courseListArcadia = arcadiadb;
+    $scope.courseListOnline = onlinedb;
     var url = $location.$$absUrl;
     $scope.currentUrl = url;
     $scope.stuid = $scope.currentUrl.slice($scope.currentUrl.indexOf('=')+1, url.length);
     console.log($scope.stuid);
-        var suggestedCourses = {'a':[],'i':[], 'o':[]};
-        // $scope.suggestedCourses = id_courses[$scope.stuid];
-        // console.log($scope.suggestedCourses);
-        // irvinedb.forEach(course=>{
-        //     if($scope.suggestedCourses.includes(course.courseCode)){
-        //         suggestedCourses['i'].push(course);
-        //     }
-        // });
-        // arcadiadb.forEach(course=>{
-        //     if($scope.suggestedCourses.includes(course.courseCode)){
-        //         suggestedCourses['a'].push(course);
-        //     }
-        // });
-        // onlinedb.forEach(course=>{
-        //     if($scope.suggestedCourses.includes(course.courseCode)){
-        //         suggestedCourses['o'].push(course);
-        //     }
-        // });
-        // $log.info(suggestedCourses);
-        $scope.courseListIrvine = irvinedb;
-        $scope.courseListArcadia = arcadiadb;
-        $scope.courseListOnline = onlinedb;
+    var suggestedCourses;
+    $scope.suggestedCourses = [];
+    if (irvineStuList.includes($scope.stuid)){
 
+        $scope.campus = "Irvine校区"
+        $scope.courseList = irvinedb;
+        suggestedCourses = id_courses[$scope.stuid];
+        console.log($scope.suggestedCourses);
+        irvinedb.forEach(course=>{
+            if(suggestedCourses.includes(course.courseCode)){
+                $scope.suggestedCourses.push(course);
+            }
+        });
+    }else{
 
+        $scope.campus = "Arcadia校区";
+        $scope.courseList = arcadiadb;
+
+        suggestedCourses = id_courses[$scope.stuid];
+        console.log($scope.suggestedCourses);
+        arcadiadb.forEach(course=>{
+            if(suggestedCourses.includes(course.courseCode)){
+                $scope.suggestedCourses.push(course);
+            }
+        });
+    }
+      
         
     // $scope.stuid = stuid;
       $(function () {
