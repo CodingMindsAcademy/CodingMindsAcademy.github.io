@@ -133,11 +133,12 @@
 
                             <h2 class="text-center">学期总结<br></h2>
                             <p>{{Feedbacks[Feedbacks.length-1].text}}</p>
-
-                            <h2 class="text-center">课程项目<br></h2>
+<div ng-if="FinalProject.videoUrl != ''">
+                            <h2  class="text-center ng-hide">课程项目<br></h2>
                             <h3 class="text-center" id='title'>{{FinalProject.title}}</h3>
                             <!-- <div height="100%"> -->
-                            <iframe width="100%" id='youtube_video' src={{FinalProject.videoUrl}} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  width="100%" id='youtube_video' src={{FinalProject.videoUrl}} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                             <!-- </div> -->
                             <!-- <iframe ng-src="{{page.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe> -->
                             <!-- <h2 class="text-center">老师反馈<br></h2>
