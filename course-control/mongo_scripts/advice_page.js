@@ -16,8 +16,8 @@ studentsArray.forEach(student=>{
     students[student._id.str] = {
         firstName: student.firstName,
         lastName: student.lastName,
-        parentEmail: student.email,
-        parentPhoneNumber: student.phoneNumber,
+        email2: student.email2,
+        phone2: student.phone2,
     };
     if(student.organizationId != undefined){
         if(student.organizationId.str === "5b2423bbc0991500145353f4"){
