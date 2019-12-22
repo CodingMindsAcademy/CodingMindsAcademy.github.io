@@ -65,10 +65,10 @@
                                 <li> <a href="index-cn.html#summercamp">
                                     编程课程
                                 </a> </li>
-                                <li> 
+                                <li>
                                     <a href="portfolios-cn.html">
                                         学生作品
-                                    </a> 
+                                    </a>
                                 </li>
 
 
@@ -101,7 +101,7 @@
 
         <section class="space--sm">
             <div class="container">
-                <div class="row">                    
+                <div class="row">
                     <div class="col-sm-12">
                         <div class="text-center">
                             <i class="icon icon-Coding color--primary"></i>
@@ -132,9 +132,9 @@
                             </table>
 
                             <h2 class="text-center">学期总结<br></h2>
-                            <p>{{Feedbacks[Feedbacks.length-1].text}}</p>
-<div ng-if="FinalProject.videoUrl != ''">
-                            <h2  class="text-center ng-hide">课程项目<br></h2>
+                            <p>{{Feedbacks[Feedbacks.length-1].text_cn}}</p>
+
+                            <h2 class="text-center">课程项目<br></h2>
                             <h3 class="text-center" id='title'>{{FinalProject.title}}</h3>
                             <!-- <div height="100%"> -->
                             <iframe  width="100%" id='youtube_video' src={{FinalProject.videoUrl}} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -181,13 +181,13 @@
                                     </form>
                             </div>
                     </div>
-                    <!--end of row-->                                    
+                    <!--end of row-->
                 </div>
                 <!--end of container-->
                 <br>
 
                 <div class="text-center container">
-                    <div class="row ">                 
+                    <div class="row ">
                         <h4 class="text-center">Dr.Sun根据{{StudentRecord.firstName}}个人情况推荐下学期的课程</h4>
                         <a class="btn btn--primary type--uppercase" ng-click="redirect()" >
                             <span class="btn__text">
@@ -265,7 +265,7 @@
                 <i class="stack-interface stack-up-open-big"></i>
             </a>
             <script src="js/jquery-3.1.1.min.js"></script>
-            <script src="js/angular.min.js"></script>            
+            <script src="js/angular.min.js"></script>
             <script src="course-control/coursedb.js"></script>
             <script src="course-control/pathway.js"></script>
             <script src="students/fbec-db-s19v2.js"></script>

@@ -1,32 +1,8 @@
-angular.module('v3App', [])
+angular.module('v3App', ['ngMaterial'])
   .config(function($sceProvider) {
     $sceProvider.enabled(false);    
   })
-  .factory('myService', function($http) {
-
-    var getData = function() {
-        // Angular $http() and then() both return promises themselves 
-        return $http({
-            method: 'GET',
-            url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+$scope.stuid,
-            headers: {
-              'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
-            },     
-          }).then(function successCallback(response) {
-            $scope.student = response.data;
-            $scope.suggestedCourses = response.data.suggestedCourses;
-            
-            $scope.courseListIrvine = irvinedb;
-            $scope.courseListArcadia = arcadiadb;
-            $scope.courseListOnline = onlinedb;
-            
-            }, function errorCallback(response) {
-              console.log(response);
-            });
-    };
-    return { getData: getData };
-})
-  .controller('FeedbackController', function($scope, $location, $log) {
+  .controller('FeedbackController', function($scope, $location, $mdToast, $http) {
     
     $scope.compList = [];
     for(var key in competitionMap) {      
@@ -38,7 +14,10 @@ angular.module('v3App', [])
     $scope.courseListIrvine = irvinedb;
     $scope.courseListArcadia = arcadiadb;
     $scope.courseListOnline = onlinedb;
-    $scope.stuName = id_name[$scope.stuid];
+    $scope.stuName = id_student[$scope.stuid].firstName;
+    $scope.lastName = id_student[$scope.stuid].lastName;
+    $scope.parentEmail = id_student[$scope.stuid].parentEmail;
+    $scope.parentPhoneNumber = id_student[$scope.stuid].parentPhoneNumber;
 
     var suggestedCourses;
     $scope.suggestedCourses = [];
@@ -69,6 +48,51 @@ angular.module('v3App', [])
             }
         });
     }
+
+    $scope.submit = function (courseId) {
+      $(`#${courseId}`).removeClass('modal-active');
+
+      var displayToast = function (type) {
+        let msg = '';
+        let time = 5000;
+        switch (type) {
+          case 'success': {
+            msg = '注册成功！我们会在开课前与您联系！';
+            break;
+          }
+          case 'error': {
+            msg = '<i class="icon icon-sm icon-Coding" style="font-size: 2em;"></i> &nbsp;注册失败 请再次尝试或&nbsp;<a href="contact-us-cn.html" target="_blank">联系我们</a>';
+            time = 0;
+            break;
+          }
+        }
+        $mdToast.show({
+          template: '<md-toast layout="row" class="md-toast ' + type + '">' + msg  + '<a href="#" ng-click="closeToast()" style="color:white;padding-left:2em;text-decoration:none;">X</a></md-toast>',
+          hideDelay: time,
+          position: 'bottom center',
+          controller: 'ToastController',
+          parent: document.getElementById('toast-container')
+        }).then(function () {
+          // console.log('Toast dismissed.');
+        }).catch(function () {
+          // console.log('Toast failed or was forced to close early by another toast.');
+        });
+      }
+      $http({
+        method: 'PUT',
+        url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
+        headers: {
+          'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
+        }
+      }).then(function successCallback(response) {
+        console.log('enrolled to course', response);
+        displayToast('success');
+      }, function errorCallback(response) {
+        displayToast('error');
+        console.log(response);
+        // console.log("Not yet notified, therefore no logId!");
+      });
+    }
       // $scope.courseLevel = 'true';
         // console.log($scope.courseLevel);
     // $scope.stuid = stuid;
@@ -91,5 +115,10 @@ angular.module('v3App', [])
         return false;
     });
   });
+  })
+  .controller('ToastController', function ($scope, $mdToast) {
+    $scope.closeToast = function () {
+      $mdToast.hide();
+    };
   });
 

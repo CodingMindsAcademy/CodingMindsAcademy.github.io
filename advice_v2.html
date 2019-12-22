@@ -16,6 +16,7 @@
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+    <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
 
     <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
     <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
@@ -24,6 +25,48 @@
     <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <style>
+        md-toast.md-center {
+            left: 50%;
+            transform: translate3d(-50%, 0, 0);
+        }
+        #toast-container{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 10em;
+            visibility: hidden;
+        }
+        #toast-container *{
+            visibility: visible;
+        }
+        .md-toast.success *{
+            background-color: green;
+        }
+        .md-toast.error *{
+            background-color: red;
+        }
+        .float-right {
+            position: fixed;
+            font-size: 1.2em;
+            padding-left: 0.7em;
+            padding-right: 0.7em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            right: -1px;
+            bottom: 50%;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+            z-index: 99;
+            border: 1px solid #ececec;
+            transition: 0.2s ease-out;
+            -webkit-transition: 0.2s ease-out;
+            -moz-transition: 0.2s ease-out;
+            writing-mode : tb-rl;
+            transform: translate(30%)
+        }
+    </style>
 </head>
 <body ng-controller="FeedbackController">
     <a id="start"></a>
@@ -280,22 +323,16 @@
                                                                                                                 <form ng-submit="submit(data.courseid)">
                                                                                                                     <div class="row">
                                                                                                                         <div class="col-sm-6">
-                                                                                                                            <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                                            <input type="text" value={{stuName}} placeholder="学生First Name" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-6">
-                                                                                                                            <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                                            <input type="text" value={{lastName}} placeholder="学生Last Name" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-12">
-                                                                                                                            <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                                            <input type="email" value={{parentEmail}} placeholder="Email" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-12">
-                                                                                                                            <input type="email" ng-model="form.parentEmail" placeholder="Email" />
-                                                                                                                        </div>
-                                                                                                                        <div class="col-sm-12">
-                                                                                                                            <input type="number" ng-model="form.parentPhoneNumber" placeholder="联系电话" />
-                                                                                                                        </div>
-                                                                                                                        <div class="col-sm-12">
-                                                                                                                            <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                                            <input type="number" value={{parentPhoneNumber}} placeholder="联系电话" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-12">
                                                                                                                             <button class="btn btn--primary type--uppercase" type="submit">注册</button>
@@ -404,7 +441,7 @@
                                                                                                         <div class="modal-close modal-close-cross"></div>
                                                                                                         <h3>填写报名信息</h3>
                                                                                                         <h5>{{course.shortName}}</h5>
-                                                                                                        <h5 style="margin-bottom: 0;">{campus}</h5>
+                                                                                                        <h5 style="margin-bottom: 0;">{{campus}}</h5>
                                                                                                         <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
                                                                                                         <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                         <hr data-title="OR">
@@ -412,22 +449,16 @@
                                                                                                             <form ng-submit="submit(data.courseid)">
                                                                                                                 <div class="row">
                                                                                                                     <div class="col-sm-6">
-                                                                                                                        <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                                        <input type="text" value={{stuName}} placeholder="学生First Name" disabled/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-6">
-                                                                                                                        <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                                        <input type="text" value={{lastName}} placeholder="学生Last Name" disabled/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
-                                                                                                                        <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                                        <input type="email" value={{parentEmail}} placeholder="Email" disabled/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
-                                                                                                                        <input type="email" ng-model="form.parentEmail" placeholder="Email" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="number" ng-model="form.parentPhoneNumber" placeholder="联系电话" />
-                                                                                                                    </div>
-                                                                                                                    <div class="col-sm-12">
-                                                                                                                        <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                                        <input type="number" value={{parentPhoneNumber}} placeholder="联系电话" disabled/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
                                                                                                                         <button class="btn btn--primary type--uppercase" type="submit">注册</button>
@@ -553,22 +584,16 @@
                                                                                                                 <form ng-submit="submit(data.courseid)">
                                                                                                                     <div class="row">
                                                                                                                         <div class="col-sm-6">
-                                                                                                                            <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                                            <input type="text" value={{stuName}} placeholder="学生First Name" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-6">
-                                                                                                                            <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                                            <input type="text" value={{lastName}} placeholder="学生Last Name" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-12">
-                                                                                                                            <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                                            <input type="email" value={{parentEmail}} placeholder="Email" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-12">
-                                                                                                                            <input type="email" ng-model="form.parentEmail" placeholder="Email" />
-                                                                                                                        </div>
-                                                                                                                        <div class="col-sm-12">
-                                                                                                                            <input type="number" ng-model="form.parentPhoneNumber" placeholder="联系电话" />
-                                                                                                                        </div>
-                                                                                                                        <div class="col-sm-12">
-                                                                                                                            <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                                            <input type="number" value={{parentPhoneNumber}} placeholder="联系电话" disabled/>
                                                                                                                         </div>
                                                                                                                         <div class="col-sm-12">
                                                                                                                             <button class="btn btn--primary type--uppercase" type="submit">注册</button>
@@ -686,13 +711,19 @@
                         </div>
                         <!--end of container-->
                     </footer>
+                    <div id="toast-container" ></div>
                 </div>
                 <!--<div class="loader"></div>-->
+                <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span class="btn__text">联系我们</span></a>
                 <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
                     <i class="stack-interface stack-up-open-big"></i>
                 </a>
                 <script src="js/jquery-3.1.1.min.js"></script>
                 <script src="js/angular.min.js"></script>            
+                <script src="js/angular-animate.min.js"></script>
+                <script src="js/angular-aria.min.js"></script>
+                <script src="js/angular-material.min.js"></script>
+
                 <!-- <script src="course-control/coursedb-v3.js"></script> -->
                 <script src="course-control/pathway.js"></script>
                 <!-- <script src="students/stumajor-a-v2.js"></script> -->
