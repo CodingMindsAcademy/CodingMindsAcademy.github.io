@@ -27,7 +27,7 @@ angular.module('v3App', ['ngMaterial'])
         $mdToast.show({
           template: '<md-toast layout="row" class="md-toast ' + type + '">' + msg  + '<a href="#" ng-click="closeToast()" style="color:white;padding-left:2em;text-decoration:none;">X</a></md-toast>',
           hideDelay: time,
-          position: 'bottom center',
+          position: 'bottom',
           controller: 'ToastController',
           parent: document.getElementById('toast-container')
         }).then(function () {
