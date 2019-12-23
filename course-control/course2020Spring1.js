@@ -21,7 +21,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs101",
-		"id" : "5e00690657e1794569b7bd26",
+		"id" : "5e006c2757e1794569b7c628",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a08765fe9500146353e5",
@@ -32,13 +32,7 @@ var irvinedb =
 			{
 				"courseid" : "5df1a4c465fe9500146353f8",
 				"dayTime" : "Saturday 09:30-11:00",
-				"range" : "12/15-12/15",
-				"orgnization" : "i"
-			},
-			{
-				"courseid" : "5df1a4ec65fe9500146353f9",
-				"dayTime" : "Saturday 09:30-11:00",
-				"range" : "12/15-12/15",
+				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
 		]
@@ -64,13 +58,44 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs110",
-		"id" : "5e00690657e1794569b7bd27",
+		"id" : "5e006c2757e1794569b7c625",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a3c365fe9500146353f2",
 				"dayTime" : "Thursday 17:00-18:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "Lego MindStorms机器人编程挑战",
+		"title2" : "挑战不可能的任务",
+		"name" : "Lego MindStorms机器人编程挑战:挑战不可能的任务",
+		"shortName" : "Lego机器人编程挑战",
+		"imageUrl" : "img/my/lego/lego-bg-sm.jpg",
+		"gradeLevel" : "L1图形化编程",
+		"text" : "在控制机器人挑战自己过程中学习编程,将是你从未尝试过的学习体验",
+		"tag" : "机器人编程系列",
+		"pathway" : [
+			"robot"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "legoc.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs150",
+		"id" : "5e006c2757e1794569b7c632",
+		"repeatData" : [
+			{
+				"courseid" : "5df727081aabab00146442fa",
+				"dayTime" : "Monday 15:20-04:50",
+				"range" : "01/14-03/03",
+				"orgnization" : "a"
 			}
 		]
 	},
@@ -95,7 +120,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs160",
-		"id" : "5e00690657e1794569b7bd2a",
+		"id" : "5e006c2757e1794569b7c631",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a05065fe9500146353e3",
@@ -126,7 +151,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs170",
-		"id" : "5e00690657e1794569b7bd31",
+		"id" : "5e006c2757e1794569b7c633",
 		"repeatData" : [
 			{
 				"courseid" : "5df7284a1aabab00146442fd",
@@ -157,7 +182,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs220",
-		"id" : "5e00690657e1794569b7bd2e",
+		"id" : "5e006c2757e1794569b7c629",
 		"repeatData" : [
 			{
 				"courseid" : "5df727601aabab00146442fb",
@@ -206,7 +231,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs230",
-		"id" : "5e00690657e1794569b7bd2c",
+		"id" : "5e006c2757e1794569b7c62b",
 		"repeatData" : [
 			{
 				"courseid" : "5df72b141aabab0014644301",
@@ -243,7 +268,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs240",
-		"id" : "5e00690657e1794569b7bd29",
+		"id" : "5e006c2757e1794569b7c62c",
 		"repeatData" : [
 			{
 				"courseid" : "5df72b921aabab0014644302",
@@ -280,7 +305,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs300",
-		"id" : "5e00690657e1794569b7bd2f",
+		"id" : "5e006c2757e1794569b7c62d",
 		"repeatData" : [
 			{
 				"courseid" : "5df7279b1aabab00146442fc",
@@ -311,7 +336,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs310",
-		"id" : "5e00690657e1794569b7bd32",
+		"id" : "5e006c2757e1794569b7c62e",
 		"repeatData" : [
 			{
 				"courseid" : "5df7260e1aabab00146442f9",
@@ -366,44 +391,13 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs350",
-		"id" : "5e00690657e1794569b7bd35",
+		"id" : "5e006c2757e1794569b7c634",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a39765fe9500146353f1",
 				"dayTime" : "Thursday 17:00-18:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
-			}
-		]
-	},
-	{
-		"enabled" : true,
-		"online" : false,
-		"title1" : "MIT手机APP发明家",
-		"title2" : "动手编写自己的APP做小小创业者",
-		"name" : "MIT手机APP发明家:动手编写自己的APP做小小创业者",
-		"shortName" : "MIT手机APP发明家",
-		"imageUrl" : "img/my/app-dev-2sm.jpg",
-		"gradeLevel" : "L4应用主题编程",
-		"text" : "厌倦了每天玩自己的手机APP？那就学习动手编程制作自己的手机APP，做下一个年轻的创业者",
-		"tag" : "移动互联网编程系列",
-		"pathway" : [
-			"mobile"
-		],
-		"detailsTitle" : "查看详情",
-		"detailsUrl" : "mobilec.html",
-		"locations" : "选择地点",
-		"registerUrl" : "corecn.html#allCourses",
-		"registerTitle" : "我要注册",
-		"registerForm" : "https://jinshuju.net/f/0KnUba",
-		"courseCode" : "cs400",
-		"id" : "5e00690657e1794569b7bd34",
-		"repeatData" : [
-			{
-				"courseid" : "5df72e491aabab0014644309",
-				"dayTime" : "Friday 17:00-18:30",
-				"range" : "01/18-03/07",
-				"orgnization" : "a"
 			}
 		]
 	},
@@ -428,7 +422,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs410",
-		"id" : "5e00690657e1794569b7bd36",
+		"id" : "5e006c2757e1794569b7c636",
 		"repeatData" : [
 			{
 				"courseid" : "5df72a521aabab00146442fe",
@@ -471,12 +465,18 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs420",
-		"id" : "5e00690657e1794569b7bd3a",
+		"id" : "5e006c2757e1794569b7c639",
 		"repeatData" : [
+			{
+				"courseid" : "5df1a12365fe9500146353eb",
+				"dayTime" : "Wednesday 17:20-18:50",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
+			},
 			{
 				"courseid" : "5df1a82c65fe950014635406",
 				"dayTime" : "Saturday 16:30-18:00",
-				"range" : "12/15-12/15",
+				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
 		]
@@ -502,8 +502,14 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs425",
-		"id" : "5e00690657e1794569b7bd37",
+		"id" : "5e006c2757e1794569b7c637",
 		"repeatData" : [
+			{
+				"courseid" : "5e011d009b7776001478af00",
+				"dayTime" : "Saturday 14:45-16:15",
+				"range" : "01/18-03/07",
+				"orgnization" : "i"
+			},
 			{
 				"courseid" : "5df1a75e65fe950014635402",
 				"dayTime" : "Saturday 14:45-16:15",
@@ -533,12 +539,111 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs430",
-		"id" : "5e00690657e1794569b7bd38",
+		"id" : "5e006c2757e1794569b7c63b",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a5e165fe950014635400",
 				"dayTime" : "Saturday 13:00-14:30",
-				"range" : "12/15-12/15",
+				"range" : "01/19-03/08",
+				"orgnization" : "i"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "AI深度学习与区块链技术",
+		"title2" : "AI高阶编程",
+		"name" : "AI高阶编程:探索深度学习与区块链技术",
+		"shortName" : "AI高阶编程",
+		"imageUrl" : "img/my/ai2/ai2-bg.png",
+		"gradeLevel" : "L4应用主题编程",
+		"text" : "学习人工智能的高级知识与应用了解最前沿的技术革新",
+		"tag" : "编程算法与AI系列",
+		"pathway" : [
+			"coding"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "ai2c.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs435",
+		"id" : "5e006c2757e1794569b7c638",
+		"repeatData" : [
+			{
+				"courseid" : "5e011ca59b7776001478aeff",
+				"dayTime" : "Saturday 14:45-16:15",
+				"range" : "01/18-03/07",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5e0117979b7776001478aef6",
+				"dayTime" : "Friday 17:00-18:30",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "Raspberry PI智能物联网系统编程",
+		"title2" : "电子工程师成长之路",
+		"name" : "电子工程师成长之路:Raspberry PI智能物联网系统编程",
+		"shortName" : "Raspberry PI智能物联网系统编程",
+		"imageUrl" : "img/my/rpi/bg2.jpg",
+		"gradeLevel" : "L4应用主题编程",
+		"text" : "制作物联网电子系统，在硬件的世界学习软件，让你充分体验编程的强大",
+		"tag" : "移动互联网编程系列",
+		"pathway" : [
+			"hardware"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "rpic.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs470",
+		"id" : "5e006c2757e1794569b7c63d",
+		"repeatData" : [
+			{
+				"courseid" : "5df72c331aabab0014644304",
+				"dayTime" : "Thursday 15:30-17:00",
+				"range" : "01/17-03/06",
+				"orgnization" : "a"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "Maya 3D动画设计与编程",
+		"title2" : "动画游戏开发设计师之路",
+		"name" : "Maya 3D动画设计与编程:动画游戏开发设计师之路",
+		"shortName" : "Maya 3D动画设计与编程",
+		"imageUrl" : "img/my/maya/bg.jpg",
+		"gradeLevel" : "L4应用主题编程",
+		"text" : "学习专业的3D建模与动画场景制作，艺术与编程的完美结合。",
+		"tag" : "游戏编程系列",
+		"pathway" : [
+			"game"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "mayac.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs485",
+		"id" : "5e006c2757e1794569b7c640",
+		"repeatData" : [
+			{
+				"courseid" : "5e011c799b7776001478aefe",
+				"dayTime" : "Saturday 14:45-16:15",
+				"range" : "01/18-03/07",
 				"orgnization" : "i"
 			}
 		]
@@ -564,7 +669,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs490",
-		"id" : "5e00690657e1794569b7bd3c",
+		"id" : "5e006c2757e1794569b7c641",
 		"repeatData" : [
 			{
 				"courseid" : "5df732681aabab0014644312",
@@ -595,7 +700,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs501",
-		"id" : "5e00690657e1794569b7bd3d",
+		"id" : "5e006c2757e1794569b7c642",
 		"repeatData" : [
 			{
 				"courseid" : "5df7336d1aabab0014644316",
@@ -626,44 +731,13 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs505",
-		"id" : "5e00690657e1794569b7bd42",
+		"id" : "5e006c2757e1794569b7c645",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a7de65fe950014635404",
 				"dayTime" : "Saturday 16:30-18:00",
-				"range" : "12/15-12/15",
+				"range" : "01/19-03/08",
 				"orgnization" : "i"
-			}
-		]
-	},
-	{
-		"enabled" : true,
-		"online" : true,
-		"title1" : "AP CS基础训练营",
-		"title2" : "Java编程入门及AP课程准备",
-		"name" : "AP CS基础训练营:Java编程入门及AP课程准备",
-		"shortName" : "Java编程入门及AP课程准备",
-		"imageUrl" : "img/my/coding-spacesm.jpg",
-		"gradeLevel" : "L5竞技编程",
-		"text" : "帮助零编程基础的高中同学准备AP CS课程和考试所需要的扎实的编程基本功",
-		"tag" : "AP CS编程系列",
-		"pathway" : [
-			"ap"
-		],
-		"detailsTitle" : "查看详情",
-		"detailsUrl" : "apcs-cn.html",
-		"locations" : "选择地点",
-		"registerUrl" : "corecn.html#allCourses",
-		"registerTitle" : "我要注册",
-		"registerForm" : "https://jinshuju.net/f/0KnUba",
-		"courseCode" : "cs510",
-		"id" : "5e00690657e1794569b7bd41",
-		"repeatData" : [
-			{
-				"courseid" : "5dfa8d42d9391000141d6016",
-				"dayTime" : "Sunday 00:00-00:00",
-				"range" : "12/18-03/04",
-				"orgnization" : "o"
 			}
 		]
 	},
@@ -688,7 +762,7 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs570",
-		"id" : "5e00690657e1794569b7bd4c",
+		"id" : "5e006c2757e1794569b7c64b",
 		"repeatData" : [
 			{
 				"courseid" : "5df72aad1aabab00146442ff",
@@ -722,7 +796,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs130",
-		"id" : "5e00690657e1794569b7bd2b",
+		"id" : "5e006c2757e1794569b7c626",
 		"repeatData" : [
 			{
 				"courseid" : "5df72fd61aabab001464430e",
@@ -753,7 +827,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs150",
-		"id" : "5e00690657e1794569b7bd30",
+		"id" : "5e006c2757e1794569b7c632",
 		"repeatData" : [
 			{
 				"courseid" : "5df727081aabab00146442fa",
@@ -784,7 +858,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs170",
-		"id" : "5e00690657e1794569b7bd31",
+		"id" : "5e006c2757e1794569b7c633",
 		"repeatData" : [
 			{
 				"courseid" : "5df7284a1aabab00146442fd",
@@ -816,7 +890,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs200",
-		"id" : "5e00690657e1794569b7bd28",
+		"id" : "5e006c2757e1794569b7c62a",
 		"repeatData" : [
 			{
 				"courseid" : "5df72dd11aabab0014644307",
@@ -853,7 +927,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs210",
-		"id" : "5e00690657e1794569b7bd2d",
+		"id" : "5e006c2757e1794569b7c627",
 		"repeatData" : [
 			{
 				"courseid" : "5df733031aabab0014644314",
@@ -884,7 +958,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs220",
-		"id" : "5e00690657e1794569b7bd2e",
+		"id" : "5e006c2757e1794569b7c629",
 		"repeatData" : [
 			{
 				"courseid" : "5df727601aabab00146442fb",
@@ -933,7 +1007,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs230",
-		"id" : "5e00690657e1794569b7bd2c",
+		"id" : "5e006c2757e1794569b7c62b",
 		"repeatData" : [
 			{
 				"courseid" : "5df72b141aabab0014644301",
@@ -970,7 +1044,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs240",
-		"id" : "5e00690657e1794569b7bd29",
+		"id" : "5e006c2757e1794569b7c62c",
 		"repeatData" : [
 			{
 				"courseid" : "5df72b921aabab0014644302",
@@ -1007,7 +1081,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs300",
-		"id" : "5e00690657e1794569b7bd2f",
+		"id" : "5e006c2757e1794569b7c62d",
 		"repeatData" : [
 			{
 				"courseid" : "5df7279b1aabab00146442fc",
@@ -1038,7 +1112,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs310",
-		"id" : "5e00690657e1794569b7bd32",
+		"id" : "5e006c2757e1794569b7c62e",
 		"repeatData" : [
 			{
 				"courseid" : "5df7260e1aabab00146442f9",
@@ -1093,7 +1167,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs400",
-		"id" : "5e00690657e1794569b7bd34",
+		"id" : "5e006c2757e1794569b7c62f",
 		"repeatData" : [
 			{
 				"courseid" : "5df72e491aabab0014644309",
@@ -1124,7 +1198,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs410",
-		"id" : "5e00690657e1794569b7bd36",
+		"id" : "5e006c2757e1794569b7c636",
 		"repeatData" : [
 			{
 				"courseid" : "5df72a521aabab00146442fe",
@@ -1167,7 +1241,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs470",
-		"id" : "5e00690657e1794569b7bd43",
+		"id" : "5e006c2757e1794569b7c63d",
 		"repeatData" : [
 			{
 				"courseid" : "5df72c331aabab0014644304",
@@ -1198,7 +1272,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs490",
-		"id" : "5e00690657e1794569b7bd3c",
+		"id" : "5e006c2757e1794569b7c641",
 		"repeatData" : [
 			{
 				"courseid" : "5df732681aabab0014644312",
@@ -1229,7 +1303,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs501",
-		"id" : "5e00690657e1794569b7bd3d",
+		"id" : "5e006c2757e1794569b7c642",
 		"repeatData" : [
 			{
 				"courseid" : "5df7336d1aabab0014644316",
@@ -1260,7 +1334,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs510",
-		"id" : "5e00690657e1794569b7bd41",
+		"id" : "5e006c2757e1794569b7c644",
 		"repeatData" : [
 			{
 				"courseid" : "5dfa8d42d9391000141d6016",
@@ -1291,7 +1365,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs520",
-		"id" : "5e00690657e1794569b7bd45",
+		"id" : "5e006c2757e1794569b7c646",
 		"repeatData" : [
 			{
 				"courseid" : "5df72e8b1aabab001464430a",
@@ -1322,7 +1396,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs570",
-		"id" : "5e00690657e1794569b7bd4c",
+		"id" : "5e006c2757e1794569b7c64b",
 		"repeatData" : [
 			{
 				"courseid" : "5df72aad1aabab00146442ff",
@@ -1353,7 +1427,7 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs571",
-		"id" : "5e00690657e1794569b7bd4d",
+		"id" : "5e006c2757e1794569b7c64e",
 		"repeatData" : [
 			{
 				"courseid" : "5df733ce1aabab0014644318",
@@ -1387,7 +1461,7 @@ var onlinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs510",
-		"id" : "5e00690657e1794569b7bd41",
+		"id" : "5e006c2757e1794569b7c644",
 		"repeatData" : [
 			{
 				"courseid" : "5dfa8d42d9391000141d6016",
@@ -1398,4 +1472,3 @@ var onlinedb =
 		]
 	}
 ]
-

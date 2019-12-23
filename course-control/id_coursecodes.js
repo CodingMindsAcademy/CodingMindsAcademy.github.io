@@ -1,13 +1,23 @@
 var id_courses = 
 {
+	"5b36a9b647821000144d5eb3" : [
+		"cs570",
+		"cs501"
+	],
 	"5b44015813e6d800141c8403" : [
 		"cs502"
 	],
+	"5b689645a707bd00143dd8f4" : [
+		"cs435"
+	],
 	"5bd10588cecc9b00145d1fb6" : [
-		"cs240"
+		"cs300"
 	],
 	"5bda3ba91287140014027bc1" : [
 		"cs350"
+	],
+	"5c1847e0f8e2fe001496e6b9" : [
+		"cs501"
 	],
 	"5c453b43e2f7230014effe0b" : [
 		"cs501"
@@ -35,8 +45,11 @@ var id_courses =
 	"5d6460c134e29b0015e2e9e1" : [
 		"cs240"
 	],
+	"5d66fd6c965baa0015e91a19" : [
+		"cs220"
+	],
 	"5d798bd41ce11a0015a14921" : [
-		"cs240"
+		"cs300"
 	],
 	"5d798bda1ce11a0015a14923" : [
 		"cs300"
@@ -45,7 +58,7 @@ var id_courses =
 		"cs230"
 	],
 	"5d798d5c1ce11a0015a14942" : [
-		"cs240"
+		"cs350"
 	],
 	"5d798d791ce11a0015a14944" : [
 		"cs230"
@@ -59,6 +72,9 @@ var id_courses =
 		"cs571",
 		"cs470"
 	],
+	"5d741efaf8d4540015bac99c" : [
+		"cs200"
+	],
 	"5d7ac3d4fc31a60015109f4e" : [
 		"cs310"
 	],
@@ -66,6 +82,7 @@ var id_courses =
 		"cs310"
 	],
 	"5d7ac417fc31a60015109f55" : [
+		"cs570",
 		"cs310"
 	],
 	"5d7ac439fc31a60015109f5b" : [
@@ -83,11 +100,19 @@ var id_courses =
 	"5cd35e386ee2680015da8a74" : [
 		"cs502"
 	],
+	"5cd35e926ee2680015da8a78" : [
+		"cs501"
+	],
 	"5d7ae69ef7111800159ed8f4" : [
-		"cs310"
+		"cs310",
+		"cs420"
 	],
 	"5cd35dda6ee2680015da8a72" : [
 		"cs310"
+	],
+	"5dec4312a873180014ddc568" : [
+		"cs420",
+		"cs485"
 	],
 	"5d64611234e29b0015e2e9e3" : [
 		"cs220"
@@ -100,6 +125,9 @@ var id_courses =
 		"cs240",
 		"cs300"
 	],
+	"5d66fdc1965baa0015e91a22" : [
+		"cs220"
+	],
 	"5d66fde4965baa0015e91a24" : [
 		"cs230"
 	],
@@ -107,17 +135,17 @@ var id_courses =
 		"cs220"
 	],
 	"5d6857c0d4b125001518e6b1" : [
-		"cs240"
+		"cs170"
 	],
 	"5d6857ecd4b125001518e6b4" : [
-		"cs240"
+		"cs170"
 	],
 	"5d6ac884bbc6a30015c925e8" : [
 		"cs230"
 	],
 	"5d6ac8bdbbc6a30015c925ea" : [
 		"cs240",
-		"cs210"
+		"cs200"
 	],
 	"5d6ac980bbc6a30015c925f2" : [
 		"cs220"
@@ -128,21 +156,27 @@ var id_courses =
 	"5d6ad792bbc6a30015c9260a" : [
 		"cs230"
 	],
+	"5d6ad796bbc6a30015c9260c" : [
+		"cs220"
+	],
 	"5d6ad79fbbc6a30015c9260e" : [
-		"cs210"
+		"cs220"
 	],
 	"5d70298a7e1c1100153b3bd8" : [
 		"cs240",
 		"cs300"
 	],
 	"5d702a0a7e1c1100153b3bdc" : [
-		"cs210"
+		"cs220"
 	],
 	"5d702a357e1c1100153b3be0" : [
-		"cs210"
+		"cs220"
 	],
 	"5d702a577e1c1100153b3be6" : [
 		"cs160"
+	],
+	"5d702ada7e1c1100153b3bf7" : [
+		"cs220"
 	],
 	"5d73e3ad6f42030015ad10ca" : [
 		"cs230"
@@ -165,6 +199,13 @@ var id_courses =
 	"5d73f4d56f42030015ad10f6" : [
 		"cs220"
 	],
+	"5d741f8df8d4540015bac9a6" : [
+		"cs220"
+	],
+	"5d743780f8d4540015bac9a8" : [
+		"cs410",
+		"cs425"
+	],
 	"5d743840f8d4540015bac9aa" : [
 		"cs501",
 		"cs425"
@@ -176,6 +217,9 @@ var id_courses =
 		"cs310"
 	],
 	"5d76d2cefb31e600151dc0f3" : [
+		"cs310"
+	],
+	"5d76d32efb31e600151dc0f5" : [
 		"cs310"
 	],
 	"5d76d35afb31e600151dc0f7" : [
@@ -191,6 +235,9 @@ var id_courses =
 	"5d76d3cbfb31e600151dc0fd" : [
 		"cs410"
 	],
+	"5d76d3edfb31e600151dc0ff" : [
+		"cs310"
+	],
 	"5d76d491fb31e600151dc101" : [
 		"cs310"
 	],
@@ -198,8 +245,7 @@ var id_courses =
 		"cs230"
 	],
 	"5cd35ecd6ee2680015da8a7b" : [
-		"cs420",
-		"cs470"
+		"cs420"
 	],
 	"5d0d3f52fce07c0015eac364" : [
 		"cs510",
@@ -211,7 +257,7 @@ var id_courses =
 		"cs490"
 	],
 	"5cd745fd660b8200158b2bb8" : [
-		"cs490"
+		"cs435"
 	],
 	"5cd0d092f7e0e600158a3a52" : [
 		"cs310"
@@ -229,7 +275,20 @@ var id_courses =
 	"5cd0d206f7e0e600158a3a5f" : [
 		"cs470"
 	],
+	"5cd35c9b6ee2680015da8a6e" : [
+		"cs435",
+		"cs410"
+	],
+	"5d7c1afdd708030015fd79d6" : [
+		"cs230"
+	],
 	"5d7c1b00d708030015fd79d8" : [
+		"cs230"
+	],
+	"5d7c1b01d708030015fd79da" : [
+		"cs230"
+	],
+	"5d7c1b3dd708030015fd79dd" : [
 		"cs230"
 	],
 	"5d7c1bc6d708030015fd79e0" : [
@@ -243,11 +302,20 @@ var id_courses =
 		"cs430",
 		"cs410"
 	],
+	"5d7c38d8d708030015fd79f9" : [
+		"cs435"
+	],
+	"5d7c413dd708030015fd79fb" : [
+		"cs310"
+	],
+	"5d7c4159d708030015fd79fd" : [
+		"cs310"
+	],
 	"5d7d1264c7ace600159d3e33" : [
-		"cs230"
+		"cs220"
 	],
 	"5d7d13b1c7ace600159d3e36" : [
-		"cs150"
+		"cs101"
 	],
 	"5d7d14ebc7ace600159d3e39" : [
 		"cs220"
@@ -265,6 +333,7 @@ var id_courses =
 		"cs101"
 	],
 	"5d7d16f2c7ace600159d3e4c" : [
+		"cs101",
 		"cs150"
 	],
 	"5d7d2d8bc7ace600159d3e69" : [
@@ -280,11 +349,13 @@ var id_courses =
 		"cs230"
 	],
 	"5d7d37f2c7ace600159d3e90" : [
-		"cs240",
 		"cs300"
 	],
 	"5d7d385dc7ace600159d3e94" : [
-		"cs310"
+		"cs300"
+	],
+	"5d7d5a42f93da90015a3c009" : [
+		"cs200"
 	],
 	"5d7d5accf93da90015a3c00b" : [
 		"cs310"
@@ -302,6 +373,15 @@ var id_courses =
 		"cs425",
 		"cs300"
 	],
+	"5d7d7373cf141b0015bf44cf" : [
+		"cs501"
+	],
+	"5d7d7393cf141b0015bf44d4" : [
+		"cs501"
+	],
+	"5d7d73b2cf141b0015bf44da" : [
+		"cs501"
+	],
 	"5d8022edd2c9f600154965fe" : [
 		"cs240",
 		"cs300"
@@ -317,6 +397,9 @@ var id_courses =
 	],
 	"5d3b6ab3339e090015f47c33" : [
 		"cs410"
+	],
+	"5d43c5050d5df10015b44243" : [
+		"cs501"
 	],
 	"5d82d8408c40df00154150be" : [
 		"cs310"
@@ -334,7 +417,7 @@ var id_courses =
 		"cs310"
 	],
 	"5d82dd918c40df00154150cb" : [
-		"cs425"
+		"cs310"
 	],
 	"5d82ddfa8c40df00154150d1" : [
 		"cs310"
@@ -344,6 +427,18 @@ var id_courses =
 	],
 	"5d840d51cbcf030015183684" : [
 		"cs230"
+	],
+	"5d8410fdcbcf030015183688" : [
+		"cs501",
+		"cs410"
+	],
+	"5d8566da0bf44600159ae3ed" : [
+		"cs570",
+		"cs420",
+		"cs425"
+	],
+	"5d8571670bf44600159ae3fa" : [
+		"cs410"
 	],
 	"5d85799e0bf44600159ae3ff" : [
 		"cs310",
@@ -359,6 +454,15 @@ var id_courses =
 		"cs310",
 		"cs220"
 	],
+	"5d8694721b67740015005dc5" : [
+		"cs220"
+	],
+	"5d86954a1b67740015005dcf" : [
+		"cs200"
+	],
+	"5d86963b1b67740015005dd3" : [
+		"cs200"
+	],
 	"5cd4ae1dce28bf0015df6b9b" : [
 		"cs490",
 		"cs571",
@@ -371,8 +475,8 @@ var id_courses =
 		"cs310"
 	],
 	"5d896d75e15b4d0015e8a326" : [
-		"cs490",
-		"cs480"
+		"cs410",
+		"cs435"
 	],
 	"5d8a9f2fbf5d860015dc4707" : [
 		"cs310",
@@ -399,7 +503,7 @@ var id_courses =
 		"cs300"
 	],
 	"5d8bfeb4802894001563cea0" : [
-		"cs430",
+		"cs425",
 		"cs470"
 	],
 	"5d8bff3f802894001563cea6" : [
@@ -438,6 +542,9 @@ var id_courses =
 	"5d8d640633aeec0015315a6c" : [
 		"cs200"
 	],
+	"5d8e8e6b580d8e00159a1f1d" : [
+		"cs230"
+	],
 	"5d8e9be3580d8e00159a1f23" : [
 		"cs430",
 		"cs410"
@@ -449,6 +556,10 @@ var id_courses =
 	"5d8e9e76580d8e00159a1f2b" : [
 		"cs200",
 		"cs160"
+	],
+	"5d8e9f2a580d8e00159a1f30" : [
+		"cs570",
+		"cs300"
 	],
 	"5d8eb8de580d8e00159a2581" : [
 		"cs570"
@@ -499,9 +610,8 @@ var id_courses =
 		"cs410"
 	],
 	"5d8fcd51b897b400156ddcbd" : [
-		"cs490",
-		"cs470",
-		"cs485"
+		"cs501",
+		"cs420"
 	],
 	"5d8fcf5eb897b400156ddcc3" : [
 		"cs310"
@@ -512,9 +622,13 @@ var id_courses =
 	"5d8fd15fb897b400156ddcd7" : [
 		"cs310"
 	],
+	"5d8fe29eb897b400156dded1" : [
+		"cs420",
+		"cs570"
+	],
 	"5d913291f464770015f78846" : [
-		"cs485",
-		"cs490"
+		"cs501",
+		"cs420"
 	],
 	"5d92968837b73f001525856a" : [
 		"cs310"
@@ -541,10 +655,10 @@ var id_courses =
 		"cs170"
 	],
 	"5d9670494fda800015f8ede2" : [
-		"cs210"
+		"cs200"
 	],
 	"5d9672374fda800015f8ede4" : [
-		"cs210"
+		"cs200"
 	],
 	"5d98c51744c0a70015c0f733" : [
 		"cs400",
@@ -594,9 +708,6 @@ var id_courses =
 	"5d9fbed396c8b800154ae946" : [
 		"cs110"
 	],
-	"5d9fc98096c8b800154ae955" : [
-		"cs110"
-	],
 	"5d9fc9b896c8b800154ae959" : [
 		"cs110"
 	],
@@ -612,6 +723,15 @@ var id_courses =
 	"5da281da0c92bf0015b52c0c" : [
 		"cs502"
 	],
+	"5da2824f0c92bf0015b52c0f" : [
+		"cs501"
+	],
+	"5da282bd0c92bf0015b52c18" : [
+		"cs501"
+	],
+	"5da283290c92bf0015b52c1c" : [
+		"cs570"
+	],
 	"5da3d84b2c78070015ae94b4" : [
 		"cs563"
 	],
@@ -621,14 +741,15 @@ var id_courses =
 	"5da3d8992c78070015ae94ba" : [
 		"cs563"
 	],
-	"5da51f09c58bfe00150fc3fc" : [
-		"cs230"
-	],
 	"5da51f24c58bfe00150fc3fe" : [
 		"cs410"
 	],
-	"5dab9e5c0e581a0015fa49d7" : [
+	"5da9145592a4d4001599713f" : [
+		"cs485",
 		"cs420"
+	],
+	"5dab9e5c0e581a0015fa49d7" : [
+		"cs425"
 	],
 	"5db0dd0958b6bf00157da146" : [
 		"cs310"
@@ -681,13 +802,22 @@ var id_courses =
 		"cs502"
 	],
 	"5dbf3863f61b9600141a5289" : [
-		"cs210"
+		"cs200"
 	],
-	"5dc20f867af35a0014cd5e97" : [
-		"cs170"
+	"5dcf4758af7fdc0014af8ce2" : [
+		"cs310"
+	],
+	"5dcf4782af7fdc0014af8ce5" : [
+		"cs310"
+	],
+	"5dcf4792af7fdc0014af8ce7" : [
+		"cs310"
 	],
 	"5dd4921ffebe240014e01564" : [
 		"cs430"
+	],
+	"5dd8820b7a2dab0014236f11" : [
+		"cs310"
 	],
 	"5adbee4fee3da0002f416229" : [
 		"cs160",
@@ -709,8 +839,12 @@ var id_courses =
 	"5db0dcea58b6bf00157da144" : [
 		"cs310"
 	],
+	"5b43952613e6d800141c83ef" : [
+		"cs485",
+		"cs420"
+	],
 	"5d9fc99396c8b800154ae957" : [
-		"cs210"
+		"cs220"
 	],
 	"5da8f7ab92a4d4001599712c" : [
 		"cs220"
@@ -720,15 +854,36 @@ var id_courses =
 	],
 	"5c1847f8f8e2fe001496e6bb" : [
 		"cs501"
+	],
+	"5d9fc98096c8b800154ae955" : [
+		"cs110"
+	],
+	"5dc20f867af35a0014cd5e97" : [
+		"cs170"
+	],
+	"5da51f09c58bfe00150fc3fc" : [
+		"cs230"
 	]
 }
 var id_student = 
 {
+	"5b36a9b647821000144d5eb3" : {
+		"firstName" : "Eiffel",
+		"lastName" : "Vuong",
+		"email2" : undefined,
+		"phone2" : "6263196166"
+	},
 	"5b44015813e6d800141c8403" : {
 		"firstName" : "Allen",
 		"lastName" : "Weng",
 		"email2" : "yaguo@yahoo.com",
 		"phone2" : "7072068329"
+	},
+	"5b689645a707bd00143dd8f4" : {
+		"firstName" : "Amanda",
+		"lastName" : "Zhu",
+		"email2" : "sha_zhang@yahoo.com",
+		"phone2" : "9496641108"
 	},
 	"5bd10588cecc9b00145d1fb6" : {
 		"firstName" : "Grace",
@@ -741,6 +896,12 @@ var id_student =
 		"lastName" : "Guo",
 		"email2" : "994537495@qq.com",
 		"phone2" : "9492015361"
+	},
+	"5c1847e0f8e2fe001496e6b9" : {
+		"firstName" : "James",
+		"lastName" : "Wang",
+		"email2" : "bluerosefish@gmail.com",
+		"phone2" : "3366020019"
 	},
 	"5c453b43e2f7230014effe0b" : {
 		"firstName" : "Shania",
@@ -762,7 +923,7 @@ var id_student =
 	},
 	"5cd35e7a6ee2680015da8a76" : {
 		"firstName" : "Gary",
-		"lastName" : "G",
+		"lastName" : "Gao",
 		"email2" : "13601240208li@gmail.com",
 		"phone2" : "9493085136"
 	},
@@ -790,6 +951,12 @@ var id_student =
 		"email2" : "heruzhen82@gmail.com",
 		"phone2" : "8185312858"
 	},
+	"5d66fd6c965baa0015e91a19" : {
+		"firstName" : "Eric",
+		"lastName" : "Zhang",
+		"email2" : "qinjing82@yahoo.com11",
+		"phone2" : "6266239990"
+	},
 	"5d798bd41ce11a0015a14921" : {
 		"firstName" : "Paris",
 		"lastName" : "Vuong",
@@ -797,8 +964,8 @@ var id_student =
 		"phone2" : "6263196166"
 	},
 	"5d798bda1ce11a0015a14923" : {
-		"firstName" : "lucas",
-		"lastName" : "hu",
+		"firstName" : "Lucas",
+		"lastName" : "Hu",
 		"email2" : "532827077@qq.com",
 		"phone2" : "9499827166"
 	},
@@ -810,13 +977,13 @@ var id_student =
 	},
 	"5d798d5c1ce11a0015a14942" : {
 		"firstName" : "Jinyi",
-		"lastName" : "chen",
+		"lastName" : "Chen",
 		"email2" : "lana_0318@hotmail.com",
 		"phone2" : "9496685573"
 	},
 	"5d798d791ce11a0015a14944" : {
-		"firstName" : "tina",
-		"lastName" : "chen",
+		"firstName" : "Tina",
+		"lastName" : "Chen",
 		"email2" : "lana_0318@hotmail.com",
 		"phone2" : "9496685573"
 	},
@@ -832,6 +999,12 @@ var id_student =
 		"email2" : "gesun88@yahoo.com",
 		"phone2" : "6268661999"
 	},
+	"5d741efaf8d4540015bac99c" : {
+		"firstName" : "William",
+		"lastName" : "Lin",
+		"email2" : "joannewang1218@gmail.com",
+		"phone2" : "9492937916"
+	},
 	"5d7ac3d4fc31a60015109f4e" : {
 		"firstName" : "Oneal",
 		"lastName" : "Wang",
@@ -845,7 +1018,7 @@ var id_student =
 		"phone2" : "6265869026"
 	},
 	"5d7ac417fc31a60015109f55" : {
-		"firstName" : "andy",
+		"firstName" : "Andy",
 		"lastName" : "Ma",
 		"email2" : "mlb5585@gmail.com",
 		"phone2" : "8589006616"
@@ -880,6 +1053,12 @@ var id_student =
 		"email2" : "yeppyq@gmail.com",
 		"phone2" : "9495588368"
 	},
+	"5cd35e926ee2680015da8a78" : {
+		"firstName" : "Sean",
+		"lastName" : "Zeng",
+		"email2" : "malili77@yahoo.com",
+		"phone2" : "949-9816139"
+	},
 	"5d7ae69ef7111800159ed8f4" : {
 		"firstName" : "Leo",
 		"lastName" : "Duan",
@@ -891,6 +1070,12 @@ var id_student =
 		"lastName" : "Dou",
 		"email2" : "mllidou@yahoo.com",
 		"phone2" : "9493853609"
+	},
+	"5dec4312a873180014ddc568" : {
+		"firstName" : "Nathan",
+		"lastName" : "Lee",
+		"email2" : undefined,
+		"phone2" : undefined
 	},
 	"5d64611234e29b0015e2e9e3" : {
 		"firstName" : "Heaven",
@@ -910,6 +1095,12 @@ var id_student =
 		"email2" : "jmsun1211@gmail.com",
 		"phone2" : "7143353748"
 	},
+	"5d66fdc1965baa0015e91a22" : {
+		"firstName" : "Alexander",
+		"lastName" : "Soong",
+		"email2" : "lizchen1983@gmail.com",
+		"phone2" : "9498386839"
+	},
 	"5d66fde4965baa0015e91a24" : {
 		"firstName" : "Alexander",
 		"lastName" : "Xiao",
@@ -917,8 +1108,8 @@ var id_student =
 		"phone2" : "9493947239"
 	},
 	"5d6857a5d4b125001518e6af" : {
-		"firstName" : "jaiden",
-		"lastName" : "yang",
+		"firstName" : "Jaiden",
+		"lastName" : "Yang",
 		"email2" : "aidiyu9999@gmail.com",
 		"phone2" : "9099196219"
 	},
@@ -964,6 +1155,12 @@ var id_student =
 		"email2" : "horse2014ca@gmail.com",
 		"phone2" : "9496565461"
 	},
+	"5d6ad796bbc6a30015c9260c" : {
+		"firstName" : "Xiaoqi",
+		"lastName" : "Yin",
+		"email2" : "michaelyintong@hotmail.com",
+		"phone2" : "949-861-1611"
+	},
 	"5d6ad79fbbc6a30015c9260e" : {
 		"firstName" : "Kayden",
 		"lastName" : "Barbour",
@@ -994,6 +1191,12 @@ var id_student =
 		"email2" : "qinjing82@yahoo.com",
 		"phone2" : "6266239990"
 	},
+	"5d702ada7e1c1100153b3bf7" : {
+		"firstName" : "Leland",
+		"lastName" : "Barbour",
+		"email2" : "shengmei.ethan@gmail.com",
+		"phone2" : "4246342888"
+	},
 	"5d73e3ad6f42030015ad10ca" : {
 		"firstName" : "Mylyn",
 		"lastName" : "Zheng",
@@ -1019,8 +1222,8 @@ var id_student =
 		"phone2" : "9493818743"
 	},
 	"5d73f43d6f42030015ad10eb" : {
-		"firstName" : "jack",
-		"lastName" : "yang",
+		"firstName" : "Jack",
+		"lastName" : "Yang",
 		"email2" : "332818949@qq.com",
 		"phone2" : "9492678178"
 	},
@@ -1031,10 +1234,22 @@ var id_student =
 		"phone2" : "9495021278"
 	},
 	"5d73f4d56f42030015ad10f6" : {
-		"firstName" : "jason",
-		"lastName" : "li",
+		"firstName" : "Jason",
+		"lastName" : "Li",
 		"email2" : "xmdaisy@qq.com",
 		"phone2" : "626-410-3356"
+	},
+	"5d741f8df8d4540015bac9a6" : {
+		"firstName" : "Alice",
+		"lastName" : "LI",
+		"email2" : "wang_rebecca0505@sina.com",
+		"phone2" : "949-878-0956"
+	},
+	"5d743780f8d4540015bac9a8" : {
+		"firstName" : "Ryne",
+		"lastName" : "Wang",
+		"email2" : "kaly_gu@hotmail.com",
+		"phone2" : "6266729465"
 	},
 	"5d743840f8d4540015bac9aa" : {
 		"firstName" : "Kevin",
@@ -1060,6 +1275,12 @@ var id_student =
 		"email2" : "24847828@qq.com",
 		"phone2" : "9492998677"
 	},
+	"5d76d32efb31e600151dc0f5" : {
+		"firstName" : "Edward",
+		"lastName" : "Wen",
+		"email2" : "cfr13908078157@gmail.com",
+		"phone2" : "6576005907"
+	},
 	"5d76d35afb31e600151dc0f7" : {
 		"firstName" : "David",
 		"lastName" : "Zheng",
@@ -1084,6 +1305,12 @@ var id_student =
 		"email2" : "1284402378@qq.com",
 		"phone2" : "9493728236"
 	},
+	"5d76d3edfb31e600151dc0ff" : {
+		"firstName" : "Andrew",
+		"lastName" : "Zhou",
+		"email2" : "sandrapoly@yahoo.com",
+		"phone2" : "6696009598"
+	},
 	"5d76d491fb31e600151dc101" : {
 		"firstName" : "Jack",
 		"lastName" : "Peng",
@@ -1091,14 +1318,14 @@ var id_student =
 		"phone2" : "9499816862"
 	},
 	"5d798e491ce11a0015a1494a" : {
-		"firstName" : "jonathan",
-		"lastName" : "zhu",
+		"firstName" : "Jonathan",
+		"lastName" : "Zhu",
 		"email2" : "1137081766@qq.com",
 		"phone2" : "6262905856"
 	},
 	"5cd35ecd6ee2680015da8a7b" : {
-		"firstName" : "jason",
-		"lastName" : "zhu",
+		"firstName" : "Jason",
+		"lastName" : "Zhu",
 		"email2" : "1137081766@qq.com",
 		"phone2" : "6262905856"
 	},
@@ -1121,8 +1348,8 @@ var id_student =
 		"phone2" : "9492393118"
 	},
 	"5cd0d092f7e0e600158a3a52" : {
-		"firstName" : "eric",
-		"lastName" : "xiong",
+		"firstName" : "Eric",
+		"lastName" : "Xiong",
 		"email2" : "513733820@qq.com",
 		"phone2" : "9496271282"
 	},
@@ -1150,11 +1377,35 @@ var id_student =
 		"email2" : "janetyu0108@gmail.com",
 		"phone2" : "9496988236"
 	},
+	"5cd35c9b6ee2680015da8a6e" : {
+		"firstName" : "Daniel",
+		"lastName" : "Zhang",
+		"email2" : "qzphif@hotmail.com",
+		"phone2" : "7146082752"
+	},
+	"5d7c1afdd708030015fd79d6" : {
+		"firstName" : "Jerry",
+		"lastName" : "Zeng",
+		"email2" : "gongqian505@163.com",
+		"phone2" : "9495186597"
+	},
 	"5d7c1b00d708030015fd79d8" : {
 		"firstName" : "Bruce",
 		"lastName" : "Wen",
 		"email2" : undefined,
 		"phone2" : undefined
+	},
+	"5d7c1b01d708030015fd79da" : {
+		"firstName" : "Gavin",
+		"lastName" : "Chen",
+		"email2" : "oceanus.qiqi@hotmail.com",
+		"phone2" : "949-527-1107"
+	},
+	"5d7c1b3dd708030015fd79dd" : {
+		"firstName" : "Daniel",
+		"lastName" : "Yue",
+		"email2" : "jessica7785@hotmail.com",
+		"phone2" : "6268413892"
 	},
 	"5d7c1bc6d708030015fd79e0" : {
 		"firstName" : "Wenona",
@@ -1173,6 +1424,24 @@ var id_student =
 		"lastName" : "Chen",
 		"email2" : "red48943@gmail.com",
 		"phone2" : "6264275132"
+	},
+	"5d7c38d8d708030015fd79f9" : {
+		"firstName" : "Wesley",
+		"lastName" : "Fan",
+		"email2" : "minxu2002@gmail.com",
+		"phone2" : "9493896372"
+	},
+	"5d7c413dd708030015fd79fb" : {
+		"firstName" : "Alivia ",
+		"lastName" : "Ding",
+		"email2" : "dingruoxi0921@gmail.com",
+		"phone2" : "6265251318"
+	},
+	"5d7c4159d708030015fd79fd" : {
+		"firstName" : "Congyu",
+		"lastName" : "Zhao",
+		"email2" : "shichunjing1234@163.com",
+		"phone2" : "9496275173"
 	},
 	"5d7d1264c7ace600159d3e33" : {
 		"firstName" : "Joshua",
@@ -1258,6 +1527,12 @@ var id_student =
 		"email2" : "1137081766@qq.com",
 		"phone2" : "6262905856"
 	},
+	"5d7d5a42f93da90015a3c009" : {
+		"firstName" : "Eric",
+		"lastName" : "Han",
+		"email2" : undefined,
+		"phone2" : "9493021250"
+	},
 	"5d7d5accf93da90015a3c00b" : {
 		"firstName" : "Hanshi",
 		"lastName" : "Yang",
@@ -1288,6 +1563,24 @@ var id_student =
 		"email2" : "hopeful8598@gmail.com",
 		"phone2" : "6265090777"
 	},
+	"5d7d7373cf141b0015bf44cf" : {
+		"firstName" : "Jerry",
+		"lastName" : "Zhang",
+		"email2" : "963192951@qq.com",
+		"phone2" : "9494311888"
+	},
+	"5d7d7393cf141b0015bf44d4" : {
+		"firstName" : "Thomas",
+		"lastName" : "Fang",
+		"email2" : "georgia.gao@gmail.com",
+		"phone2" : "9493818680"
+	},
+	"5d7d73b2cf141b0015bf44da" : {
+		"firstName" : "Shawn",
+		"lastName" : "Liu",
+		"email2" : "youshuqinsusan@gmail.com",
+		"phone2" : "5105569550"
+	},
 	"5d8022edd2c9f600154965fe" : {
 		"firstName" : "Daniel",
 		"lastName" : "Chen",
@@ -1317,6 +1610,12 @@ var id_student =
 		"lastName" : "Zhang",
 		"email2" : "knljiao@126.com",
 		"phone2" : "9495628011"
+	},
+	"5d43c5050d5df10015b44243" : {
+		"firstName" : "Andy",
+		"lastName" : "Zhou",
+		"email2" : "m18610381820@163.com",
+		"phone2" : "9493729491"
 	},
 	"5d82d8408c40df00154150be" : {
 		"firstName" : "zeyu",
@@ -1372,6 +1671,24 @@ var id_student =
 		"email2" : "sophia081927@outlook.com",
 		"phone2" : "9493017358"
 	},
+	"5d8410fdcbcf030015183688" : {
+		"firstName" : "Bruce",
+		"lastName" : "Li",
+		"email2" : "cjie97852@gmail.com",
+		"phone2" : "9499810428"
+	},
+	"5d8566da0bf44600159ae3ed" : {
+		"firstName" : "Richard",
+		"lastName" : "Yu",
+		"email2" : undefined,
+		"phone2" : "7142734687"
+	},
+	"5d8571670bf44600159ae3fa" : {
+		"firstName" : "Barry",
+		"lastName" : "Li",
+		"email2" : "ljx20090108@gmail.com",
+		"phone2" : "9495296883"
+	},
 	"5d85799e0bf44600159ae3ff" : {
 		"firstName" : "Carina",
 		"lastName" : "Z",
@@ -1395,6 +1712,24 @@ var id_student =
 		"lastName" : "jiaheng",
 		"email2" : "jamielee3@126.com",
 		"phone2" : "9493445495"
+	},
+	"5d8694721b67740015005dc5" : {
+		"firstName" : "Cherry",
+		"lastName" : "Xu",
+		"email2" : "673760662@qq.com",
+		"phone2" : "9498807473"
+	},
+	"5d86954a1b67740015005dcf" : {
+		"firstName" : "Bruce",
+		"lastName" : "Ma",
+		"email2" : "aqljj@sina.com",
+		"phone2" : "9496685913"
+	},
+	"5d86963b1b67740015005dd3" : {
+		"firstName" : "Henry",
+		"lastName" : "LI",
+		"email2" : "aqljj@sina.com",
+		"phone2" : "9496685913"
 	},
 	"5cd4ae1dce28bf0015df6b9b" : {
 		"firstName" : "Leheng",
@@ -1522,6 +1857,12 @@ var id_student =
 		"email2" : "zoesun99@gmail.com",
 		"phone2" : "6264003377"
 	},
+	"5d8e8e6b580d8e00159a1f1d" : {
+		"firstName" : "Nate",
+		"lastName" : "Zhou",
+		"email2" : "jingwang5018@gmail.com",
+		"phone2" : "626-624-3456"
+	},
 	"5d8e9be3580d8e00159a1f23" : {
 		"firstName" : "David",
 		"lastName" : "Liu",
@@ -1539,6 +1880,12 @@ var id_student =
 		"lastName" : "Liu",
 		"email2" : "jing12626@hotmail.com",
 		"phone2" : "6262152961"
+	},
+	"5d8e9f2a580d8e00159a1f30" : {
+		"firstName" : "Nicky",
+		"lastName" : "Shih",
+		"email2" : "shihporsche@gmail.com",
+		"phone2" : "7149252952"
 	},
 	"5d8eb8de580d8e00159a2581" : {
 		"firstName" : "Kevin",
@@ -1641,6 +1988,12 @@ var id_student =
 		"lastName" : "Li",
 		"email2" : "zhangela301@hotmail.com",
 		"phone2" : "9097617361"
+	},
+	"5d8fe29eb897b400156dded1" : {
+		"firstName" : "Zachary",
+		"lastName" : "Liang",
+		"email2" : "judith.jing@gmail.com",
+		"phone2" : "9493957977"
 	},
 	"5d913291f464770015f78846" : {
 		"firstName" : "Austen",
@@ -1780,15 +2133,9 @@ var id_student =
 		"email2" : undefined,
 		"phone2" : "9493903122"
 	},
-	"5d9fc98096c8b800154ae955" : {
-		"firstName" : "diego",
-		"lastName" : "zhou",
-		"email2" : "christinehuo2014@gmail.com",
-		"phone2" : "6262027047"
-	},
 	"5d9fc9b896c8b800154ae959" : {
-		"firstName" : "derek",
-		"lastName" : "derek",
+		"firstName" : "Derek",
+		"lastName" : "Derek",
 		"email2" : "",
 		"phone2" : "8188233339"
 	},
@@ -1816,6 +2163,24 @@ var id_student =
 		"email2" : undefined,
 		"phone2" : undefined
 	},
+	"5da2824f0c92bf0015b52c0f" : {
+		"firstName" : "Frank",
+		"lastName" : "Lin",
+		"email2" : "",
+		"phone2" : ""
+	},
+	"5da282bd0c92bf0015b52c18" : {
+		"firstName" : "Derek",
+		"lastName" : "Zuo",
+		"email2" : "maggienli@qq.com",
+		"phone2" : "9495172556"
+	},
+	"5da283290c92bf0015b52c1c" : {
+		"firstName" : "Athena",
+		"lastName" : "Chen",
+		"email2" : "lizchen1983@gmail.com",
+		"phone2" : "9498386839"
+	},
 	"5da3d84b2c78070015ae94b4" : {
 		"firstName" : "Terence",
 		"lastName" : "Chen",
@@ -1834,17 +2199,17 @@ var id_student =
 		"email2" : "honysie@gmail.com",
 		"phone2" : "9496560130"
 	},
-	"5da51f09c58bfe00150fc3fc" : {
-		"firstName" : "Sean ",
-		"lastName" : "li",
-		"email2" : "olinnazhou@gmail.com",
-		"phone2" : "9496772417"
-	},
 	"5da51f24c58bfe00150fc3fe" : {
 		"firstName" : "Yanbo",
 		"lastName" : "Wang",
 		"email2" : "lisry1010@gmail.com",
 		"phone2" : "6262418228"
+	},
+	"5da9145592a4d4001599713f" : {
+		"firstName" : "Peter",
+		"lastName" : "Chen",
+		"email2" : undefined,
+		"phone2" : undefined
 	},
 	"5dab9e5c0e581a0015fa49d7" : {
 		"firstName" : "Billy",
@@ -1943,22 +2308,40 @@ var id_student =
 		"phone2" : undefined
 	},
 	"5dbf3863f61b9600141a5289" : {
-		"firstName" : "joseph",
-		"lastName" : "zhang",
+		"firstName" : "Joseph",
+		"lastName" : "Zhang",
 		"email2" : "zxf199797@gmail.com",
 		"phone2" : "8587668009"
 	},
-	"5dc20f867af35a0014cd5e97" : {
-		"firstName" : "Jeanne",
-		"lastName" : "Yang",
-		"email2" : "jeannelove2011@gmail.com",
-		"phone2" : "9499668132"
+	"5dcf4758af7fdc0014af8ce2" : {
+		"firstName" : "Ke",
+		"lastName" : "Ding",
+		"email2" : "mg6266230251@outLook.com",
+		"phone2" : "6266230251"
+	},
+	"5dcf4782af7fdc0014af8ce5" : {
+		"firstName" : "Mini",
+		"lastName" : "Liang",
+		"email2" : "xianxueqiong@gmail.com",
+		"phone2" : "9497749274"
+	},
+	"5dcf4792af7fdc0014af8ce7" : {
+		"firstName" : "Chris",
+		"lastName" : "Fang",
+		"email2" : "l18955141488@126.com",
+		"phone2" : "9492327194"
 	},
 	"5dd4921ffebe240014e01564" : {
 		"firstName" : "Crystal",
 		"lastName" : "Sun",
 		"email2" : "Christina.chen.me@gmail.com",
 		"phone2" : "626-888-0670"
+	},
+	"5dd8820b7a2dab0014236f11" : {
+		"firstName" : "Gary ",
+		"lastName" : "Wang",
+		"email2" : "huanjie.wang9369@gmail.com",
+		"phone2" : "9499817329"
 	},
 	"5adbee4fee3da0002f416229" : {
 		"firstName" : "Student",
@@ -1990,15 +2373,21 @@ var id_student =
 		"email2" : "duzhenyu69@gmail.com",
 		"phone2" : "9497262166"
 	},
+	"5b43952613e6d800141c83ef" : {
+		"firstName" : "Kevin",
+		"lastName" : "Ying",
+		"email2" : "joycemm18@hotmail.com",
+		"phone2" : "6266794300"
+	},
 	"5d9fc99396c8b800154ae957" : {
-		"firstName" : "owen",
-		"lastName" : "wang",
+		"firstName" : "Owen",
+		"lastName" : "Wang",
 		"email2" : "1579450867@qq.com",
 		"phone2" : "9499817329"
 	},
 	"5da8f7ab92a4d4001599712c" : {
-		"firstName" : "andrew",
-		"lastName" : "zheng",
+		"firstName" : "Andrew",
+		"lastName" : "Zheng",
 		"email2" : "",
 		"phone2" : "9493393999"
 	},
@@ -2013,14 +2402,35 @@ var id_student =
 		"lastName" : "Lee",
 		"email2" : "cldlyy@yahoo.com",
 		"phone2" : "9493860007"
+	},
+	"5d9fc98096c8b800154ae955" : {
+		"firstName" : "Diego",
+		"lastName" : "Zhou",
+		"email2" : "christinehuo2014@gmail.com",
+		"phone2" : "6262027047"
+	},
+	"5dc20f867af35a0014cd5e97" : {
+		"firstName" : "Jeanne",
+		"lastName" : "Yang",
+		"email2" : "jeannelove2011@gmail.com",
+		"phone2" : "9499668132"
+	},
+	"5da51f09c58bfe00150fc3fc" : {
+		"firstName" : "Sean ",
+		"lastName" : "li",
+		"email2" : "olinnazhou@gmail.com",
+		"phone2" : "9496772417"
 	}
 }
-149
+190
 var irvineStuList =
 [
+	"5b36a9b647821000144d5eb3",
 	"5b44015813e6d800141c8403",
+	"5b689645a707bd00143dd8f4",
 	"5bd10588cecc9b00145d1fb6",
 	"5bda3ba91287140014027bc1",
+	"5c1847e0f8e2fe001496e6b9",
 	"5c453b43e2f7230014effe0b",
 	"5c465bb427f5d30014821995",
 	"5c8973a2f3e1cf0014c2c048",
@@ -2028,11 +2438,13 @@ var irvineStuList =
 	"5cd744c6660b8200158b2ba9",
 	"5d6460b134e29b0015e2e9df",
 	"5d6460c134e29b0015e2e9e1",
+	"5d66fd6c965baa0015e91a19",
 	"5d798bd41ce11a0015a14921",
 	"5d798bda1ce11a0015a14923",
 	"5d798c841ce11a0015a14928",
 	"5d798d5c1ce11a0015a14942",
 	"5d798d791ce11a0015a14944",
+	"5d741efaf8d4540015bac99c",
 	"5d7ac3d4fc31a60015109f4e",
 	"5d7ac3e6fc31a60015109f50",
 	"5d7ac417fc31a60015109f55",
@@ -2040,11 +2452,13 @@ var irvineStuList =
 	"5d7ac4e9fc31a60015109f61",
 	"5d7ac575fc31a60015109f63",
 	"5cd35e386ee2680015da8a74",
+	"5cd35e926ee2680015da8a78",
 	"5d7ae69ef7111800159ed8f4",
 	"5cd35dda6ee2680015da8a72",
 	"5d64611234e29b0015e2e9e3",
 	"5d6487ad34e29b0015e2e9f9",
 	"5d6487e234e29b0015e2e9fb",
+	"5d66fdc1965baa0015e91a22",
 	"5d66fde4965baa0015e91a24",
 	"5d6857a5d4b125001518e6af",
 	"5d6857c0d4b125001518e6b1",
@@ -2054,11 +2468,13 @@ var irvineStuList =
 	"5d6ac980bbc6a30015c925f2",
 	"5d6ad784bbc6a30015c92608",
 	"5d6ad792bbc6a30015c9260a",
+	"5d6ad796bbc6a30015c9260c",
 	"5d6ad79fbbc6a30015c9260e",
 	"5d70298a7e1c1100153b3bd8",
 	"5d702a0a7e1c1100153b3bdc",
 	"5d702a357e1c1100153b3be0",
 	"5d702a577e1c1100153b3be6",
+	"5d702ada7e1c1100153b3bf7",
 	"5d73e3ad6f42030015ad10ca",
 	"5d73eefc6f42030015ad10d5",
 	"5d73ef106f42030015ad10d7",
@@ -2066,14 +2482,18 @@ var irvineStuList =
 	"5d73f43d6f42030015ad10eb",
 	"5d73f4b96f42030015ad10f1",
 	"5d73f4d56f42030015ad10f6",
+	"5d741f8df8d4540015bac9a6",
+	"5d743780f8d4540015bac9a8",
 	"5d743840f8d4540015bac9aa",
 	"5d76d2b4fb31e600151dc0ef",
 	"5d76d2c2fb31e600151dc0f1",
 	"5d76d2cefb31e600151dc0f3",
+	"5d76d32efb31e600151dc0f5",
 	"5d76d35afb31e600151dc0f7",
 	"5d76d374fb31e600151dc0f9",
 	"5d76d399fb31e600151dc0fb",
 	"5d76d3cbfb31e600151dc0fd",
+	"5d76d3edfb31e600151dc0ff",
 	"5d76d491fb31e600151dc101",
 	"5d798e491ce11a0015a1494a",
 	"5cd35ecd6ee2680015da8a7b",
@@ -2083,8 +2503,15 @@ var irvineStuList =
 	"5d6d993e9c67fa0015549b1e",
 	"5d7ae845f7111800159ed8fa",
 	"5cd0d206f7e0e600158a3a5f",
+	"5cd35c9b6ee2680015da8a6e",
+	"5d7c1afdd708030015fd79d6",
 	"5d7c1b00d708030015fd79d8",
+	"5d7c1b01d708030015fd79da",
+	"5d7c1b3dd708030015fd79dd",
 	"5d7c22f8d708030015fd79e4",
+	"5d7c38d8d708030015fd79f9",
+	"5d7c413dd708030015fd79fb",
+	"5d7c4159d708030015fd79fd",
 	"5d7d1264c7ace600159d3e33",
 	"5d7d13b1c7ace600159d3e36",
 	"5d7d14ebc7ace600159d3e39",
@@ -2099,15 +2526,20 @@ var irvineStuList =
 	"5d73e4386f42030015ad10cc",
 	"5d7d37f2c7ace600159d3e90",
 	"5d7d385dc7ace600159d3e94",
+	"5d7d5a42f93da90015a3c009",
 	"5d7d5accf93da90015a3c00b",
 	"5d7d5ad2f93da90015a3c00d",
 	"5d7d5af6f93da90015a3c00f",
 	"5d7d651a584c1d0015d5f0f4",
+	"5d7d7373cf141b0015bf44cf",
+	"5d7d7393cf141b0015bf44d4",
+	"5d7d73b2cf141b0015bf44da",
 	"5d8022edd2c9f600154965fe",
 	"5d8022afd2c9f600154965f9",
 	"5d802314d2c9f60015496606",
 	"5d802293d2c9f600154965f5",
 	"5d3b6ab3339e090015f47c33",
+	"5d43c5050d5df10015b44243",
 	"5d82d8408c40df00154150be",
 	"5d82d8448c40df00154150c0",
 	"5d82d8498c40df00154150c2",
@@ -2116,15 +2548,23 @@ var irvineStuList =
 	"5d82dd918c40df00154150cb",
 	"5d82ddfa8c40df00154150d1",
 	"5d82de068c40df00154150d3",
+	"5d8410fdcbcf030015183688",
+	"5d8566da0bf44600159ae3ed",
+	"5d8571670bf44600159ae3fa",
 	"5d85799e0bf44600159ae3ff",
 	"5d8664483e98e80015061dd8",
 	"5d86647d3e98e80015061dda",
 	"5d86791b3e98e80015061dff",
+	"5d8694721b67740015005dc5",
+	"5d86954a1b67740015005dcf",
+	"5d86963b1b67740015005dd3",
 	"5cd74492660b8200158b2ba6",
 	"5d896d75e15b4d0015e8a326",
 	"5d8bfc0b802894001563ce9d",
 	"5d8bfeb4802894001563cea0",
 	"5d8bff3f802894001563cea6",
+	"5d8e8e6b580d8e00159a1f1d",
+	"5d8e9f2a580d8e00159a1f30",
 	"5d8fb220580d8e00159a25c3",
 	"5d8fcc92b897b400156ddcb7",
 	"5d8fcd0db897b400156ddcbb",
@@ -2132,6 +2572,7 @@ var irvineStuList =
 	"5d8fcf5eb897b400156ddcc3",
 	"5d8fcf72b897b400156ddcc5",
 	"5d8fd15fb897b400156ddcd7",
+	"5d8fe29eb897b400156dded1",
 	"5d92968837b73f001525856a",
 	"5d9670494fda800015f8ede2",
 	"5d9672374fda800015f8ede4",
@@ -2140,15 +2581,16 @@ var irvineStuList =
 	"5d9a58688fa98c001578d468",
 	"5d9e8892a3289100153c97c1",
 	"5d9fbed396c8b800154ae946",
-	"5d9fc98096c8b800154ae955",
 	"5d9fc9b896c8b800154ae959",
 	"5da281540c92bf0015b52c03",
 	"5da281b70c92bf0015b52c09",
 	"5da281da0c92bf0015b52c0c",
+	"5da2824f0c92bf0015b52c0f",
+	"5da282bd0c92bf0015b52c18",
+	"5da283290c92bf0015b52c1c",
 	"5da3d84b2c78070015ae94b4",
 	"5da3d87a2c78070015ae94b6",
 	"5da3d8992c78070015ae94ba",
-	"5da51f09c58bfe00150fc3fc",
 	"5da51f24c58bfe00150fc3fe",
 	"5dab9e5c0e581a0015fa49d7",
 	"5db0dd0958b6bf00157da146",
@@ -2157,16 +2599,22 @@ var irvineStuList =
 	"5dbe13fbf61b9600141a525c",
 	"5dbe15b7f61b9600141a5268",
 	"5dbf3863f61b9600141a5289",
-	"5dc20f867af35a0014cd5e97",
+	"5dcf4758af7fdc0014af8ce2",
+	"5dcf4782af7fdc0014af8ce5",
+	"5dcf4792af7fdc0014af8ce7",
 	"5dd4921ffebe240014e01564",
 	"5bda2b861287140014027bbb",
 	"5da51f53c58bfe00150fc400",
 	"5bd101a1cecc9b00145d1fa8",
 	"5db0dcea58b6bf00157da144",
+	"5b43952613e6d800141c83ef",
 	"5d9fc99396c8b800154ae957",
 	"5da8f7ab92a4d4001599712c",
 	"5da281960c92bf0015b52c06",
-	"5c1847f8f8e2fe001496e6bb"
+	"5c1847f8f8e2fe001496e6bb",
+	"5d9fc98096c8b800154ae955",
+	"5dc20f867af35a0014cd5e97",
+	"5da51f09c58bfe00150fc3fc"
 ]
 var arcadiaStuList =
 [
