@@ -5,9 +5,8 @@ angular.module('v3App', ['ngMaterial'])
   .controller('CourseListController', function ($scope, $http, $mdToast) {
     $scope.courseListIrvine = irvinedb;
     $scope.courseListArcadia = arcadiadb;
-    $scope.courseListOnline = onlinedb;
     $scope.form = {};
-    $scope.submit = function (courseId) {
+    $scope.submit = function (courseId, campus) {
       $(`#${courseId}`).removeClass('modal-active');
 
       var displayToast = function (type) {
@@ -37,7 +36,7 @@ angular.module('v3App', ['ngMaterial'])
         });
       }
       $scope.form.dateOfBirth = '2018-04-11T15:50:01.459Z';
-      $scope.form.username = `${$scope.form.firstName}${$scope.form.lastName}`;
+      $scope.form.username = `${$scope.form.firstName}${$scope.form.lastName}${campus}`;
       $scope.form.password = `codingminds${$scope.form.username}`;
       $scope.form.contact2Type = "WeChatUsername";
       $http({
