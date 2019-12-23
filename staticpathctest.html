@@ -314,7 +314,7 @@
                                                                                                     <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                     <hr data-title="OR">
                                                                                                     <div class="feature__body">
-                                                                                                        <form ng-submit="submit(data.courseid)">
+                                                                                                        <form ng-submit="submit(data.courseid, 'Irvine')">
                                                                                                             <div class="row">
                                                                                                                 <div class="col-sm-6">
                                                                                                                     <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
@@ -326,10 +326,10 @@
                                                                                                                     <input type="text" ng-model="form.grade" placeholder="年级" />
                                                                                                                 </div>
                                                                                                                 <div class="col-sm-12">
-                                                                                                                    <input type="email" ng-model="form.email2" placeholder="Email" />
+                                                                                                                    <input type="email" ng-model="form.email2" placeholder="Email" required/>
                                                                                                                 </div>
                                                                                                                 <div class="col-sm-12">
-                                                                                                                    <input type="number" ng-model="form.phone2" placeholder="联系电话" />
+                                                                                                                    <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
                                                                                                                 </div>
                                                                                                                 <div class="col-sm-12">
                                                                                                                     <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
@@ -455,7 +455,7 @@
                                                                                                         <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                         <hr data-title="OR">
                                                                                                         <div class="feature__body">
-                                                                                                            <form ng-submit="submit(data.courseid)">
+                                                                                                            <form ng-submit="submit(data.courseid, 'Arcadia')">
                                                                                                                 <div class="row">
                                                                                                                     <div class="col-sm-6">
                                                                                                                         <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
@@ -467,10 +467,10 @@
                                                                                                                         <input type="text" ng-model="form.grade" placeholder="年级" />
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
-                                                                                                                        <input type="email" ng-model="form.email2" placeholder="Email" />
+                                                                                                                        <input type="email" ng-model="form.email2" placeholder="Email" required/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
-                                                                                                                        <input type="number" ng-model="form.phone2" placeholder="联系电话" />
+                                                                                                                        <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
                                                                                                                         <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
@@ -588,12 +588,12 @@
                                                                                                         <div class="modal-close modal-close-cross"></div>
                                                                                                         <h3>填写报名信息</h3>
                                                                                                         <h5>{{course.shortName}}</h5>
-                                                                                                        <h5 style="margin-bottom: 0;">Arcadia校区</h5>
+                                                                                                        <h5 style="margin-bottom: 0;">Online</h5>
                                                                                                         <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
                                                                                                         <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                         <hr data-title="OR">
                                                                                                         <div class="feature__body">
-                                                                                                            <form ng-submit="submit(data.courseid)">
+                                                                                                            <form ng-submit="submit(data.courseid, 'Online')">
                                                                                                                 <div class="row">
                                                                                                                     <div class="col-sm-6">
                                                                                                                         <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
@@ -605,10 +605,10 @@
                                                                                                                         <input type="text" ng-model="form.grade" placeholder="年级" />
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
-                                                                                                                        <input type="email" ng-model="form.email2" placeholder="Email" />
+                                                                                                                        <input type="email" ng-model="form.email2" placeholder="Email" required/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
-                                                                                                                        <input type="number" ng-model="form.phone2" placeholder="联系电话" />
+                                                                                                                        <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
                                                                                                                     </div>
                                                                                                                     <div class="col-sm-12">
                                                                                                                         <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
