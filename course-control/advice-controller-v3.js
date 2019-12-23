@@ -16,8 +16,8 @@ angular.module('v3App', ['ngMaterial'])
     $scope.courseListOnline = onlinedb;
     $scope.stuName = id_student[$scope.stuid].firstName;
     $scope.lastName = id_student[$scope.stuid].lastName;
-    $scope.parentEmail = id_student[$scope.stuid].parentEmail;
-    $scope.parentPhoneNumber = id_student[$scope.stuid].parentPhoneNumber;
+    $scope.email2 = id_student[$scope.stuid].email2;
+    $scope.phone2 = id_student[$scope.stuid].phone2;
 
     var suggestedCourses;
     $scope.suggestedCourses = [];
@@ -69,7 +69,7 @@ angular.module('v3App', ['ngMaterial'])
         $mdToast.show({
           template: '<md-toast layout="row" class="md-toast ' + type + '">' + msg  + '<a href="#" ng-click="closeToast()" style="color:white;padding-left:2em;text-decoration:none;">X</a></md-toast>',
           hideDelay: time,
-          position: 'bottom center',
+          position: 'bottom',
           controller: 'ToastController',
           parent: document.getElementById('toast-container')
         }).then(function () {

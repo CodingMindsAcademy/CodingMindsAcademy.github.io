@@ -579,6 +579,26 @@ var coursedb = {
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
+		},
+		'cs435' : {
+			'enabled':true,
+			'online':false,
+			'cid':'CS435',
+			'title1':'AI深度学习与区块链技术',
+			'title2':'AI高阶编程',
+			'name':'AI高阶编程:探索深度学习与区块链技术',
+			'shortName':'AI高阶编程',
+			'imageUrl':'img/my/ai2/ai2-bg.png',
+			'gradeLevel':'L4应用主题编程',
+			'text':'学习人工智能的高级知识与应用了解最前沿的技术革新',
+			'tag':'编程算法与AI系列',
+			'pathway':['coding'],
+			'detailsTitle':'查看详情',
+			'detailsUrl':'ai2c.html',
+			'locations':'选择地点',
+			'registerUrl':'corecn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs440' : {
 			'enabled':true,
