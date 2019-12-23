@@ -1,6 +1,6 @@
 //use follow command to run the script, change the name to current file's name.
 //when modify data in prod, remember to mongodump first!!!
-// mongo ds247569.mlab.com:47569/shareworks-prod -u admin -p sharemyworks1 < [filename].js > [outputfile]
+// mongo ds247569.mlab.com:47569/shareworks-prod -u [username] -p [password] < advice_page.js > ../id_coursecodes.js
 
 
 var students = db.Account.find({"suggestedCourses":{$nin:[null,[]]}});
