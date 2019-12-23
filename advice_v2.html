@@ -301,8 +301,8 @@
                                                                         <td style="width: 28%"><b>注册</b></td>
                                                                     </tr>
                                                                     <tr ng-repeat="data in course['repeatData']">
-                                                                        <td style="width: 31%">日期根据学生情况而定</td>
-                                                                        <td style="width: 28%">时间根据学生情况而定</td>
+                                                                        <td style="width: 31%">{{data.range}}</td>
+                                                                        <td style="width: 28%">{{data.dayTime}}</td>
                                                                         <td style="width: 28%">
                                                                             <div class="modal-instance">
                                                                                 <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
@@ -433,8 +433,8 @@
                                                                         <td style="width: 28%"><b>注册</b></td>
                                                                     </tr>
                                                                     <tr ng-repeat="data in course['repeatData']">
-                                                                        <td style="width: 31%">日期根据学生情况而定</td>
-                                                                        <td style="width: 28%">时间根据学生情况而定</td>
+                                                                        <td style="width: 31%">{{data.range}}</td>
+                                                                        <td style="width: 28%">{{data.dayTime}}</td>
                                                                         <td style="width: 28%">
                                                                             <div class="modal-instance">
                                                                                 <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
