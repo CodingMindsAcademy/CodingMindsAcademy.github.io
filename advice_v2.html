@@ -301,8 +301,8 @@
                                                                         <td style="width: 28%"><b>注册</b></td>
                                                                     </tr>
                                                                     <tr ng-repeat="data in course['repeatData']">
-                                                                        <td style="width: 31%">{{data.range}}</td>
-                                                                        <td style="width: 28%">{{data.dayTime}}</td>
+                                                                        <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                                        <td style="width: 28%">{{cn_courseday(data.dayTime)}}</td>
                                                                         <td style="width: 28%">
                                                                             <div class="modal-instance">
                                                                                 <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
@@ -318,7 +318,7 @@
                                                                                                             <h5>{{course.shortName}}</h5>
                                                                                                             <h5 style="margin-bottom: 0;">Arcadia校区</h5>
                                                                                                             <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
-                                                                                                            <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                                            <p><b>时间：</b>{{cn_courseday(data.dayTime)}}</p>
                                                                                                             <hr data-title="OR">
                                                                                                             <div class="feature__body">
                                                                                                                 <form ng-submit="submit(data.courseid)">
@@ -433,8 +433,8 @@
                                                                         <td style="width: 28%"><b>注册</b></td>
                                                                     </tr>
                                                                     <tr ng-repeat="data in course['repeatData']">
-                                                                        <td style="width: 31%">{{data.range}}</td>
-                                                                        <td style="width: 28%">{{data.dayTime}}</td>
+                                                                        <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                                        <td style="width: 28%">{{cn_courseday(data.dayTime)}}</td>
                                                                         <td style="width: 28%">
                                                                             <div class="modal-instance">
                                                                                 <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
@@ -450,7 +450,7 @@
                                                                                                             <h5>{{course.shortName}}</h5>
                                                                                                             <h5 style="margin-bottom: 0;">Arcadia校区</h5>
                                                                                                             <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
-                                                                                                            <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                                            <p><b>时间：</b>{{cn_courseday(data.dayTime)}}</p>
                                                                                                             <hr data-title="OR">
                                                                                                             <div class="feature__body">
                                                                                                                 <form ng-submit="submit(data.courseid)">
@@ -582,7 +582,7 @@
                                                                                                             <h5>{{course.shortName}}</h5>
                                                                                                             <h5 style="margin-bottom: 0;">Arcadia校区</h5>
                                                                                                             <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
-                                                                                                            <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                                            <p><b>时间：</b>{{cn_courseday(data.dayTime)}}</p>
                                                                                                             <hr data-title="OR">
                                                                                                             <div class="feature__body">
                                                                                                                 <form ng-submit="submit(data.courseid)">
