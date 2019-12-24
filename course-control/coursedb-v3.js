@@ -216,7 +216,7 @@ var coursedb = {
 			'detailsTitle':'查看详情',
 			'detailsUrl':'',
 			'locations':'选择地点',
-			'registerUrl':'corecn.html#allCourses',
+			'registerUrl':'microbit-cn.html',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
