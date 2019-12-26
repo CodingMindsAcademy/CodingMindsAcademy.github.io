@@ -132,8 +132,11 @@
                             </table>
 
                             <h2 class="text-center">学期总结<br></h2>
-                            <p>{{Feedbacks[Feedbacks.length-1].text_cn}}</p>
                             <p>{{Feedbacks[Feedbacks.length-1].text}}</p>
+                            <div ng-if="Feedbacks[Feedbacks.length-1].text_cn">
+                                <h5 class="text-center">下面中文翻译由百度翻译自动完成</h5>
+                                <p>{{Feedbacks[Feedbacks.length-1].text_cn}}</p>
+                            </div>
                         <div ng-if="FinalProject.videoUrl != ''">
                             <h2 class="text-center">课程项目<br></h2>
                             <h3 class="text-center" id='title'>{{FinalProject.title}}</h3>
