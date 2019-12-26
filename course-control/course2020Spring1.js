@@ -93,7 +93,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df727081aabab00146442fa",
-				"dayTime" : "Monday 15:20-04:50",
+				"dayTime" : "Monday 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			}
@@ -340,7 +340,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df7260e1aabab00146442f9",
-				"dayTime" : "Monday 15:20-04:50",
+				"dayTime" : "Monday 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			},
@@ -352,7 +352,7 @@ var irvinedb =
 			},
 			{
 				"courseid" : "5df72e001aabab0014644308",
-				"dayTime" : "Friday 15:30-05:00",
+				"dayTime" : "Friday 15:30-17:00",
 				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			},
@@ -831,7 +831,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df727081aabab00146442fa",
-				"dayTime" : "Monday 15:20-04:50",
+				"dayTime" : "Monday 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			}
@@ -894,7 +894,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72dd11aabab0014644307",
-				"dayTime" : "Friday 15:30-05:00",
+				"dayTime" : "Friday 15:30-17:00",
 				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			},
@@ -1116,7 +1116,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df7260e1aabab00146442f9",
-				"dayTime" : "Monday 15:20-04:50",
+				"dayTime" : "Monday 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			},
@@ -1128,7 +1128,7 @@ var arcadiadb =
 			},
 			{
 				"courseid" : "5df72e001aabab0014644308",
-				"dayTime" : "Friday 15:30-05:00",
+				"dayTime" : "Friday 15:30-17:00",
 				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			},
