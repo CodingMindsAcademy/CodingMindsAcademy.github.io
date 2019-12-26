@@ -95,7 +95,8 @@ var id_courses =
 		"cs310"
 	],
 	"5cd4ae10ce28bf0015df6b97" : [
-		"cs570"
+		"cs425",
+		"cs490"
 	],
 	"5cd35e386ee2680015da8a74" : [
 		"cs502"
@@ -497,7 +498,8 @@ var id_courses =
 	],
 	"5d8ac098bf5d860015dc471e" : [
 		"cs490",
-		"cs571"
+		"cs571",
+		"cs485"
 	],
 	"5d8bfc0b802894001563ce9d" : [
 		"cs300"
@@ -639,7 +641,7 @@ var id_courses =
 	],
 	"5d9296ab37b73f001525856e" : [
 		"cs310",
-		"cs410"
+		"cs470"
 	],
 	"5d9296c037b73f0015258570" : [
 		"cs310",
@@ -648,7 +650,7 @@ var id_courses =
 	"5cd4af1ace28bf0015df6b9f" : [
 		"cs490",
 		"cs571",
-		"cs470"
+		"cs501"
 	],
 	"5d93e7b93deb0d0015427c55" : [
 		"cs240",
