@@ -21,15 +21,15 @@ angular.module('v3App', [])
         console.log(response);
         var month = response.data.courses[0].dateStart.slice(5,7);
         if (8<=month<=12){
-          $scope.Term = 'Fall';
+          $scope.Term = 'Fall 2020';
         }else{
-          $scope.Term = 'Spring';
+          $scope.Term = 'Spring 2020';
         }
         
         $scope.StudentRecord = response.data.profile;
         $scope.StudentCourse = response.data.courses[0];
         $scope.Feedbacks = response.data.feedback;
-        $scope.Instructor = response.data.instructor;
+        $scope.Level = response.data.gradeLevel;
         var idx = response.data.activities.length-1;
         var logId = $scope.Feedbacks[$scope.Feedbacks.length-1].id;
         console.log(logId);
