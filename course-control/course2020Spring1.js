@@ -21,7 +21,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs101",
-		"id" : "5e006c2757e1794569b7c628",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a08765fe9500146353e5",
@@ -58,7 +57,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs110",
-		"id" : "5e006c2757e1794569b7c625",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a3c365fe9500146353f2",
@@ -89,13 +87,12 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs150",
-		"id" : "5e006c2757e1794569b7c632",
 		"repeatData" : [
 			{
-				"courseid" : "5df727081aabab00146442fa",
-				"dayTime" : "Monday 15:20-16:50",
-				"range" : "01/14-03/03",
-				"orgnization" : "a"
+				"courseid" : "5df1a4ec65fe9500146353f9",
+				"dayTime" : "Saturday 09:30-11:00",
+				"range" : "01/19-03/08",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -120,7 +117,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs160",
-		"id" : "5e006c2757e1794569b7c631",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a05065fe9500146353e3",
@@ -151,13 +147,43 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs170",
-		"id" : "5e006c2757e1794569b7c633",
 		"repeatData" : [
 			{
-				"courseid" : "5df7284a1aabab00146442fd",
-				"dayTime" : "Tuesday 15:20-17:00",
-				"range" : "01/15-03/04",
-				"orgnization" : "a"
+				"courseid" : "5df1a1cf65fe9500146353ec",
+				"dayTime" : "Wednesday 17:20-18:50",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "Javascript编程初步",
+		"title2" : "Minecraft MakeCode编程",
+		"name" : "Javascript编程初步: Minecraft MakeCode编程",
+		"shortName" : "Javascript编程初步MakeCode",
+		"imageUrl" : "img/my/minecraftbasic/bg2-sm.jpg",
+		"gradeLevel" : "L2简洁代码编程",
+		"text" : "在微软的MakeCode平台中学习Javscript的基础，开始代码编程之路",
+		"tag" : "游戏编程系列",
+		"pathway" : [
+			"coding",
+			"game"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "mcbuild2c.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs200",
+		"repeatData" : [
+			{
+				"courseid" : "5df1a2d165fe9500146353ef",
+				"dayTime" : "Thursday 15:20-16:50",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -182,31 +208,30 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs220",
-		"id" : "5e006c2757e1794569b7c629",
 		"repeatData" : [
 			{
-				"courseid" : "5df727601aabab00146442fb",
-				"dayTime" : "Monday 17:00-18:30",
+				"courseid" : "5df19fb865fe9500146353df",
+				"dayTime" : "Monday 15:20-16:50",
 				"range" : "01/14-03/03",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df72c611aabab0014644305",
-				"dayTime" : "Thursday 15:30-17:00",
+				"courseid" : "5df1a06865fe9500146353e4",
+				"dayTime" : "Wednesday 14:00-15:30",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a2b665fe9500146353ee",
+				"dayTime" : "Thursday 15:20-16:50",
 				"range" : "01/17-03/06",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df72cb91aabab0014644306",
-				"dayTime" : "Thursday 15:00-16:30",
-				"range" : "01/17-03/06",
-				"orgnization" : "a"
-			},
-			{
-				"courseid" : "5df730db1aabab0014644310",
+				"courseid" : "5df1a52f65fe9500146353fb",
 				"dayTime" : "Saturday 11:00-12:30",
 				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -231,19 +256,24 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs230",
-		"id" : "5e006c2757e1794569b7c62b",
 		"repeatData" : [
 			{
-				"courseid" : "5df72b141aabab0014644301",
-				"dayTime" : "Tuesday 17:00-18:30",
-				"range" : "01/15-03/04",
-				"orgnization" : "a"
+				"courseid" : "5e0116bf9b7776001478aef3",
+				"dayTime" : "Friday 15:20-16:50",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df731381aabab0014644311",
-				"dayTime" : "Saturday 11:00-12:30",
+				"courseid" : "5df1a0a065fe9500146353e6",
+				"dayTime" : "Wednesday 15:40-17:10",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a50e65fe9500146353fa",
+				"dayTime" : "Saturday 09:30-11:00",
 				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -268,19 +298,12 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs240",
-		"id" : "5e006c2757e1794569b7c62c",
 		"repeatData" : [
 			{
-				"courseid" : "5df72b921aabab0014644302",
-				"dayTime" : "Thursday 17:00-18:30",
-				"range" : "01/17-03/06",
-				"orgnization" : "a"
-			},
-			{
-				"courseid" : "5df72f231aabab001464430c",
-				"dayTime" : "Saturday 09:30-11:00",
-				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"courseid" : "5df1a00765fe9500146353e1",
+				"dayTime" : "Monday 17:00-18:30",
+				"range" : "01/14-03/03",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -305,13 +328,24 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs300",
-		"id" : "5e006c2757e1794569b7c62d",
 		"repeatData" : [
 			{
-				"courseid" : "5df7279b1aabab00146442fc",
+				"courseid" : "5df1a01c65fe9500146353e2",
 				"dayTime" : "Monday 17:00-18:30",
 				"range" : "01/14-03/03",
-				"orgnization" : "a"
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a0b865fe9500146353e7",
+				"dayTime" : "Wednesday 15:40-17:10",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a54765fe9500146353fc",
+				"dayTime" : "Saturday 11:00-12:30",
+				"range" : "01/19-03/08",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -336,37 +370,48 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs310",
-		"id" : "5e006c2757e1794569b7c62e",
 		"repeatData" : [
 			{
-				"courseid" : "5df7260e1aabab00146442f9",
+				"courseid" : "5df19f7165fe9500146353de",
 				"dayTime" : "Monday 15:20-16:50",
 				"range" : "01/14-03/03",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df72af31aabab0014644300",
-				"dayTime" : "Tuesday 17:00-18:30",
-				"range" : "01/15-03/04",
-				"orgnization" : "a"
+				"courseid" : "5df1a10865fe9500146353ea",
+				"dayTime" : "Wednesday 17:20-18:50",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df72e001aabab0014644308",
-				"dayTime" : "Friday 15:30-17:00",
-				"range" : "01/18-03/07",
-				"orgnization" : "a"
+				"courseid" : "5df1a25f65fe9500146353ed",
+				"dayTime" : "Thursday 15:20-16:50",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df7305f1aabab001464430f",
+				"courseid" : "5df1a55e65fe9500146353fd",
 				"dayTime" : "Saturday 11:00-12:30",
 				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df733aa1aabab0014644317",
-				"dayTime" : "Saturday 16:00-17:30",
+				"courseid" : "5df1a5c365fe9500146353ff",
+				"dayTime" : "Saturday 13:00-14:30",
 				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5e0117149b7776001478aef4",
+				"dayTime" : "Friday 15:20-16:50",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5e0117509b7776001478aef5",
+				"dayTime" : "Friday 17:00-18:30",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -391,7 +436,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs350",
-		"id" : "5e006c2757e1794569b7c634",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a39765fe9500146353f1",
@@ -422,25 +466,24 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs410",
-		"id" : "5e006c2757e1794569b7c636",
 		"repeatData" : [
 			{
-				"courseid" : "5df72a521aabab00146442fe",
-				"dayTime" : "Tuesday 15:20-17:00",
-				"range" : "01/15-03/04",
-				"orgnization" : "a"
+				"courseid" : "5e01128c9b7776001478aee6",
+				"dayTime" : "Monday 15:20-16:50",
+				"range" : "01/13-03/02",
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df72f5d1aabab001464430d",
-				"dayTime" : "Saturday 09:30-11:00",
-				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"courseid" : "5e011be39b7776001478aefd",
+				"dayTime" : "Saturday 13:00-14:30",
+				"range" : "01/18-03/07",
+				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df733491aabab0014644315",
-				"dayTime" : "Saturday 14:30-16:00",
-				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"courseid" : "5e0117d19b7776001478aef7",
+				"dayTime" : "Friday 15:20-16:50",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -465,7 +508,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs420",
-		"id" : "5e006c2757e1794569b7c639",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a12365fe9500146353eb",
@@ -502,7 +544,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs425",
-		"id" : "5e006c2757e1794569b7c637",
 		"repeatData" : [
 			{
 				"courseid" : "5e011d009b7776001478af00",
@@ -539,7 +580,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs430",
-		"id" : "5e006c2757e1794569b7c63b",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a5e165fe950014635400",
@@ -570,7 +610,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs435",
-		"id" : "5e006c2757e1794569b7c638",
 		"repeatData" : [
 			{
 				"courseid" : "5e011ca59b7776001478aeff",
@@ -607,13 +646,12 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs470",
-		"id" : "5e006c2757e1794569b7c63d",
 		"repeatData" : [
 			{
-				"courseid" : "5df72c331aabab0014644304",
-				"dayTime" : "Thursday 15:30-17:00",
-				"range" : "01/17-03/06",
-				"orgnization" : "a"
+				"courseid" : "5e0113569b7776001478aee7",
+				"dayTime" : "Monday 17:00-18:30",
+				"range" : "01/13-03/02",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -638,7 +676,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs485",
-		"id" : "5e006c2757e1794569b7c640",
 		"repeatData" : [
 			{
 				"courseid" : "5e011c799b7776001478aefe",
@@ -669,13 +706,12 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs490",
-		"id" : "5e006c2757e1794569b7c641",
 		"repeatData" : [
 			{
-				"courseid" : "5df732681aabab0014644312",
-				"dayTime" : "Saturday 11:00-12:30",
-				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"courseid" : "5df1a7b165fe950014635403",
+				"dayTime" : "Saturday 14:45-16:15",
+				"range" : "12/15-12/15",
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -700,13 +736,24 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs501",
-		"id" : "5e006c2757e1794569b7c642",
 		"repeatData" : [
 			{
-				"courseid" : "5df7336d1aabab0014644316",
-				"dayTime" : "Saturday 14:30-16:00",
+				"courseid" : "5df1a0d765fe9500146353e8",
+				"dayTime" : "Wednesday 15:40-17:10",
+				"range" : "01/16-03/05",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a2f265fe9500146353f0",
+				"dayTime" : "Thursday 17:00-18:30",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a73765fe950014635401",
+				"dayTime" : "Saturday 14:45-16:15",
 				"range" : "01/19-03/08",
-				"orgnization" : "a"
+				"orgnization" : "i"
 			}
 		]
 	},
@@ -731,7 +778,6 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs505",
-		"id" : "5e006c2757e1794569b7c645",
 		"repeatData" : [
 			{
 				"courseid" : "5df1a7de65fe950014635404",
@@ -762,17 +808,24 @@ var irvinedb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs570",
-		"id" : "5e006c2757e1794569b7c64b",
 		"repeatData" : [
 			{
-				"courseid" : "5df72aad1aabab00146442ff",
-				"dayTime" : "Tuesday 17:00-16:50",
-				"range" : "01/15-03/04",
-				"orgnization" : "a"
+				"courseid" : "5df1a81265fe950014635405",
+				"dayTime" : "Saturday 16:30-18:00",
+				"range" : "01/19-03/08",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5e0118049b7776001478aef8",
+				"dayTime" : "Friday 17:00-19:00",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
 			}
 		]
 	}
 ]
+
+
 var arcadiadb = 
 [
 	{
@@ -796,7 +849,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs130",
-		"id" : "5e006c2757e1794569b7c626",
 		"repeatData" : [
 			{
 				"courseid" : "5df72fd61aabab001464430e",
@@ -827,7 +879,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs150",
-		"id" : "5e006c2757e1794569b7c632",
 		"repeatData" : [
 			{
 				"courseid" : "5df727081aabab00146442fa",
@@ -858,7 +909,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs170",
-		"id" : "5e006c2757e1794569b7c633",
 		"repeatData" : [
 			{
 				"courseid" : "5df7284a1aabab00146442fd",
@@ -890,7 +940,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs200",
-		"id" : "5e006c2757e1794569b7c62a",
 		"repeatData" : [
 			{
 				"courseid" : "5df72dd11aabab0014644307",
@@ -902,37 +951,6 @@ var arcadiadb =
 				"courseid" : "5df72be11aabab0014644303",
 				"dayTime" : "Thursday 17:00-18:30",
 				"range" : "01/17-03/06",
-				"orgnization" : "a"
-			}
-		]
-	},
-	{
-		"enabled" : true,
-		"online" : false,
-		"title1" : "Javascript编程进阶",
-		"title2" : "MicroBit电子电路编程",
-		"name" : "Javascript编程进阶: MicroBit电子电路编程",
-		"shortName" : "Javascript编程进阶MicroBit",
-		"imageUrl" : "img/my/microbit/bg.jpg",
-		"gradeLevel" : "L2简洁代码编程",
-		"text" : "学习微软最新的MicroBit编程，控制电子小元件，发挥你的创造力，体验编程的神奇",
-		"tag" : "游戏编程系列",
-		"pathway" : [
-			"hardware"
-		],
-		"detailsTitle" : "查看详情",
-		"detailsUrl" : "",
-		"locations" : "选择地点",
-		"registerUrl" : "corecn.html#allCourses",
-		"registerTitle" : "我要注册",
-		"registerForm" : "https://jinshuju.net/f/0KnUba",
-		"courseCode" : "cs210",
-		"id" : "5e006c2757e1794569b7c627",
-		"repeatData" : [
-			{
-				"courseid" : "5df733031aabab0014644314",
-				"dayTime" : "Saturday 13:00-14:30",
-				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
 		]
@@ -958,7 +976,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs220",
-		"id" : "5e006c2757e1794569b7c629",
 		"repeatData" : [
 			{
 				"courseid" : "5df727601aabab00146442fb",
@@ -981,6 +998,12 @@ var arcadiadb =
 			{
 				"courseid" : "5df730db1aabab0014644310",
 				"dayTime" : "Saturday 11:00-12:30",
+				"range" : "01/19-03/08",
+				"orgnization" : "a"
+			},
+			{
+				"courseid" : "5df733031aabab0014644314",
+				"dayTime" : "Saturday 14:00-15:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1007,7 +1030,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs230",
-		"id" : "5e006c2757e1794569b7c62b",
 		"repeatData" : [
 			{
 				"courseid" : "5df72b141aabab0014644301",
@@ -1044,7 +1066,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs240",
-		"id" : "5e006c2757e1794569b7c62c",
 		"repeatData" : [
 			{
 				"courseid" : "5df72b921aabab0014644302",
@@ -1081,7 +1102,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs300",
-		"id" : "5e006c2757e1794569b7c62d",
 		"repeatData" : [
 			{
 				"courseid" : "5df7279b1aabab00146442fc",
@@ -1112,7 +1132,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs310",
-		"id" : "5e006c2757e1794569b7c62e",
 		"repeatData" : [
 			{
 				"courseid" : "5df7260e1aabab00146442f9",
@@ -1167,7 +1186,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs400",
-		"id" : "5e006c2757e1794569b7c62f",
 		"repeatData" : [
 			{
 				"courseid" : "5df72e491aabab0014644309",
@@ -1198,7 +1216,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs410",
-		"id" : "5e006c2757e1794569b7c636",
 		"repeatData" : [
 			{
 				"courseid" : "5df72a521aabab00146442fe",
@@ -1241,7 +1258,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs470",
-		"id" : "5e006c2757e1794569b7c63d",
 		"repeatData" : [
 			{
 				"courseid" : "5df72c331aabab0014644304",
@@ -1272,7 +1288,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs490",
-		"id" : "5e006c2757e1794569b7c641",
 		"repeatData" : [
 			{
 				"courseid" : "5df732681aabab0014644312",
@@ -1303,7 +1318,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs501",
-		"id" : "5e006c2757e1794569b7c642",
 		"repeatData" : [
 			{
 				"courseid" : "5df7336d1aabab0014644316",
@@ -1334,13 +1348,12 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs510",
-		"id" : "5e006c2757e1794569b7c644",
 		"repeatData" : [
 			{
-				"courseid" : "5dfa8d42d9391000141d6016",
-				"dayTime" : "Sunday 00:00-00:00",
-				"range" : "12/18-03/04",
-				"orgnization" : "o"
+				"courseid" : "5df72eed1aabab001464430b",
+				"dayTime" : "Saturday 09:30-11:00",
+				"range" : "01/19-03/08",
+				"orgnization" : "a"
 			}
 		]
 	},
@@ -1365,7 +1378,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs520",
-		"id" : "5e006c2757e1794569b7c646",
 		"repeatData" : [
 			{
 				"courseid" : "5df72e8b1aabab001464430a",
@@ -1396,7 +1408,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs570",
-		"id" : "5e006c2757e1794569b7c64b",
 		"repeatData" : [
 			{
 				"courseid" : "5df72aad1aabab00146442ff",
@@ -1427,7 +1438,6 @@ var arcadiadb =
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs571",
-		"id" : "5e006c2757e1794569b7c64e",
 		"repeatData" : [
 			{
 				"courseid" : "5df733ce1aabab0014644318",
@@ -1439,36 +1449,5 @@ var arcadiadb =
 	}
 ]
 var onlinedb = 
-[
-	{
-		"enabled" : true,
-		"online" : true,
-		"title1" : "AP CS基础训练营",
-		"title2" : "Java编程入门及AP课程准备",
-		"name" : "AP CS基础训练营:Java编程入门及AP课程准备",
-		"shortName" : "Java编程入门及AP课程准备",
-		"imageUrl" : "img/my/coding-spacesm.jpg",
-		"gradeLevel" : "L5竞技编程",
-		"text" : "帮助零编程基础的高中同学准备AP CS课程和考试所需要的扎实的编程基本功",
-		"tag" : "AP CS编程系列",
-		"pathway" : [
-			"ap"
-		],
-		"detailsTitle" : "查看详情",
-		"detailsUrl" : "apcs-cn.html",
-		"locations" : "选择地点",
-		"registerUrl" : "corecn.html#allCourses",
-		"registerTitle" : "我要注册",
-		"registerForm" : "https://jinshuju.net/f/0KnUba",
-		"courseCode" : "cs510",
-		"id" : "5e006c2757e1794569b7c644",
-		"repeatData" : [
-			{
-				"courseid" : "5dfa8d42d9391000141d6016",
-				"dayTime" : "Sunday 00:00-00:00",
-				"range" : "12/18-03/04",
-				"orgnization" : "o"
-			}
-		]
-	}
-]
+[ ]
+
