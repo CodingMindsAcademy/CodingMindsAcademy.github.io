@@ -97,7 +97,7 @@ angular.module('v3App', ['ngMaterial'])
       }
       $http({
         method: 'HEAD',
-        url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${response.data.id}`,
+        url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
         headers: {
           'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
         }
@@ -106,7 +106,7 @@ angular.module('v3App', ['ngMaterial'])
       }, function errorCallback(response) {
         $http({
           method: 'PUT',
-          url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${response.data.id}`,
+          url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
           headers: {
             'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
           }
