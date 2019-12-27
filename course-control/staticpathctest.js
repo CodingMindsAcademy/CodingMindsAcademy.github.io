@@ -25,12 +25,18 @@ angular.module('v3App', ['ngMaterial'])
         let time = 5000;
         switch (type) {
           case 'success': {
-            msg = '注册成功！我们会在开课前与您联系！';
+            msg = '<i class="material-icons" style="font-size: 2em;"> done </i>注册成功！我们会在开课前与您联系！';
+            time = 5000;
             break;
           }
           case 'error': {
             msg = '<i class="icon icon-sm icon-Coding" style="font-size: 2em;"></i> &nbsp;注册失败 请再次尝试或&nbsp;<a href="contact-us-cn.html" target="_blank">联系我们</a>';
             time = 0;
+            break;
+          }
+          case 'duplicated': {
+            msg = '<i class="material-icons" style="font-size: 2em;"> error_outline </i> &nbsp;您已经注册过此课程！';
+            time = 5000;
             break;
           }
         }
@@ -50,6 +56,7 @@ angular.module('v3App', ['ngMaterial'])
       $scope.form.username = `${$scope.form.firstName}${$scope.form.lastName}${campus}`;
       $scope.form.password = `codingminds${$scope.form.username}`;
       $scope.form.contact2Type = "WeChatUsername";
+      $scope.form.notSend = true;
       $http({
         method: 'POST',
         url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account`,
@@ -60,18 +67,28 @@ angular.module('v3App', ['ngMaterial'])
       }).then(function successCallback(response) {
         console.log('user created', response);
         $http({
-          method: 'PUT',
+          method: 'HEAD',
           url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${response.data.id}`,
           headers: {
             'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
           }
         }).then(function successCallback(response) {
-          console.log('enrolled to course', response);
-          displayToast('success');
+          displayToast('duplicated');
         }, function errorCallback(response) {
-          displayToast('error');
-          console.log(response);
-          // console.log("Not yet notified, therefore no logId!");
+          $http({
+            method: 'PUT',
+            url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${response.data.id}`,
+            headers: {
+              'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
+            }
+          }).then(function successCallback(response) {
+            console.log('enrolled to course', response);
+            displayToast('success');
+          }, function errorCallback(response) {
+            displayToast('error');
+            console.log(response);
+            // console.log("Not yet notified, therefore no logId!");
+          });
         });
       }, function errorCallback(response) {
         displayToast('error');
