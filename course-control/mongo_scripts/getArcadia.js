@@ -68,32 +68,32 @@ upCoursesArray.forEach(course=>{
 var courseListArcadia = [];
 var courseListIrvine = [];
 var courseListOnline = [];
-var temparray = [...coursesDBArray];
-coursesDBArray.forEach(course=>{
-    // course['id'] = course['_id'].str;
-    var tempcourse = course;
-    // delete course['_id'];
+// var temparray = [...coursesDBArray];
+// coursesDBArray.forEach(course=>{
+//     // course['id'] = course['_id'].str;
+//     var tempcourse = course;
+//     // delete course['_id'];
     
-    // printjson(tempcourse.courseCode);
-    if(tempcourse.courseCode in irvineDB){
-      tempcourse['repeatData'] = irvineDB[tempcourse.courseCode]
-        courseListIrvine.push(tempcourse);
-      }
+//     // printjson(tempcourse.courseCode);
+//     if(tempcourse.courseCode in irvineDB){
+//       tempcourse['repeatData'] = irvineDB[tempcourse.courseCode]
+//         courseListIrvine.push(tempcourse);
+//       }
+//   });
+  coursesDBArray.forEach(course1=>{
+
+    var tempcourse1 = course1;
+    delete tempcourse1['_id'];
+
+    if(tempcourse1.courseCode in arcadiaDB){
+      tempcourse1['repeatData'] = arcadiaDB[tempcourse1.courseCode] 
+      courseListArcadia.push(tempcourse1);  
+      // if(tempcourse1.courseCode == 'cs410'){
+      //   print("arcadia----------")
+      //   printjson(tempcourse1);
+      // }
+    }
   });
-  // coursesDBArray.forEach(course1=>{
-  //   // delete course1['_id'];
-
-  //   var tempcourse1 = course1;
-
-  //   if(tempcourse1.courseCode in arcadiaDB){
-  //     tempcourse1['repeatData'] = arcadiaDB[tempcourse1.courseCode] 
-  //     courseListArcadia.push(tempcourse1);  
-  //     // if(tempcourse1.courseCode == 'cs410'){
-  //     //   print("arcadia----------")
-  //     //   printjson(tempcourse1);
-  //     // }
-  //   }
-  // });
 //   coursesDBArray.forEach(course=>{
 
 //     if(course.courseCode in onlineDB){
@@ -101,10 +101,10 @@ coursesDBArray.forEach(course=>{
 //         courseListOnline.push(course);  
 //     }
 // });
-        print('var irvinedb = ');
-        printjson(courseListIrvine);
-        // print('var arcadiadb = ');
-        // printjson(courseListArcadia);
+        // print('var irvinedb = ');
+        // printjson(courseListIrvine);
+        print('var arcadiadb = ');
+        printjson(courseListArcadia);
         // print('var onlinedb = ');
         // printjson(courseListOnline);
 

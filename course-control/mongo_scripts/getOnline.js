@@ -68,18 +68,18 @@ upCoursesArray.forEach(course=>{
 var courseListArcadia = [];
 var courseListIrvine = [];
 var courseListOnline = [];
-var temparray = [...coursesDBArray];
-coursesDBArray.forEach(course=>{
-    // course['id'] = course['_id'].str;
-    var tempcourse = course;
-    // delete course['_id'];
+// var temparray = [...coursesDBArray];
+// coursesDBArray.forEach(course=>{
+//     // course['id'] = course['_id'].str;
+//     var tempcourse = course;
+//     // delete course['_id'];
     
-    // printjson(tempcourse.courseCode);
-    if(tempcourse.courseCode in irvineDB){
-      tempcourse['repeatData'] = irvineDB[tempcourse.courseCode]
-        courseListIrvine.push(tempcourse);
-      }
-  });
+//     // printjson(tempcourse.courseCode);
+//     if(tempcourse.courseCode in irvineDB){
+//       tempcourse['repeatData'] = irvineDB[tempcourse.courseCode]
+//         courseListIrvine.push(tempcourse);
+//       }
+//   });
   // coursesDBArray.forEach(course1=>{
   //   // delete course1['_id'];
 
@@ -94,19 +94,19 @@ coursesDBArray.forEach(course=>{
   //     // }
   //   }
   // });
-//   coursesDBArray.forEach(course=>{
+  coursesDBArray.forEach(course=>{
 
-//     if(course.courseCode in onlineDB){
-//         course['repeatData'] = onlineDB[course.courseCode] 
-//         courseListOnline.push(course);  
-//     }
-// });
-        print('var irvinedb = ');
-        printjson(courseListIrvine);
+    if(course.courseCode in onlineDB){
+        course['repeatData'] = onlineDB[course.courseCode] 
+        courseListOnline.push(course);  
+    }
+});
+        // print('var irvinedb = ');
+        // printjson(courseListIrvine);
         // print('var arcadiadb = ');
         // printjson(courseListArcadia);
-        // print('var onlinedb = ');
-        // printjson(courseListOnline);
+        print('var onlinedb = ');
+        printjson(courseListOnline);
 
 
 

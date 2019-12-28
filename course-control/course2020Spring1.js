@@ -141,7 +141,7 @@ var irvinedb =
 			"coding"
 		],
 		"detailsTitle" : "查看详情",
-		"detailsUrl" : "scratch2c.html",
+		"detailsUrl" : "scratchc.html",
 		"locations" : "选择地点",
 		"registerUrl" : "corecn.html#allCourses",
 		"registerTitle" : "我要注册",
@@ -604,7 +604,7 @@ var irvinedb =
 			"coding"
 		],
 		"detailsTitle" : "查看详情",
-		"detailsUrl" : "blockchainaic.html",
+		"detailsUrl" : "ai2c.html",
 		"locations" : "选择地点",
 		"registerUrl" : "corecn.html#allCourses",
 		"registerTitle" : "我要注册",
@@ -824,7 +824,6 @@ var irvinedb =
 		]
 	}
 ]
-
 
 var arcadiadb = 
 [
@@ -1224,12 +1223,6 @@ var arcadiadb =
 				"orgnization" : "a"
 			},
 			{
-				"courseid" : "5df72f5d1aabab001464430d",
-				"dayTime" : "Saturday 09:30-11:00",
-				"range" : "01/19-03/08",
-				"orgnization" : "a"
-			},
-			{
 				"courseid" : "5df733491aabab0014644315",
 				"dayTime" : "Saturday 14:30-16:00",
 				"range" : "01/19-03/08",
@@ -1263,6 +1256,36 @@ var arcadiadb =
 				"courseid" : "5df72c331aabab0014644304",
 				"dayTime" : "Thursday 15:30-17:00",
 				"range" : "01/17-03/06",
+				"orgnization" : "a"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "Maya 3D动画设计与编程",
+		"title2" : "动画游戏开发设计师之路",
+		"name" : "Maya 3D动画设计与编程:动画游戏开发设计师之路",
+		"shortName" : "Maya 3D动画设计与编程",
+		"imageUrl" : "img/my/maya/bg.jpg",
+		"gradeLevel" : "L4应用主题编程",
+		"text" : "学习专业的3D建模与动画场景制作，艺术与编程的完美结合。",
+		"tag" : "游戏编程系列",
+		"pathway" : [
+			"game"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "mayac.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs485",
+		"repeatData" : [
+			{
+				"courseid" : "5df72f5d1aabab001464430d",
+				"dayTime" : "Saturday 09:30-11:00",
+				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
 		]
@@ -1448,6 +1471,7 @@ var arcadiadb =
 		]
 	}
 ]
+
 var onlinedb = 
 [ ]
-
+bye

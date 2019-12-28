@@ -72,7 +72,7 @@ var temparray = [...coursesDBArray];
 coursesDBArray.forEach(course=>{
     // course['id'] = course['_id'].str;
     var tempcourse = course;
-    // delete course['_id'];
+    delete tempcourse['_id'];
     
     // printjson(tempcourse.courseCode);
     if(tempcourse.courseCode in irvineDB){
