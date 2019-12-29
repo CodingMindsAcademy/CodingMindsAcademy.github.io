@@ -824,7 +824,6 @@ var irvinedb =
 		]
 	}
 ]
-
 var arcadiadb = 
 [
 	{
@@ -1471,7 +1470,5 @@ var arcadiadb =
 		]
 	}
 ]
-
 var onlinedb = 
 [ ]
-bye
