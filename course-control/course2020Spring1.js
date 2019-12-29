@@ -141,7 +141,7 @@ var irvinedb =
 			"coding"
 		],
 		"detailsTitle" : "查看详情",
-		"detailsUrl" : "scratchc.html",
+		"detailsUrl" : "scratch2c.html",
 		"locations" : "选择地点",
 		"registerUrl" : "corecn.html#allCourses",
 		"registerTitle" : "我要注册",
@@ -604,9 +604,9 @@ var irvinedb =
 			"coding"
 		],
 		"detailsTitle" : "查看详情",
-		"detailsUrl" : "ai2c.html",
+		"detailsUrl" : "blockchainaic.html",
 		"locations" : "选择地点",
-		"registerUrl" : "corecn.html#allCourses",
+		"registerUrl" : "blockchainaic.html",
 		"registerTitle" : "我要注册",
 		"registerForm" : "https://jinshuju.net/f/0KnUba",
 		"courseCode" : "cs435",
@@ -901,7 +901,7 @@ var arcadiadb =
 			"coding"
 		],
 		"detailsTitle" : "查看详情",
-		"detailsUrl" : "scratchc.html",
+		"detailsUrl" : "scratch2c.html",
 		"locations" : "选择地点",
 		"registerUrl" : "corecn.html#allCourses",
 		"registerTitle" : "我要注册",
@@ -1472,3 +1472,4 @@ var arcadiadb =
 ]
 var onlinedb = 
 [ ]
+
