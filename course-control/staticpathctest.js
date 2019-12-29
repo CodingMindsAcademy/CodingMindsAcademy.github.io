@@ -5,6 +5,7 @@ angular.module('v3App', ['ngMaterial'])
   .controller('CourseListController', function ($scope, $http, $mdToast) {
     $scope.courseListIrvine = irvinedb;
     $scope.courseListArcadia = arcadiadb;
+    $scope.courseListOnline = onlinedb;
     $scope.form = {};
     $scope.cn_courseday = function(day) {
       switch(day.split(' ')[0]) {
