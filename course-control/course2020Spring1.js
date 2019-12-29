@@ -1471,5 +1471,96 @@ var arcadiadb =
 	}
 ]
 var onlinedb = 
-[ ]
-
+[
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "Python编程初步",
+		"title2" : "学做Minecraft游戏开发员",
+		"name" : "Python编程初步:学做Minecraft游戏开发员",
+		"shortName" : "Python编程初步",
+		"imageUrl" : "img/my/pythonmine/pyminebghp.jpg",
+		"gradeLevel" : "L3代码编程",
+		"text" : "在世界最流行的游戏中学习世界最流行的编程语言Python",
+		"tag" : "编程算法与AI系列",
+		"pathway" : [
+			"coding"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "python-minecraftc.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs300",
+		"repeatData" : [
+			{
+				"courseid" : "5e08fc72bf85590014c511b4",
+				"dayTime" : "Sunday 17:00-18:30",
+				"range" : "01/19-03/08",
+				"orgnization" : "o"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : false,
+		"title1" : "AI人工智能初步与深度学习",
+		"title2" : "Python高阶编程",
+		"name" : "Python高阶编程:AI人工智能初步与深度学习",
+		"shortName" : "Python高阶编程",
+		"imageUrl" : "img/my/ai-bg.jpg",
+		"gradeLevel" : "L4应用主题编程",
+		"text" : "学习人工智能的初步并且动手编写实用的真正的AI应用程序",
+		"tag" : "编程算法与AI系列",
+		"pathway" : [
+			"coding"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "pythonc3ai.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs430",
+		"repeatData" : [
+			{
+				"courseid" : "5e08fcacbf85590014c511b5",
+				"dayTime" : "Sunday 19:00-20:30",
+				"range" : "01/19-03/08",
+				"orgnization" : "o"
+			}
+		]
+	},
+	{
+		"enabled" : true,
+		"online" : true,
+		"title1" : "AP CS考试冲刺训练营",
+		"title2" : "AP CS备考强化训练",
+		"name" : "AP CS考试冲刺训练营:AP CS备考强化训练",
+		"shortName" : "AP CS备考强化训练",
+		"imageUrl" : "img/apcsprep/bg-sm.jpg",
+		"gradeLevel" : "L5竞技编程",
+		"text" : "为即将参加AP考试的同学复习课程重点，训练考试习题，强化考试所需要的编程基本功",
+		"tag" : "AP CS编程系列",
+		"pathway" : [
+			"ap"
+		],
+		"detailsTitle" : "查看详情",
+		"detailsUrl" : "apcsprep-cn.html",
+		"locations" : "选择地点",
+		"registerUrl" : "corecn.html#allCourses",
+		"registerTitle" : "我要注册",
+		"registerForm" : "https://jinshuju.net/f/0KnUba",
+		"courseCode" : "cs520",
+		"repeatData" : [
+			{
+				"courseid" : "5e08fcd2bf85590014c511b6",
+				"dayTime" : "Sunday 19:00-20:30",
+				"range" : "01/19-03/08",
+				"orgnization" : "o"
+			}
+		]
+	}
+]
+bye
