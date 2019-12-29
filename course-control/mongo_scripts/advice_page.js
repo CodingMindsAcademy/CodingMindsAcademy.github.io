@@ -6,7 +6,6 @@
 var students = db.Account.find({"suggestedCourses":{$nin:[null,[]]}});
 var studentsArray = students.toArray();
 
-printjson(studentsArray.length);
 var studentsdb = {};
 var students = {};
 var irvineStuList = [];
