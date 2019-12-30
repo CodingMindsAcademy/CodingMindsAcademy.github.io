@@ -1,9 +1,9 @@
 
-angular.module('v3App', [])
+angular.module('v3App', ['ngMaterial'])
   .config(function($sceProvider) {
     $sceProvider.enabled(false);    
   })
-  .controller('FeedbackController', function($scope, $http, $location) {
+  .controller('FeedbackController', function($scope, $http, $location, $mdToast) {
     var url = $location.$$absUrl;
     var student_id = url.slice(url.indexOf('=')+1,url.length);
 
@@ -58,6 +58,33 @@ angular.module('v3App', [])
       // console.log(logId);
       $scope.submit = function() {
                 // console.log($scope.text)
+                var displayToast = function (type) {
+                  let msg = '';
+                  let time = 5000;
+                  switch (type) {
+                    case 'success': {
+                      msg = '<i class="material-icons" style="font-size: 2em;"> done </i> &nbsp;反馈提交成功!';
+                      time = 5000;
+                      break;
+                    }
+                    case 'error': {
+                      msg = '<i class="icon icon-sm icon-Coding" style="font-size: 2em;"></i> &nbsp;反馈提交失败 请再次尝试或&nbsp;<a href="contact-us-cn.html" target="_blank">联系我们</a>';
+                      time = 0;
+                      break;
+                    }
+                  }
+                  $mdToast.show({
+                    template: '<md-toast layout="row" class="md-toast ' + type + '">' + msg  + '<a href="#" ng-click="closeToast()" style="color:white;padding-left:2em;text-decoration:none;">X</a></md-toast>',
+                    hideDelay: time,
+                    position: 'bottom',
+                    controller: 'ToastController',
+                    parent: document.getElementById('toast-container')
+                  }).then(function () {
+                    // console.log('Toast dismissed.');
+                  }).catch(function () {
+                    // console.log('Toast failed or was forced to close early by another toast.');
+                  });
+                }
                 $http({
                   method: 'POST',
                   url: 'https://prod-sharemyworks-backend.herokuapp.com/api/NotificationLog/reply',
@@ -87,4 +114,9 @@ angular.module('v3App', [])
         console.log(response);
       });
 
+  })
+  .controller('ToastController', function ($scope, $mdToast) {
+    $scope.closeToast = function () {
+      $mdToast.hide();
+    };
   });
