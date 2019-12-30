@@ -49,18 +49,22 @@ angular.module('v3App', ['ngMaterial'])
                     // console.log($scope.EOSfeedback);
 
         if ($scope.EOSfeedback && ['',undefined].includes($scope.EOSfeedback.text_cn)){
-            console.log($scope.EOSfeedback);
+            // console.log($scope.EOSfeedback.text);
+            var translateUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+student_id+'/feedback/'+feedbackId;
             $http({
               method: 'PUT',
-              url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+student_id+'/feedback/'+feedbackId,
-              params: {
-                text: $scope.EOSfeedback.text
-              },
+              url: translateUrl,
               headers: {
-                'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
-              }         
+                'Authorization': '68M3RMfo4eS9XlTPmDqoCe3PePKxLRgpSnRQrvvNx3xcujKWpyFF9f65rAU9uM2l'
+              } , 
+              data: {
+                "text": $scope.EOSfeedback.text
+                
+              },
+       
             }).then(function successCallback(response) {
               console.log(response);
+              $scope.EOSfeedback = response.data;
             }, function errorCallback(response) {
               console.log(response);
               console.log("Cannot translate feedback.");
