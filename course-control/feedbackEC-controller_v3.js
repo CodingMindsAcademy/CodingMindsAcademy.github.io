@@ -123,6 +123,30 @@ angular.module('v3App', ['ngMaterial'])
                   }          
                 }).then(function successCallback(response) {
                   // console.log(response);
+                  const ManagerEmail = 'notification@codingmindsacademy.com';
+                  const ManagerNumber = '9496789790';
+                  if(response.status === 204){
+                      var notifyUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/" + feedbackId + '/notifyReply';
+                      $http({
+                        method: 'POST',
+                        url: notifyUrl,
+                        headers: {
+                          'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
+                        },   
+                        params: {
+                          email: ManagerEmail,
+                          number: ManagerNumber,
+                          name: $scope.StudentRecord.firstName+" "+$scope.StudentRecordlastName,
+                          replytext: $scope.text,
+                          feedbacktext: $scope.EOSfeedback.text,
+                        }
+                      }).then(response =>{
+                        console.log(response.status);
+                      }).catch(error => {
+                        console.error(error);
+                      });
+                    }
+                  
                   }, function errorCallback(response) {
                     console.log(response);
                     console.log("Not yet notified, therefore no logId!");
