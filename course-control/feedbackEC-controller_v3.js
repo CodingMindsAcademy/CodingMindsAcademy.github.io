@@ -123,6 +123,7 @@ angular.module('v3App', ['ngMaterial'])
                   }          
                 }).then(function successCallback(response) {
                   // console.log(response);
+                  displayToast('success');
                   const ManagerEmail = 'notification@codingmindsacademy.com';
                   const ManagerNumber = '9496789790';
                   if(response.status === 204){
@@ -149,6 +150,7 @@ angular.module('v3App', ['ngMaterial'])
                   
                   }, function errorCallback(response) {
                     console.log(response);
+                    displayToast('error');
                     console.log("Not yet notified, therefore no logId!");
                   });
               };
