@@ -6,8 +6,12 @@ angular.module('v3App', [])
   .controller('FeedbackController', function($scope, $http, $location) {
     var url = $location.$$absUrl;
     var student_id = url.slice(url.indexOf('=')+1,url.length);
+    var suggestedCourses = id_courses[student_id];
+    suggestedCourses.sort();
+    // console.log(suggestedCourses);
+    $scope.Level = coursedb['cn'][suggestedCourses[0]].gradeLevel;
 
-    console.log(student_id);
+    // console.log($scope.Level);
     $http({
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
@@ -18,7 +22,7 @@ angular.module('v3App', [])
         id: student_id
       }
     }).then(function successCallback(response) {
-        console.log(response);
+        // console.log(response);
         var month = response.data.courses[0].dateStart.slice(5,7);
         if (8<=month<=12){
           $scope.Term = 'Fall ';
@@ -30,7 +34,6 @@ angular.module('v3App', [])
         $scope.StudentRecord = response.data.profile;
         $scope.StudentCourse = response.data.courses[0];
         $scope.Feedbacks = response.data.feedback;
-        $scope.Level = response.data.gradeLevel;
 
         var idx = response.data.activities.length-1;
         $scope.FinalProject = response.data.activities[idx];
@@ -40,8 +43,30 @@ angular.module('v3App', [])
         $scope.Feedbacks.forEach(element => {
           if (element.endOfSemesterFlag === true){
             feedbackId = element.id;
+            $scope.EOSfeedback = element;
           }
         });
+                    // console.log($scope.EOSfeedback);
+
+        if ($scope.EOSfeedback && ['',undefined].includes($scope.EOSfeedback.text_cn)){
+            console.log($scope.EOSfeedback);
+            $http({
+              method: 'PUT',
+              url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+student_id+'/feedback/'+feedbackId,
+              params: {
+                text: $scope.EOSfeedback.text
+              },
+              headers: {
+                'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
+              }         
+            }).then(function successCallback(response) {
+              console.log(response);
+            }, function errorCallback(response) {
+              console.log(response);
+              console.log("Cannot translate feedback.");
+            });
+        }
+        
         const getLogsUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/"+feedbackId+'/logs';
         // FEEDBACK_API + id + '/logs';
     $http({

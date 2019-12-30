@@ -132,10 +132,10 @@
                             </table>
 
                             <h2 class="text-center">学期总结<br></h2>
-                            <p>{{Feedbacks[Feedbacks.length-1].text}}</p>
-                            <div ng-if="Feedbacks[Feedbacks.length-1].text_cn">
+                            <p>{{EOSfeedback.text}}</p>
+                            <div ng-if="EOSfeedback.text_cn">
                                 <h5 class="text-center">下面中文翻译由百度翻译自动完成</h5>
-                                <p>{{Feedbacks[Feedbacks.length-1].text_cn}}</p>
+                                <p>{{EOSfeedback.text_cn}}</p>
                             </div>
                         <div ng-if="FinalProject.videoUrl != ''">
                             <h2 class="text-center">课程项目<br></h2>
@@ -271,7 +271,9 @@
             </a>
             <script src="js/jquery-3.1.1.min.js"></script>
             <script src="js/angular.min.js"></script>
-            <script src="course-control/coursedb.js"></script>
+            <script src="course-control/coursedb-v3.js"></script>
+            <script src="course-control/course2020Spring2.js"></script>
+            <script src="course-control/id_coursecodes.js"></script>
             <script src="course-control/pathway.js"></script>
             <script src="students/fbec-db-s19v2.js"></script>
             <script src="course-control/feedbackEC-controller_v3.js"></script>

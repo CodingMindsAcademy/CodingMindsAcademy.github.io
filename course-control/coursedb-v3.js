@@ -1177,4 +1177,4 @@ Object.keys(coursedb.cn).forEach(key=>{
 	}
 )
 
-console.log(JSON.stringify(templist))
+// console.log(JSON.stringify(templist))
