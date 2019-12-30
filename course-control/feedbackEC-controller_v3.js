@@ -48,7 +48,7 @@ angular.module('v3App', ['ngMaterial'])
         });
                     // console.log($scope.EOSfeedback);
 
-        if ($scope.EOSfeedback && ['',undefined].includes($scope.EOSfeedback.text_cn)){
+        if ($scope.EOSfeedback && ['',undefined,'翻译出现错误'].includes($scope.EOSfeedback.text_cn)){
             // console.log($scope.EOSfeedback.text);
             var translateUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+student_id+'/feedback/'+feedbackId;
             $http({
