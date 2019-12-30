@@ -157,13 +157,14 @@
                                 </tbody>
                             </table>
 
-                            <h2 class="text-center">学期总结<br></h2>
+                            <h2 class="text-center">学期总结<br></h2>                            
                             <p>{{EOSfeedback.text}}</p>
                             <div ng-if="EOSfeedback.text_cn">
-                                <h5 class="text-center">下面中文翻译由百度翻译自动完成</h5>
+                                <p class="text-center">(下面中文翻译由百度翻译自动完成)</p>
                                 <p>{{EOSfeedback.text_cn}}</p>
                             </div>
                         <div ng-if="FinalProject.videoUrl != ''">
+                            <hr>
                             <h2 class="text-center">课程项目<br></h2>
                             <h3 class="text-center" id='title'>{{FinalProject.title}}</h3>
                             <!-- <div height="100%"> -->
@@ -186,6 +187,20 @@
                                     </tr>
                                 </tbody>
                             </table> -->
+                            
+                            <div class="text-center container">
+                                <div class="row">
+                                    <p> </p>
+                                    <hr>
+                                    <h2 class="text-center">学习建议<br></h2>                                    
+                                    <h4 class="text-center">孙宇老师根据{{StudentRecord.firstName}}个人情况推荐下学期的课程</h4>
+                                    <a class="btn btn--primary type--uppercase" ng-click="redirect()" >
+                                        <span class="btn__text">
+                                            点击查看2020春季推荐课程
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
 
 
                             <div class="boxed">
@@ -215,18 +230,6 @@
                     <!--end of row-->
                 </div>
                 <!--end of container-->
-                <br>
-
-                <div class="text-center container">
-                    <div class="row ">
-                        <h4 class="text-center">孙宇老师根据{{StudentRecord.firstName}}个人情况推荐下学期的课程</h4>
-                        <a class="btn btn--primary type--uppercase" ng-click="redirect()" >
-                            <span class="btn__text">
-                                点击查看2020春季推荐课程
-                            </span>
-                        </a>
-                    </div>
-                </div>
             </section>
 
             <footer class="footer-3 text-center-xs space--xs ">
