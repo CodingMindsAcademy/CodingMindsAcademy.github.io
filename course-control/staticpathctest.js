@@ -7,17 +7,6 @@ angular.module('v3App', ['ngMaterial'])
     $scope.courseListArcadia = arcadiadb;
     $scope.courseListOnline = onlinedb;
     $scope.form = {};
-    $scope.cn_courseday = function(day) {
-      switch(day.split(' ')[0]) {
-        case 'Monday': return '每周一' + ' ' + day.split(' ')[1];
-        case 'Tuesday': return '每周二' + ' ' + day.split(' ')[1];
-        case 'Wednesday': return '每周三' + ' ' + day.split(' ')[1];
-        case 'Thursday': return '每周四' + ' ' + day.split(' ')[1];
-        case 'Friday': return '每周五' + ' ' + day.split(' ')[1];
-        case 'Saturday': return '每周六' + ' ' + day.split(' ')[1];
-        case 'Sunday': return '每周日' + ' ' + day.split(' ')[1];
-      }
-    }
     $scope.submit = function (courseId, campus) {
       $(`#${courseId}`).removeClass('modal-active');
 
