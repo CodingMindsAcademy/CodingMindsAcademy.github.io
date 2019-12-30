@@ -31,28 +31,54 @@ angular.module('v3App', [])
         $scope.StudentCourse = response.data.courses[0];
         $scope.Feedbacks = response.data.feedback;
         $scope.Level = response.data.gradeLevel;
+
         var idx = response.data.activities.length-1;
-        var logId = $scope.Feedbacks[$scope.Feedbacks.length-1].id;
-        console.log(logId);
         $scope.FinalProject = response.data.activities[idx];
-        $scope.submit = function() {
-          console.log($scope.text)
-          $http({
-            method: 'POST',
-            url: 'https://prod-sharemyworks-backend.herokuapp.com/api/NotificationLog/reply',
-            params: {
-              logId: logId,
-              reply: $scope.text
-            }          
-          }).then(function successCallback(response) {
-            console.log(response);
-            }, function errorCallback(response) {
-              console.log(response);
-              console.log("Not yet notified, therefore no logId!");
-            });
-        };
+
+        var feedbackId;
+        // console.log($scope.Feedbacks)
+        $scope.Feedbacks.forEach(element => {
+          if (element.endOfSemesterFlag === true){
+            feedbackId = element.id;
+          }
+        });
+        const getLogsUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/"+feedbackId+'/logs';
+        // FEEDBACK_API + id + '/logs';
+    $http({
+      method: 'GET',
+      url: getLogsUrl,
+      headers: {
+        'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
+      }    
+
+    }).then(response => {
+      // console.log(response);
+      var logs = response.data;
+      var logId = logs[0].id;
+      // console.log(logId);
+      $scope.submit = function() {
+                // console.log($scope.text)
+                $http({
+                  method: 'POST',
+                  url: 'https://prod-sharemyworks-backend.herokuapp.com/api/NotificationLog/reply',
+                  params: {
+                    logId: logId,
+                    reply: $scope.text
+                  }          
+                }).then(function successCallback(response) {
+                  // console.log(response);
+                  }, function errorCallback(response) {
+                    console.log(response);
+                    console.log("Not yet notified, therefore no logId!");
+                  });
+              };
+          });
+
+        // console.log($scope.Feedbacks);
+        // console.log(logId);
+       
         $scope.redirect = function() {
-          console.log($scope.text)
+          // console.log($scope.text)
           window.location.href="https://codingmindsacademy.com/advice_v2.html?id="+student_id;
         };
       }, function errorCallback(response) {
