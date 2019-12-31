@@ -344,7 +344,7 @@ var id_courses =
 		"cs501"
 	],
 	"5d7d2f39c7ace600159d3e8c" : [
-		"cs425"
+		"cs430"
 	],
 	"5d73e4386f42030015ad10cc" : [
 		"cs230"
@@ -378,7 +378,9 @@ var id_courses =
 		"cs501"
 	],
 	"5d7d7393cf141b0015bf44d4" : [
-		"cs501"
+		"cs501",
+		"cs410",
+		"cs435"
 	],
 	"5d7d73b2cf141b0015bf44da" : [
 		"cs501"
@@ -1081,7 +1083,7 @@ var id_student =
 	},
 	"5d64611234e29b0015e2e9e3" : {
 		"firstName" : "Heaven",
-		"lastName" : "liu",
+		"lastName" : "Liu",
 		"email2" : "yoga-347324240@qq.com",
 		"phone2" : "7142091259"
 	},
@@ -1256,7 +1258,7 @@ var id_student =
 	"5d743840f8d4540015bac9aa" : {
 		"firstName" : "Kevin",
 		"lastName" : "Yang",
-		"email2" : undefined,
+		"email2" : "gzlulu666@gmail.com",
 		"phone2" : undefined
 	},
 	"5d76d2b4fb31e600151dc0ef" : {
@@ -1362,8 +1364,8 @@ var id_student =
 		"phone2" : "9493728236"
 	},
 	"5d6d993e9c67fa0015549b1e" : {
-		"firstName" : "henry",
-		"lastName" : "zhou",
+		"firstName" : "Henry",
+		"lastName" : "Zhou",
 		"email2" : "zhouyongxiu@gmail.com",
 		"phone2" : "9496481860"
 	},
