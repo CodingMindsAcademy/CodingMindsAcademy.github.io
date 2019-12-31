@@ -30,7 +30,7 @@ angular.module('v3App', ['ngMaterial'])
         // console.log($scope.suggestedCourses);
         irvinedb.forEach(course=>{
             if(suggestedCourses.includes(course.courseCode)){
-                $scope.courseLevel = course.gradeLevel;
+                $scope.courseLevel = course.gradeLevel.slice(0,2);
                 $scope.suggestedCourses.push(course);
             }
         });
@@ -43,12 +43,12 @@ angular.module('v3App', ['ngMaterial'])
         // console.log($scope.suggestedCourses);
         arcadiadb.forEach(course=>{
             if(suggestedCourses.includes(course.courseCode)){
-                $scope.courseLevel = course.gradeLevel;
+                $scope.courseLevel = course.gradeLevel.slice(0,2);
                 $scope.suggestedCourses.push(course);
             }
         });
     }
-
+    console.log($scope.courseLevel);
     $scope.submit = function (courseId) {
       $(`#${courseId}`).removeClass('modal-active');
 
@@ -109,9 +109,7 @@ angular.module('v3App', ['ngMaterial'])
         });
       });
     }
-      // $scope.courseLevel = 'true';
-        // console.log($scope.courseLevel);
-    // $scope.stuid = stuid;
+
       $(function () {
     $masonry = $('.masonry1').masonry({
       isAnimated: true,
