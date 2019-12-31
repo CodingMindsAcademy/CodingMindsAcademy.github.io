@@ -7,9 +7,14 @@ angular.module('v3App', ['ngMaterial'])
     var url = $location.$$absUrl;
     var student_id = url.slice(url.indexOf('=')+1,url.length);
     var suggestedCourses = id_courses[student_id];
-    suggestedCourses.sort();
+    if(suggestedCourses){
+      suggestedCourses.sort();
+      $scope.Level = coursedb['cn'][suggestedCourses[0]].gradeLevel;
+
+    }else{
+      $scope.Level = 'L1图形化编程'
+    }
     // console.log(suggestedCourses);
-    $scope.Level = coursedb['cn'][suggestedCourses[0]].gradeLevel;
 
     // console.log($scope.Level);
     $http({
