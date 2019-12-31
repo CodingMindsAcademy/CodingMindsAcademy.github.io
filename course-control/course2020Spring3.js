@@ -24,13 +24,13 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a08765fe9500146353e5",
-				"dayTime" : "Wednesday 14:00-15:30",
+				"dayTime" : "每周三 14:00-15:30",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a4c465fe9500146353f8",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -60,7 +60,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a3c365fe9500146353f2",
-				"dayTime" : "Thursday 17:00-18:30",
+				"dayTime" : "每周四 17:00-18:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			}
@@ -90,7 +90,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a4ec65fe9500146353f9",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -120,7 +120,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a05065fe9500146353e3",
-				"dayTime" : "Wednesday 14:00-15:30",
+				"dayTime" : "每周三 14:00-15:30",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			}
@@ -150,7 +150,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a1cf65fe9500146353ec",
-				"dayTime" : "Wednesday 17:20-18:50",
+				"dayTime" : "每周三 17:20-18:50",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			}
@@ -181,7 +181,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a2d165fe9500146353ef",
-				"dayTime" : "Thursday 15:20-16:50",
+				"dayTime" : "每周四 15:20-16:50",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			}
@@ -211,25 +211,25 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df19fb865fe9500146353df",
-				"dayTime" : "Monday 15:20-16:50",
+				"dayTime" : "每周一 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a06865fe9500146353e4",
-				"dayTime" : "Wednesday 14:00-15:30",
+				"dayTime" : "每周三 14:00-15:30",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a2b665fe9500146353ee",
-				"dayTime" : "Thursday 15:20-16:50",
+				"dayTime" : "每周四 15:20-16:50",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a52f65fe9500146353fb",
-				"dayTime" : "Saturday 11:00-12:30",
+				"dayTime" : "每周六 11:00-12:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -258,20 +258,20 @@ var irvinedb =
 		"courseCode" : "cs230",
 		"repeatData" : [
 			{
-				"courseid" : "5e0116bf9b7776001478aef3",
-				"dayTime" : "Friday 15:20-16:50",
-				"range" : "01/17-03/06",
-				"orgnization" : "i"
-			},
-			{
 				"courseid" : "5df1a0a065fe9500146353e6",
-				"dayTime" : "Wednesday 15:40-17:10",
+				"dayTime" : "每周三 15:40-17:10",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
+				"courseid" : "5e0116bf9b7776001478aef3",
+				"dayTime" : "每周五 15:20-16:50",
+				"range" : "01/17-03/06",
+				"orgnization" : "i"
+			},
+			{
 				"courseid" : "5df1a50e65fe9500146353fa",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -301,7 +301,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a00765fe9500146353e1",
-				"dayTime" : "Monday 17:00-18:30",
+				"dayTime" : "每周一 17:00-18:30",
 				"range" : "01/14-03/03",
 				"orgnization" : "i"
 			}
@@ -331,19 +331,19 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a01c65fe9500146353e2",
-				"dayTime" : "Monday 17:00-18:30",
+				"dayTime" : "每周一 17:00-18:30",
 				"range" : "01/14-03/03",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a0b865fe9500146353e7",
-				"dayTime" : "Wednesday 15:40-17:10",
+				"dayTime" : "每周三 15:40-17:10",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a54765fe9500146353fc",
-				"dayTime" : "Saturday 11:00-12:30",
+				"dayTime" : "每周六 11:00-12:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -373,44 +373,44 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df19f7165fe9500146353de",
-				"dayTime" : "Monday 15:20-16:50",
+				"dayTime" : "每周一 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a10865fe9500146353ea",
-				"dayTime" : "Wednesday 17:20-18:50",
+				"dayTime" : "每周三 17:20-18:50",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a25f65fe9500146353ed",
-				"dayTime" : "Thursday 15:20-16:50",
+				"dayTime" : "每周四 15:20-16:50",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5df1a55e65fe9500146353fd",
-				"dayTime" : "Saturday 11:00-12:30",
-				"range" : "01/19-03/08",
-				"orgnization" : "i"
-			},
-			{
-				"courseid" : "5df1a5c365fe9500146353ff",
-				"dayTime" : "Saturday 13:00-14:30",
-				"range" : "01/19-03/08",
-				"orgnization" : "i"
-			},
-			{
 				"courseid" : "5e0117149b7776001478aef4",
-				"dayTime" : "Friday 15:20-16:50",
+				"dayTime" : "每周五 15:20-16:50",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5e0117509b7776001478aef5",
-				"dayTime" : "Friday 17:00-18:30",
+				"dayTime" : "每周五 17:00-18:30",
 				"range" : "01/17-03/06",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a55e65fe9500146353fd",
+				"dayTime" : "每周六 11:00-12:30",
+				"range" : "01/19-03/08",
+				"orgnization" : "i"
+			},
+			{
+				"courseid" : "5df1a5c365fe9500146353ff",
+				"dayTime" : "每周六 13:00-14:30",
+				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
 		]
@@ -439,7 +439,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a39765fe9500146353f1",
-				"dayTime" : "Thursday 17:00-18:30",
+				"dayTime" : "每周四 17:00-18:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			}
@@ -469,20 +469,20 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e01128c9b7776001478aee6",
-				"dayTime" : "Monday 15:20-16:50",
+				"dayTime" : "每周一 15:20-16:50",
 				"range" : "01/13-03/02",
 				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5e011be39b7776001478aefd",
-				"dayTime" : "Saturday 13:00-14:30",
-				"range" : "01/18-03/07",
+				"courseid" : "5e0117d19b7776001478aef7",
+				"dayTime" : "每周五 15:20-16:50",
+				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5e0117d19b7776001478aef7",
-				"dayTime" : "Friday 15:20-16:50",
-				"range" : "01/17-03/06",
+				"courseid" : "5e011be39b7776001478aefd",
+				"dayTime" : "每周六 13:00-14:30",
+				"range" : "01/18-03/07",
 				"orgnization" : "i"
 			}
 		]
@@ -511,13 +511,13 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a12365fe9500146353eb",
-				"dayTime" : "Wednesday 17:20-18:50",
+				"dayTime" : "每周三 17:20-18:50",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a82c65fe950014635406",
-				"dayTime" : "Saturday 16:30-18:00",
+				"dayTime" : "每周六 16:30-18:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -547,7 +547,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e011d009b7776001478af00",
-				"dayTime" : "Saturday 14:45-16:15",
+				"dayTime" : "每周六 14:45-16:15",
 				"range" : "01/18-03/07",
 				"orgnization" : "i"
 			}
@@ -577,7 +577,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a5e165fe950014635400",
-				"dayTime" : "Saturday 13:00-14:30",
+				"dayTime" : "每周六 13:00-14:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -606,15 +606,15 @@ var irvinedb =
 		"courseCode" : "cs435",
 		"repeatData" : [
 			{
-				"courseid" : "5e011ca59b7776001478aeff",
-				"dayTime" : "Saturday 14:45-16:15",
-				"range" : "01/18-03/07",
+				"courseid" : "5e0117979b7776001478aef6",
+				"dayTime" : "每周五 17:00-18:30",
+				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5e0117979b7776001478aef6",
-				"dayTime" : "Friday 17:00-18:30",
-				"range" : "01/17-03/06",
+				"courseid" : "5e011ca59b7776001478aeff",
+				"dayTime" : "每周六 14:45-16:15",
+				"range" : "01/18-03/07",
 				"orgnization" : "i"
 			}
 		]
@@ -643,7 +643,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e0113569b7776001478aee7",
-				"dayTime" : "Monday 17:00-18:30",
+				"dayTime" : "每周一 17:00-18:30",
 				"range" : "01/13-03/02",
 				"orgnization" : "i"
 			}
@@ -673,7 +673,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e011c799b7776001478aefe",
-				"dayTime" : "Saturday 14:45-16:15",
+				"dayTime" : "每周六 14:45-16:15",
 				"range" : "01/18-03/07",
 				"orgnization" : "i"
 			}
@@ -703,19 +703,19 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a0d765fe9500146353e8",
-				"dayTime" : "Wednesday 15:40-17:10",
+				"dayTime" : "每周三 15:40-17:10",
 				"range" : "01/16-03/05",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a2f265fe9500146353f0",
-				"dayTime" : "Thursday 17:00-18:30",
+				"dayTime" : "每周四 17:00-18:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
 				"courseid" : "5df1a73765fe950014635401",
-				"dayTime" : "Saturday 14:45-16:15",
+				"dayTime" : "每周六 14:45-16:15",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -745,7 +745,7 @@ var irvinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5df1a7de65fe950014635404",
-				"dayTime" : "Saturday 16:30-18:00",
+				"dayTime" : "每周六 16:30-18:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
@@ -774,15 +774,15 @@ var irvinedb =
 		"courseCode" : "cs570",
 		"repeatData" : [
 			{
-				"courseid" : "5df1a81265fe950014635405",
-				"dayTime" : "Saturday 16:30-18:00",
-				"range" : "01/19-03/08",
+				"courseid" : "5e0118049b7776001478aef8",
+				"dayTime" : "每周五 17:00-19:00",
+				"range" : "01/17-03/06",
 				"orgnization" : "i"
 			},
 			{
-				"courseid" : "5e0118049b7776001478aef8",
-				"dayTime" : "Friday 17:00-19:00",
-				"range" : "01/17-03/06",
+				"courseid" : "5df1a81265fe950014635405",
+				"dayTime" : "每周六 16:30-18:00",
+				"range" : "01/19-03/08",
 				"orgnization" : "i"
 			}
 		]
@@ -814,7 +814,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72fd61aabab001464430e",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -844,7 +844,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df727081aabab00146442fa",
-				"dayTime" : "Monday 15:20-16:50",
+				"dayTime" : "每周一 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			}
@@ -874,7 +874,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df7284a1aabab00146442fd",
-				"dayTime" : "Tuesday 15:20-17:00",
+				"dayTime" : "每周二 15:20-17:00",
 				"range" : "01/15-03/04",
 				"orgnization" : "a"
 			}
@@ -904,15 +904,15 @@ var arcadiadb =
 		"courseCode" : "cs200",
 		"repeatData" : [
 			{
-				"courseid" : "5df72dd11aabab0014644307",
-				"dayTime" : "Friday 15:30-17:00",
-				"range" : "01/18-03/07",
+				"courseid" : "5df72be11aabab0014644303",
+				"dayTime" : "每周四 17:00-18:30",
+				"range" : "01/17-03/06",
 				"orgnization" : "a"
 			},
 			{
-				"courseid" : "5df72be11aabab0014644303",
-				"dayTime" : "Thursday 17:00-18:30",
-				"range" : "01/17-03/06",
+				"courseid" : "5df72dd11aabab0014644307",
+				"dayTime" : "每周五 15:30-17:00",
+				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			}
 		]
@@ -941,31 +941,31 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df727601aabab00146442fb",
-				"dayTime" : "Monday 17:00-18:30",
+				"dayTime" : "每周一 17:00-18:30",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			},
 			{
-				"courseid" : "5df72c611aabab0014644305",
-				"dayTime" : "Thursday 15:30-17:00",
+				"courseid" : "5df72cb91aabab0014644306",
+				"dayTime" : "每周四 15:00-16:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "a"
 			},
 			{
-				"courseid" : "5df72cb91aabab0014644306",
-				"dayTime" : "Thursday 15:00-16:30",
+				"courseid" : "5df72c611aabab0014644305",
+				"dayTime" : "每周四 15:30-17:00",
 				"range" : "01/17-03/06",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df730db1aabab0014644310",
-				"dayTime" : "Saturday 11:00-12:30",
+				"dayTime" : "每周六 11:00-12:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df733031aabab0014644314",
-				"dayTime" : "Saturday 14:00-15:30",
+				"dayTime" : "每周六 14:00-15:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -995,13 +995,13 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72b141aabab0014644301",
-				"dayTime" : "Tuesday 17:00-18:30",
+				"dayTime" : "每周二 17:00-18:30",
 				"range" : "01/15-03/04",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df731381aabab0014644311",
-				"dayTime" : "Saturday 11:00-12:30",
+				"dayTime" : "每周六 11:00-12:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1031,13 +1031,13 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72b921aabab0014644302",
-				"dayTime" : "Thursday 17:00-18:30",
+				"dayTime" : "每周四 17:00-18:30",
 				"range" : "01/17-03/06",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df72f231aabab001464430c",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1067,7 +1067,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df7279b1aabab00146442fc",
-				"dayTime" : "Monday 17:00-18:30",
+				"dayTime" : "每周一 17:00-18:30",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			}
@@ -1097,31 +1097,31 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df7260e1aabab00146442f9",
-				"dayTime" : "Monday 15:20-16:50",
+				"dayTime" : "每周一 15:20-16:50",
 				"range" : "01/14-03/03",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df72af31aabab0014644300",
-				"dayTime" : "Tuesday 17:00-18:30",
+				"dayTime" : "每周二 17:00-18:30",
 				"range" : "01/15-03/04",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df72e001aabab0014644308",
-				"dayTime" : "Friday 15:30-17:00",
+				"dayTime" : "每周五 15:30-17:00",
 				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df7305f1aabab001464430f",
-				"dayTime" : "Saturday 11:00-12:30",
+				"dayTime" : "每周六 11:00-12:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df733aa1aabab0014644317",
-				"dayTime" : "Saturday 16:00-17:30",
+				"dayTime" : "每周六 16:00-17:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1151,7 +1151,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72e491aabab0014644309",
-				"dayTime" : "Friday 17:00-18:30",
+				"dayTime" : "每周五 17:00-18:30",
 				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			}
@@ -1181,13 +1181,13 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72a521aabab00146442fe",
-				"dayTime" : "Tuesday 15:20-17:00",
+				"dayTime" : "每周二 15:20-17:00",
 				"range" : "01/15-03/04",
 				"orgnization" : "a"
 			},
 			{
 				"courseid" : "5df733491aabab0014644315",
-				"dayTime" : "Saturday 14:30-16:00",
+				"dayTime" : "每周六 14:30-16:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1217,7 +1217,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72c331aabab0014644304",
-				"dayTime" : "Thursday 15:30-17:00",
+				"dayTime" : "每周四 15:30-17:00",
 				"range" : "01/17-03/06",
 				"orgnization" : "a"
 			}
@@ -1247,7 +1247,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72f5d1aabab001464430d",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1277,7 +1277,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df732681aabab0014644312",
-				"dayTime" : "Saturday 11:00-12:30",
+				"dayTime" : "每周六 11:00-12:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1307,7 +1307,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df7336d1aabab0014644316",
-				"dayTime" : "Saturday 14:30-16:00",
+				"dayTime" : "每周六 14:30-16:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1337,7 +1337,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72eed1aabab001464430b",
-				"dayTime" : "Saturday 09:30-11:00",
+				"dayTime" : "每周六 09:30-11:00",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1367,7 +1367,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72e8b1aabab001464430a",
-				"dayTime" : "Friday 17:30-19:00",
+				"dayTime" : "每周五 17:30-19:00",
 				"range" : "01/18-03/07",
 				"orgnization" : "a"
 			}
@@ -1397,7 +1397,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df72aad1aabab00146442ff",
-				"dayTime" : "Tuesday 17:00-16:50",
+				"dayTime" : "每周二 17:00-16:50",
 				"range" : "01/15-03/04",
 				"orgnization" : "a"
 			}
@@ -1427,7 +1427,7 @@ var arcadiadb =
 		"repeatData" : [
 			{
 				"courseid" : "5df733ce1aabab0014644318",
-				"dayTime" : "Saturday 16:00-17:30",
+				"dayTime" : "每周六 16:00-17:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "a"
 			}
@@ -1460,7 +1460,7 @@ var onlinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e08fc72bf85590014c511b4",
-				"dayTime" : "Sunday 17:00-18:30",
+				"dayTime" : "每周日 17:00-18:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "o"
 			}
@@ -1490,7 +1490,7 @@ var onlinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e08fcacbf85590014c511b5",
-				"dayTime" : "Sunday 19:00-20:30",
+				"dayTime" : "每周日 19:00-20:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "o"
 			}
@@ -1520,7 +1520,7 @@ var onlinedb =
 		"repeatData" : [
 			{
 				"courseid" : "5e08fcd2bf85590014c511b6",
-				"dayTime" : "Sunday 19:00-20:30",
+				"dayTime" : "每周日 19:00-20:30",
 				"range" : "01/19-03/08",
 				"orgnization" : "o"
 			}

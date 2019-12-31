@@ -5,17 +5,6 @@ angular.module('v3App', ['ngMaterial'])
   .controller('FeedbackController', function($scope, $location, $mdToast, $http) {
     
     $scope.compList = [];
-    $scope.cn_courseday = function(day) {
-      switch(day.split(' ')[0]) {
-        case 'Monday': return '每周一' + ' ' + day.split(' ')[1];
-        case 'Tuesday': return '每周二' + ' ' + day.split(' ')[1];
-        case 'Wednesday': return '每周三' + ' ' + day.split(' ')[1];
-        case 'Thursday': return '每周四' + ' ' + day.split(' ')[1];
-        case 'Friday': return '每周五' + ' ' + day.split(' ')[1];
-        case 'Saturday': return '每周六' + ' ' + day.split(' ')[1];
-        case 'Sunday': return '每周日' + ' ' + day.split(' ')[1];
-      }
-    }
     for(var key in competitionMap) {      
       $scope.compList.push(competitionMap[key]);
     }

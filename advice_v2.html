@@ -106,41 +106,41 @@
                     <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> 
+                                <li>
                                     <a href="index-cn.html">
                                         首页
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="corecn.html">
                                         编程课程
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="pathc.html">
                                         课程体系
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="portfolios-cn.html">
                                         学生作品
-                                    </a> 
+                                    </a>
                                 </li>
 
-                                <li> 
+                                <li>
                                     <a href="newsc.html">
                                         编程资讯
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="whycoding-cn.html">
                                         为什么学习编程
-                                    </a> 
-                                </li>                            
-                                <li> 
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="about-us-cn.html">
                                         关于我们
-                                    </a> 
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -156,14 +156,14 @@
             </nav>
             <!--end bar-->
         </div>
-        <div class="main-container">  
-            
+        <div class="main-container">
 
-            
+
+
 
                 <section class="space--sm">
                         <div class="container">
-                            <div class="row">                    
+                            <div class="row">
                                 <div class="col-sm-12">
                                     <div class="text-center">
                                         <i class="icon icon-Thumb color--primary"></i>
@@ -212,7 +212,7 @@
                                                     <tr ng-repeat="comp in compList">
                                                         <td>{{comp.name}}</td>
                                                         <td >{{comp.date}}</td>
-                                                    </tr>                                
+                                                    </tr>
                                                 </tbody>
                                             </table>
                                     </div>
@@ -230,20 +230,20 @@
                                     <h2  class="text-center">2020年春季课程表<br></h2>
                                     </div>
                                     <hr>
-    
+
                     <div class="tabs-container" data-content-align="center">
                         <ul  class="tabs">
-                            
+
                             <li class='active'>
-    
+
                                     <div class="tab__title">
                                         <span class="h5">推荐课程</span>
                                     </div>
                                     <div class="tab__content">
-    
+
                                     <div class="masonry1">
                                     <!-- <div class="masonry"> -->
-    
+
                                             <!-- <div> -->
                                             <div class="masonry__container">
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in suggestedCourses">
@@ -306,7 +306,7 @@
                                                                     </tr>
                                                                     <tr ng-repeat="data in course['repeatData']">
                                                                         <td style="width: 35%">{{data.range}}<br>上半期八周</td>
-                                                                        <td style="width: 28%">{{cn_courseday(data.dayTime)}}</td>
+                                                                        <td style="width: 28%">{{data.dayTime}}</td>
                                                                         <td style="width: 28%">
                                                                             <div class="modal-instance">
                                                                                 <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
@@ -322,7 +322,7 @@
                                                                                                             <h5>{{course.shortName}}</h5>
                                                                                                             <h5 style="margin-bottom: 0;">{{campus}}校区</h5>
                                                                                                             <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
-                                                                                                            <p><b>时间：</b>{{cn_courseday(data.dayTime)}}</p>
+                                                                                                            <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                             <hr data-title="OR">
                                                                                                             <div class="feature__body">
                                                                                                                 <form ng-submit="submit(data.courseid)">
@@ -368,15 +368,15 @@
                                     </div>
                                 </li>
                                 <li class>
-    
+
                                     <div class="tab__title">
                                         <span class="h5">{{campus}}</span>
                                     </div>
                                     <div class="tab__content">
-    
+
                                     <div class="masonry1">
                                     <!-- <div class="masonry"> -->
-    
+
                                             <!-- <div> -->
                                             <div class="masonry__container">
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
@@ -439,7 +439,7 @@
                                                                     </tr>
                                                                     <tr ng-repeat="data in course['repeatData']">
                                                                         <td style="width: 35%">{{data.range}}<br>上半期八周</td>
-                                                                        <td style="width: 28%">{{cn_courseday(data.dayTime)}}</td>
+                                                                        <td style="width: 28%">{{data.dayTime}}</td>
                                                                         <td style="width: 28%">
                                                                             <div class="modal-instance">
                                                                                 <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
@@ -455,7 +455,7 @@
                                                                                                             <h5>{{course.shortName}}</h5>
                                                                                                             <h5 style="margin-bottom: 0;">{{campus}}校区</h5>
                                                                                                             <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
-                                                                                                            <p><b>时间：</b>{{cn_courseday(data.dayTime)}}</p>
+                                                                                                            <p><b>时间：</b>{{data.dayTime}}</p>
                                                                                                             <hr data-title="OR">
                                                                                                             <div class="feature__body">
                                                                                                                 <form ng-submit="submit(data.courseid)">
@@ -501,15 +501,15 @@
                                     </div>
                                 </li>
                                 <li class>
-    
+
                                     <div class="tab__title">
                                         <span class="h5">Online在线课程</span>
                                     </div>
                                     <div class="tab__content">
-    
+
                                     <div class="masonry1">
                                     <!-- <div class="masonry"> -->
-    
+
                                             <!-- <div> -->
                                             <div class="masonry__container">
                                                 <div class="col-sm-4 masonry__item" ng-repeat="course in courseListOnline">
@@ -645,14 +645,14 @@
                         <div class="row">
                             <div class="col-sm-8 col-md-6">
                                 <div class="cta">
-                                    <h2>不知道应该上什么课程?</h2>
+                                    <!-- <h2>不知道应该上什么课程?</h2> -->
                                     <p class="lead">
-                                        欢迎报名参加30分钟的免费试听，由我们的导师亲自授课，提供在线授课或课堂授课。
+                                        有任何课程问题请随时联系我们的课程顾问
                                     </p>
                                     <a class="btn btn--primary type--uppercase" href="contact-us-cn.html">
                                         <span class="btn__text">
-                                            联系试课
-                                        </span>  
+                                            联系我们
+                                        </span>
                                     </a>
                                 </div>
                             </div>
@@ -729,7 +729,7 @@
                     <i class="stack-interface stack-up-open-big"></i>
                 </a>
                 <script src="js/jquery-3.1.1.min.js"></script>
-                <script src="js/angular.min.js"></script>            
+                <script src="js/angular.min.js"></script>
                 <script src="js/angular-animate.min.js"></script>
                 <script src="js/angular-aria.min.js"></script>
                 <script src="js/angular-material.min.js"></script>
@@ -765,6 +765,19 @@
 
                   ga('create', 'UA-98249988-1', 'auto');
                   ga('send', 'pageview');
+
+                  var url = window.location.href;
+                  var stuid = '';
+                  if (url.indexOf("=") > -1) {
+                      stuid = url.split("=")[1];
+                      console.log("Student ID: ");
+                  }
+                  ga('send', {
+                      hitType: 'event',
+                      eventCategory: 'eoc-advice-f19',
+                      eventAction: 'click',
+                      eventLabel: stuid
+                  });
 
               </script>
           </body>

@@ -26,10 +26,70 @@ upCoursesArray.forEach(course=>{
           var strStart = strStart.slice(5,10).replace('-','/');
           var strEnd = strEnd.slice(5,10).replace('-','/');
           range = strStart + '-' +strEnd;
-          dayTime = course.classDay + ' ' +course.classTime + '-' + course.classEndTime;
+          dayTime = translateClassDay(course.classDay) + ' ' +course.classTime + '-' + course.classEndTime;
           var location = orgs[course.organizationId.str];
           var courseid = course._id.str;
           var repeatInfo = {'courseid':courseid, 'dayTime':dayTime, 'range':range, 'orgnization':location};
+
+          let weekDay = {
+            '每周一': 1, '每周二': 2, '每周三': 3, '每周四': 4, '每周五': 5, '每周六': 6, '每周日': 7, '日期缺失': 8
+          };
+
+          function translateClassDay(day) {
+            switch(day) {
+              case 'Monday': return '每周一';
+              case 'Tuesday': return '每周二';
+              case 'Wednesday': return '每周三';
+              case 'Thursday': return '每周四';
+              case 'Friday': return '每周五';
+              case 'Saturday': return '每周六';
+              case 'Sunday': return '每周日';
+              default: return '日期缺失'
+            }
+          }
+
+          function isTimeAEarilier(a, b) {
+            let hourA = parseInt(a.split(':')[0]);
+            let hourB = parseInt(b.split(':')[0]);
+            if(hourA === hourB) {
+            let minuteA = parseInt(a.split(':')[1]);
+            let minuteB = parseInt(b.split(':')[1]);
+              return minuteA < minuteB;
+            }
+            return hourA < hourB;
+          }
+
+          Array.prototype.insertCourse = function(course) {
+            for(let i = 0; i < this.length; i++) {
+                if(compareDayTime(course.dayTime, this[i].dayTime)) {
+                    this.splice(i, 0, course);
+                    return;
+                }
+            }
+            this.push(course);
+          }
+
+          function compareDayTime(a, b) {
+            if(a.split(' ').length < 2) return true;
+            if(b.split(' ').length < 2) return false;
+            if(weekDay[a.split(' ')[0]] === weekDay[b.split(' ')[0]]) {
+                let startTimeA = a.split(' ')[1].split('-')[0];
+                let startTimeB = b.split(' ')[1].split('-')[0];
+                if(startTimeA === startTimeB) {
+                    let endTimeA = a.split(' ')[1].split('-')[1];
+                    let endTimeB = b.split(' ')[1].split('-')[1];
+                    if(isTimeAEarilier(endTimeA, endTimeB)) return true;
+                    else return false;
+                } else {
+                    if(isTimeAEarilier(startTimeA, startTimeB)) return true;
+                    else return false;
+                }
+            } else {
+                if(weekDay[a.split(' ')[0]] < weekDay[b.split(' ')[0]]) return true;
+                return false;
+            }
+          }
+
         //   print(course.courseCode);
           if(location == 'o'){
             // printjson(course);
@@ -38,7 +98,7 @@ upCoursesArray.forEach(course=>{
                 onlineDB[course.courseCode].push(repeatInfo);
               }
               else{
-                onlineDB[course.courseCode].push(repeatInfo);
+                onlineDB[course.courseCode].insertCourse(repeatInfo);
               }    
           }
           else if (location === 'a'){
@@ -48,7 +108,7 @@ upCoursesArray.forEach(course=>{
               arcadiaDB[course.courseCode].push(repeatInfo);
             }
             else{
-              arcadiaDB[course.courseCode].push(repeatInfo);
+              arcadiaDB[course.courseCode].insertCourse(repeatInfo);
             }          
           }else if(location === 'i'){
             if (!(course.courseCode in irvineDB)){
@@ -56,7 +116,7 @@ upCoursesArray.forEach(course=>{
               irvineDB[course.courseCode].push(repeatInfo);
             }
             else{
-              irvineDB[course.courseCode].push(repeatInfo);
+              irvineDB[course.courseCode].insertCourse(repeatInfo);
             }   
           }
 

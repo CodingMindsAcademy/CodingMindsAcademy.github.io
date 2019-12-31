@@ -938,8 +938,8 @@ var id_student =
 	"5add68ff2898d6002f51f679" : {
 		"firstName" : "Mark",
 		"lastName" : "Sun",
-		"email2" : "yusun@cpp.edu",
-		"phone2" : undefined
+		"email2" : "yu.sun.aws@gmail.com",
+		"phone2" : "9496789790"
 	},
 	"5d6460b134e29b0015e2e9df" : {
 		"firstName" : "Tom",
@@ -1188,8 +1188,8 @@ var id_student =
 		"phone2" : "626-893-4003"
 	},
 	"5d702a577e1c1100153b3be6" : {
-		"firstName" : "neil",
-		"lastName" : "zhang",
+		"firstName" : "Neil",
+		"lastName" : "Zhang",
 		"email2" : "qinjing82@yahoo.com",
 		"phone2" : "6266239990"
 	},
@@ -1266,8 +1266,8 @@ var id_student =
 		"phone2" : "9493964836"
 	},
 	"5d76d2c2fb31e600151dc0f1" : {
-		"firstName" : "george",
-		"lastName" : "yang",
+		"firstName" : "George",
+		"lastName" : "Yang",
 		"email2" : "1009303705@qq.com",
 		"phone2" : "626-650-7222"
 	},
@@ -1620,14 +1620,14 @@ var id_student =
 		"phone2" : "9493729491"
 	},
 	"5d82d8408c40df00154150be" : {
-		"firstName" : "zeyu",
-		"lastName" : "zhangzeyu",
+		"firstName" : "Zeyu",
+		"lastName" : "Zhang",
 		"email2" : "lixin002@lixinmotor.com",
 		"phone2" : "9493969315"
 	},
 	"5d82d8448c40df00154150c0" : {
-		"firstName" : "xuanwei",
-		"lastName" : "ding",
+		"firstName" : "Xuanwei",
+		"lastName" : "Ding",
 		"email2" : "yqhiee@gmail.com",
 		"phone2" : "9498806636"
 	},
@@ -1710,8 +1710,8 @@ var id_student =
 		"phone2" : "9493947239"
 	},
 	"5d86791b3e98e80015061dff" : {
-		"firstName" : "su",
-		"lastName" : "jiaheng",
+		"firstName" : "Su",
+		"lastName" : "Jiaheng",
 		"email2" : "jamielee3@126.com",
 		"phone2" : "9493445495"
 	},
@@ -2004,8 +2004,8 @@ var id_student =
 		"phone2" : "9495623291"
 	},
 	"5d92968837b73f001525856a" : {
-		"firstName" : "jerry",
-		"lastName" : "zhang",
+		"firstName" : "Jerry",
+		"lastName" : "Zhang",
 		"email2" : "963192951@qq.com",
 		"phone2" : "9494311888"
 	},
@@ -2359,7 +2359,7 @@ var id_student =
 	},
 	"5da51f53c58bfe00150fc400" : {
 		"firstName" : "Jason",
-		"lastName" : "lei",
+		"lastName" : "Lei",
 		"email2" : "Sunrry0719@gmail.com",
 		"phone2" : "9495018919"
 	},
@@ -2419,7 +2419,7 @@ var id_student =
 	},
 	"5da51f09c58bfe00150fc3fc" : {
 		"firstName" : "Sean ",
-		"lastName" : "li",
+		"lastName" : "Li",
 		"email2" : "olinnazhou@gmail.com",
 		"phone2" : "9496772417"
 	}
