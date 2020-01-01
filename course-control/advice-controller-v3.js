@@ -84,30 +84,21 @@ angular.module('v3App', ['ngMaterial'])
           // console.log('Toast failed or was forced to close early by another toast.');
         });
       }
-      $http({
-        method: 'HEAD',
-        url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
-        headers: {
-          'Authorization': '8gaOB42jQ3gtZBr3UDNjftadO6mAe9UK1HyZ7CcliCmBMKLmHKN5ZmzGw4wai8hG'
-        }
-      }).then(function successCallback(response) {
-        displayToast('duplicated');
-      }, function errorCallback(response) {
         $http({
           method: 'PUT',
           url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
-          headers: {
-            'Authorization': '8gaOB42jQ3gtZBr3UDNjftadO6mAe9UK1HyZ7CcliCmBMKLmHKN5ZmzGw4wai8hG'
-          }
         }).then(function successCallback(response) {
-          console.log('enrolled to course', response);
-          displayToast('success');
+          if(response.data.msg && response.data.msg === 'duplicated') {
+            displayToast('duplicated');
+          } else {
+            console.log('enrolled to course', response);
+            displayToast('success');
+          }
         }, function errorCallback(response) {
           displayToast('error');
           console.log(response);
           // console.log("Not yet notified, therefore no logId!");
         });
-      });
     }
 
       $(function () {

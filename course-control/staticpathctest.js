@@ -50,37 +50,25 @@ angular.module('v3App', ['ngMaterial'])
       $http({
         method: 'POST',
         url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account`,
-        headers: {
-          'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
-        },
         data: $scope.form
       }).then(function successCallback(response) {
         console.log('user created', response);
         let stuid = response.data.id;
-        $http({
-          method: 'HEAD',
-          url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${stuid}`,
-          headers: {
-            'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
-          }
-        }).then(function successCallback(response) {
-          displayToast('duplicated');
-        }, function errorCallback(response) {
           $http({
             method: 'PUT',
             url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${stuid}`,
-            headers: {
-              'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
-            }
           }).then(function successCallback(response) {
-            console.log('enrolled to course', response);
-            displayToast('success');
+            if(response.data.msg && response.data.msg === 'duplicated') {
+              displayToast('duplicated');
+            } else {
+              console.log('enrolled to course', response);
+              displayToast('success');
+            }
           }, function errorCallback(response) {
             displayToast('error');
             console.log(response);
             // console.log("Not yet notified, therefore no logId!");
           });
-        });
       }, function errorCallback(response) {
         displayToast('error');
         console.log(response);
