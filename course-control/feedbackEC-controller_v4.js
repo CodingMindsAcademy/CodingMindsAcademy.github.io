@@ -27,8 +27,7 @@ angular.module('v3App', ['ngMaterial'])
         id: student_id
       }
     }).then(function successCallback(response) {
-        console.log(response);
-        if(response.data.courses){
+        if(response.data.courses==[]){
           var month = response.data.courses[0].dateStart.slice(5,7);
           if (8<=month<=12){
             $scope.Term = 'Fall ';
