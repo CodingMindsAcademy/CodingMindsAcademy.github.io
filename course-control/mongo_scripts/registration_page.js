@@ -1,4 +1,4 @@
-// mongo ds247569.mlab.com:47569/shareworks-prod -u [username] -p [password] < registration_page.js > ../course2020Spring3.js
+// mongo ds247569.mlab.com:47569/shareworks-prod -u [username] -p [password] < registration_page.js > ../course2020Spring4.js
 var upcomingCourses = db.Course.find({"term":'Spring 2020'}).sort({'courseCode':1});
 var upCoursesArray = upcomingCourses.toArray();
 // printjson(upCoursesArray);
