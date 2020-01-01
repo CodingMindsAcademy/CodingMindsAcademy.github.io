@@ -567,7 +567,7 @@ var coursedb = {
 			'title1':'AI人工智能初步与深度学习',
 			'title2':'Python高阶编程',
 			'name':'Python高阶编程:AI人工智能初步与深度学习',
-			'shortName':'Python高阶编程',
+			'shortName':'AI人工智能初步与深度学习',
 			'imageUrl':'img/my/ai-bg.jpg',
 			'gradeLevel':'L4应用主题编程',
 			'text':'学习人工智能的初步并且动手编写实用的真正的AI应用程序',
