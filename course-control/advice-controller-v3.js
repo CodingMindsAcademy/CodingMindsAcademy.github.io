@@ -88,7 +88,7 @@ angular.module('v3App', ['ngMaterial'])
         method: 'HEAD',
         url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
         headers: {
-          'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
+          'Authorization': '8gaOB42jQ3gtZBr3UDNjftadO6mAe9UK1HyZ7CcliCmBMKLmHKN5ZmzGw4wai8hG'
         }
       }).then(function successCallback(response) {
         displayToast('duplicated');
@@ -97,7 +97,7 @@ angular.module('v3App', ['ngMaterial'])
           method: 'PUT',
           url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
           headers: {
-            'Authorization': 'GJHhzSRGoHJsiQPWHp4aRmupLuBWONQ4FnLmZ439nRqdghPheaQo9kj3X2ChqSn9'
+            'Authorization': '8gaOB42jQ3gtZBr3UDNjftadO6mAe9UK1HyZ7CcliCmBMKLmHKN5ZmzGw4wai8hG'
           }
         }).then(function successCallback(response) {
           console.log('enrolled to course', response);
