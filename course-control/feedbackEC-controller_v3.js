@@ -20,9 +20,9 @@ angular.module('v3App', ['ngMaterial'])
     $http({
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
-      headers: {
-        'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
-      },     
+      // headers: {
+      //   'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+      // },     
       params: {
         id: student_id
       }
@@ -61,9 +61,9 @@ angular.module('v3App', ['ngMaterial'])
             $http({
               method: 'PUT',
               url: translateUrl,
-              headers: {
-                'Authorization': '68M3RMfo4eS9XlTPmDqoCe3PePKxLRgpSnRQrvvNx3xcujKWpyFF9f65rAU9uM2l'
-              } , 
+              // headers: {
+              //   'Authorization': '68M3RMfo4eS9XlTPmDqoCe3PePKxLRgpSnRQrvvNx3xcujKWpyFF9f65rAU9uM2l'
+              // } , 
               data: {
                 "text": $scope.EOSfeedback.text
                 
@@ -83,9 +83,9 @@ angular.module('v3App', ['ngMaterial'])
     $http({
       method: 'GET',
       url: getLogsUrl,
-      headers: {
-        'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
-      }    
+      // headers: {
+      //   'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
+      // }    
 
     }).then(response => {
       // console.log(response);
@@ -138,9 +138,6 @@ angular.module('v3App', ['ngMaterial'])
                       $http({
                         method: 'POST',
                         url: notifyUrl,
-                        headers: {
-                          'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
-                        },   
                         params: {
                           email: ManagerEmail,
                           number: ManagerNumber,

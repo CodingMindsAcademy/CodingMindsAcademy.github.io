@@ -20,9 +20,9 @@ angular.module('v3App', ['ngMaterial'])
     $http({
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
-      headers: {
-        'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
-      },     
+    //   headers: {
+    //     'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+    //   },     
       params: {
         id: student_id
       }
