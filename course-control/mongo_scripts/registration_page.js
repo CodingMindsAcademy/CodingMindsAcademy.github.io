@@ -4,9 +4,11 @@ var upCoursesArray = upcomingCourses.toArray();
 var irvineDB = {};
 var arcadiaDB = {};
 var onlineDB = {};
+var ranchoDB = {};
 var orgs = {'5d801257d2c9f600154965d8':'a',
 '5b2423bbc0991500145353f4':'i',
-"5dfa8d08d9391000141d6015":'o'};
+"5dfa8d08d9391000141d6015":'o',
+"5e090a0fbf85590014c511b7":'r'};
 var coursesDB = db.CoursesDB.find({}).sort({'courseCode':1});
 var coursesDBArray = coursesDB.toArray();
 // printjson(coursesDBArray.length);
@@ -19,7 +21,6 @@ upCoursesArray.forEach(course=>{
           var range;
           var dayTime;
         //   print(11);
-        //   printjson(course.dateStart);
           var strStart = course.dateStart.toJSON();
           var strEnd = course.dateEnd.toJSON();
           var strStart = strStart.slice(5,10).replace('-','/');
@@ -117,6 +118,14 @@ upCoursesArray.forEach(course=>{
             else{
               irvineDB[course.courseCode].insertCourse(repeatInfo);
             }   
+          }else if(location === 'r'){
+            if (!(course.courseCode in ranchoDB)){
+              ranchoDB[course.courseCode] = [];
+              ranchoDB[course.courseCode].push(repeatInfo);
+            }
+            else{
+              ranchoDB[course.courseCode].insertCourse(repeatInfo);
+            }   
           }
 
         });
@@ -127,11 +136,14 @@ upCoursesArray.forEach(course=>{
 var courseListArcadia = [];
 var courseListIrvine = [];
 var courseListOnline = [];
+var courseListRancho = [];
+
 coursesDBArray.forEach(course=>{
     // course['id'] = course['_id'].str;
     var tempcourse = Object.assign({},course);
     var tempcourse1 = Object.assign({},course);
     var tempcourse2 = Object.assign({},course);
+    var tempcourse3 = Object.assign({},course);
 
     // delete course['_id'];
     
@@ -153,6 +165,11 @@ coursesDBArray.forEach(course=>{
         tempcourse2['repeatData'] = onlineDB[tempcourse2.courseCode] 
         courseListOnline.push(tempcourse2);  
     }
+    if(tempcourse3.courseCode in ranchoDB){
+      delete tempcourse3['_id'];
+        tempcourse3['repeatData'] = ranchoDB[tempcourse3.courseCode] 
+        courseListRancho.push(tempcourse3);  
+    }  
   });
 
         print('var irvinedb = ');
@@ -161,6 +178,7 @@ coursesDBArray.forEach(course=>{
         printjson(courseListArcadia);
         print('var onlinedb = ');
         printjson(courseListOnline);
-
+        print('var ranchodb = ');
+        printjson(courseListRancho);
 
 

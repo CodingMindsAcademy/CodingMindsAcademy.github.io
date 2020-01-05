@@ -1354,7 +1354,7 @@ var id_student =
 	"5cd0d092f7e0e600158a3a52" : {
 		"firstName" : "Eric",
 		"lastName" : "Xiong",
-		"email2" : "513733820@qq.com",
+		"email2" : "513633820@qq.com",
 		"phone2" : "9496271282"
 	},
 	"5ce342a098971a00150bbab2" : {
@@ -1738,7 +1738,7 @@ var id_student =
 	"5cd4ae1dce28bf0015df6b9b" : {
 		"firstName" : "Leheng",
 		"lastName" : "Huang",
-		"email2" : "joeyzhou678@gmail.com",
+		"email2" : "joeyzhuo678@gmail.com",
 		"phone2" : "6268996383"
 	},
 	"5cd74492660b8200158b2ba6" : {
@@ -2681,4 +2681,3 @@ var arcadiaStuList =
 	"5dbdc87c622dd90014c75d3c",
 	"5d0d3f0bfce07c0015eac360"
 ]
-
