@@ -1,4 +1,4 @@
-angular.module('v3App', [])
+angular.module('v3App', ["ngMaterial"])
   .config(function($sceProvider) {
     $sceProvider.enabled(false);    
   })
@@ -14,7 +14,7 @@ angular.module('v3App', [])
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
       headers: {
-        'Authorization': 'nxM0WXLmslQLowqnDPoPvdgMfeZsv8A37BOGj91tHIMOGOb6224DOwqAzpI555c7'
+        'Authorization': 'EdgBex8ofavDhU70j0GOXTr2HaMVBcfefgvc5IpdnjCuRTpNvXifV6WtoyasMThN'
       },  
     }).then(function successCallback(response) {
         var upcomingCourses = response.data.courses.filter(obj=>obj.term==='Spring 2020');
@@ -59,7 +59,7 @@ angular.module('v3App', [])
           method: 'GET',
           url: 'https://prod-sharemyworks-backend.herokuapp.com/api/CoursesDBs',
           headers: {
-            'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
+            'Authorization': 'EdgBex8ofavDhU70j0GOXTr2HaMVBcfefgvc5IpdnjCuRTpNvXifV6WtoyasMThN'
           },     
         }).then(function successCallback(response) {
             response.data.sort(function(a,b){
