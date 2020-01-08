@@ -84,10 +84,8 @@ angular.module('v3App', ["ngMaterial",'ui.bootstrap'])
       },  
     }).then(function successCallback(response) {
         var upcomingCourses = response.data.courses.filter(obj=>obj.term==='Spring 2020');
-        console.log(upcomingCourses.length);
         var irvineDB = {};
         var arcadiaDB = {};
-        console.log(upcomingCourses);
         upcomingCourses.forEach(course=>{
           var range;
           var dayTime;
@@ -116,7 +114,6 @@ angular.module('v3App', ["ngMaterial",'ui.bootstrap'])
               irvineDB[course.courseCode].push(repeatInfo);
             }   
           }
-          // console.log(location);
 
         });
         
@@ -133,49 +130,46 @@ angular.module('v3App', ["ngMaterial",'ui.bootstrap'])
             })
             var courses = response.data;
 
-            console.log(courses);
+            var templist1 = [];
+            var counter1 = 0;
+            var templist2 = [];
+            var counter2 = 0;
             courses.forEach(course=>{
                 var tempcourse1 = Object.assign({},course);
                 var tempcourse2 = Object.assign({},course);
               if(course.courseCode in irvineDB){
                   //  tempcourse1= course;
                   tempcourse1['repeatData'] = irvineDB[tempcourse1.courseCode]
-                  $scope.courseListIrvine.push(tempcourse1);
-                  console.log(tempcourse1);
-                  console.log(irvineDB[tempcourse1.courseCode]);
-                  console.log(tempcourse1['repeatData']);
+                  templist1.push(tempcourse1);
+                  counter1 += 1;
+                  if(counter1 == 3){
+                    $scope.courseListIrvine.push(templist1);
+                    templist1 = [];
+                    counter1 = 0
+                  }
               }
               if(course.courseCode in arcadiaDB){
                 // tempcourse2 = course;
-                tempcourse2['repeatData'] = arcadiaDB[tempcourse2.courseCode] 
-                $scope.courseListArcadia.push(tempcourse2);
-                console.log(tempcourse2);
 
-                console.log(arcadiaDB[tempcourse2.courseCode]);
-                console.log(tempcourse2['repeatData']);
+                tempcourse2['repeatData'] = arcadiaDB[tempcourse2.courseCode];
+                templist2.push(tempcourse2);
+                counter2 += 1;
+                if(counter2 == 3){
+                  $scope.courseListArcadia.push(templist2);
+                  templist2 = [];
+                  counter2 = 0
+                }
             }
-            // if(tempcourse1!=undefined){
-            //   console.log(tempcourse1);
-            // console.log(irvineDB[tempcourse1.courseCode]);
-            // console.log(tempcourse1['repeatData']);
-
-            // }
-            // if(tempcourse2!=undefined){
-            //   console.log(tempcourse2);
-
-            // console.log(arcadiaDB[tempcourse2.courseCode]);
-            // console.log(tempcourse2['repeatData']);
-
-            // }
             })
-
+            $scope.courseListArcadia.push(templist2);
+            $scope.courseListIrvine.push(templist1);
+            console.log($scope.courseListIrvine);
+            console.log($scope.courseListArcadia);
           $scope.getLength = function(obj) {
               return Object.keys(obj).length;
           }
           $scope.coursedb = coursedb;
 
-        console.log($scope.courseListIrvine);
-        console.log($scope.courseListArcadia);
           }, function errorCallback(response) {
             console.log(response);
           });

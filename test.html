@@ -216,8 +216,8 @@
             </section>
 
             <section class="text-center bg--secondary">
-                <!-- <div class="container"> -->
-                    <!-- <div class="row"> -->
+                <div class="container">
+                    <div class="row">
                         <div class="col-sm-12">
                             <div class="text-center">
                                 <i class="icon icon-Coding color--primary"></i>
@@ -228,44 +228,144 @@
                 <div ng-cloak>
                   <md-content>
                     <md-tabs class="md-primary" md-center-tabs md-dynamic-height>
-                      <md-tab label="one">
+                      <md-tab label="Irvine校区">
                           <!-- <h2 class="md-display-1">Tab One</h2> -->
                           <md-content class="md-padding" layout-xs="column" layout="row" ng-repeat="course in courseListIrvine">
 
                             <div flex-xs flex-gt-xs="50" layout="column" >
                                     <md-card style="width: 350px;">
-                                    <img ng-src="{{course.imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <img ng-src="{{course[0].imageUrl}}" class="md-card-image" alt="Washed Out">
                                     <md-card-title>
                                       <md-card-title-text>
-                                        <span class="md-headline">{{course.title1}}</span>
+                                        <span class="md-headline">{{course[0].title1}}</span>
                                       </md-card-title-text>
                                     </md-card-title>
                                     <md-card-content>
                                       <p>
-                                        {{course.text}}
+                                        {{course[0].text}}
                                       </p>
                                     </md-card-content>
                                     <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course.detailsUrl)">查看课程信息</md-button>
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[0].detailsUrl)">查看课程信息</md-button>
                                         <md-button>选择课程时间</md-button>
 
                                       </md-card-actions>
                                   </md-card>  
+                                  
+                                  </div>
+                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[1]">
+                                    <md-card style="width: 350px;">
+                                    <img ng-src="{{course[1].imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <md-card-title>
+                                      <md-card-title-text>
+                                        <span class="md-headline">{{course[1].title1}}</span>
+                                      </md-card-title-text>
+                                    </md-card-title>
+                                    <md-card-content>
+                                      <p>
+                                        {{course[1].text}}
+                                      </p>
+                                    </md-card-content>
+                                    <md-card-actions layout="row" layout-align="center">
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[1].detailsUrl)">查看课程信息</md-button>
+                                        <md-button>选择课程时间</md-button>
+
+                                      </md-card-actions>
+                                  </md-card>  
+                                  
+                                  </div>
+                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[2]" >
+                                    <md-card style="width: 350px;">
+                                    <img ng-src="{{course[2].imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <md-card-title>
+                                      <md-card-title-text>
+                                        <span class="md-headline">{{course[2].title1}}</span>
+                                      </md-card-title-text>
+                                    </md-card-title>
+                                    <md-card-content>
+                                      <p>
+                                        {{course[2].text}}
+                                      </p>
+                                    </md-card-content>
+                                    <md-card-actions layout="row" layout-align="center">
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[2].detailsUrl)">查看课程信息</md-button>
+                                        <md-button>选择课程时间</md-button>
+
+                                      </md-card-actions>
+                                  </md-card>  
+                                  
                                   </div>
                                 </md-content>
                       </md-tab>
-                      <md-tab label="two">
-                        <md-content class="md-padding">
-                          <h2 class="md-display-1">Tab Two</h2>
-                          <p class="md-body-1">
-                            Morbi viverra, ante vel aliquet tincidunt, leo dolor pharetra quam, at semper massa
-                            orci nec magna. Donec posuere nec sapien sed laoreet. Etiam cursus nunc in
-                            condimentum facilisis. Etiam in tempor tortor. Vivamus faucibus egestas enim,
-                            at convallis diam pulvinar vel. Cras ac orci eget nisi maximus cursus.
-                          </p>
-                        </md-content>
+                      <md-tab label="Arcadia校区">
+                        <md-content class="md-padding" layout-xs="column" layout="row" ng-repeat="course in courseListArcadia">
+
+                            <div flex-xs flex-gt-xs="50" layout="column" >
+                                    <md-card style="width: 350px;">
+                                    <img ng-src="{{course[0].imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <md-card-title>
+                                      <md-card-title-text>
+                                        <span class="md-headline">{{course[0].title1}}</span>
+                                      </md-card-title-text>
+                                    </md-card-title>
+                                    <md-card-content>
+                                      <p>
+                                        {{course[0].text}}
+                                      </p>
+                                    </md-card-content>
+                                    <md-card-actions layout="row" layout-align="center">
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[0].detailsUrl)">查看课程信息</md-button>
+                                        <md-button>选择课程时间</md-button>
+
+                                      </md-card-actions>
+                                  </md-card>  
+                                  
+                                  </div>
+                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[1]">
+                                    <md-card style="width: 350px;">
+                                    <img ng-src="{{course[1].imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <md-card-title>
+                                      <md-card-title-text>
+                                        <span class="md-headline">{{course[1].title1}}</span>
+                                      </md-card-title-text>
+                                    </md-card-title>
+                                    <md-card-content>
+                                      <p>
+                                        {{course[1].text}}
+                                      </p>
+                                    </md-card-content>
+                                    <md-card-actions layout="row" layout-align="center">
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[1].detailsUrl)">查看课程信息</md-button>
+                                        <md-button>选择课程时间</md-button>
+
+                                      </md-card-actions>
+                                  </md-card>  
+                                  
+                                  </div>
+                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[2]" >
+                                    <md-card style="width: 350px;">
+                                    <img ng-src="{{course[2].imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <md-card-title>
+                                      <md-card-title-text>
+                                        <span class="md-headline">{{course[2].title1}}</span>
+                                      </md-card-title-text>
+                                    </md-card-title>
+                                    <md-card-content>
+                                      <p>
+                                        {{course[2].text}}
+                                      </p>
+                                    </md-card-content>
+                                    <md-card-actions layout="row" layout-align="center">
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[2].detailsUrl)">查看课程信息</md-button>
+                                        <md-button>选择课程时间</md-button>
+
+                                      </md-card-actions>
+                                  </md-card>  
+                                  
+                                  </div>
+                                </md-content>
                       </md-tab>
-                      <md-tab label="three">
+                      <md-tab label="Rancho校区">
                         <md-content class="md-padding">
                           <h2 class="md-display-1">Tab Three</h2>
                           <p class="md-body-1">
@@ -280,6 +380,8 @@
                   </md-content>
             </div>
                 </div>
+            </div>
+
                 </section>
                 
                 <section class="bg text-center">
@@ -366,7 +468,7 @@
                     <div id="toast-container" ></div>
                 </div>
                 <div id="theModal" class="modal fade text-center">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog" >
                       <div class="modal-content">
                         <div ng-bind-html="trustedHtml"></div>
                       </div>
