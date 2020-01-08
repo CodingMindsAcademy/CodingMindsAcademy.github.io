@@ -8,6 +8,7 @@ angular.module('v3App', ["ngMaterial",'ui.bootstrap'])
  $scope.courseListIrvine = [];
  $scope.courseListArcadia = [];
  $scope.load = 1;
+//  $scope.display = true;
   var orgs = {'5d801257d2c9f600154965d8':'a',
               '5b2423bbc0991500145353f4':'i'};
   // $scope.customFullscreen = false;
@@ -42,6 +43,7 @@ angular.module('v3App', ["ngMaterial",'ui.bootstrap'])
               //   });
               // };
               $scope.get = function(url) {
+                console.log(url);
                 $http({
                     method: 'GET',
                     url: url,
@@ -50,7 +52,7 @@ angular.module('v3App', ["ngMaterial",'ui.bootstrap'])
                     .then(function successCallback(data){
                  
                         $scope.data = data.data;
-                        console.log($scope.data);
+                        console.log(data.data);
                         $scope.trustedHtml = $sce.trustAsHtml($scope.data);
                         },
                      function errorCallback(response){

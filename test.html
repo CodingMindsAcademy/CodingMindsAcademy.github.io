@@ -230,139 +230,205 @@
                     <md-tabs class="md-primary" md-center-tabs md-dynamic-height>
                       <md-tab label="Irvine校区">
                           <!-- <h2 class="md-display-1">Tab One</h2> -->
-                          <md-content class="md-padding" layout-xs="column" layout="row" ng-repeat="course in courseListIrvine">
-
-                            <div flex-xs flex-gt-xs="50" layout="column" >
+                          <md-content class="md-padding" layout-xs="column" layout="row" ng-repeat="courses in courseListIrvine">
+                            <div ng-repeat="course in courses">
+                            <div flex-xs flex-gt-xs="50" layout="column"  ng-if="course">
                                     <md-card style="width: 350px;">
-                                    <img ng-src="{{course[0].imageUrl}}" class="md-card-image" alt="Washed Out">
+                                    <img ng-src="{{course.imageUrl}}" class="md-card-image" alt="Washed Out">
                                     <md-card-title>
                                       <md-card-title-text>
-                                        <span class="md-headline">{{course[0].title1}}</span>
+                                        <span class="md-headline">{{course.title1}}</span>
                                       </md-card-title-text>
                                     </md-card-title>
                                     <md-card-content>
                                       <p>
-                                        {{course[0].text}}
+                                        {{course.text}}
                                       </p>
                                     </md-card-content>
                                     <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[0].detailsUrl)">查看课程信息</md-button>
-                                        <md-button>选择课程时间</md-button>
+                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course.detailsUrl)">查看课程信息</md-button>
+                                        <md-button ng-click='display=!display'>选择课程时间</md-button>
 
                                       </md-card-actions>
+                                      <div ng-show="display">
+                                        <h4>课程时间</h4>
+                                        <p>如果时间不合适请及时联系我们</p>
+                                        <table >
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width: 35%"><b>日期</b></td>
+                                                    <td style="width: 28%"><b>时间</b></td>
+                                                    <td style="width: 28%"><b>注册</b></td>
+                                                </tr>
+                                                <tr ng-repeat="data in course['repeatData']">
+                                                    <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                    <td style="width: 28%">{{data.dayTime}}</td>
+                                                    <td style="width: 28%">
+                                                        <div class="modal-instance">
+                                                            <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
+                                                            <div id={{data.courseid}} class="modal-container">
+                                                                <div class="modal-content section-modal">
+                                                                    <section class="unpad ">
+                                                                        <div class="container">
+                                                                            <div class="row">
+                                                                                <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                                                    <div class="boxed boxed--lg bg--white text-center feature">
+                                                                                        <div class="modal-close modal-close-cross"></div>
+                                                                                        <h3>填写报名信息</h3>
+                                                                                        <h5>{{course.shortName}}</h5>
+                                                                                        <h5 style="margin-bottom: 0;">Online</h5>
+                                                                                        <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
+                                                                                        <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                        <hr data-title="OR">
+                                                                                        <div class="feature__body">
+                                                                                            <form ng-submit="submit(data.courseid, 'Online')">
+                                                                                                <div class="row">
+                                                                                                    <div class="col-sm-6">
+                                                                                                        <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                    </div>
+                                                                                                    <div class="col-sm-6">
+                                                                                                        <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                    </div>
+                                                                                                    <div class="col-sm-12">
+                                                                                                        <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                    </div>
+                                                                                                    <div class="col-sm-12">
+                                                                                                        <input type="email" ng-model="form.email2" placeholder="Email" required/>
+                                                                                                    </div>
+                                                                                                    <div class="col-sm-12">
+                                                                                                        <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
+                                                                                                    </div>
+                                                                                                    <div class="col-sm-12">
+                                                                                                        <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                    </div>
+                                                                                                    <div class="col-sm-12">
+                                                                                                        <button class="btn btn--primary type--uppercase" type="submit">注册</button>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!--end of row-->
+                                                                                            </form>
+                                                                                            <span>如有疑问请联系我们
+                                                                                                <a href="contact-us-cn.html">联系我们</a>
+                                                                                            </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div> 
                                   </md-card>  
                                   
                                   </div>
-                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[1]">
-                                    <md-card style="width: 350px;">
-                                    <img ng-src="{{course[1].imageUrl}}" class="md-card-image" alt="Washed Out">
-                                    <md-card-title>
-                                      <md-card-title-text>
-                                        <span class="md-headline">{{course[1].title1}}</span>
-                                      </md-card-title-text>
-                                    </md-card-title>
-                                    <md-card-content>
-                                      <p>
-                                        {{course[1].text}}
-                                      </p>
-                                    </md-card-content>
-                                    <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[1].detailsUrl)">查看课程信息</md-button>
-                                        <md-button>选择课程时间</md-button>
-
-                                      </md-card-actions>
-                                  </md-card>  
-                                  
-                                  </div>
-                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[2]" >
-                                    <md-card style="width: 350px;">
-                                    <img ng-src="{{course[2].imageUrl}}" class="md-card-image" alt="Washed Out">
-                                    <md-card-title>
-                                      <md-card-title-text>
-                                        <span class="md-headline">{{course[2].title1}}</span>
-                                      </md-card-title-text>
-                                    </md-card-title>
-                                    <md-card-content>
-                                      <p>
-                                        {{course[2].text}}
-                                      </p>
-                                    </md-card-content>
-                                    <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[2].detailsUrl)">查看课程信息</md-button>
-                                        <md-button>选择课程时间</md-button>
-
-                                      </md-card-actions>
-                                  </md-card>  
-                                  
-                                  </div>
+                                </div>
+    
                                 </md-content>
                       </md-tab>
                       <md-tab label="Arcadia校区">
-                        <md-content class="md-padding" layout-xs="column" layout="row" ng-repeat="course in courseListArcadia">
+                        <md-content class="md-padding" layout-xs="column" layout="row" ng-repeat="courses in courseListArcadia">
 
-                            <div flex-xs flex-gt-xs="50" layout="column" >
-                                    <md-card style="width: 350px;">
-                                    <img ng-src="{{course[0].imageUrl}}" class="md-card-image" alt="Washed Out">
-                                    <md-card-title>
-                                      <md-card-title-text>
-                                        <span class="md-headline">{{course[0].title1}}</span>
-                                      </md-card-title-text>
-                                    </md-card-title>
-                                    <md-card-content>
-                                      <p>
-                                        {{course[0].text}}
-                                      </p>
-                                    </md-card-content>
-                                    <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[0].detailsUrl)">查看课程信息</md-button>
-                                        <md-button>选择课程时间</md-button>
-
-                                      </md-card-actions>
-                                  </md-card>  
-                                  
-                                  </div>
-                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[1]">
-                                    <md-card style="width: 350px;">
-                                    <img ng-src="{{course[1].imageUrl}}" class="md-card-image" alt="Washed Out">
-                                    <md-card-title>
-                                      <md-card-title-text>
-                                        <span class="md-headline">{{course[1].title1}}</span>
-                                      </md-card-title-text>
-                                    </md-card-title>
-                                    <md-card-content>
-                                      <p>
-                                        {{course[1].text}}
-                                      </p>
-                                    </md-card-content>
-                                    <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[1].detailsUrl)">查看课程信息</md-button>
-                                        <md-button>选择课程时间</md-button>
-
-                                      </md-card-actions>
-                                  </md-card>  
-                                  
-                                  </div>
-                                  <div flex-xs flex-gt-xs="50" layout="column" ng-if="course[2]" >
-                                    <md-card style="width: 350px;">
-                                    <img ng-src="{{course[2].imageUrl}}" class="md-card-image" alt="Washed Out">
-                                    <md-card-title>
-                                      <md-card-title-text>
-                                        <span class="md-headline">{{course[2].title1}}</span>
-                                      </md-card-title-text>
-                                    </md-card-title>
-                                    <md-card-content>
-                                      <p>
-                                        {{course[2].text}}
-                                      </p>
-                                    </md-card-content>
-                                    <md-card-actions layout="row" layout-align="center">
-                                        <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course[2].detailsUrl)">查看课程信息</md-button>
-                                        <md-button>选择课程时间</md-button>
-
-                                      </md-card-actions>
-                                  </md-card>  
-                                  
-                                  </div>
+                            <div ng-repeat="course in courses">
+                                <div flex-xs flex-gt-xs="50" layout="column"  ng-if="course">
+                                        <md-card style="width: 350px;">
+                                        <img ng-src="{{course.imageUrl}}" class="md-card-image" alt="Washed Out">
+                                        <md-card-title>
+                                          <md-card-title-text>
+                                            <span class="md-headline">{{course.title1}}</span>
+                                          </md-card-title-text>
+                                        </md-card-title>
+                                        <md-card-content>
+                                          <p>
+                                            {{course.text}}
+                                          </p>
+                                        </md-card-content>
+                                        <md-card-actions layout="row" layout-align="center">
+                                            <md-button class="md-primary md-raised" data-toggle="modal" data-target="#theModal" ng-click="get(course.detailsUrl)">查看课程信息</md-button>
+                                            <md-button ng-click='display=!display'>选择课程时间</md-button>
+    
+                                          </md-card-actions>
+                                          <div ng-show="display">
+                                            <h4>课程时间</h4>
+                                            <p>如果时间不合适请及时联系我们</p>
+                                            <table >
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="width: 35%"><b>日期</b></td>
+                                                        <td style="width: 28%"><b>时间</b></td>
+                                                        <td style="width: 28%"><b>注册</b></td>
+                                                    </tr>
+                                                    <tr ng-repeat="data in course['repeatData']">
+                                                        <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                        <td style="width: 28%">{{data.dayTime}}</td>
+                                                        <td style="width: 28%">
+                                                            <div class="modal-instance">
+                                                                <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
+                                                                <div id={{data.courseid}} class="modal-container">
+                                                                    <div class="modal-content section-modal">
+                                                                        <section class="unpad ">
+                                                                            <div class="container">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                                                        <div class="boxed boxed--lg bg--white text-center feature">
+                                                                                            <div class="modal-close modal-close-cross"></div>
+                                                                                            <h3>填写报名信息</h3>
+                                                                                            <h5>{{course.shortName}}</h5>
+                                                                                            <h5 style="margin-bottom: 0;">Online</h5>
+                                                                                            <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
+                                                                                            <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                            <hr data-title="OR">
+                                                                                            <div class="feature__body">
+                                                                                                <form ng-submit="submit(data.courseid, 'Online')">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-sm-6">
+                                                                                                            <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-6">
+                                                                                                            <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-12">
+                                                                                                            <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-12">
+                                                                                                            <input type="email" ng-model="form.email2" placeholder="Email" required/>
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-12">
+                                                                                                            <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-12">
+                                                                                                            <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-12">
+                                                                                                            <button class="btn btn--primary type--uppercase" type="submit">注册</button>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <!--end of row-->
+                                                                                                </form>
+                                                                                                <span>如有疑问请联系我们
+                                                                                                    <a href="contact-us-cn.html">联系我们</a>
+                                                                                                </span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div> 
+                                      </md-card>  
+                                      
+                                      </div>
+                                    </div>
                                 </md-content>
                       </md-tab>
                       <md-tab label="Rancho校区">
@@ -467,16 +533,15 @@
                     </footer>
                     <div id="toast-container" ></div>
                 </div>
-                <div id="theModal" class="modal fade text-center">
-                    <div class="modal-dialog" >
-                      <div class="modal-content">
+                <div id="theModal" class="modal fade text-center" style="width:100%">
+                    <div class="modal-dialog" style="width:85%">
+                      <div class="modal-content" >
                         <div ng-bind-html="trustedHtml"></div>
                       </div>
                     </div>
                   </div>
                 
                 
-                </div>
                 <!--<div class="loader"></div>-->
                 <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span class="btn__text">联系我们</span></a>
                 <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
