@@ -366,8 +366,11 @@
                                                         <td style="width: 35%">{{data.range}}<br>上半期八周</td>
                                                         <td style="width: 28%">{{data.dayTime}}</td>
                                                         <td style="width: 28%">
-                                                            <div class="modal-instance">
-                                                                <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
+                                                           
+                                                            <!-- <a  class="btn btn--sm btn--primary" ng-click="open()"><span class="btn__text">注册</span></a> -->
+                                                            <md-button class="md-primary md-raised" ng-click="showAdvanced($event, course, data)" >
+                                                                注册
+                                                            </md-button>
                                                                 <div id={{data.courseid}} class="modal-container">
                                                                     <div class="modal-content section-modal">
                                                                         <section class="unpad ">
@@ -540,8 +543,8 @@
                       </div>
                     </div>
                   </div>
-                
-                
+                  
+
                 <!--<div class="loader"></div>-->
                 <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span class="btn__text">联系我们</span></a>
                 <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">

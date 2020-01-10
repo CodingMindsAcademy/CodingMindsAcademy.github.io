@@ -1,0 +1,76 @@
+<md-dialog aria-label="Mango (Fruit)">
+    <form ng-cloak>
+  
+      <md-dialog-content>
+        <md-content layout-padding>
+            <div>
+              <form name="userForm">
+                <h3>填写报名信息</h3>
+                <h5>{{course.shortName}}</h5>
+                <h5 style="margin-bottom: 0;">Online</h5>
+                <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
+                <p><b>时间：</b>{{data.dayTime}}</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                    </div>
+                    <div class="col-sm-12">
+                        <input type="text" ng-model="form.grade" placeholder="年级" />
+                    </div>
+                    <div class="col-sm-12">
+                        <input type="email" ng-model="form.email2" placeholder="Email" required/>
+                    </div>
+                    <div class="col-sm-12">
+                        <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
+                    </div>
+                    <div class="col-sm-12">
+                        <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                    </div>
+                    <div class="col-sm-12">
+                        <button class="btn btn--primary type--uppercase" type="submit">注册</button>
+                    </div>
+                </div>
+        
+                <div layout-gt-sm="row">
+                  <md-input-container class="md-block" flex-gt-sm>
+                    <label>学生First name</label>
+                    <input ng-model="user.firstName">
+                  </md-input-container>
+                  <md-input-container class="md-block" flex-gt-sm>
+                    <label>学生Last name</label>
+                    <input ng-model="user.firstName">
+                  </md-input-container>      
+                </div>
+        
+                <md-input-container class="md-block">
+                  <label>年级</label>
+                  <input ng-model="user.address">
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Email</label>
+                    <input ng-model="user.address">
+                </md-input-container>                
+                <md-input-container class="md-block">
+                    <label>联系电话</label>
+                    <input ng-model="user.address">
+                </md-input-container>   
+                <md-input-container class="md-block">
+                    <label>微信号</label>
+                    <input ng-model="user.address">
+                </md-input-container>       
+                
+              </form>
+            </div>
+          </md-content>
+      </md-dialog-content>
+  
+      <md-dialog-actions layout="flex">
+        <md-button ng-click="answer('useful')">
+          注册
+        </md-button>
+      </md-dialog-actions>
+    </form>
+  </md-dialog>
