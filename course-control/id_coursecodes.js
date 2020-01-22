@@ -109,7 +109,9 @@ var id_courses =
 		"cs420"
 	],
 	"5cd35dda6ee2680015da8a72" : [
-		"cs310"
+		"cs310",
+		"5e0c5cd957e1794569d0d88f",
+		"5e0c5cd957e1794569d0d88b"
 	],
 	"5dec4312a873180014ddc568" : [
 		"cs420",
@@ -2009,7 +2011,7 @@ var id_student =
 		"firstName" : "Jerry",
 		"lastName" : "Zhang",
 		"email2" : "963192951@qq.com",
-		"phone2" : "9494311888"
+		"phone2" : "6266885327"
 	},
 	"5d92969737b73f001525856c" : {
 		"firstName" : "Jason",
@@ -2294,7 +2296,7 @@ var id_student =
 		"phone2" : "6266287366"
 	},
 	"5d0d3f0bfce07c0015eac360" : {
-		"firstName" : "leo",
+		"firstName" : "leon",
 		"lastName" : "li",
 		"email2" : undefined,
 		"phone2" : "6263818685"
