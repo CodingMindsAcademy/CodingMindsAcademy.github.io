@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
-    <title>Coding Minds编程思维课程体系</title>
+    <title>afterschool program</title>
     <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升, STEM">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="编程助力名校申请。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
@@ -171,14 +171,68 @@
                 </div>
                 <!--end of container-->
             </section>
+            
+            <br>            
 
-            <section>
-                
-                    <img src="img/my/afterschool/afterschool3.jpg" />
-                
+            <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+                <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                    <div class="background-image-holder">
+                        <img alt="image" src="img/my/afterschool/afterschool5.jpg" />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-7">
+                            <h2>Fun topics</h2>
+                            <p class="lead">
+                                We are offering more than 20 topics including python, lua, makecode in our afterschool program, topics covering from K - 12th grade. 
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
                 <!--end of container-->
-            </section>                       
-            <br>
+            </section>
+
+            <section class="imageblock switchable feature-large bg--secondary space--sm">
+                <div class="imageblock__content col-md-6 col-sm-4 pos-left">
+                    <div class="background-image-holder">
+                        <img alt="image" src="img/my/afterschool/afterschool2.jpg" />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-7">
+                            <h2>Learn coding with fun</h2>
+                            <p class="lead">
+                                In codingminds afterschool program, your students can learn all the coding knowledge with fun inside your school  
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+                <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                    <div class="background-image-holder">
+                        <img alt="image" src="img/my/afterschool/afterschool3.jpg" />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-7">
+                            <h2>Learn together</h2>
+                            <p class="lead">
+                                With coding minds, you are lead meaningful coding sections in your classroom right now - You and your students are on level playing field, learning together
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
             
             <section class="text-center bg--secondary">
                 <div class="container">
@@ -200,6 +254,7 @@
                                 <div class="tab__title">
                                     <span class="h5">St. Angela Merici Parish School</span>
                                 </div>
+                                  
                                 <div class="tab__content">
                                                     <div class="container">                                                        
                                                         <div class="row">
@@ -246,12 +301,138 @@
                                                 
                                             </div>
                                         </li>
-                                    </ul>
+                                        <li class="active">
+
+                                                <div class="tab__title">
+                                                    <span class="h5">Fairmont Private School</span>
+                                                </div>
+                                                
+                                                <div class="tab__content">
+                                                                    <div class="container">                                                        
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                <div class="masonry">
+                                                                                    <div class="masonry__container">
+                                                                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseListFairmont">
+                                                                                            <div class="card card-2 text-center">
+                                                                                                <div class="card__top">
+                                                                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                                                                    <a href="{{course.detailsUrl}}">
+                                                                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                                <div class="card__body">
+                                                                                                    <h4>{{course.name}}</h4>                                                                                    
+                                                                                                    <br>
+                                                                                                    <span class="type--fade">{{course.date}}</span>
+                                                                                                    <p>
+                                                                                                        {{course.text}}
+                                                                                                    </p>
+                                                                                                </div>
+                                                                                                <div class="card__bottom text-center">
+                                                                                                    <div class="card__action">
+                                                                                                        <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                                                        <a href="{{course.detailsUrl}}">
+                                                                                                            <i class="material-icons">flip_to_front</i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                    <div class="card__action">
+                                                                                                        <span class="h6 type--uppercase">register</span>
+                                                                                                        <a href="https://csfoundation.wufoo.com/forms/sceazv21ovbwzl/">
+                                                                                                            <i class="material-icons">favorite_border</i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                
+                                                            </div>
+                                                        </li>
+                                                        <li class="active">
+
+                                                                <div class="tab__title">
+                                                                    <span class="h5">Anaheim Hills</span>
+                                                                </div>
+                                                                
+                                                                <div class="tab__content">
+                                                                                    <div class="container">                                                        
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-12">
+                                                                                                <div class="masonry">
+                                                                                                    <div class="masonry__container">
+                                                                                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseListAnahills">
+                                                                                                            <div class="card card-2 text-center">
+                                                                                                                <div class="card__top">
+                                                                                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                                                                                    <a href="{{course.detailsUrl}}">
+                                                                                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                                <div class="card__body">
+                                                                                                                    <h4>{{course.name}}</h4>                                                                                    
+                                                                                                                    <br>
+                                                                                                                    <span class="type--fade">{{course.date}}</span>
+                                                                                                                    <p>
+                                                                                                                        {{course.text}}
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                                <div class="card__bottom text-center">
+                                                                                                                    <div class="card__action">
+                                                                                                                        <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                                                                                        <a href="{{course.detailsUrl}}">
+                                                                                                                            <i class="material-icons">flip_to_front</i>
+                                                                                                                        </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="card__action">
+                                                                                                                        <span class="h6 type--uppercase">register</span>
+                                                                                                                        <a href="https://csfoundation.wufoo.com/forms/sceazv21ovbwzl/">
+                                                                                                                            <i class="material-icons">favorite_border</i>
+                                                                                                                        </a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                
+                                                                            </div>
+                                                                        </li>
+                                        </ul>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+                <section class="imageblock switchable feature-large bg--secondary space--sm">
+                    <div class="imageblock__content col-md-6 col-sm-4 pos-left">
+                        <div class="background-image-holder">
+                            <img alt="image" src="img/my/afterschool/afterschool4.jpg" />
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-7">
+                                <h2>Learn coding with fun</h2>
+                                <p class="lead">
+                                    In codingminds afterschool program, your students can learn all the coding knowledge with fun inside your school  
+                                </p>
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </section>
+
                 <section class="bg text-center">
                     <div class="container">
                         <div class="row">

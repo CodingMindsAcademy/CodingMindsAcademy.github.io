@@ -16,10 +16,10 @@ var coursedb = {
 			'registerUrl':'index.html#allCourses',
 			'registerTitle':'REGISTER',
 			'registerForm':'https://csfoundation.wufoo.com/forms/m8vsgm21cz06w0/'
-		},
+		} ,
 		'cs101p' : {
 			'enabled':false,
-			'name':'Minecraft World Building and Instruction Programming',
+		 	'name':'Minecraft World Building and Instruction Programming',
 			'imageUrl':'img/my/minecraftbasic/bg-sm.jpg',
 			'gradeLevel':'Grade K-3',
 			'text':'Learning 3D modeling, control instructions, and graphical programming with Minecraft',
@@ -979,5 +979,7 @@ angular.module('v3App', [])
 	}
 
 	$scope.coursedb = coursedb.cn;
-    $scope.courseListSAMerici = [coursedb.cn.cs101, coursedb.cn.cs210];
+    $scope.courseListSAMerici = [coursedb.cn.cs101, coursedb.cn.cs210, coursedb.cn.cs310, coursedb.cn.cs301, coursedb.cn.cs120, coursedb.cn.cs320];
+    $scope.courseListAnahills = [coursedb.cn.cs101, coursedb.cn.cs210, coursedb.cn.cs310, coursedb.cn.cs301, coursedb.cn.cs120, coursedb.cn.cs320];
+    $scope.courseListFairmont = [coursedb.cn.cs101, coursedb.cn.cs210, coursedb.cn.cs310, coursedb.cn.cs301, coursedb.cn.cs120, coursedb.cn.cs320];
   });
