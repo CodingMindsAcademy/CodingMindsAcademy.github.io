@@ -146,143 +146,143 @@
                         </div>
                         <div class="bar__module">
 
-                                <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
-                                    联系我们
-                                </span> </a>
-                            </div>
+                            <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
+                                联系我们
+                            </span> </a>
                         </div>
                     </div>
                 </div>
-            </nav>
-            <!--end bar-->
-        </div>
-        <div class="main-container">
+            </div>
+        </nav>
+        <!--end bar-->
+    </div>
+    <div class="main-container">
 
 
 
 
-                <section class="space--sm">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="text-center">
-                                        <i class="icon icon-Thumb color--primary"></i>
-                                        <h2 class="text-center">助力名校申请<br>编程课学习规划<br></h2>
-                                        <!-- <h2 class="text-center">{{getStuDb(stuid).name}}<br>编程课学生学习反馈<br></h2> -->
-                                        <!-- <p class="text-center">{{getStuDb(stuid).name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
-                                    </div>
-                                    <div class="text-center">
-                                        <hr>
-                                        <i class="icon icon-Profile color--primary"></i>
-                                        <!-- <h2 class="text-center">学生学习档案<br></h2> -->
-                                        <span class="text-center h4">学生学习档案</span>
-                                        <table class="border--round table--alternate-row">
-                                            <tbody>
-                                                <tr>
-                                                    <td style="width: 50%">学生姓名</td>
-                                                    <td style="width: 50%">{{stuName}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 50%">编程级别</td>
-                                                    <td style="width: 50%">
-                                                        <ul>
-                                                            <li ng-class="{'color--primary': courseLevel == 'L1', 'color--primary-todo': courseLevelNext == 1}">L1 图形化编程</li>
-                                                            <li ng-class="{'color--primary': courseLevel == 'L2', 'color--primary-todo': courseLevelNext == 3}">L2 简洁代码编程</li>
-                                                            <li ng-class="{'color--primary': courseLevel == 'L3', 'color--primary-todo': courseLevelNext == 3}">L3 代码编程</li>
-                                                            <li ng-class="{'color--primary': courseLevel == 'L4', 'color--primary-todo': courseLevelNext == 4}">L4 应用主体编程</li>
-                                                            <li ng-class="{'color--primary': courseLevel == 'L5', 'color--primary-todo': courseLevelNext == 5}">L5 竞技编程</li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="text-center">
-                                            <!-- <hr> -->
-                                            <i class="icon icon-Target color--primary"></i>
-                                            <!-- <h2 class="text-center">2019-2020年度<br>学习与竞赛目标<br></h2> -->
-                                            <span class="text-center h4">2020年度<br>主要竞赛目标</span>
-                                            <!-- <span class="text-center h5 color--primary">蓝色为主要竞赛目标</span> -->
-                                            <table class="border--round table--alternate-row">
-                                                <tbody>
-                                                    <tr>
-                                                        <td style="width: 50%"><b>竞赛名称</b></td>
-                                                        <td style="width: 50%"><b>竞赛时间</b></td>
-                                                    </tr>
-                                                    <tr ng-repeat="comp in compList">
-                                                        <td>{{comp.name}}</td>
-                                                        <td >{{comp.date}}</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                    </div>
-                                </div>
-                            </div>
+        <section class="space--sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+                            <i class="icon icon-Thumb color--primary"></i>
+                            <h2 class="text-center">助力名校申请<br>编程课学习规划<br></h2>
+                            <!-- <h2 class="text-center">{{getStuDb(stuid).name}}<br>编程课学生学习反馈<br></h2> -->
+                            <!-- <p class="text-center">{{getStuDb(stuid).name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
                         </div>
-                </section>
+                        <div class="text-center">
+                            <hr>
+                            <i class="icon icon-Profile color--primary"></i>
+                            <!-- <h2 class="text-center">学生学习档案<br></h2> -->
+                            <span class="text-center h4">学生学习档案</span>
+                            <table class="border--round table--alternate-row">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%">学生姓名</td>
+                                        <td style="width: 50%">{{stuName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%">编程级别</td>
+                                        <td style="width: 50%">
+                                            <ul>
+                                                <li ng-class="{'color--primary': courseLevel == 'L1', 'color--primary-todo': courseLevelNext == 1}">L1 图形化编程</li>
+                                                <li ng-class="{'color--primary': courseLevel == 'L2', 'color--primary-todo': courseLevelNext == 3}">L2 简洁代码编程</li>
+                                                <li ng-class="{'color--primary': courseLevel == 'L3', 'color--primary-todo': courseLevelNext == 3}">L3 代码编程</li>
+                                                <li ng-class="{'color--primary': courseLevel == 'L4', 'color--primary-todo': courseLevelNext == 4}">L4 应用主体编程</li>
+                                                <li ng-class="{'color--primary': courseLevel == 'L5', 'color--primary-todo': courseLevelNext == 5}">L5 竞技编程</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="text-center">
+                            <!-- <hr> -->
+                            <i class="icon icon-Target color--primary"></i>
+                            <!-- <h2 class="text-center">2019-2020年度<br>学习与竞赛目标<br></h2> -->
+                            <span class="text-center h4">2020年度<br>主要竞赛目标</span>
+                            <!-- <span class="text-center h5 color--primary">蓝色为主要竞赛目标</span> -->
+                            <table class="border--round table--alternate-row">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%"><b>竞赛名称</b></td>
+                                        <td style="width: 50%"><b>竞赛时间</b></td>
+                                    </tr>
+                                    <tr ng-repeat="comp in compList">
+                                        <td>{{comp.name}}</td>
+                                        <td >{{comp.date}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section class="text-center bg--secondary">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="text-center">
-                                    <i class="icon icon-Coding color--primary"></i>
-                                    <h2  class="text-center">2020年春季课程表<br></h2>
-                                    </div>
-                                    <hr>
+        <section class="text-center bg--secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2  class="text-center">2020年春季课程表<br></h2>
+                        </div>
+                        <hr>
 
-                    <div class="tabs-container" data-content-align="center">
-                        <ul  class="tabs">
+                        <div class="tabs-container" data-content-align="center">
+                            <ul  class="tabs">
 
-                            <li class='active'>
+                                <li class='active'>
 
                                     <div class="tab__title">
                                         <span class="h5">推荐课程</span>
                                     </div>
                                     <div class="tab__content">
 
-                                    <div class="masonry1">
-                                    <!-- <div class="masonry"> -->
+                                        <div class="masonry1">
+                                            <!-- <div class="masonry"> -->
 
-                                            <!-- <div> -->
-                                            <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item" ng-repeat="course in suggestedCourses">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
-                                                            <img alt="Image" ng-src="{{course.imageUrl}}">
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>{{course.title1}}</h4>
-                                                            <p>
-                                                                {{course.text}}
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <div class="modal-instance block">
-                                                                    <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
-                                                                    <div class="modal-container">
-                                                                        <div class="modal-content">
-                                                                            <section class="imageblock feature-large bg--white border--round ">
-                                                                                <div class="container" style="padding-top: 1.1em">
-                                                                                    <div class="row" style="height: calc(100vh - 100px)">
-                                                                                        <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
-                                                                                    </div>
+                                                <!-- <div> -->
+                                                    <div class="masonry__container">
+                                                        <div class="col-sm-4 masonry__item" ng-repeat="course in suggestedCourses">
+                                                            <div class="card card-2 text-center">
+                                                                <div class="card__top">
+                                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                                    <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                                </div>
+                                                                <div class="card__body">
+                                                                    <h4>{{course.title1}}</h4>
+                                                                    <p>
+                                                                        {{course.text}}
+                                                                    </p>
+                                                                </div>
+                                                                <div class="card__bottom text-center">
+                                                                    <div class="card__action">
+                                                                        <div class="modal-instance block">
+                                                                            <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
+                                                                            <div class="modal-container">
+                                                                                <div class="modal-content">
+                                                                                    <section class="imageblock feature-large bg--white border--round ">
+                                                                                        <div class="container" style="padding-top: 1.1em">
+                                                                                            <div class="row" style="height: calc(100vh - 100px)">
+                                                                                                <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </section>
                                                                                 </div>
-                                                                            </section>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <div class="modal-instance block">
-                                                                    <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
-                                                                    <a class="btn toggle_schedule" href="#">
-                                                                        <span class="btn__text">
-                                                                            选择课程时间
-                                                                        </span>
-                                                                    </a>
+                                                                    <div class="card__action">
+                                                                        <div class="modal-instance block">
+                                                                            <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
+                                                                                <a class="btn toggle_schedule" href="#">
+                                                                                    <span class="btn__text">
+                                                                                        选择课程时间
+                                                                                    </span>
+                                                                                </a>
                                                                     <!-- <div class="modal-container">
                                                                         <div class="modal-content">
                                                                             <div class="boxed boxed--lg">
@@ -357,65 +357,65 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                    </div>
-                                    </div>
-                                </li>
-                                <li class>
+                                        </div>
+                                    </li>
+                                    <li class>
 
-                                    <div class="tab__title">
-                                        <span class="h5">{{campus}}</span>
-                                    </div>
-                                    <div class="tab__content">
+                                        <div class="tab__title">
+                                            <span class="h5">{{campus}}</span>
+                                        </div>
+                                        <div class="tab__content">
 
-                                    <div class="masonry1">
-                                    <!-- <div class="masonry"> -->
+                                            <div class="masonry1">
+                                                <!-- <div class="masonry"> -->
 
-                                            <!-- <div> -->
-                                            <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
-                                                            <img alt="Image" ng-src="{{course.imageUrl}}">
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>{{course.title1}}</h4>
-                                                            <p>
-                                                                {{course.text}}
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <div class="modal-instance block">
-                                                                    <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
-                                                                    <div class="modal-container">
-                                                                        <div class="modal-content">
-                                                                            <section class="imageblock feature-large bg--white border--round ">
-                                                                                <div class="container" style="padding-top: 1.1em">
-                                                                                    <div class="row" style="height: calc(100vh - 100px)">
-                                                                                        <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
+                                                    <!-- <div> -->
+                                                        <div class="masonry__container">
+                                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseList">
+                                                                <div class="card card-2 text-center">
+                                                                    <div class="card__top">
+                                                                        <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                                    </div>
+                                                                    <div class="card__body">
+                                                                        <h4>{{course.title1}}</h4>
+                                                                        <p>
+                                                                            {{course.text}}
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="card__bottom text-center">
+                                                                        <div class="card__action">
+                                                                            <div class="modal-instance block">
+                                                                                <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
+                                                                                <div class="modal-container">
+                                                                                    <div class="modal-content">
+                                                                                        <section class="imageblock feature-large bg--white border--round ">
+                                                                                            <div class="container" style="padding-top: 1.1em">
+                                                                                                <div class="row" style="height: calc(100vh - 100px)">
+                                                                                                    <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
                                                                                     </div>
                                                                                 </div>
-                                                                            </section>
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <div class="modal-instance block">
-                                                                    <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
-                                                                    <a class="btn toggle_schedule" href="#">
-                                                                        <span class="btn__text">
-                                                                            选择课程时间
-                                                                        </span>
-                                                                    </a>
+                                                                        <div class="card__action">
+                                                                            <div class="modal-instance block">
+                                                                                <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
+                                                                                    <a class="btn toggle_schedule" href="#">
+                                                                                        <span class="btn__text">
+                                                                                            选择课程时间
+                                                                                        </span>
+                                                                                    </a>
                                                                     <!-- <div class="modal-container">
                                                                         <div class="modal-content">
                                                                             <div class="boxed boxed--lg">
@@ -490,65 +490,65 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                    </div>
-                                    </div>
-                                </li>
-                                <li class>
+                                        </div>
+                                    </li>
+                                    <li class>
 
-                                    <div class="tab__title">
-                                        <span class="h5">Online在线课程</span>
-                                    </div>
-                                    <div class="tab__content">
+                                        <div class="tab__title">
+                                            <span class="h5">Online在线课程</span>
+                                        </div>
+                                        <div class="tab__content">
 
-                                    <div class="masonry1">
-                                    <!-- <div class="masonry"> -->
+                                            <div class="masonry1">
+                                                <!-- <div class="masonry"> -->
 
-                                            <!-- <div> -->
-                                            <div class="masonry__container">
-                                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseListOnline">
-                                                    <div class="card card-2 text-center">
-                                                        <div class="card__top">
-                                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
-                                                            <img alt="Image" ng-src="{{course.imageUrl}}">
-                                                        </div>
-                                                        <div class="card__body">
-                                                            <h4>{{course.title1}}</h4>
-                                                            <p>
-                                                                {{course.text}}
-                                                            </p>
-                                                        </div>
-                                                        <div class="card__bottom text-center">
-                                                            <div class="card__action">
-                                                                <div class="modal-instance block">
-                                                                    <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
-                                                                    <div class="modal-container">
-                                                                        <div class="modal-content">
-                                                                            <section class="imageblock feature-large bg--white border--round ">
-                                                                                <div class="container" style="padding-top: 1.1em">
-                                                                                    <div class="row" style="height: calc(100vh - 100px)">
-                                                                                        <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
+                                                    <!-- <div> -->
+                                                        <div class="masonry__container">
+                                                            <div class="col-sm-4 masonry__item" ng-repeat="course in courseListOnline">
+                                                                <div class="card card-2 text-center">
+                                                                    <div class="card__top">
+                                                                        <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                                        <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                                    </div>
+                                                                    <div class="card__body">
+                                                                        <h4>{{course.title1}}</h4>
+                                                                        <p>
+                                                                            {{course.text}}
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="card__bottom text-center">
+                                                                        <div class="card__action">
+                                                                            <div class="modal-instance block">
+                                                                                <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
+                                                                                <div class="modal-container">
+                                                                                    <div class="modal-content">
+                                                                                        <section class="imageblock feature-large bg--white border--round ">
+                                                                                            <div class="container" style="padding-top: 1.1em">
+                                                                                                <div class="row" style="height: calc(100vh - 100px)">
+                                                                                                    <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
                                                                                     </div>
                                                                                 </div>
-                                                                            </section>
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card__action">
-                                                                <div class="modal-instance block">
-                                                                    <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
-                                                                    <a class="btn toggle_schedule" href="#">
-                                                                        <span class="btn__text">
-                                                                            选择课程时间
-                                                                        </span>
-                                                                    </a>
+                                                                        <div class="card__action">
+                                                                            <div class="modal-instance block">
+                                                                                <!-- <a id="modal-click" class="btn modal-trigger" href="#"> -->
+                                                                                    <a class="btn toggle_schedule" href="#">
+                                                                                        <span class="btn__text">
+                                                                                            选择课程时间
+                                                                                        </span>
+                                                                                    </a>
                                                                     <!-- <div class="modal-container">
                                                                         <div class="modal-content">
                                                                             <div class="boxed boxed--lg">
@@ -623,162 +623,162 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                    </div>
-                                    </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg--secondary text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                            <div class="cta">
+                                <!-- <h2>不知道应该上什么课程?</h2> -->
+                                <p class="lead">
+                                    有任何课程问题请随时联系我们的课程顾问
+                                </p>
+                                <a class="btn btn--primary type--uppercase" href="contact-us-cn.html">
+                                    <span class="btn__text">
+                                        联系我们
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer-3 text-center-xs space--xs ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img alt="Image" class="logo" src="img/my/logo1.png" />
+                            <ul class="list-inline list--hover">
+                                <li>
+                                    <a href="#">
+                                        <!-- <span class="type--fine-print">Get Started</span> -->
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:Contact@CodingMindsAcademy.com">
+                                        <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 text-right text-center-xs">
+                            <ul class="social-list list-inline list--hover">
+                                <li>
+                                    <a href="#https://www.youtube.com/channel/UCF-K1DZ5lk8Bqn-14JF99jA">
+                                        <i class="socicon socicon-youtube icon icon--xs"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="socicon socicon-twitter icon icon--xs"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="socicon socicon-facebook icon icon--xs"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="socicon socicon-instagram icon icon--xs"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                    </div>
-                    </section>
-
-                <section class="bg--secondary text-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-8 col-md-6">
-                                <div class="cta">
-                                    <!-- <h2>不知道应该上什么课程?</h2> -->
-                                    <p class="lead">
-                                        有任何课程问题请随时联系我们的课程顾问
-                                    </p>
-                                    <a class="btn btn--primary type--uppercase" href="contact-us-cn.html">
-                                        <span class="btn__text">
-                                            联系我们
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="type--fine-print">
+                                编程助力名校申请 | <a href="index.html">English</a>
+                            </p>
                         </div>
-                    </div>
-                </section>
-
-                <footer class="footer-3 text-center-xs space--xs ">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img alt="Image" class="logo" src="img/my/logo1.png" />
-                                <ul class="list-inline list--hover">
-                                    <li>
-                                        <a href="#">
-                                            <!-- <span class="type--fine-print">Get Started</span> -->
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:Contact@CodingMindsAcademy.com">
-                                            <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6 text-right text-center-xs">
-                                <ul class="social-list list-inline list--hover">
-                                    <li>
-                                        <a href="#https://www.youtube.com/channel/UCF-K1DZ5lk8Bqn-14JF99jA">
-                                            <i class="socicon socicon-youtube icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="socicon socicon-twitter icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="socicon socicon-facebook icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="socicon socicon-instagram icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+                        <div class="col-sm-6 text-right text-center-xs">
+                            <span class="type--fine-print">&copy;
+                                <span class="update-year"></span> Coding Minds Inc.</span>
+                                <a class="type--fine-print" href="#">Privacy Policy</a>
+                                <a class="type--fine-print" href="#">Legal</a>
                             </div>
                         </div>
                         <!--end of row-->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="type--fine-print">
-                                    编程助力名校申请 | <a href="index.html">English</a>
-                                </p>
-                            </div>
-                            <div class="col-sm-6 text-right text-center-xs">
-                                <span class="type--fine-print">&copy;
-                                    <span class="update-year"></span> Coding Minds Inc.</span>
-                                    <a class="type--fine-print" href="#">Privacy Policy</a>
-                                    <a class="type--fine-print" href="#">Legal</a>
-                                </div>
-                            </div>
-                            <!--end of row-->
-                        </div>
-                        <!--end of container-->
-                    </footer>
-                    <div id="toast-container" ></div>
-                </div>
-                <!--<div class="loader"></div>-->
-                <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span class="btn__text">联系我们</span></a>
-                <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-                    <i class="stack-interface stack-up-open-big"></i>
-                </a>
-                <script src="js/jquery-3.1.1.min.js"></script>
-                <script src="js/angular.min.js"></script>
-                <script src="js/angular-animate.min.js"></script>
-                <script src="js/angular-aria.min.js"></script>
-                <script src="js/angular-material.min.js"></script>
+                    </div>
+                    <!--end of container-->
+                </footer>
+                <div id="toast-container" ></div>
+            </div>
+            <!--<div class="loader"></div>-->
+            <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span class="btn__text">联系我们</span></a>
+            <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+                <i class="stack-interface stack-up-open-big"></i>
+            </a>
+            <script src="js/jquery-3.1.1.min.js"></script>
+            <script src="js/angular.min.js"></script>
+            <script src="js/angular-animate.min.js"></script>
+            <script src="js/angular-aria.min.js"></script>
+            <script src="js/angular-material.min.js"></script>
 
-                <!-- <script src="course-control/coursedb-v3.js"></script> -->
-                <script src="course-control/pathway.js"></script>
-                <!-- <script src="students/stumajor-a-v2.js"></script> -->
-                <!-- <script src="students/stumajor-v6.js"></script> -->
-                <script src="students/comp-v2.js"></script>
-                <script src="course-control/id_coursecodes.js"></script>
-                <script src="course-control/scheduledb-v4.js"></script>
-                <script src="course-control/advice-controller-v5.js"></script>
-                <script src="course-control/course2020Spring7.js"></script>
-                <script src="js/easypiechart.min.js"></script>
-                <script src="js/parallax.js"></script>
-                <script src="js/typed.min.js"></script>
-                <script src="js/datepicker.js"></script>
-                <script src="js/isotope.min.js"></script>
-                <script src="js/ytplayer.min.js"></script>
-                <script src="js/lightbox.min.js"></script>
-                <script src="js/granim.min.js"></script>
-                <script src="js/countdown.min.js"></script>
-                <script src="js/twitterfetcher.min.js"></script>
-                <script src="js/spectragram.min.js"></script>
-                <script src="js/smooth-scroll.min.js"></script>
-                <script src="js/scripts.js"></script>
-                <script src="js/utils.js"></script>
-                <script>
-                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            <!-- <script src="course-control/coursedb-v3.js"></script> -->
+            <script src="course-control/pathway.js"></script>
+            <!-- <script src="students/stumajor-a-v2.js"></script> -->
+            <!-- <script src="students/stumajor-v6.js"></script> -->
+            <script src="students/comp-v2.js"></script>
+            <script src="course-control/id_coursecodes.js"></script>
+            <script src="course-control/scheduledb-v4.js"></script>
+            <script src="course-control/advice-controller-v5.js"></script>
+            <script src="course-control/course2020Spring7.js"></script>
+            <script src="js/easypiechart.min.js"></script>
+            <script src="js/parallax.js"></script>
+            <script src="js/typed.min.js"></script>
+            <script src="js/datepicker.js"></script>
+            <script src="js/isotope.min.js"></script>
+            <script src="js/ytplayer.min.js"></script>
+            <script src="js/lightbox.min.js"></script>
+            <script src="js/granim.min.js"></script>
+            <script src="js/countdown.min.js"></script>
+            <script src="js/twitterfetcher.min.js"></script>
+            <script src="js/spectragram.min.js"></script>
+            <script src="js/smooth-scroll.min.js"></script>
+            <script src="js/scripts.js"></script>
+            <script src="js/utils.js"></script>
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-                  ga('create', 'UA-98249988-1', 'auto');
-                  ga('send', 'pageview');
+              ga('create', 'UA-98249988-1', 'auto');
+              ga('send', 'pageview');
 
-                  var url = window.location.href;
-                  var stuid = '';
-                  if (url.indexOf("=") > -1) {
-                      stuid = url.split("=")[1];
-                      console.log("Student ID: ");
-                  }
-                  ga('send', {
-                      hitType: 'event',
-                      eventCategory: 'eoc-advice-f19',
-                      eventAction: 'click',
-                      eventLabel: stuid
-                  });
+              var url = window.location.href;
+              var stuid = '';
+              if (url.indexOf("=") > -1) {
+                  stuid = url.split("=")[1];
+                  console.log("Student ID: ");
+              }
+              ga('send', {
+                  hitType: 'event',
+                  eventCategory: 'eoc-advice-f19',
+                  eventAction: 'click',
+                  eventLabel: stuid
+              });
 
-              </script>
-          </body>
-          </html>
+          </script>
+      </body>
+      </html>
