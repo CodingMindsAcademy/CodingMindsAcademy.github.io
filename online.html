@@ -1,757 +1,778 @@
 <!doctype html>
 <html ng-app="v3App" lang="cn">
+
 <head>
-    <meta charset="utf-8">
-    <link href="./img/favicon.png" rel="icon">
-    <title>Coding Minds编程思维网课指引</title>
-    <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升, STEM">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="编程助力名校申请。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
-    <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
+  <meta charset="utf-8">
+  <link href="./img/favicon.png" rel="icon">
+  <title>Coding Minds编程思维网课指引</title>
+  <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升, STEM">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="编程助力名校申请。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons"
+    rel="stylesheet">
+  <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
 
-    <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
-    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="https://codingmindsacademy.com/img/my/logofav.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
-    <style>
-        .md-toast {
-            width: fit-content;
-            left: 50%;
-            transform: translate3d(-50%, 0, 0);
-        }
-        #toast-container{
-            position: fixed;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 10em;
-            visibility: hidden;
-        }
-        #toast-container *{
-            visibility: visible;
-        }
-        .md-toast.success *{
-            background-color: green;
-        }
-        .md-toast.error *{
-            background-color: red;
-        }
-        .md-toast.duplicated *{
-            background-color: orange;
-        }
-        .float-right {
-            position: fixed;
-            font-size: 1.2em;
-            padding-left: 0.7em;
-            padding-right: 0.7em;
-            padding-top: 1em;
-            padding-bottom: 1em;
-            right: -1px;
-            bottom: 50%;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-            box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
-            z-index: 99;
-            border: 1px solid #ececec;
-            transition: 0.2s ease-out;
-            -webkit-transition: 0.2s ease-out;
-            -moz-transition: 0.2s ease-out;
-            writing-mode : tb-rl;
-            transform: translate(30%)
-        }
-    </style>
+  <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png"
+    mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico"
+    type="image/x-icon">
+  <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico"
+    type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://codingmindsacademy.com/img/my/logofav.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
+  <style>
+    .md-toast {
+      width: fit-content;
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+    }
+
+    #toast-container {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 10em;
+      visibility: hidden;
+    }
+
+    #toast-container * {
+      visibility: visible;
+    }
+
+    .md-toast.success * {
+      background-color: green;
+    }
+
+    .md-toast.error * {
+      background-color: red;
+    }
+
+    .md-toast.duplicated * {
+      background-color: orange;
+    }
+
+    .float-right {
+      position: fixed;
+      font-size: 1.2em;
+      padding-left: 0.7em;
+      padding-right: 0.7em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      right: -1px;
+      bottom: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+      z-index: 99;
+      border: 1px solid #ececec;
+      transition: 0.2s ease-out;
+      -webkit-transition: 0.2s ease-out;
+      -moz-transition: 0.2s ease-out;
+      writing-mode: tb-rl;
+      transform: translate(30%)
+    }
+  </style>
 </head>
+
 <body ng-controller="FeedbackController">
-    <a id="start"></a>
-    <div class="nav-container ">
-        <div class="bar bar--sm visible-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="index-cn.html">
-                            <img class="logo logo-dark" alt="logo" src="img/my/logo1.png" />
-                            <img class="logo logo-light" alt="logo" src="img/my/logo1.png" />
-                        </a>
-                    </div>
-                    <div class="col-xs-9 col-sm-10 text-right">
-                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                            <i class="icon icon--sm stack-interface stack-menu"></i>
-                        </a>
-                    </div>
-                </div>
-                <!--end of row-->
+  <a id="start"></a>
+  <div class="nav-container ">
+    <div class="bar bar--sm visible-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 col-sm-2">
+            <a href="index-cn.html">
+              <img class="logo logo-dark" alt="logo" src="img/my/logo1.png" />
+              <img class="logo logo-light" alt="logo" src="img/my/logo1.png" />
+            </a>
+          </div>
+          <div class="col-xs-9 col-sm-10 text-right">
+            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+              <i class="icon icon--sm stack-interface stack-menu"></i>
+            </a>
+          </div>
+        </div>
+        <!--end of row-->
+      </div>
+      <!--end of container-->
+    </div>
+    <!--end bar-->
+    <nav id="menu1" class="bar bar-1 hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1 col-sm-2 hidden-xs">
+            <div class="bar__module">
+              <a href="index-cn.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img
+                  class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
             </div>
-            <!--end of container-->
+          </div>
+          <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+            <div class="bar__module">
+              <ul class="menu-horizontal text-left">
+                <li>
+                  <a href="index-cn.html">
+                    首页
+                  </a>
+                </li>
+                <li>
+                  <a href="corecn.html">
+                    编程课程
+                  </a>
+                </li>
+                <li>
+                  <a href="pathc.html">
+                    课程体系
+                  </a>
+                </li>
+                <li>
+                  <a href="portfolios-cn.html">
+                    学生作品
+                  </a>
+                </li>
+
+                <li>
+                  <a href="newsc.html">
+                    编程资讯
+                  </a>
+                </li>
+                <li>
+                  <a href="whycoding-cn.html">
+                    为什么学习编程
+                  </a>
+                </li>
+                <li>
+                  <a href="about-us-cn.html">
+                    关于我们
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bar__module">
+
+              <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
+                  联系我们
+                </span> </a>
+            </div>
+          </div>
         </div>
-        <!--end bar-->
-        <nav id="menu1" class="bar bar-1 hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-1 col-sm-2 hidden-xs">
-                        <div class="bar__module">
-                            <a href="index-cn.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
-                        </div>
-                    </div>
-                    <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
-                        <div class="bar__module">
-                            <ul class="menu-horizontal text-left">
-                                <li>
-                                    <a href="index-cn.html">
-                                        首页
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="corecn.html">
-                                        编程课程
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="pathc.html">
-                                        课程体系
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="portfolios-cn.html">
-                                        学生作品
-                                    </a>
-                                </li>
+      </div>
+    </nav>
+    <!--end bar-->
+  </div>
+  <div class="main-container">
 
-                                <li>
-                                    <a href="newsc.html">
-                                        编程资讯
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="whycoding-cn.html">
-                                        为什么学习编程
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="about-us-cn.html">
-                                        关于我们
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="bar__module">
+    <section class="space--sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center">
+              <i class="icon icon-Cloud-Computer color--primary"></i>
+              <h3 class="text-center">直播网课上课链接<br></h3>
 
-                                <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
-                                    联系我们
-                                </span> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!--end bar-->
-        </div>
-        <div class="main-container">
+              <!-- <h2 class="text-center">{{getStuDb(stuid).name}}<br>编程课学生学习反馈<br></h2> -->
+              <!-- <p class="text-center">{{getStuDb(stuid).name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
+            </div>
+            <!-- Monday -->
+            <div class="text-center">
+              <hr>
 
-                <section class="space--sm">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="text-center">
-                                        <i class="icon icon-Cloud-Computer color--primary"></i>
-                                        <h3 class="text-center">直播网课上课链接<br></h3>
-                                        
-                                        <!-- <h2 class="text-center">{{getStuDb(stuid).name}}<br>编程课学生学习反馈<br></h2> -->
-                                        <!-- <p class="text-center">{{getStuDb(stuid).name}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p> -->
-                                    </div>
-                                    <!-- Monday -->
-                                    <div class="text-center">
-                                      <hr>
+              <h4>周一课程列表</h4>
+              <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
+              <table class="border--round table--alternate-row">
+                <tbody>
+                  <tr>
+                    <td style="width: 20%"><b>时间</b></td>
+                    <td style="width: 20%"><b>题目</b></td>
+                    <td style="width: 60%"><b>链接</b></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:20pm</td>
+                    <td style="width: 20%">MakeCode</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:20pm</td>
+                    <td style="width: 20%">Python 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:20pm</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:20pm</td>
+                    <td style="width: 20%">Unity 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:00pm</td>
+                    <td style="width: 20%">Roblox 3</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:00pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:00pm</td>
+                    <td style="width: 20%">Python 1 - RED</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:30pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-                                      <h4>周一课程列表</h4>
-                                      <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
-                                      <table class="border--round table--alternate-row">
-                                          <tbody>
-                                              <tr>
-                                                  <td style="width: 20%"><b>时间</b></td>
-                                                  <td style="width: 20%"><b>题目</b></td>
-                                                  <td style="width: 60%"><b>链接</b></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一3:20pm</td>
-                                                  <td style="width: 20%">MakeCode</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一3:20pm</td>
-                                                  <td style="width: 20%">Python 2</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一3:20pm</td>
-                                                  <td style="width: 20%">Roblox 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一3:20pm</td>
-                                                  <td style="width: 20%">Unity 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一5:00pm</td>
-                                                  <td style="width: 20%">Roblox 3</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一5:00pm</td>
-                                                  <td style="width: 20%">Python 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一5:00pm</td>
-                                                  <td style="width: 20%">Python 1 - RED</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周一5:30pm</td>
-                                                  <td style="width: 20%">Python 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                              </tr>
-                                          </tbody>
-                                      </table>
-                                    </div>
+            <!-- Tuesday -->
+            <div class="text-center">
+              <hr>
 
-                                    <!-- Tuesday -->
-                                    <div class="text-center">
-                                      <hr>
+              <h4>周一课程列表</h4>
+              <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
+              <table class="border--round table--alternate-row">
+                <tbody>
+                  <tr>
+                    <td style="width: 20%"><b>时间</b></td>
+                    <td style="width: 20%"><b>题目</b></td>
+                    <td style="width: 60%"><b>链接</b></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一4:00pm</td>
+                    <td style="width: 20%">Scratch 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:00pm</td>
+                    <td style="width: 20%">AI 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:30pm</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:30pm</td>
+                    <td style="width: 20%">App </td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-                                      <h4>周二课程列表</h4>
-                                      <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
-                                      <table class="border--round table--alternate-row">
-                                          <tbody>
-                                              <tr>
-                                                  <td style="width: 20%"><b>时间</b></td>
-                                                  <td style="width: 20%"><b>题目</b></td>
-                                                  <td style="width: 60%"><b>链接</b></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周二4:00pm</td>
-                                                  <td style="width: 20%">Scratch 2</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周二5:00pm</td>
-                                                  <td style="width: 20%">AI 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周二5:30pm</td>
-                                                  <td style="width: 20%">Roblox 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周二5:30pm</td>
-                                                  <td style="width: 20%">App </td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                              </tr>
-                                          </tbody>
-                                      </table>
-                                    </div>
+            <!-- Wednesday -->
 
-                                    <!-- Wednesday -->
+            <div class="text-center">
+              <hr>
 
-                                    <div class="text-center">
-                                      <hr>
+              <h4>周一课程列表</h4>
+              <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
+              <table class="border--round table--alternate-row">
+                <tbody>
+                  <tr>
+                    <td style="width: 20%"><b>时间</b></td>
+                    <td style="width: 20%"><b>题目</b></td>
+                    <td style="width: 60%"><b>链接</b></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一2:00pm</td>
+                    <td style="width: 20%">MakeCode</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一2:00pm</td>
+                    <td style="width: 20%">Roblox 1 A</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一2:00pm</td>
+                    <td style="width: 20%">Roblox 1 B</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:00pm</td>
+                    <td style="width: 20%">Scratch 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:40pm</td>
+                    <td style="width: 20%">Roblox 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:40pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一3:40pm</td>
+                    <td style="width: 20%">AI 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一4:30pm</td>
+                    <td style="width: 20%">USACO 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:20pm</td>
+                    <td style="width: 20%">Python 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:20pm</td>
+                    <td style="width: 20%">Java</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周一5:20pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-                                      <h4>周三课程列表</h4>
-                                      <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
-                                      <table class="border--round table--alternate-row">
-                                          <tbody>
-                                              <tr>
-                                                  <td style="width: 20%"><b>时间</b></td>
-                                                  <td style="width: 20%"><b>题目</b></td>
-                                                  <td style="width: 60%"><b>链接</b></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三2:00pm</td>
-                                                  <td style="width: 20%">MakeCode</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三2:00pm</td>
-                                                  <td style="width: 20%">Roblox 1 A</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三2:00pm</td>
-                                                  <td style="width: 20%">Roblox 1 B</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三3:00pm</td>
-                                                  <td style="width: 20%">Scratch 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三3:40pm</td>
-                                                  <td style="width: 20%">Roblox 2</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三3:40pm</td>
-                                                  <td style="width: 20%">Python 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三3:40pm</td>
-                                                  <td style="width: 20%">AI 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三4:30pm</td>
-                                                  <td style="width: 20%">USACO 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三5:20pm</td>
-                                                  <td style="width: 20%">Python 2</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三5:20pm</td>
-                                                  <td style="width: 20%">Java</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                              </tr>
-                                              <tr>
-                                                  <td style="width: 20%">周三5:20pm</td>
-                                                  <td style="width: 20%">Python 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                              </tr>
-                                          </tbody>
-                                      </table>
-                                    </div>
+            <!-- Thursday -->
 
-                                    <!-- Thursday -->
+            <div class="text-center">
+              <hr>
 
-                                    <div class="text-center">
-                                        <hr>
-
-                                        <h4>周四课程列表</h4>
-                                        <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
-                                        <table class="border--round table--alternate-row">
-                                            <tbody>
-                                                <tr>
-                                                    <td style="width: 20%"><b>时间</b></td>
-                                                    <td style="width: 20%"><b>题目</b></td>
-                                                    <td style="width: 60%"><b>链接</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周四3:20pm</td>
-                                                    <td style="width: 20%">Python 2A</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周四3:20pm</td>
-                                                    <td style="width: 20%">Python 2B</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周四3:20pm</td>
-                                                    <td style="width: 20%">MakeCode进阶</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <!-- <tr>
+              <h4>周四课程列表</h4>
+              <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
+              <table class="border--round table--alternate-row">
+                <tbody>
+                  <tr>
+                    <td style="width: 20%"><b>时间</b></td>
+                    <td style="width: 20%"><b>题目</b></td>
+                    <td style="width: 60%"><b>链接</b></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周四3:20pm</td>
+                    <td style="width: 20%">Python 2A</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周四3:20pm</td>
+                    <td style="width: 20%">Python 2B</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周四3:20pm</td>
+                    <td style="width: 20%">MakeCode进阶</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周四4:00pm</td>
                                                     <td style="width: 20%">Roblox 1</td>
                                                     <td style="width: 60%"><a href="https://zoom.us/j/8348406183">https://zoom.us/j/8348406183</a></td>
                                                 </tr> -->
-                                                <!-- <tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周四4:00pm</td>
                                                     <td style="width: 20%">Scratch</td>
                                                     <td style="width: 60%"><a href="https://zoom.us/j/6764609940">https://zoom.us/j/6764609940</a></td>
                                                 </tr> -->
-                                                <tr>
-                                                    <td style="width: 20%">周四5:00pm</td>
-                                                    <td style="width: 20%">USACO 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周四5:00pm</td>
-                                                    <td style="width: 20%">Roblox 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周四5:00pm</td>
-                                                    <td style="width: 20%">Scratch 2</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周四5:00pm</td>
-                                                    <td style="width: 20%">MakeCode进阶</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                  <tr>
+                    <td style="width: 20%">周四5:00pm</td>
+                    <td style="width: 20%">USACO 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周四5:00pm</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周四5:00pm</td>
+                    <td style="width: 20%">Scratch 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周四5:00pm</td>
+                    <td style="width: 20%">MakeCode进阶</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-                                    <!-- Friday -->
+            <!-- Friday -->
 
-                                    <div class="text-center">
-                                        <hr>
+            <div class="text-center">
+              <hr>
 
-                                        <h4>周五课程列表</h4>
-                                        <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
-                                        <table class="border--round table--alternate-row">
-                                            <tbody>
-                                                <tr>
-                                                    <td style="width: 20%"><b>时间</b></td>
-                                                    <td style="width: 20%"><b>题目</b></td>
-                                                    <td style="width: 60%"><b>链接</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五3:20pm</td>
-                                                    <td style="width: 20%">Roblox 2 A</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五3:20pm</td>
-                                                    <td style="width: 20%">Roblox 2 B</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五3:20pm</td>
-                                                    <td style="width: 20%">Unity 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <!-- <tr>
+              <h4>周五课程列表</h4>
+              <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
+              <table class="border--round table--alternate-row">
+                <tbody>
+                  <tr>
+                    <td style="width: 20%"><b>时间</b></td>
+                    <td style="width: 20%"><b>题目</b></td>
+                    <td style="width: 60%"><b>链接</b></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五3:20pm</td>
+                    <td style="width: 20%">Roblox 2 A</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五3:20pm</td>
+                    <td style="width: 20%">Roblox 2 B</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五3:20pm</td>
+                    <td style="width: 20%">Unity 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周五3:20pm</td>
                                                     <td style="width: 20%">Python 2</td>
                                                     <td style="width: 60%"><a href="https://zoom.us/j/8361820391">https://zoom.us/j/8361820391</a></td>
                                                 </tr> -->
-                                                <!-- <tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周五3:20pm</td>
                                                     <td style="width: 20%">Lego机器人</td>
                                                     <td style="width: 60%"><a href="">N/A</a></td>
                                                 </tr> -->
-                                                <tr>
-                                                  <td style="width: 20%">周五4:00pm</td>
-                                                  <td style="width: 20%">Python 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五5:00pm</td>
-                                                    <td style="width: 20%">Python 2</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五5:00pm</td>
-                                                    <td style="width: 20%">AI 2</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五5:00pm</td>
-                                                    <td style="width: 20%">Python 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周五5:00pm</td>
-                                                    <td style="width: 20%">Project</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                  <tr>
+                    <td style="width: 20%">周五4:00pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五5:00pm</td>
+                    <td style="width: 20%">Python 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五5:00pm</td>
+                    <td style="width: 20%">AI 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五5:00pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周五5:00pm</td>
+                    <td style="width: 20%">Project</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-                                    <!-- Saturday -->
+            <!-- Saturday -->
 
-                                    <div class="text-center">
-                                        <hr>
+            <div class="text-center">
+              <hr>
 
-                                        <h4>周六课程列表</h4>
-                                        <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
-                                        <table class="border--round table--alternate-row">
-                                            <tbody>
-                                                <tr>
-                                                    <td style="width: 20%"><b>时间</b></td>
-                                                    <td style="width: 20%"><b>题目</b></td>
-                                                    <td style="width: 60%"><b>链接</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六9:30am</td>
-                                                    <td style="width: 20%">Roblox 2</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六9:30am</td>
-                                                    <td style="width: 20%">Roblox 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <!-- <tr>
+              <h4>周六课程列表</h4>
+              <p>请于上课前5分钟在电脑上打开对应的上课链接</p>
+              <table class="border--round table--alternate-row">
+                <tbody>
+                  <tr>
+                    <td style="width: 20%"><b>时间</b></td>
+                    <td style="width: 20%"><b>题目</b></td>
+                    <td style="width: 60%"><b>链接</b></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六9:30am</td>
+                    <td style="width: 20%">Roblox 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六9:30am</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周六9:30am</td>
                                                     <td style="width: 20%">Python 2</td>
                                                     <td style="width: 60%"><a href="https://zoom.us/j/8361820391">https://zoom.us/j/8361820391</a></td>
                                                 </tr> -->
-                                                <tr>
-                                                  <td style="width: 20%">周六9:45am</td>
-                                                  <td style="width: 20%">Minecraft</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001  </a></td>
-                                              </tr>
+                  <tr>
+                    <td style="width: 20%">周六9:45am</td>
+                    <td style="width: 20%">Minecraft</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001 </a></td>
+                  </tr>
 
 
-                                                <tr>
-                                                    <td style="width: 20%">周六11:10am</td>
-                                                    <td style="width: 20%">Roblox 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六11:10am</td>
-                                                    <td style="width: 20%">Python 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六11:10am</td>
-                                                    <td style="width: 20%">Python 2 A</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六11:10am</td>
-                                                    <td style="width: 20%">Python 2 B</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六11:10am</td>
-                                                    <td style="width: 20%">AI 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                                </tr>
+                  <tr>
+                    <td style="width: 20%">周六11:10am</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六11:10am</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六11:10am</td>
+                    <td style="width: 20%">Python 2 A</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六11:10am</td>
+                    <td style="width: 20%">Python 2 B</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六11:10am</td>
+                    <td style="width: 20%">AI 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
 
 
-                                                <!-- <tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周六1:00pm</td>
                                                     <td style="width: 20%">Unity</td>
                                                     <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
                                                 </tr> -->
-                                                <tr>
-                                                    <td style="width: 20%">周六1:00pm</td>
-                                                    <td style="width: 20%">Python 2A</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六1:00pm</td>
-                                                    <td style="width: 20%">Python 2B</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六1:00pm</td>
-                                                    <td style="width: 20%">Roblox 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
-                                                </tr>
-                                                <!-- <tr>
+                  <tr>
+                    <td style="width: 20%">周六1:00pm</td>
+                    <td style="width: 20%">Python 2A</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六1:00pm</td>
+                    <td style="width: 20%">Python 2B</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六1:00pm</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230005">https://zoom.us/j/9201230005</a></td>
+                  </tr>
+                  <!-- <tr>
                                                     <td style="width: 20%">周六1:30pm</td>
                                                     <td style="width: 20%">Minecraft</td>
                                                     <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
                                                 </tr> -->
-                                                <tr>
-                                                  <td style="width: 20%">周六2:00pm</td>
-                                                  <td style="width: 20%">Roblox 1</td>
-                                                  <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
+                  <tr>
+                    <td style="width: 20%">周六2:00pm</td>
+                    <td style="width: 20%">Roblox 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
 
-                                                <tr>
-                                                    <td style="width: 20%">周六2:45pm</td>
-                                                    <td style="width: 20%">Maya</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六2:45pm</td>
-                                                    <td style="width: 20%">USACO 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六3:00pm</td>
-                                                    <td style="width: 20%">Scratch 1</td>
-                                                    <td style="width: 60%"><a href=" https://zoom.us/j/9201230005"> https://zoom.us/j/9201230005</a></td>
-                                                </tr>
+                  <tr>
+                    <td style="width: 20%">周六2:45pm</td>
+                    <td style="width: 20%">Maya</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六2:45pm</td>
+                    <td style="width: 20%">USACO 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六3:00pm</td>
+                    <td style="width: 20%">Scratch 1</td>
+                    <td style="width: 60%"><a href=" https://zoom.us/j/9201230005"> https://zoom.us/j/9201230005</a>
+                    </td>
+                  </tr>
 
-                                                <tr>
-                                                  <td style="width: 20%">周六4:15pm</td>
-                                                  <td style="width: 20%">Raspberry Pi</td>
-                                                  <td style="width: 60%"><a href=" https://zoom.us/j/9201230005"> https://zoom.us/j/9201230005</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六4:30pm</td>
-                                                    <td style="width: 20%">USACO 2</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六4:30pm</td>
-                                                    <td style="width: 20%">Unity 2</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六4:30pm</td>
-                                                    <td style="width: 20%">USACO 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">周六4:30pm</td>
-                                                    <td style="width: 20%">Python 1</td>
-                                                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                </section>
+                  <tr>
+                    <td style="width: 20%">周六4:15pm</td>
+                    <td style="width: 20%">Raspberry Pi</td>
+                    <td style="width: 60%"><a href=" https://zoom.us/j/9201230005"> https://zoom.us/j/9201230005</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六4:30pm</td>
+                    <td style="width: 20%">USACO 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230006">https://zoom.us/j/9201230006</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六4:30pm</td>
+                    <td style="width: 20%">Unity 2</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230001">https://zoom.us/j/9201230001</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六4:30pm</td>
+                    <td style="width: 20%">USACO 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230003">https://zoom.us/j/9201230003</a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%">周六4:30pm</td>
+                    <td style="width: 20%">Python 1</td>
+                    <td style="width: 60%"><a href="https://zoom.us/j/9201230002">https://zoom.us/j/9201230002</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
 
-                <section class="bg--secondary text-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-8 col-md-6">
-                                <div class="cta">
-                                    <!-- <h2>不知道应该上什么课程?</h2> -->
-                                    <p class="lead">
-                                        有任何技术或课程问题请随时联系我们的课程顾问
-                                    </p>
-                                    <a class="btn btn--primary type--uppercase" href="contact-us-cn.html">
-                                        <span class="btn__text">
-                                            联系我们
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <footer class="footer-3 text-center-xs space--xs ">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img alt="Image" class="logo" src="img/my/logo1.png" />
-                                <ul class="list-inline list--hover">
-                                    <li>
-                                        <a href="#">
-                                            <!-- <span class="type--fine-print">Get Started</span> -->
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:Contact@CodingMindsAcademy.com">
-                                            <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6 text-right text-center-xs">
-                                <ul class="social-list list-inline list--hover">
-                                    <li>
-                                        <a href="#https://www.youtube.com/channel/UCF-K1DZ5lk8Bqn-14JF99jA">
-                                            <i class="socicon socicon-youtube icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="socicon socicon-twitter icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="socicon socicon-facebook icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="socicon socicon-instagram icon icon--xs"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--end of row-->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="type--fine-print">
-                                    编程助力名校申请 | <a href="index.html">English</a>
-                                </p>
-                            </div>
-                            <div class="col-sm-6 text-right text-center-xs">
-                                <span class="type--fine-print">&copy;
-                                    <span class="update-year"></span> Coding Minds Inc.</span>
-                                    <a class="type--fine-print" href="#">Privacy Policy</a>
-                                    <a class="type--fine-print" href="#">Legal</a>
-                                </div>
-                            </div>
-                            <!--end of row-->
-                        </div>
-                        <!--end of container-->
-                    </footer>
-                    <div id="toast-container" ></div>
-                </div>
-                <!--<div class="loader"></div>-->
-                <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span class="btn__text">联系我们</span></a>
-                <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-                    <i class="stack-interface stack-up-open-big"></i>
+
+    <section class="bg--secondary text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-6">
+            <div class="cta">
+              <!-- <h2>不知道应该上什么课程?</h2> -->
+              <p class="lead">
+                有任何技术或课程问题请随时联系我们的课程顾问
+              </p>
+              <a class="btn btn--primary type--uppercase" href="contact-us-cn.html">
+                <span class="btn__text">
+                  联系我们
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-3 text-center-xs space--xs ">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img alt="Image" class="logo" src="img/my/logo1.png" />
+            <ul class="list-inline list--hover">
+              <li>
+                <a href="#">
+                  <!-- <span class="type--fine-print">Get Started</span> -->
                 </a>
-                <script src="js/jquery-3.1.1.min.js"></script>
-                <script src="js/angular.min.js"></script>
-                <script src="js/angular-animate.min.js"></script>
-                <script src="js/angular-aria.min.js"></script>
-                <script src="js/angular-material.min.js"></script>
+              </li>
+              <li>
+                <a href="mailto:Contact@CodingMindsAcademy.com">
+                  <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 text-right text-center-xs">
+            <ul class="social-list list-inline list--hover">
+              <li>
+                <a href="#https://www.youtube.com/channel/UCF-K1DZ5lk8Bqn-14JF99jA">
+                  <i class="socicon socicon-youtube icon icon--xs"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="socicon socicon-twitter icon icon--xs"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="socicon socicon-facebook icon icon--xs"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="socicon socicon-instagram icon icon--xs"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--end of row-->
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="type--fine-print">
+              编程助力名校申请 | <a href="index.html">English</a>
+            </p>
+          </div>
+          <div class="col-sm-6 text-right text-center-xs">
+            <span class="type--fine-print">&copy;
+              <span class="update-year"></span> Coding Minds Inc.</span>
+            <a class="type--fine-print" href="#">Privacy Policy</a>
+            <a class="type--fine-print" href="#">Legal</a>
+          </div>
+        </div>
+        <!--end of row-->
+      </div>
+      <!--end of container-->
+    </footer>
+    <div id="toast-container"></div>
+  </div>
+  <!--<div class="loader"></div>-->
+  <a class="btn btn--primary type--uppercase float-right" href="contact-us-cn.html" target="_blank"><span
+      class="btn__text">联系我们</span></a>
+  <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+  </a>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+  <script src="js/angular-aria.min.js"></script>
+  <script src="js/angular-material.min.js"></script>
 
-                <!-- <script src="course-control/coursedb-v3.js"></script> -->
-                <script src="course-control/pathway.js"></script>
-                <!-- <script src="students/stumajor-a-v2.js"></script> -->
-                <!-- <script src="students/stumajor-v6.js"></script> -->
-                <script src="students/comp-v2.js"></script>
-                <script src="course-control/id_coursecodes.js"></script>
-                <script src="course-control/scheduledb-v4.js"></script>
-                <script src="course-control/advice-controller-v5.js"></script>
-                <script src="course-control/course2020Spring7.js"></script>
-                <script src="js/easypiechart.min.js"></script>
-                <script src="js/parallax.js"></script>
-                <script src="js/typed.min.js"></script>
-                <script src="js/datepicker.js"></script>
-                <script src="js/isotope.min.js"></script>
-                <script src="js/ytplayer.min.js"></script>
-                <script src="js/lightbox.min.js"></script>
-                <script src="js/granim.min.js"></script>
-                <script src="js/countdown.min.js"></script>
-                <script src="js/twitterfetcher.min.js"></script>
-                <script src="js/spectragram.min.js"></script>
-                <script src="js/smooth-scroll.min.js"></script>
-                <script src="js/scripts.js"></script>
-                <script src="js/utils.js"></script>
-                <script>
-                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <!-- <script src="course-control/coursedb-v3.js"></script> -->
+  <script src="course-control/pathway.js"></script>
+  <!-- <script src="students/stumajor-a-v2.js"></script> -->
+  <!-- <script src="students/stumajor-v6.js"></script> -->
+  <script src="students/comp-v2.js"></script>
+  <script src="course-control/id_coursecodes.js"></script>
+  <script src="course-control/scheduledb-v4.js"></script>
+  <script src="course-control/advice-controller-v5.js"></script>
+  <script src="course-control/course2020Spring7.js"></script>
+  <script src="js/easypiechart.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/datepicker.js"></script>
+  <script src="js/isotope.min.js"></script>
+  <script src="js/ytplayer.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/granim.min.js"></script>
+  <script src="js/countdown.min.js"></script>
+  <script src="js/twitterfetcher.min.js"></script>
+  <script src="js/spectragram.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/utils.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                  ga('create', 'UA-98249988-1', 'auto');
-                  ga('send', 'pageview');
+    ga('create', 'UA-98249988-1', 'auto');
+    ga('send', 'pageview');
 
-                  var url = window.location.href;
-                  var stuid = '';
-                  if (url.indexOf("=") > -1) {
-                      stuid = url.split("=")[1];
-                      console.log("Student ID: ");
-                  }
-                  ga('send', {
-                      hitType: 'event',
-                      eventCategory: 'eoc-advice-f19',
-                      eventAction: 'click',
-                      eventLabel: stuid
-                  });
+    var url = window.location.href;
+    var stuid = '';
+    if (url.indexOf("=") > -1) {
+      stuid = url.split("=")[1];
+      console.log("Student ID: ");
+    }
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'eoc-advice-f19',
+      eventAction: 'click',
+      eventLabel: stuid
+    });
 
-              </script>
-          </body>
-          </html>
+  </script>
+</body>
+
+</html>
