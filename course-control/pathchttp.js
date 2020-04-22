@@ -101,7 +101,7 @@ function DialogController($scope, $mdDialog, course,data) {
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
       headers: {
-        'Authorization': 'EdgBex8ofavDhU70j0GOXTr2HaMVBcfefgvc5IpdnjCuRTpNvXifV6WtoyasMThN'
+        'Authorization': 'k6s6WghHbQ0sFQMw9YTO5MWDCunX3SNAJu8kksejwO0cP1tEh73glea29CGWExEi'
       },  
     }).then(function successCallback(response) {
         var upcomingCourses = response.data.courses.filter(obj=>obj.term==='Spring 2020');
@@ -143,7 +143,7 @@ function DialogController($scope, $mdDialog, course,data) {
           method: 'GET',
           url: 'https://prod-sharemyworks-backend.herokuapp.com/api/CoursesDBs',
           headers: {
-            'Authorization': 'EdgBex8ofavDhU70j0GOXTr2HaMVBcfefgvc5IpdnjCuRTpNvXifV6WtoyasMThN'
+            'Authorization': 'k6s6WghHbQ0sFQMw9YTO5MWDCunX3SNAJu8kksejwO0cP1tEh73glea29CGWExEi'
           },     
         }).then(function successCallback(response) {
             response.data.sort(function(a,b){
