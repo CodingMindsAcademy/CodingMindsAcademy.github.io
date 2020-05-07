@@ -1,4 +1,4 @@
-var upcomingCourses = db.Course.find({"term":'Spring 2020'}).sort({'courseCode':1});
+var upcomingCourses = db.Course.find({"term":'Summer 2020'}).sort({'courseCode':1});
 var upCoursesArray = upcomingCourses.toArray();
 // printjson(upCoursesArray);
 var irvineDB = {};
