@@ -600,6 +600,26 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
+		'cs436' : {
+			'enabled':true,
+			'online':false,
+			'cid':'CS436',
+			'title1':'网络爬虫与数据分析',
+			'title2':'做未来的数据工程师',
+			'name':'网络爬虫与数据分析:数据工程的起点',
+			'shortName':'网络爬虫与数据分析',
+			'imageUrl':'img/my/cewcr/bg-big.jpg',
+			'gradeLevel':'L4应用主题编程',
+			'text':'学习爬虫算法，获取前沿数据',
+			'tag':'编程算法与AI系列',
+			'pathway':['coding'],
+			'detailsTitle':'查看详情',
+			'detailsUrl':'webscraping.html',
+			'locations':'选择地点',
+			'registerUrl':'webscrapingc.html',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/0KnUba'
+		},
 		'cs440' : {
 			'enabled':true,
 			'online':false,
