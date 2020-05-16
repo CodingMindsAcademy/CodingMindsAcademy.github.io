@@ -28,15 +28,48 @@ angular.module('v3App', [])
         },     
       }).then(function successCallback(response) {
           
-            console.log(response);
+
+            function getMonday(d) {
+              d = new Date(d);
+              var day = d.getDay(),
+                  diff = d.getDate() - day + (day == 0 ? -6:1); // adjust when day is sunday
+              return new Date(d.setDate(diff));
+            }
+            
+            function getNextClassCount(course) {
+          
+              var dateStart;
+              var dateEnd;
+              if (course.dateStart.indexOf('T') === -1) {
+                dateStart = course.dateStart;
+              } else {
+                dateStart = course.dateStart.slice(0, course.dateStart.indexOf('T'));
+              }
+              console.log()
+              if (course.dateEnd.indexOf('T') === -1) {
+                dateEnd = course.dateEnd;
+              } else {
+                dateEnd = course.dateEnd.slice(0, course.dateEnd.indexOf('T'));
+              }
+              var monday = getMonday(new Date(dateStart));
+          
+              const nextClasses = Math.floor(1 + (Date.now() - new Date(monday)) / (7 * 1000 * 3600 * 24));
+              const totalClassesCount =  Math.ceil(1+(new Date(dateEnd) - new Date(dateStart))/(7 * 1000 * 3600 * 24));
+              return [nextClasses, totalClassesCount];
+            }
+
             let course = response.data;
-            console.log
             $scope.course_level = coursedb.cn[course.courseCode].gradeLevel.slice(0,2);
-            console.log($scope.course_level)
             $scope.course_name = course.name;
             $scope.instructor = course.instructor.firstName + ' ' + course.instructor.lastName;
             $scope.course_time = course.classDay + ' '+ course.classTime + '-' + course.classEndTime;
             $scope.onlineZoomLink = course.onlineZoomLink;
+
+            var values = getNextClassCount(course);
+            console.log(values);
+            $scope.nextClassesCount = values[0];
+            $scope.totalClassesCount = values[1];
+
         }, function errorCallback(response) {
           console.log(response);
         });
