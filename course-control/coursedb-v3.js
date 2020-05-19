@@ -1264,7 +1264,7 @@ var coursedb = {
 			'title2':'Flutter跨平台手机App开发',
 			'name':'Flutter跨平台手机App开发:同时发布Android和iOS',
 			'shortName':'Flutter跨平台手机App开发',
-			'imageUrl':'img/my/coding-spacesm.jpg',
+			'imageUrl':'img/my/flutter/flutter.png',
 			'gradeLevel':'L5竞技编程',
 			'text':'学习最新跨平台手机开发，实现Android和iOS的同步支持',
 			'tag':'名校申请背景强化系列',
