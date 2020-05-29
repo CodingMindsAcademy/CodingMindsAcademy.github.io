@@ -41,7 +41,7 @@ angular.module('v3App', ['ngMaterial'])
         for (var m in response.data.nextCourses) {            
             $scope.nextCourse = response.data.nextCourses[m];
         }
-        console.log($scope.nextCourse);
+        //console.log($scope.nextCourse);
 
 
         var idx = response.data.activities.length - 1;

@@ -139,7 +139,7 @@
                             <i class="icon icon-Coding color--primary"></i>
                             <h2 class="text-center">编程课学生学习反馈<br></h2>
                             <!-- <h2 class="text-center">{{stuFbDb[stuid].name}}<br>编程课学生学习反馈<br></h2> -->
-                            <p class="text-center">{{StudentRecord.firstName}}完成了本学期的课程学习，具体的学习情况和内容的反馈如下：</p>
+                            <p class="text-center">{{StudentRecord.firstName}}完成了本学期的课程学习，具体的学习情况和学习建议总结如下：</p>
                         </div>
                         
                             <hr>
@@ -165,11 +165,15 @@
                             </table>
 
                             <h2 class="text-center">学期总结<br></h2>                            
+                            <p>{{Completion}}</p>
+
+                            <h2 class="text-center">老师评语<br></h2>                            
                             <p>{{EOSfeedback.text}}</p>
                             <div ng-if="EOSfeedback.text_cn">
                                 <p class="text-center">(下面中文翻译由百度翻译自动完成)</p>
                                 <p>{{EOSfeedback.text_cn}}</p>
                             </div>
+
                         <div ng-if="FinalProject.videoUrl != ''">
                             <hr>
                             <h2 class="text-center">课程项目<br></h2>
@@ -200,7 +204,24 @@
                                     <p> </p>
                                     <hr>
                                     <h2 class="text-center">2020夏学习建议<br></h2>                                    
-                                    <p class="text-center">我们会根据{{StudentRecord.firstName}}个人情况和您沟通下面的学习课程</p>
+                                    <p class="text-center">按照我们的课程体系和{{StudentRecord.firstName}}的学习情况，我们建议{{StudentRecord.firstName}}学习下一阶段的课程:</p>
+                                    <table class="border--round table--alternate-row">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 30%">课程名称</td>
+                                                <td style="width: 70%">{{nextCourse.sname}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>课程级别</td>
+                                                <td>{{nextCourse.gradeLevel}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>课程时间</td>
+                                                <td>2020夏季课程保持现有上课时间，如果需要调整请联系我们</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="text-center">{{nextCourse.introduction}}</p>
                                     <!-- <a class="btn btn--primary type--uppercase" ng-click="redirect()" >
                                         <span class="btn__text">
                                             点击查看2020夏季推荐课程
@@ -211,6 +232,7 @@
 
 
                             <div class="boxed">
+                                    <hr>
                                     <h4 class="text-center">如有问题或反馈，请填写下表</h4>
                                     <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息">
                                     <!-- <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" method="POST"> -->
@@ -316,7 +338,7 @@
             <script src="js/angular-material.min.js"></script>
             <script src="course-control/pathway.js"></script>
             <script src="students/fbec-db-s19v2.js"></script>
-            <script src="course-control/feedbackEC-controller_v5.js"></script>
+            <script src="course-control/feedbackEC-controller_v6.js"></script>
             <script src="js/flickity.min.js"></script>
             <script src="js/easypiechart.min.js"></script>
             <script src="js/parallax.js"></script>
