@@ -1,0 +1,1077 @@
+<!doctype html>
+<html ng-app="v3App" lang="cn">
+ <head>
+    <meta charset="utf-8">
+    <link href="./img/favicon.png" rel="icon">
+    <!-- UPDATE TEMPLATE 1 -->
+    <title>关于我们</title>
+    <meta name="keywords" content="Arduino, Arduino编程, C语言, 青少年编程, 课后编程辅导, 编程思维, 编程竞赛">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UPDATE TEMPLATE 2 -->
+    <meta name="description" content="制作智能电子系统，在硬件的世界学习软件">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+
+    <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
+
+    <div style='margin:0 auto;display:none;'>
+        <img src="https://codingmindsacademy.com/img/my/logofav.png" />
+    </div>
+</head>
+   <body ng-controller="CourseListController">
+        <a id="start"></a>
+                
+                <div class="nav-container">
+                    <div class="bar bar--sm visible-xs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-2">
+                                    <a href="index.html">
+                                        <img class="logo logo-dark" alt="logo" src="img/my/logo1.png" />
+                                        <img class="logo logo-light" alt="logo" src="img/my/logo1.png" />
+                                    </a>
+                                </div>
+                                <div class="col-xs-9 col-sm-10 text-right">
+                                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                                        <i class="icon icon--sm stack-interface stack-menu"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </div>    
+
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs">
+                                <div class="bar__module">
+                                    <a href="index-cn.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
+                                </div>
+                            </div>
+                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li>
+                                            <a href="index.html">
+                                                主页
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#summercamp">
+                                                编程课程
+                                            </a>
+                                        </li>
+                                        <li> 
+                                            <a href="portfolios-cn.html">
+                                                学生作品
+                                            </a> 
+                                        </li>
+                                        <li>
+                                            <a href="newsc.html">
+                                                编程资讯
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="whycoding-cn.html">
+                                                为什么学习编程
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="about-us-cn.html">
+                                                关于我们
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="bar__module">
+                                            <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
+                                            Contact Us
+                                        </span> </a> -->
+                                        <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
+                                            联系我们
+                                        </span> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                 </div>
+                 <section class="switchable">
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-md-5 col-sm-7">
+                                 <div class="mt--2">
+                                     <h1>
+                                         编程助力名校申请<br> 动手编写自己的应用
+                                     </h1>
+                                     <p class="lead">
+                                         我们的课程目标：编程、竞赛、科研、创业
+                                     </p>
+                                     <a class="btn btn--primary type--uppercase smoothscroll" href="pathc.html">
+                                         <span class="btn__text">
+                                             查看编程思维课程体系
+                                         </span>
+                                     </a>
+                                     <span class="block type--fine-print">
+                                     </span>
+                                 </div>
+                             </div>
+                             <div class="col-sm-6 text-center">
+                                 <img alt="Image" src="img/art-1.jpg" />
+                             </div>
+                         </div>
+                         <!--end of row-->
+                     </div>
+                     <!--end of container-->
+                 </section>
+
+                 <section id="whycoding" class="text-center bg--secondary">
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-sm-10 col-md-8">
+                                 <h2>我们的理念</h2>
+                                 <p class="lead">                                    
+                                    面对计算机时代的同学，我们设计课程的宗旨不止是：动手、创新、有用、有趣，还要带领同学们做自己的项目，提升编程的能力，为竞赛打基础，为升学做准备。让学习计算机真正地帮助到同学申请到好的大学。
+                                 </p>
+                             </div>
+                         </div>
+                         <!--end of row-->
+                     </div>
+                     <!--end of container-->
+                 </section>
+
+
+                 <section id= "codingminds" class="switchable feature-large">
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-sm-6 col-xs-12">
+                                <div>
+                                         <img alt="image" src="img/pathway/plevel4.png" />
+                                </div>
+                                 <!--  <div class="video-cover border--round box-shadow-wide">
+                                     <div class="background-image-holder">
+                                         <img alt="image" src="img/pathway/plevel4.png" />
+                                     </div>
+                                     <div class="video-play-icon"></div>
+                                     <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
+                                 </div>-->
+                                 <!--end video cover-->
+                             </div>
+                             <div class="col-sm-6 col-md-5">
+                                 <div class="switchable__text text-center">
+                                     <h2>关于Coding Minds编程思维</h2>
+                                     <p class="lead">
+                                         编程思维课程体系由多位少儿编程教育专家根据教学经验共同研究制定，共分为5个级别。宗旨在于让学生根据自己的兴趣爱好，动手操作完成实际项目。让同学在项目中提升能力，在竞赛中积累荣誉，在动手中开发思维，为申请大学做准备。
+                                     </p>
+                                     <a class="btn btn--primary type--uppercase smoothscroll" href="pathc.html">
+                                         <span class="btn__text">
+                                             查看编程思维课程体系
+                                         </span>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                         <!--end of row-->
+                     </div>
+                     <!--end of container-->
+                 </section>
+            
+            
+
+
+            <section id= "mainidea" class="text-center bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8">
+                            <h2>学期计划</h2>
+                            <p class="lead">
+                                编程思维2020年夏季采用线上教学。请同学们先通过网站或联系工作人员报名试课。老师会根据课程体系和同学情况为同学推荐合适的课程。试课过后老师会与同学沟通反馈并安排同学入学。<span style = "color:#6495ED">学期中每周都有新班开课，供同学们选择。暑假期间也可报名参加一周多次课的夏令营项目。</span>
+                            </p>                            
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="feature feature-4 boxed boxed--lg boxed--border box-shadow">
+                                <h4>小班教学</h4>
+                                <hr>
+                                <p>
+                                    编程思维网课采用线上小班教学，辅以各样教学科技保证课堂效果。同时保证与家长的实时沟通，确保同学的学习状态，使网课效果等同于教室。
+                                </p>                                
+                                <a class="btn btn--primary-2" href="https://mp.weixin.qq.com/s?__biz=MzUyODA3NDA5OA==&mid=2247483991&idx=1&sn=03deeb848ff7eab47921a89b83f4f86a&chksm=fa74964acd031f5c2e2cef85801e0eaee577140fbf4af9e091eeafcba6b613857118b32aa704&token=1515880380&lang=zh_CN#rd">
+                                    <span class="btn__text">
+                                        了解更多
+                                    </span>
+                                </a>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-4 boxed boxed--lg boxed--border box-shadow">
+                                <h4>动手实践</h4>
+                                <hr>
+                                <p>
+                                    计算机编程是一门非常实际的学科，学生如果只听讲是远远不够的。我们的课程强调动手写程序，做项目，让同学每一节课都可以做出一个具体的应用，培养他们的兴趣，提高他们的信心。
+                                </p>
+                                <a class="btn btn--primary-2" href="conferencec.html">
+                                    <span class="btn__text">
+                                        了解更多
+                                    </span>
+                                </a>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-4 boxed boxed--lg boxed--border box-shadow">
+                                <h4>帮助升学</h4>
+                                <hr>
+                                <p>
+                                    有价值的项目其意义远不止能给同学带来实践经验。同学可以同学收集竞赛荣誉，申请科研专利，发表学术论文，建立创业公司。为同学申请大学和步入社会做最强有力的后盾。                                        
+
+
+                                <a class="btn btn--primary-2" href="https://mp.weixin.qq.com/s?__biz=MzUyODA3NDA5OA==&mid=2247483886&idx=1&sn=72252efc2c6ca675a813cc2d4523a792&chksm=fa7495f3cd031ce50d7959dc0457f44a92ffae1bc27f1363bab6a50bc2f137468ab5f8785563&token=806462775&lang=zh_CN#rd">
+                                    <span class="btn__text">
+                                        了解更多
+                                    </span>
+                                </a>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+        <section class="bg--secondary">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="heading-block">
+                                        <h3>Popular Experiences</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="slider" data-paging="true" data-children="0">
+                                    <ul class="slides flickity-enabled is-draggable" tabindex="0">
+                                    <div class="flickity-viewport" style=""><div class="flickity-slider" style="left: 0px; transform: translateX(-300%);"><li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 0%;">
+                                            <div class="feature feature-1">
+                                                <a href="#" class="border-round block">
+                                                    <img alt="Image" src="img/tourism-6.jpg">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Luxury Apartment — Tribeca</h5>
+                                                    <p>
+                                                        4 Nights • 2 Guests
+                                                    </p>
+                                                    <a href="#">
+                                                        View Experience
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </li><li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 100%;">
+                                            <div class="feature feature-1">
+                                                <a href="#" class="border-round block">
+                                                    <img alt="Image" src="img/tourism-7.jpg">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Hike &amp; Camp — Grampians</h5>
+                                                    <p>
+                                                        3 Nights • 3 — 7 Guests
+                                                    </p>
+                                                    <a href="#">
+                                                        View Experience
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </li><li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 200%;">
+                                            <div class="feature feature-1">
+                                                <a href="#" class="border-round block">
+                                                    <img alt="Image" src="img/tourism-8.jpg">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Canoe Adventure — Tahoe</h5>
+                                                    <p>
+                                                        3 Nights • 4 Guests
+                                                    </p>
+                                                    <a href="#">
+                                                        View Experience
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </li><li class="col-sm-4 col-xs-12 slide is-selected" style="position: absolute; left: 300%;">
+                                            <div class="feature feature-1">
+                                                <a href="#" class="border-round block">
+                                                    <img alt="Image" src="img/tourism-9.jpg">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Local Clubbing — LA</h5>
+                                                    <p>
+                                                        1 Night • 2 — 10 Guests
+                                                    </p>
+                                                    <a href="#">
+                                                        View Experience
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </li><li class="col-sm-4 col-xs-12 slide is-selected" style="position: absolute; left: 400%;">
+                                            <div class="feature feature-1">
+                                                <a href="#" class="border-round block">
+                                                    <img alt="Image" src="img/tourism-9.jpg">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Local Clubbing — LA</h5>
+                                                    <p>
+                                                        1 Night • 2 — 10 Guests
+                                                    </p>
+                                                    <a href="#">
+                                                        View Experience
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li><li class="col-sm-4 col-xs-12 slide is-selected" style="position: absolute; left: 500%;">
+                                            <div class="feature feature-1">
+                                                <a href="#" class="border-round block">
+                                                    <img alt="Image" src="img/tourism-9.jpg">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Local Clubbing — LA</h5>
+                                                    <p>
+                                                        1 Night • 2 — 10 Guests
+                                                    </p>
+                                                    <a href="#">
+                                                        View Experience
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </li></div></div><ol class="flickity-page-dots"><li class="dot"></li><li class="dot"></li><li class="dot"></li><li class="dot is-selected"></li></ol></ul>
+                                </div>
+                                <!--end slider-->
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </section>
+        <section class="bg--secondary">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="heading-block">
+                                        <h3>Popular Experiences</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="slider" data-paging="true" data-children="0">
+                                    <ul class="slides flickity-enabled is-draggable" tabindex="0">
+                                    <div class="flickity-viewport" style="">
+                                        <div class="flickity-slider" style="left: 0px; transform: translateX(-300%);">
+
+                                        <li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 0%;">
+                                            <div class="feature feature-1">
+                                                    <div class="imagebg boxed boxed--sm" data-overlay="5">
+                                                        <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                                            <img alt="background" src="img/blog-2.jpg">
+                                                        </div>
+                                                        <div class="container">
+                                                            <h5>Modern Aesthetic</h5>
+                                                            <p>
+                                                                Build a beautifully performant site with Stack's vast collection of modular elements.
+                                                            </p>
+                                                            <br>
+                                                            <div class="row">
+                                                                <a class="btn btn--primary" href="#">
+                                                                    <span class="btn__text">
+                                                                        Build
+                                                                    </span>
+                                                                </a>
+
+                                                                <a class="btn btn--primary" href="#" style="float:right">
+                                                                    <span class="btn__text">
+                                                                        view
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                            <!--end feature-->
+                                        </li>
+
+                                        <li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 100%;">
+                                            <div class="feature feature-1">
+                                                    <div class="imagebg boxed boxed--sm" data-overlay="5">
+                                                        <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                                            <img alt="background" src="img/blog-2.jpg">
+                                                        </div>
+                                                        <div class="container">
+                                                            <h5>Modern Aesthetic</h5>
+                                                            <p>
+                                                                Build a beautifully performant site with Stack's vast collection of modular elements.
+                                                            </p>
+                                                            <div class="row">
+                                                                <a class="btn btn--primary" href="#">
+                                                                    <span class="btn__text">
+                                                                        Build
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn btn--primary" href="#" style="float:right">
+                                                                    <span class="btn__text">
+                                                                        view
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                            <!--end feature-->
+                                        </li>
+
+                                        <li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 200%;">
+                                            <div class="feature feature-1">
+                                                    <div class="imagebg boxed boxed--sm" data-overlay="5">
+                                                        <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                                            <img alt="background" src="img/blog-2.jpg">
+                                                        </div>
+                                                        <div class="container">
+                                                            <h5>Modern Aesthetic</h5>
+                                                            <p>
+                                                                Build a beautifully performant site with Stack's vast collection of modular elements.
+                                                            </p>
+                                                            <div class="row">
+                                                                <a class="btn btn--primary" href="#">
+                                                                    <span class="btn__text">
+                                                                        Build
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn btn--primary" href="#" style="float:right">
+                                                                    <span class="btn__text">
+                                                                        view
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                            <!--end feature-->
+                                        </li>
+
+
+                                        <li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 300%;">
+                                            <div class="feature feature-1">
+                                                    <div class="imagebg boxed boxed--sm" data-overlay="5">
+                                                        <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                                            <img alt="background" src="img/blog-2.jpg">
+                                                        </div>
+                                                        <div class="container">
+                                                            <h5>Modern Aesthetic</h5>
+                                                            <p>
+                                                                Build a beautifully performant site with Stack's vast collection of modular elements.
+                                                            </p>
+                                                            <div class="row">
+                                                                <a class="btn btn--primary" href="#">
+                                                                    <span class="btn__text">
+                                                                        Build
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn btn--primary" href="#" style="float:right">
+                                                                    <span class="btn__text">
+                                                                        view
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                            <!--end feature-->
+                                        </li>
+
+                                        <li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 400%;">
+                                            <div class="feature feature-1">
+                                                    <div class="imagebg boxed boxed--sm" data-overlay="5">
+                                                        <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                                            <img alt="background" src="img/blog-2.jpg">
+                                                        </div>
+                                                        <div class="container">
+                                                            <h5>Modern Aesthetic</h5>
+                                                            <p>
+                                                                Build a beautifully performant site with Stack's vast collection of modular elements.
+                                                            </p>
+                                                            <div class="row">
+                                                                <a class="btn btn--primary" href="#">
+                                                                    <span class="btn__text">
+                                                                        Build
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn btn--primary" href="#" style="float:right">
+                                                                    <span class="btn__text">
+                                                                        view
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                            <!--end feature-->
+                                        </li>
+
+                                        <li class="col-sm-4 col-xs-12 slide" style="position: absolute; left: 500%;">
+                                            <div class="feature feature-1">
+                                                    <div class="imagebg boxed boxed--sm" data-overlay="5">
+                                                        <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                                            <img alt="background" src="img/blog-2.jpg">
+                                                        </div>
+                                                        <div class="container">
+                                                            <h5>Modern Aesthetic</h5>
+                                                            <p>
+                                                                Build a beautifully performant site with Stack's vast collection of modular elements.
+                                                            </p>
+                                                            <div class="row">
+                                                                <a class="btn btn--primary" href="#">
+                                                                    <span class="btn__text">
+                                                                        Build
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn btn--primary" href="#" style="float:right">
+                                                                    <span class="btn__text">
+                                                                        view
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                            <!--end feature-->
+                                        </li>                                        
+                                        </div></div><ol class="flickity-page-dots"><li class="dot"></li><li class="dot"></li><li class="dot"></li><li class="dot is-selected"></li></ol></ul>
+                                </div>
+                                <!--end slider-->
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </section>
+        <section class="space--sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">                                
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2 class="text-center">L1 图形化编程<br></h2>
+                            <div class="row">
+                                <img alt="Image" class="col-sm-2 col-xs-4   col-sm-offset-5 col-xs-offset-4 border--round box-shadow" src="img/pathway/level1.png">
+                                <br>
+                            </div>
+                            <br>
+                            <p class="lead">
+                                图形化编程由MIT的Media Lab发明，是最合适初学者的编程平台，学生可以通过图形化的编程指令来迅速掌握编程概念和思维方式
+                            </p>
+                        </div>                                
+                        <hr>
+                        <div class="masonry">
+                            <div class="masonry__container">
+                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L1']">
+                                    <div class="card card-2 text-center">
+                                        <div class="card__top">
+                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                            <a href="{{course.detailsUrl}}">
+                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                            </a>
+                                        </div>
+                                        <div class="card__body">
+                                            <h4>{{course.name}}</h4>
+                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                            <br>
+                                            <span class="type--fade">{{course.date}}</span>
+                                            <p>
+                                                {{course.text}}
+                                            </p>
+                                        </div>
+                                        <div class="card__bottom text-center">
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                <a href="{{course.detailsUrl}}">
+                                                    <i class="material-icons">flip_to_front</i>
+                                                </a>
+                                            </div>
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                <a href="{{course.registerForm}}">
+                                                    <i class="material-icons">favorite_border</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">                                
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2 class="text-center">L2 简洁代码编程<br></h2>
+                            <div class="row">
+                                <img alt="Image" class="col-sm-2 col-xs-4   col-sm-offset-5 col-xs-offset-4 border--round box-shadow" src="img/pathway/level2.png">
+                                <br>
+                            </div>
+                            <p class="lead">
+                                简洁代码编程侧重于使用脚本语言例如Javascript或者Lua来使学生开始学习真正的代码，为后面专业的代码编程打下基础
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="masonry__container">
+                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L2']">
+                                    <div class="card card-2 text-center">
+                                        <div class="card__top">
+                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                            <a href="{{course.detailsUrl}}">
+                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                            </a>
+                                        </div>
+                                        <div class="card__body">
+                                            <h4>{{course.name}}</h4>
+                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                            <br>
+                                            <span class="type--fade">{{course.date}}</span>
+                                            <p>
+                                                {{course.text}}
+                                            </p>
+                                        </div>
+                                        <div class="card__bottom text-center">
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                <a href="{{course.detailsUrl}}">
+                                                    <i class="material-icons">flip_to_front</i>
+                                                </a>
+                                            </div>
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                <a href="{{course.registerForm}}">
+                                                    <i class="material-icons">favorite_border</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-12">                                
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2 class="text-center">L3 代码编程<br></h2>
+                            <div class="row">
+                                <img alt="Image" class="col-sm-2 col-xs-4   col-sm-offset-5 col-xs-offset-4 border--round box-shadow" src="img/pathway/level3.png">
+                                <br>
+                            </div>
+                            <p class="lead">
+                                开始学习高级的编程语言Python，并且逐步练习编写程序代码来进行复杂问题的解决与实现
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="masonry__container">
+                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L3']">
+                                    <div class="card card-2 text-center">
+                                        <div class="card__top">
+                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                            <a href="{{course.detailsUrl}}">
+                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                            </a>
+                                        </div>
+                                        <div class="card__body">
+                                            <h4>{{course.name}}</h4>
+                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                            <br>
+                                            <span class="type--fade">{{course.date}}</span>
+                                            <p>
+                                                {{course.text}}
+                                            </p>
+                                        </div>
+                                        <div class="card__bottom text-center">
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                <a href="{{course.detailsUrl}}">
+                                                    <i class="material-icons">flip_to_front</i>
+                                                </a>
+                                            </div>
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                <a href="{{course.registerForm}}">
+                                                    <i class="material-icons">favorite_border</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">                                
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2 class="text-center">L4 应用主题编程<br></h2>
+                            <div class="row">
+                                <img alt="Image" class="col-sm-2 col-xs-4   col-sm-offset-5 col-xs-offset-4 border--round box-shadow" src="img/pathway/level4.png">
+                                <br>
+                            </div>
+                            <p class="lead">
+                                拥有一定的代码编程能力，学生可以进行应用主题的专项编程学习，在自己喜欢的方向上面开发专业的项目作品
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="masonry__container">
+                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L4']">
+                                    <div class="card card-2 text-center">
+                                        <div class="card__top">
+                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                            <a href="{{course.detailsUrl}}">
+                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                            </a>
+                                        </div>
+                                        <div class="card__body">
+                                            <h4>{{course.name}}</h4>
+                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                            <br>
+                                            <span class="type--fade">{{course.date}}</span>
+                                            <p>
+                                                {{course.text}}
+                                            </p>
+                                        </div>
+                                        <div class="card__bottom text-center">
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                <a href="{{course.detailsUrl}}">
+                                                    <i class="material-icons">flip_to_front</i>
+                                                </a>
+                                            </div>
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                <a href="{{course.registerForm}}">
+                                                    <i class="material-icons">favorite_border</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">                                
+                        <div class="text-center">
+                            <i class="icon icon-Coding color--primary"></i>
+                            <h2 class="text-center">L5 竞技编程<br></h2>
+                            <div class="row">
+                                <img alt="Image" class="col-sm-2 col-xs-4   col-sm-offset-5 col-xs-offset-4 border--round box-shadow" src="img/pathway/level5.png">
+                                <br>
+                            </div>
+                            <p class="lead">
+                                带领学生对各种信息学算法竞赛、科学竞赛、高中AP计算机考试、以及背景提升项目的专项准备与冲刺
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="masonry__container">
+                                <div class="col-sm-4 masonry__item" ng-repeat="course in courseLevelMap['L5']">
+                                    <div class="card card-2 text-center">
+                                        <div class="card__top">
+                                            <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                            <a href="{{course.detailsUrl}}">
+                                                <img alt="Image" ng-src="{{course.imageUrl}}">
+                                            </a>
+                                        </div>
+                                        <div class="card__body">
+                                            <h4>{{course.name}}</h4>
+                                            <span class="type--fade">{{course.gradeLevel}}</span>
+                                            <br>
+                                            <span class="type--fade">{{course.date}}</span>
+                                            <p>
+                                                {{course.text}}
+                                            </p>
+                                        </div>
+                                        <div class="card__bottom text-center">
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.detailsTitle}}</span>
+                                                <a href="{{course.detailsUrl}}">
+                                                    <i class="material-icons">flip_to_front</i>
+                                                </a>
+                                            </div>
+                                            <div class="card__action">
+                                                <span class="h6 type--uppercase">{{course.registerTitle}}</span>
+                                                <a href="{{course.registerForm}}">
+                                                    <i class="material-icons">favorite_border</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        <section class="space--sm">
+            
+                <!--div class="col-sm-4 col-md-4 col-md-push-1"-->
+            <div class = "row">
+                <div class = "container">
+                    <div class="col-sm-4 masonry__item">
+                        <div class="imagebg boxed boxed--sm" data-overlay="5">
+                            <div class="background-image-holder" style="background: url(&quot;img/blog-2.jpg&quot;); opacity: 1;">
+                                <img alt="background" src="img/blog-2.jpg">
+                            </div>
+                            <div class="container">
+                                <h5>Modern Aesthetic</h5>
+                                <p>
+                                    Build a beautifully performant site with Stack's vast collection of modular elements.
+                                </p>
+                                <div class="row">
+                                    <a class="btn btn--primary" href="#">
+                                        <span class="btn__text">
+                                            Build
+                                        </span>
+                                    </a>
+                                    <a class="btn btn--primary" href="#" style="float:right">
+                                        <span class="btn__text">
+                                            view
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="imageblock switchable feature-large bg--secondary space--sm">
+                <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                    <div class="background-image-holder">
+                        <img alt="image" src="img/my/coding-thinking.jpg" />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-7">
+                            <h2>联系试课</h2>
+                            <p class="lead">
+                                试课内容涵盖图形编程、代码编程、简介代码编程、以及应用主题编程等丰富内容，由资深教师执教，确保同学能体会到编程的奥妙，带领同学走进编程世界的大门
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            
+                <section class="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="process-2">
+                                <div class="col-sm-3">
+                                    <div class="process__item">
+                                        <h5>填写试课报名表
+                                        </h5>
+                                        <p>
+                                            试课报名表有助于我们了解同学的信息，帮助同学挑选最合适的课程
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="process__item">
+                                        <h5>安排试课时间</h5>
+                                        <p>
+                                            学院收到报名之后会第一时间与您联系，安排同学的试课
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="process__item">
+                                        <h5>线上或线下试课
+                                        </h5>
+                                        <p>
+                                            一对一地课程交流，确保老师了解同学，同学了解老师
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="process__item">
+                                        <h5>试课反馈 安排入学                                            
+                                        </h5>
+                                        <p>
+                                            试课之后老师会向反馈课程情况，对同学的学业进行进一步规划
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end process-->
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+                </section>
+
+                <section class="bg text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-6">
+                                <div class="cta">
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="https://jinshuju.net/f/gM64Iv"> <span class="btn__text">
+                                    免费试听注册
+                                    </span> </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+         <footer class="footer-3 text-center-xs space--xs ">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <img alt="Image" class="logo" src="img/my/logo1.png" />
+                         <ul class="list-inline list--hover">
+                             <li>
+                                 <a href="#">
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="mailto:Contact@CodingMindsAcademy.com">
+                                     <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
+                                 </a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="col-sm-6 text-right text-center-xs">
+                         <ul class="social-list list-inline list--hover">
+                             <li>
+                                 <a href="#">
+                                     <i class="socicon socicon-google icon icon--xs"></i>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="#">
+                                     <i class="socicon socicon-twitter icon icon--xs"></i>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="https://www.facebook.com/CodingMindsAcademy/" target="_blank">
+                                     <i class="socicon socicon-facebook icon icon--xs"></i>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="#">
+                                     <i class="socicon socicon-instagram icon icon--xs"></i>
+                                 </a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <p class="type--fine-print">
+                             编程助力名校申请 | <a href="{{page.engUrl}}">English</a>
+                         </p>
+                     </div>
+                     <div class="col-sm-6 text-right text-center-xs">
+                         <span class="type--fine-print">&copy;
+                             <span class="update-year"></span> Coding Minds Inc.
+                         </span>
+                         <a class="type--fine-print" href="#">Privacy Policy</a>
+                         <a class="type--fine-print" href="#">Legal</a>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+     </div>
+
+       <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+           <i class="stack-interface stack-up-open-big"></i>
+       </a>
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/angular.min.js"></script>
+      <script src="course-control/pathway.js"></script>
+      <script src="course-control/coursedb-v3.js"></script>
+      <script src="course-control/scheduledb-v4.js"></script>
+      <script src="course-control/courselist-cn-v2.js"></script>
+      <script src="js/flickity.min.js"></script>
+      <script src="js/easypiechart.min.js"></script>
+      <script src="js/parallax.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/datepicker.js"></script>
+      <script src="js/isotope.min.js"></script>
+      <script src="js/ytplayer.min.js"></script>
+      <script src="js/lightbox.min.js"></script>
+      <script src="js/granim.min.js"></script>
+      <script src="js/countdown.min.js">script src="js/twitterfetcher.min.js"></script>
+      <script src="js/spectragram.min.js"></script>
+      <script src="js/smooth-scroll.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="js/utils.js"></script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-98249988-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>   
+ </body>
+ </html>
