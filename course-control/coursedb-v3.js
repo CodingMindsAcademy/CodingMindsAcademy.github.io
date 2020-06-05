@@ -420,7 +420,9 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/0KnUba'
+			'registerForm':'https://jinshuju.net/f/0KnUba',
+			'completion':'Python 2作为L3级别的核心课程，主要的目标是带领同学使用Python进行基本程序算法的设计与实现，并且学习高级数据结构的知识。通过课程的完成，同学已经掌握了Python的数据结构与算法，并且完成了一个综合的Python项目，为下一阶段L4级别的主题应用编程打下了良好的基础。',
+			'nextCourseId':'cs430'
 		},
 		'cs320' : {
 			'enabled':true,
@@ -640,7 +642,8 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/0KnUba'
+			'registerForm':'https://jinshuju.net/f/0KnUba',
+			'introduction':'AI人工智能初步是L4级别的核心课程，主要的目标是让同学开始进行编程的主题应用开发，解决实际的问题，并且可以独立的实际AI算法并融入到项目中去。本节课同学需要完成所有常用的机器学习算法与功能库，并且完成一个可以参赛的综合的AI与数据分析的项目，为下一阶段的AI 2编程做好准备。',
 		},
 		'cs435' : {
 			'enabled':true,

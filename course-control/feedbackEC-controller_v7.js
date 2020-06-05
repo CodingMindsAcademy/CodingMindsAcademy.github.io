@@ -32,13 +32,17 @@ angular.module('v3App', ['ngMaterial'])
           $scope.Level = response.data.courses[0].gradeLevel; 
           $scope.Term = response.data.courses[0].term;          
           $scope.StudentCourse = response.data.courses[0];
-          $scope.Completion = response.data.courses[0].completion.replace(/同学/g, response.data.profile.firstName);
+          if (response.data.courses[0].completion) {
+            $scope.Completion = response.data.courses[0].completion.replace(/同学/g, response.data.profile.firstName);
+          }
         }
         $scope.StudentRecord = response.data.profile;
         $scope.Feedbacks = response.data.feedback;
 
         // next course
-        $scope.nextCourse = response.data.nextCourses[response.data.courses[0].nextCourseId.toLowerCase()];
+        if (response.data.courses[0].nextCourseId) {
+         $scope.nextCourse = response.data.nextCourses[response.data.courses[0].nextCourseId.toLowerCase()];
+        }
         
 
 
