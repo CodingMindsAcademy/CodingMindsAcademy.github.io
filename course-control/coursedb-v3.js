@@ -376,7 +376,10 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/0KnUba'
+			'registerForm':'https://jinshuju.net/f/0KnUba',
+			'introduction':'Python 1作为L3级别的第一个核心课程，主要的目标是教授同学使用Python的基本语法与指令，并且能够完成基础的应用程序的开发。通过课程的完成，同学可以掌握Python的基础知识，并且完成一个基础的Python项目，为下一阶段的Python进阶编程打下良好的基础。',
+			'completion':'Python 1作为L3级别的第一个核心课程，主要的目标是教授同学使用Python的基本语法与指令，并且能够完成基础的应用程序的开发。通过课程的完成，同学已经掌握了Python的基础知识，并且完成了一个基础的Python项目，为下一阶段的Python进阶编程打下了良好的基础。',
+			'nextCourseId':'cs310'
 		},
 		'cs310p' : {
 			'enabled':false,
@@ -422,7 +425,8 @@ var coursedb = {
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba',
 			'completion':'Python 2作为L3级别的核心课程，主要的目标是带领同学使用Python进行基本程序算法的设计与实现，并且学习高级数据结构的知识。通过课程的完成，同学已经掌握了Python的数据结构与算法，并且完成了一个综合的Python项目，为下一阶段L4级别的主题应用编程打下了良好的基础。',
-			'nextCourseId':'cs430'
+			'nextCourseId':'cs430',
+			'introduction':'Python 2作为L3级别的高级核心课程，主要的目标是带领同学使用Python进行程序算法的设计与实现，并且学习高级数据结构的知识。通过课程的完成，试同学可以掌握Python的数据结构与算法，并且完成一个综合的Python项目，为下一阶段L4级别的主题应用编程打下良好的基础。'
 		},
 		'cs320' : {
 			'enabled':true,
