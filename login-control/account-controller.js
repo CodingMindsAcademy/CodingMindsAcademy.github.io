@@ -12,3 +12,10 @@ app.controller('myAccountCtrl', function($scope) {
 	}
 
 })
+
+app.controller('loadCourseCtrl', function($scope) { 
+
+
+
+
+})

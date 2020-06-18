@@ -103,7 +103,7 @@
                 </nav>
             <!--end bar-->
         </div>
-
+        <section>
         <div class="main-container" ng-app = "myApp" ng-controller = "myAccountCtrl">
             <section class="text-center height-50">
                 <div class="container pos-vertical-center">
@@ -120,7 +120,7 @@
                 <!--end of container-->
             </section>
             
-            <section class="bg--secondary space--sm">
+            <section class="bg space--sm">
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-12">
@@ -149,197 +149,274 @@
                                             </ul></div>
                                             
                                         </div>
-                                        <div class="boxed boxed--border">
-                                            <ul class="row row--list clearfix text-center">
-                                                <li class="col-md-3 col-6">
-                                                    <span class="h6 type--uppercase type--fade">Likes</span>
-                                                    <span class="h3">220</span>
-                                                </li>
-                                                <li class="col-md-3 col-6">
-                                                    <span class="h6 type--uppercase type--fade">Articles</span>
-                                                    <span class="h3">14</span>
-                                                </li>
-                                                <li class="col-md-3 col-6">
-                                                    <span class="h6 type--uppercase type--fade">Comments</span>
-                                                    <span class="h3">2,129</span>
-                                                </li>
-                                                <li class="col-md-3 col-6">
-                                                    <span class="h6 type--uppercase type--fade">Following</span>
-                                                    <span class="h3">119</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="boxed boxed--border">
-                                            <h4>Connections</h4>
-                                            <ul class="clearfix row row--list text-center">
-                                                <li class="col-md-3 col-6">
-                                                    <a href="#">
-                                                        <img alt="avatar" src="img/avatar-round-2.png" class="image--sm">
-                                                        <span class="block">Alice Merriweather</span>
-                                                    </a>
-                                                </li>
-                                                <li class="col-md-3 col-6">
-                                                    <a href="#">
-                                                        <img alt="avatar" src="img/avatar-round-1.png" class="image--sm">
-                                                        <span class="block">Kelly Burgess</span>
-                                                    </a>
-                                                </li>
-                                                <li class="col-md-3 col-6">
-                                                    <a href="#">
-                                                        <img alt="avatar" src="img/avatar-round-4.png" class="image--sm">
-                                                        <span class="block">Marc Nguyen</span>
-                                                    </a>
-                                                </li>
-                                                <li class="col-md-3 col-6">
-                                                    <a href="#">
-                                                        <img alt="avatar" src="img/avatar-round-5.png" class="image--sm">
-                                                        <span class="block">Selena Rouse</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <a href="#" class="type--fine-print pull-right">View All</a>
-                                        </div>
-                                        <div class="boxed boxed--border">
-                                            <h4>Recent Activity</h4>
-                                            <ul>
-                                                <li class="clearfix">
-                                                    <div class="row">
-                                                        <div class="col-lg-2 col-3 text-center">
-                                                            <div class="icon-circle">
-                                                                <i class="icon icon--lg material-icons">comment</i>
+
+                                        <section class="text-center height-50">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="tabs-container" data-content-align="left">
+                                                            <ul class="tabs">
+                                                                <li class="">
+                                                                    <div class="tab__title text-center">
+                                                                        <i class="icon icon--sm block icon-Monitor-Laptop"></i>
+                                                                        <span class="h5">全部课程</span>
+                                                                    </div>
+                                                                    
+                                                                </li>
+                                                                <li class="active">
+                                                                    <div class="tab__title text-center">
+                                                                        <i class="icon icon--sm block icon-Finger-DragFourSides"></i>
+                                                                        <span class="h5">推荐课程</span>
+                                                                    </div>
+                                                                    
+                                                                </li>
+                                                                <li class="">
+                                                                    <div class="tab__title text-center">
+                                                                        <i class="icon icon--sm block icon-Maximize"></i>
+                                                                        <span class="h5">其他登陆</span>
+                                                                    </div>
+                                                                    
+                                                                </li>
+                                                            </ul><ul class="tabs-content"><li class=""><div class="tab__content text-center" ng-app="myApp" ng-controller='loadCourseCtrl'>
+                                                                        
+                                                                    
+                                                                    <div class="tabs-container" data-content-align="center">
+                    <ul class="tabs">
+                        <li class="active">
+                            <div class="tab__title">
+                                <span class="h5">尔湾Irvin网课</span>
+                            </div>
+                            <div class="tab__content">
+
+                            <!-- <div class="masonry"> -->
+                            <div class="masonry1">
+                                    <div class="col-sm-12">
+
+                                    <div>
+                                    <!-- <div class="masonry__container"> -->
+                                        <div class="col-sm-4 masonry__item" ng-repeat="course in courseListIrvine">
+                                            <div class="card card-2 text-center">
+                                                <div class="card__top">
+                                                    <span id="cmbg" class="label">{{course.gradeLevel}}</span>
+                                                    <img alt="Image" ng-src="{{course.imageUrl}}">
+                                                </div>
+                                                <div class="card__body">
+                                                    <h4>{{course.title1}}</h4>
+                                                    <p>
+                                                        {{course.text}}
+                                                    </p>
+                                                </div>
+                                                <div class="card__bottom text-center">
+                                                    <div class="card__action">
+                                                        <div class="modal-instance block">
+                                                            <a href="#" class="btn modal-trigger"><span class="btn__text">查看课程信息</span></a>
+                                                            <div class="modal-container">
+                                                                <div class="modal-content">
+                                                                    <section class="imageblock feature-large bg--white border--round ">
+                                                                        <div class="container" style="padding-top: 1.1em">
+                                                                            <div class="row" style="height: calc(100vh - 100px)">
+                                                                                <iframe width="200" height="800" ng-src="{{course.detailsUrl}}"></iframe>
+                                                                            </div>
+                                                                            <!--end of container-->
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-8 col-7">
-                                                            <span class="type--fine-print">21st July, 2017</span>
-                                                            <a href="#" class="block color--primary">Check out the relaunched Scope</a>
-                                                            <p>
-                                                                Discourse in writing dealing with a particular point or idea.
-                                                            </p>
+                                                    </div>
+                                                    <div class="card__action">
+                                                        <div class="modal-instance block">
+                                                            <a class="btn toggle_schedule" href="#">
+                                                                <span class="btn__text">
+                                                                    选择课程时间
+                                                                </span>
+                                                            </a>
+                                                            <!-- <div class="modal-container">
+                                                                <div class="modal-content">
+                                                                    <div class="boxed boxed--lg">
+                                                                        <iframe ng-src="{{course.registerForm}}"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
-                                                    <hr>
-                                                </li>
-                                                <li class="clearfix">
-                                                    <div class="row">
-                                                        <div class="col-lg-2 col-3 text-center">
-                                                            <div class="icon-circle">
-                                                                <i class="icon icon--lg material-icons">mode_edit</i>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-8 col-7">
-                                                            <span class="type--fine-print">14th July, 2017</span>
-                                                            <a href="#" class="block color--primary">Tips for web typography</a>
-                                                            <p>
-                                                                To write beside or "written beside" is a self-contained unit of a discourse in writing dealing with a particular point or idea.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                </li>
-                                                <li class="clearfix">
-                                                    <div class="row">
-                                                        <div class="col-lg-2 col-3 text-center">
-                                                            <div class="icon-circle">
-                                                                <i class="icon icon--lg material-icons">favorite</i>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-8 col-7">
-                                                            <span class="type--fine-print">12th July, 2017</span>
-                                                            <a href="#" class="block color--primary">Where do you source your stock photography?</a>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                </li>
-                                                <li class="clearfix">
-                                                    <div class="row">
-                                                        <div class="col-lg-2 col-3 text-center">
-                                                            <div class="icon-circle">
-                                                                <i class="icon icon--lg material-icons">comment</i>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-8 col-7">
-                                                            <span class="type--fine-print">3rd July, 2017</span>
-                                                            <a href="#" class="block color--primary">Share your rapid development workflow</a>
-                                                            <p>
-                                                                Of a discourse in writing dealing with a particular point or idea.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <a href="#" class="type--fine-print pull-right">View All</a>
+                                                </div>
+                                                <!-- The following should be toggled by the button above -->
+                                                <div class="card__body course_schedule" style="display: none;">
+                                                    <h4>课程时间</h4>
+                                                    <p>如果时间不合适请及时联系我们</p>
+                                                    <table class="border--round table--alternate-row">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="width: 35%"><b>日期</b></td>
+                                                                <td style="width: 28%"><b>时间</b></td>
+                                                                <td style="width: 28%"><b>注册</b></td>
+                                                                <!--<td style="width: 19%"><b>价格</b></td>-->
+                                                            </tr>
+                                                            <tr ng-repeat="data in course['repeatData']">
+                                                                <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                                <td style="width: 28%">{{data.dayTime}}</td>
+                                                                <td style="width: 28%">
+                                                                    <div class="modal-instance">
+                                                                        <a href="#" class="btn btn--sm btn--primary modal-trigger"><span class="btn__text">注册</span></a>
+                                                                        <div id={{data.courseid}} class="modal-container">
+                                                                            <div class="modal-content section-modal">
+                                                                                <section class="unpad ">
+                                                                                    <div class="container">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                                                                <div class="boxed boxed--lg bg--white text-center feature">
+                                                                                                    <div class="modal-close modal-close-cross"></div>
+                                                                                                    <h3>填写报名信息</h3>
+                                                                                                    <h5>{{course.shortName}}</h5>
+                                                                                                    <h5 style="margin-bottom: 0;">尔湾Irvine网课</h5>
+                                                                                                    <p style="margin-bottom: 0;"><b>日期：</b>{{data.range}} 上半期八周</p>
+                                                                                                    <p><b>时间：</b>{{data.dayTime}}</p>
+                                                                                                    <hr data-title="OR">
+                                                                                                    <div class="feature__body">
+                                                                                                        <form ng-submit="submit(data.courseid, 'Irvine')">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-sm-6">
+                                                                                                                    <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-6">
+                                                                                                                    <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <input type="text" ng-model="form.grade" placeholder="年级" />
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <input type="email" ng-model="form.email2" placeholder="Email" required/>
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <input type="text" ng-model="form.contact2Value" placeholder="微信号" />
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-12">
+                                                                                                                    <button class="btn btn--primary type--uppercase" type="submit">注册</button>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <!--end of row-->
+                                                                                                        </form>
+                                                                                                        <span class="type--fine-print block">如有疑问请联系我们
+                                                                                                            <a href="contact-us-cn.html">联系我们</a>
+                                                                                                        </span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!--end of row-->
+                                                                                    </div>
+                                                                                    <!--end of container-->
+                                                                                </section>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--end of row-->
                             </div>
-                            <!--end of container-->
-                        </section>
+                        </li>
 
+
+
+
+
+
+                                                                    </div></li><li class="active"><div class="tab__content">
+                                                                        <div class="col-sm-12 text-center">
+                                                                        <p class="lead">
+                                                                            微信登陆
+                                                                        </p>
+                                                                        </div>            
+
+                                                                    </div></li><li class=""><div class="tab__content">
+                                                                        <div class="col-sm-12 text-center">
+                                                                        <p class="lead">
+                                                                            其他登陆
+                                                                        </p></div>                                            
+                                                                    </div></li></ul>
+                                                        </div>
+                                                        <!--end of tabs container-->
+                                                    </div>
+                                                </div>
+                                                <!--end of row-->
+                                            </div>
+                                        </section>  
+                        
         </div>
+        </section> 
         <!--<div class="loader"></div>-->
         <section>
-        <footer class="footer-3 text-center-xs space--xs ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img alt="Image" class="logo" src="img/my/logo1.png" />
-                            <ul class="list-inline list--hover">
-                                <li>
-                                    <a href="#">
-                                        <!-- <span class="type--fine-print">Get Started</span> -->
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
-                                    </a>
-                                </li>
-                            </ul>
+            <footer class="footer-3 text-center-xs space--xs ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img alt="Image" class="logo" src="img/my/logo1.png" />
+                                <ul class="list-inline list--hover">
+                                    <li>
+                                        <a href="#">
+                                            <!-- <span class="type--fine-print">Get Started</span> -->
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 text-right text-center-xs">
+                                <ul class="social-list list-inline list--hover">
+                                    <li>
+                                        <a href="#">
+                                            <i class="socicon socicon-google icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="socicon socicon-twitter icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="socicon socicon-facebook icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="socicon socicon-instagram icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                            <ul class="social-list list-inline list--hover">
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-google icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-twitter icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-facebook icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-instagram icon icon--xs"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <!--end of row-->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p class="type--fine-print">
+                                    编程助力名校申请 | <a href="index.html">English</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-6 text-right text-center-xs">
+                                <span class="type--fine-print">&copy;
+                                    <span class="update-year"></span> Coding Minds Inc.</span>
+                                <a class="type--fine-print" href="#">Privacy Policy</a>
+                                <a class="type--fine-print" href="#">Legal</a>
+                            </div>
                         </div>
+                        <!--end of row-->
                     </div>
-                    <!--end of row-->
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p class="type--fine-print">
-                                编程助力名校申请 | <a href="index.html">English</a>
-                            </p>
-                        </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                            <span class="type--fine-print">&copy;
-                                <span class="update-year"></span> Coding Minds Inc.</span>
-                            <a class="type--fine-print" href="#">Privacy Policy</a>
-                            <a class="type--fine-print" href="#">Legal</a>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </footer>    
+                    <!--end of container-->
+                </footer>    
             </section>  
              
 

@@ -26,77 +26,79 @@ function DialogController($scope, $mdDialog, course,data) {
 }
   var orgs = {'5d801257d2c9f600154965d8':'a',
               '5b2423bbc0991500145353f4':'i'};
-              $scope.get = function(url) {
-                console.log(url);
-                $http({
-                    method: 'GET',
-                    url: url,
-        
-                })
-                    .then(function successCallback(data){
-                 
-                        $scope.data = data.data;
-                        console.log(data.data);
-                        $scope.trustedHtml = $sce.trustAsHtml($scope.data);
-                        },
-                     function errorCallback(response){
-                        console.log(response);
-                        console.log('error');
-                    });
-            }
+  $scope.get = function(url) {
+    console.log(url);
+    $http({
+        method: 'GET',
+        url: url,
+
+    })
+        .then(function successCallback(data){
+     
+            $scope.data = data.data;
+            console.log(data.data);
+            $scope.trustedHtml = $sce.trustAsHtml($scope.data);
+            },
+         function errorCallback(response){
+            console.log(response);
+            console.log('error');
+        });
+    }
 
               // var $ctrl = this;
-              $scope.items = ['item1', 'item2', 'item3'];
+  $scope.items = ['item1', 'item2', 'item3'];
             
-              $scope.animationsEnabled = true;
-              $scope.showAdvanced = function(ev, course, data) {
-                console.log(course);
-                console.log(data);
-                $mdDialog.show({
-                  controller: DialogController,
-                  templateUrl: 'formTemplate.html',
-                  parent: angular.element(document.body),
-                  targetEvent: ev,
-                  clickOutsideToClose:true,
-                  locals: {
-                    course: course,
-                    data: data
-                  },
-                  fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
-                })
-                .then(function(answer) {
-                  $scope.status = 'You said the information was "' + answer + '".';
-                }, function() {
-                  $scope.status = 'You cancelled the dialog.';
-                });
-              };
-              $scope.open = function (size, parentSelector) {
-                var parentElem = parentSelector ? 
-                  angular.element($document[0].querySelector('.modal-demo ' + parentSelector)) : undefined;
-                var modalInstance = $uibModal.open({
-                  animation: $scope.animationsEnabled,
-                  ariaLabelledBy: 'modal-title',
-                  ariaDescribedBy: 'modal-body',
-                  templateUrl: 'myModalContent.html',
-                  controller: 'ModalInstanceCtrl',
-                  controllerAs: '$ctrl',
-                  size: size,
-                  appendTo: parentElem,
-                  resolve: {
-                    items: function () {
-                      return $scope.items;
-                    }
-                  }
-                });
+  $scope.animationsEnabled = true;
+  
+  $scope.showAdvanced = function(ev, course, data) {
+    console.log(course);
+    console.log(data);
+    $mdDialog.show({
+      controller: DialogController,
+      templateUrl: 'formTemplate.html',
+      parent: angular.element(document.body),
+      targetEvent: ev,
+      clickOutsideToClose:true,
+      locals: {
+        course: course,
+        data: data
+      },
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    })
+    .then(function(answer) {
+      $scope.status = 'You said the information was "' + answer + '".';
+    }, function() {
+      $scope.status = 'You cancelled the dialog.';
+    });
+  };
+
+  $scope.open = function (size, parentSelector) {
+    var parentElem = parentSelector ? 
+      angular.element($document[0].querySelector('.modal-demo ' + parentSelector)) : undefined;
+    var modalInstance = $uibModal.open({
+      animation: $scope.animationsEnabled,
+      ariaLabelledBy: 'modal-title',
+      ariaDescribedBy: 'modal-body',
+      templateUrl: 'myModalContent.html',
+      controller: 'ModalInstanceCtrl',
+      controllerAs: '$ctrl',
+      size: size,
+      appendTo: parentElem,
+      resolve: {
+        items: function () {
+          return $scope.items;
+        }
+      }
+    });
             
-                modalInstance.result.then(function (selectedItem) {
-                  $scopee.selected = selectedItem;
-                }, function () {
-                  $log.info('Modal dismissed at: ' + new Date());
-                }, function (){
-                  $log.info('nmsl');
-                });
-              };
+    modalInstance.result.then(function (selectedItem) {
+      $scopee.selected = selectedItem;
+    }, function () {
+      $log.info('Modal dismissed at: ' + new Date());
+    }, function (){
+      $log.info('something wrong');
+    });
+  };
     $http({
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
