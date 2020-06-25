@@ -99,7 +99,7 @@ function DialogController($scope, $mdDialog, course,data) {
       $log.info('something wrong');
     });
   };
-    $http({
+  $http({
       method: 'GET',
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
       headers: {
@@ -184,14 +184,17 @@ function DialogController($scope, $mdDialog, course,data) {
                 }
             }
             })
-            $scope.courseListArcadia.push(templist2);
+            $scope.courseListArcadia.push(templist2);            
             $scope.courseListIrvine.push(templist1);
+            console.log("The course db is");
             console.log($scope.courseListIrvine);
             console.log($scope.courseListArcadia);
           $scope.getLength = function(obj) {
               return Object.keys(obj).length;
           }
+          console.log("The course db is");
           $scope.coursedb = coursedb;
+          console.log($scope.coursedb);
 
           }, function errorCallback(response) {
             console.log(response);

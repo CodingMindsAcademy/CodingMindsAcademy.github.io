@@ -24,13 +24,13 @@ app.controller('loginControl', function($scope, $http, $window) {
     };
     $http({
       method : "POST",
-      url : "https://dev-sharemyworks-backend.herokuapp.com/api/Account/login",
+      url : "https://prod-sharemyworks-backend.herokuapp.com/api/Account/login",
       data: data
     }).then(function mySuccess(response) {
       console.log(response);
       console.log(response.data.userId);
       var userId = response.data.userId;
-      var urlWithId = "https://dev-sharemyworks-backend.herokuapp.com/api/Account/" + response.data.userId;
+      var urlWithId = "https://prod-sharemyworks-backend.herokuapp.com/api/Account/" + response.data.userId;
       var authCode = response.data.id;
       $http({
       method : "GET",
@@ -45,10 +45,13 @@ app.controller('loginControl', function($scope, $http, $window) {
           console.log(response.data.lastName);
           $scope.firstName = response.data.firstName;
           $scope.lastName = response.data.lastName;
+          $scope.organizationId = response.data.organizationId;
           sessionStorage.setItem('userId', userId);
           sessionStorage.setItem('authCode', authCode);
           sessionStorage.setItem('firstName', $scope.firstName);
           sessionStorage.setItem('lastName', $scope.lastName);
+          sessionStorage.setItem('organizationId', $scope.organizationId);
+          console.log(sessionStorage)
           $window.location.href = 'account.html';
           //$location.path("account.html");
 

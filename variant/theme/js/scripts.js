@@ -1,4 +1,3 @@
-
 var mr = (function ($, window, document){
     "use strict";
 
@@ -11,7 +10,9 @@ var mr = (function ($, window, document){
 
     function documentReady(context){
         
-        context = typeof context === typeof undefined ? $ : context;
+        // if type of context is undefined, context = $, else context = context
+        context = typeof context === typeof undefined ? $ : context; 
+        // for every action in documentReady and documentReadyDeferred, execute it
         components.documentReady.concat(components.documentReadyDeferred).forEach(function(component){
             component(context);
         });
@@ -20,6 +21,7 @@ var mr = (function ($, window, document){
     function windowLoad(context){
         
         context = typeof context === "object" ? $ : context;
+        // for every action in windowLoad and windowLoadDeferred, execute it
         components.windowLoad.concat(components.windowLoadDeferred).forEach(function(component){
            component(context);
         });
