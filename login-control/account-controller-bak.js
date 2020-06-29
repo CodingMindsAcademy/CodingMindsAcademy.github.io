@@ -47,13 +47,13 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
 
         console.log("Show suggested list");
         console.log($scope.suggestedCoursesList);
+
         $scope.lenSuggestedCoursesList = $scope.suggestedCoursesList.length;
         $scope.showSuggestScheduleList = new Array($scope.lenSuggestedCoursesList);
-        $scope.heightSuggestStyleList = new Array($scope.lenSuggestedCoursesList);
-        for (var i = 0; i < $scope.lenSuggestedCoursesList; i ++) {
-            $scope.heightSuggestStyleList[i] = $scope.heightStyle
-            $scope.showSuggestScheduleList[i] = false;
-        }
+        $scope.heightSuggestStyleList = new Array($scope.lenSuggestedCoursesList);        
+
+
+
       }, function errorCallback(response) {
         console.log(response);
       });
@@ -146,10 +146,13 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
   	          $scope.lenCourseCurrentList = $scope.courseCurrentList.length;
   	          $scope.showScheduleList = new Array($scope.lenCourseCurrentList);
               $scope.heightStyleList = new Array($scope.lenCourseCurrentList);
+              
+              
               $scope.heightStyle = {
                 "height": "200px",
                 "position": "relative"
               }
+              
               for (var i = 0; i < $scope.courseCurrentList.length; i ++) {
                 $scope.heightStyleList[i] = $scope.heightStyle
                 $scope.showScheduleList[i] = false;
@@ -200,8 +203,15 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
 
 	$scope.showSchedule = function (index, action) {
     if (action == "showall") {      
-      $scope.showScheduleList[index] = !$scope.showScheduleList[index];    
+      $scope.showScheduleList[index] = !$scope.showScheduleList[index];
+      //$scope.showScheduleList[index] = !$scope.showScheduleList[index];
+      //var element = angular.element(document.querySelector('#c-' + index.toString()));
+      //var sechuduleHeight = element[0]['offsetHeight'];
+      
+      
       var height = $scope.courseCurrentList[index]['repeatData'].length * 125 + 350;
+      //console.log(sechuduleHeight);
+      //var height = sechuduleHeight + 300;
       var heightPx = height.toString() + "px";
       if ($scope.showScheduleList[index]) {
           $scope.heightStyleList[index] = {
@@ -215,7 +225,11 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
         }
       }
     } else if (action == "showsuggested") {
-      $scope.showSuggestScheduleList[index] = !$scope.showSuggestScheduleList[index];          
+      $scope.showSuggestScheduleList[index] = !$scope.showScheduleList[index];
+            
+      $scope.heightSuggestScheduleList = new Array($scope.lenSuggestedCoursesList);
+
+
       var height = $scope.suggestedCoursesList[index]['repeatData'].length * 125 + 350;
       var heightPx = height.toString() + "px";
       if ($scope.showSuggestScheduleList[index]) {

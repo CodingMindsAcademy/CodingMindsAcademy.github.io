@@ -52,17 +52,17 @@ app.controller('loginControl', function($scope, $http, $window) {
           sessionStorage.setItem('lastName', $scope.lastName);
           sessionStorage.setItem('organizationId', $scope.organizationId);
           console.log(sessionStorage)
-          $window.location.href = 'account.html';
-          //$location.path("account.html");
-
+          $window.location.href = 'account.html';          
         }, 
         function myError(response) {
           console.log("get student by ID fail");
+          window.alert("Can not find username");
           console.log(response);
         })
       }, function myError(response) {
       console.log("Login fail");
-      console.log(response);    
+      window.alert("No user, please try again");
+      console.log(response);
     });
     
   }

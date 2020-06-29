@@ -91,6 +91,7 @@ angular.module('v3App', ['ngMaterial'])
 
       $('a.toggle_schedule').click(function () {
         $(this).closest('div.card').find('.course_schedule').toggle();
+        console.log($masonry.masonry);
         $masonry.masonry('layout');
         return false;
       });

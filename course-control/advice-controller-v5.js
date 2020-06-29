@@ -34,7 +34,7 @@ angular.module('v3App', ['ngMaterial'])
                 $scope.suggestedCourses.push(course);
             }
         });
-    }else{
+    } else {
 
         $scope.campus = "Irvine校区";
         $scope.courseList = irvinedb;

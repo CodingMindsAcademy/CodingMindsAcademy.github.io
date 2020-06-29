@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -16,9 +16,9 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>        
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <style>
             .new-modal {                
               position: fixed; 
@@ -26,7 +26,7 @@
               left: 0; 
               top: 0;
               width: 100%;
-              height: 100%; 
+              height: 100%;               
               background-color: rgb(0, 0, 0);
               background-color: rgb(0, 0, 0, 0);
             }
@@ -230,10 +230,10 @@
                                                                     </div>
                                                                     
                                                                 </li>
-                                                            </ul><ul class="tabs-content"><li class=""><div class="tab__content text-center">                                                                    
+                                                            </ul><ul class="tabs-content"><li class="active"><div class="tab__content text-center">                                                                    
                                                                     
                                                                     <div class="tabs-container" data-content-align="center">
-
+                                                                        <div class = "masonry1">
                                                                             <div class="text-block clearfix text-center" ng-style = "courseListStyle">
                                                                                     <h2>{{ stuLocation }} 校区全部课程</h4>
                                                                             </div>
@@ -241,20 +241,51 @@
 
                                                                         <!-- Strat one course item --> 
                                                                         
-                                                                            <div class="col-sm-4 col-xs-12 slide" ng-repeat="course in courseCurrentList" style = "height: 200px" ng-click = showModal() ng-style = "courseListStyle">
-                                                                                <div class="boxed boxed--border" ng-style = "courseListStyle">
+                                                                            <div class="col-sm-4 col-xs-12 slide" ng-repeat="(index, course) in courseCurrentList" ng-style = "courseListStyle">
+                                                                            <div ng-style = heightStyleList[index]>
+                                                                                <div class="boxed boxed--border" ng-style = "">
                                                                                      <div class = "row">
                                                                                         <div class="" style="background: url(&quot;{{course.imageUrl}}&quot;) center; float:left; width: 80px; height: 80px; background-size: cover; margin-bottom: 5%; margin-left: 2%">
                                                                                         </div>
                                                                                         <div style= "float:right; width:65%; height:100%; margin-right:2%">
                                                                                             <h5>{{course.name}}</h5>
                                                                                         </div>
-                                                                                    </div>                                                                                    
-                                                                                    <div href="#" class="btn btn--primary" ng-click = showModal($event)><span class="btn__text" id = {{course.detailsUrl}}>课程详情</span></div>
+                                                                                    </div> 
+                                                                                    <div class = "row">                                                                                    
+                                                                                        <div href="#" class="btn btn--primary model-new-trigger" ng-click = showModal($event) style = "width: 40%; float:left"><span class="btn__text" id = {{course.detailsUrl}}>课程详情</span></div>
+                                                                                        <div class="card__action ">
+                                                                                            <div class="modal-instance block">
+                                                                                                <a class="btn toggle_schedule" ng-click = "showSchedule(index, 'showall')" style = "width: 40%; float:right">
+                                                                                                    <span class="btn__text">
+                                                                                                        选择课程时间
+                                                                                                    </span>
+                                                                                                </a>                                                                                         
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                    <div class="card__body course_schedule" style = "padding-top: 15px" ng-show="showScheduleList[index]">
+                                                                                            <h4>课程时间</h4>
+                                                                                            <p>如果时间不合适请及时联系我们</p>
+                                                                                            <table >
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td style="width: 35%"><b>日期</b></td>
+                                                                                                        <td style="width: 28%"><b>时间</b></td>
+                                                                                                        <td style="width: 28%"><b>注册</b></td>
+                                                                                                    </tr>
+                                                                                                    <tr ng-repeat="data in course['repeatData']">
+                                                                                                        <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                                                                        <td style="width: 28%">{{data.dayTime}}</td>
+                                                                                                        <td style="width: 28%">
+                                                                                                        <a href="#" class="btn btn--sm btn--primary modal-trigger" ng-click = putCourse(data.courseid)><span class="btn__text">注册</span></a></td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>       
-
-                                                                            
 
                                                                             <div class="new-modal" ng-hide = hideModal style = "opacity: 1">
                                                                                 <div class="new-modal-content">
@@ -262,29 +293,83 @@
                                                                                         <div class="container" style="padding-top: 1.1em">
                                                                                             <span class = "close-btn" ng-click = closeModal()>close</span>
                                                                                             <div class="row" style="">
-                                                                                                <iframe width="200" height="800" ng-src="{{modalSource}}"></iframe>
+                                                                                                <iframe width="300" height="800" ng-src="{{modalSource}}"></iframe>
                                                                                             </div>
                                                                                             <!--end of container-->
                                                                                         </div>
                                                                                     </section>
-                                                                                </div>
-                                                                                
+                                                                                </div>                                                                                
                                                                             </div> 
 
                                                                                                                                                                                                                 
                                                                         
                                                                         <!-- End one course item -->
 
-                                                                        
-
-
-
-                                                                    </div></li><li class="active"><div class="tab__content">
+                                                                    </div></li><li class=""><div class="tab__content">
                                                                         <div class="col-sm-12 text-center">
-                                                                        <p class="lead">
-                                                                            推荐课程
-                                                                        </p>
-                                                                        </div>            
+                                                                            <div class="text-block clearfix text-center" ng-style = "courseListStyle">
+                                                                                    <h2>{{ stuLocation }} 校区推荐课程</h4>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-4 col-xs-12 slide" ng-repeat="(index, course) in suggestedCoursesList" ng-style = "courseListStyle">
+                                                                        <div ng-style = heightSuggestStyleList[index]>
+                                                                            <div class="boxed boxed--border" ng-style = "">
+                                                                                 <div class = "row">
+                                                                                    <div class="" style="background: url(&quot;{{course.imageUrl}}&quot;) center; float:left; width: 80px; height: 80px; background-size: cover; margin-bottom: 5%; margin-left: 2%">
+                                                                                    </div>
+                                                                                    <div style= "float:right; width:65%; height:100%; margin-right:2%">
+                                                                                        <h5>{{course.name}}</h5>
+                                                                                    </div>
+                                                                                </div> 
+                                                                                <div class = "row">                                                                                    
+                                                                                    <div href="#" class="btn btn--primary model-new-trigger" ng-click = showModal($event) style = "width: 40%; float:left"><span class="btn__text" id = {{course.detailsUrl}}>课程详情</span></div>
+                                                                                    <div class="card__action ">
+                                                                                        <div class="modal-instance block">
+                                                                                            <a class="btn toggle_schedule" ng-click = "showSchedule(index,'showsuggested')" style = "width: 40%; float:right">
+                                                                                                <span class="btn__text">
+                                                                                                    选择课程时间
+                                                                                                </span>
+                                                                                            </a>                                                                                         
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="card__body text-center course_schedule" style = "padding-top: 15px" ng-show="showSuggestScheduleList[index]">
+                                                                                        <h4>课程时间</h4>
+                                                                                        <p>如果时间不合适请及时联系我们</p>
+                                                                                        <table >
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td style="width: 35%"><b>日期</b></td>
+                                                                                                    <td style="width: 28%"><b>时间</b></td>
+                                                                                                    <td style="width: 28%"><b>注册</b></td>
+                                                                                                </tr>
+                                                                                                <tr ng-repeat="data in course['repeatData']">
+                                                                                                    <td style="width: 35%">{{data.range}}<br>上半期八周</td>
+                                                                                                    <td style="width: 28%">{{data.dayTime}}</td>
+                                                                                                    <td style="width: 28%">
+                                                                                                    <a href="#" class="btn btn--sm btn--primary modal-trigger" ng-click = putCourse(data.courseid)><span class="btn__text">注册</span></a></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>       
+
+                                                                        <div class="new-modal" ng-hide = hideModal style = "opacity: 1">
+                                                                            <div class="new-modal-content">
+                                                                                <section class="imageblock feature-large bg--white border--round ">
+                                                                                    <div class="container" style="padding-top: 1.1em">
+                                                                                        <span class = "close-btn" ng-click = closeModal()>close</span>
+                                                                                        <div class="row" style="">
+                                                                                            <iframe width="300" height="800" ng-src="{{modalSource}}"></iframe>
+                                                                                        </div>
+                                                                                        <!--end of container-->
+                                                                                    </div>
+                                                                                </section>
+                                                                            </div>                                                                                
+                                                                        </div> 
 
                                                                     </div></li><li class=""><div class="tab__content">
                                                                         <div class="col-sm-12 text-center">
@@ -371,9 +456,9 @@
                     
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
-        </a>        
+        </a>                
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/angular.min.js"></script>
+        <script src="js/angular.min.js"></script>        
         <script src="js/angular-animate.min.js"></script>
         <script src="js/angular-aria.min.js"></script>
         <script src="js/angular-material.min.js"></script>
