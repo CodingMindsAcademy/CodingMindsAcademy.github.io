@@ -4,8 +4,9 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
   var url = $location.$$absUrl;
   var url = new URL(url);
-  var new_user = url.searchParams.get("new_user");
-  console.log(new_user);
+  var courseId = url.searchParams.get("courseId");
+  var price = url.searchParams.get("price");
+  console.log(courseId);
   console.log('nmsl');
 	$scope.submit = function () {
 
@@ -18,6 +19,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
     postData.firstName = $scope.form.firstName;
     postData.lastName = $scope.form.lastName;
+    postData.username = ($scope.form.firstName + $scope.form.lastName).toLowerCase();
     postData.password = $scope.form.password;
     postData.grade = $scope.form.grade;
     postData.email2 = $scope.form.email2;
@@ -32,39 +34,51 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   	$scope.postData.dateOfBirth = '2018-04-11T15:50:01.459Z';
 	$scope.postData.username = postData.firstName + postData.lastName;
 	console.log($scope.postData.username)	
-	$scope.postData.contact2Type = "WeChatUsername";
-	$scope.postData.notSend = true;
-	// $http({
-  //       method: 'POST',
-  //       url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account`,
-  //       data: $scope.postData
-  //     }).then(function successCallback(response) {
-  //     	console.log('user created', response);
-  //     	console.log('start login');
-  //     // 	var loginData = {
-  //     // 		"username":postData.username,
-  //     // 		"password":postData.password
-  //   	// };
-  //   	// $http({
-	//     //   method : "POST",
-	//     //   url : "https://dev-sharemyworks-backend.herokuapp.com/api/Account/login",
-	//     //   data: loginData
-	//     // }).then(function loginSuccess(response) {
-	//     // 	sessionStorage.setItem('userId',  response.data.userId);
-	//     // 	sessionStorage.setItem('authCode', response.data.id);
-	//     // 	sessionStorage.setItem('firstName', postData.firstName);
-	//     // 	sessionStorage.setItem('lastName', postData.lastName);
-	//     // 	$window.location.href = 'account.html';
-	//     // }, function loginError(response) {
-  //     //     console.log("get student by ID fail");
-  //     //     console.log(response);
-  //     //     $window.alert("登陆失败");
-  //     //   })
+	// $scope.postData.contact2Type = "WeChatUsername";
+  $scope.postData.notSend = true;
+  let baseUrl = 'http://localhost:3000/api/'
+	$http({
+        method: 'POST',
+        url: baseUrl+ `Account`,
+        data: $scope.postData
+      }).then(function successCallback(response) {
+      	console.log('user created', response);
+        console.log('start login');
+        let studentId = response.data.id;
+      // 	var loginData = {
+      // 		"username":postData.username,
+      // 		"password":postData.password
+      // };
+    	$http({
+	      method : "PUT",
+	      url : baseUrl+ "Course/" + courseId + '/students/rel/' + studentId,
+	    }).then(function addSuccess(response) {
 
-  //     }, function registerError(response) {
-  //         console.log("Can not registering");
-  //         console.log(response);
-  //         $window.alert("注册失败");
-  //     })
+        $http({
+          method:'POST',
+          url:baseUrl + 'Invoices',
+          data:{
+            date: new Date(),
+            amount: price,
+            accountId: studentId,
+            courseId: courseId
+          }
+        }).then(function createSuccess(response){
+          console.log(response);
+
+        }, function createError(error){
+          console.log(error);
+        })
+        console.log(response);
+	    }, function addError(response) {
+          console.log(response);
+          $window.alert("添加学生失败");
+      })
+
+      }, function registerError(response) {
+          console.log("Can not registering");
+          console.log(response);
+          $window.alert("注册失败");
+      })
   }
 })

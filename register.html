@@ -136,7 +136,7 @@
                                         </div>
                                         
                                     </li>
-                                    <li class="active">
+                                    <!-- <li class="active">
                                         <div class="tab__title text-center">
                                             <i class="icon icon--sm block icon-Finger-DragFourSides"></i>
                                             <span class="h5">微信注册</span>
@@ -149,8 +149,8 @@
                                             <span class="h5">其他注册</span>
                                         </div>
                                         
-                                    </li>
-                                </ul><ul class="tabs-content"><li class=""><div class="tab__content" ng-app="myApp" ng-controller="myRegisterCtrl">
+                                    </li> -->
+                                </ul><ul class="tabs-content"><li class="active"><div class="tab__content" ng-app="myApp" ng-controller="myRegisterCtrl">
                                             
                                                 <div class="col-sm-12 text-center">
                                                     <p class="lead">
@@ -177,7 +177,7 @@
                                                             <input type="text" ng-model="form.grade" placeholder="年级" />
                                                         </div>
                                                         <div class="col-sm-12">
-                                                            <input type="email" ng-model="form.email2" placeholder="Email">
+                                                            <input type="email" ng-model="form.email2" placeholder="Email" required>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
@@ -189,19 +189,25 @@
                                                 </form>
                                             </div>
 
-                                        </div></li><li class="active"><div class="tab__content">
+                                        </div></li>
+                                        <!-- <li class="active"><div class="tab__content">
                                             <div class="col-sm-12 text-center">
                                             <p class="lead">
                                                 微信注册
                                             </p>
                                             </div>            
 
-                                        </div></li><li class=""><div class="tab__content">
+                                        </div></li>
+                                        <li class="">
+                                        <div class="tab__content">
                                             <div class="col-sm-12 text-center">
-                                            <p class="lead">
-                                                其他注册
-                                            </p></div>                                            
-                                        </div></li></ul>
+                                                <p class="lead">
+                                                    其他注册
+                                                </p>
+                                            </div>                                            
+                                        </div>
+                                    </li> -->
+                                </ul>
                             </div>
                             <!--end of tabs container-->
                         </div>
