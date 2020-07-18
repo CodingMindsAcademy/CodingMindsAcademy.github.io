@@ -36,7 +36,8 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 	console.log($scope.postData.username)	
 	// $scope.postData.contact2Type = "WeChatUsername";
   $scope.postData.notSend = true;
-  let baseUrl = 'http://localhost:3000/api/'
+  // let baseUrl = 'http://localhost:3000/api/'
+  let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
 	$http({
         method: 'POST',
         url: baseUrl+ `Account`,
