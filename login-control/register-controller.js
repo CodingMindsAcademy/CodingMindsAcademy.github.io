@@ -62,7 +62,9 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
             date: new Date(),
             amount: price,
             accountId: studentId,
-            courseId: courseId
+            courseId: courseId,
+            paymentMethod: 'pending',
+            status:'pending'
           }
         }).then(function createSuccess(response){
           console.log(response);
