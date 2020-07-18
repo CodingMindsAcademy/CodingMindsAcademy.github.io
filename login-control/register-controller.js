@@ -24,6 +24,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
     postData.grade = $scope.form.grade;
     postData.email2 = $scope.form.email2;
     postData.phone2 = $scope.form.phone2;
+    postData.dateOfBirth = $scope.form.dateOfBirth;
 
     registering(postData)
   }
@@ -31,7 +32,6 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   function registering(postData) {
 
   	$scope.postData = postData;
-  	$scope.postData.dateOfBirth = '2018-04-11T15:50:01.459Z';
 	$scope.postData.username = postData.firstName + postData.lastName;
 	console.log($scope.postData.username)	
 	// $scope.postData.contact2Type = "WeChatUsername";
