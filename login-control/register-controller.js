@@ -65,7 +65,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
           }
         }).then(function createSuccess(response){
           console.log(response);
-
+          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
         }, function createError(error){
           console.log(error);
         })
