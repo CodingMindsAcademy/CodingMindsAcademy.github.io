@@ -114,6 +114,13 @@ angular.module('v3App', [])
               return count;
             }
 
+            function getExtraClassDayTime(classDays){
+              let classDayTimes = [];
+              classDays.forEach(classDay=>{
+                classDayTimes.push(classDay.classDay + ' ' + classDay.classTime + '-'+ classDay.classEndTime);
+              })
+              return classDayTimes;
+            }
             let course = response.data;
             $scope.course_level = coursedb.cn[course.courseCode].gradeLevel.slice(0,2);
             $scope.course_name = course.name;
@@ -125,6 +132,7 @@ angular.module('v3App', [])
             console.log(course);
             var values = getNextClassCount(course, today);
             console.log(values);
+            $scope.course_time =  $scope.course_time + '\n' + (getExtraClassDayTime(course.classDays)).join('\n');
             $scope.nextClassesCount = values[0];
             $scope.totalClassesCount = values[1];
 
