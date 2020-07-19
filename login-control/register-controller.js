@@ -7,24 +7,27 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   var courseId = url.searchParams.get("courseId");
   var price = url.searchParams.get("price");
   console.log(courseId);
-  console.log('nmsl');
 	$scope.submit = function () {
 
 
     console.log($scope.form.firstName);
-    console.log($scope.form.lastName);
-    console.log($scope.form.password);
+    console.log($scope.form);
 
     var postData = {}
 
     postData.firstName = $scope.form.firstName;
     postData.lastName = $scope.form.lastName;
     postData.username = ($scope.form.firstName + $scope.form.lastName).toLowerCase();
+
     postData.password = $scope.form.password;
+    if($scope.form.password !== $scope.form.password2){
+      alert('密码不一致');
+      return
+    }
     postData.grade = $scope.form.grade;
     postData.email2 = $scope.form.email2;
     postData.phone2 = $scope.form.phone2;
-    postData.dateOfBirth = $scope.form.dateOfBirth;
+    postData.dateOfBirth = new Date();
 
     registering(postData)
   }
@@ -32,8 +35,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   function registering(postData) {
 
   	$scope.postData = postData;
-	$scope.postData.username = postData.firstName + postData.lastName;
-	console.log($scope.postData.username)	
+	$scope.postData.username = postData.firstName + postData.lastName + Date.now();
 	// $scope.postData.contact2Type = "WeChatUsername";
   $scope.postData.notSend = true;
   // let baseUrl = 'http://localhost:3000/api/'

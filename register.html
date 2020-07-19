@@ -164,6 +164,18 @@
                                             <div class="feature__body">
                                                 <form ng-submit="submit()">
                                                     <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <input type="email" ng-model="form.email2" placeholder="家长Email" required>
+                                                        </div>
+                                                        <div class="col-sm-12">
+                                                            <input type="password" ng-model="form.password" placeholder="密码" required/>
+                                                        </div>
+                                                        <div class="col-sm-12">
+                                                            <input type="password" ng-model="form.password2" placeholder="确认密码" required/>
+                                                        </div>
+                                                        <div class="col-sm-12">
+                                                            <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="家长联系电话" required/>
+                                                        </div>
                                                         <div class="col-sm-6">
                                                             <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
                                                         </div>
@@ -171,20 +183,9 @@
                                                             <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
                                                         </div>
                                                         <div class="col-sm-12">
-                                                            <input type="password" ng-model="form.password" placeholder="密码" required/>
+                                                            <input type="text" ng-model="form.grade" placeholder="年级" required/>
                                                         </div>
-                                                        <div class="col-sm-12">
-                                                            <input type="date" ng-model="form.dateOfBirth" placeholder="出生日期" required/>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <input type="text" ng-model="form.grade" placeholder="年级" />
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <input type="email" ng-model="form.email2" placeholder="Email" required>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="联系电话" required/>
-                                                        </div>
+
                                                         <div class="col-sm-12">
                                                             <button class="btn btn--primary type--uppercase" type="submit">注册</button>
                                                         </div>
