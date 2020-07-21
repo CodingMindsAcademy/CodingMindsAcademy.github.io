@@ -165,7 +165,7 @@
                                                 <form ng-submit="submit()">
                                                     <div class="row">
                                                         <div class="col-sm-12">
-                                                            <input type="email" ng-model="form.email2" placeholder="家长Email" required>
+                                                            <input type="email" ng-model="form.email2"  placeholder="家长Email" required>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <input type="password" ng-model="form.password" placeholder="密码" required/>
@@ -177,10 +177,12 @@
                                                             <input type='tel' autocomplete="tel" ng-model="form.phone2" placeholder="家长联系电话" required/>
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" ng-model="form.firstName" placeholder="学生First Name" required/>
+                                                            <input type="text" ng-model="form.firstName"  pattern = "[A-Za-z]*" placeholder="学生First Name" oninvalid="this.setCustomValidity('请使用英文字母输入名字')"
+                                                            oninput="setCustomValidity('')" required/>
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" ng-model="form.lastName" placeholder="学生Last Name" required/>
+                                                            <input type="text" ng-model="form.lastName" pattern = "[A-Za-z]*" placeholder="学生Last Name" oninvalid="this.setCustomValidity('请使用英文字母输入名字')"
+                                                            oninput="setCustomValidity('')" required/>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <input type="text" ng-model="form.grade" placeholder="年级" required/>
