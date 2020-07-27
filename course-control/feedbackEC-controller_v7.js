@@ -32,6 +32,7 @@ angular.module('v3App', ['ngMaterial'])
           $scope.Level = response.data.courses[0].gradeLevel; 
           $scope.Term = response.data.courses[0].term;          
           $scope.StudentCourse = response.data.courses[0];
+          console.log("TEST Completion: " + response.data.courses[0].completion);
           if (response.data.courses[0].completion) {
             $scope.Completion = response.data.courses[0].completion.replace(/同学/g, response.data.profile.firstName);
           }

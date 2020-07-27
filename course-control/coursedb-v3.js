@@ -339,14 +339,14 @@ var coursedb = {
 			'enabled':true,
 			'online':false,
 			'cid':'CS240',
-			'sname':'Roblox 3',
+			'sname':'Roblox 3 Game AI',
 			'curriculum':'',
 			'title1':'人工智能初步与Lua实践',
 			'title2':'AI与智能游戏编程',
 			'name':'人工智能初步与Lua实践:AI与智能游戏编程',
 			'shortName':'人工智能初步与Lua实践',
 			'imageUrl':'img/my/roblox3/bg2-sm.jpg',
-			'gradeLevel':'L2简洁代码编程',
+			'gradeLevel':'L3代码编程',
 			'text':'在Roblox平台开发智能游戏AI，开启AI编程学习的第一步',
 			'tag':'游戏编程系列',
 			'pathway':['game'],
@@ -355,7 +355,10 @@ var coursedb = {
 			'locations':'选择地点',
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/0KnUba'
+			'registerForm':'https://jinshuju.net/f/0KnUba',
+			'introduction':'从Roblox 3开始，学生计入到L3级别的编程课程，该级别要求同学专注于代码的编程和算法设计与实现。Roblox 3依托Roblox游戏开发平台，主要的目标是让同学使用Lua代码实现初步的AI功能与逻辑。本节课目标是带领同学完成一个AI游戏算法并植入到游戏项目项目中去，打开AI世界的大门。',
+			'introduction':'从Roblox 3开始，同学已经计入到L3级别的编程课程，该级别要求同学完全专注于代码的编程和算法设计与实现。通过本节课的完成，同学学习了Lua代码实现初步的AI功能与逻辑，并且完成了一个AI游戏算法并植入到了自己的游戏项目项目中去，对AI世界有了初步的体验。',
+			'nextCourseId':'CS300'	
 		},
 		'cs300' : {
 			'enabled':true,
