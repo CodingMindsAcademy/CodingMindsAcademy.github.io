@@ -331,8 +331,9 @@ var coursedb = {
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba',
-			'introduction':'Roblox 2是L2级别的核心课程，也是L2级别的最后一门课，主要的目标是让同学更多的编写简洁的代码程序，尝试设计程序算法，并且可以独立的构思功能并融入到项目中去。本节课同学需要完成所有常用的Lua编程语言的功能特点，并且完成一个可以参赛的综合的Roblox的游戏项目，为下一阶段L3的Python编程做好准备。',
-			'nextCourseId':'CS300'
+			'introduction':'Roblox 2是L2级别的核心课程，主要的目标是让同学使用Lua更多的编写简洁的代码程序，尝试设计程序算法，并且可以独立的构思功能并融入到项目中去。本节课同学需要完成所有常用的Lua编程语言的功能特点，并且完成一个可以参赛的综合的Roblox的游戏项目，为下一阶段L3的编程学习做好准备。',
+			'completion':'Roblox 2是L2级别的核心课程，主要的目标是让同学使用Lua更多的编写简洁的代码程序，尝试设计程序算法，并且可以独立的构思功能并融入到项目中去。通过本节课的完成，同学已经完成所有常用的Lua编程语言的功能特点，并且完成了一个可以参赛的综合的Roblox的游戏项目，为下一阶段L3的编程学习做好了准备。',
+			'nextCourseId':'CS240'
 		},
 		'cs240' : {
 			'enabled':true,
