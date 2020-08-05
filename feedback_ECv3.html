@@ -205,15 +205,17 @@
                                     <hr>
                                     <h2 class="text-center">2020夏学习建议<br></h2>                                    
                                     <p class="text-center">按照我们的课程体系和{{StudentRecord.firstName}}的学习情况，我们建议{{StudentRecord.firstName}}学习下一阶段的课程:</p>
+                                    <div ng-repeat="course in suggestedCourses">
                                     <table class="border--round table--alternate-row">
                                         <tbody>
+
                                             <tr>
                                                 <td style="width: 30%">课程名称</td>
-                                                <td style="width: 70%">{{nextCourse.sname}}</td>
+                                                <td style="width: 70%">{{course.sname}}</td>
                                             </tr>
                                             <tr>
                                                 <td>课程级别</td>
-                                                <td>{{nextCourse.gradeLevel}}</td>
+                                                <td>{{course.gradeLevel}}</td>
                                             </tr>
                                             <tr>
                                                 <td>课程时间</td>
@@ -221,7 +223,9 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <p class="text-center">{{nextCourse.introduction}}</p>
+                                    <p class="text-center">{{course.introduction}}</p>
+
+                                    </div>
                                     <!-- <a class="btn btn--primary type--uppercase" ng-click="redirect()" >
                                         <span class="btn__text">
                                             点击查看2020夏季推荐课程

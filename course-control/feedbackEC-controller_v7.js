@@ -5,15 +5,16 @@ angular.module('v3App', ['ngMaterial'])
   })
   .controller('FeedbackController', function($scope, $http, $location, $mdToast) {
     var url = $location.$$absUrl;
-    var student_id = url.slice(url.indexOf('=')+1,url.length);
-
-    var suggestedCourses = id_courses[student_id];
-    if(suggestedCourses){
-      suggestedCourses.sort();
-      $scope.Level = coursedb['cn'][suggestedCourses[0]].gradeLevel;
-    }else{
-      $scope.Level = 'L1图形化编程'
-    }
+    var url = new URL(url);
+    var studentId = url.searchParams.get("studentId");
+    var courseId = url.searchParams.get("courseId");
+    var suggestedCourses = id_courses[studentId];
+    // if(suggestedCourses){
+    //   suggestedCourses.sort();
+    //   $scope.Level = coursedb['cn'][suggestedCourses[0]].gradeLevel;
+    // }else{
+    //   $scope.Level = 'L1图形化编程'
+    // }
 
     // console.log(suggestedCourses);
     // console.log($scope.Level);
@@ -24,40 +25,57 @@ angular.module('v3App', ['ngMaterial'])
     //     'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
     //   },     
       params: {
-        id: student_id
+        accountId: studentId,
+        courseId: courseId
       }
     }).then(function successCallback(response) {
-         console.log(response);
-        if (response.data.courses != []) {
-          $scope.Level = response.data.courses[0].gradeLevel; 
-          $scope.Term = response.data.courses[0].term;          
-          $scope.StudentCourse = response.data.courses[0];
-          console.log("TEST Completion: " + response.data.courses[0].completion);
-          if (response.data.courses[0].completion) {
-            $scope.Completion = response.data.courses[0].completion.replace(/同学/g, response.data.profile.firstName);
-          }
+        console.log(response);
+        let course = response.data.course;
+        let student = response.data.profile;
+        let suggestedCourses = response.data.suggestedCourses;
+        $scope.Level = course.coursesDB.gradeLevel;
+        $scope.Term = course.term;          
+        $scope.StudentCourse = course;
+        $scope.suggestedCourses = suggestedCourses;
+        if(course.coursesDB.completion){
+          $scope.Completion = course.coursesDB.completion.replace(/同学/g, response.data.profile.firstName);
         }
+
+        // if (response.data.courses != []) {
+        //   $scope.Level = response.data.courses[0].gradeLevel; 
+        //   $scope.Term = response.data.courses[0].term;          
+        //   $scope.StudentCourse = response.data.courses[0];
+          
+        //   console.log("TEST Completion: " + response.data.courses[0].completion);
+        //   if (response.data.courses[0].completion) {
+        //     $scope.Completion = response.data.courses[0].completion.replace(/同学/g, response.data.profile.firstName);
+        //   }
+        // }
         $scope.StudentRecord = response.data.profile;
-        $scope.Feedbacks = response.data.feedback;
+        if(course.feedbacks.length > 0){
+          $scope.Feedbacks = course.feedbacks[0];
+          $scope.EOSfeedback = course.feedbacks[0];
+        }
+
 
         // next course
-        if (response.data.courses[0].nextCourseId) {
-         $scope.nextCourse = response.data.nextCourses[response.data.courses[0].nextCourseId.toLowerCase()];
-        }
+        // if (response.data.courses[0].nextCourseId) {
+        //  $scope.nextCourse = response.data.nextCourses[response.data.courses[0].nextCourseId.toLowerCase()];
+        // }
         
 
 
-        var idx = response.data.activities.length - 1;
-        $scope.FinalProject = response.data.activities[idx];
+        // var idx = response.data.activities.length - 1;
+        // $scope.FinalProject = response.data.activities[idx];
 
-        var feedbackId;
-        // console.log($scope.Feedbacks)
-        $scope.Feedbacks.forEach(element => {
-          if (element.endOfSemesterFlag === true){
-            feedbackId = element.id;
-            $scope.EOSfeedback = element;
-          }
-        });
+        var feedbackId = '';
+        // // console.log($scope.Feedbacks)
+        // $scope.Feedbacks.forEach(element => {
+        //   if (element.endOfSemesterFlag === true){
+        //     feedbackId = element.id;
+        //     $scope.EOSfeedback = element;
+        //   }
+        // });
                      // console.log($scope.EOSfeedback);
 
         if ($scope.EOSfeedback && ['',undefined,'翻译出现错误'].includes($scope.EOSfeedback.text_cn)){
