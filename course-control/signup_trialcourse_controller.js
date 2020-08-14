@@ -52,8 +52,8 @@ angular.module('v3App', ['ngMaterial'])
       return
     }
     let username = $scope.form.firstName + $scope.form.lastName + Date.now();
-    // let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
-    let baseUrl = 'http://localhost:3000/api/'
+    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    // let baseUrl = 'http://localhost:3000/api/'
     let accountData = {
       email2: $scope.form.email2,
       phone2: $scope.form.phone2,
