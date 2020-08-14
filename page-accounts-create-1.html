@@ -1,23 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html ng-app="v3App" lang="en">
     <head>
         <meta charset="utf-8">
         <title>Stack Multipurpose HTML Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site Description Here">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" /> -->
         <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet"> -->
+        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+        <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
+
     </head>
-    <body class=" ">
+    <body ng-controller="signup_trialcourse_controller">
         <a id="start"></a>
         <div class="nav-container ">
             <nav class="bar bar-4 bar--transparent bar--absolute" data-fixed-at="200">
@@ -32,21 +34,9 @@
                             </div>
                             <!--end module-->
                         </div>
-                        <!-- <div class="col-md-4 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                            <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        Try Builder
-                                    </span>
-                                </a>
-                                <a class="btn btn--sm btn--primary type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        Buy Now
-                                    </span>
-                                </a>
-                            </div>
+                        
                             <!--end module-->
-                        </div> -->
+                        </div>
                     </div>
                     <!--end of row-->
                 </div>
@@ -63,138 +53,98 @@
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
-                        <div class="col-md-5 col-sm-7">
-                            <h2>Sign Up For Trial Class</h2>
-                            <p class="lead">Get on the flight to Silicon Valley.</p>
+                        <div class="col-md-5 col-sm-7" style="overflow-y:auto;">
+                            <h2>免费注册试听课程</h2>
                             <form>
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <input type="text" name="Student Name" placeholder="Student Name" />
+                                        <input type="text" required ng-model='form.name' name="Student Name" pattern = "[A-Za-z ]*" oninvalid="this.setCustomValidity('请使用英文字母输入名字')" oninput="setCustomValidity('')" placeholder="孩子姓名" />
                                     </div>
                                     <div class="col-xs-12">
-                                        <input type="text" name="Grade" placeholder="Grade" />
+                                        <input type="text" required ng-model='form.grade' name="Grade" placeholder="就读年级" />
                                     </div>
                                     <div class="col-xs-12">
-                                        <input type="email" name="Parent Email" placeholder="Parent Email" />
+                                        <input type="email" required ng-model='form.email2' name="Parent Email" placeholder="家长邮箱" />
                                     </div>
                                     <div class="col-xs-12">
-                                        <input type="phone" name="Parent Wechat" placeholder="Parent Wechat" />
+                                        <input type="phone" required ng-model='form.phone2' name="Parent Phone" placeholder="家长电话" />
                                     </div>
+
                                     <div class="col-xs-12">
-                                        <!-- <input type="text" name="Coding Experience" placeholder="Coding Experience" /> -->
                                         <div class="input-select">
-                                            <select>
-                                                <option selected="" value="Default">Select An Option</option>
-                                                <option value="Small">Never learned before</option>
-                                                <option value="Medium">Very basic exposure</option>
-                                                <option value="Larger">Knows at least one programming language very well</option>
-                                                <option value="Larger">Hacker!</option>
-                                            </select>
+                                            <select class="form-control" ng-change="codingExperienceChanged()" ng-model="form.codingExperience">
+                                                <option ng-selected="form.codingExperience == item.id" ng-repeat="item in codingExperiences" ng-value="item.id">{{item.label}}</option>
+                                           </select>
                                         </div>
                                     </div>
+
                                     <div class="col-sm-12 text-center">
                                         <h5>Please select topics you learned before</h5>
                                     </div>
                                     <div class="d-flex p-2">
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
+                                        <!-- <div class="input-checkbox">
                                             <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>Scratch</span>
+                                            <input type="checkbox" ng-model="form.nmsl" ng-change="oncheckboxchange()"></input>
+                                            <span>Scratch</span>
+                                        </div> -->
+
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.scrach" >
+                                            Scratch
+                                        </md-checkbox>
+
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>Lego EV3</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.legoev3" >
+                                            Lego EV3
+                                        </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>MakeCode</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.makdcode" >
+                                           MakeCode
+                                        </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>Roblox Lua</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.robloxlua" >
+                                            Roblox Lua
+                                         </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>Python</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.python" >
+                                            Python
+                                         </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>Java</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.java" >
+                                            Java
+                                         </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>C++</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.cpp" >
+                                            C++
+                                         </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>AI</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.ai" >
+                                            AI
+                                         </md-checkbox>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>ML</span>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="input-checkbox ">
-                                            
-                                            <div class="inner"></div>
-                                            <input type="checkbox" name="design">
-                                            
-                                        </div>
-                                        <span>USACO</span>
+                                        <md-checkbox md-no-ink class="md-primary" ng-model="form.topics.usaco" >
+                                            USACO
+                                         </md-checkbox>
                                     </div>
                                     </div>
                                     <div class="col-xs-12">
-                                        <button type="submit" class="btn btn--primary type--uppercase">Create Account</button>
+                                        <input type="text" ng-model='form.availability' name="Comment" placeholder="请输入合适您和孩子的时间" />
                                     </div>
                                     <div class="col-xs-12">
-                                        <span class="type--fine-print">By signing up, you agree to the
-                                            <a href="#">Terms of Service</a>
-                                        </span>
+                                        <input type="text" ng-model='form.comment' name="Comment" placeholder="备注" />
                                     </div>
+                                    <div class="col-xs-12">
+                                        <button type="submit" ng-click="submit()" class="btn btn--primary type--uppercase">提交</button>
+                                    </div>
+
                                 </div>
                                 <!--end row-->
                             </form>
@@ -211,20 +161,25 @@
             <i class="stack-interface stack-up-open-big"></i>
         </a>
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/flickity.min.js"></script>
-        <script src="js/easypiechart.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/typed.min.js"></script>
-        <script src="js/datepicker.js"></script>
-        <script src="js/isotope.min.js"></script>
-        <script src="js/ytplayer.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/granim.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-animate.min.js"></script>
+        <script src="js/angular-aria.min.js"></script>
+        <script src="js/angular-material.min.js"></script>
+        <!-- <script src="js/flickity.min.js"></script> -->
+        <!-- <script src="js/easypiechart.min.js"></script> -->
+        <!-- <script src="js/parallax.js"></script> -->
+        <!-- <script src="js/typed.min.js"></script> -->
+        <!-- <script src="js/datepicker.js"></script> -->
+        <!-- <script src="js/isotope.min.js"></script> -->
+        <!-- <script src="js/ytplayer.min.js"></script> -->
+        <!-- <script src="js/lightbox.min.js"></script> -->
+        <!-- <script src="js/granim.min.js"></script> -->
         <script src="js/jquery.steps.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/twitterfetcher.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
+        <!-- <script src="js/countdown.min.js"></script> -->
+        <!-- <script src="js/twitterfetcher.min.js"></script> -->
+        <!-- <script src="js/spectragram.min.js"></script> -->
         <script src="js/smooth-scroll.min.js"></script>
+        <script src="course-control/signup_trialcourse_controller.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
