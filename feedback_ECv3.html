@@ -137,42 +137,42 @@
                     <div class="col-sm-12">
                         <div class="text-center">
                             <i class="icon icon-Coding color--primary"></i>
-                            <h2 class="text-center">编程课学生学习反馈<br></h2>
+                            <h2 class="text-center">{{StudentRecord.firstName}}学习总结与规划<br></h2>
                             <!-- <h2 class="text-center">{{stuFbDb[stuid].name}}<br>编程课学生学习反馈<br></h2> -->
-                            <p class="text-center">{{StudentRecord.firstName}}完成了本学期的课程学习，具体的学习情况和学习建议总结如下：</p>
+                            <p class="text-center">{{StudentRecord.firstName}}已经完成本学期的课程学习，具体的学习情况和下阶段学习目标总结如下：</p>
                         </div>
                         
-                            <hr>
-                            <table class="border--round table--alternate-row">
-                                <tbody>
-                                    <tr>
-                                        <td style="width: 30%">学生姓名</td>
-                                        <td style="width: 70%">{{StudentRecord.firstName}} {{StudentRecord.lastName}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width: 30%">课程名称</td>
-                                        <td style="width: 70%">{{StudentCourse.name}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>课程级别</td>
-                                        <td>{{Level}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>课程时间</td>
-                                        <td>{{Term}} {{StudentCourse.classDay}} {{StudentCourse.classTime}}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <hr>
+                        <table class="border--round table--alternate-row">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 30%">学生姓名</td>
+                                    <td style="width: 70%">{{StudentRecord.firstName}} {{StudentRecord.lastName}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%">课程名称</td>
+                                    <td style="width: 70%">{{StudentCourse.name}}</td>
+                                </tr>
+                                <tr>
+                                    <td>课程级别</td>
+                                    <td>{{Level}}</td>
+                                </tr>
+                                <tr>
+                                    <td>课程时间</td>
+                                    <td>{{Term}} {{StudentCourse.classDay}} {{StudentCourse.classTime}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
-                            <h2 class="text-center">学期总结<br></h2>                            
-                            <p>{{Completion}}</p>
+                        <h2 class="text-center">课程总结<br></h2>                            
+                        <p>{{Completion}}</p>
 
-                            <h2 class="text-center">老师评语<br></h2>                            
-                            <p>{{EOSfeedback.text}}</p>
-                            <div ng-if="EOSfeedback.text_cn">
-                                <p class="text-center">(下面中文翻译由百度翻译自动完成)</p>
-                                <p>{{EOSfeedback.text_cn}}</p>
-                            </div>
+                        <h2 class="text-center">老师评语<br></h2>                            
+                        <p>{{EOSfeedback.text}}</p>
+                        <div ng-if="EOSfeedback.text_cn">
+                            <p class="text-center">(下面中文翻译由百度翻译自动完成)</p>
+                            <p>{{EOSfeedback.text_cn}}</p>
+                        </div>
 
                         <!-- <div ng-if="FinalProject.videoUrl != ''">
                             <hr>
@@ -181,9 +181,9 @@
                             <div height="100%">
                             <iframe  width="100%" id='youtube_video' src={{FinalProject.videoUrl}} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div> -->
-                        </div>
-                            </div>
-                            <!-- <iframe ng-src="{{page.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe> -->
+                    </div>
+                </div>
+                <!-- <iframe ng-src="{{page.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe> -->
                             <!-- <h2 class="text-center">老师反馈<br></h2>
 
                             <table class="border--round table--alternate-row">
@@ -199,32 +199,36 @@
                                 </tbody>
                             </table> -->
                             
-                            <div class="text-center container">
+                            <div class="container">
                                 <div class="row">
                                     <p> </p>
                                     <hr>
                                     <h2 class="text-center">下阶段学习建议<br></h2>                                    
                                     <p class="text-center">按照我们的课程体系和{{StudentRecord.firstName}}的学习情况，我们建议{{StudentRecord.firstName}}学习下一阶段的课程:</p>
                                     <div ng-repeat="course in suggestedCourses">
-                                    <table class="border--round table--alternate-row">
-                                        <tbody>
-
-                                            <tr>
-                                                <td style="width: 30%">课程名称</td>
-                                                <td style="width: 70%">{{course.sname}}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>课程级别</td>
-                                                <td>{{course.gradeLevel}}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>课程时间</td>
-                                                <td>2020夏季课程保持现有上课时间，如果需要调整请联系我们</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <p class="text-center">{{course.introduction}}</p>
-
+                                        <table class="border--round table--alternate-row">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width: 30%">课程名称</td>
+                                                    <td style="width: 70%">{{course.sname}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>课程级别</td>
+                                                    <td>{{course.gradeLevel}}</td>
+                                                </tr>                                                
+                                                <tr>
+                                                    <td>课程目标</td>
+                                                    <td>{{course.introduction}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>课程时间</td>
+                                                    <td>我们尽可能保持现有上课时间，如果需要调整请联系我们</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- <p class="text-center">{{course.introduction}}</p> -->
+                                        <p></p>
+                                        <br>
                                     </div>
                                     <!-- <a class="btn btn--primary type--uppercase" ng-click="redirect()" >
                                         <span class="btn__text">
@@ -234,154 +238,238 @@
                                 </div>
                             </div>
 
-
-                            <div class="boxed">
-                                    <hr>
-                                    <h4 class="text-center">如有问题或反馈，请填写下表</h4>
-                                    <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息">
-                                    <!-- <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" method="POST"> -->
-
-                                        <div class="col-sm-6">
-                                            <!-- <label>学生姓名:</label> -->
-                                            <input ng-hide="true" type="text" name="name" ng-value="stuid"/>
-                                            <input type="hidden" name="_next" value="thanksc.html"/>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="text-center">
+                                            <!-- <hr> -->
+                                            <!-- <i class="icon icon-Launch color--primary"></i> -->
+                                            <!-- <i class="icon color--primary material-icons icon--sm">launch</i> -->
+                                            <!-- <h2 class="text-center">2019-2020年度<br>学习与竞赛目标<br></h2> -->
+                                            <!-- <span class="text-center h2">学习进阶规划</span> -->
+                                            <p class="text-center">以下为{{StudentRecord.firstName}}在5级进阶课程体系的学习进度:</p>
+                                            <br>
                                         </div>
-                                        <!-- <div class="col-sm-6">
-                                            <label>所在班级:</label>
-                                            <input type="text" name="class"/>
-                                        </div> -->
-                                        <div class="col-sm-12">
-                                            <!-- <label>反馈内容:</label> -->
-                                            <textarea rows="4" ng-model="text" name="description" class="validate-required"></textarea>
-                                        </div>
-                                        <div class="col-sm-12 boxed">
-                                            <button  type="submit" class="btn btn--primary type--uppercase">提交</button>
-                                        </div>
-                                    </form>
+                                            <div class="process-1">
+                                                <div class="process__item">
+                                                    <h4 ng-class="{'color--primary': currentLevel == 1, 'color--gray': currentLevel > 1}">L1 图形化编程</h4>
+                                                        <p ng-class="{'color--gray': currentLevel > 1}">
+                                                            图形化编程由MIT发明，学生可以通过图形化的编程指令来迅速掌握编程概念和思维方式
+                                                        </p>
+                                                    </div>
+                                                <div class="process__item">
+                                                    <h4 ng-class="{'color--primary': currentLevel == 2, 'color--gray': currentLevel > 2}">L2 简洁代码编程</h4>
+                                                            <p ng-class="{'color--gray': currentLevel > 2}">
+                                                                简洁代码编程使用高级脚本语言例如Javascript和Lua来帮助学生为专业的代码编程打下基础
+                                                            </p>
+                                                </div>
+                                                <div class="process__item">
+                                                    <h4 ng-class="{'color--primary': currentLevel == 3, 'color--gray': currentLevel > 3}">L3 代码编程</h4>
+                                                                <p ng-class="{'color--gray': currentLevel > 3}">
+                                                                    开始学习高级的编程语言Python，并且逐步练习编写程序代码来进行复杂问题的解决与实现
+                                                                </p>
+                                                </div>
+                                                <div class="process__item">
+                                                    <h4 ng-class="{'color--primary': currentLevel == 4, 'color--gray': currentLevel > 4}">L4 应用主题编程</h4>
+                                                                <p ng-class="{'color--gray': currentLevel > 4}">
+                                                                    拥有一定的代码编程能力后，开始进行应用主题的专项编程，在自己喜欢的方向上开发专业的项目作品
+                                                                </p>
+                                                </div>
+                                                <div class="process__item">
+                                                    <h4 ng-class="{'color--primary': currentLevel == 5, 'color--gray': currentLevel > 5}">L5 竞技编程</h4>
+                                                                <p ng-class="{'color--gray': currentLevel > 5}">
+                                                                    带领学生为各种信息学算法竞赛、科学竞赛、高中AP计算机考试、以及升学背景提升等专业项目做准备和冲刺
+                                                                </p>
+                                                </div>
+                                                <!-- <div class="process__item">
+                                                    <h4>L6 背景提升项目</h4>
+                                                                <p>
+                                                                    带领学生为各种信息学算法竞赛、科学竞赛、高中AP计算机考试、以及升学背景提升等专门项目做准备和冲刺
+                                                                </p>
+                                                </div> -->
+                                    </div>
+                                </div>
+                                <br>
                             </div>
+                        </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
-            </section>
 
-            <footer class="footer-3 text-center-xs space--xs ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img alt="Image" class="logo" src="img/my/logo1.png" />
-                            <ul class="list-inline list--hover">
-                                <li>
-                                    <a href="#">
-                                        <!-- <span class="type--fine-print">Get Started</span> -->
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:Contact@CodingMindsAcademy.com">
-                                        <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                            <ul class="social-list list-inline list--hover">
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-google icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-twitter icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-facebook icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-instagram icon icon--xs"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p class="type--fine-print">
-                                编程助力名校申请 | <a href="index.html">English</a>
-                            </p>
-                        </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                            <span class="type--fine-print">&copy;
-                                <span class="update-year"></span> Coding Minds Inc.</span>
-                                <a class="type--fine-print" href="#">Privacy Policy</a>
-                                <a class="type--fine-print" href="#">Legal</a>
+
+                                        <div class="container">
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="text-center">
+                                                        <!-- <hr> -->
+                                                        <i class="icon icon-Target color--primary"></i>
+                                                        <!-- <h2 class="text-center">2019-2020年度<br>学习与竞赛目标<br></h2> -->
+                                                        <span class="text-center h4">2020-2021年度<br>计算机竞赛目标</span>
+                                                        <!-- <span class="text-center h5 color--primary">蓝色为主要竞赛目标</span> -->
+                                                        <table class="border--round table--alternate-row">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="width: 50%"><b>竞赛名称</b></td>
+                                                                    <td style="width: 50%"><b>竞赛时间</b></td>
+                                                                </tr>
+                                                                <tr ng-repeat="comp in compList">
+                                                                    <td>{{comp.name}}</td>
+                                                                    <td >{{comp.date}}</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="container">
+                                            <hr>
+                                            <h4 class="text-center">如有问题或反馈，请填写留言</h4>
+                                            <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息">
+                                                <!-- <form ng-submit="submit()" class="text-left" data-success="感谢您的反馈" data-error="请填写反馈信息" method="POST"> -->
+
+                                                    <div class="col-sm-6">
+                                                        <!-- <label>学生姓名:</label> -->
+                                                        <input ng-hide="true" type="text" name="name" ng-value="stuid"/>
+                                                        <input type="hidden" name="_next" value="thanksc.html"/>
+                                                    </div>
+                                        
+                                                    <div >
+                                                        <!-- <label>反馈内容:</label> -->
+                                                        <textarea rows="4" ng-model="text" name="description" class="validate-required"></textarea>
+                                                    </div>
+                                                    <br>
+                                                    <div>
+                                                        <button  type="submit" class="btn btn--primary type--uppercase">提交</button>
+                                                    </div>
+                                    </form>
+                                </div>
                             </div>
+                            <!--end of row-->
                         </div>
-                        <!--end of row-->
+                        <!--end of container-->
+                    </section>
+
+                    <footer class="footer-3 text-center-xs space--xs ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img alt="Image" class="logo" src="img/my/logo1.png" />
+                                    <ul class="list-inline list--hover">
+                                        <li>
+                                            <a href="#">
+                                                <!-- <span class="type--fine-print">Get Started</span> -->
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:Contact@CodingMindsAcademy.com">
+                                                <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 text-right text-center-xs">
+                                    <ul class="social-list list-inline list--hover">
+                                        <li>
+                                            <a href="#">
+                                                <i class="socicon socicon-google icon icon--xs"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="socicon socicon-twitter icon icon--xs"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="socicon socicon-facebook icon icon--xs"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="socicon socicon-instagram icon icon--xs"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--end of row-->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p class="type--fine-print">
+                                        编程助力名校申请 | <a href="index.html">English</a>
+                                    </p>
+                                </div>
+                                <div class="col-sm-6 text-right text-center-xs">
+                                    <span class="type--fine-print">&copy;
+                                        <span class="update-year"></span> Coding Minds Inc.</span>
+                                        <a class="type--fine-print" href="#">Privacy Policy</a>
+                                        <a class="type--fine-print" href="#">Legal</a>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                            <!--end of container-->
+                        </footer>
+                        <div id="toast-container" ></div>
                     </div>
-                    <!--end of container-->
-                </footer>
-                <div id="toast-container" ></div>
-            </div>
-            <!--<div class="loader"></div>-->
-            <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-                <i class="stack-interface stack-up-open-big"></i>
-            </a>
-            <script src="js/jquery-3.1.1.min.js"></script>
-            <script src="js/angular.min.js"></script>
-            <script src="course-control/coursedb-v3.js"></script>
-            <script src="course-control/course2020Summer1.js"></script>
-            <script src="course-control/id_coursecodes2.js"></script>
-            <script src="js/angular-animate.min.js"></script>
-            <script src="js/angular-aria.min.js"></script>
-            <script src="js/angular-material.min.js"></script>
-            <script src="course-control/pathway.js"></script>
-            <script src="students/fbec-db-s19v2.js"></script>
-            <script src="course-control/feedbackEC-controller_v7.js"></script>
-            <script src="js/flickity.min.js"></script>
-            <script src="js/easypiechart.min.js"></script>
-            <script src="js/parallax.js"></script>
-            <script src="js/typed.min.js"></script>
-            <script src="js/datepicker.js"></script>
-            <script src="js/isotope.min.js"></script>
-            <script src="js/ytplayer.min.js"></script>
-            <script src="js/lightbox.min.js"></script>
-            <script src="js/granim.min.js"></script>
-            <script src="js/countdown.min.js"></script>
-            <script src="js/twitterfetcher.min.js"></script>
-            <script src="js/spectragram.min.js"></script>
-            <script src="js/smooth-scroll.min.js"></script>
-            <script src="js/scripts.js"></script>
-            <script src="js/utils.js"></script>
-            <script>
-              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    <!--<div class="loader"></div>-->
+                    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+                        <i class="stack-interface stack-up-open-big"></i>
+                    </a>
+                    <script src="js/jquery-3.1.1.min.js"></script>
+                    <script src="js/angular.min.js"></script>
+                    <script src="course-control/coursedb-v3.js"></script>
+                    <script src="course-control/course2020Summer1.js"></script>
+                    <script src="course-control/id_coursecodes2.js"></script>
+                    <script src="students/comp-v3.js"></script>
+                    <script src="js/angular-animate.min.js"></script>
+                    <script src="js/angular-aria.min.js"></script>
+                    <script src="js/angular-material.min.js"></script>
+                    <script src="course-control/pathway.js"></script>
+                    <script src="students/fbec-db-s19v2.js"></script>
+                    <script src="course-control/feedbackEC-controller_v7.js"></script>
+                    <script src="js/flickity.min.js"></script>
+                    <script src="js/easypiechart.min.js"></script>
+                    <script src="js/parallax.js"></script>
+                    <script src="js/typed.min.js"></script>
+                    <script src="js/datepicker.js"></script>
+                    <script src="js/isotope.min.js"></script>
+                    <script src="js/ytplayer.min.js"></script>
+                    <script src="js/lightbox.min.js"></script>
+                    <script src="js/granim.min.js"></script>
+                    <script src="js/countdown.min.js"></script>
+                    <script src="js/twitterfetcher.min.js"></script>
+                    <script src="js/spectragram.min.js"></script>
+                    <script src="js/smooth-scroll.min.js"></script>
+                    <script src="js/scripts.js"></script>
+                    <script src="js/utils.js"></script>
+                    <script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-              ga('create', 'UA-98249988-1', 'auto');
-              ga('send', 'pageview');
+                      ga('create', 'UA-98249988-1', 'auto');
+                      ga('send', 'pageview');
 
-              var url = window.location.href;
-              var stuid = '';
-              if (url.indexOf("=") > -1) {
-                  stuid = url.split("=")[1];
-                  console.log("Student ID: " + stuid);
-              }
-              ga('send', {
-                  hitType: 'event',
-                  eventCategory: 'eoc-fb-f19',
-                  eventAction: 'click',
-                  eventLabel: stuid
-              });
-              var curr_width = window.innerWidth*0.9;
-              var curr_height = curr_width*0.56;
-              document.getElementById('youtube_video').style.height = curr_height + "px";
-          </script>
-      </body>
-      </html>
+                      var url = window.location.href;
+                      var stuid = '';
+                      if (url.indexOf("=") > -1) {
+                          stuid = url.split("=")[1];
+                          console.log("Student ID: " + stuid);
+                      }
+                      ga('send', {
+                          hitType: 'event',
+                          eventCategory: 'eoc-fb-f19',
+                          eventAction: 'click',
+                          eventLabel: stuid
+                      });
+                      var curr_width = window.innerWidth*0.9;
+                      var curr_height = curr_width*0.56;
+                      // document.getElementById('youtube_video').style.height = curr_height + "px";
+                  </script>
+              </body>
+              </html>
