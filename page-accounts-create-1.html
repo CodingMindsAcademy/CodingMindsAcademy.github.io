@@ -59,11 +59,7 @@
                             <form>
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <input type="text" ng-model="form.firstName"  pattern = "[A-Za-z]*" placeholder="学生First Name" oninvalid="this.setCustomValidity('请使用英文字母输入名字')"
-                                        oninput="setCustomValidity('')" required/>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" ng-model="form.lastName" pattern = "[A-Za-z]*" placeholder="学生Last Name" oninvalid="this.setCustomValidity('请使用英文字母输入名字')"
+                                        <input type="text" ng-model="form.name"  pattern = "[A-Za-z]*" placeholder="学生First Name" oninvalid="this.setCustomValidity('请使用英文字母输入名字')"
                                         oninput="setCustomValidity('')" required/>
                                     </div>
                                     <div class="col-xs-12">
@@ -74,12 +70,6 @@
                                     </div>
                                     <div class="col-xs-12">
                                         <input type="phone" required ng-model='form.phone2' name="Parent Phone" placeholder="家长电话" />
-                                    </div>
-                                    <div class="col-xs-12">
-                                        <input type="password" required ng-model='form.password' placeholder="密码" />
-                                    </div>
-                                    <div class="col-xs-12">
-                                        <input type="password" required ng-model='form.confirmPassword' placeholder="确认密码" />
                                     </div>
                                     <div class="col-xs-12">
                                         <div class="input-select">
