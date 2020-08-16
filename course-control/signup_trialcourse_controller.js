@@ -51,16 +51,18 @@ angular.module('v3App', ['ngMaterial'])
       alert('密码不一致');
       return
     }
-    let username = $scope.form.firstName + $scope.form.lastName + Date.now();
+    let username = $scope.form.name.replace(' ','') + Date.now();
+    let firstName = $scope.form.name.split(' ')[0];
+    let lastName = $scope.form.name.split(' ')[1];
     let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
     // let baseUrl = 'http://localhost:3000/api/'
     let accountData = {
       email2: $scope.form.email2,
       phone2: $scope.form.phone2,
       username: username,
-      firstName: $scope.form.firstName,
-      lastName: $scope.form.lastName,
-      password: $scope.form.password,
+      firstName: firstName,
+      lastName: lastName,
+      password: '123',
       dateOfBirth: new Date(),
       grade: $scope.form.grade
     }

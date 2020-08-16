@@ -9,6 +9,12 @@ angular.module('v3App', ['ngMaterial'])
     var studentId = url.searchParams.get("studentId");
     var courseId = url.searchParams.get("courseId");
     var suggestedCourses = id_courses[studentId];
+
+    $scope.compList = [];
+    for(var key in competitionMap) {      
+      $scope.compList.push(competitionMap[key]);
+    }
+
     // if(suggestedCourses){
     //   suggestedCourses.sort();
     //   $scope.Level = coursedb['cn'][suggestedCourses[0]].gradeLevel;
@@ -37,6 +43,10 @@ angular.module('v3App', ['ngMaterial'])
         $scope.Term = course.term;          
         $scope.StudentCourse = course;
         $scope.suggestedCourses = suggestedCourses;
+        console.log("firstone: " + suggestedCourses[0].gradeLevel.charAt(1));
+        $scope.currentLevel = parseInt(suggestedCourses[0].gradeLevel.charAt(1));
+        console.log("current Level: " + $scope.currentLevel);
+        console.log($scope.currentLevel == 4);
         if(course.coursesDB.completion){
           $scope.Completion = course.coursesDB.completion.replace(/同学/g, response.data.profile.firstName);
         }
