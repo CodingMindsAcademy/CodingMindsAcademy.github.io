@@ -77,7 +77,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
         console.log(response);
 	    }, function addError(response) {
           console.log(response);
-          $window.alert("添加学生失败");
+          $window.alert("添加学生失败, 请联系编程思维班主任");
       })
 
       }, function registerError(response) {
