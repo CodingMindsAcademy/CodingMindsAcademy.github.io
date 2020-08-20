@@ -37,6 +37,53 @@
         #flwindow7{position: absolute; left: 700%}
         #flwindow8{position: absolute; left: 800%}   
     </STYLE> 
+    <style>
+        /* Default hide the video on all devices */
+    #video2{display:none}
+    /* Default display the image to replace the video on all devices */
+    #videosubstitute{display:block;width:100%;height:auto;max-width:100%}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (min-width : 992px) {
+    #video2{display:block;}
+    #videosubstitute{display:none}
+    }
+    #videoDiv2 {width: 100%; max-width:992px; margin:auto; display:block;position: relative;}
+    #video2{width: 100%; }
+    #videoMessage2 {padding:0.4em;}
+    #videoMessage2 {text-shadow: 2px 2px 2px #000000;color:white;z-index:99 }
+    #videoMessage2 h1{font-size: 2em;color:#ffffff;text-align:center;margin: 0.25em;}
+    #videoMessage2 h2{font-size: 1.5em;color:#ffffff;text-align:center;margin: 0.25em;}
+    #videoMessage2 h3{font-size: 1.3em;color:#ffffff;text-align:center;margin: 0.25em;}
+    .videoClick2 {text-align:center}
+    .videoClick2 a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
+
+    #videoMessageBox2 {
+        position: absolute;  top: 0;  left: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        height:100%;
+    }
+
+    #videoMessage2 {
+         -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 100%;
+    }
+    </style>
 
     <div style='margin:0 auto;display:none;'>
         <img src="https://codingmindsacademy.com/img/my/logofav.png" />
@@ -125,22 +172,56 @@
                     </nav>
                  </div>
 
+                 <!--section>
+                    <div id="videoDiv2"> 
+                    <div id="videoBlock2">  
+                    <img src="img/art1.jpg" id="videosubstitute" alt="">
+                    <video id="video2"  preload autoplay muted playsinline loop>
+                        <source src="video/video.mp4" type="video/mp4">
+                        <source src="video/video.webm" type="video/webm">
+                        <source src="video/video.ogv" type="video/ogv">
+                    </video> 
+                    <div id="videoMessageBox2">
+                        <div id="videoMessage2">
+                            <h1 class="spacer" style = "font-size: 80px">
+                                编程助力名校申请
+                            </h1>
+                             <div class="typed-headline">
+                                 <h1 class="h1 inline-block spacer" style = "font-size: 50px">K-12编程课堂带你走向美国名校</span>                  
+                             </div>
+                             <br/>
+                             <div class="typed-headline">
+                                 <h1 class="h1 inline-block spacer" style = "font-size: 50px">竞赛 科研 发布 创业</span>
+                             </div>
+                            <h1 class="spacer">Hire us!</h1>
+                            <h2 class="spacer">We're available for</h2>
+                            <h3 class="spacer">HTML projects</h3>
+                            <p class="videoClick2">
+                                <a href="2017-website-tarifs.php">Click for rates</a>
+                            </p> 
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                 </section-->
+
                  <section class="text-center height-80 imagebg" data-overlay="4">
                                  <div class="background-image-holder" style="background: url(&quot;img/main.jpg&quot;); opacity: 1;">
                                      <img alt="background" src="img/main.jpg">
                                  </div>
+
                                  <div class="container pos-vertical-center">
                                      <div class="row">
                                          <div class="col-sm-12">
-                                            <h1 style = "font-size: 80px">
+                                            <h1 style = "font-size: 65px">
                                                 编程助力名校申请
                                             </h1>
                                              <div class="typed-headline">
-                                                 <h1 class="h1 inline-block" style = "font-size: 50px">K-12编程课堂带你走向美国名校</span>                  
+                                                 <h1 class="h1 inline-block" style = "font-size: 45px">K-12编程课堂带你走向美国名校</span>                  
                                              </div>
                                              <br/>
                                              <div class="typed-headline">
-                                                 <h1 class="h1 inline-block" style = "font-size: 50px">竞赛 科研 发布 创业</span>
+                                                 <h1 class="h1 inline-block" style = "font-size: 45px">竞赛 科研 发布 创业</span>
                                              </div>
                                              <!--div>
                                                 <span class="h1 inline-block typed-text typed-text--cursor color--primary" data-typed-strings="竞赛,科研,发布,创业" style = "font-size: 50, color: white"></span>
@@ -202,36 +283,36 @@
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <div class="feature feature-1">
-                                                <img alt="Image" src="img/blog-1.jpg">
+                                                <img alt="Image" src="img/contest-1.jpg">
                                                 <div class="feature__body boxed boxed--border">
-                                                    <h5>Built for teams</h5>
+                                                    <h5>竞赛为同学学习编程 完善项目提供了目标和动力</h5>
                                                 </div>
                                             </div>
                                             <!--end feature-->
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="feature feature-1">
-                                                <img alt="Image" src="img/inner-5.jpg">
+                                                <img alt="Image" src="img/contest-2.jpg">
                                                 <div class="feature__body boxed boxed--border">
-                                                    <h5>Modern Aesthetic</h5>
+                                                    <h5>在竞赛中 不止是编程能力得到提升 综合能力也能得到锻炼</h5>
                                                 </div>
                                             </div>
                                             <!--end feature-->
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="feature feature-1">
-                                                <img alt="Image" src="img/inner-4.jpg">
+                                                <img alt="Image" src="img/contest-3.jpg">
                                                 <div class="feature__body boxed boxed--border">
-                                                    <h5>Beautiful markup</h5>
+                                                    <h5>竞赛成绩作为荣誉和成就 可以为名校申请提供有力的支持</h5>
                                                 </div>
                                             </div>
                                             <!--end feature-->
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="feature feature-1">
-                                                <img alt="Image" src="img/inner-4.jpg">
+                                                <img alt="Image" src="img/contest-4.jpg">
                                                 <div class="feature__body boxed boxed--border">
-                                                    <h5>Beautiful markup</h5>
+                                                    <h5>Coding Minds的同学平均每年参加两次美国顶级编程竞赛 </h5>
                                                 </div>
                                             </div>
                                             <!--end feature-->
@@ -248,7 +329,7 @@
                              <div class="col-sm-10 col-md-8">
                                  <span class="h1">不断挑战科研与创新</span>
                                  <p class="lead">
-                                     Coding Minds的同学最早在5年级就可以熟练掌握运用人工智能与神经网络，8年级便可以进行科研试验并发表国际会议论文
+                                     Coding Minds同学的科研方向涵盖人工智能，大数据，移动端开发，算法，物联网，网络服务等多个领域。Coding Minds的同学最早在5年级就可以熟练掌握运用人工智能与神经网络，8年级便可以进行科研试验并发表国际会议论文
                                  </p>
                              </div>
                          </div>
@@ -262,36 +343,37 @@
                                                     <div class="row">
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/blog-1.jpg">
+                                                                <img alt="Image" src="img/academia-1.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Built for teams</h5>
+                                                                    <!--h5>Coding Minds为同学提供来自美国顶尖高校及著名公司的科研导师 保证同学接受最顶级的科研指导</h5-->
+                                                                    <h5>Coding Minds为同学提供来自美国顶尖高校及著名公司的科研导师 保证同学接受最顶级的科研指导</h5>              
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-5.jpg">
-                                                                <div class="feature__body boxed boxed--border">
-                                                                    <h5>Modern Aesthetic</h5>
+                                                                <img alt="Image" src="img/academia-2.jpg">
+                                                                <div class="feature__body boxed boxed--border">  
+                                                                    <h5>研究方向主要以同学兴趣为主 找出合适的切入点 给同学搭建实现自己理想的舞台</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-4.jpg">
+                                                                <img alt="Image" src="img/academia-3.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>研究实验 发表论文的过程充满了挑战 Coding Minds总结出独有的一对一科研指导方法 帮助同学们踏上科研道路</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-4.jpg">
-                                                                <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                <img alt="Image" src="img/academia-4.jpg">
+                                                                <div class="feature__body boxed boxed--border">                                                                    
+                                                                    <h5>Coding Minds的同学最早8年级就可以人工智能领域期刊发表文章 多名同学因科研项目而步入名校</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -325,36 +407,38 @@
                                                     <div class="row">
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/blog-1.jpg">
+                                                                <img alt="Image" src="img/entrepreneur-1.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Built for teams</h5>
+                                                                    <h5>创业首先需要好的想法 Coding Minds从生活出发 启发同学想出真正切合实际的创业点子</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-5.jpg">
+                                                                <img alt="Image" src="img/entrepreneur-2.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Modern Aesthetic</h5>
+                                                                    <h5>实现想法需要技术支持 Coding Minds为同学准备了多门实用性极强的开发课程 保证同学能出色的完成研发</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-4.jpg">
+                                                                <img alt="Image" src="img/entrepreneur-3.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>创业离不开商业知识 Coding Minds利用与业界的紧密联系 为同学提供最专业的商业课程</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-4.jpg">
+                                                                <img alt="Image" src="img/entrepreneur-4.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>申请专利 成立公司 寻求投资 
+                                                                        同学项目完成以后 Coding Minds会帮助同学申请专利 成立创业公司 召开投资展示会 完成整个创业流程
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -388,36 +472,36 @@
                                                     <div class="row">
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/blog-1.jpg">
+                                                                <img alt="Image" src="img/project-1.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Built for teams</h5>
+                                                                    <h5>编程作品是学习编程的成果反映 Coding Minds要求同学每一门课都要做出自己的编程作品</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-5.jpg">
+                                                                <img alt="Image" src="img/project-2.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Modern Aesthetic</h5>
+                                                                    <h5>作品发布渠道同样重要 Coding Minds同学的编程大量发布在移动端 网络端 游戏客户端等 保证流量和知名度</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-4.jpg">
+                                                                <img alt="Image" src="img/project-3.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>开源作品发布有利于同学同好之间互相交流 取长补短 不断完善</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
                                                         </div>
                                                         <div class="col-sm-3">
                                                             <div class="feature feature-1">
-                                                                <img alt="Image" src="img/inner-4.jpg">
+                                                                <img alt="Image" src="img/project-4.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>发布后的作品作为升学时的有力支持 在名校申请当中发挥重要作用</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -453,7 +537,7 @@
                                                             <div class="feature feature-1">
                                                                 <img alt="Image" src="img/blog-1.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Built for teams</h5>
+                                                                    <h5>服务意识和反馈思想是一个科技创业工作者所需要具备的基本素质 也是未来社会看重的道德品质</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -462,7 +546,7 @@
                                                             <div class="feature feature-1">
                                                                 <img alt="Image" src="img/inner-5.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Modern Aesthetic</h5>
+                                                                    <h5>好的志愿服务活动可以给同学带来更多 Coding Minds为同学提供科技相关志愿者服务平台 服务社会的同时自身也得到锻炼</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -471,7 +555,7 @@
                                                             <div class="feature feature-1">
                                                                 <img alt="Image" src="img/inner-4.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>Coding Minds组织的志愿活动可以接触到很多有知名度的专家学者 行业精英 与他们一起工作会使同学收益良多</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -480,7 +564,7 @@
                                                             <div class="feature feature-1">
                                                                 <img alt="Image" src="img/inner-4.jpg">
                                                                 <div class="feature__body boxed boxed--border">
-                                                                    <h5>Beautiful markup</h5>
+                                                                    <h5>志愿服务在回馈社会 提升自我的同时 也为大学申请积累了雄厚的资本</h5>
                                                                 </div>
                                                             </div>
                                                             <!--end feature-->
@@ -570,7 +654,7 @@
                                                                 </div>
                                                                 <div class="article__title">
                                                                     <h1>Online小班教学</h1>
-                                                                    <h4>Small businesses that expertly leverage their online followings</h4>
+                                                                    <h4>线上小班教学每班不超过3名同学，精英教师保证教学质量</h4>
                                                                 </div>
                                                             </article>
                                                         </a>
@@ -584,7 +668,7 @@
                                                                 </div>
                                                                 <div class="article__title">
                                                                     <h1>Online1对1教学</h1>
-                                                                    <h4>Designing efficiently in the age of distraction</h4>
+                                                                    <h4>一对一教学时间灵活，老师单独辅导学习</h4>
                                                                 </div>
                                                             </article>
                                                         </a>
@@ -597,7 +681,8 @@
                                                                 </div>
                                                                 <div class="article__title">
                                                                     <h1>名校背景提升</h1>
-                                                                    <h4>Small businesses that expertly leverage their online followings</h4>
+                                                                    <h4>科研创业项目导向的背景提升课程，
+                                                                    已帮助许多同学步入名校</h4>
                                                                 </div>
                                                             </article>
                                                         </a>
@@ -610,7 +695,7 @@
                                                                 </div>
                                                                 <div class="article__title">
                                                                     <h1>课后班合作</h1>
-                                                                    <h4>Small businesses that expertly leverage their online followings</h4>
+                                                                    <h4>与多所中小学合作开办课后班课程 将编程课堂带入校园</h4>
                                                                 </div>
                                                             </article>
                                                         </a>
@@ -740,7 +825,7 @@
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="feature feature-1">
-                                            <img alt="Image" src="img/landing-16.jpg">
+                                            <img alt="Image" src="img/student-card/student1.png">
                                             <div class="feature__body boxed boxed--lg boxed--border">
                                                 <h4>Built With Blocks</h4>
                                                 <p class="lead">
@@ -752,7 +837,7 @@
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="feature feature-1">
-                                            <img alt="Image" src="img/landing-17.jpg">
+                                            <img alt="Image" src="img/student-card/student2.png">
                                             <div class="feature__body boxed boxed--lg boxed--border">
                                                 <h4>Modern Aesthetic</h4>
                                                 <p class="lead">
@@ -764,7 +849,7 @@
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="feature feature-1">
-                                            <img alt="Image" src="img/landing-18.jpg">
+                                            <img alt="Image" src="img/student-card/student3.png">
                                             <div class="feature__body boxed boxed--lg boxed--border">
                                                 <h4>Beautiful Markup</h4>
                                                 <p class="lead">
