@@ -41,22 +41,21 @@
         /* Default hide the video on all devices */
     #video2{display:none}
     /* Default display the image to replace the video on all devices */
-    #videosubstitute{display:block;width:100%;height:auto;max-width:100%}
+    #videosubstitute{}
     /* Medium Devices, Desktops */
 
     @media only screen and (min-width : 992px) {
     #video2{display:block;}
     #videosubstitute{display:none}
     }
-    #videoDiv2 {width: 100%; max-width:992px; margin:auto; display:block;position: relative;}
-    #video2{width: 100%; }
+
+    #videoDiv2 {width: 100%;  margin:auto; display:block; position: relative;}
+    #video2{width: 100%;}
     #videoMessage2 {padding:0.4em;}
     #videoMessage2 {text-shadow: 2px 2px 2px #000000;color:white;z-index:99 }
     #videoMessage2 h1{font-size: 2em;color:#ffffff;text-align:center;margin: 0.25em;}
     #videoMessage2 h2{font-size: 1.5em;color:#ffffff;text-align:center;margin: 0.25em;}
     #videoMessage2 h3{font-size: 1.3em;color:#ffffff;text-align:center;margin: 0.25em;}
-    .videoClick2 {text-align:center}
-    .videoClick2 a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
 
     #videoMessageBox2 {
         position: absolute;  top: 0;  left: 0;
@@ -77,7 +76,7 @@
     }
 
     #videoMessage2 {
-         -webkit-box-flex: 1;
+        -webkit-box-flex: 1;
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
@@ -172,40 +171,33 @@
                     </nav>
                  </div>
 
-                 <!--section>
+                 <section id="video2">
                     <div id="videoDiv2"> 
-                    <div id="videoBlock2">  
-                    <img src="img/art1.jpg" id="videosubstitute" alt="">
-                    <video id="video2"  preload autoplay muted playsinline loop>
-                        <source src="video/video.mp4" type="video/mp4">
-                        <source src="video/video.webm" type="video/webm">
-                        <source src="video/video.ogv" type="video/ogv">
-                    </video> 
-                    <div id="videoMessageBox2">
-                        <div id="videoMessage2">
-                            <h1 class="spacer" style = "font-size: 80px">
-                                编程助力名校申请
-                            </h1>
-                             <div class="typed-headline">
-                                 <h1 class="h1 inline-block spacer" style = "font-size: 50px">K-12编程课堂带你走向美国名校</span>                  
-                             </div>
-                             <br/>
-                             <div class="typed-headline">
-                                 <h1 class="h1 inline-block spacer" style = "font-size: 50px">竞赛 科研 发布 创业</span>
-                             </div>
-                            <h1 class="spacer">Hire us!</h1>
-                            <h2 class="spacer">We're available for</h2>
-                            <h3 class="spacer">HTML projects</h3>
-                            <p class="videoClick2">
-                                <a href="2017-website-tarifs.php">Click for rates</a>
-                            </p> 
+                        <div id="videoBlock2">                              
+                            <video id="video2"  preload autoplay muted playsinline loop>
+                                <source src="video/video.mp4" type="video/mp4">
+                                <source src="video/video.webm" type="video/webm">
+                                <source src="video/video.ogv" type="video/ogv">
+                            </video> 
+                            <div id="videoMessageBox2">
+                                <div id="videoMessage2">
+                                    <h1 class="spacer" style = "font-size: 65px">
+                                        编程助力名校申请
+                                    </h1>
+                                     <div class="typed-headline">
+                                         <h1 class="h1 spacer" style = "font-size: 45px">K-12编程课堂带你走向美国名校</span>                  
+                                     </div>
+                                     <br/>
+                                     <div class="typed-headline">
+                                         <h1 class="h1 spacer" style = "font-size: 45px">竞赛 科研 发布 创业</span>
+                                     </div>                                                        
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                 </section-->
+                 </section>
 
-                 <section class="text-center height-80 imagebg" data-overlay="4">
+                 <section class="text-center height-80 imagebg" data-overlay="4" id="videosubstitute">
                                  <div class="background-image-holder" style="background: url(&quot;img/main.jpg&quot;); opacity: 1;">
                                      <img alt="background" src="img/main.jpg">
                                  </div>
