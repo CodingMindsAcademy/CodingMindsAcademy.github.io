@@ -89,6 +89,7 @@ angular.module('v3App', ['ngMaterial'])
           availability: $scope.form.availability,
           comment: $scope.form.comment,
           topics: topics,
+          signupTime: new Date(),
           accountId: studentId,
         }
       }).then(function successCallback(response) {
