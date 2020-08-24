@@ -88,7 +88,6 @@ angular.module('v3App', ['ngMaterial'])
           codingExperience: codingExperience,
           availability: $scope.form.availability,
           comment: $scope.form.comment,
-          topics: topics,
           signupTime: new Date(),
           accountId: studentId,
         }
