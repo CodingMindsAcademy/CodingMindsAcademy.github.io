@@ -3,15 +3,18 @@ var app = angular.module('myApp', []);
 app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
   var url = $location.$$absUrl;
-  var url = new URL(url);
+  $scope.english = false;
+  if (url.search('eng')){
+    
+    $scope.english = true;
+  }
+
+  url = new URL(url);
   var courseId = url.searchParams.get("courseId");
   var price = url.searchParams.get("price");
-  console.log(courseId);
 	$scope.submit = function () {
 
 
-    console.log($scope.form.firstName);
-    console.log($scope.form);
 
     var postData = {}
 
@@ -70,7 +73,12 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
           }
         }).then(function createSuccess(response){
           console.log(response);
-          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+          if ($scope.english) {
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+          } else {
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+
+          }
         }, function createError(error){
           console.log(error);
         })
