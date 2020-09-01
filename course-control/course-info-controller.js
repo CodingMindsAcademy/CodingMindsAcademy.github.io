@@ -17,7 +17,8 @@ angular.module('v3App', [])
               fields: ['firstName', 'lastName']
             }
           },
-            'classDays'
+            'classDays',
+            'coursesDB'
           ],
       };
     $http({
@@ -122,6 +123,8 @@ angular.module('v3App', [])
               return classDayTimes;
             }
             let course = response.data;
+            $scope.englishDetailsUrl = course.coursesDB.englishDetailsUrl;
+            $scope.detailsUrl = course.coursesDB.detailsUrl;            
             $scope.course_level = coursedb.cn[course.courseCode].gradeLevel.slice(0,2);
             $scope.course_name = course.name;
             $scope.instructor = course.instructor.firstName + ' ' + course.instructor.lastName;

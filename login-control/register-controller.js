@@ -48,13 +48,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
         url: baseUrl+ `Account`,
         data: $scope.postData
       }).then(function successCallback(response) {
-      	console.log('user created', response);
-        console.log('start login');
         let studentId = response.data.id;
-      // 	var loginData = {
-      // 		"username":postData.username,
-      // 		"password":postData.password
-      // };
     	$http({
 	      method : "PUT",
 	      url : baseUrl+ "Course/" + courseId + '/students/rel/' + studentId,
