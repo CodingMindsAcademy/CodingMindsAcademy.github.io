@@ -31,7 +31,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
     postData.email2 = $scope.form.email2;
     postData.phone2 = $scope.form.phone2;
     postData.dateOfBirth = new Date();
-
+    postData.preferedLanguage = $scope.english?'English':'Chinese';
     registering(postData)
   }
 
