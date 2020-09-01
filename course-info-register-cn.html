@@ -115,26 +115,28 @@
                 <div class="col-sm-12">
                     <div class="text-center">
                         <i class="icon icon-Book color--primary"></i>
-                        <!-- <h2 class="text-center">学生学习档案<br></h2> -->
-                        <div class="modal-instance" style="display: block; margin-left: auto; margin-right: auto;">
-                          <a href="#" class="btn modal-trigger"><span class="btn__text">{{course_name}}</span></a>
-                          <div class="modal-container">
-                              <div class="modal-content">
-                                  <section class="imageblock feature-large bg--white border--round ">
-                                      <div class="container" style="padding-top: 1.1em">
-                                          <div class="row" style="height: calc(100vh - 100px)">
-                                              <iframe width="200" height="800" ng-src="{{detailsUrl}}"></iframe>
-                                          </div>
-                                      </div>
-                                  </section>
-                              </div>
-                          </div>
-                        </div>
+                        <h2 class="text-center">{{course_name}}<br></h2>
+                        
                         <table class="border--round table--alternate-row">
                             <tbody>
                                 <tr>
                                     <td style="width: 50%">课程名称</td>
-                                    <td style="width: 50%">{{course_name}}</td>
+                                    <td style="width: 50%">{{course_name}}
+                                      <div class="modal-instance" >
+                                        <a href="#" class="btn btn--primary modal-trigger" style="margin: 20px"><span class="btn__text">详情</span></a>
+                                        <div class="modal-container">
+                                            <div class="modal-content">
+                                                <section class="imageblock feature-large bg--white border--round ">
+                                                    <div class="container" style="padding-top: 1.1em">
+                                                        <div class="row" style="height: calc(100vh - 100px)">
+                                                            <iframe width="200" height="800" ng-src="{{detailsUrl}}"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td style="width: 50%">授课老师</td>
