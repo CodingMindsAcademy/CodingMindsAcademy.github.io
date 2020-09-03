@@ -113,8 +113,8 @@
                                     </div>
                                     <div class="col-xs-12">
                                         <div class="input-select">
-                                            <select class="form-control" ng-change="codingExperienceChanged()" ng-model="form.codingExperience">
-                                                <option ng-selected="form.codingExperience == item.id" ng-repeat="item in codingExperiences" ng-value="item.id">{{item.label}}</option>
+                                            <select class="form-control" ng-change="codingExperienceChanged()" ng-model="form.englishCodingExperience">
+                                                <option ng-selected="form.codingExperience == item.id" ng-repeat="item in englishCodingExperiences" ng-value="item.id">{{item.label}}</option>
                                            </select>
                                         </div>
                                     </div>
@@ -172,11 +172,11 @@
                                     </div>
                                     </div> -->
                                     <div class="col-xs-12">
-                                        <input type="text" ng-model='form.availability' name="Comment" placeholder="请输入合适您和孩子的时间" />
+                                        <input type="text" ng-model='form.availability' name="Comment" placeholder="Please Input Available Time" />
                                     </div>
 
                                     <div class="col-xs-12">
-                                        <button type="submit" ng-click="submit()" class="btn btn--primary type--uppercase">提交</button>
+                                        <button type="submit" ng-click="submit()" class="btn btn--primary type--uppercase">SUBMIT</button>
                                     </div>
 
                                 </div>
