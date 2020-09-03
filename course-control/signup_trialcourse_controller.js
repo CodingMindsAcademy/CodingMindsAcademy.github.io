@@ -11,10 +11,19 @@ angular.module('v3App', ['ngMaterial'])
     {'id': 2, 'label': '对编码有一些了解'},
     {'id': 3, 'label': '基本掌握并使用过某一门语言'},
     {'id': 4, 'label': '小黑客'},
-
   ]
+  
+  $scope.englishCodingExperiences = [
+    {'id': 0, 'label': 'Coding Experience'},
+    {'id': 1, 'label': 'Never learned before'},
+    {'id': 2, 'label': 'Very basic exposure'},
+    {'id': 3, 'label': 'Knows at least one programming language very well'},
+    {'id': 4, 'label': 'Hacker!'},
+  ]
+
   $scope.form = {
     'codingExperience': 0,
+    'englishCodingExperience': 0,
     'email2': '',
     'phone2': '',
     'wechat': '',
@@ -48,7 +57,7 @@ angular.module('v3App', ['ngMaterial'])
   $scope.submit = function() {
     console.log($scope.form);
     if($scope.form.password !== $scope.form.confirmPassword){
-      alert('密码不一致');
+      alert('Passwords are not consistent');
       return
     }
     let username = $scope.form.name.replace(' ','') + Date.now();
@@ -64,7 +73,8 @@ angular.module('v3App', ['ngMaterial'])
       lastName: lastName,
       password: '123',
       dateOfBirth: new Date(),
-      grade: $scope.form.grade
+      grade: $scope.form.grade,
+      preferedLanguage: 'English'
     }
     $http({
       method: 'POST',
@@ -93,7 +103,7 @@ angular.module('v3App', ['ngMaterial'])
         }
       }).then(function successCallback(response) {
         console.log(response);
-        alert('注册试课成功，请查看邮箱和短信。')
+        alert('Successfully registered fall classes and please check the confirmation email.')
       }).catch(function err(err) {
         console.log(err)
       })
