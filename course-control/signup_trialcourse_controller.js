@@ -62,7 +62,7 @@ angular.module('v3App', ['ngMaterial'])
     }
     let username = $scope.form.name.replace(' ','') + Date.now();
     let firstName = $scope.form.name.split(' ')[0];
-    let lastName = $scope.form.name.split(' ')[1];
+    let lastName = $scope.form.name.split(' ')[1]? $scope.form.name.split(' ')[1]: ' ';
     let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
     // let baseUrl = 'http://localhost:3000/api/'
     let accountData = {
