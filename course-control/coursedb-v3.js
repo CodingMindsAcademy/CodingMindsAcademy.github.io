@@ -67,7 +67,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs130' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS130',
 			'sname':'Minecraft MakeCode',
@@ -89,7 +89,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs140' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS140',
 			'sname':'SPRK Robotics',
@@ -197,51 +197,7 @@ var coursedb = {
 			'registerUrl':'corecn.html#allCourses',
 			'registerTitle':'我要注册',
 			'registerForm':'https://jinshuju.net/f/0KnUba'
-		},
-		'cs200' : {
-			'enabled':true,
-			'online':false,
-			'cid':'CS200',
-			'sname':'Minecraft JavaScript',
-			'curriculum':'minecraft1',
-			'title1':'Javascript编程初步',
-			'title2':'Minecraft MakeCode编程',
-			'name':'Javascript编程初步: Minecraft MakeCode编程',
-			'shortName':'Javascript编程初步MakeCode',
-			'imageUrl':'img/my/minecraftbasic/bg2-sm.jpg',
-			'gradeLevel':'L2简洁代码编程',
-			'text':'在微软的MakeCode平台中学习Javscript的基础，开始代码编程之路',
-			'tag':'游戏编程系列',
-			'pathway':['coding', 'game'],
-			'detailsTitle':'查看详情',
-			'detailsUrl':'mcbuild2c.html',
-			'locations':'选择地点',
-			'registerUrl':'corecn.html#allCourses',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/0KnUba'
-		},
-		'cs210' : {
-			'enabled':true,
-			'online':false,
-			'cid':'CS210',
-			'sname':'MicroBit',
-			'curriculum':'',
-			'title1':'Javascript编程进阶',
-			'title2':'MicroBit电子电路编程',
-			'name':'Javascript编程进阶: MicroBit电子电路编程',
-			'shortName':'Javascript编程进阶MicroBit',
-			'imageUrl':'img/my/microbit/bg.jpg',
-			'gradeLevel':'L2简洁代码编程',
-			'text':'学习微软最新的MicroBit编程，控制电子小元件，发挥你的创造力，体验编程的神奇',
-			'tag':'游戏编程系列',
-			'pathway':['hardware'],
-			'detailsTitle':'查看详情',
-			'detailsUrl':'',
-			'locations':'选择地点',
-			'registerUrl':'microbit-cn.html',
-			'registerTitle':'我要注册',
-			'registerForm':'https://jinshuju.net/f/0KnUba'
-		},
+		},				
 		'cs201p' : {
 			'enabled':false,
 			'online':false,
@@ -334,7 +290,7 @@ var coursedb = {
 			'introduction':'Roblox 2是L2级别的核心课程，主要的目标是让同学使用Lua更多的编写简洁的代码程序，尝试设计程序算法，并且可以独立的构思功能并融入到项目中去。本节课同学需要完成所有常用的Lua编程语言的功能特点，并且完成一个可以参赛的综合的Roblox的游戏项目，为下一阶段L3的编程学习做好准备。',
 			'completion':'Roblox 2是L2级别的核心课程，主要的目标是让同学使用Lua更多的编写简洁的代码程序，尝试设计程序算法，并且可以独立的构思功能并融入到项目中去。通过本节课的完成，同学已经完成所有常用的Lua编程语言的功能特点，并且完成了一个可以参赛的综合的Roblox的游戏项目，为下一阶段L3的编程学习做好了准备。',
 			'nextCourseId':'CS240'
-		},
+		},		
 		'cs240' : {
 			'enabled':true,
 			'online':false,
@@ -346,7 +302,7 @@ var coursedb = {
 			'name':'人工智能初步与Lua实践:AI与智能游戏编程',
 			'shortName':'人工智能初步与Lua实践',
 			'imageUrl':'img/my/roblox3/bg2-sm.jpg',
-			'gradeLevel':'L3代码编程',
+			'gradeLevel':'L2简洁代码编程',
 			'text':'在Roblox平台开发智能游戏AI，开启AI编程学习的第一步',
 			'tag':'游戏编程系列',
 			'pathway':['game'],
@@ -359,6 +315,50 @@ var coursedb = {
 			'introduction':'从Roblox 3开始，学生计入到L3级别的编程课程，该级别要求同学专注于代码的编程和算法设计与实现。Roblox 3依托Roblox游戏开发平台，主要的目标是让同学使用Lua代码实现初步的AI功能与逻辑。本节课目标是带领同学完成一个AI游戏算法并植入到游戏项目项目中去，打开AI世界的大门。',
 			'introduction':'从Roblox 3开始，同学已经计入到L3级别的编程课程，该级别要求同学完全专注于代码的编程和算法设计与实现。通过本节课的完成，同学学习了Lua代码实现初步的AI功能与逻辑，并且完成了一个AI游戏算法并植入到了自己的游戏项目项目中去，对AI世界有了初步的体验。',
 			'nextCourseId':'CS300'	
+		},
+		'cs200' : {
+			'enabled':true,
+			'online':false,
+			'cid':'CS200',
+			'sname':'Minecraft JavaScript',
+			'curriculum':'minecraft1',
+			'title1':'Javascript编程初步',
+			'title2':'Minecraft MakeCode编程',
+			'name':'Javascript编程初步: Minecraft MakeCode编程',
+			'shortName':'Javascript编程初步MakeCode',
+			'imageUrl':'img/my/minecraftbasic/bg2-sm.jpg',
+			'gradeLevel':'L2简洁代码编程',
+			'text':'在微软的MakeCode平台中学习Javscript的基础，开始代码编程之路',
+			'tag':'游戏编程系列',
+			'pathway':['coding', 'game'],
+			'detailsTitle':'查看详情',
+			'detailsUrl':'mcbuild2c.html',
+			'locations':'选择地点',
+			'registerUrl':'corecn.html#allCourses',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/0KnUba'
+		},
+		'cs210' : {
+			'enabled':true,
+			'online':false,
+			'cid':'CS210',
+			'sname':'MicroBit',
+			'curriculum':'',
+			'title1':'Javascript编程进阶',
+			'title2':'MicroBit电子电路编程',
+			'name':'Javascript编程进阶: MicroBit电子电路编程',
+			'shortName':'Javascript编程进阶MicroBit',
+			'imageUrl':'img/my/microbit/bg.jpg',
+			'gradeLevel':'L2简洁代码编程',
+			'text':'学习微软最新的MicroBit编程，控制电子小元件，发挥你的创造力，体验编程的神奇',
+			'tag':'游戏编程系列',
+			'pathway':['hardware'],
+			'detailsTitle':'查看详情',
+			'detailsUrl':'',
+			'locations':'选择地点',
+			'registerUrl':'microbit-cn.html',
+			'registerTitle':'我要注册',
+			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs300' : {
 			'enabled':true,
@@ -477,7 +477,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs350' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS350',
 			'sname':'Lego Robotics 2',
@@ -698,7 +698,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs440' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS440',
 			'sname':'Swift',
@@ -874,7 +874,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs480' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS480',
 			'sname':'Unreal 1',
@@ -918,7 +918,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs482' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS482',
 			'sname':'Unreal 2',
@@ -1094,7 +1094,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs521' : {
-			'enabled':true,
+			'enabled':false,
 			'online':true,
 			'cid':'CS521',
 			'sname':'Python Online',
@@ -1116,7 +1116,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},		
 		'cs531' : {
-			'enabled':true,
+			'enabled':false,
 			'online':true,
 			'cid':'CS531',
 			'sname':'App Inventor',
@@ -1160,7 +1160,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs560' : {
-			'enabled':true,
+			'enabled':false,
 			'online':true,
 			'cid':'CS560',
 			'sname':'App Development',
@@ -1182,7 +1182,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs561' : {
-			'enabled':true,
+			'enabled':false,
 			'online':false,
 			'cid':'CS561',
 			'sname':'Unity Advanced',
@@ -1204,7 +1204,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs562' : {
-			'enabled':true,
+			'enabled':false,
 			'online':true,
 			'cid':'CS562',
 			'sname':'Python Advacned Project',
@@ -1226,7 +1226,7 @@ var coursedb = {
 			'registerForm':'https://jinshuju.net/f/0KnUba'
 		},
 		'cs563' : {
-			'enabled':true,
+			'enabled':false,
 			'online':true,
 			'cid':'CS563',
 			'sname':'Advanced AI',
@@ -1273,14 +1273,14 @@ var coursedb = {
 			'enabled':true,
 			'online':true,
 			'cid':'CS565',
-			'sname':'Fluuter',
+			'sname':'Fluter',
 			'curriculum':'flutter',
 			'title1':'名校申请背景强化课程',
 			'title2':'Flutter跨平台手机App开发',
 			'name':'Flutter跨平台手机App开发:同时发布Android和iOS',
 			'shortName':'Flutter跨平台手机App开发',
 			'imageUrl':'img/my/flutter/flutter.png',
-			'gradeLevel':'L5竞技编程',
+			'gradeLevel':'L4应用主题编程',
 			'text':'学习最新跨平台手机开发，实现Android和iOS的同步支持',
 			'tag':'名校申请背景强化系列',
 			'pathway':['ce'],
