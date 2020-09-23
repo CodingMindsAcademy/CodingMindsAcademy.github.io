@@ -6,19 +6,19 @@ angular.module('v3App', ['ngMaterial'])
 .controller('signup_trialcourse_controller', function($scope, $http, $location, $mdToast) {
 
   $scope.codingExperiences = [
-    {'id': 0, 'label': '编码背景'},
-    {'id': 1, 'label': '从未接触过编码'},
-    {'id': 2, 'label': '对编码有一些了解'},
-    {'id': 3, 'label': '基本掌握并使用过某一门语言'},
-    {'id': 4, 'label': '小黑客'},
+    {'id': 1, 'label': '编码背景'},
+    {'id': 2, 'label': '从未接触过编码'},
+    {'id': 3, 'label': '对编码有一些了解'},
+    {'id': 4, 'label': '基本掌握并使用过某一门语言'},
+    {'id': 5, 'label': '小黑客'},
   ]
   
   $scope.englishCodingExperiences = [
-    {'id': 0, 'label': 'Coding Experience'},
-    {'id': 1, 'label': 'Never learned before'},
-    {'id': 2, 'label': 'Very basic exposure'},
-    {'id': 3, 'label': 'Knows at least one programming language very well'},
-    {'id': 4, 'label': 'Hacker!'},
+    {'id': 1, 'label': 'Coding Experience'},
+    {'id': 2, 'label': 'Never learned before'},
+    {'id': 3, 'label': 'Very basic exposure'},
+    {'id': 4, 'label': 'Knows at least one programming language very well'},
+    {'id': 5, 'label': 'Hacker!'},
   ]
 
   $scope.form = {
@@ -84,7 +84,7 @@ angular.module('v3App', ['ngMaterial'])
       console.log('user created', response);
       console.log('start login');
       let studentId = response.data.id;
-      let codingExperience = $scope.codingExperiences[$scope.form.codingExperience].label;
+      let codingExperience = $scope.codingExperiences[$scope.form.codingExperience].id;
       let topics = [];
       for (let topic in $scope.form.topics) {
         if ($scope.form.topics[topic]) {
