@@ -7,7 +7,11 @@ angular.module('v3App', [])
     var url = $location.$$absUrl;
     var url = new URL(url);
     var course_id = url.searchParams.get("course_id");
+    const accountId = url.searchParams.get("accountId");
+    const token = url.searchParams.get("token");
     $scope.courseId = course_id;
+    $scope.accountId = accountId;
+    $scope.token = token;
     $scope.student_name = url.searchParams.get('name')
     let f = {
         include: [

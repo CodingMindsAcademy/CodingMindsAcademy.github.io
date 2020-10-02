@@ -11,6 +11,8 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
   url = new URL(url);
   var courseId = url.searchParams.get("courseId");
+  var accountId = url.searchParams.get("accountId");
+  var token = url.searchParams.get("token");
   var price = url.searchParams.get("price");
 	$scope.submit = function () {
 
@@ -32,7 +34,38 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
     postData.phone2 = $scope.form.phone2;
     postData.dateOfBirth = new Date();
     postData.preferedLanguage = $scope.english?'English':'Chinese';
-    registering(postData)
+    if (accountId) {
+      patch(postData);
+    } else {
+      registering(postData);
+    }
+  }
+
+  function patch(data) {
+    const {username, ...patchData} = data;
+    // let baseUrl = 'http://localhost:3000/api/'
+    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    console.log('Patching: ', patchData);
+    console.log(token);
+    $http({
+        method: 'PATCH',
+        url: baseUrl+ `Account/` + accountId,
+        data: patchData,
+        params: {
+          access_token: token
+        }
+      }).then(function successCallback(response) {
+        let studentId = response.data.id;
+        console.log(response);
+        if ($scope.english) {
+          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+        } else {
+          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+
+        }
+      }).catch(err=>{
+        console.log(err);
+      })
   }
 
   function registering(postData) {
@@ -43,7 +76,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   $scope.postData.notSend = true;
   // let baseUrl = 'http://localhost:3000/api/'
   let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
-	$http({
+	  $http({
         method: 'POST',
         url: baseUrl+ `Account`,
         data: $scope.postData
