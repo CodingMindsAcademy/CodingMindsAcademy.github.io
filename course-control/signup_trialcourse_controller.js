@@ -53,7 +53,7 @@ angular.module('v3App', ['ngMaterial'])
   $scope.oncheckboxchange = function() {
     console.log($scope.form.topics);
   }
-
+  $scope.loading = false;
   $scope.submit = function() {
     console.log($scope.form);
     if($scope.form.password !== $scope.form.confirmPassword){
@@ -76,6 +76,8 @@ angular.module('v3App', ['ngMaterial'])
       grade: $scope.form.grade,
       preferedLanguage: 'English'
     }
+    $scope.loading = true;
+
     $http({
       method: 'POST',
       url: baseUrl+ `Account`,
@@ -103,6 +105,7 @@ angular.module('v3App', ['ngMaterial'])
         }
       }).then(function successCallback(response) {
         console.log(response);
+        $scope.loading = false;
         alert('Successfully registered fall classes and please check the confirmation email.')
       }).catch(function err(err) {
         console.log(err)
@@ -112,7 +115,6 @@ angular.module('v3App', ['ngMaterial'])
     }).catch(function registerError(err){
       console.log(err);
     })
-
   }
   // if(suggestedCourses){
   //   suggestedCourses.sort();

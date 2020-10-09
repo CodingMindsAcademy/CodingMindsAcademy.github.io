@@ -93,7 +93,8 @@
                     </div>
                 </div>
                 <div class="container pos-vertical-center">
-                    <div class="row">
+
+                    <div ng-if="!loading" class="row">
                         <div class="col-md-5 col-sm-7" >
                             <h2 style="text-align: center;">Schedule a Free Trial Class</h2>
                             <form>
@@ -118,7 +119,10 @@
                                            </select>
                                         </div>
                                     </div>
-
+                                    <div class="col-sm-6">
+                                      <div class="col-md-3 bg">
+                                      </div>
+                                    </div>
                                     <!-- <div class="col-sm-12 text-center">
                                         <h5>请选择接触过的编程门类</h5>
                                     </div>
@@ -185,15 +189,26 @@
 
                         </div>
                     </div>
+                    <div ng-if="loading" class="row" >
+                      <div class="col-md-5 col-sm-7" >
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <div class="lds-ring"><div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <!--end of row-->
                 </div>
                 <!--end of container-->
             </section>
+
         </div>
         <!--<div class="loader"></div>-->
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
         </a>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/angular.min.js"></script>
         <script src="js/angular-animate.min.js"></script>
