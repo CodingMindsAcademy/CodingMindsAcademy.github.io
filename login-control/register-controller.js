@@ -55,14 +55,29 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
           access_token: token
         }
       }).then(function successCallback(response) {
-        let studentId = response.data.id;
-        console.log(response);
-        if ($scope.english) {
-          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
-        } else {
-          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
 
-        }
+        let studentId = response.data.id;
+        $http({
+          method: 'get',
+          url: baseUrl + 'Account/' + studentId + '/invoices',
+          params: {
+            access_token: token,
+            filter: {
+              order: 'date DESC',
+              limit: 1
+            }
+          }
+        }).then(resp=>{
+          console.log(resp);
+          let invoiceId = resp.data[0].id;
+          if ($scope.english) {
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+          } else {
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+  
+          }
+        })
+
       }).catch(err=>{
         console.log(err);
       })
@@ -100,12 +115,12 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
           }
         }).then(function createSuccess(response){
           console.log(response);
-          if ($scope.english) {
-            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
-          } else {
-            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+          // if ($scope.english) {
+          //   window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+          // } else {
+          //   window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
 
-          }
+          // }
         }, function createError(error){
           console.log(error);
         })
