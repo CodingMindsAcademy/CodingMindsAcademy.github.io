@@ -167,7 +167,7 @@
                         <h2 class="text-center">课程总结<br></h2>                            
                         <p>{{Completion}}</p>
 
-                        <h2 class="text-center">老师评语<br></h2>                            
+                        <h2 ng-if="EOSfeedback.text" class="text-center">老师评语<br></h2>                            
                         <p>{{EOSfeedback.text}}</p>
                         <div ng-if="EOSfeedback.text_cn">
                             <p class="text-center">(下面中文翻译由百度翻译自动完成)</p>
