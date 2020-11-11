@@ -115,12 +115,12 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
           }
         }).then(function createSuccess(response){
           console.log(response);
-          // if ($scope.english) {
-          //   window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
-          // } else {
-          //   window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+          if ($scope.english) {
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+          } else {
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
 
-          // }
+          }
         }, function createError(error){
           console.log(error);
         })
