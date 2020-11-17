@@ -120,8 +120,6 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
             }
           }
         }).then(function createSuccess(response){
-          // console.log(response);
-          // $scope.loading = false;
 
           let invoiceId = response.data[0].id;
           if ($scope.english) {
