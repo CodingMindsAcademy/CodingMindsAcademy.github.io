@@ -14,8 +14,11 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   var accountId = url.searchParams.get("accountId");
   var token = url.searchParams.get("token");
   var price = url.searchParams.get("price");
+  $scope.loading = false;
+  $scope.form = {};
 	$scope.submit = function () {
 
+    $scope.loading = true;
 
 
     var postData = {}
@@ -70,12 +73,13 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
         }).then(resp=>{
           console.log(resp);
           let invoiceId = resp.data[0].id;
-          if ($scope.english) {
-            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
-          } else {
-            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+          console.log(invoiceId);
+          // if ($scope.english) {
+          //   window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+          // } else {
+          //   window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
   
-          }
+          // }
         })
 
       }).catch(err=>{
@@ -101,24 +105,29 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 	      method : "PUT",
 	      url : baseUrl+ "Course/" + courseId + '/students/rel/' + studentId,
 	    }).then(function addSuccess(response) {
-
+        // console.log(response);
         $http({
-          method:'POST',
-          url:baseUrl + 'Invoices',
-          data:{
-            date: new Date(),
-            amount: price,
-            accountId: studentId,
-            courseId: courseId,
-            paymentMethod: 'pending',
-            status:'pending'
+          method:'GET',
+          url: baseUrl+ `Invoices/`,
+          
+          params: {
+            access_token: token,
+            filter: {
+              where: {
+                courseId: courseId,
+                accountId: studentId
+              }
+            }
           }
         }).then(function createSuccess(response){
-          console.log(response);
+          // console.log(response);
+          // $scope.loading = false;
+
+          let invoiceId = response.data[0].id;
           if ($scope.english) {
-            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+ invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
           } else {
-            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+response.data.id + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
+            window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+ invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
 
           }
         }, function createError(error){
