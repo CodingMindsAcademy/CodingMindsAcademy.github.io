@@ -25,6 +25,7 @@ angular.module('v3App', ['ngMaterial'])
     'codingExperience': 0,
     'englishCodingExperience': 0,
     'email2': '',
+    "email": '',
     'phone2': '',
     'wechat': '',
     'firstName': '',
@@ -67,6 +68,7 @@ angular.module('v3App', ['ngMaterial'])
     // let baseUrl = 'http://localhost:3000/api/'
     let accountData = {
       email2: $scope.form.email2,
+      email: $scope.form.email,
       phone2: $scope.form.phone2,
       username: username,
       firstName: firstName,

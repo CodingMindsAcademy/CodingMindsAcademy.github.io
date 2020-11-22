@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="v3App" lang="cn">
+<html ng-app="v3App" lang="en">
  <head>
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
@@ -15,8 +15,10 @@
     <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
 
     <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
@@ -37,6 +39,7 @@
         #flwindow7{position: absolute; left: 700%}
         #flwindow8{position: absolute; left: 800%}   
     </STYLE> 
+
     <style>
         /* Default hide the video on all devices */
     #video2{display:none}
@@ -129,7 +132,7 @@
         <img src="https://codingmindsacademy.com/img/my/logofav.png" />
     </div>    
   </head>
-  <body ng-controller="CourseListController">
+  <body ng-controller="signup_trialcourse_homepage">
     <a id="start"></a>
                 <div class="nav-container">
                     <div class="bar bar--sm visible-xs">
@@ -291,24 +294,30 @@
                                  </div>
                                  <!--end of container-->
                 </section>
+                
+                
+                <section id="whycoding" class="text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-10 col-md-8">
+                                <h1 style = "font-size: 80">Coding Minds的同学<br/>如何脱颖而出</h2>
+                                <p class="lead" style = "font-size: 40">                                    
+                                面对计算机时代的同学，我们设计课程的宗旨不止是：动手、创新、有用、有趣，还要带领同学们做自己的项目，提升编程的能力，为竞赛打基础，为升学做准备。让学习计算机真正地帮助到同学申请到好的大学。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <form> -->
+                        <div class="col-sm-12 boxed" >
+                            <span class="h6 inline-block">了解更多课程信息 请输入邮箱:</span>
+                            <input type="email" required ng-model='form.email' name="Email" placeholder="请输入邮箱" />
+                            <button type="submit" ng-click="submit1()" class="btn btn--primary type--uppercase">免费试课</button>
+                        </div>
+                    <!-- </form> -->
+
+                </section>
 
 
-
-                 
-                 <section id="whycoding" class="text-center">
-                     <div class="container">
-                         <div class="row">
-                             <div class="col-sm-10 col-md-8">
-                                 <h1 style = "font-size: 80">Coding Minds的同学<br/>如何脱颖而出</h2>
-                                 <p class="lead" style = "font-size: 40">                                    
-                                    面对计算机时代的同学，我们设计课程的宗旨不止是：动手、创新、有用、有趣，还要带领同学们做自己的项目，提升编程的能力，为竞赛打基础，为升学做准备。让学习计算机真正地帮助到同学申请到好的大学。
-                                 </p>
-                             </div>
-                         </div>
-                         <!--end of row-->
-                     </div>
-                     <!--end of container-->
-                 </section>
 
                  <section class="text-center bg--secondary">
                      <div class="container">
@@ -324,7 +333,6 @@
                          <!--end of row-->
                      </div>
                      <!--end of container-->
-
                 </section>
 
                 
@@ -1488,19 +1496,23 @@
          </footer>
      </div>
 
-       <!--a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-           <i class="stack-interface stack-up-open-big"></i>
-       </a-->
+       
+       <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+       </a>    
        <a class="btn btn--primary type--uppercase float-right" href="trial-class.html" target="_blank"><span class="btn__text">免费试课</span></a>
-       <!--a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-           <i class="stack-interface stack-up-open-big"></i>
-       </a-->
+
       <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/jquery.steps.min.js"></script>
       <script src="js/angular.min.js"></script>
+      <script src="js/angular-animate.min.js"></script>
+      <script src="js/angular-aria.min.js"></script>
+      <script src="js/angular-material.min.js"></script>
       <script src="course-control/pathway.js"></script>
       <script src="course-control/coursedb-v3.js"></script>
       <script src="course-control/scheduledb-v4.js"></script>
       <script src="course-control/courselist-cn-v2.js"></script>
+      <script src="course-control/signup_trialcourse_homepage.js"></script>
       <script src="js/flickity.min.js"></script>
       <script src="js/easypiechart.min.js"></script>
       <script src="js/parallax.js"></script>
