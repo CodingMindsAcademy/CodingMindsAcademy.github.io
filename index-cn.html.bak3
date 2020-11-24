@@ -141,8 +141,6 @@
         }
 
         #contact-icon{display: none}
-
-        #h-block{display: none};
     }    
     </style>
     
@@ -318,7 +316,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-10 col-md-8">
-                                <h1 style = "font-size: 80">Coding Minds的同学<br/>如何脱颖而出</h2>                                
+                                <h1 style = "font-size: 80">Coding Minds的同学<br/>如何脱颖而出</h2>
+                                <p class="lead" style = "font-size: 40">                                    
+                                面对计算机时代的同学，我们设计课程的宗旨不止是：动手、创新、有用、有趣，还要带领同学们做自己的项目，提升编程的能力，为竞赛打基础，为升学做准备。让学习计算机真正地帮助到同学申请到好的大学。
+                                </p>
                             </div>
                         </div>
                     </div>                    
@@ -326,12 +327,11 @@
 
                 <section class="text-center">
                     <div class="row">
-                        <div id = "h-block"class="col-sm-3" style="color: white">
-                            1
+                        <div class="col-sm-3">
                         </div>
-                        <form class="form-horizontal" style = "margin: 10px">
-                            <div class="col-sm-4">
-                                <input type="email" required ng-model='form.email'name="Email" placeholder="请输入邮箱获取简介"/>
+                        <form class="form-horizontal">                            
+                            <div class="col-sm-4">                                
+                                <input type="email" required ng-model='form.email' name="Email" placeholder="请输入邮箱获取简介"/>
                             </div>                            
                             <div class="col-sm-1">
                                 <button type="submit" ng-click="submit1()" class="btn btn--primary type--uppercase">获取简介</button>
@@ -347,38 +347,45 @@
                     </div>
                 </section>
 
+
                 <section class="switchable bg--secondary">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <ul class="accordion accordion--oneopen accordion-2 switchable__text" style="height: 400px;">
+                            <ul class="accordion accordion--oneopen accordion-2 switchable__text" style="min-height: 509px;">
                                 <li class="active">
                                     <div class="accordion__title">
-                                        <span class="h1">学院宗旨</span>
+                                        <span class="h5">Campus Life</span>
                                     </div>
                                     <div class="accordion__content">
-                                        <p class="lead" style = "font-size: 60">                                    
-                                            面对计算机时代的同学，我们设计课程的宗旨不止是：动手、创新、有用、有趣，还要带领同学们做自己的项目，提升编程的能力，为竞赛打基础，为升学做准备。让学习计算机真正地帮助到同学申请到好的大学。
-                                        </p>                                        
+                                        <p class="lead">
+                                            Stack follows the BEM naming convention that focusses on logical code readability that is reflected in both the HTML and CSS. Interactive elements such as accordions and tabs follow the same markup patterns making rapid development easier for developers and beginners alike.
+                                        </p>
+                                        <p class="lead">
+                                            Add to this the thoughtfully presented documentation, featuring code highlighting, snippets, class customizer explanation and you've got yourself one powerful value package.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="accordion__title">
-                                        <span class="h1">培养计划</span>
+                                        <span class="h5">Study Support</span>
                                     </div>
                                     <div class="accordion__content">
                                         <p class="lead">
-                                            培养计划
-                                        </p>                                        
+                                            Stack offers a clean and contemporary to suit a range of purposes from corporate, tech startup, marketing site to digital storefront. Elements have been designed to showcase content in a diverse yet consistent manner.
+                                        </p>
+                                        <p class="lead">
+                                            Multiple font and colour scheme options mean that dramatically altering the look of your site is just clicks away — Customizing your site in the included Variant Page Builder makes experimenting with styles and content arrangements dead simple.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="accordion__title">
-                                        <span class="h1">招生范围</span>
+                                        <span class="h5">Qualification</span>
                                     </div>
                                     <div class="accordion__content">
                                         <p class="lead">
-                                            招生范围
+                                            Medium Rare is an elite author known for offering high-quality, high-value products backed by timely and personable support. Recognised and awarded by Envato on multiple occasions for producing consistently outstanding products, it's no wonder over 20,000 customers enjoy using Medium Rare templates.
                                         </p>
                                     </div>
                                 </li>
@@ -394,7 +401,110 @@
                 <!--end of container-->
             </section>
 
-            <section class="text-center bg">
+            <section class="imagebg">
+                <div class="background-image-holder" style="background: url(&quot;img/landing-6.jpg&quot;); opacity: 1;">
+                    <img alt="background" src="img/landing-6.jpg">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-5 col-sm-offset-5 col-md-offset-7">
+                            <div class="boxed boxed--lg border--round bg--white">
+                                <div class="col-md-10 col-md-offset-1 col-sm-12">
+                                    <h3>Experience quality</h3>
+                                    <p class="lead">
+                                        Stack is built with customization and ease-of-use at its core — whether you're a seasoned developer or just starting out, you'll be making attractive sites faster than any traditional HTML template.
+                                    </p>
+                                    <hr class="short">
+                                    <p>
+                                        Each purchase of Stack includes six months of free support and lifetime free content and bug-fix updates.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="imagebg height-50">
+                <div class="background-image-holder" style="background: url(&quot;img/landing-25.jpg&quot;); opacity: 1;">
+                    <img src="img/landing-25.jpg" alt="bg">
+                </div>
+            </section>
+
+            <section class="text-center imagebg" data-overlay="4">
+                <div class="background-image-holder" style="background: url(&quot;img/recruitment-4.jpg&quot;); opacity: 1;">
+                    <img alt="background" src="img/recruitment-4.jpg">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                            <div class="cta">
+                                <h2>Applicants find jobs with Stack</h2>
+                                <p class="lead">
+                                    On average, applicants are 40% more likely to find ongoing work in the creative industry using our jobs board.
+                                </p>
+                                <a class="btn btn--primary type--uppercase" href="#">
+                                    <span class="btn__text">
+                                        Create A Profile
+                                    </span>
+                                    <span class="label">It's Free</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="cover imagebg height-80 text-center" data-overlay="3">
+                <div class="background-image-holder" style="background: url(&quot;img/tourism-1.jpg&quot;); opacity: 1;">
+                    <img alt="background" src="img/tourism-1.jpg">
+                </div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="h1 inline-block">Travel deals on</span>
+                            <span class="h1 inline-block typed-text typed-text--cursor" data-typed-strings="Melbourne laneways,luxe glamping,urban hideaways,foodie tours,outback retreats,river cruising,wildlife safaris">urban hide</span>
+                            <p class="lead">
+                                Browse unique travel experiences from over 1,000 expert providers
+                            </p>
+                            <div class="boxed boxed--lg bg--white text-left">
+                                <form class="form--horizontal">
+                                    <div class="col-sm-6 col-md-3">
+                                        <input type="text" name="location" placeholder="Destination">
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input type="text" name="location" placeholder="Location">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="input-select">
+                                            <select>
+                                                <option selected="" value="Default">Select a discipline</option>
+                                                <option value="design">Design</option>
+                                                <option value="development">Development</option>
+                                                <option value="management">Management</option>
+                                                <option value="marketing">Marketing</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <button type="submit" class="btn btn--primary type--uppercase">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+
+                                
+                 <section class="text-center bg--secondary">
                      <div class="container">
                          <div class="row">
                              <div class="col-sm-10 col-md-8">
@@ -408,63 +518,122 @@
                          <!--end of row-->
                      </div>
                      <!--end of container-->
-            </section>
+                </section>
+                
 
-            <section class="imagebg height-50">
-                <div class="background-image-holder" style="background: url(&quot;img/academia-3.jpg&quot;); opacity: 1;">
-                    <img src="img/academia-3.jpg" alt="bg">
-                </div>
-            </section>
+                <section class=" ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1">
+                                                <img alt="Image" src="img/contest-1.jpg">
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>竞赛为同学学习编程 完善项目提供了目标和动力</h5>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1">
+                                                <img alt="Image" src="img/contest-2.jpg">
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>在竞赛中 不止是编程能力得到提升 综合能力也能得到锻炼</h5>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1">
+                                                <img alt="Image" src="img/contest-3.jpg">
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>竞赛成绩作为荣誉和成就 可以为名校申请提供有力的支持</h5>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1">
+                                                <img alt="Image" src="img/contest-4.jpg">
+                                                <div class="feature__body boxed boxed--border">
+                                                    <h5>Coding Minds的同学平均每年参加两次美国顶级编程竞赛 </h5>
+                                                </div>
+                                            </div>
+                                            <!--end feature-->
+                                        </div>
+                                    </div>
+                                    <!--end of row-->
+                                </div>
+                                <!--end of container-->
+                </section>
 
-            <section class="text-center">
+                 <section class="text-center bg--secondary">
                      <div class="container">
                          <div class="row">
                              <div class="col-sm-10 col-md-8">
                                  <span class="h1">不断挑战科研与创新</span>
                                  <p class="lead">
-                                     学院科研方向涵盖人工智能，大数据，移动开发，算法，物联网，网络开发等多个领域
+                                     学院科研方向涵盖人工智能，大数据，移动端开发，算法，物联网，网络服务等多个领域。最早在5年级就可以熟练掌握运用人工智能与神经网络，8年级便可以进行科研试验并发表国际会议论文
                                  </p>
                              </div>
                          </div>
                          <!--end of row-->
                      </div>
                      <!--end of container-->
-            </section>
+                </section>
+
+                <section class=" ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/academia-1.jpg">
+                                                                <div class="feature__body boxed boxed--border">        
+                                                                    <h5>美国顶尖高校科研导师 提供最前沿的科研指导</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/academia-2.jpg">
+                                                                <div class="feature__body boxed boxed--border">  
+                                                                    <h5>兴趣为主选择方向 帮同学实现属于自己的理想</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/academia-3.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>独有的一对一科研指导方法 解决科学研究中的挑战</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/academia-4.jpg">
+                                                                <div class="feature__body boxed boxed--border">        
+                                                                    <h5>学生最早8年级就可以在人工智能领域期刊发表文章</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                    </div>
+                                                    <!--end of row-->
+                                                </div>
+                                                <!--end of container-->
+                                </section>
 
 
                 
 
-            <section class="imagebg">
-                <div class="background-image-holder" style="background: url(&quot;img/academia-4.jpg&quot;); opacity: 1;">
-                    <img alt="background" src="img/academia-4.jpg">
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-7 col-md-5 col-sm-offset-5 col-md-offset-7">
-                            <div class="boxed boxed--lg border--round bg--white">
-                                <div class="col-md-10 col-md-offset-1 col-sm-12">
-                                    <h3>科研从中学生开始</h3>
-                                    <p class="lead">
-                                        编程思维的同学最早在5年级就可以熟练掌握运用人工智能与神经网络，8年级便可以进行科研试验并发表国际会议论文
-                                    </p>
-                                    <hr class="short">
-                                    <p>
-                                        美国顶尖高校科研导师 独有的一对一科研指导方法 帮同学实现属于自己的理想
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-
-            <section class="text-center">
+                 <section class="text-center bg--secondary">
                      <div class="container">
                          <div class="row">
                              <div class="col-sm-10 col-md-8">
-                                 <span class="h1">创业之旅 始于少年</span>
+                                 <span class="h1">创业从青少年开始</span>
                                  <p class="lead">
                                      从零开始完成实践创业的全过程。除过技术，还能收获丰富的履历和综合素质的提升。
                                  </p>
@@ -473,31 +642,60 @@
                          <!--end of row-->
                      </div>
                      <!--end of container-->
-            </section>
+                </section>
 
-            <section class="text-center imagebg" data-overlay="4">
-                <div class="background-image-holder" style="background: url(&quot;img/project-2.jpg&quot;); opacity: 1;">
-                    <img alt="background" src="img/project-2.jpg">
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                            <div class="cta">
-                                <h2>解决与自身息息相关的问题</h2>
-                                <p class="lead">
-                                    学院提供多门实战开发课程，保证同学能出色的完成研发。同时用最丰富的创业经验，帮助同学申请专利，成立公司，寻求投资
-                                </p>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
+                <a class="btn-floating btn-lg btn-default"><i class="fas fa-bolt"></i></a>
 
-            <section class="text-center bg--secondary">
+                <section class=" ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/entrepreneur-1.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>从生活出发 启发同学找出与自身息息相关的创业点子</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/entrepreneur-2.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>多门实战开发课程 保证同学能出色的完成研发</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/entrepreneur-3.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>与业界紧密联系 为同学提供最专业的商业课程</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/entrepreneur-4.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>创业经验丰富 帮助同学申请专利 成立公司 寻求投资 
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                    </div>
+                                                    <!--end of row-->
+                                                </div>
+                                                <!--end of container-->
+                                </section>
+
+
+                
+
+                 <section class="text-center bg--secondary">
                      <div class="container">
                          <div class="row">
                              <div class="col-sm-10 col-md-8">
@@ -510,87 +708,118 @@
                          <!--end of row-->
                      </div>
                      <!--end of container-->
-            </section>
+                </section>
 
-            <section class="cover imagebg height-80 text-center" data-overlay="3">
-                <div class="background-image-holder" style="background: url(&quot;img/volunteer-3.jpg&quot;); opacity: 1;">
-                    <img alt="background" src="img/volunteer-3.jpg">
-                </div>
-                <div class="container pos-vertical-center">
-                    <div class="row">
-                        <div class="col-sm-12">                            
-                            <span class="h1 inline-block">每个同学</span>
-                            <span class="h1 inline-block typed-text typed-text--cursor" data-typed-strings="每一小节,每一门课,每一学期">urban hide</span>
-                            <p class="lead" style="font-size:40px">
-                                都要做出自己的编程作品
-                            </p>
-                            <!--p style="font-size:20px">
-                                作品大量发布在移动端 网络端 游戏客户端等 保证流量和知名度
-                            </p>
-                            <p style="font-size:20px">
-                                作品作为升学时的有力支持 在名校申请当中发挥重要作用
-                            </p-->                            
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>                 
+                <section class=" ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/project-1.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>每个同学 每一门课都要做出自己的编程作品</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/project-2.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>作品大量发布在移动端 网络端 游戏客户端等 保证流量和知名度</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/project-3.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>开源作品发布有利于同学同好之间互相交流 取长补短 不断完善</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/project-4.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>作品作为升学时的有力支持 在名校申请当中发挥重要作用</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                    </div>
+                                                    <!--end of row-->
+                                                </div>
+                                                <!--end of container-->
+                                </section>
 
-             <section class="text-center">
-                 <div class="container">
-                     <div class="row">
-                         <div class="col-sm-10 col-md-8">
-                             <span class="h1">志愿服务 回馈社会</span>
-                             <p class="lead">
-                                 十年树木，百年树人。Coding Minds为同学提供科技相关的志愿者服务机会，培养领导力的同时启发同学服务社会，回馈社会。
-                             </p>
+
+                
+
+                 <section class="text-center bg--secondary">
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-sm-10 col-md-8">
+                                 <span class="h1">志愿服务 回馈社会</span>
+                                 <p class="lead">
+                                     十年树木，百年树人。Coding Minds为同学提供科技相关的志愿者服务机会，培养领导力的同时启发同学服务社会，回馈社会。
+                                 </p>
+                             </div>
                          </div>
+                         <!--end of row-->
                      </div>
-                     <!--end of row-->
-                 </div>
-                 <!--end of container-->
-            </section>
+                     <!--end of container-->
+                </section>
 
-            <section class="text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="feature feature-6">
-                                <i class="icon icon--lg icon-Laughing color--primary"></i>
-                                <h4>服务意识</h4>
-                                <p>
-                                    服务意识和反馈思想是一个科技创业者所需要具备的基本素质
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="feature feature-6">
-                                <i class="icon icon--lg icon-Medical-Sign color--primary"></i>
-                                <h4>拓宽视野</h4>
-                                <p>
-                                    学院的志愿活动可以接触到很多有知名度的专家学者 行业精英
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="feature feature-6">
-                                <i class="icon icon--lg icon-Finger-Print color--primary"></i>
-                                <h4>积累经验</h4>
-                                <p>
-                                    志愿服务为大学申请积累了雄厚的资本
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-            
+                <section class=" ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/volunteer-1.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>服务意识和反馈思想是一个科技创业者所需要具备的基本素质 </h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/volunteer-2.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>学院为同学提供科技相关志愿者服务平台</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/volunteer-3.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>学院的志愿活动可以接触到很多有知名度的专家学者 行业精英</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="feature feature-1">
+                                                                <img alt="Image" src="img/volunteer-4.jpg">
+                                                                <div class="feature__body boxed boxed--border">
+                                                                    <h5>志愿服务为大学申请积累了雄厚的资本</h5>
+                                                                </div>
+                                                            </div>
+                                                            <!--end feature-->
+                                                        </div>
+                                                    </div>
+                                                    <!--end of row-->
+                                                </div>
+                                                <!--end of container-->
+                                </section>
+
+
+                
             <section class="text-center bg--secondary">
                 <div class="container">
                     <div class="row">
