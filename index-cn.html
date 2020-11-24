@@ -49,7 +49,7 @@
 
     @media only screen and (min-width : 992px) {
     #video2{display:block;}
-    #videosubstitute{display:none}
+    #videosubstitute{display:none}    
     }
 
     #videoDiv2 {width: 100%;  margin:auto; display:block; position: relative;}
@@ -84,6 +84,20 @@
         -ms-flex: 1;
         flex: 1;
         width: 100%;
+    }
+
+    i[title]:hover:after {
+        content: attr(title);      
+        font-size: 20px;
+        border: black 1px;
+        background-color: #DCDCDC;
+        padding: 1px 20px 5px 5px;
+        display: block;
+        z-index: 100;
+        left: 0px;
+        margin-top: 30px;        
+        position: absolute;
+        top: 10px;        
     }
 
     .float-right {
@@ -125,6 +139,8 @@
             /*writing-mode : tb-rl;*/
             transform: translate(30%)
         }
+
+        #contact-icon{display: none}
     }    
     </style>
     
@@ -306,46 +322,31 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-sm-4 boxed " >
-                        <p class="lead" style = "font-size: 40"> 
-                            欢迎联系我们
-                        </p>
-                        <!-- <span class="h6 inline-block">欢迎联系我们</span> -->
-                        <div>
-                            <a href="https://codingmindsacademy.com/trial-class.html">
-                                <i class="icon icon--lg block icon-Phone-2 icon--xs" title="(949) 678-9790"> </i>
-                            </a>
-                        </div>
-                        
-                        <!-- <button class="col-sm-6 btn btn--primary type--uppercase"> 电话：(949) 678-9790</button> -->
-                        <!-- <button class="btn btn--primary type--uppercase">邮箱：contact@codingmindsacademy.com</button> -->
-                    </div>
-                    <div class="col-sm-4 boxed " >
-                        <!-- <p class="lead" style = "font-size: 40"> 
-                            了解更多课程信息 请输入邮箱:
-                        </p> -->
-                        <!-- <span class="h6 inline-block">了解更多课程信息 请输入邮箱:</span> -->
-                        <input type="email" required ng-model='form.email' name="Email" placeholder="欢迎免费试听 请输入邮箱" />
-                        <button type="submit" ng-click="submit1()" class="btn btn--primary type--uppercase">免费试课</button>
-                    </div>
-                    <div class="col-sm-4 boxed " >
-                        <p class="lead" style = "font-size: 40"> 
-                            欢迎联系我们
-                        </p>
-                        <div>
-                            <a href="https://codingmindsacademy.com/trial-class.html">
-                                <i class="icon icon--lg block icon-Email icon--xs" title="contact@codingmindsacademy.com" > </i>
-                            </a>
-                        </div>
-                    </div>
-                    
-
+                    </div>                    
                 </section>
 
-
-
+                <section class="text-center">
+                    <div class="row">
+                        <div class="col-sm-3">
+                        </div>
+                        <form class="form-horizontal">                            
+                            <div class="col-sm-4">                                
+                                <input type="email" required ng-model='form.email' name="Email" placeholder="请输入邮箱获取简介"/>
+                            </div>                            
+                            <div class="col-sm-1">
+                                <button type="submit" ng-click="submit1()" class="btn btn--primary type--uppercase">获取简介</button>
+                            </div>
+                            <div class="col-sm-1">
+                                <i style= "padding-right:20px;" id = "contact-icon" class="icon icon--sm icon-Phone-2 icon--xm" title="(949) 678-9790"> </i>
+                                <i id = "contact-icon" class="icon icon--sm icon-Email icon--xm" title="contact@codingmindsacademy.com" > </i>
+                            </div>
+                            <div class="col-sm-1">
+                                
+                            </div>
+                        </form>                        
+                    </div>
+                </section>
+                
                  <section class="text-center bg--secondary">
                      <div class="container">
                          <div class="row">
