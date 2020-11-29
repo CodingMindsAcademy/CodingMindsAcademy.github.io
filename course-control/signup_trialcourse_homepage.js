@@ -3,7 +3,7 @@ angular.module('v3App', ['ngMaterial'])
 .config(function($sceProvider) {
   $sceProvider.enabled(false);    
 })
-.controller('signup_trialcourse_homepage', function($scope, $http, $location, $mdToast) {
+.controller('signup_trialcourse_homepage', function($scope, $http) {
 
   $scope.form = {
     "email": '',

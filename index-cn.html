@@ -337,8 +337,14 @@
                                 <button type="submit" ng-click="submit1()" class="btn btn--primary type--uppercase">获取简介</button>
                             </div>
                             <div class="col-sm-1">
-                                <i style= "padding-right:20px;" id = "contact-icon" class="icon icon--sm icon-Phone-2 icon--xm" title="(949) 678-9790"> </i>
-                                <i id = "contact-icon" class="icon icon--sm icon-Email icon--xm" title="contact@codingmindsacademy.com" > </i>
+                                <!-- <textarea cols="12" rows="1" id="phone" >(949)6789790</textarea> -->
+                                <!-- <input type="button" onClick="copyphone()" value="复制电话" /> -->
+                                <!-- <textarea cols="30" rows="1" id="email" >contact@codingmindsacademy.com</textarea> -->
+                                <!-- <input type="button" onClick="copyemail()" value="复制邮箱" /> -->
+                                <!-- <i style= "padding-right:20px;" id = "phone" class="icon icon--sm icon-Phone-2 icon--xm"  title="(949) 678-9790" type="button" onClick="copyphone()"></i> -->
+                                
+                                <i style= "padding-right:20px;" id = "phoneicon" class="icon icon--sm icon-Phone-2 icon--xm"  title="(949) 678-9790" type="button" onClick="copyphone()"></i>
+                                <i id = "emailicon" class="icon icon--sm icon-Email icon--xm" title="contact@codingmindsacademy.com" type="button" onClick="copyemail()"> </i>
                             </div>
                             <div class="col-sm-1">
                                 
@@ -1490,7 +1496,60 @@
 
         ga('create', 'UA-98249988-1', 'auto');
         ga('send', 'pageview');
-
-    </script>   
+      </script>   
+      <!-- <script type="text/JavaScript">
+        
+        function copyphone()
+        {
+        var Url2=document.getElementById("phone");
+        Url2.select(); // 选择对象
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        alert("已复制好，可贴粘。");
+        }
+      </script> -->
+      <!-- <script type="text/JavaScript">
+        function copyemail()
+        {
+        var Url2=document.getElementById("email");
+        Url2.select(); // 选择对象
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        alert("已复制好，可贴粘。");
+        }
+      </script> -->
+        
+      <script type="text/JavaScript">
+        function copyphone()
+        {
+            const input = document.createElement('input');
+            document.body.appendChild(input);
+            input.setAttribute('value', '(949) 678-9790');
+            input.select();
+            if (document.execCommand('copy')) {
+                document.execCommand('copy');
+                console.log('复制成功');
+            }
+            alert("已复制好，可贴粘电话号码。");
+        }
+      </script>
+      <script type="text/JavaScript">
+        function copyemail()
+        {
+            const input = document.createElement('input');
+            document.body.appendChild(input);
+            input.setAttribute('value', 'contact@codingmindsacademy.com');
+            input.select();
+            if (document.execCommand('copy')) {
+                document.execCommand('copy');
+                console.log('复制成功');
+            }
+            alert("已复制好，可贴粘电子邮箱。");
+        }
+    </script>
+        
+    
+  
+      
+    
+        
  </body>
 </html>
