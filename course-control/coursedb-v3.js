@@ -1343,6 +1343,26 @@ var coursedb = {
      "title2": "",
      "registerUrl": ""
     },
+    "cs575": {
+      "enabled": true,
+      "imageUrl": "",
+      "gradeLevel": "L5竞技编程",
+      "text": "",
+      "tag": "",
+      "courseCode": "cs575",
+      "suggestedCourses": [],
+      "detailsUrl": "",
+      "englishDetailsUrl": "",
+      "instructorDescription": "",
+      "id": "5faabf72d62cb400143bd806",
+      "curriculum": "",
+      "shortName": "AP CS A专项辅导",
+      "sname": "AP CS A Tutor",
+      "pathway": "",
+      "title1": "",
+      "title2": "",
+      "registerUrl": ""
+    },
     "cs580": {
      "enabled": true,
      "imageUrl": "",
