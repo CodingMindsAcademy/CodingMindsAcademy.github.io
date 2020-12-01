@@ -2042,7 +2042,7 @@ section.slider .flickity-page-dots {
 .masonry .masonry__container .masonry__item {
   opacity: 0;
   pointer-events: none;
-  width: 50%;
+  
 
 }
 .masonry .masonry__filters li {
