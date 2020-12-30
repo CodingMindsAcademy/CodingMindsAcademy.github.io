@@ -1,0 +1,42 @@
+.underline-small {
+    color: #fafafa;
+    display: inline-block;
+    position: relative;
+}
+
+.underline-small::after {
+    content: '';
+    height: 1.5px;
+    width: 20%;
+    position: absolute;
+    background: #fafafa;
+    left: calc(50% - 10%);
+    bottom: -3.5px;
+}
+
+.col-3 { 
+    column-count: 3;
+}
+
+.shike-num {
+    margin-left: 75px;
+    font-size: 70px;
+    color: #4A90E2;
+    opacity: 50%;
+}
+
+.shike-txt {
+    position: relative;
+    top: -90px;
+    font-size: 55px;
+    margin-left: 105px;
+
+}
+
+.shike-subtxt {
+    position: relative;
+    top: -80px;
+    font-size: 25px;
+    max-width: 300px;
+    margin-left: 108px;
+}
