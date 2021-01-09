@@ -16,6 +16,52 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+    
+        <style>
+            .underline-small {
+                color: #fafafa;
+                display: inline-block;
+                position: relative;
+            }
+    
+            .underline-small::after {
+                content: '';
+                height: 1.5px;
+                width: 20%;
+                position: absolute;
+                background: #fafafa;
+                left: calc(50% - 10%);
+                bottom: -3.5px;
+            }
+    
+            .col-3 { 
+                column-count: 3;
+            }
+    
+            .shike-num {
+                margin-left: 75px;
+                font-size: 70px;
+                color: #4A90E2;
+                opacity: 50%;
+            }
+    
+            .shike-txt {
+                position: relative;
+                top: -90px;
+                font-size: 55px;
+                margin-left: 105px;
+    
+            }
+    
+            .shike-subtxt {
+                position: relative;
+                top: -80px;
+                font-size: 25px;
+                max-width: 300px;
+                margin-left: 108px;
+            }
+        </style>
+    
     </head>
     <body class=" ">
         <a id="start"></a>
@@ -165,7 +211,66 @@
                 <!--end of container-->
             </section>
 
-            <section class="imageblock switchable feature-large bg--secondary space--sm">
+            <section class="text-center imagebg" data-overlay="4">
+                <div class="background-image-holder" style="background: url(&quot;img/my/coding-thinking.jpg&quot;); opacity: 1;">
+                    <img alt="background" src="img/my/coding-thinking.jpg">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                            <div class="cta">
+                                <h2 class="underline-small">联系试课</h2>
+                                <p class="lead">
+                                    试课内容涵盖图形编程、代码编程、简介代码编程、以及应用主题编程等丰富内容，由资深教师执教，确保同学能体会到编程的奥妙，带领同学走进编程世界的大门
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+                
+                    <section class="bg--secondary">
+                        <div class="container">
+                            <div class="row col-3">
+                                
+                                        <div class="left-sec">
+                                            <h2 class="shike-num type--bold">1</h2>
+                                            <h3 class="shike-txt">预约试课</h3>
+                                            <p class="shike-subtxt">
+                                               点击右侧“免费试课”
+                                            </p>
+                                        </div>
+                                
+                                        <div>
+                                            <h2 class="shike-num type--bold">2</h2>
+                                            <h3 class="shike-txt">定制排课</h3>
+                                            <p class="shike-subtxt">
+                                                与CodingMinds老师进行个性化的课程设计
+                                            </p>
+                                        </div>
+                                    
+                                        <div>
+                                            <h2 class="shike-num type--bold">3</h2>
+                                            <h3 class="shike-txt">学院入学</h3>
+                                            <p class="shike-subtxt">                                            
+                                                    安排同学入学 
+                                                    并根据反馈及时调整课程内容
+                                            </p>
+                                        </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </section>
+
+
+            <!-- <section class="imageblock switchable feature-large bg--secondary space--sm">
                 <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                     <div class="background-image-holder">
                         <img alt="image" src="img/my/coding-thinking.jpg" />
@@ -180,9 +285,7 @@
                             </p>
                         </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
             </section>
             
                 <section class="">
@@ -225,13 +328,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--end process-->
                         </div>
-                        <!--end of row-->
                     </div>
-                    <!--end of container-->
                 </div>
-                </section>
+                </section> -->
 
                 <section class="bg text-center">
                     <div class="container">
