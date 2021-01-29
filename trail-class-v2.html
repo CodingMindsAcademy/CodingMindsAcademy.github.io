@@ -1,0 +1,311 @@
+<!doctype html>
+<html ng-app="v3App" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="./img/favicon.png" rel="icon">
+        <title>免费试课 | Coding Minds Academy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site Description Here">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!-- <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet"> -->
+        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+        <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
+        <style>
+        @media only screen and (max-width : 667px) {
+        #subject {width:350px;}
+        }
+        #subject {
+            width: 350px; height: 500px; border-radius: 25px; background-color:#FFFAF0; text-align:center
+        }
+        </style>
+
+    </head>
+    <body ng-controller="signup_trialcourse_controller">
+        <a id="start"></a>
+        <div class="nav-container">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/my/logo1.png" />
+                                <img class="logo logo-light" alt="logo" src="img/my/logo1.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-sm-10 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </div>
+            <!--end bar-->
+            <nav id="menu1" class="bar bar-1 hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-2 hidden-xs">
+                            <div class="bar__module">
+                                <a href="index-cn.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                            <div class="bar__module">
+                                <ul class="menu-horizontal text-left">
+                                    <li>
+                                        <a href="index-cn.html">
+                                            关于我们
+                                        </a>
+                                    </li>                                        
+                                    <li>
+                                        <a href="pathc.html">
+                                            课程体系
+                                        </a>
+                                    </li>                                        
+                                    <li>
+                                        <a href="enrichmentc.html">
+                                            背景提升
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="conferencec.html">
+                                            学生作品
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            师资力量
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bar__module">
+                                        <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
+                                        Contact Us
+                                    </span> </a> -->
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="https://www.sharemyworks.com"> <span class="btn__text">
+                                        学习中心
+                                    </span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+        <div class="main-container">            
+            <section class="switchable feature-large bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-6">
+                            <div class="switchable__text">
+                                <div class="text-block">
+                                    <h1 style="color:#dc143c;font-weight:bold;">Coding Minds</h1>
+                                    <h1 style="color:#dc143c; font-weight:bold;">编程助力名校在线班</h1>
+                                    <h2 style="font-weight:400;">申请美国名校 从学习编程开始</h2>
+                                </div>
+
+                                <p class="lead">
+                                    <li style="font-size: 20px;font-weight: 300">国际权威教材与<span style="color:#FFFF00">自主研发课程体系</span></li>
+                                </p>
+                                
+                                <p class="lead">
+                                    <li style="font-size: 20px; font-weight:300">Top 5%<span style="color:#FFFF00">美国高校教师</span>全英文授课</li>                                    
+                                </p>
+                                <p class="lead">
+                                    <li style="font-size: 20px; font-weight:300">1到4人精品小班教学</li>
+                                </p>
+                                <p class="lead">
+                                    <li style="font-size: 20px; font-weight:300">90%<span style="color:#FFFF00">美国名校</span>录取率</li>
+                                </p>
+                                <p class="lead">
+                                    <li style="font-size: 20px; font-weight:300">远程教育软件辅助课堂质量</li>
+                                </p>                                
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            
+                            <!--div id="subject" style="width: 350px; height: 500px; border-radius: 25px; background-color:#FFFAF0; text-align:center"-->
+                            <div id="subject">
+                                <h2 style="color:#dc143c;font-weight:bold;padding:20px;">计算机实践课程</h2>                                
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">Scracth少儿编程</span>
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">Minecraft程序设计</span>
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">Roblox游戏编程</span>
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">Python程序实践</span>
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">大数据与人工智能</span>
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">3D unity游戏建模</span>
+                                <span style="color:black;font-size:25px;display:block;padding:10px;font-weight:bold">Java与AP CS备考</span>
+                            </div>
+                            <!--img alt="Image" class="border--round" src="img/avatar-wide-2.jpg"-->
+                        </div>                  
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="space--sm text-center ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-10 col-md-8">
+                                <div class="text-center">
+                                    <i class="icon icon-Statistic color--primary"></i>
+                                    <h1 class="text-center" style = "font-weight:bold">Coding Minds编程思维<br></h1>
+                                    <hr>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-5 text-left">
+                                <h2 style="color:#dc143c; font-weight:bold;">
+                                    从美国大学申请的角度出发
+                                </h2>
+                                <p style="font-size:20px; font-weight:400;">
+                                    Coding Minds编程课程体系由美国大学计算机教授团队从美国大学申请的角度设计
+                                </p>
+                                <h2 style="color:#dc143c; font-weight:bold;">
+                                    不断挑战科研与创新
+                                </h2>
+                                <p style="font-size:20px; font-weight:400;">
+                                    学院科研方向涵盖人工智能，大数据，移动开发，算法，物联网，网络开发等多个领域
+                                </p>
+                                <h2 style="color:#dc143c; font-weight:bold;">
+                                    创业之旅 始于少年
+                                </h2>
+                                <p style="font-size:20px; font-weight:400;">
+                                    从零开始完成实践创业的全过程。除过技术，还能收获丰富的履历和综合素质的提升
+                                </p>
+                                <h2 style="color:#dc143c; font-weight:bold;">
+                                    发布作品 保留记录
+                                </h2>
+                                <p style="font-size:20px; font-weight:400;">
+                                    同学发布并保留自己的每一个项目
+                                </p>                                
+                            </div>
+                            <div class="col-sm-7">                                
+                                <img alt="Image" class="border--round box-shadow" src="img/pathway/biggoals2.png">
+                            </div>
+                        <div>
+                    </div>
+            </section>            
+
+            <section class="imageblock switchable feature-large height-100 bg--dark text-center" id="trial">
+                <div class="container pos-vertical-center col-md-5" style="border-radius: 25px; background-color:#FFFAF0;">
+                    <div ng-if="!loading" class="row">
+                        <div class="col-md-8">
+                            <h2 style="text-align: center; color:#dc143c; font-weight:bold;">免费注册试听课程</h2>
+                            <form>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <input type="text" ng-model="form.name"  pattern = "[A-Za-z ]*" placeholder="学生姓名" oninvalid="this.setCustomValidity('请使用英文字母输入名字')"
+                                        oninput="setCustomValidity('')" required/>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <input type="text" required ng-model='form.grade' name="Grade" placeholder="就读年级" />
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <input type="email" required ng-model='form.email2' name="Parent Email" placeholder="家长邮箱" />
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <input type="phone" required ng-model='form.phone2' name="Parent Phone" placeholder="家长电话" />
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="input-select">
+                                            <select class="form-control" ng-change="codingExperienceChanged()" ng-model="form.codingExperience">
+                                                <option ng-selected="form.codingExperience == item.id" ng-repeat="item in codingExperiences" ng-value="item.id">{{item.label}}</option>
+                                           </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12">
+                                        <input type="text" ng-model='form.availability' name="Comment" placeholder="请输入合适您和孩子的时间" />
+                                    </div>
+
+                                    <div class="col-xs-12">
+                                        <button type="submit" ng-click="submit()" class="btn btn--primary type--uppercase" style="background:#dc143c;">提交</button>
+                                    </div>
+
+                                </div>
+                                <!--end row-->
+                            </form>
+
+                        </div>
+                    </div>
+                    <div ng-if="loading" class="row" >
+                      <div class="col-md-5 col-sm-7" >
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <div class="lds-ring"><div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+
+            </section>
+
+            <section class="text-center">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-10 col-md-8">
+                             <h1 style="color:#dc143c; font-weight:bold;">联系试课</h1>
+                             <br>
+                             <p style="font-size:20px; font-weight:400;">试课内容涵盖图形编程、代码编程、简介代码编程、以及应用主题编程等丰富内容，由资深教师执教，确保同学能体会到编程的奥妙，带领同学走进编程世界的大门</p>
+                             <br>
+                             <button class="btn btn--primary type--uppercase" style="background:#dc143c;" onclick=moveTrial()><span style="font-size:30px; padding:30px">点击试课</span></button>
+                         </div>
+                     </div>                     
+                     <!--end of row-->
+                     
+                     
+                     <!--end of row-->
+                 </div>
+                 <!--end of container-->
+            </section>
+
+
+        <!--<div class="loader"></div>-->
+        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="stack-interface stack-up-open-big"></i>
+        </a>
+        <script>
+            function moveTrial() {
+                document.getElementById("trial").scrollIntoView();
+            }            
+        </script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-animate.min.js"></script>
+        <script src="js/angular-aria.min.js"></script>
+        <script src="js/angular-material.min.js"></script>
+        <!-- <script src="js/flickity.min.js"></script> -->
+        <!-- <script src="js/easypiechart.min.js"></script> -->
+        <!-- <script src="js/parallax.js"></script> -->
+        <!-- <script src="js/typed.min.js"></script> -->
+        <!-- <script src="js/datepicker.js"></script> -->
+        <!-- <script src="js/isotope.min.js"></script> -->
+        <!-- <script src="js/ytplayer.min.js"></script> -->
+        <!-- <script src="js/lightbox.min.js"></script> -->
+        <!-- <script src="js/granim.min.js"></script> -->
+        <script src="js/jquery.steps.min.js"></script>
+        <!-- <script src="js/countdown.min.js"></script> -->
+        <!-- <script src="js/twitterfetcher.min.js"></script> -->
+        <!-- <script src="js/spectragram.min.js"></script> -->
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="course-control/signup_trialcourse_controller.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
