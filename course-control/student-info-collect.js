@@ -5,7 +5,7 @@ angular
     $locationProvider.html5Mode(true);
   })
   .controller('student-info-collect', function ($scope, $http, $location) {
-    const availability = [];
+    const availableTime = [];
     for (let i = 0; i < 7; i++) {
       const tmp = [];
       for (let j = 8; j <= 20; j++) {
@@ -15,7 +15,7 @@ angular
           valid: false,
         });
       }
-      availability.push(tmp);
+      availableTime.push(tmp);
     }
     $scope.form = {
       firstName: '',
@@ -25,7 +25,7 @@ angular
       email2: '',
       phone2: '',
       timeZone: '',
-      availableTime: availability,
+      availableTime: availableTime,
     };
 
     $scope.weekdays = [
@@ -67,7 +67,7 @@ angular
     ];
 
     $scope.toggleAvailability = (day, time) => {
-      $scope.form.availability[day][time].valid = !$scope.form.availability[
+      $scope.form.availableTime[day][time].valid = !$scope.form.availableTime[
         day
       ][time].valid;
     };
@@ -81,7 +81,7 @@ angular
     };
 
     $scope.submit = async () => {
-      const availability = $scope.form.availability.map((day) => {
+      const availableTime = $scope.form.availableTime.map((day) => {
         return day
           .filter((timeSection) => timeSection.valid)
           .map((timeSection) => timeSection.time);
@@ -89,7 +89,7 @@ angular
 
       const data = {
         ...$scope.form,
-        availableTime: JSON.stringify(availability),
+        availableTime: JSON.stringify(availableTime),
       };
 
       const baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';

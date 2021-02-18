@@ -325,10 +325,10 @@
                                             <div class="col-sm-12 form-item">
                                                 <label class="form-label-head"><span class="index">{{weekday.sequence}} 每{{weekday.day}}</span><span>全部可排课时间</span></label>
                                                 <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                                <div class="row ratio-group" ng-repeat="timeSection in form.availability[weekday.idx]">
+                                                <div class="row ratio-group" ng-repeat="timeSection in form.availableTime[weekday.idx]">
                                                     <div class="input-checkbox radio-button" ng-click="toggleAvailability(weekday.idx, timeSection.idx)">
                                                         <div class="inner"></div>
-                                                        <input type="checkbox" class="validate-required" ng-model="form.availability[weekday.idx][0].valid">
+                                                        <input type="checkbox" class="validate-required" ng-model="form.availableTime[weekday.idx][0].valid">
                                                     </div>
                                                     <label class="radio-item">{{timeSection.time}}</label>
                                                 </div>
