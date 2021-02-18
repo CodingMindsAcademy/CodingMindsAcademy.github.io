@@ -89,7 +89,7 @@ angular
 
       const data = {
         ...$scope.form,
-        availability: JSON.stringify(availability),
+        availableTime: JSON.stringify(availability),
       };
 
       const baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
