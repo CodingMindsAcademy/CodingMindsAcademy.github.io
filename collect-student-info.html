@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html ng-app="v3App" lang="en">
     <head>
         <meta charset="utf-8">
         <link href="./img/favicon.png" rel="icon">
@@ -16,7 +16,7 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
-    
+        <base href="/">
         <style>
             .underline-small {
                 color: #fafafa;
@@ -84,6 +84,11 @@
                 padding-left: 20px;
             }
 
+            .input-radio:focus,
+            .radio-button:focus {
+                outline-width: 0;
+            }
+
             .radio-item {
                 padding-left: 5px; font-size: 16px;
             }
@@ -94,8 +99,8 @@
         </style>
     
     </head>
-    <body class=" ">
-        <a id="start"></a>
+    <body class=" " ng-controller="student-info-collect">
+        <a id="start" ng-model="form.name"></a>
         <div class="nav-container ">
             <div class="bar bar--sm visible-xs">
                 <div class="container">
@@ -205,837 +210,132 @@
 
             <section class=" bg--secondary">
                 <div class="container">
-                         <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
                             <div class="row">
                                 <div class="boxed boxed--border">
-                                    <form class="text-left" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." action="https://formspree.io/yu.sun.cs@gmail.com" method="POST">
+                                    <form class="text-left" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." ng-submit="submit()">
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span  class="index">*01 </span><span>学生姓名 First/LastName</span></label>
+                                            <label class="form-label-head"><span  class="index">*01 </span><span>FirstName</span></label>
                                             <label><span class="form-label">请与上课时姓名保持相同</span></label>
-                                            <input type="text" name="name" class="validate-required" placeholder="点击输入"/>
+                                            <input type="text" name="name" class="validate-required" required ng-model='form.firstName' placeholder="点击输入"/>
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*02 </span><span>请选择性别 Gender</span></label>
+                                            <label class="form-label-head"><span  class="index">*02 </span><span>LastName</span></label>
+                                            <label><span class="form-label">请与上课时姓名保持相同</span></label>
+                                            <input type="text" name="name" class="validate-required" required  ng-model='form.lastName' placeholder="点击输入"/>
+                                        </div>
+                                        <div class="col-sm-12 form-item">
+                                            <label class="form-label-head"><span class="index">*03 </span><span>请选择性别 Gender</span></label>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setGender('male')">
                                                     <div class="inner"></div>
-                                                    <input type="radio" name="gendar" value="" class="validate-required">
+                                                    <input type="radio" name='gender' value="male" ng-model='form.gender' ng-change='radioChange()' class="validate-required">
                                                 </div>                                                
                                                 <label class="radio-item">男</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setGender('female')">
                                                     <div class="inner"></div>
-                                                    <input type="radio" name="gendar" value="" class="validate-required">
+                                                    <input type="radio" name='gender' value="female" ng-model='form.gender' class="validate-required">
                                                 </div>                                                
                                                 <label class="radio-item">女</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*03 </span><span>学生生日 Birthday</span></label>                                            
-                                            <input type="date" id="birthday" name="birthday">
+                                            <label class="form-label-head"><span class="index">*04 </span><span>学生生日 Birthday</span></label>                                            
+                                            <input type="date" id="birthday" name="birthday" required ng-model="form.dateOfBirth">
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*04 </span><span>家长电子邮箱 Email</span></label>
+                                            <label class="form-label-head"><span class="index">*05 </span><span>家长电子邮箱 Email</span></label>
                                             <label><span class="form-label">用于确认课程以及提供反馈报告</span></label>
-                                            <input type="email" name="email" class="validate-required validate-email"/>
+                                            <input type="text" class="validate-required validate-email" required ng-model="form.email2" />
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*05 </span><span>家长手机 Phone</span></label>
+                                            <label class="form-label-head"><span class="index">*06 </span><span>家长手机 Phone</span></label>
                                             <label><span class="form-label">用于短信提醒和紧急情况通知 而非电话营销</span></label>
-                                            <input type="text" name="phone" class="validate-required"/>
+                                            <input type="text" class="validate-required validate-email" required ng-model="form.phone2" />
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*06 </span><span>请选择时区 TimeZone</span></label>
+                                            <label class="form-label-head"><span class="index">*07 </span><span>请选择时区 TimeZone</span></label>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC-7 美西（洛杉矶 温哥华等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>                                                
                                                 <label class="radio-item">UTC-7 美西（洛杉矶 温哥华等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC-6 美山（盐湖城 丹佛等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC-6 美山（盐湖城 丹佛等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC-5 美中（芝加哥等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC-5 美中（芝加哥等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC-4 美东（纽约多伦多等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC-4 美东（纽约多伦多等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC+8 中国')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC+8 中国</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC+1 西欧（伦敦等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC+1 西欧（伦敦等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC+2 中欧（巴黎 柏林 罗马等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC+2 中欧（巴黎 柏林 罗马等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('UTC+3 东欧（基辅 莫斯科等)')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC+3 东欧（基辅 莫斯科等)</label>
                                             </div>
                                             <div class="row ratio-group">
-                                                <div class="input-radio radio-button">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('其他国家')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">其他国家</label>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">07 每周一</span><span>全部可排课时间</span></label>
-                                            <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
+                                        <div ng-repeat="weekday in weekdays">
+                                            <div class="col-sm-12 form-item">
+                                                <label class="form-label-head"><span class="index">{{weekday.sequence}} 每{{weekday.day}}</span><span>全部可排课时间</span></label>
+                                                <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
+                                                <div class="row ratio-group" ng-repeat="timeSection in form.availability[weekday.idx]">
+                                                    <div class="input-checkbox radio-button" ng-click="toggleAvailability(weekday.idx, timeSection.idx)">
+                                                        <div class="inner"></div>
+                                                        <input type="checkbox" class="validate-required" ng-model="form.availability[weekday.idx][0].valid">
+                                                    </div>
+                                                    <label class="radio-item">{{timeSection.time}}</label>
                                                 </div>
-                                                <label class="radio-item">8:00-9:00</label>
                                             </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">9:00-10:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">10:00-11:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">11:00-12:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">12:00-13:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">13:00-14:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">14:00-15:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">15:00-16:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">16:00-17:00</label>
-                                            </div>
-                                             <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">17:00-18:00</label>
-                                            </div>
-                                             <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">18:00-19:00</label>
-                                            </div>
-                                             <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">19:00-20:00</label>
-                                            </div>
-                                             <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">20:00-21:00</label>
-                                            </div>
-                                            <div class="row ratio-group">
-                                                <div class="input-checkbox radio-button">
-                                                    <div class="inner"></div>
-                                                    <input type="checkbox" name="" value="" class="validate-required">
-                                                </div>
-                                                <label class="radio-item">以上时间都不行</label>
-                                            </div>
-                                        </div>
-
-                                    <div class="col-sm-12 form-item">
-                                        <label class="form-label-head"><span class="index">08 每周二</span><span>全部可排课时间</span></label>
-                                        <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">8:00-9:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">9:00-10:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">10:00-11:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">11:00-12:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">12:00-13:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">13:00-14:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">14:00-15:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">15:00-16:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">16:00-17:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">17:00-18:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">18:00-19:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">19:00-20:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">20:00-21:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">以上时间都不行</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 form-item">
-                                        <label class="form-label-head"><span class="index">09 每周三</span><span>全部可排课时间</span></label>
-                                        <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">8:00-9:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">9:00-10:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">10:00-11:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">11:00-12:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">12:00-13:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">13:00-14:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">14:00-15:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">15:00-16:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">16:00-17:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">17:00-18:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">18:00-19:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">19:00-20:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">20:00-21:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">以上时间都不行</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 form-item">
-                                        <label class="form-label-head"><span class="index">10 每周四</span><span>全部可排课时间</span></label>
-                                        <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">8:00-9:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">9:00-10:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">10:00-11:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">11:00-12:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">12:00-13:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">13:00-14:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">14:00-15:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">15:00-16:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">16:00-17:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">17:00-18:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">18:00-19:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">19:00-20:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">20:00-21:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">以上时间都不行</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 form-item">
-                                        <label class="form-label-head"><span class="index">11 每周五</span><span>全部可排课时间</span></label>
-                                        <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">8:00-9:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">9:00-10:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">10:00-11:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">11:00-12:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">12:00-13:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">13:00-14:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">14:00-15:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">15:00-16:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">16:00-17:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">17:00-18:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">18:00-19:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">19:00-20:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">20:00-21:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">以上时间都不行</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 form-item">
-                                        <label class="form-label-head"><span class="index">12 每周六</span><span>全部可排课时间</span></label>
-                                        <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">8:00-9:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">9:00-10:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">10:00-11:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">11:00-12:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">12:00-13:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">13:00-14:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">14:00-15:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">15:00-16:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">16:00-17:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">17:00-18:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">18:00-19:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">19:00-20:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">20:00-21:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">以上时间都不行</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 form-item">
-                                        <label class="form-label-head"><span class="index">13 每周日</span><span>全部可排课时间</span></label>
-                                        <label><span class="form-label">请尽可能多选 方便我们提高排课速率</span></label>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">8:00-9:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">9:00-10:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">10:00-11:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">11:00-12:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">12:00-13:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">13:00-14:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">14:00-15:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">15:00-16:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">16:00-17:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">17:00-18:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">18:00-19:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">19:00-20:00</label>
-                                        </div>
-                                         <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">20:00-21:00</label>
-                                        </div>
-                                        <div class="row ratio-group">
-                                            <div class="input-checkbox radio-button">
-                                                <div class="inner"></div>
-                                                <input type="checkbox" name="" value="" class="validate-required">
-                                            </div>
-                                            <label class="radio-item">以上时间都不行</label>
                                         </div>
-                                    </div>
                                         
-                                        <!--div class="col-sm-12">
-                                            <label>留言:</label>
-                                            <textarea rows="5" name="description" class="validate-required"></textarea>
-                                        </div-->
+
                                         <div class="col-sm-12 boxed">
                                             <button type="submit" class="btn btn--primary type--uppercase">提交</button>
                                         </div>
@@ -1192,6 +492,11 @@
         <script src="js/twitterfetcher.min.js"></script>
         <script src="js/spectragram.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-animate.min.js"></script>
+        <script src="js/angular-aria.min.js"></script>
+        <script src="js/angular-material.min.js"></script>
+        <script src="course-control/student-info-collect.js"></script>
         <script src="js/scripts.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -1202,6 +507,13 @@
           ga('create', 'UA-98249988-1', 'auto');
           ga('send', 'pageview');
 
+        </script>
+        <script>
+            var app = angular.module('myApp', []);
+            app.controller('myCtrl', function($scope) {
+                $scope.firstName= "John";
+                $scope.lastName= "Doe";
+            });
         </script>
     </body>
 </html>
