@@ -25,7 +25,7 @@ angular
       email2: '',
       phone2: '',
       timeZone: '',
-      availability: availability,
+      availableTime: availability,
     };
 
     $scope.weekdays = [
