@@ -334,7 +334,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
 
                                         <div class="col-sm-12 boxed">
                                             <button type="submit" class="btn btn--primary type--uppercase">提交</button>
@@ -348,6 +347,11 @@
                 </div>
                 <!--end of container-->
             </section>
+
+            <div ng-show="showDialog === true" style="position: fixed; height: 100vh; width: 100vw; top: 0; left: 0; display: flex; align-items: center; justify-content: center;">
+                <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+            </div>
+
 
             <!-- <section class="imageblock switchable feature-large bg--secondary space--sm">
                 <div class="imageblock__content col-md-6 col-sm-4 pos-right">

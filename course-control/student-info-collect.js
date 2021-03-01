@@ -27,6 +27,7 @@ angular
       timeZone: '',
       availableTime: availableTime,
     };
+    $scope.showDialog = false;
 
     $scope.weekdays = [
       {
@@ -81,6 +82,7 @@ angular
     };
 
     $scope.submit = async () => {
+      $scope.showDialog = true;
       const availableTime = $scope.form.availableTime.map((day) => {
         return day
           .filter((timeSection) => timeSection.valid)
@@ -96,6 +98,9 @@ angular
       // let baseUrl = 'http://localhost:3000/api/';
       const accountId = $location.search()['accountId'];
       if (!accountId) {
+        $scope.$apply(function() {
+          $scope.showDialog = false;
+        });
         alert('No accountId found!');
         return;
       }
@@ -115,9 +120,15 @@ angular
           url: `${baseUrl}Account/${accountId}?access_token=${accessToken}`,
           data: data,
         });
+        $scope.$apply(function() {
+          $scope.showDialog = false;
+        });
         alert('Successfully updated information!');
       } catch (error) {
         console.log(error);
+        $scope.$apply(function() {
+          $scope.showDialog = false;
+        });
       }
     };
   });
