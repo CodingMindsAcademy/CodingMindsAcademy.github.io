@@ -81,6 +81,15 @@ angular
       $scope.form.timeZone = timeZone;
     };
 
+    const formatAvailabelTime = (availableTime) => {
+      const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      let res = '';
+      for (let idx = 0; idx < 7; idx++) {
+        res += `${weekDays[idx]}: ${availableTime[idx]}\n`
+      }
+      return res;
+    }
+
     $scope.submit = async () => {
       $scope.showDialog = true;
       const availableTime = $scope.form.availableTime.map((day) => {
@@ -120,6 +129,23 @@ angular
           url: `${baseUrl}Account/${accountId}?access_token=${accessToken}`,
           data: data,
         });
+        await $http({
+          method: 'POST',
+          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${accessToken}`,
+          data: {
+            email: 'contact@codingmindsacademy.com',
+            content: 'A student has updated his/her information:\n' +
+            `First Name: ${data.firstName}\n` +
+            `Last Name: ${data.lastName}\n` +
+            `Gender: ${data.gender}\n` +
+            `Date of Birth: ${new Date(data.dateOfBirth).toLocaleDateString()}\n` +
+            `Parent Email: ${data.email2}\n` +
+            `Parent Phone: ${data.phone2}\n` +
+            `Time Zone: ${data.timeZone} \n` +
+            `Availabel Time \n` +
+            formatAvailabelTime(availableTime)
+          }
+        })
         $scope.$apply(function() {
           $scope.showDialog = false;
         });
