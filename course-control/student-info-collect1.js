@@ -64,8 +64,8 @@ angular
           method: 'POST',
           url: `${baseUrl}Account/login`,
           data: {
-            username: 'Admin',
-            password: 'AdminPassword',
+            username: 'admindev',
+            password: 'admindevPassword',
           },
         });
         const accessToken = account.data.id;
