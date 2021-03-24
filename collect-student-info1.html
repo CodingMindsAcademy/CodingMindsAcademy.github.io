@@ -286,11 +286,25 @@
                                                 <label class="radio-item">UTC-4 美东（纽约多伦多等)</label>
                                             </div>
                                             <div class="row ratio-group">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('Asia/Ho_Chi_Minh')" ng-class="{checked: form.timeZone == 'Asia/Ho_Chi_Minh'}">
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="time-zone" value="" class="validate-required">
+                                                </div>
+                                                <label class="radio-item">UTC+7 越南</label>
+                                            </div>
+                                            <div class="row ratio-group">
                                                 <div class="input-radio radio-button" ng-click="setTimeZone('Asia/Taipei')" ng-class="{checked: form.timeZone == 'Asia/Taipei'}">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
                                                 </div>
                                                 <label class="radio-item">UTC+8 中国</label>
+                                            </div>
+                                            <div class="row ratio-group">
+                                                <div class="input-radio radio-button" ng-click="setTimeZone('Australia/Sydney')" ng-class="{checked: form.timeZone == 'Australia/Sydney'}">
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="time-zone" value="" class="validate-required">
+                                                </div>
+                                                <label class="radio-item">UTC+11 澳大利亚</label>
                                             </div>
                                             <div class="row ratio-group">
                                                 <div class="input-radio radio-button" ng-click="setTimeZone('Europe/London')" ng-class="{checked: form.timeZone == 'Europe/London'}">
