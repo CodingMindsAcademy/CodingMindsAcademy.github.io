@@ -1,0 +1,290 @@
+<!doctype html>
+<html ng-app="v3App" lang="cn">
+<head>
+    <meta charset="utf-8">
+    <link href="./img/favicon.png" rel="icon">
+    <title>Coding Minds学习管理系统</title>
+    <meta name="keywords" content="青少年编程, 课后编程辅导, 编程思维, 编程竞赛, 背景提升, STEM">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="编程助力名校申请。在Coding Minds Academy, 我们以亲身实践的方式教授编程和计算思维。 学生将可以玩得开心，建立自己的应用程序，并与其他学生分享他们对编码的热情和兴趣。">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+
+    <link rel="icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/https://codingmindsacademy.com/img/my/logofav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codingmindsacademy.com/img/my/logofav.png" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://codingmindsacademy.com/img/my/logofav.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://codingmindsacademy.com/img/my/logofav.png" />
+</head>
+<body ng-controller="CourseListController">
+    <a id="start"></a>
+    <div class="nav-container ">
+        <div class="bar bar--sm visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-2">
+                        <a href="index-cn.html">
+                            <img class="logo logo-dark" alt="logo" src="img/my/logo1.png" />
+                            <img class="logo logo-light" alt="logo" src="img/my/logo1.png" />
+                        </a>
+                    </div>
+                    <div class="col-xs-9 col-sm-10 text-right">
+                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                            <i class="icon icon--sm stack-interface stack-menu"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </div>
+        <!--end bar-->
+        <nav id="menu1" class="bar bar-1 hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-2 hidden-xs">
+                        <div class="bar__module">
+                            <a href="index-cn.html"> <img class="logo logo-dark" alt="logo" src="img/my/logo1.png"> <img class="logo logo-light" alt="logo" src="img/my/logo1.png"> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                        <div class="bar__module">
+                            <ul class="menu-horizontal text-left">
+                                <li> 
+                                    <a href="index-cn.html">
+                                        首页
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="corecn.html">
+                                        编程课程
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="pathc.html">
+                                        课程体系
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="afterschoolc">
+                                        课后班合作
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="conferencec.html">
+                                        发布会
+                                    </a> 
+                                </li>                                
+                                <li> 
+                                    <a href="portfolios-cn.html">
+                                        学生作品
+                                    </a> 
+                                </li>
+
+                                <li> 
+                                    <a href="newsc.html">
+                                        编程资讯
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="whycoding-cn.html">
+                                        为什么学习编程
+                                    </a> 
+                                </li>                            
+                                <li> 
+                                    <a href="about-us-cn.html">
+                                        关于我们
+                                    </a> 
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bar__module">
+                                    <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
+                                    Contact Us
+                                </span> </a> -->
+                                <a class="btn btn--sm btn--primary type--uppercase" href="contact-us-cn.html"> <span class="btn__text">
+                                    联系我们
+                                </span> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--end bar-->
+        </div>
+        <div class="main-container">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+                            <article>
+                                <div class="article__title text-center">
+                                    <i class="icon icon-Coding color--primary"></i>
+                                    <h1 class="h1">Coding Minds<br/>学生上课指南</h1>
+                                    
+                                </div>
+                                <!--end article title-->
+                                <div class="article__body">
+                                    <div class = "text-center">
+                                        <img alt="Image" src="img/smw/smw0.png" />
+                                    </div>
+                                    
+                                    <br>
+                                    <br>
+                                    <p>
+                                        为了更好的保证同学们的学习质量和效率，Coding
+                                        Minds独立开发教务管理系统来帮助同学们登陆自己的网络课堂教室。  
+                                    </p>
+                                    <p>
+                                        每次开课前五分钟同学们按照以下步骤进入教室
+                                    </p>
+                                    <br>
+                                    <h2 class="text-center">1. 进入系统</h2>
+                                    <br>                                    
+                                    <p>
+                                        1. 打开电脑浏览器，在浏览器的网址栏输入 <a href = "https://www.sharemyworks.com">www.sharemyworks.com </a> 进入sharemyworks教学管理系统界面
+                                    </p>                                    
+                                    <p>
+                                        2. 输入用户名及密码信息登陆
+                                    </p>
+                                    <img alt="Image" src="img/smw2/smw1.png" />
+                                    <br>
+                                    <br>
+                                    <h2 class="text-center">2. 学生界面</h2>
+                                    <br>
+                                    <p>
+                                        同学登陆之后来到学生主页。学生界面用来帮助同学显示剩余的所有课时。
+                                    </p>                                    
+                                    <img alt="Image" src="img/smw2/smw2.png" />
+                                    <p>
+                                        Regular表格中有同学余下的所有常规课时
+                                    </p>
+                                    <img alt="Image" src="img/smw2/smw3.png" />
+                                    <p>
+                                        Make Up表格中有同学余下的所有补课
+                                    </p>
+                                    <img alt="Image" src="img/smw2/smw4.png" />
+                                    <br>
+                                    <h2 class="text-center">3. 登录课程</h2>
+                                    <br>
+                                    <p>
+                                        同学选中当天要上的课程（以2021年4月11日的Thunkable课程为例）
+                                    </p>
+                                    <img alt="Image" src="img/smw2/smw5.png" />
+                                    <p>
+                                        点击 <span style="font-weight: bold">START CLASS<span>按钮开始上课
+                                    </p>
+                                    <p>
+                                        <span style="font-weight: bold; color: red">注意START CLASS按钮会在课程开始30分钟前开启，其余时间点击无效<span>
+                                    </p>
+                                    <img alt="Image" src="img/smw2/smw6.png" />
+                                    <br>                                    
+                                    <p>
+                                        以上就是ShareMyWorks登陆上课的使用方式。如遇到任何技术问题，请随时和我们的客服老师联系。
+                                    </p>
+                                </div>
+                                <br>
+                                <br>  
+                                <br>
+                                <br>  
+                            </article>
+                            <!--end item-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>            
+            <footer class="footer-3 text-center-xs space--xs ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img alt="Image" class="logo" src="img/my/logo1.png" />
+                        <ul class="list-inline list--hover">
+                            <li>
+                                <a href="#">
+                                    <!-- <span class="type--fine-print">Get Started</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:Contact@CodingMindsAcademy.com">
+                                    <span class="type--fine-print">Contact@CodingMindsAcademy.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 text-right text-center-xs">
+                        <ul class="social-list list-inline list--hover">
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-google icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-twitter icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-facebook icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-instagram icon icon--xs"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="type--fine-print">
+                            编程助力名校申请 | <a href="index.html">English</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 text-right text-center-xs">
+                        <span class="type--fine-print">&copy;
+                            <span class="update-year"></span> Coding Minds Inc.</span>
+                            <a class="type--fine-print" href="#">Privacy Policy</a>
+                            <a class="type--fine-print" href="#">Legal</a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </footer>
+        </div>
+        <!--<div class="loader"></div>-->
+        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="stack-interface stack-up-open-big"></i>
+        </a>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/flickity.min.js"></script>
+        <script src="js/easypiechart.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/datepicker.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/granim.min.js"></script>
+        <script src="js/jquery.steps.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
