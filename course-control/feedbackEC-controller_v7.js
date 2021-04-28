@@ -63,8 +63,10 @@ angular.module('v3App', ['ngMaterial'])
         // }
         $scope.StudentRecord = response.data.profile;
         if(course.feedbacks.length > 0){
-          $scope.Feedbacks = course.feedbacks[0];
-          $scope.EOSfeedback = course.feedbacks[0];
+          // get the last feedback
+          const length = course.feedbacks.length;
+          $scope.Feedbacks = course.feedbacks[length - 1];
+          $scope.EOSfeedback = course.feedbacks[length - 1];
         }
 
 
