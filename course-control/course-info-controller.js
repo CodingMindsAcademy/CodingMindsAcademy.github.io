@@ -134,6 +134,8 @@ angular.module('v3App', [])
             $scope.instructor = course.instructor.firstName + ' ' + course.instructor.lastName;
             $scope.course_time = course.classDay + ' '+ course.classTime + '-' + course.classEndTime;
             $scope.onlineZoomLink = course.onlineZoomLink;
+            $scope.startDate = course.dateStart.split('T')[0];
+            $scope.endDate = course.dateEnd.split('T')[0];
             $scope.price = course.price;
             let today = (new Date).getDay();
             console.log(course);

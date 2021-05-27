@@ -119,10 +119,14 @@
                                     
 
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td style="width: 50%">Instructor</td>
                                     <td style="width: 50%">{{instructor}}</td>
-                                </tr>
+                                </tr> -->
+                                <tr style="white-space: pre-line">
+                                    <td style="width: 50%">Course Date</td>
+                                    <td style="width: 50%">{{startDate}} - {{endDate}}</td>
+                                </tr>    
                                 <tr style="white-space: pre-line">
                                     <td style="width: 50%">Course Time</td>
                                     <td style="width: 50%">{{course_time}}</td>
@@ -133,11 +137,11 @@
                                 </tr>                                -->
                                 <tr>
                                     <td style="width: 50%">Total Classes</td>
-                                    <td style="width: 50%">In Total {{totalClassesCount}} Classes</td>
+                                    <td style="width: 50%">Total {{totalClassesCount}} Days</td>
                                 </tr>
                                 <tr>
                                     <td style="width: 50%">Rate</td>
-                                    <td style="width: 50%">$ {{price}}</td>
+                                    <td style="width: 50%">${{price}}</td>
                                 </tr>
                             </tbody>
                         </table>
