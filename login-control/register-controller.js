@@ -5,12 +5,13 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   var url = $location.$$absUrl;
   $scope.english = false;
   if (url.search('eng')){
-    
+
     $scope.english = true;
   }
 
   url = new URL(url);
   var courseId = url.searchParams.get("courseId");
+  var organizationId = url.searchParams.get("organizationId");
   var accountId = url.searchParams.get("accountId");
   var token = url.searchParams.get("token");
   var price = url.searchParams.get("price");
@@ -40,6 +41,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
     if (accountId) {
       patch(postData);
     } else {
+      postData.organizationId = organizationId;
       registering(postData);
     }
   }
@@ -78,7 +80,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
             window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price + '&english=true';
           } else {
             window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId='+invoiceId + '&courseId=' + courseId + '&studentId=' + studentId + '&comment=&amount='+ price;
-  
+
           }
         })
 
@@ -109,7 +111,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
         $http({
           method:'GET',
           url: baseUrl+ `Invoices/`,
-          
+
           params: {
             access_token: token,
             filter: {
