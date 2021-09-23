@@ -1,9 +1,9 @@
 angular.module('v3App', [])
   .config(function($sceProvider) {
-    $sceProvider.enabled(false);    
+    $sceProvider.enabled(false);
   })
   .controller('FeedbackController', function($scope, $http,$location) {
-    
+
     var url = $location.$$absUrl;
     var url = new URL(url);
     var course_id = url.searchParams.get("course_id");
@@ -33,9 +33,9 @@ angular.module('v3App', [])
         },
         headers: {
           'Authorization': 'k6s6WghHbQ0sFQMw9YTO5MWDCunX3SNAJu8kksejwO0cP1tEh73glea29CGWExEi'
-        },     
+        },
       }).then(function successCallback(response) {
-          
+
 
             function getMonday(d) {
               d = new Date(d);
@@ -43,7 +43,7 @@ angular.module('v3App', [])
                   diff = d.getDate() - day + (day == 0 ? -6:1); // adjust when day is sunday
               return new Date(d.setDate(diff));
             }
-            
+
             function getNextClassCount(course, today) {
               // return new Promise((resolve, reject) => {
                 if (today === 0){
@@ -86,7 +86,7 @@ angular.module('v3App', [])
                   }
                   return([nextClasses, totalClassesCount]);
                 } else {
-            
+
                   let classDays = [weekdayNumber[course.classDay]];
                   course.classDays.forEach(classDay => {
                       classDays.push(weekdayNumber[classDay.classDay]);
@@ -103,7 +103,7 @@ angular.module('v3App', [])
                   return ([count, totalClassesCount])
                 }
               // });
-              
+
             }
             function countClasses(start, end, classDays){
               let count = 0;
@@ -128,9 +128,10 @@ angular.module('v3App', [])
             }
             let course = response.data;
             $scope.englishDetailsUrl = course.coursesDB.englishDetailsUrl;
-            $scope.detailsUrl = course.coursesDB.detailsUrl;            
+            $scope.detailsUrl = course.coursesDB.detailsUrl;
             $scope.course_level = coursedb.cn[course.courseCode].gradeLevel.slice(0,2);
             $scope.course_name = course.name;
+            $scope.organizationId = course.organizationId;
             $scope.instructor = course.instructor.firstName + ' ' + course.instructor.lastName;
             $scope.course_time = course.classDay + ' '+ course.classTime + '-' + course.classEndTime;
             $scope.onlineZoomLink = course.onlineZoomLink;

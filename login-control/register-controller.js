@@ -41,7 +41,6 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
     if (accountId) {
       patch(postData);
     } else {
-      postData.organizationId = organizationId;
       registering(postData);
     }
   }
@@ -93,6 +92,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
   	$scope.postData = postData;
 	$scope.postData.username = postData.firstName + postData.lastName + Date.now();
+  $scope.postData.organizationId = organizationId;
 	// $scope.postData.contact2Type = "WeChatUsername";
   $scope.postData.notSend = true;
   // let baseUrl = 'http://localhost:3000/api/'
