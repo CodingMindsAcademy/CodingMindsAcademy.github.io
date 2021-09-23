@@ -11,7 +11,6 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
   url = new URL(url);
   var courseId = url.searchParams.get("courseId");
-  var organizationId = url.searchParams.get("organizationId");
   var accountId = url.searchParams.get("accountId");
   var token = url.searchParams.get("token");
   var price = url.searchParams.get("price");
@@ -90,13 +89,24 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
 
   function registering(postData) {
 
-  	$scope.postData = postData;
+  $scope.postData = postData;
 	$scope.postData.username = postData.firstName + postData.lastName + Date.now();
-  $scope.postData.organizationId = organizationId;
+  $scope.postData.preferedLanguage = 'English';
 	// $scope.postData.contact2Type = "WeChatUsername";
   $scope.postData.notSend = true;
   // let baseUrl = 'http://localhost:3000/api/'
   let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+  $http({
+      method: 'GET',
+      url: baseUrl+ 'Course/'+ courseId,
+    }).then(function successCallback(response) {
+          let course = response.data;
+          $scope.postData.organizationId = course.organizationId;
+
+      }, function errorCallback(response) {
+        console.log(response);
+      });
+
 	  $http({
         method: 'POST',
         url: baseUrl+ `Account`,
