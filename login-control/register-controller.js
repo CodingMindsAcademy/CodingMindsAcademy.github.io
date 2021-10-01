@@ -102,7 +102,7 @@ app.controller('myRegisterCtrl', function($scope, $location,$window, $http) {
   function registering(postData){
   $scope.postData = postData;
 	$scope.postData.username = postData.firstName + postData.lastName + Date.now();
-  $scope.postData.preferedLanguage = 'English';
+  // $scope.postData.preferedLanguage = 'English';
 	// $scope.postData.contact2Type = "WeChatUsername";
   $scope.postData.notSend = true;
   // let baseUrl = 'http://localhost:3000/api/'
