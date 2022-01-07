@@ -1,22 +1,23 @@
 angular
-  .module('v3App', ['ngMaterial'])
+  .module("v3App", ["ngMaterial"])
   .config(function ($sceProvider, $locationProvider) {
     $sceProvider.enabled(false);
     $locationProvider.html5Mode(true);
   })
-  .controller('student-info-collect2', function ($scope, $http, $location) {
-    const baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
-    // const baseUrl = 'http://localhost:3000/api/';
-    const accountId = $location.search()['accountId'];
+  .controller("student-info-collect2", function ($scope, $http, $location) {
+    const baseUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/";
+    //const baseUrl = 'http://localhost:3000/api/';
+    const accountId = $location.search()["accountId"];
+    const token = $location.search()["token"];
 
     $scope.form = {
-      firstName: '',
-      lastName: '',
+      firstName: "",
+      lastName: "",
       availableTime: [],
     };
 
     $http({
-      method: 'GET',
+      method: "GET",
       url: `${baseUrl}Account/${accountId}`,
     })
       .then(function cb(res) {
@@ -25,7 +26,7 @@ angular
         $scope.form.lastName = account.lastName;
       })
       .catch(function cb(error) {
-        alert('Cannot get account information!');
+        alert("Cannot get account information!");
       });
 
     const availableTime = [];
@@ -47,58 +48,57 @@ angular
     $scope.weekdays = [
       {
         idx: 0,
-        sequence: '08',
-        day: '周一',
+        sequence: "08",
+        day: "周一",
       },
       {
         idx: 1,
-        sequence: '09',
-        day: '周二',
+        sequence: "09",
+        day: "周二",
       },
       {
         idx: 2,
-        sequence: '10',
-        day: '周三',
+        sequence: "10",
+        day: "周三",
       },
       {
         idx: 3,
-        sequence: '11',
-        day: '周四',
+        sequence: "11",
+        day: "周四",
       },
       {
         idx: 4,
-        sequence: '12',
-        day: '周五',
+        sequence: "12",
+        day: "周五",
       },
       {
         idx: 5,
-        sequence: '13',
-        day: '周六',
+        sequence: "13",
+        day: "周六",
       },
       {
         idx: 6,
-        sequence: '14',
-        day: '周日',
+        sequence: "14",
+        day: "周日",
       },
     ];
 
     $scope.toggleAvailability = (day, time) => {
-      $scope.form.availableTime[day][time].valid = !$scope.form.availableTime[
-        day
-      ][time].valid;
+      $scope.form.availableTime[day][time].valid =
+        !$scope.form.availableTime[day][time].valid;
     };
 
     const formatAvailabelTime = (availableTime) => {
       const weekDays = [
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-        'Sunday',
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
       ];
-      let res = '';
+      let res = "";
       for (let idx = 0; idx < 7; idx++) {
         res += `${weekDays[idx]}: ${availableTime[idx]}\n`;
       }
@@ -106,8 +106,8 @@ angular
     };
 
     $scope.submit = async () => {
-      if (!accountId) {
-        alert('No accountId found!');
+      if (!accountId || !token) {
+        alert("No accountId found!");
         return;
       }
       $scope.showDialog = true;
@@ -123,27 +123,18 @@ angular
       };
 
       try {
-        const account = await $http({
-          method: 'POST',
-          url: `${baseUrl}Account/login`,
-          data: {
-            username: 'admindev',
-            password: 'admindevPassword',
-          },
-        });
-        const accessToken = account.data.id;
         await $http({
-          method: 'PATCH',
-          url: `${baseUrl}Account/${accountId}?access_token=${accessToken}`,
+          method: "PATCH",
+          url: `${baseUrl}Account/${accountId}?access_token=${token}`,
           data: data,
         });
         await $http({
-          method: 'POST',
-          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${accessToken}`,
+          method: "POST",
+          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${token}`,
           data: {
-            email: 'contact@codingmindsacademy.com',
+            email: "contact@codingmindsacademy.com",
             content:
-              'A student has updated his/her information:\n' +
+              "A student has updated his/her information:\n" +
               `First Name: ${data.firstName}\n` +
               `Last Name: ${data.lastName}\n` +
               `Availabel Time \n` +
@@ -153,7 +144,7 @@ angular
         $scope.$apply(function () {
           $scope.showDialog = false;
         });
-        alert('Successfully updated information!');
+        alert("Successfully updated information!");
       } catch (error) {
         console.log(error);
         $scope.$apply(function () {

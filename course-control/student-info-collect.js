@@ -1,10 +1,10 @@
 angular
-  .module('v3App', ['ngMaterial'])
+  .module("v3App", ["ngMaterial"])
   .config(function ($sceProvider, $locationProvider) {
     $sceProvider.enabled(false);
     $locationProvider.html5Mode(true);
   })
-  .controller('student-info-collect', function ($scope, $http, $location) {
+  .controller("student-info-collect", function ($scope, $http, $location) {
     const availableTime = [];
     for (let i = 0; i < 7; i++) {
       const tmp = [];
@@ -18,13 +18,13 @@ angular
       availableTime.push(tmp);
     }
     $scope.form = {
-      firstName: '',
-      lastName: '',
-      gender: 'male',
-      dateOfBirth: '',
-      email2: '',
-      phone2: '',
-      timeZone: '',
+      firstName: "",
+      lastName: "",
+      gender: "male",
+      dateOfBirth: "",
+      email2: "",
+      phone2: "",
+      timeZone: "",
       availableTime: availableTime,
     };
     $scope.showDialog = false;
@@ -32,45 +32,44 @@ angular
     $scope.weekdays = [
       {
         idx: 0,
-        sequence: '08',
-        day: '周一',
+        sequence: "08",
+        day: "周一",
       },
       {
         idx: 1,
-        sequence: '09',
-        day: '周二',
+        sequence: "09",
+        day: "周二",
       },
       {
         idx: 2,
-        sequence: '10',
-        day: '周三',
+        sequence: "10",
+        day: "周三",
       },
       {
         idx: 3,
-        sequence: '11',
-        day: '周四',
+        sequence: "11",
+        day: "周四",
       },
       {
         idx: 4,
-        sequence: '12',
-        day: '周五',
+        sequence: "12",
+        day: "周五",
       },
       {
         idx: 5,
-        sequence: '13',
-        day: '周六',
+        sequence: "13",
+        day: "周六",
       },
       {
         idx: 6,
-        sequence: '14',
-        day: '周日',
+        sequence: "14",
+        day: "周日",
       },
     ];
 
     $scope.toggleAvailability = (day, time) => {
-      $scope.form.availableTime[day][time].valid = !$scope.form.availableTime[
-        day
-      ][time].valid;
+      $scope.form.availableTime[day][time].valid =
+        !$scope.form.availableTime[day][time].valid;
     };
 
     $scope.setGender = (gender) => {
@@ -82,13 +81,21 @@ angular
     };
 
     const formatAvailabelTime = (availableTime) => {
-      const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-      let res = '';
+      const weekDays = [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ];
+      let res = "";
       for (let idx = 0; idx < 7; idx++) {
-        res += `${weekDays[idx]}: ${availableTime[idx]}\n`
+        res += `${weekDays[idx]}: ${availableTime[idx]}\n`;
       }
       return res;
-    }
+    };
 
     $scope.submit = async () => {
       $scope.showDialog = true;
@@ -103,56 +110,54 @@ angular
         availableTime: JSON.stringify(availableTime),
       };
 
-      const baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
-      // let baseUrl = 'http://localhost:3000/api/';
-      const accountId = $location.search()['accountId'];
-      if (!accountId) {
-        $scope.$apply(function() {
+      const baseUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/";
+      //const baseUrl = 'http://localhost:3000/api/';
+      const accountId = $location.search()["accountId"];
+      const token = $location.search()["token"];
+
+      if (!accountId || !token) {
+        $scope.$apply(function () {
           $scope.showDialog = false;
         });
-        alert('No accountId found!');
+        alert("No accountId or token found!");
         return;
       }
 
       try {
-        const account = await $http({
-          method: 'POST',
-          url: `${baseUrl}Account/login`,
-          data: {
-            username: 'admindev',
-            password: 'admindevPassword',
-          },
-        });
-        const accessToken = account.data.id;
         await $http({
-          method: 'PATCH',
-          url: `${baseUrl}Account/${accountId}?access_token=${accessToken}`,
+          method: "PATCH",
+          url: `${baseUrl}Account/${accountId}?access_token=${token}`,
           data: data,
         });
+
         await $http({
-          method: 'POST',
-          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${accessToken}`,
+          method: "POST",
+          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${token}`,
           data: {
-            email: 'contact@codingmindsacademy.com',
-            content: 'A student has updated his/her information:\n' +
-            `First Name: ${data.firstName}\n` +
-            `Last Name: ${data.lastName}\n` +
-            `Gender: ${data.gender}\n` +
-            `Date of Birth: ${new Date(data.dateOfBirth).toLocaleDateString()}\n` +
-            `Parent Email: ${data.email2}\n` +
-            `Parent Phone: ${data.phone2}\n` +
-            `Time Zone: ${data.timeZone} \n` +
-            `Availabel Time \n` +
-            formatAvailabelTime(availableTime)
-          }
-        })
-        $scope.$apply(function() {
+            email: "contact@codingmindsacademy.com",
+            content:
+              "A student has updated his/her information:\n" +
+              `First Name: ${data.firstName}\n` +
+              `Last Name: ${data.lastName}\n` +
+              `Gender: ${data.gender}\n` +
+              `Date of Birth: ${new Date(
+                data.dateOfBirth
+              ).toLocaleDateString()}\n` +
+              `Parent Email: ${data.email2}\n` +
+              `Parent Phone: ${data.phone2}\n` +
+              `Time Zone: ${data.timeZone} \n` +
+              `Availabel Time \n` +
+              formatAvailabelTime(availableTime),
+          },
+        });
+
+        $scope.$apply(function () {
           $scope.showDialog = false;
         });
-        alert('Successfully updated information!');
+        alert("Successfully updated information!");
       } catch (error) {
         console.log(error);
-        $scope.$apply(function() {
+        $scope.$apply(function () {
           $scope.showDialog = false;
         });
       }

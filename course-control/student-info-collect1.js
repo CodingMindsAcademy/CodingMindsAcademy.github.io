@@ -6,7 +6,9 @@ angular
   })
   .controller('student-info-collect1', function ($scope, $http, $location) {
     const baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    //const baseUrl = 'http://localhost:3000/api/';
     const accountId = $location.search()['accountId'];
+    const token = $location.search()["token"];
 
     $scope.form = {
       firstName: '',
@@ -49,8 +51,8 @@ angular
     };
 
     $scope.submit = async () => {
-      if (!accountId) {
-        alert('No accountId found!');
+      if (!accountId || !token) {
+        alert('No accountId or token found!');
         return;
       }
       $scope.showDialog = true;
@@ -60,23 +62,14 @@ angular
       };
 
       try {
-        const account = await $http({
-          method: 'POST',
-          url: `${baseUrl}Account/login`,
-          data: {
-            username: 'admindev',
-            password: 'admindevPassword',
-          },
-        });
-        const accessToken = account.data.id;
         await $http({
           method: 'PATCH',
-          url: `${baseUrl}Account/${accountId}?access_token=${accessToken}`,
+          url: `${baseUrl}Account/${accountId}?access_token=${token}`,
           data: data,
         });
         await $http({
           method: 'POST',
-          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${accessToken}`,
+          url: `${baseUrl}Account/notifyStudentInfoUpdate?access_token=${token}`,
           data: {
             email: 'contact@codingmindsacademy.com',
             content:
