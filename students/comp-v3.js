@@ -1,34 +1,34 @@
 var competitionMap = {
 	'cp520' : {
 		'id' : 'cp520',
-		'name' : 'AI Challengers人工智能挑战赛',
-		'date' : '2021年9月',
+		'name' : 'Conrad Challenge项目竞赛',
+		'date' : '2022年1月',
 	},	
 	'cp600' : {
 		'id' : 'cp600',
-		'name' : 'K12 Ventures创业竞赛',
-		'date' : '2021年10月',
+		'name' : 'Diamond Challenge项目竞赛',
+		'date' : '2022年1月',
 	},
 	'cp610' : {
 		'id' : 'cp610',
-		'name' : 'Congressional App Challenge',
-		'date' : '2021年11月',
-	},	
-	'cp300' : {
-		'id' : 'cp300',
-		'name' : '学区科学竞赛Science Fair',
-		'date' : '2021年12月',
+		'name' : 'Ignite Fellowship奖学金项目',
+		'date' : '2022年1月',
 	},
-	'cp200' : {
-		'id' : 'cp200',
-		'name' : 'GameGala游戏开发展竞赛',
-		'date' : '2021年12月',
-	},	
 	'cp350' : {
 		'id' : 'cp350',
 		'name' : 'USACO信息学竞赛',
-		'date' : '2021年12月',
-	},			
+		'date' : '2022年2月',	
+	},
+	'cp300' : {
+		'id' : 'cp300',
+		'name' : 'Microsoft ImagineCup竞赛',
+		'date' : '2022年3月',
+	},
+	'cp200' : {
+		'id' : 'cp200',
+		'name' : 'Apple Challenge项目竞赛',
+		'date' : '2022年4月',
+	},	
 	'cp400' : {
 		'id' : 'cp400',
 		'name' : 'Coolest Projects项目竞赛',
