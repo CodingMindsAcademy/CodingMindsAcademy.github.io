@@ -754,25 +754,25 @@ var scheduleIrvine = [
 				"gradeLevel" : "K-3",
 				"courseName" : "Scratch<br> Programming",
 				"datetime" : "Mondays<br>3:20-4:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "4-6",
 				"courseName" : "MIT App<br>Mobile Programming",
 				"datetime" : "Mondays<br>3:20-4:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "3-6",
 				"courseName" : "Unity3D",
 				"datetime" : "Mondays<br>5:00-6:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python<br>Advanced and AI",
 				"datetime" : "Mondays<br>5:00-6:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			}
 		]
 	},
@@ -783,37 +783,37 @@ var scheduleIrvine = [
 				"gradeLevel" : "1-3",
 				"courseName" : "Minecraft<br>Beginner - Inspirational Course",
 				"datetime" : "Wednesdays<br>2:00-3:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "4-6",
 				"courseName" : "Minecraft MakeCode<br>Programming Challenges",
 				"datetime" : "Wednesdays<br>2:00-3:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "4-6",
 				"courseName" : "Roblox<br>Programming",
 				"datetime" : "Wednesdays<br>3:40-5:10pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python Minecraft<br>Preliminary Programming",
 				"datetime" : "Wednesdays<br>3:40-5:10pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Raspberry PI<br>IoT Application Programming",
 				"datetime" : "Wednesdays<br>5:20-6:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "iOS Swift<br>Programming",
 				"datetime" : "Wednesdays<br>5:20-6:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			}
 		]
 	},
@@ -824,31 +824,31 @@ var scheduleIrvine = [
 				"gradeLevel" : "6-12",
 				"courseName" : "Unity3D<br>Game Development",
 				"datetime" : "Saturdays<br>1:00-2:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python<br>Advanced",
 				"datetime" : "Saturdays<br>1:00-2:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python Minecraft<br>Preliminary Programming",
 				"datetime" : "Saturdays<br>2:45-4:15pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python<br>Advanced",
 				"datetime" : "Saturdays<br>2:45-4:15pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Unity3D/Unreal<br>Project",
 				"datetime" : "Saturdays<br>4:30-6:00pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
@@ -868,13 +868,13 @@ var scheduleArcadia = [
 				"gradeLevel" : "3-6",
 				"courseName" : "Minecraft MakeCode<br>Programming Challenge I",
 				"datetime" : "Tuesdays<br>3:20-4:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Unity3D<br>Game Development",
 				"datetime" : "Tuesdays<br>5:00-6:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			}
 		]
 	},
@@ -885,25 +885,25 @@ var scheduleArcadia = [
 				"gradeLevel" : "3-6",
 				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship I",
 				"datetime" : "Thursdays<br>3:20-4:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "3-6",
 				"courseName" : "Minecraft MakeCode<br>Programming Challenge II",
 				"datetime" : "Thursdays<br>3:20-4:50pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "3-6",
 				"courseName" : "Roblox编程<br>Publishing and Entrepreneurship II",
 				"datetime" : "Thursdays<br>5:00-6:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "3-6",
 				"courseName" : "Minecraft MakeCode<br>Programming Challenge I",
 				"datetime" : "Thursdays<br>5:00-6:30pm",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			}
 		]
 	},
@@ -914,19 +914,19 @@ var scheduleArcadia = [
 				"gradeLevel" : "K-2",
 				"courseName" : "Scratch<br>Innovative Programming and Practice",
 				"datetime" : "Saturdays<br>9:30-11:00am",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "3-6",
 				"courseName" : "Roblox Course<br>Publishing and Entrepreneurship I",
 				"datetime" : "Saturdays<br>9:30-11:00am",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			},
 			{
 				"gradeLevel" : "7-12",
 				"courseName" : "Python Minecraft<br>Preliminary Programming",
 				"datetime" : "Saturdays<br>9:30-11:00am",
-				"price" : "$475"
+				"price" : "$950-$1280"
 			}
 		]
 	}
