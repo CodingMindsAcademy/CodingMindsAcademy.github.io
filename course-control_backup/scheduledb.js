@@ -94,7 +94,7 @@ var scheduleIrvine = [
 				"gradeLevel" : "7-12",
 				"courseName" : "Python编程<br>竞赛挑战与项目",
 				"datetime" : "每周六<br>4:30-6:30pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			}
 		]	
 	}

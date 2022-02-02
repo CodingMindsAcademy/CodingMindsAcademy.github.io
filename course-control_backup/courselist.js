@@ -837,7 +837,7 @@ var scheduleIrvine = [
 				"gradeLevel" : "7-12",
 				"courseName" : "Python Course<br>Competition, Challenges, and Projects",
 				"datetime" : "Saturdays<br>4:30-6:30pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			}
 		]
 	}

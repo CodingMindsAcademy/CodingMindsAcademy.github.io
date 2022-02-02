@@ -79,7 +79,7 @@ var scheduleIrvine = [
 			{
 				"id" : "cs571",
 				"time" : "5:20-7:20pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			}
 		]	
 	},
@@ -148,12 +148,12 @@ var scheduleIrvine = [
 			{
 				"id" : "cs564",
 				"time" : "5:00-7:00pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			},
 			{
 				"id" : "cs571",
 				"time" : "5:00-7:00pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			}
 		]
 	},
@@ -230,12 +230,12 @@ var scheduleIrvine = [
 			{
 				"id" : "cs500",			
 				"time" : "4:30-6:30pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			},
 			{
 				"id" : "cs571",			
 				"time" : "4:30-6:30pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			},
 		]
 	},
@@ -383,7 +383,7 @@ var scheduleArcadia = [
 			{
 				"id" : "cs571",
 				"time" : "1:00-3:00pm",
-				"price" : "$595"
+				"price" : "$950-$1280"
 			},
 			{
 				"id" : "cs150",
