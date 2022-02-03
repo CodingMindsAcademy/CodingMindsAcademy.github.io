@@ -129,7 +129,7 @@ angular.module('v3App', [])
             let course = response.data;
             $scope.englishDetailsUrl = course.coursesDB.englishDetailsUrl;
             $scope.detailsUrl = course.coursesDB.detailsUrl;
-            $scope.course_level = coursedb.cn[course.courseCode].gradeLevel.slice(0,2);
+            $scope.course_level = coursedb.cn[course.courseCode]?.gradeLevel.slice(0,2);
             $scope.course_name = course.name;
             $scope.organizationId = course.organizationId;
             $scope.instructor = course.instructor.firstName + ' ' + course.instructor.lastName;
@@ -139,9 +139,9 @@ angular.module('v3App', [])
             $scope.endDate = course.dateEnd.split('T')[0];
             $scope.price = course.price;
             let today = (new Date).getDay();
-            console.log(course);
+            // console.log(course);
             var values = getNextClassCount(course, today);
-            console.log(values);
+            // console.log(values);
             $scope.course_time =  $scope.course_time + '\n' + (getExtraClassDayTime(course.classDays)).join('\n');
             $scope.nextClassesCount = values[0];
             $scope.totalClassesCount = values[1];
