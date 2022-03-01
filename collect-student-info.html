@@ -23,7 +23,7 @@
                 display: inline-block;
                 position: relative;
             }
-    
+
             .underline-small::after {
                 content: '';
                 height: 1.5px;
@@ -33,26 +33,26 @@
                 left: calc(50% - 10%);
                 bottom: -3.5px;
             }
-    
-            .col-3 { 
+
+            .col-3 {
                 column-count: 3;
             }
-    
+
             .shike-num {
                 margin-left: 75px;
                 font-size: 70px;
                 color: #4A90E2;
                 opacity: 50%;
             }
-    
+
             .shike-txt {
                 position: relative;
                 top: -90px;
                 font-size: 55px;
                 margin-left: 105px;
-    
+
             }
-    
+
             .shike-subtxt {
                 position: relative;
                 top: -80px;
@@ -62,7 +62,7 @@
             }
 
             .form-item {
-                padding-bottom: 15px;                
+                padding-bottom: 15px;
             }
 
             .index {
@@ -77,7 +77,7 @@
             }
 
             .form-label {
-                font-size: 15px;                
+                font-size: 15px;
             }
 
             .radio-button {
@@ -97,7 +97,7 @@
                 padding-bottom: 10px;
             }
         </style>
-    
+
     </head>
     <body class=" " ng-controller="student-info-collect">
         <a id="start" ng-model="form.name"></a>
@@ -133,41 +133,41 @@
                             <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
                                 <div class="bar__module">
                                     <ul class="menu-horizontal text-left">
-                                <li> 
+                                <li>
                                     <a href="index-cn.html">
                                         首页
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="corecn.html">
                                         编程课程
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="pathc.html">
                                         课程体系
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="portfolios-cn.html">
                                         学生作品
-                                    </a> 
+                                    </a>
                                 </li>
 
-                                <li> 
+                                <li>
                                     <a href="newsc.html">
                                         编程资讯
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="whycoding-cn.html">
                                         为什么学习编程
-                                    </a> 
-                                </li>                            
-                                <li> 
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="about-us-cn.html">
                                         关于我们
-                                    </a> 
+                                    </a>
                                 </li>
                             </ul>
                                 </div>
@@ -230,38 +230,42 @@
                                                 <div class="input-radio radio-button" ng-click="setGender('male')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name='gender' value="male" ng-model='form.gender' ng-change='radioChange()' class="validate-required">
-                                                </div>                                                
+                                                </div>
                                                 <label class="radio-item">男</label>
                                             </div>
                                             <div class="row ratio-group">
                                                 <div class="input-radio radio-button" ng-click="setGender('female')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name='gender' value="female" ng-model='form.gender' class="validate-required">
-                                                </div>                                                
+                                                </div>
                                                 <label class="radio-item">女</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*04 </span><span>学生生日 Birthday</span></label>                                            
+                                            <label class="form-label-head"><span class="index">*04 </span><span>学生生日 Birthday</span></label>
                                             <input type="date" id="birthday" name="birthday" required ng-model="form.dateOfBirth">
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*05 </span><span>家长电子邮箱 Email</span></label>
+                                            <label class="form-label-head"><span  class="index">*05 </span><span>学生年级 Grade</span></label>
+                                            <input type="text" name="grade" class="validate-required" required  ng-model='form.grade' placeholder="学生年级"/>
+                                        </div>
+                                        <div class="col-sm-12 form-item">
+                                            <label class="form-label-head"><span class="index">*06 </span><span>家长电子邮箱 Email</span></label>
                                             <label><span class="form-label">用于确认课程以及提供反馈报告</span></label>
                                             <input type="text" class="validate-required validate-email" required ng-model="form.email2" />
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*06 </span><span>家长手机 Phone</span></label>
+                                            <label class="form-label-head"><span class="index">*07 </span><span>家长手机 Phone</span></label>
                                             <label><span class="form-label">用于短信提醒和紧急情况通知 而非电话营销</span></label>
                                             <input type="text" class="validate-required validate-email" required ng-model="form.phone2" />
                                         </div>
                                         <div class="col-sm-12 form-item">
-                                            <label class="form-label-head"><span class="index">*07 </span><span>请选择时区 TimeZone</span></label>
+                                            <label class="form-label-head"><span class="index">*08 </span><span>请选择时区 TimeZone</span></label>
                                             <div class="row ratio-group">
                                                 <div class="input-radio radio-button" ng-click="setTimeZone('America/Los_Angeles')">
                                                     <div class="inner"></div>
                                                     <input type="radio" name="time-zone" value="" class="validate-required">
-                                                </div>                                                
+                                                </div>
                                                 <label class="radio-item">UTC-7 美西（洛杉矶 温哥华等)</label>
                                             </div>
                                             <div class="row ratio-group">
@@ -354,8 +358,8 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>                            
-                        </div>                        
+                            </div>
+                        </div>
                     </div>
                     <!--end of row-->
                 </div>
@@ -384,7 +388,7 @@
                     </div>
                 </div>
             </section>
-            
+
                 <section class="">
                     <div class="container">
                         <div class="row">
@@ -417,7 +421,7 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="process__item">
-                                        <h5>试课反馈 安排入学                                            
+                                        <h5>试课反馈 安排入学
                                         </h5>
                                         <p>
                                             试课之后老师会向反馈课程情况，对同学的学业进行进一步规划
@@ -428,8 +432,8 @@
                         </div>
                     </div>
                 </div>
-                </section> -->                
-            
+                </section> -->
+
             <footer class="footer-3 text-center-xs space--xs ">
                 <div class="container">
                     <div class="row">

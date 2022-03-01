@@ -14,6 +14,7 @@ angular
       firstName: "",
       lastName: "",
       gender: "male",
+      grade: "",
       dateOfBirth: "",
       email2: "",
       phone2: "",
@@ -30,6 +31,7 @@ angular
         $scope.form.firstName = account.firstName;
         $scope.form.lastName = account.lastName;
         $scope.form.gender = account.gender || '';
+        $scope.form.grade = account.grade;
         $scope.form.email2 = account.email2;
         $scope.form.phone2 = account.phone2;
         $scope.form.timeZone = account.timeZone;
@@ -164,6 +166,7 @@ angular
               `First Name: ${data.firstName}\n` +
               `Last Name: ${data.lastName}\n` +
               `Gender: ${data.gender}\n` +
+              `Grade: ${data.grade}\n` +
               `Date of Birth: ${new Date(
                 data.dateOfBirth
               ).toLocaleDateString()}\n` +
