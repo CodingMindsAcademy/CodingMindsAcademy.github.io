@@ -1,0 +1,96 @@
+---
+layout: com_detail-cn
+title: "Imagine Cup Junior | Coding Minds Academy"
+topTitleLine1: "Coolest Project 2022"
+topTitleLine2: "全球最酷项目2022"
+topIntroText: "Coolest Projects 是面向年轻人的世界领先技术展示会。这是一个获得创意、享受乐趣和庆祝独创性的独特机会。"
+promotion1: 
+  enabled: "true"
+  title: "报名系统 Application System"
+  text: "在浏览器的网址栏输入并前往竞赛官方网站: https://imaginecup.microsoft.com/en-us/junior 注册参赛账号，填写个人信息，并创建或加入参赛小组。完成后检查注册报名是否成功。
+         Go to the official website: https://imaginecup.microsoft.com/en-us/junior and register your account. Submit your personal information and create a team."
+  imageUrl: "img/com/imaginecup.jpg"
+promotion2: 
+  enabled: "true"
+  title: "小组信息 Group Project"
+  text: "每个团队必须由一名18岁以上的团队负责人和一至六名13-18岁的团队成员组成；每个团队只能提交一份参赛作品以在比赛中进行评审；每个团队不可以提交超过一个参赛作品。
+         Every team should include One Team Leader (18 years old or older) and One to Six Team Members (13-18 years old). Only one entry per Team may be submitted for judging in the Contest; no more than one Entry per Team."
+  imageUrl: "img/com/imaginecup3.png"
+promotion3: 
+  enabled: "true"
+  title: "申请材料 Application Submission"
+  text: "1) PowerPoint演示文稿：每个参赛作品必须包含不超过十张幻灯片的PowerPoint演示文稿，幻灯片需要使用官方提供给每位团队负责人的模板，包括：标题页/标题幻灯片和目录；团队视频的链接；对问题性质和严重程度的简短描述；团队研究过程的描述，包括但不限于团队进行的任何采访或其他研究的详细信息；团队用来帮助团队成员理解问题和开发解决方案的资源列表；考虑到以下原则的团队解决方案的道德描述：公平，可靠性和安全性，隐私，包容性，透明度， 问责制，网络安全等；对解决方案的描述，即解决方案采用什么形式以及它如何有效地利用人工智能来解决问题
+         2) 概念：每个条目必须包含一个概念，该概念至少属于以下“AI for Good”类别中的其中一个：AI for Earth 地球的人工智能；AI for Humanitarian Action 人工智能用于人道主义行动；AI for Accessibility 可访问性人工智能；AI for Cultural Heritage 人工智能用于文化遗产；AI for Health 人工智能健康。
+         3) 解决方案：每个条目必须包含一个解决适用的 “AI for Good” 概念的解决方案。例如，解决方案（a）构成可能导致解决或解决问题的新解决方案，（b）以可能导致解决或解决问题的方式改进现有解决方案，（c) 将信息传达给负责解决问题或其后果的真实受众，被视为针对上述要求的目的解决适用的概念。
+         4）视频：每个参赛作品必须包含一个持续时间不超过两分钟的视频，用于宣传团队的参赛作品。包括团队的名称和地区；包括团队选择的“AI for Good”类别；包括团队打算解决的问题；包括团队的概念；包括团队成员从参与比赛中学到的要点；除图像或音频和视频记录外，不包括有关视频中出现的任何个人的任何其他个人身份信息。"
+  imageUrl: "img/com/imaginecup2.png"
+promotion4: 
+  enabled: "true"
+  title: "辅导资料 Support Materials"
+  text: "Microsoft官方提供一个在线学习课程来帮助参赛学生提升参赛作品质量。账号注册完成后，可选择前往阅读赛前培训资料，包括初学者工具包，深度学习模块，团队负责人工具包，提交模板，评审标准等。Microsoft provides Learning Resource Pack, Deep Learning Modules, Team Leader Toolkit, PowerPoint Submission Template, Judging Criteria and Rubric for students to prepare their projects."
+  imageUrl: "img/com/imaginecup4.png"
+promotion5: 
+  enabled: "false"
+  title: "Web Server Programming with Python"
+  text: "To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp."
+  imageUrl: "img/my/python-learn-4.jpg"
+promotion6: 
+  enabled: "false"
+  title: "Web Server Programming with Python"
+  text: "To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp."
+  imageUrl: "img/my/python-learn-4.jpg"
+promotion7: 
+  enabled: "false"
+  title: "Web Server Programming with Python"
+  text: "To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp."
+  imageUrl: "img/my/python-learn-4.jpg"
+promotion8: 
+  enabled: "false"
+  title: "Web Server Programming with Python"
+  text: "To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp."
+  imageUrl: "img/my/python-learn-4.jpg"
+promotion9: 
+  enabled: "false"
+  title: "Web Server Programming with Python"
+  text: "To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp."
+  imageUrl: "img/my/python-learn-4.jpg"
+promotion10: 
+  enabled: "false"
+  title: "Web Server Programming with Python"
+  text: "To make your program more powerful, you need to turn it into a server program, so that people from all over the world can access it through the Internet. This is another core skill you will learn from the Python programming camp."
+  imageUrl: "img/my/python-learn-4.jpg"
+noticeTitle: "注意事项 Notice"
+notices: 
+- icon: "icon-Coding"
+  text: "学生参与标准：截至2022年1月1日，所有学生的年龄必须在13至18岁之间。"
+- icon: "icon-Gears"
+  text: "团队可由1至6名学生组成。学生只能加入1个团队。每个团队的导师人数为1人。"
+- icon: "icon-Puzzle"
+  text: "参赛项目必须包含'AI For Good'类别中的其中一个，项目概念请参阅AI for Good 网站：https://www.microsoft.com/en-us/ai/ai-for-good"
+- icon: "icon-Server"
+  text: "项目提交截止时间为2022年5月12日GMT时间23：59PM（PST时间16：59PM)。"
+- icon: "icon-Idea"
+  text: "在准备项目时，请参阅官方提供的准备资料来准备项目。"
+- icon: "icon-Key"
+  text: " 在提交项目之前，请参阅官方提供的详细规则：https://imaginecup.microsoft.com/en-us/category/24 了解项目提交规则以及项目评分标准。"
+faq: 
+  enabled: "false"
+faqs: 
+- question: "icon-Coding"
+  answer: "The fundamentals of Python programming language"
+- question: "question-Gears"
+  answer: "Complete learning algorithm and data structure"
+- question: "question-Puzzle"
+  answer: "Learn to debug and optimize your code"
+- question: "question-Server"
+  answer: "Practice in various informatics competitions"
+- question: "question-Idea"
+  answer: "Creativity ability and entrepreneurial thinking"
+- question: "question-Key"
+  answer: "Prepared for high school AP computer courses"
+promotionText: "Interested in learning programs with fun?"
+promotionButtonText: "Contact Us"
+promotionUrl: "page-contact-us.html"
+engUrl: "index.html"
+cnUrl: "index-cn.html"
+---
