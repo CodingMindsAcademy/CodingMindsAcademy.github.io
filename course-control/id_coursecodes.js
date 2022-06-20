@@ -943,7 +943,7 @@ var id_student =
 		"firstName" : "Mark",
 		"lastName" : "Sun",
 		"email2" : "yu.sun.aws@gmail.com",
-		"phone2" : "9496789790"
+		"phone2" : "(949) 236-7896"
 	},
 	"5d6460b134e29b0015e2e9df" : {
 		"firstName" : "Tom",

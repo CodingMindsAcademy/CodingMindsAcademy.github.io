@@ -133,7 +133,7 @@ angular.module('v3App', ['ngMaterial'])
                   // console.log(response);
                   displayToast('success');
                   const ManagerEmail = 'notification@codingmindsacademy.com';
-                  const ManagerNumber = '9496789790';
+                  const ManagerNumber = '(949) 236-7896';
                   if(response.status === 204){
                       var notifyUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/" + feedbackId + '/notifyReply';
                       $http({

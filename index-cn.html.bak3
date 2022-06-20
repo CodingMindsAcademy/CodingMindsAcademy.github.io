@@ -337,7 +337,7 @@
                                 <button type="submit" ng-click="submit1()" class="btn btn--primary type--uppercase">获取简介</button>
                             </div>
                             <div class="col-sm-1">
-                                <i style= "padding-right:20px;" id = "contact-icon" class="icon icon--sm icon-Phone-2 icon--xm" title="(949) 678-9790"> </i>
+                                <i style= "padding-right:20px;" id = "contact-icon" class="icon icon--sm icon-Phone-2 icon--xm" title="(949) 236-7896"> </i>
                                 <i id = "contact-icon" class="icon icon--sm icon-Email icon--xm" title="contact@codingmindsacademy.com" > </i>
                             </div>
                             <div class="col-sm-1">
@@ -1571,7 +1571,7 @@
 
                     <div class="col-sm-6 col-md-4">
                         <div style = "padding-top: 10px; padding-bottom: 10px">
-                            <span>客服电话：(949) 678-9790</span>
+                            <span>客服电话：(949) 236-7896</span>
                         </div>
                         <div style = "padding-bottom: 10px">
                             <span>周一至周日 8:30-21:30</span>
