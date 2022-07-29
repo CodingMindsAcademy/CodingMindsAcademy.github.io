@@ -18,7 +18,27 @@
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet"> -->
         <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
         <link href="css/angular-material.min.css" rel="stylesheet" type="text/css" media="all" />
-
+        <STYLE>
+            .float-right {
+                position: fixed;
+                font-size: 2em;
+                padding-left: 0.7em;
+                padding-right: 0.7em;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                right: 50px;
+                bottom: 5%;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+                z-index: 99;
+                border: 1px solid #ececec;
+                transition: 0.2s ease-out;
+                -webkit-transition: 0.2s ease-out;
+                -moz-transition: 0.2s ease-out;
+                /*writing-mode : tb-rl;*/
+                transform: translate(30%)
+            }
+        </STYLE>
     </head>
     <body ng-controller="signup_trialcourse_controller">
         <a id="start"></a>
@@ -195,7 +215,6 @@
                                     <div class="col-xs-12">
                                         <button type="submit" ng-click="submit()" class="btn btn--primary type--uppercase">提交</button>
                                     </div>
-
                                 </div>
                                 <!--end row-->
                             </form>
@@ -217,6 +236,10 @@
             </section>
         </div>
         <!--<div class="loader"></div>-->
+        <a class="btn btn--primary type--uppercase float-right"
+          href="https://work.weixin.qq.com/kfid/kfc7606457a10e999e6" target="_blank">
+            <span class="btn__text">免费试课</span>
+        </a>
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
         </a>
