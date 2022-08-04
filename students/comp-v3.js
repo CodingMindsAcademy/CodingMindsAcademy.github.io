@@ -17,12 +17,12 @@ var competitionMap = {
 	'cp350' : {
 		'id' : 'cp350',
 		'name' : 'USACO信息学竞赛',
-		'date' : '2022年2月',	
+		'date' : '2022年1月/2月、3月',	
 	},
 	'cp300' : {
 		'id' : 'cp300',
 		'name' : 'Microsoft ImagineCup竞赛',
-		'date' : '2022年3月',
+		'date' : '2022年5月',
 	},
 	'cp200' : {
 		'id' : 'cp200',
@@ -32,7 +32,7 @@ var competitionMap = {
 	'cp400' : {
 		'id' : 'cp400',
 		'name' : 'Coolest Projects项目竞赛',
-		'date' : '2022年3月',
+		'date' : '2022年5月',
 	},	
 	'cp500' : {
 		'id' : 'cp500',
@@ -42,7 +42,12 @@ var competitionMap = {
 	'cp510' : {
 		'id' : 'cp510',
 		'name' : 'IgniteCS Expo编程项目展',
-		'date' : '2022年5月',
+		'date' : '2022年9月',
+	}
+	'cp520' : {
+		'id' : 'cp520',
+		'name' : 'Congressional App编程项目竞赛',
+		'date' : '2022年6月',
 	}
 };
 
