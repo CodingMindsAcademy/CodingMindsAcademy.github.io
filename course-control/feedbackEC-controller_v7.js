@@ -92,7 +92,7 @@ angular.module('v3App', ['ngMaterial'])
 
         if ($scope.EOSfeedback && ['',undefined,'翻译出现错误'].includes($scope.EOSfeedback.text_cn)){
             // console.log($scope.EOSfeedback.text);
-            var translateUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+student_id+'/feedback/'+feedbackId;
+            var translateUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+studentId+'/feedback/'+feedbackId;
             $http({
               method: 'PUT',
               url: translateUrl,
@@ -202,7 +202,7 @@ angular.module('v3App', ['ngMaterial'])
        
         $scope.redirect = function() {
           // console.log($scope.text)
-          window.location.href="https://codingmindsacademy.com/advice_v2.html?id="+student_id;
+          window.location.href="https://codingmindsacademy.com/advice_v2.html?id="+studentId;
         };
       }, function errorCallback(response) {
         // called asynchronously if an error occurs
