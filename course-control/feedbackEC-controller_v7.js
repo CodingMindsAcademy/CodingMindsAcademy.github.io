@@ -1,7 +1,7 @@
 
 angular.module('v3App', ['ngMaterial'])
   .config(function($sceProvider) {
-    $sceProvider.enabled(false);    
+    $sceProvider.enabled(false);
   })
   .controller('FeedbackController', function($scope, $http, $location, $mdToast) {
     var url = $location.$$absUrl;
@@ -11,7 +11,7 @@ angular.module('v3App', ['ngMaterial'])
     var suggestedCourses = id_courses[studentId];
 
     $scope.compList = [];
-    for(var key in competitionMap) {      
+    for(var key in competitionMap) {
       $scope.compList.push(competitionMap[key]);
     }
 
@@ -29,7 +29,7 @@ angular.module('v3App', ['ngMaterial'])
       url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
     //   headers: {
     //     'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
-    //   },     
+    //   },
       params: {
         accountId: studentId,
         courseId: courseId
@@ -40,7 +40,7 @@ angular.module('v3App', ['ngMaterial'])
         let student = response.data.profile;
         let suggestedCourses = response.data.suggestedCourses;
         $scope.Level = course.coursesDB.gradeLevel;
-        $scope.Term = course.term;          
+        $scope.Term = course.term;
         $scope.StudentCourse = course;
         $scope.suggestedCourses = suggestedCourses;
         console.log("firstone: " + suggestedCourses[0].gradeLevel.charAt(1));
@@ -52,10 +52,10 @@ angular.module('v3App', ['ngMaterial'])
         }
 
         // if (response.data.courses != []) {
-        //   $scope.Level = response.data.courses[0].gradeLevel; 
-        //   $scope.Term = response.data.courses[0].term;          
+        //   $scope.Level = response.data.courses[0].gradeLevel;
+        //   $scope.Term = response.data.courses[0].term;
         //   $scope.StudentCourse = response.data.courses[0];
-          
+
         //   console.log("TEST Completion: " + response.data.courses[0].completion);
         //   if (response.data.courses[0].completion) {
         //     $scope.Completion = response.data.courses[0].completion.replace(/同学/g, response.data.profile.firstName);
@@ -74,13 +74,13 @@ angular.module('v3App', ['ngMaterial'])
         // if (response.data.courses[0].nextCourseId) {
         //  $scope.nextCourse = response.data.nextCourses[response.data.courses[0].nextCourseId.toLowerCase()];
         // }
-        
+
 
 
         // var idx = response.data.activities.length - 1;
         // $scope.FinalProject = response.data.activities[idx];
 
-        var feedbackId = '';
+        var feedbackId = $scope.EOSfeedback.id;
         // // console.log($scope.Feedbacks)
         // $scope.Feedbacks.forEach(element => {
         //   if (element.endOfSemesterFlag === true){
@@ -98,20 +98,20 @@ angular.module('v3App', ['ngMaterial'])
               url: translateUrl,
               headers: {
                 'Authorization': '68M3RMfo4eS9XlTPmDqoCe3PePKxLRgpSnRQrvvNx3xcujKWpyFF9f65rAU9uM2l'
-              } , 
+              } ,
               data: {
-                "text": $scope.EOSfeedback.text                
-              },       
+                "text": $scope.EOSfeedback.text
+              },
             }).then(function successCallback(response) {
               console.log("Got the translate.");
               console.log(response);
               $scope.EOSfeedback = response.data;
             }, function errorCallback(response) {
               console.log("Cannot translate feedback.");
-              console.log(response);              
+              console.log(response);
             });
         }
-        
+
         const getLogsUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/"+feedbackId+'/logs';
         // FEEDBACK_API + id + '/logs';
     $http({
@@ -119,12 +119,12 @@ angular.module('v3App', ['ngMaterial'])
       url: getLogsUrl,
       headers: {
         'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
-      }    
+      }
 
     }).then(response => {
       // console.log(response);
       var logs = response.data;
-      var logId = logs[0].id;
+      var logId = logs.id;
       // console.log(logId);
       $scope.submit = function() {
                 // console.log($scope.text)
@@ -161,7 +161,7 @@ angular.module('v3App', ['ngMaterial'])
                   params: {
                     logId: logId,
                     reply: $scope.text
-                  }          
+                  }
                 }).then(function successCallback(response) {
                   // console.log(response);
                   displayToast('success');
@@ -174,7 +174,7 @@ angular.module('v3App', ['ngMaterial'])
                         url: notifyUrl,
                         headers: {
                           'Authorization': '7e07BdkkBdGroThWLTF0PrdJhqYVjT3DB7SGkgP5z3eVIloodHjpJDxFP6VAlFZB'
-                        },   
+                        },
                         params: {
                           email: ManagerEmail,
                           number: ManagerNumber,
@@ -188,7 +188,7 @@ angular.module('v3App', ['ngMaterial'])
                         console.error(error);
                       });
                     }
-                  
+
                   }, function errorCallback(response) {
                     console.log(response);
                     displayToast('error');
@@ -199,7 +199,7 @@ angular.module('v3App', ['ngMaterial'])
 
         // console.log($scope.Feedbacks);
         // console.log(logId);
-       
+
         $scope.redirect = function() {
           // console.log($scope.text)
           window.location.href="https://codingmindsacademy.com/advice_v2.html?id="+studentId;
