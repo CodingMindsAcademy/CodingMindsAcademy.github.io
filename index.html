@@ -16,6 +16,29 @@
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+
+    <STYLE>
+        .float-right {
+            position: fixed;
+            font-size: 2em;
+            padding-left: 0.7em;
+            padding-right: 0.7em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            right: 100px;
+            bottom: 15%;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+            z-index: 99;
+            border: 1px solid #ececec;
+            transition: 0.2s ease-out;
+            -webkit-transition: 0.2s ease-out;
+            -moz-transition: 0.2s ease-out;
+            /*writing-mode : tb-rl;*/
+            transform: translate(30%)
+        }
+    </STYLE>
+
 </head>
 <body ng-controller="CourseListController">
     <a id="start"></a>
@@ -71,21 +94,21 @@
                                         AfterSchool
                                     </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="conferencec.html">
                                         Conference
-                                    </a> 
-                                </li>                                
+                                    </a>
+                                </li>
                                 <li>
                                     <a href="portfolios.html">
                                         PORTFOLIOS
                                     </a>
-                                </li>                                
+                                </li>
                                 <li>
                                     <a href="#">
                                         News
                                     </a>
-                                </li>                                
+                                </li>
                                 <li>
                                     <a href="page-whycoding.html">
                                         Why Coding
@@ -149,7 +172,7 @@
 
             <section id="allCourses" class="text-center bg--secondary">
                 <div class="container">
-                    <h2 class="text-center">View Our Classes<br></h2>                
+                    <h2 class="text-center">View Our Classes<br></h2>
                     <div class="container" data-content-align="center">
                         <div class="row">
                             <div class="col-sm-12">
@@ -190,8 +213,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
-                    </div>                   
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -258,6 +281,8 @@
                 </footer>
             </div>
             <!--<div class="loader"></div>-->
+            <a class="btn btn--primary type--uppercase float-right" href="schedule-trial.html" target="_blank"><span class="btn__text">Free Trial</span></a>
+
             <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
                 <i class="stack-interface stack-up-open-big"></i>
             </a>
