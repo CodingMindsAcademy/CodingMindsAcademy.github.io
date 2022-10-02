@@ -24,7 +24,7 @@ angular
 
     $http({
       method: 'GET',
-      url: `${baseUrl}Account/${accountId}`,
+      url: `${baseUrl}Account/${accountId}?access_token=${token}`,
     })
       .then(function cb(res) {
         const account = res.data;
