@@ -119,6 +119,7 @@ angular
 
       const data = {
         ...$scope.form,
+        lastUpdateAvailableTime: new Date(),
         availableTime: JSON.stringify(availableTime),
       };
 

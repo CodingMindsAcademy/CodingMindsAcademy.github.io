@@ -139,6 +139,7 @@ angular
       const data = {
         ...$scope.form,
         availableTime: JSON.stringify(availableTime),
+        lastUpdateAvailableTime: new Date()
       };
 
       if (!accountId || !token) {
