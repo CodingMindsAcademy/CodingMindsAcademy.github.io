@@ -1,49 +1,50 @@
 var competitionMap = {
 	'cp520' : {
 		'id' : 'cp520',
-		'name' : 'Conrad Challenge项目竞赛',
-		'date' : '2022年1月',
-	},	
-	'cp600' : {
-		'id' : 'cp600',
-		'name' : 'Diamond Challenge项目竞赛',
-		'date' : '2022年1月',
-	},
-	'cp610' : {
-		'id' : 'cp610',
-		'name' : 'Ignite Fellowship奖学金项目',
-		'date' : '2022年1月',
-	},
-	'cp350' : {
-		'id' : 'cp350',
-		'name' : 'USACO信息学竞赛',
-		'date' : '2022年1月/2月、3月',	
-	},
-	'cp300' : {
-		'id' : 'cp300',
-		'name' : 'Microsoft ImagineCup竞赛',
-		'date' : '2022年5月',
-	},
-	'cp200' : {
-		'id' : 'cp200',
-		'name' : 'Apple Challenge项目竞赛',
-		'date' : '2022年4月',
-	},	
-	'cp400' : {
-		'id' : 'cp400',
-		'name' : 'Coolest Projects项目竞赛',
-		'date' : '2022年5月',
-	},	
-	'cp500' : {
-		'id' : 'cp500',
 		'name' : 'Congressional App编程项目竞赛',
-		'date' : '2022年6月',
+		'date' : '2023年6月',
 	},
 	'cp510' : {
 		'id' : 'cp510',
 		'name' : 'IgniteCS Expo编程项目展',
-		'date' : '2022年9月',
-	}
+		'date' : '2023年9月',
+	},
+	'cp350' : {
+		'id' : 'cp350',
+		'name' : 'USACO信息学竞赛',
+		'date' : '2023年12月和2024年1月、2月、3月',	
+	},
+	'cp600' : {
+		'id' : 'cp600',
+		'name' : 'Diamond Challenge项目竞赛',
+		'date' : '2024年1月',
+	},
+	'cp500' : {
+		'id' : 'cp500',
+		'name' : 'Conrad Challenge项目竞赛',
+		'date' : '2024年1月',
+	},
+	'cp610' : {
+		'id' : 'cp610',
+		'name' : 'Ignite Fellowship奖学金项目',
+		'date' : '2024年1月',
+	},
+
+	'cp300' : {
+		'id' : 'cp300',
+		'name' : 'Microsoft ImagineCup竞赛',
+		'date' : '2024年5月',
+	},
+	'cp200' : {
+		'id' : 'cp200',
+		'name' : 'Apple Challenge项目竞赛',
+		'date' : '2024年4月',
+	},	
+	'cp400' : {
+		'id' : 'cp400',
+		'name' : 'Coolest Projects项目竞赛',
+		'date' : '2024年4月',
+	},	
 };
 
 var oldCompetitionMap = {
