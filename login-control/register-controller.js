@@ -2,13 +2,14 @@ var app = angular.module('myApp', []);
 
 app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
   var url = $location.$$absUrl;
+  // console.log('url: ', url);
   $scope.english = false;
-  if (url.search('eng')) {
+  if (url.includes('eng')) {
 
     $scope.english = true;
   }
   let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
-
+  // console.log('scope: ', $scope.english);
   url = new URL(url);
   var courseId = url.searchParams.get("courseId");
   var accountId = url.searchParams.get("accountId");
@@ -34,14 +35,14 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
     postData.email2 = $scope.form.email2;
     postData.phone2 = $scope.form.phone2;
     postData.dateOfBirth = new Date();
-    postData.preferedLanguage = $scope.english ? 'English' : 'Chinese';
+    postData.preferedLanguage = $scope.english == true ? 'English' : 'Chinese';
     if (accountId) {
       $http({
         method: 'GET',
         url: baseUrl + `Account/` + accountId,
       }).then(async function successCallback(response) {
         postData.organizationId = await response.data.organizationId;
-        console.log('post: ', postData);
+        // console.log('post: ', postData);
         await patch(postData);
       }).catch(err => {
         console.log(err);
@@ -58,8 +59,8 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
     const { username, ...patchData } = data;
     // let baseUrl = 'http://localhost:3000/api/'
     let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
-    console.log('Patching: ', patchData);
-    console.log(token);
+    // console.log('Patching: ', patchData);
+    // console.log(token);
     $http({
       method: 'PATCH',
       url: baseUrl + `Account/` + accountId,
@@ -85,7 +86,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
         let invoiceId = resp.data[0].id;
         let courseId = resp.data[0].courseId;
         let price = resp.data[0].amount;
-        console.log(invoiceId);
+        // console.log(invoiceId);
         if ($scope.english) {
           window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId=' + invoiceId + '&courseId=' + courseId + '&studentId=' + accountId + '&comment=&amount=' + price + '&token=' + token;
         } else {
@@ -101,7 +102,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
 
   function registering(postData) {
     $scope.postData = postData;
-    $scope.postData.username = postData.firstName + postData.lastName + Date.now();
+    $scope.postData.username = postData.firstName + postData.lastName + Math.floor(Math.random()*(999-100+1)+100);
     // $scope.postData.preferedLanguage = 'English';
     // $scope.postData.contact2Type = "WeChatUsername";
     $scope.postData.notSend = true;
