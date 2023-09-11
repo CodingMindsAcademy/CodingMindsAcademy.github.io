@@ -87,9 +87,9 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
         let price = resp.data[0].amount;
         console.log(invoiceId);
         if ($scope.english) {
-          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId=' + invoiceId + '&courseId=' + courseId + '&studentId=' + accountId + '&comment=&amount=' + price + '&english=true';
+          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId=' + invoiceId + '&courseId=' + courseId + '&studentId=' + accountId + '&comment=&amount=' + price + '&token=' + token;
         } else {
-          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId=' + invoiceId + '&courseId=' + courseId + '&studentId=' + accountId + '&comment=&amount=' + price;
+          window.location.href = 'https://www.sharemyworks.com/checkout?invoiceId=' + invoiceId + '&courseId=' + courseId + '&studentId=' + accountId + '&comment=&amount=' + price + '&token=' + token;
 
         }
       })
