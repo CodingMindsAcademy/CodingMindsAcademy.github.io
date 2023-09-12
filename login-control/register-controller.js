@@ -102,7 +102,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
 
   function registering(postData) {
     $scope.postData = postData;
-    $scope.postData.username = postData.firstName + postData.lastName + Math.floor(Math.random()*(999-100+1)+100);
+    $scope.postData.username = (postData.firstName + postData.lastName).toLowerCase() + Math.floor(Math.random()*(999-100+1)+100);
     // $scope.postData.preferedLanguage = 'English';
     // $scope.postData.contact2Type = "WeChatUsername";
     $scope.postData.notSend = true;
