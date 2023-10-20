@@ -19,7 +19,7 @@ angular.module('v3App', ['ngMaterial'])
     // console.log($scope.Level);
     $http({
       method: 'GET',
-      url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/getSemesterFeedback',
+      url: 'https://backend4.sharemyworks.com/api/Account/getSemesterFeedback',
     //   headers: {
     //     'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
     //   },     
@@ -57,7 +57,7 @@ angular.module('v3App', ['ngMaterial'])
 
         if ($scope.EOSfeedback && ['',undefined,'翻译出现错误'].includes($scope.EOSfeedback.text_cn)){
             // console.log($scope.EOSfeedback.text);
-            var translateUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/Account/'+student_id+'/feedback/'+feedbackId;
+            var translateUrl = 'https://backend4.sharemyworks.com/api/Account/'+student_id+'/feedback/'+feedbackId;
             $http({
               method: 'PUT',
               url: translateUrl,
@@ -77,7 +77,7 @@ angular.module('v3App', ['ngMaterial'])
             });
         }
         
-        const getLogsUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/"+feedbackId+'/logs';
+        const getLogsUrl = "https://backend4.sharemyworks.com/api/Feedback/"+feedbackId+'/logs';
         // FEEDBACK_API + id + '/logs';
     $http({
       method: 'GET',
@@ -122,7 +122,7 @@ angular.module('v3App', ['ngMaterial'])
                 }
                 $http({
                   method: 'POST',
-                  url: 'https://prod-sharemyworks-backend.herokuapp.com/api/NotificationLog/reply',
+                  url: 'https://backend4.sharemyworks.com/api/NotificationLog/reply',
                   params: {
                     logId: logId,
                     reply: $scope.text
@@ -133,7 +133,7 @@ angular.module('v3App', ['ngMaterial'])
                   const ManagerEmail = 'notification@codingmindsacademy.com';
                   const ManagerNumber = '(949) 236-7896';
                   if(response.status === 204){
-                      var notifyUrl = "https://prod-sharemyworks-backend.herokuapp.com/api/Feedback/" + feedbackId + '/notifyReply';
+                      var notifyUrl = "https://backend4.sharemyworks.com/api/Feedback/" + feedbackId + '/notifyReply';
                       $http({
                         method: 'POST',
                         url: notifyUrl,

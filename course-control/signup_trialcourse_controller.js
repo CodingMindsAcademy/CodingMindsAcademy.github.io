@@ -64,7 +64,7 @@ angular.module('v3App', ['ngMaterial'])
     let username = ($scope.form.name.replace(' ','')).toLowerCase() + Math.floor(Math.random()*(999-100+1)+100);
     let firstName = $scope.form.name.split(' ')[0];
     let lastName = $scope.form.name.split(' ')[1]? $scope.form.name.split(' ')[1]: ' ';
-    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    let baseUrl = 'https://backend4.sharemyworks.com/api/';
     // let baseUrl = 'http://localhost:3000/api/'
     let accountData = {
       email2: $scope.form.email2,

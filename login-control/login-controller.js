@@ -24,13 +24,13 @@ app.controller('loginControl', function($scope, $http, $window) {
     };
     $http({
       method : "POST",
-      url : "https://prod-sharemyworks-backend.herokuapp.com/api/Account/login",
+      url : "https://backend4.sharemyworks.com/api/Account/login",
       data: data
     }).then(function mySuccess(response) {
       console.log(response);
       console.log(response.data.userId);
       var userId = response.data.userId;
-      var urlWithId = "https://prod-sharemyworks-backend.herokuapp.com/api/Account/" + response.data.userId;
+      var urlWithId = "https://backend4.sharemyworks.com/api/Account/" + response.data.userId;
       var authCode = response.data.id;
       $http({
       method : "GET",

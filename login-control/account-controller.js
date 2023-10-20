@@ -28,7 +28,7 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
   function matchSuggestedCourses() {
     $http({
         method: 'GET',
-        url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account/${stuid}`,
+        url: `https://backend4.sharemyworks.com/api/Account/${stuid}`,
         headers: {
           'Authorization': 'Bz6iE0aNTooVTYixTQkJpDJzg2R8RmpHJseC6Y8lDooOtOaIH94SSyZMOSQX7qnM'
         },
@@ -61,7 +61,7 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
 
 	$http({
   	    method: 'GET',
-  	    url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
+  	    url: 'https://backend4.sharemyworks.com/api/Course',
   	    headers: {
   	      'Authorization': 'Bz6iE0aNTooVTYixTQkJpDJzg2R8RmpHJseC6Y8lDooOtOaIH94SSyZMOSQX7qnM'
   	    },
@@ -104,7 +104,7 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
 
   	      $http({
   	        method: 'GET',
-  	        url: 'https://prod-sharemyworks-backend.herokuapp.com/api/CoursesDBs',
+  	        url: 'https://backend4.sharemyworks.com/api/CoursesDBs',
   	        headers: {
   	          'Authorization': 'Bz6iE0aNTooVTYixTQkJpDJzg2R8RmpHJseC6Y8lDooOtOaIH94SSyZMOSQX7qnM'
   	        },
@@ -236,7 +236,7 @@ app.controller('myAccountCtrl', function($scope, $http, $log, $document) {
     var stuid = sessionStorage.getItem("userId");
     $http({
       method: 'PUT',
-      url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${stuid}`,
+      url: `https://backend4.sharemyworks.com/api/Course/${courseId}/students/rel/${stuid}`,
     }).then(function successCallback(response) {
       if(response.data.msg && response.data.msg === 'duplicated') {
         window.alert('Already register in this class');

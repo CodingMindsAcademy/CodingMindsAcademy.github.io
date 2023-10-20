@@ -86,7 +86,7 @@ angular.module('v3App', ['ngMaterial'])
       }
         $http({
           method: 'PUT',
-          url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
+          url: `https://backend4.sharemyworks.com/api/Course/${courseId}/students/rel/${$scope.stuid}`,
         }).then(function successCallback(response) {
           if(response.data.msg && response.data.msg === 'duplicated') {
             displayToast('duplicated');

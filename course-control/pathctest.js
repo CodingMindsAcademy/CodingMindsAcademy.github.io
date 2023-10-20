@@ -121,7 +121,7 @@ $scope.register = function (course) {
 
   $http({
     method: 'GET',
-    url: 'https://prod-sharemyworks-backend.herokuapp.com/api/CoursesDBs',
+    url: 'https://backend4.sharemyworks.com/api/CoursesDBs',
     headers: {
       'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
     },     
@@ -186,7 +186,7 @@ $scope.register = function (course) {
       const defaultPassword = `codingminds${username}`;
       $http({
         method: 'POST',
-        url: `https://prod-sharemyworks-backend.herokuapp.com/api/Account`,
+        url: `https://backend4.sharemyworks.com/api/Account`,
         headers: {
           'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
         },
@@ -206,7 +206,7 @@ $scope.register = function (course) {
         console.log('registered user',response);
         $http({
           method: 'PUT',
-          url: `https://prod-sharemyworks-backend.herokuapp.com/api/Course/${courseid}/students/rel/${response.data.id}`,
+          url: `https://backend4.sharemyworks.com/api/Course/${courseid}/students/rel/${response.data.id}`,
           headers: {
             'Authorization': 'Ys6TAGbfIAZymNo6JtHiWZrGvvOGMoDSa4Y4IoIRU1t0YFYEowKjjj7zzoBlEOUi'
           } 

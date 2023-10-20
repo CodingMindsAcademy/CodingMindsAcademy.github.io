@@ -8,7 +8,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
 
     $scope.english = true;
   }
-  let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+  let baseUrl = 'https://backend4.sharemyworks.com/api/';
   // console.log('scope: ', $scope.english);
   url = new URL(url);
   var courseId = url.searchParams.get("courseId");
@@ -20,7 +20,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
   $scope.submit = function () {
 
     $scope.loading = true;
-    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    let baseUrl = 'https://backend4.sharemyworks.com/api/';
     var postData = {}
     let account = [];
     postData.firstName = $scope.form.firstName;
@@ -58,7 +58,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
   function patch(data) {
     const { username, ...patchData } = data;
     // let baseUrl = 'http://localhost:3000/api/'
-    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    let baseUrl = 'https://backend4.sharemyworks.com/api/';
     // console.log('Patching: ', patchData);
     // console.log(token);
     $http({
@@ -107,7 +107,7 @@ app.controller('myRegisterCtrl', function ($scope, $location, $window, $http) {
     // $scope.postData.contact2Type = "WeChatUsername";
     $scope.postData.notSend = true;
     // let baseUrl = 'http://localhost:3000/api/'
-    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    let baseUrl = 'https://backend4.sharemyworks.com/api/';
     $http({
       method: 'GET',
       url: baseUrl + 'Course/' + courseId,

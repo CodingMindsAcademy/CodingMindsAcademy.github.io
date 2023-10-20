@@ -12,7 +12,7 @@ angular.module('v3App', ['ngMaterial'])
   // $scope.loading = false;
   $scope.submit1 = function() {
     console.log($scope.form);
-    let baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    let baseUrl = 'https://backend4.sharemyworks.com/api/';
     // let baseUrl = 'http://localhost:3000/api/'
     let accountData = {
       email: $scope.form.email

@@ -101,7 +101,7 @@ function DialogController($scope, $mdDialog, course,data) {
   };
   $http({
       method: 'GET',
-      url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course',
+      url: 'https://backend4.sharemyworks.com/api/Course',
       headers: {
         'Authorization': 'k6s6WghHbQ0sFQMw9YTO5MWDCunX3SNAJu8kksejwO0cP1tEh73glea29CGWExEi'
       },  
@@ -143,7 +143,7 @@ function DialogController($scope, $mdDialog, course,data) {
 
         $http({
           method: 'GET',
-          url: 'https://prod-sharemyworks-backend.herokuapp.com/api/CoursesDBs',
+          url: 'https://backend4.sharemyworks.com/api/CoursesDBs',
           headers: {
             'Authorization': 'k6s6WghHbQ0sFQMw9YTO5MWDCunX3SNAJu8kksejwO0cP1tEh73glea29CGWExEi'
           },     

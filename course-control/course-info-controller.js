@@ -27,7 +27,7 @@ angular.module('v3App', [])
       };
     $http({
         method: 'GET',
-        url: 'https://prod-sharemyworks-backend.herokuapp.com/api/Course/'+course_id,
+        url: 'https://backend4.sharemyworks.com/api/Course/'+course_id,
         params: {
             filter: f
         },

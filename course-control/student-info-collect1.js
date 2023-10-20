@@ -5,7 +5,7 @@ angular
     $locationProvider.html5Mode(true);
   })
   .controller('student-info-collect1', function ($scope, $http, $location) {
-    const baseUrl = 'https://prod-sharemyworks-backend.herokuapp.com/api/';
+    const baseUrl = 'https://backend4.sharemyworks.com/api/';
     //const baseUrl = 'http://localhost:3000/api/';
     const accountId = $location.search()['accountId'];
     const token = $location.search()["token"];
